@@ -538,6 +538,7 @@ if sys.platform == 'cygwin':
     # cygwin has some header file issues...
     main.Append(CCFLAGS=["-Wno-uninitialized"])
 
+main.Append(CCFLAGS=["-Wno-nonnull-compare"])
 
 have_pkg_config = readCommand(['pkg-config', '--version'], exception='')
 

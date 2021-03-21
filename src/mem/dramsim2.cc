@@ -228,7 +228,7 @@ DRAMSim2::recvTimingReq(PacketPtr pkt)
         // @todo what about the granularity here, implicit assumption that
         // a transaction matches the burst size of the memory (which we
         // cannot determine without parsing the ini file ourselves)
-        wrapper.enqueue(pkt->isWrite(), pkt->getAddr());
+        wrapper.enqueue(pkt->isWrite(), pkt->getAddr(), pkt->req->masterId());
 
         return true;
     } else {

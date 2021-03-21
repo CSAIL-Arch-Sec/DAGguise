@@ -46,6 +46,7 @@
 #define __MEM_DRAMSIM2_WRAPPER_HH__
 
 #include <string>
+#include <vector>
 
 #include "DRAMSim2/Callback.h"
 
@@ -72,6 +73,8 @@ class DRAMSim2Wrapper
   private:
 
     DRAMSim::MultiChannelMemorySystem* dramsim;
+
+    std::vector<uint64_t> master_domain_mapping;
 
     double _clockPeriod;
 
@@ -130,7 +133,7 @@ class DRAMSim2Wrapper
      *
      * @param pkt Packet to turn into a DRAMSim2 transaction
      */
-    void enqueue(bool is_write, uint64_t addr);
+    void enqueue(bool is_write, uint64_t addr, uint64_t securityDomain);
 
     /**
      * Get the internal clock period used by DRAMSim2, specified in

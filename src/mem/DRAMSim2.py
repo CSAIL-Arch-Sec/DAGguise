@@ -46,9 +46,9 @@ class DRAMSim2(AbstractMemory):
     # A single port for now
     port = SlavePort("Slave port")
 
-    deviceConfigFile = Param.String("ini/DDR3_micron_32M_8B_x8_sg15.ini",
+    deviceConfigFile = Param.String("ini/DDR3_micron_32M_8B_x8_sg125.ini",
                                     "Device configuration file")
-    systemConfigFile = Param.String("system.ini.example",
+    systemConfigFile = Param.String("system.ini",
                                     "Memory organisation configuration file")
     filePath = Param.String("ext/dramsim2/DRAMSim2/",
                             "Directory to prepend to file names")

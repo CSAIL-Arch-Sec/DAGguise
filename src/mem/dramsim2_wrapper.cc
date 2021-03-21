@@ -51,10 +51,13 @@
 #include "mem/dramsim2_wrapper.hh"
 
 #include <fstream>
+#include <algorithm>
 
 #include "DRAMSim2/MultiChannelMemorySystem.h"
 #include "base/compiler.hh"
 #include "base/logging.hh"
+#include "debug/DRAMSim2.hh"
+
 
 /**
  * DRAMSim2 requires SHOW_SIM_OUTPUT to be defined (declared extern in
@@ -62,6 +65,7 @@
  * undefined references
  */
 int SHOW_SIM_OUTPUT = 0;
+
 
 DRAMSim2Wrapper::DRAMSim2Wrapper(const std::string& config_file,
                                  const std::string& system_file,
@@ -169,9 +173,18 @@ DRAMSim2Wrapper::canAccept() const
 }
 
 void
-DRAMSim2Wrapper::enqueue(bool is_write, uint64_t addr)
+DRAMSim2Wrapper::enqueue(bool is_write, uint64_t addr, uint64_t masterID)
 {
-    bool success M5_VAR_USED = dramsim->addTransaction(is_write, addr);
+    uint64_t securityDomain;
+    auto it = find(master_domain_mapping.begin(), master_domain_mapping.end(), masterID);
+    if (it != master_domain_mapping.end()) {
+        securityDomain = it-master_domain_mapping.begin();
+    } else {
+        securityDomain = master_domain_mapping.size();
+        master_domain_mapping.push_back(masterID);
+    }
+    
+    bool success M5_VAR_USED = dramsim->addTransaction(is_write, addr, securityDomain);
     assert(success);
 }
 
