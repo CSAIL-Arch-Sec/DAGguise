@@ -120,9 +120,11 @@ class PhysicalMemory : public Serializable
     // Global address map
     AddrRangeMap<AbstractMemory*, 1> addrMap;
 
+  public:
     // All address-mapped memories
     std::vector<AbstractMemory*> memories;
 
+  private:
     // The total memory size
     uint64_t size;
 

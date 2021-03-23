@@ -197,6 +197,9 @@ class DRAMSim2 : public AbstractMemory
     void init() override;
     void startup() override;
 
+    void startDefence();
+    void endDefence();
+
   protected:
 
     Tick recvAtomic(PacketPtr pkt);

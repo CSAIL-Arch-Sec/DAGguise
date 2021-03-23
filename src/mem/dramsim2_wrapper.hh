@@ -128,6 +128,9 @@ class DRAMSim2Wrapper
      */
     bool canAccept() const;
 
+    void startDefence();
+    void endDefence();
+
     /**
      * Enqueue a packet. This assumes that canAccept has returned true.
      *

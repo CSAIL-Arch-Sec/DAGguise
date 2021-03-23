@@ -201,7 +201,7 @@ ISA::setMiscReg(int misc_reg, RegVal val, ThreadContext *tc)
           case MISCREG_IE:
             {
                 auto ic = dynamic_cast<RiscvISA::Interrupts *>(
-                    tc->getCpuPtr()->getInterruptController(tc->threadId()));
+                    tc->()->getInterruptController(tc->threadId()));
                 ic->setIE(val);
             }
             break;

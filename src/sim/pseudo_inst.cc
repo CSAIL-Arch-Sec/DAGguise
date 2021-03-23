@@ -347,6 +347,19 @@ m5checkpoint(ThreadContext *tc, Tick delay, Tick period)
     }
 }
 
+void
+m5startdefence(ThreadContext *tc)
+{
+    DPRINTF(PseudoInst, "Starting defence on memory\n");
+    ((DRAMSim2*) tc->getCpuPtr()->system->getPhysMem().memories[0])->startDefence();
+}
+
+void
+m5enddefence(ThreadContext *tc)
+{
+    DPRINTF(PseudoInst, "Ending defence on memory\n");
+    ((DRAMSim2*) tc->getCpuPtr()->system->getPhysMem().memories[0])->endDefence();
+}
 uint64_t
 readfile(ThreadContext *tc, Addr vaddr, uint64_t len, uint64_t offset)
 {

@@ -52,6 +52,7 @@ class ThreadContext;
 #include "base/types.hh" // For Tick and Addr data types.
 #include "debug/PseudoInst.hh"
 #include "sim/guest_abi.hh"
+#include "mem/dramsim2.hh"
 
 struct PseudoInstABI
 {
@@ -100,6 +101,8 @@ void quiesce(ThreadContext *tc);
 void quiesceSkip(ThreadContext *tc);
 void quiesceNs(ThreadContext *tc, uint64_t ns);
 void quiesceCycles(ThreadContext *tc, uint64_t cycles);
+void m5startdefence(ThreadContext *tc);
+void m5enddefence(ThreadContext *tc);
 uint64_t quiesceTime(ThreadContext *tc);
 uint64_t readfile(ThreadContext *tc, Addr vaddr, uint64_t len,
     uint64_t offset);
@@ -219,6 +222,16 @@ pseudoInst(ThreadContext *tc, uint8_t func)
       case M5OP_PANIC:
         panic("M5 panic instruction called at %s\n", tc->pcState());
 
+      case M5OP_START_DEFENCE:
+              panic("M5 panic instruction called at %s\n", tc->pcState());
+
+        invokeSimcall<ABI>(tc, m5startdefence);
+        break;
+
+      case M5OP_END_DEFENCE:
+        invokeSimcall<ABI>(tc, m5enddefence);
+        break;
+
       case M5OP_WORK_BEGIN:
         invokeSimcall<ABI>(tc, workbegin);
         break;
@@ -228,8 +241,6 @@ pseudoInst(ThreadContext *tc, uint8_t func)
         break;
 
       case M5OP_ANNOTATE:
-      case M5OP_RESERVED2:
-      case M5OP_RESERVED3:
       case M5OP_RESERVED4:
       case M5OP_RESERVED5:
         warn("Unimplemented m5 op (%#x)\n", func);

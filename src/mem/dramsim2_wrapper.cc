@@ -173,6 +173,19 @@ DRAMSim2Wrapper::canAccept() const
 }
 
 void
+DRAMSim2Wrapper::startDefence()
+{
+    dramsim->startDefence();
+}
+
+void
+DRAMSim2Wrapper::endDefence()
+{
+    dramsim->endDefence();
+}
+
+
+void
 DRAMSim2Wrapper::enqueue(bool is_write, uint64_t addr, uint64_t masterID)
 {
     uint64_t securityDomain;

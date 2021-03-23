@@ -137,7 +137,7 @@ template <class XC>
 inline void
 globalClearExclusive(XC *xc)
 {
-    xc->getCpuPtr()->wakeup(xc->threadId());
+    xc->()->wakeup(xc->threadId());
 }
 
 } // namespace RiscvISA

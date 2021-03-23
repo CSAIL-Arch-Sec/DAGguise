@@ -238,6 +238,21 @@ DRAMSim2::recvTimingReq(PacketPtr pkt)
 }
 
 void
+DRAMSim2::startDefence()
+{
+    DPRINTF(DRAMSim2, "Signalling to start defence in DRAMSim2\n");
+    wrapper.startDefence();
+}
+
+void
+DRAMSim2::endDefence()
+{
+    DPRINTF(DRAMSim2, "Signalling to end defence in DRAMSim2\n");
+    wrapper.endDefence();
+}
+
+
+void
 DRAMSim2::recvRespRetry()
 {
     DPRINTF(DRAMSim2, "Retrying\n");
