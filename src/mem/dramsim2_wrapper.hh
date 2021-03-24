@@ -103,6 +103,7 @@ class DRAMSim2Wrapper
                     const std::string& system_file,
                     const std::string& working_dir,
                     const std::string& trace_file,
+                    const std::string& defence_file,
                     unsigned int memory_size_mb,
                     bool enable_debug);
     ~DRAMSim2Wrapper();
@@ -128,7 +129,7 @@ class DRAMSim2Wrapper
      */
     bool canAccept() const;
 
-    void startDefence();
+    void startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain);
     void endDefence();
 
     /**

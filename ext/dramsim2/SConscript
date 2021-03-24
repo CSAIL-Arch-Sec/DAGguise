@@ -74,6 +74,7 @@ DRAMFile('Transaction.cpp')
 # we explicitly disable them here
 dramenv = main.Clone()
 dramenv.Append(CCFLAGS=['-Wno-unused-value'])
+dramenv.Append(CCFLAGS=['-Wno-undef'])
 
 # If we are using clang, there are more flags to disable
 if main['CLANG']:

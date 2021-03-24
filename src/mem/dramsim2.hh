@@ -197,7 +197,7 @@ class DRAMSim2 : public AbstractMemory
     void init() override;
     void startup() override;
 
-    void startDefence();
+    void startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain);
     void endDefence();
 
   protected:

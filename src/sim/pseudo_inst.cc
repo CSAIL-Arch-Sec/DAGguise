@@ -351,7 +351,7 @@ void
 m5startdefence(ThreadContext *tc)
 {
     DPRINTF(PseudoInst, "Starting defence on memory\n");
-    ((DRAMSim2*) tc->getCpuPtr()->system->getPhysMem().memories[0])->startDefence();
+    ((DRAMSim2*) tc->getCpuPtr()->system->getPhysMem().memories[0])->startDefence(tc->getCpuPtr()->instMasterId(), tc->getCpuPtr()->dataMasterId());
 }
 
 void

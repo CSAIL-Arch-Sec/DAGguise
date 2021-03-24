@@ -50,7 +50,7 @@ DRAMSim2::DRAMSim2(const Params* p) :
     AbstractMemory(p),
     port(name() + ".port", *this),
     wrapper(p->deviceConfigFile, p->systemConfigFile, p->filePath,
-            p->traceFile, p->range.size() / 1024 / 1024, p->enableDebug),
+            p->traceFile, p->defenceFile, p->range.size() / 1024 / 1024, p->enableDebug),
     retryReq(false), retryResp(false), startTick(0),
     nbrOutstandingReads(0), nbrOutstandingWrites(0),
     sendResponseEvent([this]{ sendResponse(); }, name()),
@@ -238,10 +238,10 @@ DRAMSim2::recvTimingReq(PacketPtr pkt)
 }
 
 void
-DRAMSim2::startDefence()
+DRAMSim2::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 {
-    DPRINTF(DRAMSim2, "Signalling to start defence in DRAMSim2\n");
-    wrapper.startDefence();
+    DPRINTF(DRAMSim2, "Signalling to start defence in DRAMSim2, iDomain: %d, dDomain: %d\n", iDefenceDomain, dDefenceDomain);
+    wrapper.startDefence(iDefenceDomain, dDefenceDomain);
 }
 
 void

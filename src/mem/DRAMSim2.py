@@ -53,4 +53,7 @@ class DRAMSim2(AbstractMemory):
     filePath = Param.String("ext/dramsim2/DRAMSim2/",
                             "Directory to prepend to file names")
     traceFile = Param.String("", "Output file for trace generation")
+    
+    defenceFile = Param.String("defence/defenceDAG.gml", "Input file for defence scheme")
+
     enableDebug = Param.Bool(True, "Enable DRAMSim2 debug output")

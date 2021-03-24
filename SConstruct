@@ -287,7 +287,7 @@ global_vars = Variables(global_vars_file, args=ARGUMENTS)
 global_vars.AddVariables(
     ('CC', 'C compiler', environ.get('CC', main['CC'])),
     ('CXX', 'C++ compiler', environ.get('CXX', main['CXX'])),
-    ('CCFLAGS_EXTRA', 'Extra C and C++ compiler flags', ''),
+    ('CCFLAGS_EXTRA', 'Extra C and C++ compiler flags', '-Wno-undef'),
     ('LDFLAGS_EXTRA', 'Extra linker flags', ''),
     ('PYTHON_CONFIG', 'Python config binary to use',
      [ 'python2.7-config', 'python-config' ]),
@@ -580,6 +580,7 @@ try:
 except Exception as e:
     warning('While checking protoc version:', str(e))
     main['HAVE_PROTOC'] = False
+              
 
 # Check for 'timeout' from GNU coreutils. If present, regressions will
 # be run with a time limit. We require version 8.13 since we rely on
@@ -814,6 +815,8 @@ if not have_kvm:
 have_tuntap = conf.CheckHeader('linux/if_tun.h', '<>')
 if not have_tuntap:
     print("Info: Compatible header file <linux/if_tun.h> not found.")
+
+have_igraph = conf.CheckHeader('igraph/igraph.h', '<>')
 
 # x86 needs support for xsave. We test for the structure here since we
 # won't be able to run new tests by the time we know which ISA we're
