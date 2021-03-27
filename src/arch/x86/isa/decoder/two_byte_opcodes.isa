@@ -211,7 +211,7 @@
                         warn("M5 reserved opcode 1 ignored.\n");
                     }}, IsNonSpeculative);
                     0x56: m5startdefence({{
-                        warn("End Defence Opcode Observed.\n");
+                        warn("Start Defence Opcode Observed.\n");
                         PseudoInst::m5startdefence(xc->tcBase());
                     }}, IsNonSpeculative);
                     0x57: m5enddefence({{

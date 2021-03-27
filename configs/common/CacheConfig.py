@@ -78,8 +78,8 @@ def config_cache(options, system):
         dcache_class, icache_class, l2_cache_class, walk_cache_class = \
             core.HPI_DCache, core.HPI_ICache, core.HPI_L2, core.HPI_WalkCache
     else:
-        dcache_class, icache_class, l2_cache_class, walk_cache_class = \
-            L1_DCache, L1_ICache, L2Cache, None
+        dcache_class, icache_class, l2_cache_class, walk_cache_class, l3_cache_class = \
+            L1_DCache, L1_ICache, L2Cache, None, L3Cache
 
         if buildEnv['TARGET_ISA'] == 'x86':
             walk_cache_class = PageTableWalkerCache
@@ -94,7 +94,26 @@ def config_cache(options, system):
     if options.l2cache and options.elastic_trace_en:
         fatal("When elastic trace is enabled, do not configure L2 caches.")
 
-    if options.l2cache:
+    if options.l2cache and options.l3cache:
+        system.l2 = l2_cache_class(clk_domain=system.cpu_clk_domain,
+                                    size=options.l2_size,
+                                    assoc=options.l2_assoc)
+
+        system.l3 = l3_cache_class(clk_domain=system.cpu_clk_domain,
+                                    size=options.l3_size,
+                                    assoc=options.l3_assoc)
+
+        system.tol2bus = L2XBar(clk_domain = system.cpu_clk_domain)
+        system.tol3bus = L3XBar(clk_domain = system.cpu_clk_domain)
+
+        system.l2.cpu_side = system.tol2bus.master
+        system.l2.mem_side = system.tol3bus.slave
+
+        system.l3.cpu_side = system.tol3bus.master
+        system.l3.mem_side = system.membus.slave
+
+
+    elif options.l2cache:
         # Provide a clock for the L2 and the L1-to-L2 bus here as they
         # are not connected using addTwoLevelCacheHierarchy. Use the
         # same clock as the CPUs.

@@ -189,16 +189,18 @@ DRAMSim2Wrapper::endDefence()
 void
 DRAMSim2Wrapper::enqueue(bool is_write, uint64_t addr, uint64_t masterID)
 {
-    uint64_t securityDomain;
+    /*uint64_t securityDomain;
     auto it = find(master_domain_mapping.begin(), master_domain_mapping.end(), masterID);
     if (it != master_domain_mapping.end()) {
         securityDomain = it-master_domain_mapping.begin();
     } else {
         securityDomain = master_domain_mapping.size();
         master_domain_mapping.push_back(masterID);
-    }
+    }*/
     
-    bool success M5_VAR_USED = dramsim->addTransaction(is_write, addr, securityDomain);
+    //bool success M5_VAR_USED = dramsim->addTransaction(is_write, addr, securityDomain);
+    bool success M5_VAR_USED = dramsim->addTransaction(is_write, addr, masterID);
+
     assert(success);
 }
 
