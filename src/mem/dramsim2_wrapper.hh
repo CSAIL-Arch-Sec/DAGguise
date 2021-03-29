@@ -74,8 +74,6 @@ class DRAMSim2Wrapper
 
     DRAMSim::MultiChannelMemorySystem* dramsim;
 
-    std::vector<uint64_t> master_domain_mapping;
-
     double _clockPeriod;
 
     unsigned int _queueSize;

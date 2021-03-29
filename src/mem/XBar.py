@@ -174,7 +174,7 @@ class L3XBar(CoherentXBar):
     # This specialisation of the coherent crossbar is to be considered
     # the point of unification, it connects the dcache and the icache
     # to the first level of unified cache.
-    #point_of_unification = True
+    point_of_unification = True
 
 # One of the key coherent crossbar instances is the system
 # interconnect, tying together the CPU clusters, GPUs, and any I/O

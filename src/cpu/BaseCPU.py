@@ -250,6 +250,39 @@ class BaseCPU(ClockedObject):
                 self._cached_ports += ["checker.itb.walker.port", \
                                        "checker.dtb.walker.port"]
 
+    def addPrivateSplitL2Caches(self, ic, dc, l2c, iwc = None, dwc = None):
+        self.icache = ic
+        self.dcache = dc
+
+        self.icache_port = ic.cpu_side
+        self.dcache_port = dc.cpu_side
+        self._cached_ports = ['icache.mem_side', 'dcache.mem_side']
+
+        if buildEnv['TARGET_ISA'] in ['x86', 'arm']:
+            if iwc and dwc:
+                self.itb_walker_cache = iwc
+                self.dtb_walker_cache = dwc
+                self.itb.walker.port = iwc.cpu_side
+                self.dtb.walker.port = dwc.cpu_side
+                self._cached_ports += ["itb_walker_cache.mem_side", \
+                                       "dtb_walker_cache.mem_side"]
+            else:
+                self._cached_ports += ["itb.walker.port", "dtb.walker.port"]
+
+            # Checker doesn't need its own tlb caches because it does
+            # functional accesses only
+            if self.checker != NULL:
+                self._cached_ports += ["checker.itb.walker.port", \
+                                       "checker.dtb.walker.port"]
+
+        self.toL2Bus = L2XBar()
+        self.connectCachedPorts(self.toL2Bus)
+        self.l2cache = l2c
+        self.toL2Bus.master = self.l2cache.cpu_side
+
+        self._cached_ports = ['l2cache.mem_side']
+
+        
     def addTwoLevelCacheHierarchy(self, ic, dc, l2c, iwc=None, dwc=None,
                                   xbar=None):
         self.addPrivateSplitL1Caches(ic, dc, iwc, dwc)
@@ -259,12 +292,16 @@ class BaseCPU(ClockedObject):
         self.toL2Bus.master = self.l2cache.cpu_side
         self._cached_ports = ['l2cache.mem_side']
 
-    def addThreeLevelCacheHierarchy(self, ic, dc, l2c, iwc=None, dwc=None):
-        self.addPrivateSplitL2Caches(ic,dc,iwc,dwc)
-        self.toL3Bus = L3XBar()
-        self.connectCachedPorts(self.toL3Bus)
+    def addThreeLevelCacheHierarchy(self, ic, dc, l2c, l3c, iwc=None, dwc=None):
+        addPrivateSplitL1Caches(ic, dc, iwc, dwc)
+        self.toL2Bus = xbar if xbar else L2XBar()
+
         self.l3cache = l3c
+        self.toL3Bus = L3XBar()
+        self._cached_ports = ['l2cache.mem_side']
+        self.connectCachedPorts(self.toL3Bus)
         self.toL3Bus.master = self.l3cache.cpu_side
+        
         self._cache_ports = ['l3cache.mem_side']
 
     def createThreads(self):
