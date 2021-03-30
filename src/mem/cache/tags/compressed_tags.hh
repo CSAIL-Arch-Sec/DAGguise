@@ -107,7 +107,7 @@ class CompressedTags : public SectorTags
      * @param evict_blks Cache blocks to be evicted.
      * @return Cache block to be replaced.
      */
-    CacheBlk* findVictim(Addr addr, const bool is_secure,
+    CacheBlk* findVictim(Addr addr, const bool is_secure, uint32_t securityDomain,
                          const std::size_t compressed_size,
                          std::vector<CacheBlk*>& evict_blks) override;
 

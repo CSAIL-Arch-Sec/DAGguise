@@ -134,9 +134,9 @@ SectorTags::invalidate(CacheBlk *blk)
 }
 
 CacheBlk*
-SectorTags::accessBlock(Addr addr, bool is_secure, Cycles &lat)
+SectorTags::accessBlock(Addr addr, bool is_secure, uint32_t securityDomain, Cycles &lat)
 {
-    CacheBlk *blk = findBlock(addr, is_secure);
+    CacheBlk *blk = findBlock(addr, is_secure, securityDomain);
 
     // Access all tags in parallel, hence one in each way.  The data side
     // either accesses all blocks in parallel, or one block sequentially on
@@ -195,7 +195,7 @@ SectorTags::insertBlock(const PacketPtr pkt, CacheBlk *blk)
 }
 
 CacheBlk*
-SectorTags::findBlock(Addr addr, bool is_secure) const
+SectorTags::findBlock(Addr addr, bool is_secure, uint32_t securityDomain) const
 {
     // Extract sector tag
     const Addr tag = extractTag(addr);
@@ -206,7 +206,7 @@ SectorTags::findBlock(Addr addr, bool is_secure) const
 
     // Find all possible sector entries that may contain the given address
     const std::vector<ReplaceableEntry*> entries =
-        indexingPolicy->getPossibleEntries(addr);
+        indexingPolicy->getPossibleEntries(addr, 0);
 
     // Search for block
     for (const auto& sector : entries) {
@@ -222,12 +222,13 @@ SectorTags::findBlock(Addr addr, bool is_secure) const
 }
 
 CacheBlk*
-SectorTags::findVictim(Addr addr, const bool is_secure, const std::size_t size,
+SectorTags::findVictim(Addr addr, const bool is_secure, uint32_t securityDomain, const std::size_t size,
                        std::vector<CacheBlk*>& evict_blks)
 {
+    assert(false);
     // Get possible entries to be victimized
     const std::vector<ReplaceableEntry*> sector_entries =
-        indexingPolicy->getPossibleEntries(addr);
+        indexingPolicy->getPossibleEntries(addr, 0);
 
     // Check if the sector this address belongs to has been allocated
     Addr tag = extractTag(addr);

@@ -178,7 +178,7 @@ class AssociativeSet {
      * @param addr key to select the set of entries
      * @result vector of candidates matching with the provided key
      */
-    std::vector<Entry *> getPossibleEntries(const Addr addr) const;
+    std::vector<Entry *> getPossibleEntries(const Addr addr, const uint32_t securityDomain) const;
 
     /**
      * Indicate that an entry has just been inserted

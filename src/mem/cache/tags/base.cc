@@ -54,6 +54,7 @@
 #include "mem/cache/replacement_policies/replaceable_entry.hh"
 #include "mem/cache/tags/indexing_policies/base.hh"
 #include "mem/request.hh"
+#include "debug/Cache.hh"
 #include "sim/core.hh"
 #include "sim/sim_exit.hh"
 #include "sim/system.hh"
@@ -77,14 +78,14 @@ BaseTags::findBlockBySetAndWay(int set, int way) const
 }
 
 CacheBlk*
-BaseTags::findBlock(Addr addr, bool is_secure) const
+BaseTags::findBlock(Addr addr, bool is_secure, uint32_t securityDomain) const
 {
     // Extract block tag
     Addr tag = extractTag(addr);
 
     // Find possible entries that may contain the given address
     const std::vector<ReplaceableEntry*> entries =
-        indexingPolicy->getPossibleEntries(addr);
+        indexingPolicy->getPossibleEntries(addr, securityDomain);
 
     // Search for block
     for (const auto& location : entries) {

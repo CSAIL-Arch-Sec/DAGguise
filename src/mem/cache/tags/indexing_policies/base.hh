@@ -69,22 +69,22 @@ class BaseIndexingPolicy : public SimObject
     /**
      * The associativity.
      */
-    const unsigned assoc;
+    unsigned assoc;
 
     /**
      * The number of sets in the cache.
      */
-    const uint32_t numSets;
+    uint32_t numSets;
 
     /**
      * The amount to shift the address to get the set.
      */
-    const int setShift;
+    int setShift;
 
     /**
      * Mask out all bits that aren't part of the set index.
      */
-    const unsigned setMask;
+    unsigned setMask;
 
     /**
      * The cache sets.
@@ -94,7 +94,7 @@ class BaseIndexingPolicy : public SimObject
     /**
      * The amount to shift the address to get the tag.
      */
-    const int tagShift;
+    int tagShift;
 
   public:
     /**
@@ -146,8 +146,8 @@ class BaseIndexingPolicy : public SimObject
      * @param addr The addr to a find possible entries for.
      * @return The possible entries.
      */
-    virtual std::vector<ReplaceableEntry*> getPossibleEntries(const Addr addr)
-                                                                    const = 0;
+    virtual std::vector<ReplaceableEntry*> getPossibleEntries(const Addr addr, uint32_t securityDomain)
+                                                                    = 0;
 
     /**
      * Regenerate an entry's address from its tag and assigned indexing bits.

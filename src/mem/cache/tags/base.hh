@@ -196,7 +196,7 @@ class BaseTags : public ClockedObject
      * @param is_secure True if the target memory space is secure.
      * @return Pointer to the cache block.
      */
-    virtual CacheBlk *findBlock(Addr addr, bool is_secure) const;
+    virtual CacheBlk *findBlock(Addr addr, bool is_secure, uint32_t securityDomain) const;
 
     /**
      * Find a block given set and way.
@@ -278,7 +278,7 @@ class BaseTags : public ClockedObject
      * @param evict_blks Cache blocks to be evicted.
      * @return Cache block to be replaced.
      */
-    virtual CacheBlk* findVictim(Addr addr, const bool is_secure,
+    virtual CacheBlk* findVictim(Addr addr, const bool is_secure, uint32_t securityDomain,
                                  const std::size_t size,
                                  std::vector<CacheBlk*>& evict_blks) = 0;
 
@@ -293,7 +293,7 @@ class BaseTags : public ClockedObject
      * @param lat The latency of the tag lookup.
      * @return Pointer to the cache block if found.
      */
-    virtual CacheBlk* accessBlock(Addr addr, bool is_secure, Cycles &lat) = 0;
+    virtual CacheBlk* accessBlock(Addr addr, bool is_secure, uint32_t securityDomain, Cycles &lat) = 0;
 
     /**
      * Generate the tag from the given address.

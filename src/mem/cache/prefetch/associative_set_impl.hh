@@ -33,6 +33,7 @@
 
 #include "base/intmath.hh"
 #include "mem/cache/prefetch/associative_set.hh"
+#include "debug/Cache.hh"
 
 template<class Entry>
 AssociativeSet<Entry>::AssociativeSet(int assoc, int num_entries,
@@ -58,7 +59,7 @@ AssociativeSet<Entry>::findEntry(Addr addr, bool is_secure) const
 {
     Addr tag = indexingPolicy->extractTag(addr);
     const std::vector<ReplaceableEntry*> selected_entries =
-        indexingPolicy->getPossibleEntries(addr);
+        indexingPolicy->getPossibleEntries(addr,0);
 
     for (const auto& location : selected_entries) {
         Entry* entry = static_cast<Entry *>(location);
@@ -83,7 +84,7 @@ AssociativeSet<Entry>::findVictim(Addr addr)
 {
     // Get possible entries to be victimized
     const std::vector<ReplaceableEntry*> selected_entries =
-        indexingPolicy->getPossibleEntries(addr);
+        indexingPolicy->getPossibleEntries(addr,0);
     Entry* victim = static_cast<Entry*>(replacementPolicy->getVictim(
                             selected_entries));
     // There is only one eviction for this replacement
@@ -94,10 +95,11 @@ AssociativeSet<Entry>::findVictim(Addr addr)
 
 template<class Entry>
 std::vector<Entry *>
-AssociativeSet<Entry>::getPossibleEntries(const Addr addr) const
+AssociativeSet<Entry>::getPossibleEntries(const Addr addr, const uint32_t securityDomain) const
 {
+    DPRINTF(Cache, "Shouldn't get here!\n");
     std::vector<ReplaceableEntry *> selected_entries =
-        indexingPolicy->getPossibleEntries(addr);
+        indexingPolicy->getPossibleEntries(addr, securityDomain);
     std::vector<Entry *> entries(selected_entries.size(), nullptr);
 
     unsigned int idx = 0;

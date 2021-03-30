@@ -300,12 +300,12 @@ class BasePrefetcher : public ClockedObject
     bool observeAccess(const PacketPtr &pkt, bool miss) const;
 
     /** Determine if address is in cache */
-    bool inCache(Addr addr, bool is_secure) const;
+    bool inCache(Addr addr, bool is_secure, uint32_t securityDomain) const;
 
     /** Determine if address is in cache miss queue */
     bool inMissQueue(Addr addr, bool is_secure) const;
 
-    bool hasBeenPrefetched(Addr addr, bool is_secure) const;
+    bool hasBeenPrefetched(Addr addr, bool is_secure, uint32_t securityDomain) const;
 
     /** Determine if addresses are on the same page */
     bool samePage(Addr a, Addr b) const;

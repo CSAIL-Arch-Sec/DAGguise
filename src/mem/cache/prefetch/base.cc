@@ -146,9 +146,9 @@ BasePrefetcher::observeAccess(const PacketPtr &pkt, bool miss) const
 }
 
 bool
-BasePrefetcher::inCache(Addr addr, bool is_secure) const
+BasePrefetcher::inCache(Addr addr, bool is_secure, uint32_t securityDomain) const
 {
-    return cache->inCache(addr, is_secure);
+    return cache->inCache(addr, is_secure, securityDomain);
 }
 
 bool
@@ -158,9 +158,9 @@ BasePrefetcher::inMissQueue(Addr addr, bool is_secure) const
 }
 
 bool
-BasePrefetcher::hasBeenPrefetched(Addr addr, bool is_secure) const
+BasePrefetcher::hasBeenPrefetched(Addr addr, bool is_secure, uint32_t securityDomain) const
 {
-    return cache->hasBeenPrefetched(addr, is_secure);
+    return cache->hasBeenPrefetched(addr, is_secure, securityDomain);
 }
 
 bool
@@ -211,7 +211,7 @@ BasePrefetcher::probeNotify(const PacketPtr &pkt, bool miss)
         panic("Request must have a physical address");
     }
 
-    if (hasBeenPrefetched(pkt->getAddr(), pkt->isSecure())) {
+    if (hasBeenPrefetched(pkt->getAddr(), pkt->isSecure(), pkt->req->masterId())) {
         usefulPrefetches += 1;
     }
 

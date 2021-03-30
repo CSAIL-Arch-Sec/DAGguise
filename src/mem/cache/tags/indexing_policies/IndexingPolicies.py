@@ -49,6 +49,9 @@ class SetAssociative(BaseIndexingPolicy):
     cxx_class = 'SetAssociative'
     cxx_header = "mem/cache/tags/indexing_policies/set_associative.hh"
 
+    numSecurityDomains = Param.Int(4, "Number of security domains");
+
+
 class SkewedAssociative(BaseIndexingPolicy):
     type = 'SkewedAssociative'
     cxx_class = 'SkewedAssociative'

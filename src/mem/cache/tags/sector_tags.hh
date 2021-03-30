@@ -139,7 +139,7 @@ class SectorTags : public BaseTags
      * @param lat The latency of the tag lookup.
      * @return Pointer to the cache block if found.
      */
-    CacheBlk* accessBlock(Addr addr, bool is_secure, Cycles &lat) override;
+    CacheBlk* accessBlock(Addr addr, bool is_secure, uint32_t securityDomain, Cycles &lat) override;
 
     /**
      * Insert the new block into the cache and update replacement data.
@@ -157,7 +157,7 @@ class SectorTags : public BaseTags
      * @param is_secure True if the target memory space is secure.
      * @return Pointer to the cache block if found.
      */
-    CacheBlk* findBlock(Addr addr, bool is_secure) const override;
+    CacheBlk* findBlock(Addr addr, bool is_secure, uint32_t securityDomain) const override;
 
     /**
      * Find replacement victim based on address.
@@ -168,7 +168,7 @@ class SectorTags : public BaseTags
      * @param evict_blks Cache blocks to be evicted.
      * @return Cache block to be replaced.
      */
-    CacheBlk* findVictim(Addr addr, const bool is_secure,
+    CacheBlk* findVictim(Addr addr, const bool is_secure, uint32_t securityDomain, 
                          const std::size_t size,
                          std::vector<CacheBlk*>& evict_blks) override;
 

@@ -463,7 +463,7 @@ BaseCache::recvTimingResp(PacketPtr pkt)
     // the response is an invalidation
     assert(!mshr->wasWholeLineWrite || pkt->isInvalidate());
 
-    CacheBlk *blk = tags->findBlock(pkt->getAddr(), pkt->isSecure());
+    CacheBlk *blk = tags->findBlock(pkt->getAddr(), pkt->isSecure(), pkt->req->masterId());
 
     if (is_fill && !is_error) {
         DPRINTF(Cache, "Block for addr %#llx being updated in Cache\n",
@@ -624,7 +624,7 @@ BaseCache::functionalAccess(PacketPtr pkt, bool from_cpu_side)
 {
     Addr blk_addr = pkt->getBlockAddr(blkSize);
     bool is_secure = pkt->isSecure();
-    CacheBlk *blk = tags->findBlock(pkt->getAddr(), is_secure);
+    CacheBlk *blk = tags->findBlock(pkt->getAddr(), is_secure, pkt->req->masterId());
     MSHR *mshr = mshrQueue.findMatch(blk_addr, is_secure);
 
     pkt->pushLabel(name());
@@ -772,7 +772,7 @@ BaseCache::getNextQueueEntry()
         PacketPtr pkt = prefetcher->getPacket();
         if (pkt) {
             Addr pf_addr = pkt->getBlockAddr(blkSize);
-            if (!tags->findBlock(pf_addr, pkt->isSecure()) &&
+            if (!tags->findBlock(pf_addr, pkt->isSecure(), pkt->req->masterId()) &&
                 !mshrQueue.findMatch(pf_addr, pkt->isSecure()) &&
                 !writeBuffer.findMatch(pf_addr, pkt->isSecure())) {
                 // Update statistic on number of prefetches issued
@@ -796,7 +796,7 @@ BaseCache::getNextQueueEntry()
 
 bool
 BaseCache::handleEvictions(std::vector<CacheBlk*> &evict_blks,
-    PacketList &writebacks)
+    PacketList &writebacks, uint32_t securityDomain)
 {
     bool replacement = false;
     for (const auto& blk : evict_blks) {
@@ -805,7 +805,7 @@ BaseCache::handleEvictions(std::vector<CacheBlk*> &evict_blks,
 
             const MSHR* mshr =
                 mshrQueue.findMatch(regenerateBlkAddr(blk), blk->isSecure());
-            if (mshr) {
+            if (mshr && (blk->srcMasterId != securityDomain)) {
                 // Must be an outstanding upgrade or clean request on a block
                 // we're about to replace
                 assert((!blk->isWritable() && mshr->needsWritable()) ||
@@ -880,7 +880,7 @@ BaseCache::updateCompressionData(CacheBlk *blk, const uint64_t* data,
         }
 
         // Try to evict blocks; if it fails, give up on update
-        if (!handleEvictions(evict_blks, writebacks)) {
+        if (!handleEvictions(evict_blks, writebacks, 0)) {
             return false;
         }
 
@@ -1042,7 +1042,7 @@ BaseCache::access(PacketPtr pkt, CacheBlk *&blk, Cycles &lat,
 
     // Access block in the tags
     Cycles tag_latency(0);
-    blk = tags->accessBlock(pkt->getAddr(), pkt->isSecure(), tag_latency);
+    blk = tags->accessBlock(pkt->getAddr(), pkt->isSecure(), pkt->req->masterId(), tag_latency);
 
     DPRINTF(Cache, "%s for %s %s\n", __func__, pkt->print(),
             blk ? "hit " + blk->print() : "miss");
@@ -1346,6 +1346,8 @@ BaseCache::handleFill(PacketPtr pkt, CacheBlk *blk, PacketList &writebacks,
     // Block is guaranteed to be valid at this point
     assert(blk->isValid());
     assert(blk->isSecure() == is_secure);
+    DPRINTF(Cache, "regen: %x, addr: %x\n", regenerateBlkAddr(blk), addr);
+
     assert(regenerateBlkAddr(blk) == addr);
 
     blk->status |= BlkReadable;
@@ -1430,7 +1432,8 @@ BaseCache::allocateBlock(const PacketPtr pkt, PacketList &writebacks)
 
     // Find replacement victim
     std::vector<CacheBlk*> evict_blks;
-    CacheBlk *victim = tags->findVictim(addr, is_secure, blk_size_bits,
+    DPRINTF(Cache, "victim master ID: %x\n", pkt->req->masterId());
+    CacheBlk *victim = tags->findVictim(addr, is_secure, pkt->req->masterId(), blk_size_bits, 
                                         evict_blks);
 
     // It is valid to return nullptr if there is no victim
@@ -1441,7 +1444,7 @@ BaseCache::allocateBlock(const PacketPtr pkt, PacketList &writebacks)
     DPRINTF(CacheRepl, "Replacement victim: %s\n", victim->print());
 
     // Try to evict blocks; if it fails, give up on allocation
-    if (!handleEvictions(evict_blks, writebacks)) {
+    if (!handleEvictions(evict_blks, writebacks, pkt->req->masterId())) {
         return nullptr;
     }
 
@@ -1494,7 +1497,7 @@ BaseCache::writebackBlk(CacheBlk *blk)
     stats.writebacks[Request::wbMasterId]++;
 
     RequestPtr req = std::make_shared<Request>(
-        regenerateBlkAddr(blk), blkSize, 0, Request::wbMasterId);
+        regenerateBlkAddr(blk), blkSize, 0, blk->srcMasterId);
 
     if (blk->isSecure())
         req->setFlags(Request::SECURE);
@@ -1536,7 +1539,7 @@ PacketPtr
 BaseCache::writecleanBlk(CacheBlk *blk, Request::Flags dest, PacketId id)
 {
     RequestPtr req = std::make_shared<Request>(
-        regenerateBlkAddr(blk), blkSize, 0, Request::wbMasterId);
+        regenerateBlkAddr(blk), blkSize, 0, blk->srcMasterId);
 
     if (blk->isSecure()) {
         req->setFlags(Request::SECURE);
@@ -1688,7 +1691,7 @@ BaseCache::sendMSHRQueuePacket(MSHR* mshr)
         }
     }
 
-    CacheBlk *blk = tags->findBlock(mshr->blkAddr, mshr->isSecure);
+    CacheBlk *blk = tags->findBlock(mshr->blkAddr, mshr->isSecure, tgt_pkt->req->masterId());
 
     // either a prefetch that is not present upstream, or a normal
     // MSHR request, proceed to get the packet to send downstream

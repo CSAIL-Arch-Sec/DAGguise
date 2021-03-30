@@ -719,7 +719,7 @@ class BaseCache : public ClockedObject
      * @return False if any of the evicted blocks is in transient state.
      */
     bool handleEvictions(std::vector<CacheBlk*> &evict_blks,
-        PacketList &writebacks);
+        PacketList &writebacks, uint32_t securityDomain);
 
     /**
      * Handle a fill operation caused by a received packet.
@@ -1204,12 +1204,12 @@ class BaseCache : public ClockedObject
         memSidePort.schedSendEvent(time);
     }
 
-    bool inCache(Addr addr, bool is_secure) const {
-        return tags->findBlock(addr, is_secure);
+    bool inCache(Addr addr, bool is_secure, uint32_t securityDomain) const {
+        return tags->findBlock(addr, is_secure, securityDomain);
     }
 
-    bool hasBeenPrefetched(Addr addr, bool is_secure) const {
-        CacheBlk *block = tags->findBlock(addr, is_secure);
+    bool hasBeenPrefetched(Addr addr, bool is_secure, uint32_t securityDomain) const {
+        CacheBlk *block = tags->findBlock(addr, is_secure, securityDomain);
         if (block) {
             return block->wasPrefetched();
         } else {

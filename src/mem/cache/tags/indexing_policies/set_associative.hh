@@ -88,7 +88,10 @@ class SetAssociative : public BaseIndexingPolicy
      * @param addr The address to calculate the set for.
      * @return The set index for given combination of address and way.
      */
-    uint32_t extractSet(const Addr addr) const;
+    uint32_t extractSet(const Addr addr, uint32_t securityDomain);
+
+    int numSecurityDomains;
+    std::vector<uint32_t> domainMapping;
 
   public:
     /**
@@ -115,7 +118,7 @@ class SetAssociative : public BaseIndexingPolicy
      * @param addr The addr to a find possible entries for.
      * @return The possible entries.
      */
-    std::vector<ReplaceableEntry*> getPossibleEntries(const Addr addr) const
+    std::vector<ReplaceableEntry*> getPossibleEntries(const Addr addr, uint32_t securityDomain)
                                                                      override;
 
     /**

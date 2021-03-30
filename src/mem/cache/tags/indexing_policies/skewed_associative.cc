@@ -206,7 +206,7 @@ SkewedAssociative::regenerateAddr(const Addr tag,
 }
 
 std::vector<ReplaceableEntry*>
-SkewedAssociative::getPossibleEntries(const Addr addr) const
+SkewedAssociative::getPossibleEntries(const Addr addr, uint32_t securityDomain)
 {
     std::vector<ReplaceableEntry*> entries;
 

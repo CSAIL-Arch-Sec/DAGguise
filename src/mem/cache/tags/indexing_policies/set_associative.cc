@@ -51,28 +51,64 @@
 
 #include "mem/cache/replacement_policies/replaceable_entry.hh"
 
+#include "base/intmath.hh"
+#include "debug/Cache.hh"
+
+
 SetAssociative::SetAssociative(const Params *p)
     : BaseIndexingPolicy(p)
-{
+    {
+
+    numSecurityDomains = p->numSecurityDomains;
+    setMask = numSets/numSecurityDomains - 1;
+
+    DPRINTF(Cache, "NumSets: %d, size %d, entry_size %d, assoc %d", numSets, p->size, p->entry_size, assoc);
+
+    assert(numSecurityDomains != 0);
+    assert(numSets/numSecurityDomains != 0);
+    tagShift = setShift + floorLog2(numSets/numSecurityDomains);
+    
+    if (numSecurityDomains < 1 || !isPowerOf2(numSecurityDomains)){
+        fatal("Number of security domains must be at least 1 and a power of 2");
+    }
+
+    if (numSets < numSecurityDomains) {
+        fatal("Number of security domains must exceed number of sets!");
+    }
+
 }
 
 uint32_t
-SetAssociative::extractSet(const Addr addr) const
+SetAssociative::extractSet(const Addr addr, uint32_t securityDomain)
 {
-    return (addr >> setShift) & setMask;
+    int securityIndex;
+    auto it = std::find(domainMapping.begin(), domainMapping.end(), securityDomain);
+    if (it != domainMapping.end()) {
+        securityIndex = it - domainMapping.begin();
+    } else {
+        securityIndex = domainMapping.size();
+        DPRINTF(Cache, "New Security Index! Domain %x, Index %x", securityDomain, securityIndex);
+
+        domainMapping.push_back(securityDomain);
+    }
+
+    assert(securityIndex < numSecurityDomains);
+    assert(numSets/numSecurityDomains != 0);
+
+    return ((addr >> setShift) & setMask) | (securityIndex << (floorLog2(numSets/numSecurityDomains)));
 }
 
 Addr
 SetAssociative::regenerateAddr(const Addr tag, const ReplaceableEntry* entry)
                                                                         const
 {
-    return (tag << tagShift) | (entry->getSet() << setShift);
+    return (tag << tagShift) | ((entry->getSet() & setMask) << setShift);
 }
 
 std::vector<ReplaceableEntry*>
-SetAssociative::getPossibleEntries(const Addr addr) const
+SetAssociative::getPossibleEntries(const Addr addr, uint32_t securityDomain)
 {
-    return sets[extractSet(addr)];
+    return sets[extractSet(addr, securityDomain)];
 }
 
 SetAssociative*

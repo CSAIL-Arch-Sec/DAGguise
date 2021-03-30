@@ -124,9 +124,9 @@ class BaseSetAssoc : public BaseTags
      * @param lat The latency of the tag lookup.
      * @return Pointer to the cache block if found.
      */
-    CacheBlk* accessBlock(Addr addr, bool is_secure, Cycles &lat) override
+    CacheBlk* accessBlock(Addr addr, bool is_secure, uint32_t securityDomain, Cycles &lat) override
     {
-        CacheBlk *blk = findBlock(addr, is_secure);
+        CacheBlk *blk = findBlock(addr, is_secure, securityDomain);
 
         // Access all tags in parallel, hence one in each way.  The data side
         // either accesses all blocks in parallel, or one block sequentially on
@@ -165,13 +165,14 @@ class BaseSetAssoc : public BaseTags
      * @param evict_blks Cache blocks to be evicted.
      * @return Cache block to be replaced.
      */
-    CacheBlk* findVictim(Addr addr, const bool is_secure,
+    CacheBlk* findVictim(Addr addr, const bool is_secure, uint32_t securityDomain,
                          const std::size_t size,
                          std::vector<CacheBlk*>& evict_blks) override
     {
         // Get possible entries to be victimized
+        DPRINTF(Cache, "domain: %x\n", securityDomain);
         const std::vector<ReplaceableEntry*> entries =
-            indexingPolicy->getPossibleEntries(addr);
+            indexingPolicy->getPossibleEntries(addr, securityDomain);
 
         // Choose replacement victim from replacement candidates
         CacheBlk* victim = static_cast<CacheBlk*>(replacementPolicy->getVictim(

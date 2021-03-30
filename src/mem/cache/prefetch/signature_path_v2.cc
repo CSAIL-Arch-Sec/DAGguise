@@ -56,7 +56,7 @@ SignaturePathPrefetcherV2::handleSignatureTableMiss(stride_t current_block,
     // This should return all entries of the GHR, since it is a fully
     // associative table
     std::vector<GlobalHistoryEntry *> all_ghr_entries =
-             globalHistoryRegister.getPossibleEntries(0 /* any value works */);
+             globalHistoryRegister.getPossibleEntries(0 /* any value works */, 0);
 
     for (auto gh_entry : all_ghr_entries) {
         if (gh_entry->lastBlock + gh_entry->delta == current_block) {

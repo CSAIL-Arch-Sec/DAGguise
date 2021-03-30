@@ -159,7 +159,7 @@ class SkewedAssociative : public BaseIndexingPolicy
      * @param addr The addr to a find possible entries for.
      * @return The possible entries.
      */
-    std::vector<ReplaceableEntry*> getPossibleEntries(const Addr addr) const
+    std::vector<ReplaceableEntry*> getPossibleEntries(const Addr addr, uint32_t securityDomain)
                                                                    override;
 
     /**
