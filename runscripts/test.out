@@ -1,0 +1,2494 @@
+Global frequency set at 1000000000000 ticks per second
+      0: system.mem_ctrls.dram: Setting up DRAM Interface
+      0: system.mem_ctrls.dram: Creating DRAM rank 0 
+      0: system.mem_ctrls.dram: Memory capacity 536870912 (536870912) bytes
+      0: system.mem_ctrls.dram: Row buffer size 8192 bytes with 128 bursts per row buffer
+      0: system.mem_ctrls: Setting up controller
+      0: system.mem_ctrls.port: Pushing DRAM ranges to port
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 20.1.0.0
+gem5 compiled Mar 14 2021 23:58:14
+gem5 started Mar 14 2021 23:59:14
+gem5 executing on peter-ThinkPad-E570, pid 77698
+command line: ../build/X86/gem5.opt --debug-flags=MemCtrl,DRAM ../configs/example/se.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --num-cpus=2 --caches --l1d_size=256B --l1i_size=1kB -c 'ex_bench/docdist;ex_bench/docdist'
+
+**** REAL SIMULATION ****
+   1000: system.mem_ctrls: recvTimingReq: request ReadCleanReq addr 3776 size 64 requester 5
+   1000: system.mem_ctrls: Read queue limit 32, current size 0, entries needed 1
+   1000: system.mem_ctrls.dram: Address: 3776 Rank 0 Bank 0 Row 0
+   1000: system.mem_ctrls: Read queue limit 32, current size 0, entries needed 1
+   1000: system.mem_ctrls: Adding to read queue
+   1000: system.mem_ctrls: Request scheduled immediately
+   1000: system.mem_ctrls: QoS Turnarounds selected state READ 
+   1000: system.mem_ctrls: Fixed Service Request
+   1000: system.mem_ctrls: Issuing real request
+   1000: system.mem_ctrls.dram: Timing access to addr 3776, rank/bank/row 0 0 0
+   1000: system.mem_ctrls.dram: Activate at tick 1000
+   1000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1000, now got 1 active
+   1000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 27500
+   1000: system.mem_ctrls.dram: New ready time: 46250
+   1000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 36000, now got 0 active
+   1000: system.mem_ctrls.dram: Auto-precharged bank: 0
+   1000: system.mem_ctrls: Access to 3776, ready at 46250 next burst at 32500.
+   1000: system.mem_ctrls: new burst ready time: 46250, entry time: 1000
+   1000: system.mem_ctrls: respQueue len: 1
+   2000: system.mem_ctrls: recvTimingReq: request ReadCleanReq addr 2031296 size 64 requester 9
+   2000: system.mem_ctrls: Read queue limit 32, current size 1, entries needed 1
+   2000: system.mem_ctrls.dram: Address: 2031296 Rank 0 Bank 7 Row 30
+   2000: system.mem_ctrls: Read queue limit 32, current size 1, entries needed 1
+   2000: system.mem_ctrls: Adding to read queue
+   5000: system.mem_ctrls: QoS Turnarounds selected state READ 
+   5000: system.mem_ctrls: Fixed Service Request
+   5000: system.mem_ctrls: Did not find real request, issuing fake request
+   5000: system.mem_ctrls: Removing burstTick for 0
+   5000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+   5000: system.mem_ctrls.dram: Activate at tick 49750
+   5000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 49750, now got 1 active
+   5000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 63500
+   5000: system.mem_ctrls.dram: New ready time: 82250
+   5000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 84750, now got 0 active
+   5000: system.mem_ctrls.dram: Auto-precharged bank: 0
+   5000: system.mem_ctrls: Access to 0, ready at 82250 next burst at 68500.
+   5000: system.mem_ctrls: new burst ready time: 82250, entry time: 5000
+   5000: system.mem_ctrls: respQueue len: 2
+  41000: system.mem_ctrls: QoS Turnarounds selected state READ 
+  41000: system.mem_ctrls: Fixed Service Request
+  41000: system.mem_ctrls: Issuing real request
+  41000: system.mem_ctrls: Removing burstTick for 40000
+  41000: system.mem_ctrls: Removing burstTick for 20000
+  41000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+  41000: system.mem_ctrls.dram: Activate at tick 98500
+  41000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 98500, now got 1 active
+  41000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 112250
+  41000: system.mem_ctrls.dram: New ready time: 131000
+  41000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 133500, now got 0 active
+  41000: system.mem_ctrls.dram: Auto-precharged bank: 0
+  41000: system.mem_ctrls: Access to 0, ready at 131000 next burst at 117250.
+  41000: system.mem_ctrls: new burst ready time: 131000, entry time: 5000
+  41000: system.mem_ctrls: respQueue len: 3
+  46250: system.mem_ctrls: processRespondEvent(): Some req has reached its readyTime
+  46250: system.mem_ctrls.dram: number of read entries for rank 0 is 2
+  46250: system.mem_ctrls.dram: number of outstanding events is 4
+  46250: system.mem_ctrls: Responding to Address 3776.. 
+  46250: system.mem_ctrls: Done
+  46250: system.mem_ctrls: Scheduling event at tick: 131000, 
+<bad format>  82000: system.mem_ctrls: recvTimingReq: request ReadSharedReq addr 2022976 size 64 requester 6
+  82000: system.mem_ctrls: Read queue limit 32, current size 3, entries needed 1
+  82000: system.mem_ctrls.dram: Address: 2022976 Rank 0 Bank 6 Row 30
+  82000: system.mem_ctrls: Read queue limit 32, current size 3, entries needed 1
+  82000: system.mem_ctrls: Adding to read queue
+  83000: system.mem_ctrls: recvTimingReq: request ReadCleanReq addr 733184 size 64 requester 5
+  83000: system.mem_ctrls: Read queue limit 32, current size 4, entries needed 1
+  83000: system.mem_ctrls.dram: Address: 733184 Rank 0 Bank 1 Row 11
+  83000: system.mem_ctrls: Read queue limit 32, current size 4, entries needed 1
+  83000: system.mem_ctrls: Adding to read queue
+  89750: system.mem_ctrls: QoS Turnarounds selected state READ 
+  89750: system.mem_ctrls: Fixed Service Request
+  89750: system.mem_ctrls: Issuing real request
+  89750: system.mem_ctrls: Removing burstTick for 60000
+  89750: system.mem_ctrls.dram: Timing access to addr 733184, rank/bank/row 0 1 11
+  89750: system.mem_ctrls.dram: Activate at tick 104500
+  89750: system.mem_ctrls.dram: Activate bank 1, rank 0 at tick 104500, now got 1 active
+  89750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 118250
+  89750: system.mem_ctrls.dram: New ready time: 137000
+  89750: system.mem_ctrls.dram: Precharging bank 1, rank 0 at tick 139500, now got 0 active
+  89750: system.mem_ctrls.dram: Auto-precharged bank: 1
+  89750: system.mem_ctrls: Access to 733184, ready at 137000 next burst at 123250.
+  89750: system.mem_ctrls: new burst ready time: 137000, entry time: 83000
+  89750: system.mem_ctrls: respQueue len: 3
+  95750: system.mem_ctrls: QoS Turnarounds selected state READ 
+  95750: system.mem_ctrls: Fixed Service Request
+  95750: system.mem_ctrls: Did not find real request, issuing fake request
+  95750: system.mem_ctrls: Removing burstTick for 90000
+  95750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+  95750: system.mem_ctrls.dram: Activate at tick 147250
+  95750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 147250, now got 1 active
+  95750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 161000
+  95750: system.mem_ctrls.dram: New ready time: 179750
+  95750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 182250, now got 0 active
+  95750: system.mem_ctrls.dram: Auto-precharged bank: 0
+  95750: system.mem_ctrls: Access to 0, ready at 179750 next burst at 166000.
+  95750: system.mem_ctrls: new burst ready time: 179750, entry time: 95750
+  95750: system.mem_ctrls: respQueue len: 4
+ 131000: system.mem_ctrls: processRespondEvent(): Some req has reached its readyTime
+ 131000: system.mem_ctrls.dram: number of read entries for rank 0 is 4
+ 131000: system.mem_ctrls.dram: number of outstanding events is 5
+ 131000: system.mem_ctrls: Scheduling event at tick: 94893612912656, 
+<bad format> 138500: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 138500: system.mem_ctrls: Fixed Service Request
+ 138500: system.mem_ctrls: Issuing real request
+ 138500: system.mem_ctrls: Removing burstTick for 100000
+ 138500: system.mem_ctrls: Removing burstTick for 110000
+ 138500: system.mem_ctrls: Removing burstTick for 110000
+ 138500: system.mem_ctrls.dram: Timing access to addr 2031296, rank/bank/row 0 7 30
+ 138500: system.mem_ctrls.dram: Activate at tick 153250
+ 138500: system.mem_ctrls.dram: Activate bank 7, rank 0 at tick 153250, now got 1 active
+ 138500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 167000
+ 138500: system.mem_ctrls.dram: New ready time: 185750
+ 138500: system.mem_ctrls.dram: Precharging bank 7, rank 0 at tick 188250, now got 0 active
+ 138500: system.mem_ctrls.dram: Auto-precharged bank: 7
+ 138500: system.mem_ctrls: Access to 2031296, ready at 185750 next burst at 172000.
+ 138500: system.mem_ctrls: new burst ready time: 185750, entry time: 2000
+ 138500: system.mem_ctrls: respQueue len: 4
+ 144500: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 144500: system.mem_ctrls: Fixed Service Request
+ 144500: system.mem_ctrls: Did not find real request, issuing fake request
+ 144500: system.mem_ctrls: Removing burstTick for 140000
+ 144500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 144500: system.mem_ctrls.dram: Activate at tick 196000
+ 144500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 196000, now got 1 active
+ 144500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 209750
+ 144500: system.mem_ctrls.dram: New ready time: 228500
+ 144500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 231000, now got 0 active
+ 144500: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 144500: system.mem_ctrls: Access to 0, ready at 228500 next burst at 214750.
+ 144500: system.mem_ctrls: new burst ready time: 228500, entry time: 144500
+ 144500: system.mem_ctrls: respQueue len: 5
+ 187250: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 187250: system.mem_ctrls: Fixed Service Request
+ 187250: system.mem_ctrls: Issuing real request
+ 187250: system.mem_ctrls: Removing burstTick for 150000
+ 187250: system.mem_ctrls: Removing burstTick for 160000
+ 187250: system.mem_ctrls: Removing burstTick for 160000
+ 187250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 187250: system.mem_ctrls.dram: Activate at tick 244750
+ 187250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 244750, now got 1 active
+ 187250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 258500
+ 187250: system.mem_ctrls.dram: New ready time: 277250
+ 187250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 279750, now got 0 active
+ 187250: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 187250: system.mem_ctrls: Access to 0, ready at 277250 next burst at 263500.
+ 187250: system.mem_ctrls: new burst ready time: 277250, entry time: 95750
+ 187250: system.mem_ctrls: respQueue len: 6
+ 236000: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 236000: system.mem_ctrls: Fixed Service Request
+ 236000: system.mem_ctrls: Did not find real request, issuing fake request
+ 236000: system.mem_ctrls: Removing burstTick for 200000
+ 236000: system.mem_ctrls: Removing burstTick for 190000
+ 236000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 236000: system.mem_ctrls.dram: Activate at tick 293500
+ 236000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 293500, now got 1 active
+ 236000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 307250
+ 236000: system.mem_ctrls.dram: New ready time: 326000
+ 236000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 328500, now got 0 active
+ 236000: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 236000: system.mem_ctrls: Access to 0, ready at 326000 next burst at 312250.
+ 236000: system.mem_ctrls: new burst ready time: 326000, entry time: 236000
+ 236000: system.mem_ctrls: respQueue len: 7
+ 284750: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 284750: system.mem_ctrls: Fixed Service Request
+ 284750: system.mem_ctrls: Issuing real request
+ 284750: system.mem_ctrls: Removing burstTick for 250000
+ 284750: system.mem_ctrls: Removing burstTick for 240000
+ 284750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 284750: system.mem_ctrls.dram: Activate at tick 342250
+ 284750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 342250, now got 1 active
+ 284750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 356000
+ 284750: system.mem_ctrls.dram: New ready time: 374750
+ 284750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 377250, now got 0 active
+ 284750: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 284750: system.mem_ctrls: Access to 0, ready at 374750 next burst at 361000.
+ 284750: system.mem_ctrls: new burst ready time: 374750, entry time: 144500
+ 284750: system.mem_ctrls: respQueue len: 8
+ 333500: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 333500: system.mem_ctrls: Fixed Service Request
+ 333500: system.mem_ctrls: Did not find real request, issuing fake request
+ 333500: system.mem_ctrls: Removing burstTick for 300000
+ 333500: system.mem_ctrls: Removing burstTick for 290000
+ 333500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 333500: system.mem_ctrls.dram: Activate at tick 391000
+ 333500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 391000, now got 1 active
+ 333500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 404750
+ 333500: system.mem_ctrls.dram: New ready time: 423500
+ 333500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 426000, now got 0 active
+ 333500: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 333500: system.mem_ctrls: Access to 0, ready at 423500 next burst at 409750.
+ 333500: system.mem_ctrls: new burst ready time: 423500, entry time: 333500
+ 333500: system.mem_ctrls: respQueue len: 9
+ 382250: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 382250: system.mem_ctrls: Fixed Service Request
+ 382250: system.mem_ctrls: Issuing real request
+ 382250: system.mem_ctrls: Removing burstTick for 350000
+ 382250: system.mem_ctrls: Removing burstTick for 340000
+ 382250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 382250: system.mem_ctrls.dram: Activate at tick 439750
+ 382250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 439750, now got 1 active
+ 382250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 453500
+ 382250: system.mem_ctrls.dram: New ready time: 472250
+ 382250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 474750, now got 0 active
+ 382250: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 382250: system.mem_ctrls: Access to 0, ready at 472250 next burst at 458500.
+ 382250: system.mem_ctrls: new burst ready time: 472250, entry time: 236000
+ 382250: system.mem_ctrls: respQueue len: 10
+ 431000: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 431000: system.mem_ctrls: Fixed Service Request
+ 431000: system.mem_ctrls: Did not find real request, issuing fake request
+ 431000: system.mem_ctrls: Removing burstTick for 430000
+ 431000: system.mem_ctrls: Removing burstTick for 400000
+ 431000: system.mem_ctrls: Removing burstTick for 390000
+ 431000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 431000: system.mem_ctrls.dram: Activate at tick 488500
+ 431000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 488500, now got 1 active
+ 431000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 502250
+ 431000: system.mem_ctrls.dram: New ready time: 521000
+ 431000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 523500, now got 0 active
+ 431000: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 431000: system.mem_ctrls: Access to 0, ready at 521000 next burst at 507250.
+ 431000: system.mem_ctrls: new burst ready time: 521000, entry time: 431000
+ 431000: system.mem_ctrls: respQueue len: 11
+ 479750: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 479750: system.mem_ctrls: Fixed Service Request
+ 479750: system.mem_ctrls: Issuing real request
+ 479750: system.mem_ctrls: Removing burstTick for 450000
+ 479750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 479750: system.mem_ctrls.dram: Activate at tick 537250
+ 479750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 537250, now got 1 active
+ 479750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 551000
+ 479750: system.mem_ctrls.dram: New ready time: 569750
+ 479750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 572250, now got 0 active
+ 479750: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 479750: system.mem_ctrls: Access to 0, ready at 569750 next burst at 556000.
+ 479750: system.mem_ctrls: new burst ready time: 569750, entry time: 333500
+ 479750: system.mem_ctrls: respQueue len: 12
+ 528500: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 528500: system.mem_ctrls: Fixed Service Request
+ 528500: system.mem_ctrls: Did not find real request, issuing fake request
+ 528500: system.mem_ctrls: Removing burstTick for 500000
+ 528500: system.mem_ctrls: Removing burstTick for 480000
+ 528500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 528500: system.mem_ctrls.dram: Activate at tick 586000
+ 528500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 586000, now got 1 active
+ 528500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 599750
+ 528500: system.mem_ctrls.dram: New ready time: 618500
+ 528500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 621000, now got 0 active
+ 528500: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 528500: system.mem_ctrls: Access to 0, ready at 618500 next burst at 604750.
+ 528500: system.mem_ctrls: new burst ready time: 618500, entry time: 528500
+ 528500: system.mem_ctrls: respQueue len: 13
+ 577250: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 577250: system.mem_ctrls: Fixed Service Request
+ 577250: system.mem_ctrls: Issuing real request
+ 577250: system.mem_ctrls: Removing burstTick for 550000
+ 577250: system.mem_ctrls: Removing burstTick for 530000
+ 577250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 577250: system.mem_ctrls.dram: Activate at tick 634750
+ 577250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 634750, now got 1 active
+ 577250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 648500
+ 577250: system.mem_ctrls.dram: New ready time: 667250
+ 577250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 669750, now got 0 active
+ 577250: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 577250: system.mem_ctrls: Access to 0, ready at 667250 next burst at 653500.
+ 577250: system.mem_ctrls: new burst ready time: 667250, entry time: 431000
+ 577250: system.mem_ctrls: respQueue len: 14
+ 626000: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 626000: system.mem_ctrls: Fixed Service Request
+ 626000: system.mem_ctrls: Did not find real request, issuing fake request
+ 626000: system.mem_ctrls: Removing burstTick for 590000
+ 626000: system.mem_ctrls: Removing burstTick for 580000
+ 626000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 626000: system.mem_ctrls.dram: Activate at tick 683500
+ 626000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 683500, now got 1 active
+ 626000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 697250
+ 626000: system.mem_ctrls.dram: New ready time: 716000
+ 626000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 718500, now got 0 active
+ 626000: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 626000: system.mem_ctrls: Access to 0, ready at 716000 next burst at 702250.
+ 626000: system.mem_ctrls: new burst ready time: 716000, entry time: 626000
+ 626000: system.mem_ctrls: respQueue len: 15
+ 674750: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 674750: system.mem_ctrls: Fixed Service Request
+ 674750: system.mem_ctrls: Issuing real request
+ 674750: system.mem_ctrls: Removing burstTick for 640000
+ 674750: system.mem_ctrls: Removing burstTick for 630000
+ 674750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 674750: system.mem_ctrls.dram: Activate at tick 732250
+ 674750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 732250, now got 1 active
+ 674750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 746000
+ 674750: system.mem_ctrls.dram: New ready time: 764750
+ 674750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 767250, now got 0 active
+ 674750: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 674750: system.mem_ctrls: Access to 0, ready at 764750 next burst at 751000.
+ 674750: system.mem_ctrls: new burst ready time: 764750, entry time: 528500
+ 674750: system.mem_ctrls: respQueue len: 16
+ 723500: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 723500: system.mem_ctrls: Fixed Service Request
+ 723500: system.mem_ctrls: Did not find real request, issuing fake request
+ 723500: system.mem_ctrls: Removing burstTick for 690000
+ 723500: system.mem_ctrls: Removing burstTick for 680000
+ 723500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 723500: system.mem_ctrls.dram: Activate at tick 781000
+ 723500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 781000, now got 1 active
+ 723500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 794750
+ 723500: system.mem_ctrls.dram: New ready time: 813500
+ 723500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 816000, now got 0 active
+ 723500: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 723500: system.mem_ctrls: Access to 0, ready at 813500 next burst at 799750.
+ 723500: system.mem_ctrls: new burst ready time: 813500, entry time: 723500
+ 723500: system.mem_ctrls: respQueue len: 17
+ 772250: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 772250: system.mem_ctrls: Fixed Service Request
+ 772250: system.mem_ctrls: Issuing real request
+ 772250: system.mem_ctrls: Removing burstTick for 740000
+ 772250: system.mem_ctrls: Removing burstTick for 730000
+ 772250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 772250: system.mem_ctrls.dram: Activate at tick 829750
+ 772250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 829750, now got 1 active
+ 772250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 843500
+ 772250: system.mem_ctrls.dram: New ready time: 862250
+ 772250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 864750, now got 0 active
+ 772250: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 772250: system.mem_ctrls: Access to 0, ready at 862250 next burst at 848500.
+ 772250: system.mem_ctrls: new burst ready time: 862250, entry time: 626000
+ 772250: system.mem_ctrls: respQueue len: 18
+ 821000: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 821000: system.mem_ctrls: Fixed Service Request
+ 821000: system.mem_ctrls: Did not find real request, issuing fake request
+ 821000: system.mem_ctrls: Removing burstTick for 820000
+ 821000: system.mem_ctrls: Removing burstTick for 790000
+ 821000: system.mem_ctrls: Removing burstTick for 780000
+ 821000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 821000: system.mem_ctrls.dram: Activate at tick 878500
+ 821000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 878500, now got 1 active
+ 821000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 892250
+ 821000: system.mem_ctrls.dram: New ready time: 911000
+ 821000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 913500, now got 0 active
+ 821000: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 821000: system.mem_ctrls: Access to 0, ready at 911000 next burst at 897250.
+ 821000: system.mem_ctrls: new burst ready time: 911000, entry time: 821000
+ 821000: system.mem_ctrls: respQueue len: 19
+ 869750: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 869750: system.mem_ctrls: Fixed Service Request
+ 869750: system.mem_ctrls: Issuing real request
+ 869750: system.mem_ctrls: Removing burstTick for 840000
+ 869750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 869750: system.mem_ctrls.dram: Activate at tick 927250
+ 869750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 927250, now got 1 active
+ 869750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 941000
+ 869750: system.mem_ctrls.dram: New ready time: 959750
+ 869750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 962250, now got 0 active
+ 869750: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 869750: system.mem_ctrls: Access to 0, ready at 959750 next burst at 946000.
+ 869750: system.mem_ctrls: new burst ready time: 959750, entry time: 723500
+ 869750: system.mem_ctrls: respQueue len: 20
+ 918500: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 918500: system.mem_ctrls: Fixed Service Request
+ 918500: system.mem_ctrls: Did not find real request, issuing fake request
+ 918500: system.mem_ctrls: Removing burstTick for 890000
+ 918500: system.mem_ctrls: Removing burstTick for 870000
+ 918500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 918500: system.mem_ctrls.dram: Activate at tick 976000
+ 918500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 976000, now got 1 active
+ 918500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 989750
+ 918500: system.mem_ctrls.dram: New ready time: 1008500
+ 918500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1011000, now got 0 active
+ 918500: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 918500: system.mem_ctrls: Access to 0, ready at 1008500 next burst at 994750.
+ 918500: system.mem_ctrls: new burst ready time: 1008500, entry time: 918500
+ 918500: system.mem_ctrls: respQueue len: 21
+ 967250: system.mem_ctrls: QoS Turnarounds selected state READ 
+ 967250: system.mem_ctrls: Fixed Service Request
+ 967250: system.mem_ctrls: Issuing real request
+ 967250: system.mem_ctrls: Removing burstTick for 940000
+ 967250: system.mem_ctrls: Removing burstTick for 920000
+ 967250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+ 967250: system.mem_ctrls.dram: Activate at tick 1024750
+ 967250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1024750, now got 1 active
+ 967250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1038500
+ 967250: system.mem_ctrls.dram: New ready time: 1057250
+ 967250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1059750, now got 0 active
+ 967250: system.mem_ctrls.dram: Auto-precharged bank: 0
+ 967250: system.mem_ctrls: Access to 0, ready at 1057250 next burst at 1043500.
+ 967250: system.mem_ctrls: new burst ready time: 1057250, entry time: 821000
+ 967250: system.mem_ctrls: respQueue len: 22
+1016000: system.mem_ctrls: QoS Turnarounds selected state READ 
+1016000: system.mem_ctrls: Fixed Service Request
+1016000: system.mem_ctrls: Did not find real request, issuing fake request
+1016000: system.mem_ctrls: Removing burstTick for 980000
+1016000: system.mem_ctrls: Removing burstTick for 970000
+1016000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1016000: system.mem_ctrls.dram: Activate at tick 1073500
+1016000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1073500, now got 1 active
+1016000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1087250
+1016000: system.mem_ctrls.dram: New ready time: 1106000
+1016000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1108500, now got 0 active
+1016000: system.mem_ctrls.dram: Auto-precharged bank: 0
+1016000: system.mem_ctrls: Access to 0, ready at 1106000 next burst at 1092250.
+1016000: system.mem_ctrls: new burst ready time: 1106000, entry time: 1016000
+1016000: system.mem_ctrls: respQueue len: 23
+1064750: system.mem_ctrls: QoS Turnarounds selected state READ 
+1064750: system.mem_ctrls: Fixed Service Request
+1064750: system.mem_ctrls: Issuing real request
+1064750: system.mem_ctrls: Removing burstTick for 1030000
+1064750: system.mem_ctrls: Removing burstTick for 1020000
+1064750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1064750: system.mem_ctrls.dram: Activate at tick 1122250
+1064750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1122250, now got 1 active
+1064750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1136000
+1064750: system.mem_ctrls.dram: New ready time: 1154750
+1064750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1157250, now got 0 active
+1064750: system.mem_ctrls.dram: Auto-precharged bank: 0
+1064750: system.mem_ctrls: Access to 0, ready at 1154750 next burst at 1141000.
+1064750: system.mem_ctrls: new burst ready time: 1154750, entry time: 918500
+1064750: system.mem_ctrls: respQueue len: 24
+1113500: system.mem_ctrls: QoS Turnarounds selected state READ 
+1113500: system.mem_ctrls: Fixed Service Request
+1113500: system.mem_ctrls: Did not find real request, issuing fake request
+1113500: system.mem_ctrls: Removing burstTick for 1080000
+1113500: system.mem_ctrls: Removing burstTick for 1070000
+1113500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1113500: system.mem_ctrls.dram: Activate at tick 1171000
+1113500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1171000, now got 1 active
+1113500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1184750
+1113500: system.mem_ctrls.dram: New ready time: 1203500
+1113500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1206000, now got 0 active
+1113500: system.mem_ctrls.dram: Auto-precharged bank: 0
+1113500: system.mem_ctrls: Access to 0, ready at 1203500 next burst at 1189750.
+1113500: system.mem_ctrls: new burst ready time: 1203500, entry time: 1113500
+1113500: system.mem_ctrls: respQueue len: 25
+1162250: system.mem_ctrls: QoS Turnarounds selected state READ 
+1162250: system.mem_ctrls: Fixed Service Request
+1162250: system.mem_ctrls: Issuing real request
+1162250: system.mem_ctrls: Removing burstTick for 1130000
+1162250: system.mem_ctrls: Removing burstTick for 1120000
+1162250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1162250: system.mem_ctrls.dram: Activate at tick 1219750
+1162250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1219750, now got 1 active
+1162250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1233500
+1162250: system.mem_ctrls.dram: New ready time: 1252250
+1162250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1254750, now got 0 active
+1162250: system.mem_ctrls.dram: Auto-precharged bank: 0
+1162250: system.mem_ctrls: Access to 0, ready at 1252250 next burst at 1238500.
+1162250: system.mem_ctrls: new burst ready time: 1252250, entry time: 1016000
+1162250: system.mem_ctrls: respQueue len: 26
+1211000: system.mem_ctrls: QoS Turnarounds selected state READ 
+1211000: system.mem_ctrls: Fixed Service Request
+1211000: system.mem_ctrls: Did not find real request, issuing fake request
+1211000: system.mem_ctrls: Removing burstTick for 1210000
+1211000: system.mem_ctrls: Removing burstTick for 1180000
+1211000: system.mem_ctrls: Removing burstTick for 1170000
+1211000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1211000: system.mem_ctrls.dram: Activate at tick 1268500
+1211000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1268500, now got 1 active
+1211000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1282250
+1211000: system.mem_ctrls.dram: New ready time: 1301000
+1211000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1303500, now got 0 active
+1211000: system.mem_ctrls.dram: Auto-precharged bank: 0
+1211000: system.mem_ctrls: Access to 0, ready at 1301000 next burst at 1287250.
+1211000: system.mem_ctrls: new burst ready time: 1301000, entry time: 1211000
+1211000: system.mem_ctrls: respQueue len: 27
+1259750: system.mem_ctrls: QoS Turnarounds selected state READ 
+1259750: system.mem_ctrls: Fixed Service Request
+1259750: system.mem_ctrls: Issuing real request
+1259750: system.mem_ctrls: Removing burstTick for 1230000
+1259750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1259750: system.mem_ctrls.dram: Activate at tick 1317250
+1259750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1317250, now got 1 active
+1259750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1331000
+1259750: system.mem_ctrls.dram: New ready time: 1349750
+1259750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1352250, now got 0 active
+1259750: system.mem_ctrls.dram: Auto-precharged bank: 0
+1259750: system.mem_ctrls: Access to 0, ready at 1349750 next burst at 1336000.
+1259750: system.mem_ctrls: new burst ready time: 1349750, entry time: 1113500
+1259750: system.mem_ctrls: respQueue len: 28
+1308500: system.mem_ctrls: QoS Turnarounds selected state READ 
+1308500: system.mem_ctrls: Fixed Service Request
+1308500: system.mem_ctrls: Did not find real request, issuing fake request
+1308500: system.mem_ctrls: Removing burstTick for 1280000
+1308500: system.mem_ctrls: Removing burstTick for 1260000
+1308500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1308500: system.mem_ctrls.dram: Activate at tick 1366000
+1308500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1366000, now got 1 active
+1308500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1379750
+1308500: system.mem_ctrls.dram: New ready time: 1398500
+1308500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1401000, now got 0 active
+1308500: system.mem_ctrls.dram: Auto-precharged bank: 0
+1308500: system.mem_ctrls: Access to 0, ready at 1398500 next burst at 1384750.
+1308500: system.mem_ctrls: new burst ready time: 1398500, entry time: 1308500
+1308500: system.mem_ctrls: respQueue len: 29
+1357250: system.mem_ctrls: QoS Turnarounds selected state READ 
+1357250: system.mem_ctrls: Fixed Service Request
+1357250: system.mem_ctrls: Issuing real request
+1357250: system.mem_ctrls: Removing burstTick for 1330000
+1357250: system.mem_ctrls: Removing burstTick for 1310000
+1357250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1357250: system.mem_ctrls.dram: Activate at tick 1414750
+1357250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1414750, now got 1 active
+1357250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1428500
+1357250: system.mem_ctrls.dram: New ready time: 1447250
+1357250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1449750, now got 0 active
+1357250: system.mem_ctrls.dram: Auto-precharged bank: 0
+1357250: system.mem_ctrls: Access to 0, ready at 1447250 next burst at 1433500.
+1357250: system.mem_ctrls: new burst ready time: 1447250, entry time: 1211000
+1357250: system.mem_ctrls: respQueue len: 30
+1406000: system.mem_ctrls: QoS Turnarounds selected state READ 
+1406000: system.mem_ctrls: Fixed Service Request
+1406000: system.mem_ctrls: Did not find real request, issuing fake request
+1406000: system.mem_ctrls: Removing burstTick for 1370000
+1406000: system.mem_ctrls: Removing burstTick for 1360000
+1406000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1406000: system.mem_ctrls.dram: Activate at tick 1463500
+1406000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1463500, now got 1 active
+1406000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1477250
+1406000: system.mem_ctrls.dram: New ready time: 1496000
+1406000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1498500, now got 0 active
+1406000: system.mem_ctrls.dram: Auto-precharged bank: 0
+1406000: system.mem_ctrls: Access to 0, ready at 1496000 next burst at 1482250.
+1406000: system.mem_ctrls: new burst ready time: 1496000, entry time: 1406000
+1406000: system.mem_ctrls: respQueue len: 31
+1454750: system.mem_ctrls: QoS Turnarounds selected state READ 
+1454750: system.mem_ctrls: Fixed Service Request
+1454750: system.mem_ctrls: Issuing real request
+1454750: system.mem_ctrls: Removing burstTick for 1420000
+1454750: system.mem_ctrls: Removing burstTick for 1410000
+1454750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1454750: system.mem_ctrls.dram: Activate at tick 1512250
+1454750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1512250, now got 1 active
+1454750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1526000
+1454750: system.mem_ctrls.dram: New ready time: 1544750
+1454750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1547250, now got 0 active
+1454750: system.mem_ctrls.dram: Auto-precharged bank: 0
+1454750: system.mem_ctrls: Access to 0, ready at 1544750 next burst at 1531000.
+1454750: system.mem_ctrls: new burst ready time: 1544750, entry time: 1308500
+1454750: system.mem_ctrls: respQueue len: 32
+1503500: system.mem_ctrls: QoS Turnarounds selected state READ 
+1503500: system.mem_ctrls: Fixed Service Request
+1503500: system.mem_ctrls: Did not find real request, issuing fake request
+1503500: system.mem_ctrls: Removing burstTick for 1470000
+1503500: system.mem_ctrls: Removing burstTick for 1460000
+1503500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1503500: system.mem_ctrls.dram: Activate at tick 1561000
+1503500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1561000, now got 1 active
+1503500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1574750
+1503500: system.mem_ctrls.dram: New ready time: 1593500
+1503500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1596000, now got 0 active
+1503500: system.mem_ctrls.dram: Auto-precharged bank: 0
+1503500: system.mem_ctrls: Access to 0, ready at 1593500 next burst at 1579750.
+1503500: system.mem_ctrls: new burst ready time: 1593500, entry time: 1503500
+1503500: system.mem_ctrls: respQueue len: 33
+1552250: system.mem_ctrls: QoS Turnarounds selected state READ 
+1552250: system.mem_ctrls: Fixed Service Request
+1552250: system.mem_ctrls: Issuing real request
+1552250: system.mem_ctrls: Removing burstTick for 1520000
+1552250: system.mem_ctrls: Removing burstTick for 1510000
+1552250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1552250: system.mem_ctrls.dram: Activate at tick 1609750
+1552250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1609750, now got 1 active
+1552250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1623500
+1552250: system.mem_ctrls.dram: New ready time: 1642250
+1552250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1644750, now got 0 active
+1552250: system.mem_ctrls.dram: Auto-precharged bank: 0
+1552250: system.mem_ctrls: Access to 0, ready at 1642250 next burst at 1628500.
+1552250: system.mem_ctrls: new burst ready time: 1642250, entry time: 1406000
+1552250: system.mem_ctrls: respQueue len: 34
+1601000: system.mem_ctrls: QoS Turnarounds selected state READ 
+1601000: system.mem_ctrls: Fixed Service Request
+1601000: system.mem_ctrls: Did not find real request, issuing fake request
+1601000: system.mem_ctrls: Removing burstTick for 1600000
+1601000: system.mem_ctrls: Removing burstTick for 1570000
+1601000: system.mem_ctrls: Removing burstTick for 1560000
+1601000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1601000: system.mem_ctrls.dram: Activate at tick 1658500
+1601000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1658500, now got 1 active
+1601000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1672250
+1601000: system.mem_ctrls.dram: New ready time: 1691000
+1601000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1693500, now got 0 active
+1601000: system.mem_ctrls.dram: Auto-precharged bank: 0
+1601000: system.mem_ctrls: Access to 0, ready at 1691000 next burst at 1677250.
+1601000: system.mem_ctrls: new burst ready time: 1691000, entry time: 1601000
+1601000: system.mem_ctrls: respQueue len: 35
+1649750: system.mem_ctrls: QoS Turnarounds selected state READ 
+1649750: system.mem_ctrls: Fixed Service Request
+1649750: system.mem_ctrls: Issuing real request
+1649750: system.mem_ctrls: Removing burstTick for 1620000
+1649750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1649750: system.mem_ctrls.dram: Activate at tick 1707250
+1649750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1707250, now got 1 active
+1649750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1721000
+1649750: system.mem_ctrls.dram: New ready time: 1739750
+1649750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1742250, now got 0 active
+1649750: system.mem_ctrls.dram: Auto-precharged bank: 0
+1649750: system.mem_ctrls: Access to 0, ready at 1739750 next burst at 1726000.
+1649750: system.mem_ctrls: new burst ready time: 1739750, entry time: 1503500
+1649750: system.mem_ctrls: respQueue len: 36
+1698500: system.mem_ctrls: QoS Turnarounds selected state READ 
+1698500: system.mem_ctrls: Fixed Service Request
+1698500: system.mem_ctrls: Did not find real request, issuing fake request
+1698500: system.mem_ctrls: Removing burstTick for 1670000
+1698500: system.mem_ctrls: Removing burstTick for 1650000
+1698500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1698500: system.mem_ctrls.dram: Activate at tick 1756000
+1698500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1756000, now got 1 active
+1698500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1769750
+1698500: system.mem_ctrls.dram: New ready time: 1788500
+1698500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1791000, now got 0 active
+1698500: system.mem_ctrls.dram: Auto-precharged bank: 0
+1698500: system.mem_ctrls: Access to 0, ready at 1788500 next burst at 1774750.
+1698500: system.mem_ctrls: new burst ready time: 1788500, entry time: 1698500
+1698500: system.mem_ctrls: respQueue len: 37
+1747250: system.mem_ctrls: QoS Turnarounds selected state READ 
+1747250: system.mem_ctrls: Fixed Service Request
+1747250: system.mem_ctrls: Issuing real request
+1747250: system.mem_ctrls: Removing burstTick for 1720000
+1747250: system.mem_ctrls: Removing burstTick for 1700000
+1747250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1747250: system.mem_ctrls.dram: Activate at tick 1804750
+1747250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1804750, now got 1 active
+1747250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1818500
+1747250: system.mem_ctrls.dram: New ready time: 1837250
+1747250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1839750, now got 0 active
+1747250: system.mem_ctrls.dram: Auto-precharged bank: 0
+1747250: system.mem_ctrls: Access to 0, ready at 1837250 next burst at 1823500.
+1747250: system.mem_ctrls: new burst ready time: 1837250, entry time: 1601000
+1747250: system.mem_ctrls: respQueue len: 38
+1796000: system.mem_ctrls: QoS Turnarounds selected state READ 
+1796000: system.mem_ctrls: Fixed Service Request
+1796000: system.mem_ctrls: Did not find real request, issuing fake request
+1796000: system.mem_ctrls: Removing burstTick for 1760000
+1796000: system.mem_ctrls: Removing burstTick for 1750000
+1796000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1796000: system.mem_ctrls.dram: Activate at tick 1853500
+1796000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1853500, now got 1 active
+1796000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1867250
+1796000: system.mem_ctrls.dram: New ready time: 1886000
+1796000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1888500, now got 0 active
+1796000: system.mem_ctrls.dram: Auto-precharged bank: 0
+1796000: system.mem_ctrls: Access to 0, ready at 1886000 next burst at 1872250.
+1796000: system.mem_ctrls: new burst ready time: 1886000, entry time: 1796000
+1796000: system.mem_ctrls: respQueue len: 39
+1844750: system.mem_ctrls: QoS Turnarounds selected state READ 
+1844750: system.mem_ctrls: Fixed Service Request
+1844750: system.mem_ctrls: Issuing real request
+1844750: system.mem_ctrls: Removing burstTick for 1810000
+1844750: system.mem_ctrls: Removing burstTick for 1800000
+1844750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1844750: system.mem_ctrls.dram: Activate at tick 1902250
+1844750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1902250, now got 1 active
+1844750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1916000
+1844750: system.mem_ctrls.dram: New ready time: 1934750
+1844750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1937250, now got 0 active
+1844750: system.mem_ctrls.dram: Auto-precharged bank: 0
+1844750: system.mem_ctrls: Access to 0, ready at 1934750 next burst at 1921000.
+1844750: system.mem_ctrls: new burst ready time: 1934750, entry time: 1698500
+1844750: system.mem_ctrls: respQueue len: 40
+1893500: system.mem_ctrls: QoS Turnarounds selected state READ 
+1893500: system.mem_ctrls: Fixed Service Request
+1893500: system.mem_ctrls: Did not find real request, issuing fake request
+1893500: system.mem_ctrls: Removing burstTick for 1860000
+1893500: system.mem_ctrls: Removing burstTick for 1850000
+1893500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1893500: system.mem_ctrls.dram: Activate at tick 1951000
+1893500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1951000, now got 1 active
+1893500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 1964750
+1893500: system.mem_ctrls.dram: New ready time: 1983500
+1893500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 1986000, now got 0 active
+1893500: system.mem_ctrls.dram: Auto-precharged bank: 0
+1893500: system.mem_ctrls: Access to 0, ready at 1983500 next burst at 1969750.
+1893500: system.mem_ctrls: new burst ready time: 1983500, entry time: 1893500
+1893500: system.mem_ctrls: respQueue len: 41
+1942250: system.mem_ctrls: QoS Turnarounds selected state READ 
+1942250: system.mem_ctrls: Fixed Service Request
+1942250: system.mem_ctrls: Issuing real request
+1942250: system.mem_ctrls: Removing burstTick for 1910000
+1942250: system.mem_ctrls: Removing burstTick for 1900000
+1942250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1942250: system.mem_ctrls.dram: Activate at tick 1999750
+1942250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 1999750, now got 1 active
+1942250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2013500
+1942250: system.mem_ctrls.dram: New ready time: 2032250
+1942250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2034750, now got 0 active
+1942250: system.mem_ctrls.dram: Auto-precharged bank: 0
+1942250: system.mem_ctrls: Access to 0, ready at 2032250 next burst at 2018500.
+1942250: system.mem_ctrls: new burst ready time: 2032250, entry time: 1796000
+1942250: system.mem_ctrls: respQueue len: 42
+1991000: system.mem_ctrls: QoS Turnarounds selected state READ 
+1991000: system.mem_ctrls: Fixed Service Request
+1991000: system.mem_ctrls: Did not find real request, issuing fake request
+1991000: system.mem_ctrls: Removing burstTick for 1990000
+1991000: system.mem_ctrls: Removing burstTick for 1960000
+1991000: system.mem_ctrls: Removing burstTick for 1950000
+1991000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+1991000: system.mem_ctrls.dram: Activate at tick 2048500
+1991000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2048500, now got 1 active
+1991000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2062250
+1991000: system.mem_ctrls.dram: New ready time: 2081000
+1991000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2083500, now got 0 active
+1991000: system.mem_ctrls.dram: Auto-precharged bank: 0
+1991000: system.mem_ctrls: Access to 0, ready at 2081000 next burst at 2067250.
+1991000: system.mem_ctrls: new burst ready time: 2081000, entry time: 1991000
+1991000: system.mem_ctrls: respQueue len: 43
+2039750: system.mem_ctrls: QoS Turnarounds selected state READ 
+2039750: system.mem_ctrls: Fixed Service Request
+2039750: system.mem_ctrls: Issuing real request
+2039750: system.mem_ctrls: Removing burstTick for 2010000
+2039750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2039750: system.mem_ctrls.dram: Activate at tick 2097250
+2039750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2097250, now got 1 active
+2039750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2111000
+2039750: system.mem_ctrls.dram: New ready time: 2129750
+2039750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2132250, now got 0 active
+2039750: system.mem_ctrls.dram: Auto-precharged bank: 0
+2039750: system.mem_ctrls: Access to 0, ready at 2129750 next burst at 2116000.
+2039750: system.mem_ctrls: new burst ready time: 2129750, entry time: 1893500
+2039750: system.mem_ctrls: respQueue len: 44
+2088500: system.mem_ctrls: QoS Turnarounds selected state READ 
+2088500: system.mem_ctrls: Fixed Service Request
+2088500: system.mem_ctrls: Did not find real request, issuing fake request
+2088500: system.mem_ctrls: Removing burstTick for 2060000
+2088500: system.mem_ctrls: Removing burstTick for 2040000
+2088500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2088500: system.mem_ctrls.dram: Activate at tick 2146000
+2088500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2146000, now got 1 active
+2088500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2159750
+2088500: system.mem_ctrls.dram: New ready time: 2178500
+2088500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2181000, now got 0 active
+2088500: system.mem_ctrls.dram: Auto-precharged bank: 0
+2088500: system.mem_ctrls: Access to 0, ready at 2178500 next burst at 2164750.
+2088500: system.mem_ctrls: new burst ready time: 2178500, entry time: 2088500
+2088500: system.mem_ctrls: respQueue len: 45
+2137250: system.mem_ctrls: QoS Turnarounds selected state READ 
+2137250: system.mem_ctrls: Fixed Service Request
+2137250: system.mem_ctrls: Issuing real request
+2137250: system.mem_ctrls: Removing burstTick for 2110000
+2137250: system.mem_ctrls: Removing burstTick for 2090000
+2137250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2137250: system.mem_ctrls.dram: Activate at tick 2194750
+2137250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2194750, now got 1 active
+2137250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2208500
+2137250: system.mem_ctrls.dram: New ready time: 2227250
+2137250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2229750, now got 0 active
+2137250: system.mem_ctrls.dram: Auto-precharged bank: 0
+2137250: system.mem_ctrls: Access to 0, ready at 2227250 next burst at 2213500.
+2137250: system.mem_ctrls: new burst ready time: 2227250, entry time: 1991000
+2137250: system.mem_ctrls: respQueue len: 46
+2186000: system.mem_ctrls: QoS Turnarounds selected state READ 
+2186000: system.mem_ctrls: Fixed Service Request
+2186000: system.mem_ctrls: Did not find real request, issuing fake request
+2186000: system.mem_ctrls: Removing burstTick for 2150000
+2186000: system.mem_ctrls: Removing burstTick for 2140000
+2186000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2186000: system.mem_ctrls.dram: Activate at tick 2243500
+2186000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2243500, now got 1 active
+2186000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2257250
+2186000: system.mem_ctrls.dram: New ready time: 2276000
+2186000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2278500, now got 0 active
+2186000: system.mem_ctrls.dram: Auto-precharged bank: 0
+2186000: system.mem_ctrls: Access to 0, ready at 2276000 next burst at 2262250.
+2186000: system.mem_ctrls: new burst ready time: 2276000, entry time: 2186000
+2186000: system.mem_ctrls: respQueue len: 47
+2234750: system.mem_ctrls: QoS Turnarounds selected state READ 
+2234750: system.mem_ctrls: Fixed Service Request
+2234750: system.mem_ctrls: Issuing real request
+2234750: system.mem_ctrls: Removing burstTick for 2200000
+2234750: system.mem_ctrls: Removing burstTick for 2190000
+2234750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2234750: system.mem_ctrls.dram: Activate at tick 2292250
+2234750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2292250, now got 1 active
+2234750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2306000
+2234750: system.mem_ctrls.dram: New ready time: 2324750
+2234750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2327250, now got 0 active
+2234750: system.mem_ctrls.dram: Auto-precharged bank: 0
+2234750: system.mem_ctrls: Access to 0, ready at 2324750 next burst at 2311000.
+2234750: system.mem_ctrls: new burst ready time: 2324750, entry time: 2088500
+2234750: system.mem_ctrls: respQueue len: 48
+2283500: system.mem_ctrls: QoS Turnarounds selected state READ 
+2283500: system.mem_ctrls: Fixed Service Request
+2283500: system.mem_ctrls: Did not find real request, issuing fake request
+2283500: system.mem_ctrls: Removing burstTick for 2250000
+2283500: system.mem_ctrls: Removing burstTick for 2240000
+2283500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2283500: system.mem_ctrls.dram: Activate at tick 2341000
+2283500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2341000, now got 1 active
+2283500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2354750
+2283500: system.mem_ctrls.dram: New ready time: 2373500
+2283500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2376000, now got 0 active
+2283500: system.mem_ctrls.dram: Auto-precharged bank: 0
+2283500: system.mem_ctrls: Access to 0, ready at 2373500 next burst at 2359750.
+2283500: system.mem_ctrls: new burst ready time: 2373500, entry time: 2283500
+2283500: system.mem_ctrls: respQueue len: 49
+2332250: system.mem_ctrls: QoS Turnarounds selected state READ 
+2332250: system.mem_ctrls: Fixed Service Request
+2332250: system.mem_ctrls: Issuing real request
+2332250: system.mem_ctrls: Removing burstTick for 2300000
+2332250: system.mem_ctrls: Removing burstTick for 2290000
+2332250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2332250: system.mem_ctrls.dram: Activate at tick 2389750
+2332250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2389750, now got 1 active
+2332250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2403500
+2332250: system.mem_ctrls.dram: New ready time: 2422250
+2332250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2424750, now got 0 active
+2332250: system.mem_ctrls.dram: Auto-precharged bank: 0
+2332250: system.mem_ctrls: Access to 0, ready at 2422250 next burst at 2408500.
+2332250: system.mem_ctrls: new burst ready time: 2422250, entry time: 2186000
+2332250: system.mem_ctrls: respQueue len: 50
+2381000: system.mem_ctrls: QoS Turnarounds selected state READ 
+2381000: system.mem_ctrls: Fixed Service Request
+2381000: system.mem_ctrls: Did not find real request, issuing fake request
+2381000: system.mem_ctrls: Removing burstTick for 2380000
+2381000: system.mem_ctrls: Removing burstTick for 2350000
+2381000: system.mem_ctrls: Removing burstTick for 2340000
+2381000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2381000: system.mem_ctrls.dram: Activate at tick 2438500
+2381000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2438500, now got 1 active
+2381000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2452250
+2381000: system.mem_ctrls.dram: New ready time: 2471000
+2381000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2473500, now got 0 active
+2381000: system.mem_ctrls.dram: Auto-precharged bank: 0
+2381000: system.mem_ctrls: Access to 0, ready at 2471000 next burst at 2457250.
+2381000: system.mem_ctrls: new burst ready time: 2471000, entry time: 2381000
+2381000: system.mem_ctrls: respQueue len: 51
+2429750: system.mem_ctrls: QoS Turnarounds selected state READ 
+2429750: system.mem_ctrls: Fixed Service Request
+2429750: system.mem_ctrls: Issuing real request
+2429750: system.mem_ctrls: Removing burstTick for 2400000
+2429750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2429750: system.mem_ctrls.dram: Activate at tick 2487250
+2429750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2487250, now got 1 active
+2429750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2501000
+2429750: system.mem_ctrls.dram: New ready time: 2519750
+2429750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2522250, now got 0 active
+2429750: system.mem_ctrls.dram: Auto-precharged bank: 0
+2429750: system.mem_ctrls: Access to 0, ready at 2519750 next burst at 2506000.
+2429750: system.mem_ctrls: new burst ready time: 2519750, entry time: 2283500
+2429750: system.mem_ctrls: respQueue len: 52
+2478500: system.mem_ctrls: QoS Turnarounds selected state READ 
+2478500: system.mem_ctrls: Fixed Service Request
+2478500: system.mem_ctrls: Did not find real request, issuing fake request
+2478500: system.mem_ctrls: Removing burstTick for 2450000
+2478500: system.mem_ctrls: Removing burstTick for 2430000
+2478500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2478500: system.mem_ctrls.dram: Activate at tick 2536000
+2478500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2536000, now got 1 active
+2478500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2549750
+2478500: system.mem_ctrls.dram: New ready time: 2568500
+2478500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2571000, now got 0 active
+2478500: system.mem_ctrls.dram: Auto-precharged bank: 0
+2478500: system.mem_ctrls: Access to 0, ready at 2568500 next burst at 2554750.
+2478500: system.mem_ctrls: new burst ready time: 2568500, entry time: 2478500
+2478500: system.mem_ctrls: respQueue len: 53
+2527250: system.mem_ctrls: QoS Turnarounds selected state READ 
+2527250: system.mem_ctrls: Fixed Service Request
+2527250: system.mem_ctrls: Issuing real request
+2527250: system.mem_ctrls: Removing burstTick for 2500000
+2527250: system.mem_ctrls: Removing burstTick for 2480000
+2527250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2527250: system.mem_ctrls.dram: Activate at tick 2584750
+2527250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2584750, now got 1 active
+2527250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2598500
+2527250: system.mem_ctrls.dram: New ready time: 2617250
+2527250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2619750, now got 0 active
+2527250: system.mem_ctrls.dram: Auto-precharged bank: 0
+2527250: system.mem_ctrls: Access to 0, ready at 2617250 next burst at 2603500.
+2527250: system.mem_ctrls: new burst ready time: 2617250, entry time: 2381000
+2527250: system.mem_ctrls: respQueue len: 54
+2576000: system.mem_ctrls: QoS Turnarounds selected state READ 
+2576000: system.mem_ctrls: Fixed Service Request
+2576000: system.mem_ctrls: Did not find real request, issuing fake request
+2576000: system.mem_ctrls: Removing burstTick for 2540000
+2576000: system.mem_ctrls: Removing burstTick for 2530000
+2576000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2576000: system.mem_ctrls.dram: Activate at tick 2633500
+2576000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2633500, now got 1 active
+2576000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2647250
+2576000: system.mem_ctrls.dram: New ready time: 2666000
+2576000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2668500, now got 0 active
+2576000: system.mem_ctrls.dram: Auto-precharged bank: 0
+2576000: system.mem_ctrls: Access to 0, ready at 2666000 next burst at 2652250.
+2576000: system.mem_ctrls: new burst ready time: 2666000, entry time: 2576000
+2576000: system.mem_ctrls: respQueue len: 55
+2624750: system.mem_ctrls: QoS Turnarounds selected state READ 
+2624750: system.mem_ctrls: Fixed Service Request
+2624750: system.mem_ctrls: Issuing real request
+2624750: system.mem_ctrls: Removing burstTick for 2590000
+2624750: system.mem_ctrls: Removing burstTick for 2580000
+2624750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2624750: system.mem_ctrls.dram: Activate at tick 2682250
+2624750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2682250, now got 1 active
+2624750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2696000
+2624750: system.mem_ctrls.dram: New ready time: 2714750
+2624750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2717250, now got 0 active
+2624750: system.mem_ctrls.dram: Auto-precharged bank: 0
+2624750: system.mem_ctrls: Access to 0, ready at 2714750 next burst at 2701000.
+2624750: system.mem_ctrls: new burst ready time: 2714750, entry time: 2478500
+2624750: system.mem_ctrls: respQueue len: 56
+2673500: system.mem_ctrls: QoS Turnarounds selected state READ 
+2673500: system.mem_ctrls: Fixed Service Request
+2673500: system.mem_ctrls: Did not find real request, issuing fake request
+2673500: system.mem_ctrls: Removing burstTick for 2640000
+2673500: system.mem_ctrls: Removing burstTick for 2630000
+2673500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2673500: system.mem_ctrls.dram: Activate at tick 2731000
+2673500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2731000, now got 1 active
+2673500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2744750
+2673500: system.mem_ctrls.dram: New ready time: 2763500
+2673500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2766000, now got 0 active
+2673500: system.mem_ctrls.dram: Auto-precharged bank: 0
+2673500: system.mem_ctrls: Access to 0, ready at 2763500 next burst at 2749750.
+2673500: system.mem_ctrls: new burst ready time: 2763500, entry time: 2673500
+2673500: system.mem_ctrls: respQueue len: 57
+2722250: system.mem_ctrls: QoS Turnarounds selected state READ 
+2722250: system.mem_ctrls: Fixed Service Request
+2722250: system.mem_ctrls: Issuing real request
+2722250: system.mem_ctrls: Removing burstTick for 2690000
+2722250: system.mem_ctrls: Removing burstTick for 2680000
+2722250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2722250: system.mem_ctrls.dram: Activate at tick 2779750
+2722250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2779750, now got 1 active
+2722250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2793500
+2722250: system.mem_ctrls.dram: New ready time: 2812250
+2722250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2814750, now got 0 active
+2722250: system.mem_ctrls.dram: Auto-precharged bank: 0
+2722250: system.mem_ctrls: Access to 0, ready at 2812250 next burst at 2798500.
+2722250: system.mem_ctrls: new burst ready time: 2812250, entry time: 2576000
+2722250: system.mem_ctrls: respQueue len: 58
+2771000: system.mem_ctrls: QoS Turnarounds selected state READ 
+2771000: system.mem_ctrls: Fixed Service Request
+2771000: system.mem_ctrls: Did not find real request, issuing fake request
+2771000: system.mem_ctrls: Removing burstTick for 2770000
+2771000: system.mem_ctrls: Removing burstTick for 2740000
+2771000: system.mem_ctrls: Removing burstTick for 2730000
+2771000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2771000: system.mem_ctrls.dram: Activate at tick 2828500
+2771000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2828500, now got 1 active
+2771000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2842250
+2771000: system.mem_ctrls.dram: New ready time: 2861000
+2771000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2863500, now got 0 active
+2771000: system.mem_ctrls.dram: Auto-precharged bank: 0
+2771000: system.mem_ctrls: Access to 0, ready at 2861000 next burst at 2847250.
+2771000: system.mem_ctrls: new burst ready time: 2861000, entry time: 2771000
+2771000: system.mem_ctrls: respQueue len: 59
+2819750: system.mem_ctrls: QoS Turnarounds selected state READ 
+2819750: system.mem_ctrls: Fixed Service Request
+2819750: system.mem_ctrls: Issuing real request
+2819750: system.mem_ctrls: Removing burstTick for 2790000
+2819750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2819750: system.mem_ctrls.dram: Activate at tick 2877250
+2819750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2877250, now got 1 active
+2819750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2891000
+2819750: system.mem_ctrls.dram: New ready time: 2909750
+2819750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2912250, now got 0 active
+2819750: system.mem_ctrls.dram: Auto-precharged bank: 0
+2819750: system.mem_ctrls: Access to 0, ready at 2909750 next burst at 2896000.
+2819750: system.mem_ctrls: new burst ready time: 2909750, entry time: 2673500
+2819750: system.mem_ctrls: respQueue len: 60
+2868500: system.mem_ctrls: QoS Turnarounds selected state READ 
+2868500: system.mem_ctrls: Fixed Service Request
+2868500: system.mem_ctrls: Did not find real request, issuing fake request
+2868500: system.mem_ctrls: Removing burstTick for 2840000
+2868500: system.mem_ctrls: Removing burstTick for 2820000
+2868500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2868500: system.mem_ctrls.dram: Activate at tick 2926000
+2868500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2926000, now got 1 active
+2868500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2939750
+2868500: system.mem_ctrls.dram: New ready time: 2958500
+2868500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 2961000, now got 0 active
+2868500: system.mem_ctrls.dram: Auto-precharged bank: 0
+2868500: system.mem_ctrls: Access to 0, ready at 2958500 next burst at 2944750.
+2868500: system.mem_ctrls: new burst ready time: 2958500, entry time: 2868500
+2868500: system.mem_ctrls: respQueue len: 61
+2917250: system.mem_ctrls: QoS Turnarounds selected state READ 
+2917250: system.mem_ctrls: Fixed Service Request
+2917250: system.mem_ctrls: Issuing real request
+2917250: system.mem_ctrls: Removing burstTick for 2890000
+2917250: system.mem_ctrls: Removing burstTick for 2870000
+2917250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2917250: system.mem_ctrls.dram: Activate at tick 2974750
+2917250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 2974750, now got 1 active
+2917250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 2988500
+2917250: system.mem_ctrls.dram: New ready time: 3007250
+2917250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3009750, now got 0 active
+2917250: system.mem_ctrls.dram: Auto-precharged bank: 0
+2917250: system.mem_ctrls: Access to 0, ready at 3007250 next burst at 2993500.
+2917250: system.mem_ctrls: new burst ready time: 3007250, entry time: 2771000
+2917250: system.mem_ctrls: respQueue len: 62
+2966000: system.mem_ctrls: QoS Turnarounds selected state READ 
+2966000: system.mem_ctrls: Fixed Service Request
+2966000: system.mem_ctrls: Did not find real request, issuing fake request
+2966000: system.mem_ctrls: Removing burstTick for 2930000
+2966000: system.mem_ctrls: Removing burstTick for 2920000
+2966000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+2966000: system.mem_ctrls.dram: Activate at tick 3023500
+2966000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3023500, now got 1 active
+2966000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3037250
+2966000: system.mem_ctrls.dram: New ready time: 3056000
+2966000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3058500, now got 0 active
+2966000: system.mem_ctrls.dram: Auto-precharged bank: 0
+2966000: system.mem_ctrls: Access to 0, ready at 3056000 next burst at 3042250.
+2966000: system.mem_ctrls: new burst ready time: 3056000, entry time: 2966000
+2966000: system.mem_ctrls: respQueue len: 63
+3014750: system.mem_ctrls: QoS Turnarounds selected state READ 
+3014750: system.mem_ctrls: Fixed Service Request
+3014750: system.mem_ctrls: Issuing real request
+3014750: system.mem_ctrls: Removing burstTick for 2980000
+3014750: system.mem_ctrls: Removing burstTick for 2970000
+3014750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3014750: system.mem_ctrls.dram: Activate at tick 3072250
+3014750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3072250, now got 1 active
+3014750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3086000
+3014750: system.mem_ctrls.dram: New ready time: 3104750
+3014750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3107250, now got 0 active
+3014750: system.mem_ctrls.dram: Auto-precharged bank: 0
+3014750: system.mem_ctrls: Access to 0, ready at 3104750 next burst at 3091000.
+3014750: system.mem_ctrls: new burst ready time: 3104750, entry time: 2868500
+3014750: system.mem_ctrls: respQueue len: 64
+3063500: system.mem_ctrls: QoS Turnarounds selected state READ 
+3063500: system.mem_ctrls: Fixed Service Request
+3063500: system.mem_ctrls: Did not find real request, issuing fake request
+3063500: system.mem_ctrls: Removing burstTick for 3030000
+3063500: system.mem_ctrls: Removing burstTick for 3020000
+3063500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3063500: system.mem_ctrls.dram: Activate at tick 3121000
+3063500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3121000, now got 1 active
+3063500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3134750
+3063500: system.mem_ctrls.dram: New ready time: 3153500
+3063500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3156000, now got 0 active
+3063500: system.mem_ctrls.dram: Auto-precharged bank: 0
+3063500: system.mem_ctrls: Access to 0, ready at 3153500 next burst at 3139750.
+3063500: system.mem_ctrls: new burst ready time: 3153500, entry time: 3063500
+3063500: system.mem_ctrls: respQueue len: 65
+3112250: system.mem_ctrls: QoS Turnarounds selected state READ 
+3112250: system.mem_ctrls: Fixed Service Request
+3112250: system.mem_ctrls: Issuing real request
+3112250: system.mem_ctrls: Removing burstTick for 3080000
+3112250: system.mem_ctrls: Removing burstTick for 3070000
+3112250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3112250: system.mem_ctrls.dram: Activate at tick 3169750
+3112250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3169750, now got 1 active
+3112250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3183500
+3112250: system.mem_ctrls.dram: New ready time: 3202250
+3112250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3204750, now got 0 active
+3112250: system.mem_ctrls.dram: Auto-precharged bank: 0
+3112250: system.mem_ctrls: Access to 0, ready at 3202250 next burst at 3188500.
+3112250: system.mem_ctrls: new burst ready time: 3202250, entry time: 2966000
+3112250: system.mem_ctrls: respQueue len: 66
+3161000: system.mem_ctrls: QoS Turnarounds selected state READ 
+3161000: system.mem_ctrls: Fixed Service Request
+3161000: system.mem_ctrls: Did not find real request, issuing fake request
+3161000: system.mem_ctrls: Removing burstTick for 3160000
+3161000: system.mem_ctrls: Removing burstTick for 3130000
+3161000: system.mem_ctrls: Removing burstTick for 3120000
+3161000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3161000: system.mem_ctrls.dram: Activate at tick 3218500
+3161000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3218500, now got 1 active
+3161000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3232250
+3161000: system.mem_ctrls.dram: New ready time: 3251000
+3161000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3253500, now got 0 active
+3161000: system.mem_ctrls.dram: Auto-precharged bank: 0
+3161000: system.mem_ctrls: Access to 0, ready at 3251000 next burst at 3237250.
+3161000: system.mem_ctrls: new burst ready time: 3251000, entry time: 3161000
+3161000: system.mem_ctrls: respQueue len: 67
+3209750: system.mem_ctrls: QoS Turnarounds selected state READ 
+3209750: system.mem_ctrls: Fixed Service Request
+3209750: system.mem_ctrls: Issuing real request
+3209750: system.mem_ctrls: Removing burstTick for 3180000
+3209750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3209750: system.mem_ctrls.dram: Activate at tick 3267250
+3209750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3267250, now got 1 active
+3209750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3281000
+3209750: system.mem_ctrls.dram: New ready time: 3299750
+3209750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3302250, now got 0 active
+3209750: system.mem_ctrls.dram: Auto-precharged bank: 0
+3209750: system.mem_ctrls: Access to 0, ready at 3299750 next burst at 3286000.
+3209750: system.mem_ctrls: new burst ready time: 3299750, entry time: 3063500
+3209750: system.mem_ctrls: respQueue len: 68
+3258500: system.mem_ctrls: QoS Turnarounds selected state READ 
+3258500: system.mem_ctrls: Fixed Service Request
+3258500: system.mem_ctrls: Did not find real request, issuing fake request
+3258500: system.mem_ctrls: Removing burstTick for 3230000
+3258500: system.mem_ctrls: Removing burstTick for 3210000
+3258500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3258500: system.mem_ctrls.dram: Activate at tick 3316000
+3258500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3316000, now got 1 active
+3258500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3329750
+3258500: system.mem_ctrls.dram: New ready time: 3348500
+3258500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3351000, now got 0 active
+3258500: system.mem_ctrls.dram: Auto-precharged bank: 0
+3258500: system.mem_ctrls: Access to 0, ready at 3348500 next burst at 3334750.
+3258500: system.mem_ctrls: new burst ready time: 3348500, entry time: 3258500
+3258500: system.mem_ctrls: respQueue len: 69
+3307250: system.mem_ctrls: QoS Turnarounds selected state READ 
+3307250: system.mem_ctrls: Fixed Service Request
+3307250: system.mem_ctrls: Issuing real request
+3307250: system.mem_ctrls: Removing burstTick for 3280000
+3307250: system.mem_ctrls: Removing burstTick for 3260000
+3307250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3307250: system.mem_ctrls.dram: Activate at tick 3364750
+3307250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3364750, now got 1 active
+3307250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3378500
+3307250: system.mem_ctrls.dram: New ready time: 3397250
+3307250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3399750, now got 0 active
+3307250: system.mem_ctrls.dram: Auto-precharged bank: 0
+3307250: system.mem_ctrls: Access to 0, ready at 3397250 next burst at 3383500.
+3307250: system.mem_ctrls: new burst ready time: 3397250, entry time: 3161000
+3307250: system.mem_ctrls: respQueue len: 70
+3356000: system.mem_ctrls: QoS Turnarounds selected state READ 
+3356000: system.mem_ctrls: Fixed Service Request
+3356000: system.mem_ctrls: Did not find real request, issuing fake request
+3356000: system.mem_ctrls: Removing burstTick for 3320000
+3356000: system.mem_ctrls: Removing burstTick for 3310000
+3356000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3356000: system.mem_ctrls.dram: Activate at tick 3413500
+3356000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3413500, now got 1 active
+3356000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3427250
+3356000: system.mem_ctrls.dram: New ready time: 3446000
+3356000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3448500, now got 0 active
+3356000: system.mem_ctrls.dram: Auto-precharged bank: 0
+3356000: system.mem_ctrls: Access to 0, ready at 3446000 next burst at 3432250.
+3356000: system.mem_ctrls: new burst ready time: 3446000, entry time: 3356000
+3356000: system.mem_ctrls: respQueue len: 71
+3404750: system.mem_ctrls: QoS Turnarounds selected state READ 
+3404750: system.mem_ctrls: Fixed Service Request
+3404750: system.mem_ctrls: Issuing real request
+3404750: system.mem_ctrls: Removing burstTick for 3370000
+3404750: system.mem_ctrls: Removing burstTick for 3360000
+3404750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3404750: system.mem_ctrls.dram: Activate at tick 3462250
+3404750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3462250, now got 1 active
+3404750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3476000
+3404750: system.mem_ctrls.dram: New ready time: 3494750
+3404750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3497250, now got 0 active
+3404750: system.mem_ctrls.dram: Auto-precharged bank: 0
+3404750: system.mem_ctrls: Access to 0, ready at 3494750 next burst at 3481000.
+3404750: system.mem_ctrls: new burst ready time: 3494750, entry time: 3258500
+3404750: system.mem_ctrls: respQueue len: 72
+3453500: system.mem_ctrls: QoS Turnarounds selected state READ 
+3453500: system.mem_ctrls: Fixed Service Request
+3453500: system.mem_ctrls: Did not find real request, issuing fake request
+3453500: system.mem_ctrls: Removing burstTick for 3420000
+3453500: system.mem_ctrls: Removing burstTick for 3410000
+3453500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3453500: system.mem_ctrls.dram: Activate at tick 3511000
+3453500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3511000, now got 1 active
+3453500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3524750
+3453500: system.mem_ctrls.dram: New ready time: 3543500
+3453500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3546000, now got 0 active
+3453500: system.mem_ctrls.dram: Auto-precharged bank: 0
+3453500: system.mem_ctrls: Access to 0, ready at 3543500 next burst at 3529750.
+3453500: system.mem_ctrls: new burst ready time: 3543500, entry time: 3453500
+3453500: system.mem_ctrls: respQueue len: 73
+3502250: system.mem_ctrls: QoS Turnarounds selected state READ 
+3502250: system.mem_ctrls: Fixed Service Request
+3502250: system.mem_ctrls: Issuing real request
+3502250: system.mem_ctrls: Removing burstTick for 3470000
+3502250: system.mem_ctrls: Removing burstTick for 3460000
+3502250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3502250: system.mem_ctrls.dram: Activate at tick 3559750
+3502250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3559750, now got 1 active
+3502250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3573500
+3502250: system.mem_ctrls.dram: New ready time: 3592250
+3502250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3594750, now got 0 active
+3502250: system.mem_ctrls.dram: Auto-precharged bank: 0
+3502250: system.mem_ctrls: Access to 0, ready at 3592250 next burst at 3578500.
+3502250: system.mem_ctrls: new burst ready time: 3592250, entry time: 3356000
+3502250: system.mem_ctrls: respQueue len: 74
+3551000: system.mem_ctrls: QoS Turnarounds selected state READ 
+3551000: system.mem_ctrls: Fixed Service Request
+3551000: system.mem_ctrls: Did not find real request, issuing fake request
+3551000: system.mem_ctrls: Removing burstTick for 3550000
+3551000: system.mem_ctrls: Removing burstTick for 3520000
+3551000: system.mem_ctrls: Removing burstTick for 3510000
+3551000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3551000: system.mem_ctrls.dram: Activate at tick 3608500
+3551000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3608500, now got 1 active
+3551000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3622250
+3551000: system.mem_ctrls.dram: New ready time: 3641000
+3551000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3643500, now got 0 active
+3551000: system.mem_ctrls.dram: Auto-precharged bank: 0
+3551000: system.mem_ctrls: Access to 0, ready at 3641000 next burst at 3627250.
+3551000: system.mem_ctrls: new burst ready time: 3641000, entry time: 3551000
+3551000: system.mem_ctrls: respQueue len: 75
+3599750: system.mem_ctrls: QoS Turnarounds selected state READ 
+3599750: system.mem_ctrls: Fixed Service Request
+3599750: system.mem_ctrls: Issuing real request
+3599750: system.mem_ctrls: Removing burstTick for 3570000
+3599750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3599750: system.mem_ctrls.dram: Activate at tick 3657250
+3599750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3657250, now got 1 active
+3599750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3671000
+3599750: system.mem_ctrls.dram: New ready time: 3689750
+3599750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3692250, now got 0 active
+3599750: system.mem_ctrls.dram: Auto-precharged bank: 0
+3599750: system.mem_ctrls: Access to 0, ready at 3689750 next burst at 3676000.
+3599750: system.mem_ctrls: new burst ready time: 3689750, entry time: 3453500
+3599750: system.mem_ctrls: respQueue len: 76
+3648500: system.mem_ctrls: QoS Turnarounds selected state READ 
+3648500: system.mem_ctrls: Fixed Service Request
+3648500: system.mem_ctrls: Did not find real request, issuing fake request
+3648500: system.mem_ctrls: Removing burstTick for 3620000
+3648500: system.mem_ctrls: Removing burstTick for 3600000
+3648500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3648500: system.mem_ctrls.dram: Activate at tick 3706000
+3648500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3706000, now got 1 active
+3648500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3719750
+3648500: system.mem_ctrls.dram: New ready time: 3738500
+3648500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3741000, now got 0 active
+3648500: system.mem_ctrls.dram: Auto-precharged bank: 0
+3648500: system.mem_ctrls: Access to 0, ready at 3738500 next burst at 3724750.
+3648500: system.mem_ctrls: new burst ready time: 3738500, entry time: 3648500
+3648500: system.mem_ctrls: respQueue len: 77
+3697250: system.mem_ctrls: QoS Turnarounds selected state READ 
+3697250: system.mem_ctrls: Fixed Service Request
+3697250: system.mem_ctrls: Issuing real request
+3697250: system.mem_ctrls: Removing burstTick for 3670000
+3697250: system.mem_ctrls: Removing burstTick for 3650000
+3697250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3697250: system.mem_ctrls.dram: Activate at tick 3754750
+3697250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3754750, now got 1 active
+3697250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3768500
+3697250: system.mem_ctrls.dram: New ready time: 3787250
+3697250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3789750, now got 0 active
+3697250: system.mem_ctrls.dram: Auto-precharged bank: 0
+3697250: system.mem_ctrls: Access to 0, ready at 3787250 next burst at 3773500.
+3697250: system.mem_ctrls: new burst ready time: 3787250, entry time: 3551000
+3697250: system.mem_ctrls: respQueue len: 78
+3746000: system.mem_ctrls: QoS Turnarounds selected state READ 
+3746000: system.mem_ctrls: Fixed Service Request
+3746000: system.mem_ctrls: Did not find real request, issuing fake request
+3746000: system.mem_ctrls: Removing burstTick for 3710000
+3746000: system.mem_ctrls: Removing burstTick for 3700000
+3746000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3746000: system.mem_ctrls.dram: Activate at tick 3803500
+3746000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3803500, now got 1 active
+3746000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3817250
+3746000: system.mem_ctrls.dram: New ready time: 3836000
+3746000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3838500, now got 0 active
+3746000: system.mem_ctrls.dram: Auto-precharged bank: 0
+3746000: system.mem_ctrls: Access to 0, ready at 3836000 next burst at 3822250.
+3746000: system.mem_ctrls: new burst ready time: 3836000, entry time: 3746000
+3746000: system.mem_ctrls: respQueue len: 79
+3794750: system.mem_ctrls: QoS Turnarounds selected state READ 
+3794750: system.mem_ctrls: Fixed Service Request
+3794750: system.mem_ctrls: Issuing real request
+3794750: system.mem_ctrls: Removing burstTick for 3760000
+3794750: system.mem_ctrls: Removing burstTick for 3750000
+3794750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3794750: system.mem_ctrls.dram: Activate at tick 3852250
+3794750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3852250, now got 1 active
+3794750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3866000
+3794750: system.mem_ctrls.dram: New ready time: 3884750
+3794750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3887250, now got 0 active
+3794750: system.mem_ctrls.dram: Auto-precharged bank: 0
+3794750: system.mem_ctrls: Access to 0, ready at 3884750 next burst at 3871000.
+3794750: system.mem_ctrls: new burst ready time: 3884750, entry time: 3648500
+3794750: system.mem_ctrls: respQueue len: 80
+3843500: system.mem_ctrls: QoS Turnarounds selected state READ 
+3843500: system.mem_ctrls: Fixed Service Request
+3843500: system.mem_ctrls: Did not find real request, issuing fake request
+3843500: system.mem_ctrls: Removing burstTick for 3810000
+3843500: system.mem_ctrls: Removing burstTick for 3800000
+3843500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3843500: system.mem_ctrls.dram: Activate at tick 3901000
+3843500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3901000, now got 1 active
+3843500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3914750
+3843500: system.mem_ctrls.dram: New ready time: 3933500
+3843500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3936000, now got 0 active
+3843500: system.mem_ctrls.dram: Auto-precharged bank: 0
+3843500: system.mem_ctrls: Access to 0, ready at 3933500 next burst at 3919750.
+3843500: system.mem_ctrls: new burst ready time: 3933500, entry time: 3843500
+3843500: system.mem_ctrls: respQueue len: 81
+3892250: system.mem_ctrls: QoS Turnarounds selected state READ 
+3892250: system.mem_ctrls: Fixed Service Request
+3892250: system.mem_ctrls: Issuing real request
+3892250: system.mem_ctrls: Removing burstTick for 3860000
+3892250: system.mem_ctrls: Removing burstTick for 3850000
+3892250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3892250: system.mem_ctrls.dram: Activate at tick 3949750
+3892250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3949750, now got 1 active
+3892250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 3963500
+3892250: system.mem_ctrls.dram: New ready time: 3982250
+3892250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 3984750, now got 0 active
+3892250: system.mem_ctrls.dram: Auto-precharged bank: 0
+3892250: system.mem_ctrls: Access to 0, ready at 3982250 next burst at 3968500.
+3892250: system.mem_ctrls: new burst ready time: 3982250, entry time: 3746000
+3892250: system.mem_ctrls: respQueue len: 82
+3941000: system.mem_ctrls: QoS Turnarounds selected state READ 
+3941000: system.mem_ctrls: Fixed Service Request
+3941000: system.mem_ctrls: Did not find real request, issuing fake request
+3941000: system.mem_ctrls: Removing burstTick for 3940000
+3941000: system.mem_ctrls: Removing burstTick for 3910000
+3941000: system.mem_ctrls: Removing burstTick for 3900000
+3941000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3941000: system.mem_ctrls.dram: Activate at tick 3998500
+3941000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 3998500, now got 1 active
+3941000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4012250
+3941000: system.mem_ctrls.dram: New ready time: 4031000
+3941000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4033500, now got 0 active
+3941000: system.mem_ctrls.dram: Auto-precharged bank: 0
+3941000: system.mem_ctrls: Access to 0, ready at 4031000 next burst at 4017250.
+3941000: system.mem_ctrls: new burst ready time: 4031000, entry time: 3941000
+3941000: system.mem_ctrls: respQueue len: 83
+3989750: system.mem_ctrls: QoS Turnarounds selected state READ 
+3989750: system.mem_ctrls: Fixed Service Request
+3989750: system.mem_ctrls: Issuing real request
+3989750: system.mem_ctrls: Removing burstTick for 3960000
+3989750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+3989750: system.mem_ctrls.dram: Activate at tick 4047250
+3989750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4047250, now got 1 active
+3989750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4061000
+3989750: system.mem_ctrls.dram: New ready time: 4079750
+3989750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4082250, now got 0 active
+3989750: system.mem_ctrls.dram: Auto-precharged bank: 0
+3989750: system.mem_ctrls: Access to 0, ready at 4079750 next burst at 4066000.
+3989750: system.mem_ctrls: new burst ready time: 4079750, entry time: 3843500
+3989750: system.mem_ctrls: respQueue len: 84
+4038500: system.mem_ctrls: QoS Turnarounds selected state READ 
+4038500: system.mem_ctrls: Fixed Service Request
+4038500: system.mem_ctrls: Did not find real request, issuing fake request
+4038500: system.mem_ctrls: Removing burstTick for 4010000
+4038500: system.mem_ctrls: Removing burstTick for 3990000
+4038500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4038500: system.mem_ctrls.dram: Activate at tick 4096000
+4038500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4096000, now got 1 active
+4038500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4109750
+4038500: system.mem_ctrls.dram: New ready time: 4128500
+4038500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4131000, now got 0 active
+4038500: system.mem_ctrls.dram: Auto-precharged bank: 0
+4038500: system.mem_ctrls: Access to 0, ready at 4128500 next burst at 4114750.
+4038500: system.mem_ctrls: new burst ready time: 4128500, entry time: 4038500
+4038500: system.mem_ctrls: respQueue len: 85
+4087250: system.mem_ctrls: QoS Turnarounds selected state READ 
+4087250: system.mem_ctrls: Fixed Service Request
+4087250: system.mem_ctrls: Issuing real request
+4087250: system.mem_ctrls: Removing burstTick for 4060000
+4087250: system.mem_ctrls: Removing burstTick for 4040000
+4087250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4087250: system.mem_ctrls.dram: Activate at tick 4144750
+4087250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4144750, now got 1 active
+4087250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4158500
+4087250: system.mem_ctrls.dram: New ready time: 4177250
+4087250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4179750, now got 0 active
+4087250: system.mem_ctrls.dram: Auto-precharged bank: 0
+4087250: system.mem_ctrls: Access to 0, ready at 4177250 next burst at 4163500.
+4087250: system.mem_ctrls: new burst ready time: 4177250, entry time: 3941000
+4087250: system.mem_ctrls: respQueue len: 86
+4136000: system.mem_ctrls: QoS Turnarounds selected state READ 
+4136000: system.mem_ctrls: Fixed Service Request
+4136000: system.mem_ctrls: Did not find real request, issuing fake request
+4136000: system.mem_ctrls: Removing burstTick for 4100000
+4136000: system.mem_ctrls: Removing burstTick for 4090000
+4136000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4136000: system.mem_ctrls.dram: Activate at tick 4193500
+4136000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4193500, now got 1 active
+4136000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4207250
+4136000: system.mem_ctrls.dram: New ready time: 4226000
+4136000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4228500, now got 0 active
+4136000: system.mem_ctrls.dram: Auto-precharged bank: 0
+4136000: system.mem_ctrls: Access to 0, ready at 4226000 next burst at 4212250.
+4136000: system.mem_ctrls: new burst ready time: 4226000, entry time: 4136000
+4136000: system.mem_ctrls: respQueue len: 87
+4184750: system.mem_ctrls: QoS Turnarounds selected state READ 
+4184750: system.mem_ctrls: Fixed Service Request
+4184750: system.mem_ctrls: Issuing real request
+4184750: system.mem_ctrls: Removing burstTick for 4150000
+4184750: system.mem_ctrls: Removing burstTick for 4140000
+4184750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4184750: system.mem_ctrls.dram: Activate at tick 4242250
+4184750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4242250, now got 1 active
+4184750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4256000
+4184750: system.mem_ctrls.dram: New ready time: 4274750
+4184750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4277250, now got 0 active
+4184750: system.mem_ctrls.dram: Auto-precharged bank: 0
+4184750: system.mem_ctrls: Access to 0, ready at 4274750 next burst at 4261000.
+4184750: system.mem_ctrls: new burst ready time: 4274750, entry time: 4038500
+4184750: system.mem_ctrls: respQueue len: 88
+4233500: system.mem_ctrls: QoS Turnarounds selected state READ 
+4233500: system.mem_ctrls: Fixed Service Request
+4233500: system.mem_ctrls: Did not find real request, issuing fake request
+4233500: system.mem_ctrls: Removing burstTick for 4200000
+4233500: system.mem_ctrls: Removing burstTick for 4190000
+4233500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4233500: system.mem_ctrls.dram: Activate at tick 4291000
+4233500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4291000, now got 1 active
+4233500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4304750
+4233500: system.mem_ctrls.dram: New ready time: 4323500
+4233500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4326000, now got 0 active
+4233500: system.mem_ctrls.dram: Auto-precharged bank: 0
+4233500: system.mem_ctrls: Access to 0, ready at 4323500 next burst at 4309750.
+4233500: system.mem_ctrls: new burst ready time: 4323500, entry time: 4233500
+4233500: system.mem_ctrls: respQueue len: 89
+4282250: system.mem_ctrls: QoS Turnarounds selected state READ 
+4282250: system.mem_ctrls: Fixed Service Request
+4282250: system.mem_ctrls: Issuing real request
+4282250: system.mem_ctrls: Removing burstTick for 4250000
+4282250: system.mem_ctrls: Removing burstTick for 4240000
+4282250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4282250: system.mem_ctrls.dram: Activate at tick 4339750
+4282250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4339750, now got 1 active
+4282250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4353500
+4282250: system.mem_ctrls.dram: New ready time: 4372250
+4282250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4374750, now got 0 active
+4282250: system.mem_ctrls.dram: Auto-precharged bank: 0
+4282250: system.mem_ctrls: Access to 0, ready at 4372250 next burst at 4358500.
+4282250: system.mem_ctrls: new burst ready time: 4372250, entry time: 4136000
+4282250: system.mem_ctrls: respQueue len: 90
+4331000: system.mem_ctrls: QoS Turnarounds selected state READ 
+4331000: system.mem_ctrls: Fixed Service Request
+4331000: system.mem_ctrls: Did not find real request, issuing fake request
+4331000: system.mem_ctrls: Removing burstTick for 4330000
+4331000: system.mem_ctrls: Removing burstTick for 4300000
+4331000: system.mem_ctrls: Removing burstTick for 4290000
+4331000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4331000: system.mem_ctrls.dram: Activate at tick 4388500
+4331000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4388500, now got 1 active
+4331000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4402250
+4331000: system.mem_ctrls.dram: New ready time: 4421000
+4331000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4423500, now got 0 active
+4331000: system.mem_ctrls.dram: Auto-precharged bank: 0
+4331000: system.mem_ctrls: Access to 0, ready at 4421000 next burst at 4407250.
+4331000: system.mem_ctrls: new burst ready time: 4421000, entry time: 4331000
+4331000: system.mem_ctrls: respQueue len: 91
+4379750: system.mem_ctrls: QoS Turnarounds selected state READ 
+4379750: system.mem_ctrls: Fixed Service Request
+4379750: system.mem_ctrls: Issuing real request
+4379750: system.mem_ctrls: Removing burstTick for 4350000
+4379750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4379750: system.mem_ctrls.dram: Activate at tick 4437250
+4379750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4437250, now got 1 active
+4379750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4451000
+4379750: system.mem_ctrls.dram: New ready time: 4469750
+4379750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4472250, now got 0 active
+4379750: system.mem_ctrls.dram: Auto-precharged bank: 0
+4379750: system.mem_ctrls: Access to 0, ready at 4469750 next burst at 4456000.
+4379750: system.mem_ctrls: new burst ready time: 4469750, entry time: 4233500
+4379750: system.mem_ctrls: respQueue len: 92
+4428500: system.mem_ctrls: QoS Turnarounds selected state READ 
+4428500: system.mem_ctrls: Fixed Service Request
+4428500: system.mem_ctrls: Did not find real request, issuing fake request
+4428500: system.mem_ctrls: Removing burstTick for 4400000
+4428500: system.mem_ctrls: Removing burstTick for 4380000
+4428500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4428500: system.mem_ctrls.dram: Activate at tick 4486000
+4428500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4486000, now got 1 active
+4428500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4499750
+4428500: system.mem_ctrls.dram: New ready time: 4518500
+4428500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4521000, now got 0 active
+4428500: system.mem_ctrls.dram: Auto-precharged bank: 0
+4428500: system.mem_ctrls: Access to 0, ready at 4518500 next burst at 4504750.
+4428500: system.mem_ctrls: new burst ready time: 4518500, entry time: 4428500
+4428500: system.mem_ctrls: respQueue len: 93
+4477250: system.mem_ctrls: QoS Turnarounds selected state READ 
+4477250: system.mem_ctrls: Fixed Service Request
+4477250: system.mem_ctrls: Issuing real request
+4477250: system.mem_ctrls: Removing burstTick for 4450000
+4477250: system.mem_ctrls: Removing burstTick for 4430000
+4477250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4477250: system.mem_ctrls.dram: Activate at tick 4534750
+4477250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4534750, now got 1 active
+4477250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4548500
+4477250: system.mem_ctrls.dram: New ready time: 4567250
+4477250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4569750, now got 0 active
+4477250: system.mem_ctrls.dram: Auto-precharged bank: 0
+4477250: system.mem_ctrls: Access to 0, ready at 4567250 next burst at 4553500.
+4477250: system.mem_ctrls: new burst ready time: 4567250, entry time: 4331000
+4477250: system.mem_ctrls: respQueue len: 94
+4526000: system.mem_ctrls: QoS Turnarounds selected state READ 
+4526000: system.mem_ctrls: Fixed Service Request
+4526000: system.mem_ctrls: Did not find real request, issuing fake request
+4526000: system.mem_ctrls: Removing burstTick for 4490000
+4526000: system.mem_ctrls: Removing burstTick for 4480000
+4526000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4526000: system.mem_ctrls.dram: Activate at tick 4583500
+4526000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4583500, now got 1 active
+4526000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4597250
+4526000: system.mem_ctrls.dram: New ready time: 4616000
+4526000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4618500, now got 0 active
+4526000: system.mem_ctrls.dram: Auto-precharged bank: 0
+4526000: system.mem_ctrls: Access to 0, ready at 4616000 next burst at 4602250.
+4526000: system.mem_ctrls: new burst ready time: 4616000, entry time: 4526000
+4526000: system.mem_ctrls: respQueue len: 95
+4574750: system.mem_ctrls: QoS Turnarounds selected state READ 
+4574750: system.mem_ctrls: Fixed Service Request
+4574750: system.mem_ctrls: Issuing real request
+4574750: system.mem_ctrls: Removing burstTick for 4540000
+4574750: system.mem_ctrls: Removing burstTick for 4530000
+4574750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4574750: system.mem_ctrls.dram: Activate at tick 4632250
+4574750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4632250, now got 1 active
+4574750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4646000
+4574750: system.mem_ctrls.dram: New ready time: 4664750
+4574750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4667250, now got 0 active
+4574750: system.mem_ctrls.dram: Auto-precharged bank: 0
+4574750: system.mem_ctrls: Access to 0, ready at 4664750 next burst at 4651000.
+4574750: system.mem_ctrls: new burst ready time: 4664750, entry time: 4428500
+4574750: system.mem_ctrls: respQueue len: 96
+4623500: system.mem_ctrls: QoS Turnarounds selected state READ 
+4623500: system.mem_ctrls: Fixed Service Request
+4623500: system.mem_ctrls: Did not find real request, issuing fake request
+4623500: system.mem_ctrls: Removing burstTick for 4590000
+4623500: system.mem_ctrls: Removing burstTick for 4580000
+4623500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4623500: system.mem_ctrls.dram: Activate at tick 4681000
+4623500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4681000, now got 1 active
+4623500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4694750
+4623500: system.mem_ctrls.dram: New ready time: 4713500
+4623500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4716000, now got 0 active
+4623500: system.mem_ctrls.dram: Auto-precharged bank: 0
+4623500: system.mem_ctrls: Access to 0, ready at 4713500 next burst at 4699750.
+4623500: system.mem_ctrls: new burst ready time: 4713500, entry time: 4623500
+4623500: system.mem_ctrls: respQueue len: 97
+4672250: system.mem_ctrls: QoS Turnarounds selected state READ 
+4672250: system.mem_ctrls: Fixed Service Request
+4672250: system.mem_ctrls: Issuing real request
+4672250: system.mem_ctrls: Removing burstTick for 4640000
+4672250: system.mem_ctrls: Removing burstTick for 4630000
+4672250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4672250: system.mem_ctrls.dram: Activate at tick 4729750
+4672250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4729750, now got 1 active
+4672250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4743500
+4672250: system.mem_ctrls.dram: New ready time: 4762250
+4672250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4764750, now got 0 active
+4672250: system.mem_ctrls.dram: Auto-precharged bank: 0
+4672250: system.mem_ctrls: Access to 0, ready at 4762250 next burst at 4748500.
+4672250: system.mem_ctrls: new burst ready time: 4762250, entry time: 4526000
+4672250: system.mem_ctrls: respQueue len: 98
+4721000: system.mem_ctrls: QoS Turnarounds selected state READ 
+4721000: system.mem_ctrls: Fixed Service Request
+4721000: system.mem_ctrls: Did not find real request, issuing fake request
+4721000: system.mem_ctrls: Removing burstTick for 4720000
+4721000: system.mem_ctrls: Removing burstTick for 4690000
+4721000: system.mem_ctrls: Removing burstTick for 4680000
+4721000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4721000: system.mem_ctrls.dram: Activate at tick 4778500
+4721000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4778500, now got 1 active
+4721000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4792250
+4721000: system.mem_ctrls.dram: New ready time: 4811000
+4721000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4813500, now got 0 active
+4721000: system.mem_ctrls.dram: Auto-precharged bank: 0
+4721000: system.mem_ctrls: Access to 0, ready at 4811000 next burst at 4797250.
+4721000: system.mem_ctrls: new burst ready time: 4811000, entry time: 4721000
+4721000: system.mem_ctrls: respQueue len: 99
+4769750: system.mem_ctrls: QoS Turnarounds selected state READ 
+4769750: system.mem_ctrls: Fixed Service Request
+4769750: system.mem_ctrls: Issuing real request
+4769750: system.mem_ctrls: Removing burstTick for 4740000
+4769750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4769750: system.mem_ctrls.dram: Activate at tick 4827250
+4769750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4827250, now got 1 active
+4769750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4841000
+4769750: system.mem_ctrls.dram: New ready time: 4859750
+4769750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4862250, now got 0 active
+4769750: system.mem_ctrls.dram: Auto-precharged bank: 0
+4769750: system.mem_ctrls: Access to 0, ready at 4859750 next burst at 4846000.
+4769750: system.mem_ctrls: new burst ready time: 4859750, entry time: 4623500
+4769750: system.mem_ctrls: respQueue len: 100
+4818500: system.mem_ctrls: QoS Turnarounds selected state READ 
+4818500: system.mem_ctrls: Fixed Service Request
+4818500: system.mem_ctrls: Did not find real request, issuing fake request
+4818500: system.mem_ctrls: Removing burstTick for 4790000
+4818500: system.mem_ctrls: Removing burstTick for 4770000
+4818500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4818500: system.mem_ctrls.dram: Activate at tick 4876000
+4818500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4876000, now got 1 active
+4818500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4889750
+4818500: system.mem_ctrls.dram: New ready time: 4908500
+4818500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4911000, now got 0 active
+4818500: system.mem_ctrls.dram: Auto-precharged bank: 0
+4818500: system.mem_ctrls: Access to 0, ready at 4908500 next burst at 4894750.
+4818500: system.mem_ctrls: new burst ready time: 4908500, entry time: 4818500
+4818500: system.mem_ctrls: respQueue len: 101
+4867250: system.mem_ctrls: QoS Turnarounds selected state READ 
+4867250: system.mem_ctrls: Fixed Service Request
+4867250: system.mem_ctrls: Issuing real request
+4867250: system.mem_ctrls: Removing burstTick for 4840000
+4867250: system.mem_ctrls: Removing burstTick for 4820000
+4867250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4867250: system.mem_ctrls.dram: Activate at tick 4924750
+4867250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4924750, now got 1 active
+4867250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4938500
+4867250: system.mem_ctrls.dram: New ready time: 4957250
+4867250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 4959750, now got 0 active
+4867250: system.mem_ctrls.dram: Auto-precharged bank: 0
+4867250: system.mem_ctrls: Access to 0, ready at 4957250 next burst at 4943500.
+4867250: system.mem_ctrls: new burst ready time: 4957250, entry time: 4721000
+4867250: system.mem_ctrls: respQueue len: 102
+4916000: system.mem_ctrls: QoS Turnarounds selected state READ 
+4916000: system.mem_ctrls: Fixed Service Request
+4916000: system.mem_ctrls: Did not find real request, issuing fake request
+4916000: system.mem_ctrls: Removing burstTick for 4880000
+4916000: system.mem_ctrls: Removing burstTick for 4870000
+4916000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4916000: system.mem_ctrls.dram: Activate at tick 4973500
+4916000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 4973500, now got 1 active
+4916000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 4987250
+4916000: system.mem_ctrls.dram: New ready time: 5006000
+4916000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5008500, now got 0 active
+4916000: system.mem_ctrls.dram: Auto-precharged bank: 0
+4916000: system.mem_ctrls: Access to 0, ready at 5006000 next burst at 4992250.
+4916000: system.mem_ctrls: new burst ready time: 5006000, entry time: 4916000
+4916000: system.mem_ctrls: respQueue len: 103
+4964750: system.mem_ctrls: QoS Turnarounds selected state READ 
+4964750: system.mem_ctrls: Fixed Service Request
+4964750: system.mem_ctrls: Issuing real request
+4964750: system.mem_ctrls: Removing burstTick for 4930000
+4964750: system.mem_ctrls: Removing burstTick for 4920000
+4964750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+4964750: system.mem_ctrls.dram: Activate at tick 5022250
+4964750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5022250, now got 1 active
+4964750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5036000
+4964750: system.mem_ctrls.dram: New ready time: 5054750
+4964750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5057250, now got 0 active
+4964750: system.mem_ctrls.dram: Auto-precharged bank: 0
+4964750: system.mem_ctrls: Access to 0, ready at 5054750 next burst at 5041000.
+4964750: system.mem_ctrls: new burst ready time: 5054750, entry time: 4818500
+4964750: system.mem_ctrls: respQueue len: 104
+5013500: system.mem_ctrls: QoS Turnarounds selected state READ 
+5013500: system.mem_ctrls: Fixed Service Request
+5013500: system.mem_ctrls: Did not find real request, issuing fake request
+5013500: system.mem_ctrls: Removing burstTick for 4980000
+5013500: system.mem_ctrls: Removing burstTick for 4970000
+5013500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5013500: system.mem_ctrls.dram: Activate at tick 5071000
+5013500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5071000, now got 1 active
+5013500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5084750
+5013500: system.mem_ctrls.dram: New ready time: 5103500
+5013500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5106000, now got 0 active
+5013500: system.mem_ctrls.dram: Auto-precharged bank: 0
+5013500: system.mem_ctrls: Access to 0, ready at 5103500 next burst at 5089750.
+5013500: system.mem_ctrls: new burst ready time: 5103500, entry time: 5013500
+5013500: system.mem_ctrls: respQueue len: 105
+5062250: system.mem_ctrls: QoS Turnarounds selected state READ 
+5062250: system.mem_ctrls: Fixed Service Request
+5062250: system.mem_ctrls: Issuing real request
+5062250: system.mem_ctrls: Removing burstTick for 5030000
+5062250: system.mem_ctrls: Removing burstTick for 5020000
+5062250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5062250: system.mem_ctrls.dram: Activate at tick 5119750
+5062250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5119750, now got 1 active
+5062250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5133500
+5062250: system.mem_ctrls.dram: New ready time: 5152250
+5062250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5154750, now got 0 active
+5062250: system.mem_ctrls.dram: Auto-precharged bank: 0
+5062250: system.mem_ctrls: Access to 0, ready at 5152250 next burst at 5138500.
+5062250: system.mem_ctrls: new burst ready time: 5152250, entry time: 4916000
+5062250: system.mem_ctrls: respQueue len: 106
+5111000: system.mem_ctrls: QoS Turnarounds selected state READ 
+5111000: system.mem_ctrls: Fixed Service Request
+5111000: system.mem_ctrls: Did not find real request, issuing fake request
+5111000: system.mem_ctrls: Removing burstTick for 5110000
+5111000: system.mem_ctrls: Removing burstTick for 5080000
+5111000: system.mem_ctrls: Removing burstTick for 5070000
+5111000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5111000: system.mem_ctrls.dram: Activate at tick 5168500
+5111000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5168500, now got 1 active
+5111000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5182250
+5111000: system.mem_ctrls.dram: New ready time: 5201000
+5111000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5203500, now got 0 active
+5111000: system.mem_ctrls.dram: Auto-precharged bank: 0
+5111000: system.mem_ctrls: Access to 0, ready at 5201000 next burst at 5187250.
+5111000: system.mem_ctrls: new burst ready time: 5201000, entry time: 5111000
+5111000: system.mem_ctrls: respQueue len: 107
+5159750: system.mem_ctrls: QoS Turnarounds selected state READ 
+5159750: system.mem_ctrls: Fixed Service Request
+5159750: system.mem_ctrls: Issuing real request
+5159750: system.mem_ctrls: Removing burstTick for 5130000
+5159750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5159750: system.mem_ctrls.dram: Activate at tick 5217250
+5159750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5217250, now got 1 active
+5159750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5231000
+5159750: system.mem_ctrls.dram: New ready time: 5249750
+5159750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5252250, now got 0 active
+5159750: system.mem_ctrls.dram: Auto-precharged bank: 0
+5159750: system.mem_ctrls: Access to 0, ready at 5249750 next burst at 5236000.
+5159750: system.mem_ctrls: new burst ready time: 5249750, entry time: 5013500
+5159750: system.mem_ctrls: respQueue len: 108
+5208500: system.mem_ctrls: QoS Turnarounds selected state READ 
+5208500: system.mem_ctrls: Fixed Service Request
+5208500: system.mem_ctrls: Did not find real request, issuing fake request
+5208500: system.mem_ctrls: Removing burstTick for 5180000
+5208500: system.mem_ctrls: Removing burstTick for 5160000
+5208500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5208500: system.mem_ctrls.dram: Activate at tick 5266000
+5208500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5266000, now got 1 active
+5208500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5279750
+5208500: system.mem_ctrls.dram: New ready time: 5298500
+5208500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5301000, now got 0 active
+5208500: system.mem_ctrls.dram: Auto-precharged bank: 0
+5208500: system.mem_ctrls: Access to 0, ready at 5298500 next burst at 5284750.
+5208500: system.mem_ctrls: new burst ready time: 5298500, entry time: 5208500
+5208500: system.mem_ctrls: respQueue len: 109
+5257250: system.mem_ctrls: QoS Turnarounds selected state READ 
+5257250: system.mem_ctrls: Fixed Service Request
+5257250: system.mem_ctrls: Issuing real request
+5257250: system.mem_ctrls: Removing burstTick for 5230000
+5257250: system.mem_ctrls: Removing burstTick for 5210000
+5257250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5257250: system.mem_ctrls.dram: Activate at tick 5314750
+5257250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5314750, now got 1 active
+5257250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5328500
+5257250: system.mem_ctrls.dram: New ready time: 5347250
+5257250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5349750, now got 0 active
+5257250: system.mem_ctrls.dram: Auto-precharged bank: 0
+5257250: system.mem_ctrls: Access to 0, ready at 5347250 next burst at 5333500.
+5257250: system.mem_ctrls: new burst ready time: 5347250, entry time: 5111000
+5257250: system.mem_ctrls: respQueue len: 110
+5306000: system.mem_ctrls: QoS Turnarounds selected state READ 
+5306000: system.mem_ctrls: Fixed Service Request
+5306000: system.mem_ctrls: Did not find real request, issuing fake request
+5306000: system.mem_ctrls: Removing burstTick for 5270000
+5306000: system.mem_ctrls: Removing burstTick for 5260000
+5306000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5306000: system.mem_ctrls.dram: Activate at tick 5363500
+5306000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5363500, now got 1 active
+5306000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5377250
+5306000: system.mem_ctrls.dram: New ready time: 5396000
+5306000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5398500, now got 0 active
+5306000: system.mem_ctrls.dram: Auto-precharged bank: 0
+5306000: system.mem_ctrls: Access to 0, ready at 5396000 next burst at 5382250.
+5306000: system.mem_ctrls: new burst ready time: 5396000, entry time: 5306000
+5306000: system.mem_ctrls: respQueue len: 111
+5354750: system.mem_ctrls: QoS Turnarounds selected state READ 
+5354750: system.mem_ctrls: Fixed Service Request
+5354750: system.mem_ctrls: Issuing real request
+5354750: system.mem_ctrls: Removing burstTick for 5320000
+5354750: system.mem_ctrls: Removing burstTick for 5310000
+5354750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5354750: system.mem_ctrls.dram: Activate at tick 5412250
+5354750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5412250, now got 1 active
+5354750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5426000
+5354750: system.mem_ctrls.dram: New ready time: 5444750
+5354750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5447250, now got 0 active
+5354750: system.mem_ctrls.dram: Auto-precharged bank: 0
+5354750: system.mem_ctrls: Access to 0, ready at 5444750 next burst at 5431000.
+5354750: system.mem_ctrls: new burst ready time: 5444750, entry time: 5208500
+5354750: system.mem_ctrls: respQueue len: 112
+5403500: system.mem_ctrls: QoS Turnarounds selected state READ 
+5403500: system.mem_ctrls: Fixed Service Request
+5403500: system.mem_ctrls: Did not find real request, issuing fake request
+5403500: system.mem_ctrls: Removing burstTick for 5370000
+5403500: system.mem_ctrls: Removing burstTick for 5360000
+5403500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5403500: system.mem_ctrls.dram: Activate at tick 5461000
+5403500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5461000, now got 1 active
+5403500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5474750
+5403500: system.mem_ctrls.dram: New ready time: 5493500
+5403500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5496000, now got 0 active
+5403500: system.mem_ctrls.dram: Auto-precharged bank: 0
+5403500: system.mem_ctrls: Access to 0, ready at 5493500 next burst at 5479750.
+5403500: system.mem_ctrls: new burst ready time: 5493500, entry time: 5403500
+5403500: system.mem_ctrls: respQueue len: 113
+5452250: system.mem_ctrls: QoS Turnarounds selected state READ 
+5452250: system.mem_ctrls: Fixed Service Request
+5452250: system.mem_ctrls: Issuing real request
+5452250: system.mem_ctrls: Removing burstTick for 5420000
+5452250: system.mem_ctrls: Removing burstTick for 5410000
+5452250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5452250: system.mem_ctrls.dram: Activate at tick 5509750
+5452250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5509750, now got 1 active
+5452250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5523500
+5452250: system.mem_ctrls.dram: New ready time: 5542250
+5452250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5544750, now got 0 active
+5452250: system.mem_ctrls.dram: Auto-precharged bank: 0
+5452250: system.mem_ctrls: Access to 0, ready at 5542250 next burst at 5528500.
+5452250: system.mem_ctrls: new burst ready time: 5542250, entry time: 5306000
+5452250: system.mem_ctrls: respQueue len: 114
+5501000: system.mem_ctrls: QoS Turnarounds selected state READ 
+5501000: system.mem_ctrls: Fixed Service Request
+5501000: system.mem_ctrls: Did not find real request, issuing fake request
+5501000: system.mem_ctrls: Removing burstTick for 5500000
+5501000: system.mem_ctrls: Removing burstTick for 5470000
+5501000: system.mem_ctrls: Removing burstTick for 5460000
+5501000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5501000: system.mem_ctrls.dram: Activate at tick 5558500
+5501000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5558500, now got 1 active
+5501000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5572250
+5501000: system.mem_ctrls.dram: New ready time: 5591000
+5501000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5593500, now got 0 active
+5501000: system.mem_ctrls.dram: Auto-precharged bank: 0
+5501000: system.mem_ctrls: Access to 0, ready at 5591000 next burst at 5577250.
+5501000: system.mem_ctrls: new burst ready time: 5591000, entry time: 5501000
+5501000: system.mem_ctrls: respQueue len: 115
+5549750: system.mem_ctrls: QoS Turnarounds selected state READ 
+5549750: system.mem_ctrls: Fixed Service Request
+5549750: system.mem_ctrls: Issuing real request
+5549750: system.mem_ctrls: Removing burstTick for 5520000
+5549750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5549750: system.mem_ctrls.dram: Activate at tick 5607250
+5549750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5607250, now got 1 active
+5549750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5621000
+5549750: system.mem_ctrls.dram: New ready time: 5639750
+5549750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5642250, now got 0 active
+5549750: system.mem_ctrls.dram: Auto-precharged bank: 0
+5549750: system.mem_ctrls: Access to 0, ready at 5639750 next burst at 5626000.
+5549750: system.mem_ctrls: new burst ready time: 5639750, entry time: 5403500
+5549750: system.mem_ctrls: respQueue len: 116
+5598500: system.mem_ctrls: QoS Turnarounds selected state READ 
+5598500: system.mem_ctrls: Fixed Service Request
+5598500: system.mem_ctrls: Did not find real request, issuing fake request
+5598500: system.mem_ctrls: Removing burstTick for 5570000
+5598500: system.mem_ctrls: Removing burstTick for 5550000
+5598500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5598500: system.mem_ctrls.dram: Activate at tick 5656000
+5598500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5656000, now got 1 active
+5598500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5669750
+5598500: system.mem_ctrls.dram: New ready time: 5688500
+5598500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5691000, now got 0 active
+5598500: system.mem_ctrls.dram: Auto-precharged bank: 0
+5598500: system.mem_ctrls: Access to 0, ready at 5688500 next burst at 5674750.
+5598500: system.mem_ctrls: new burst ready time: 5688500, entry time: 5598500
+5598500: system.mem_ctrls: respQueue len: 117
+5647250: system.mem_ctrls: QoS Turnarounds selected state READ 
+5647250: system.mem_ctrls: Fixed Service Request
+5647250: system.mem_ctrls: Issuing real request
+5647250: system.mem_ctrls: Removing burstTick for 5620000
+5647250: system.mem_ctrls: Removing burstTick for 5600000
+5647250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5647250: system.mem_ctrls.dram: Activate at tick 5704750
+5647250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5704750, now got 1 active
+5647250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5718500
+5647250: system.mem_ctrls.dram: New ready time: 5737250
+5647250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5739750, now got 0 active
+5647250: system.mem_ctrls.dram: Auto-precharged bank: 0
+5647250: system.mem_ctrls: Access to 0, ready at 5737250 next burst at 5723500.
+5647250: system.mem_ctrls: new burst ready time: 5737250, entry time: 5501000
+5647250: system.mem_ctrls: respQueue len: 118
+5696000: system.mem_ctrls: QoS Turnarounds selected state READ 
+5696000: system.mem_ctrls: Fixed Service Request
+5696000: system.mem_ctrls: Did not find real request, issuing fake request
+5696000: system.mem_ctrls: Removing burstTick for 5660000
+5696000: system.mem_ctrls: Removing burstTick for 5650000
+5696000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5696000: system.mem_ctrls.dram: Activate at tick 5753500
+5696000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5753500, now got 1 active
+5696000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5767250
+5696000: system.mem_ctrls.dram: New ready time: 5786000
+5696000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5788500, now got 0 active
+5696000: system.mem_ctrls.dram: Auto-precharged bank: 0
+5696000: system.mem_ctrls: Access to 0, ready at 5786000 next burst at 5772250.
+5696000: system.mem_ctrls: new burst ready time: 5786000, entry time: 5696000
+5696000: system.mem_ctrls: respQueue len: 119
+5744750: system.mem_ctrls: QoS Turnarounds selected state READ 
+5744750: system.mem_ctrls: Fixed Service Request
+5744750: system.mem_ctrls: Issuing real request
+5744750: system.mem_ctrls: Removing burstTick for 5710000
+5744750: system.mem_ctrls: Removing burstTick for 5700000
+5744750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5744750: system.mem_ctrls.dram: Activate at tick 5802250
+5744750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5802250, now got 1 active
+5744750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5816000
+5744750: system.mem_ctrls.dram: New ready time: 5834750
+5744750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5837250, now got 0 active
+5744750: system.mem_ctrls.dram: Auto-precharged bank: 0
+5744750: system.mem_ctrls: Access to 0, ready at 5834750 next burst at 5821000.
+5744750: system.mem_ctrls: new burst ready time: 5834750, entry time: 5598500
+5744750: system.mem_ctrls: respQueue len: 120
+5793500: system.mem_ctrls: QoS Turnarounds selected state READ 
+5793500: system.mem_ctrls: Fixed Service Request
+5793500: system.mem_ctrls: Did not find real request, issuing fake request
+5793500: system.mem_ctrls: Removing burstTick for 5760000
+5793500: system.mem_ctrls: Removing burstTick for 5750000
+5793500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5793500: system.mem_ctrls.dram: Activate at tick 5851000
+5793500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5851000, now got 1 active
+5793500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5864750
+5793500: system.mem_ctrls.dram: New ready time: 5883500
+5793500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5886000, now got 0 active
+5793500: system.mem_ctrls.dram: Auto-precharged bank: 0
+5793500: system.mem_ctrls: Access to 0, ready at 5883500 next burst at 5869750.
+5793500: system.mem_ctrls: new burst ready time: 5883500, entry time: 5793500
+5793500: system.mem_ctrls: respQueue len: 121
+5842250: system.mem_ctrls: QoS Turnarounds selected state READ 
+5842250: system.mem_ctrls: Fixed Service Request
+5842250: system.mem_ctrls: Issuing real request
+5842250: system.mem_ctrls: Removing burstTick for 5810000
+5842250: system.mem_ctrls: Removing burstTick for 5800000
+5842250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5842250: system.mem_ctrls.dram: Activate at tick 5899750
+5842250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5899750, now got 1 active
+5842250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5913500
+5842250: system.mem_ctrls.dram: New ready time: 5932250
+5842250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5934750, now got 0 active
+5842250: system.mem_ctrls.dram: Auto-precharged bank: 0
+5842250: system.mem_ctrls: Access to 0, ready at 5932250 next burst at 5918500.
+5842250: system.mem_ctrls: new burst ready time: 5932250, entry time: 5696000
+5842250: system.mem_ctrls: respQueue len: 122
+5891000: system.mem_ctrls: QoS Turnarounds selected state READ 
+5891000: system.mem_ctrls: Fixed Service Request
+5891000: system.mem_ctrls: Did not find real request, issuing fake request
+5891000: system.mem_ctrls: Removing burstTick for 5890000
+5891000: system.mem_ctrls: Removing burstTick for 5860000
+5891000: system.mem_ctrls: Removing burstTick for 5850000
+5891000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5891000: system.mem_ctrls.dram: Activate at tick 5948500
+5891000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5948500, now got 1 active
+5891000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 5962250
+5891000: system.mem_ctrls.dram: New ready time: 5981000
+5891000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 5983500, now got 0 active
+5891000: system.mem_ctrls.dram: Auto-precharged bank: 0
+5891000: system.mem_ctrls: Access to 0, ready at 5981000 next burst at 5967250.
+5891000: system.mem_ctrls: new burst ready time: 5981000, entry time: 5891000
+5891000: system.mem_ctrls: respQueue len: 123
+5939750: system.mem_ctrls: QoS Turnarounds selected state READ 
+5939750: system.mem_ctrls: Fixed Service Request
+5939750: system.mem_ctrls: Issuing real request
+5939750: system.mem_ctrls: Removing burstTick for 5910000
+5939750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5939750: system.mem_ctrls.dram: Activate at tick 5997250
+5939750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 5997250, now got 1 active
+5939750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6011000
+5939750: system.mem_ctrls.dram: New ready time: 6029750
+5939750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6032250, now got 0 active
+5939750: system.mem_ctrls.dram: Auto-precharged bank: 0
+5939750: system.mem_ctrls: Access to 0, ready at 6029750 next burst at 6016000.
+5939750: system.mem_ctrls: new burst ready time: 6029750, entry time: 5793500
+5939750: system.mem_ctrls: respQueue len: 124
+5988500: system.mem_ctrls: QoS Turnarounds selected state READ 
+5988500: system.mem_ctrls: Fixed Service Request
+5988500: system.mem_ctrls: Did not find real request, issuing fake request
+5988500: system.mem_ctrls: Removing burstTick for 5960000
+5988500: system.mem_ctrls: Removing burstTick for 5940000
+5988500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+5988500: system.mem_ctrls.dram: Activate at tick 6046000
+5988500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6046000, now got 1 active
+5988500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6059750
+5988500: system.mem_ctrls.dram: New ready time: 6078500
+5988500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6081000, now got 0 active
+5988500: system.mem_ctrls.dram: Auto-precharged bank: 0
+5988500: system.mem_ctrls: Access to 0, ready at 6078500 next burst at 6064750.
+5988500: system.mem_ctrls: new burst ready time: 6078500, entry time: 5988500
+5988500: system.mem_ctrls: respQueue len: 125
+6037250: system.mem_ctrls: QoS Turnarounds selected state READ 
+6037250: system.mem_ctrls: Fixed Service Request
+6037250: system.mem_ctrls: Issuing real request
+6037250: system.mem_ctrls: Removing burstTick for 6010000
+6037250: system.mem_ctrls: Removing burstTick for 5990000
+6037250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6037250: system.mem_ctrls.dram: Activate at tick 6094750
+6037250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6094750, now got 1 active
+6037250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6108500
+6037250: system.mem_ctrls.dram: New ready time: 6127250
+6037250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6129750, now got 0 active
+6037250: system.mem_ctrls.dram: Auto-precharged bank: 0
+6037250: system.mem_ctrls: Access to 0, ready at 6127250 next burst at 6113500.
+6037250: system.mem_ctrls: new burst ready time: 6127250, entry time: 5891000
+6037250: system.mem_ctrls: respQueue len: 126
+6086000: system.mem_ctrls: QoS Turnarounds selected state READ 
+6086000: system.mem_ctrls: Fixed Service Request
+6086000: system.mem_ctrls: Did not find real request, issuing fake request
+6086000: system.mem_ctrls: Removing burstTick for 6050000
+6086000: system.mem_ctrls: Removing burstTick for 6040000
+6086000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6086000: system.mem_ctrls.dram: Activate at tick 6143500
+6086000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6143500, now got 1 active
+6086000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6157250
+6086000: system.mem_ctrls.dram: New ready time: 6176000
+6086000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6178500, now got 0 active
+6086000: system.mem_ctrls.dram: Auto-precharged bank: 0
+6086000: system.mem_ctrls: Access to 0, ready at 6176000 next burst at 6162250.
+6086000: system.mem_ctrls: new burst ready time: 6176000, entry time: 6086000
+6086000: system.mem_ctrls: respQueue len: 127
+6134750: system.mem_ctrls: QoS Turnarounds selected state READ 
+6134750: system.mem_ctrls: Fixed Service Request
+6134750: system.mem_ctrls: Issuing real request
+6134750: system.mem_ctrls: Removing burstTick for 6100000
+6134750: system.mem_ctrls: Removing burstTick for 6090000
+6134750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6134750: system.mem_ctrls.dram: Activate at tick 6192250
+6134750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6192250, now got 1 active
+6134750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6206000
+6134750: system.mem_ctrls.dram: New ready time: 6224750
+6134750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6227250, now got 0 active
+6134750: system.mem_ctrls.dram: Auto-precharged bank: 0
+6134750: system.mem_ctrls: Access to 0, ready at 6224750 next burst at 6211000.
+6134750: system.mem_ctrls: new burst ready time: 6224750, entry time: 5988500
+6134750: system.mem_ctrls: respQueue len: 128
+6183500: system.mem_ctrls: QoS Turnarounds selected state READ 
+6183500: system.mem_ctrls: Fixed Service Request
+6183500: system.mem_ctrls: Did not find real request, issuing fake request
+6183500: system.mem_ctrls: Removing burstTick for 6150000
+6183500: system.mem_ctrls: Removing burstTick for 6140000
+6183500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6183500: system.mem_ctrls.dram: Activate at tick 6241000
+6183500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6241000, now got 1 active
+6183500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6254750
+6183500: system.mem_ctrls.dram: New ready time: 6273500
+6183500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6276000, now got 0 active
+6183500: system.mem_ctrls.dram: Auto-precharged bank: 0
+6183500: system.mem_ctrls: Access to 0, ready at 6273500 next burst at 6259750.
+6183500: system.mem_ctrls: new burst ready time: 6273500, entry time: 6183500
+6183500: system.mem_ctrls: respQueue len: 129
+6232250: system.mem_ctrls: QoS Turnarounds selected state READ 
+6232250: system.mem_ctrls: Fixed Service Request
+6232250: system.mem_ctrls: Issuing real request
+6232250: system.mem_ctrls: Removing burstTick for 6200000
+6232250: system.mem_ctrls: Removing burstTick for 6190000
+6232250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6232250: system.mem_ctrls.dram: Activate at tick 6289750
+6232250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6289750, now got 1 active
+6232250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6303500
+6232250: system.mem_ctrls.dram: New ready time: 6322250
+6232250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6324750, now got 0 active
+6232250: system.mem_ctrls.dram: Auto-precharged bank: 0
+6232250: system.mem_ctrls: Access to 0, ready at 6322250 next burst at 6308500.
+6232250: system.mem_ctrls: new burst ready time: 6322250, entry time: 6086000
+6232250: system.mem_ctrls: respQueue len: 130
+6281000: system.mem_ctrls: QoS Turnarounds selected state READ 
+6281000: system.mem_ctrls: Fixed Service Request
+6281000: system.mem_ctrls: Did not find real request, issuing fake request
+6281000: system.mem_ctrls: Removing burstTick for 6280000
+6281000: system.mem_ctrls: Removing burstTick for 6250000
+6281000: system.mem_ctrls: Removing burstTick for 6240000
+6281000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6281000: system.mem_ctrls.dram: Activate at tick 6338500
+6281000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6338500, now got 1 active
+6281000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6352250
+6281000: system.mem_ctrls.dram: New ready time: 6371000
+6281000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6373500, now got 0 active
+6281000: system.mem_ctrls.dram: Auto-precharged bank: 0
+6281000: system.mem_ctrls: Access to 0, ready at 6371000 next burst at 6357250.
+6281000: system.mem_ctrls: new burst ready time: 6371000, entry time: 6281000
+6281000: system.mem_ctrls: respQueue len: 131
+6329750: system.mem_ctrls: QoS Turnarounds selected state READ 
+6329750: system.mem_ctrls: Fixed Service Request
+6329750: system.mem_ctrls: Issuing real request
+6329750: system.mem_ctrls: Removing burstTick for 6300000
+6329750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6329750: system.mem_ctrls.dram: Activate at tick 6387250
+6329750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6387250, now got 1 active
+6329750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6401000
+6329750: system.mem_ctrls.dram: New ready time: 6419750
+6329750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6422250, now got 0 active
+6329750: system.mem_ctrls.dram: Auto-precharged bank: 0
+6329750: system.mem_ctrls: Access to 0, ready at 6419750 next burst at 6406000.
+6329750: system.mem_ctrls: new burst ready time: 6419750, entry time: 6183500
+6329750: system.mem_ctrls: respQueue len: 132
+6378500: system.mem_ctrls: QoS Turnarounds selected state READ 
+6378500: system.mem_ctrls: Fixed Service Request
+6378500: system.mem_ctrls: Did not find real request, issuing fake request
+6378500: system.mem_ctrls: Removing burstTick for 6350000
+6378500: system.mem_ctrls: Removing burstTick for 6330000
+6378500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6378500: system.mem_ctrls.dram: Activate at tick 6436000
+6378500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6436000, now got 1 active
+6378500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6449750
+6378500: system.mem_ctrls.dram: New ready time: 6468500
+6378500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6471000, now got 0 active
+6378500: system.mem_ctrls.dram: Auto-precharged bank: 0
+6378500: system.mem_ctrls: Access to 0, ready at 6468500 next burst at 6454750.
+6378500: system.mem_ctrls: new burst ready time: 6468500, entry time: 6378500
+6378500: system.mem_ctrls: respQueue len: 133
+6427250: system.mem_ctrls: QoS Turnarounds selected state READ 
+6427250: system.mem_ctrls: Fixed Service Request
+6427250: system.mem_ctrls: Issuing real request
+6427250: system.mem_ctrls: Removing burstTick for 6400000
+6427250: system.mem_ctrls: Removing burstTick for 6380000
+6427250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6427250: system.mem_ctrls.dram: Activate at tick 6484750
+6427250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6484750, now got 1 active
+6427250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6498500
+6427250: system.mem_ctrls.dram: New ready time: 6517250
+6427250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6519750, now got 0 active
+6427250: system.mem_ctrls.dram: Auto-precharged bank: 0
+6427250: system.mem_ctrls: Access to 0, ready at 6517250 next burst at 6503500.
+6427250: system.mem_ctrls: new burst ready time: 6517250, entry time: 6281000
+6427250: system.mem_ctrls: respQueue len: 134
+6476000: system.mem_ctrls: QoS Turnarounds selected state READ 
+6476000: system.mem_ctrls: Fixed Service Request
+6476000: system.mem_ctrls: Did not find real request, issuing fake request
+6476000: system.mem_ctrls: Removing burstTick for 6440000
+6476000: system.mem_ctrls: Removing burstTick for 6430000
+6476000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6476000: system.mem_ctrls.dram: Activate at tick 6533500
+6476000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6533500, now got 1 active
+6476000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6547250
+6476000: system.mem_ctrls.dram: New ready time: 6566000
+6476000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6568500, now got 0 active
+6476000: system.mem_ctrls.dram: Auto-precharged bank: 0
+6476000: system.mem_ctrls: Access to 0, ready at 6566000 next burst at 6552250.
+6476000: system.mem_ctrls: new burst ready time: 6566000, entry time: 6476000
+6476000: system.mem_ctrls: respQueue len: 135
+6524750: system.mem_ctrls: QoS Turnarounds selected state READ 
+6524750: system.mem_ctrls: Fixed Service Request
+6524750: system.mem_ctrls: Issuing real request
+6524750: system.mem_ctrls: Removing burstTick for 6490000
+6524750: system.mem_ctrls: Removing burstTick for 6480000
+6524750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6524750: system.mem_ctrls.dram: Activate at tick 6582250
+6524750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6582250, now got 1 active
+6524750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6596000
+6524750: system.mem_ctrls.dram: New ready time: 6614750
+6524750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6617250, now got 0 active
+6524750: system.mem_ctrls.dram: Auto-precharged bank: 0
+6524750: system.mem_ctrls: Access to 0, ready at 6614750 next burst at 6601000.
+6524750: system.mem_ctrls: new burst ready time: 6614750, entry time: 6378500
+6524750: system.mem_ctrls: respQueue len: 136
+6573500: system.mem_ctrls: QoS Turnarounds selected state READ 
+6573500: system.mem_ctrls: Fixed Service Request
+6573500: system.mem_ctrls: Did not find real request, issuing fake request
+6573500: system.mem_ctrls: Removing burstTick for 6540000
+6573500: system.mem_ctrls: Removing burstTick for 6530000
+6573500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6573500: system.mem_ctrls.dram: Activate at tick 6631000
+6573500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6631000, now got 1 active
+6573500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6644750
+6573500: system.mem_ctrls.dram: New ready time: 6663500
+6573500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6666000, now got 0 active
+6573500: system.mem_ctrls.dram: Auto-precharged bank: 0
+6573500: system.mem_ctrls: Access to 0, ready at 6663500 next burst at 6649750.
+6573500: system.mem_ctrls: new burst ready time: 6663500, entry time: 6573500
+6573500: system.mem_ctrls: respQueue len: 137
+6622250: system.mem_ctrls: QoS Turnarounds selected state READ 
+6622250: system.mem_ctrls: Fixed Service Request
+6622250: system.mem_ctrls: Issuing real request
+6622250: system.mem_ctrls: Removing burstTick for 6590000
+6622250: system.mem_ctrls: Removing burstTick for 6580000
+6622250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6622250: system.mem_ctrls.dram: Activate at tick 6679750
+6622250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6679750, now got 1 active
+6622250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6693500
+6622250: system.mem_ctrls.dram: New ready time: 6712250
+6622250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6714750, now got 0 active
+6622250: system.mem_ctrls.dram: Auto-precharged bank: 0
+6622250: system.mem_ctrls: Access to 0, ready at 6712250 next burst at 6698500.
+6622250: system.mem_ctrls: new burst ready time: 6712250, entry time: 6476000
+6622250: system.mem_ctrls: respQueue len: 138
+6671000: system.mem_ctrls: QoS Turnarounds selected state READ 
+6671000: system.mem_ctrls: Fixed Service Request
+6671000: system.mem_ctrls: Did not find real request, issuing fake request
+6671000: system.mem_ctrls: Removing burstTick for 6670000
+6671000: system.mem_ctrls: Removing burstTick for 6640000
+6671000: system.mem_ctrls: Removing burstTick for 6630000
+6671000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6671000: system.mem_ctrls.dram: Activate at tick 6728500
+6671000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6728500, now got 1 active
+6671000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6742250
+6671000: system.mem_ctrls.dram: New ready time: 6761000
+6671000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6763500, now got 0 active
+6671000: system.mem_ctrls.dram: Auto-precharged bank: 0
+6671000: system.mem_ctrls: Access to 0, ready at 6761000 next burst at 6747250.
+6671000: system.mem_ctrls: new burst ready time: 6761000, entry time: 6671000
+6671000: system.mem_ctrls: respQueue len: 139
+6719750: system.mem_ctrls: QoS Turnarounds selected state READ 
+6719750: system.mem_ctrls: Fixed Service Request
+6719750: system.mem_ctrls: Issuing real request
+6719750: system.mem_ctrls: Removing burstTick for 6690000
+6719750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6719750: system.mem_ctrls.dram: Activate at tick 6777250
+6719750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6777250, now got 1 active
+6719750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6791000
+6719750: system.mem_ctrls.dram: New ready time: 6809750
+6719750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6812250, now got 0 active
+6719750: system.mem_ctrls.dram: Auto-precharged bank: 0
+6719750: system.mem_ctrls: Access to 0, ready at 6809750 next burst at 6796000.
+6719750: system.mem_ctrls: new burst ready time: 6809750, entry time: 6573500
+6719750: system.mem_ctrls: respQueue len: 140
+6768500: system.mem_ctrls: QoS Turnarounds selected state READ 
+6768500: system.mem_ctrls: Fixed Service Request
+6768500: system.mem_ctrls: Did not find real request, issuing fake request
+6768500: system.mem_ctrls: Removing burstTick for 6740000
+6768500: system.mem_ctrls: Removing burstTick for 6720000
+6768500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6768500: system.mem_ctrls.dram: Activate at tick 6826000
+6768500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6826000, now got 1 active
+6768500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6839750
+6768500: system.mem_ctrls.dram: New ready time: 6858500
+6768500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6861000, now got 0 active
+6768500: system.mem_ctrls.dram: Auto-precharged bank: 0
+6768500: system.mem_ctrls: Access to 0, ready at 6858500 next burst at 6844750.
+6768500: system.mem_ctrls: new burst ready time: 6858500, entry time: 6768500
+6768500: system.mem_ctrls: respQueue len: 141
+6817250: system.mem_ctrls: QoS Turnarounds selected state READ 
+6817250: system.mem_ctrls: Fixed Service Request
+6817250: system.mem_ctrls: Issuing real request
+6817250: system.mem_ctrls: Removing burstTick for 6790000
+6817250: system.mem_ctrls: Removing burstTick for 6770000
+6817250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6817250: system.mem_ctrls.dram: Activate at tick 6874750
+6817250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6874750, now got 1 active
+6817250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6888500
+6817250: system.mem_ctrls.dram: New ready time: 6907250
+6817250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6909750, now got 0 active
+6817250: system.mem_ctrls.dram: Auto-precharged bank: 0
+6817250: system.mem_ctrls: Access to 0, ready at 6907250 next burst at 6893500.
+6817250: system.mem_ctrls: new burst ready time: 6907250, entry time: 6671000
+6817250: system.mem_ctrls: respQueue len: 142
+6866000: system.mem_ctrls: QoS Turnarounds selected state READ 
+6866000: system.mem_ctrls: Fixed Service Request
+6866000: system.mem_ctrls: Did not find real request, issuing fake request
+6866000: system.mem_ctrls: Removing burstTick for 6830000
+6866000: system.mem_ctrls: Removing burstTick for 6820000
+6866000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6866000: system.mem_ctrls.dram: Activate at tick 6923500
+6866000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6923500, now got 1 active
+6866000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6937250
+6866000: system.mem_ctrls.dram: New ready time: 6956000
+6866000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 6958500, now got 0 active
+6866000: system.mem_ctrls.dram: Auto-precharged bank: 0
+6866000: system.mem_ctrls: Access to 0, ready at 6956000 next burst at 6942250.
+6866000: system.mem_ctrls: new burst ready time: 6956000, entry time: 6866000
+6866000: system.mem_ctrls: respQueue len: 143
+6914750: system.mem_ctrls: QoS Turnarounds selected state READ 
+6914750: system.mem_ctrls: Fixed Service Request
+6914750: system.mem_ctrls: Issuing real request
+6914750: system.mem_ctrls: Removing burstTick for 6880000
+6914750: system.mem_ctrls: Removing burstTick for 6870000
+6914750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6914750: system.mem_ctrls.dram: Activate at tick 6972250
+6914750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 6972250, now got 1 active
+6914750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 6986000
+6914750: system.mem_ctrls.dram: New ready time: 7004750
+6914750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7007250, now got 0 active
+6914750: system.mem_ctrls.dram: Auto-precharged bank: 0
+6914750: system.mem_ctrls: Access to 0, ready at 7004750 next burst at 6991000.
+6914750: system.mem_ctrls: new burst ready time: 7004750, entry time: 6768500
+6914750: system.mem_ctrls: respQueue len: 144
+6963500: system.mem_ctrls: QoS Turnarounds selected state READ 
+6963500: system.mem_ctrls: Fixed Service Request
+6963500: system.mem_ctrls: Did not find real request, issuing fake request
+6963500: system.mem_ctrls: Removing burstTick for 6930000
+6963500: system.mem_ctrls: Removing burstTick for 6920000
+6963500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+6963500: system.mem_ctrls.dram: Activate at tick 7021000
+6963500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7021000, now got 1 active
+6963500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7034750
+6963500: system.mem_ctrls.dram: New ready time: 7053500
+6963500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7056000, now got 0 active
+6963500: system.mem_ctrls.dram: Auto-precharged bank: 0
+6963500: system.mem_ctrls: Access to 0, ready at 7053500 next burst at 7039750.
+6963500: system.mem_ctrls: new burst ready time: 7053500, entry time: 6963500
+6963500: system.mem_ctrls: respQueue len: 145
+7012250: system.mem_ctrls: QoS Turnarounds selected state READ 
+7012250: system.mem_ctrls: Fixed Service Request
+7012250: system.mem_ctrls: Issuing real request
+7012250: system.mem_ctrls: Removing burstTick for 6980000
+7012250: system.mem_ctrls: Removing burstTick for 6970000
+7012250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7012250: system.mem_ctrls.dram: Activate at tick 7069750
+7012250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7069750, now got 1 active
+7012250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7083500
+7012250: system.mem_ctrls.dram: New ready time: 7102250
+7012250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7104750, now got 0 active
+7012250: system.mem_ctrls.dram: Auto-precharged bank: 0
+7012250: system.mem_ctrls: Access to 0, ready at 7102250 next burst at 7088500.
+7012250: system.mem_ctrls: new burst ready time: 7102250, entry time: 6866000
+7012250: system.mem_ctrls: respQueue len: 146
+7061000: system.mem_ctrls: QoS Turnarounds selected state READ 
+7061000: system.mem_ctrls: Fixed Service Request
+7061000: system.mem_ctrls: Did not find real request, issuing fake request
+7061000: system.mem_ctrls: Removing burstTick for 7060000
+7061000: system.mem_ctrls: Removing burstTick for 7030000
+7061000: system.mem_ctrls: Removing burstTick for 7020000
+7061000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7061000: system.mem_ctrls.dram: Activate at tick 7118500
+7061000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7118500, now got 1 active
+7061000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7132250
+7061000: system.mem_ctrls.dram: New ready time: 7151000
+7061000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7153500, now got 0 active
+7061000: system.mem_ctrls.dram: Auto-precharged bank: 0
+7061000: system.mem_ctrls: Access to 0, ready at 7151000 next burst at 7137250.
+7061000: system.mem_ctrls: new burst ready time: 7151000, entry time: 7061000
+7061000: system.mem_ctrls: respQueue len: 147
+7109750: system.mem_ctrls: QoS Turnarounds selected state READ 
+7109750: system.mem_ctrls: Fixed Service Request
+7109750: system.mem_ctrls: Issuing real request
+7109750: system.mem_ctrls: Removing burstTick for 7080000
+7109750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7109750: system.mem_ctrls.dram: Activate at tick 7167250
+7109750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7167250, now got 1 active
+7109750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7181000
+7109750: system.mem_ctrls.dram: New ready time: 7199750
+7109750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7202250, now got 0 active
+7109750: system.mem_ctrls.dram: Auto-precharged bank: 0
+7109750: system.mem_ctrls: Access to 0, ready at 7199750 next burst at 7186000.
+7109750: system.mem_ctrls: new burst ready time: 7199750, entry time: 6963500
+7109750: system.mem_ctrls: respQueue len: 148
+7158500: system.mem_ctrls: QoS Turnarounds selected state READ 
+7158500: system.mem_ctrls: Fixed Service Request
+7158500: system.mem_ctrls: Did not find real request, issuing fake request
+7158500: system.mem_ctrls: Removing burstTick for 7130000
+7158500: system.mem_ctrls: Removing burstTick for 7110000
+7158500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7158500: system.mem_ctrls.dram: Activate at tick 7216000
+7158500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7216000, now got 1 active
+7158500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7229750
+7158500: system.mem_ctrls.dram: New ready time: 7248500
+7158500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7251000, now got 0 active
+7158500: system.mem_ctrls.dram: Auto-precharged bank: 0
+7158500: system.mem_ctrls: Access to 0, ready at 7248500 next burst at 7234750.
+7158500: system.mem_ctrls: new burst ready time: 7248500, entry time: 7158500
+7158500: system.mem_ctrls: respQueue len: 149
+7207250: system.mem_ctrls: QoS Turnarounds selected state READ 
+7207250: system.mem_ctrls: Fixed Service Request
+7207250: system.mem_ctrls: Issuing real request
+7207250: system.mem_ctrls: Removing burstTick for 7180000
+7207250: system.mem_ctrls: Removing burstTick for 7160000
+7207250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7207250: system.mem_ctrls.dram: Activate at tick 7264750
+7207250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7264750, now got 1 active
+7207250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7278500
+7207250: system.mem_ctrls.dram: New ready time: 7297250
+7207250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7299750, now got 0 active
+7207250: system.mem_ctrls.dram: Auto-precharged bank: 0
+7207250: system.mem_ctrls: Access to 0, ready at 7297250 next burst at 7283500.
+7207250: system.mem_ctrls: new burst ready time: 7297250, entry time: 7061000
+7207250: system.mem_ctrls: respQueue len: 150
+7256000: system.mem_ctrls: QoS Turnarounds selected state READ 
+7256000: system.mem_ctrls: Fixed Service Request
+7256000: system.mem_ctrls: Did not find real request, issuing fake request
+7256000: system.mem_ctrls: Removing burstTick for 7220000
+7256000: system.mem_ctrls: Removing burstTick for 7210000
+7256000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7256000: system.mem_ctrls.dram: Activate at tick 7313500
+7256000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7313500, now got 1 active
+7256000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7327250
+7256000: system.mem_ctrls.dram: New ready time: 7346000
+7256000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7348500, now got 0 active
+7256000: system.mem_ctrls.dram: Auto-precharged bank: 0
+7256000: system.mem_ctrls: Access to 0, ready at 7346000 next burst at 7332250.
+7256000: system.mem_ctrls: new burst ready time: 7346000, entry time: 7256000
+7256000: system.mem_ctrls: respQueue len: 151
+7304750: system.mem_ctrls: QoS Turnarounds selected state READ 
+7304750: system.mem_ctrls: Fixed Service Request
+7304750: system.mem_ctrls: Issuing real request
+7304750: system.mem_ctrls: Removing burstTick for 7270000
+7304750: system.mem_ctrls: Removing burstTick for 7260000
+7304750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7304750: system.mem_ctrls.dram: Activate at tick 7362250
+7304750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7362250, now got 1 active
+7304750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7376000
+7304750: system.mem_ctrls.dram: New ready time: 7394750
+7304750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7397250, now got 0 active
+7304750: system.mem_ctrls.dram: Auto-precharged bank: 0
+7304750: system.mem_ctrls: Access to 0, ready at 7394750 next burst at 7381000.
+7304750: system.mem_ctrls: new burst ready time: 7394750, entry time: 7158500
+7304750: system.mem_ctrls: respQueue len: 152
+7353500: system.mem_ctrls: QoS Turnarounds selected state READ 
+7353500: system.mem_ctrls: Fixed Service Request
+7353500: system.mem_ctrls: Did not find real request, issuing fake request
+7353500: system.mem_ctrls: Removing burstTick for 7320000
+7353500: system.mem_ctrls: Removing burstTick for 7310000
+7353500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7353500: system.mem_ctrls.dram: Activate at tick 7411000
+7353500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7411000, now got 1 active
+7353500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7424750
+7353500: system.mem_ctrls.dram: New ready time: 7443500
+7353500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7446000, now got 0 active
+7353500: system.mem_ctrls.dram: Auto-precharged bank: 0
+7353500: system.mem_ctrls: Access to 0, ready at 7443500 next burst at 7429750.
+7353500: system.mem_ctrls: new burst ready time: 7443500, entry time: 7353500
+7353500: system.mem_ctrls: respQueue len: 153
+7402250: system.mem_ctrls: QoS Turnarounds selected state READ 
+7402250: system.mem_ctrls: Fixed Service Request
+7402250: system.mem_ctrls: Issuing real request
+7402250: system.mem_ctrls: Removing burstTick for 7370000
+7402250: system.mem_ctrls: Removing burstTick for 7360000
+7402250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7402250: system.mem_ctrls.dram: Activate at tick 7459750
+7402250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7459750, now got 1 active
+7402250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7473500
+7402250: system.mem_ctrls.dram: New ready time: 7492250
+7402250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7494750, now got 0 active
+7402250: system.mem_ctrls.dram: Auto-precharged bank: 0
+7402250: system.mem_ctrls: Access to 0, ready at 7492250 next burst at 7478500.
+7402250: system.mem_ctrls: new burst ready time: 7492250, entry time: 7256000
+7402250: system.mem_ctrls: respQueue len: 154
+7451000: system.mem_ctrls: QoS Turnarounds selected state READ 
+7451000: system.mem_ctrls: Fixed Service Request
+7451000: system.mem_ctrls: Did not find real request, issuing fake request
+7451000: system.mem_ctrls: Removing burstTick for 7450000
+7451000: system.mem_ctrls: Removing burstTick for 7420000
+7451000: system.mem_ctrls: Removing burstTick for 7410000
+7451000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7451000: system.mem_ctrls.dram: Activate at tick 7508500
+7451000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7508500, now got 1 active
+7451000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7522250
+7451000: system.mem_ctrls.dram: New ready time: 7541000
+7451000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7543500, now got 0 active
+7451000: system.mem_ctrls.dram: Auto-precharged bank: 0
+7451000: system.mem_ctrls: Access to 0, ready at 7541000 next burst at 7527250.
+7451000: system.mem_ctrls: new burst ready time: 7541000, entry time: 7451000
+7451000: system.mem_ctrls: respQueue len: 155
+7499750: system.mem_ctrls: QoS Turnarounds selected state READ 
+7499750: system.mem_ctrls: Fixed Service Request
+7499750: system.mem_ctrls: Issuing real request
+7499750: system.mem_ctrls: Removing burstTick for 7470000
+7499750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7499750: system.mem_ctrls.dram: Activate at tick 7557250
+7499750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7557250, now got 1 active
+7499750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7571000
+7499750: system.mem_ctrls.dram: New ready time: 7589750
+7499750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7592250, now got 0 active
+7499750: system.mem_ctrls.dram: Auto-precharged bank: 0
+7499750: system.mem_ctrls: Access to 0, ready at 7589750 next burst at 7576000.
+7499750: system.mem_ctrls: new burst ready time: 7589750, entry time: 7353500
+7499750: system.mem_ctrls: respQueue len: 156
+7548500: system.mem_ctrls: QoS Turnarounds selected state READ 
+7548500: system.mem_ctrls: Fixed Service Request
+7548500: system.mem_ctrls: Did not find real request, issuing fake request
+7548500: system.mem_ctrls: Removing burstTick for 7520000
+7548500: system.mem_ctrls: Removing burstTick for 7500000
+7548500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7548500: system.mem_ctrls.dram: Activate at tick 7606000
+7548500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7606000, now got 1 active
+7548500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7619750
+7548500: system.mem_ctrls.dram: New ready time: 7638500
+7548500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7641000, now got 0 active
+7548500: system.mem_ctrls.dram: Auto-precharged bank: 0
+7548500: system.mem_ctrls: Access to 0, ready at 7638500 next burst at 7624750.
+7548500: system.mem_ctrls: new burst ready time: 7638500, entry time: 7548500
+7548500: system.mem_ctrls: respQueue len: 157
+7597250: system.mem_ctrls: QoS Turnarounds selected state READ 
+7597250: system.mem_ctrls: Fixed Service Request
+7597250: system.mem_ctrls: Issuing real request
+7597250: system.mem_ctrls: Removing burstTick for 7570000
+7597250: system.mem_ctrls: Removing burstTick for 7550000
+7597250: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7597250: system.mem_ctrls.dram: Activate at tick 7654750
+7597250: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7654750, now got 1 active
+7597250: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7668500
+7597250: system.mem_ctrls.dram: New ready time: 7687250
+7597250: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7689750, now got 0 active
+7597250: system.mem_ctrls.dram: Auto-precharged bank: 0
+7597250: system.mem_ctrls: Access to 0, ready at 7687250 next burst at 7673500.
+7597250: system.mem_ctrls: new burst ready time: 7687250, entry time: 7451000
+7597250: system.mem_ctrls: respQueue len: 158
+7646000: system.mem_ctrls: QoS Turnarounds selected state READ 
+7646000: system.mem_ctrls: Fixed Service Request
+7646000: system.mem_ctrls: Did not find real request, issuing fake request
+7646000: system.mem_ctrls: Removing burstTick for 7610000
+7646000: system.mem_ctrls: Removing burstTick for 7600000
+7646000: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7646000: system.mem_ctrls.dram: Activate at tick 7703500
+7646000: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7703500, now got 1 active
+7646000: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7717250
+7646000: system.mem_ctrls.dram: New ready time: 7736000
+7646000: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7738500, now got 0 active
+7646000: system.mem_ctrls.dram: Auto-precharged bank: 0
+7646000: system.mem_ctrls: Access to 0, ready at 7736000 next burst at 7722250.
+7646000: system.mem_ctrls: new burst ready time: 7736000, entry time: 7646000
+7646000: system.mem_ctrls: respQueue len: 159
+7694750: system.mem_ctrls: QoS Turnarounds selected state READ 
+7694750: system.mem_ctrls: Fixed Service Request
+7694750: system.mem_ctrls: Issuing real request
+7694750: system.mem_ctrls: Removing burstTick for 7660000
+7694750: system.mem_ctrls: Removing burstTick for 7650000
+7694750: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7694750: system.mem_ctrls.dram: Activate at tick 7752250
+7694750: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7752250, now got 1 active
+7694750: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7766000
+7694750: system.mem_ctrls.dram: New ready time: 7784750
+7694750: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7787250, now got 0 active
+7694750: system.mem_ctrls.dram: Auto-precharged bank: 0
+7694750: system.mem_ctrls: Access to 0, ready at 7784750 next burst at 7771000.
+7694750: system.mem_ctrls: new burst ready time: 7784750, entry time: 7548500
+7694750: system.mem_ctrls: respQueue len: 160
+7743500: system.mem_ctrls: QoS Turnarounds selected state READ 
+7743500: system.mem_ctrls: Fixed Service Request
+7743500: system.mem_ctrls: Did not find real request, issuing fake request
+7743500: system.mem_ctrls: Removing burstTick for 7710000
+7743500: system.mem_ctrls: Removing burstTick for 7700000
+7743500: system.mem_ctrls.dram: Timing access to addr 0, rank/bank/row 0 0 0
+7743500: system.mem_ctrls.dram: Activate at tick 7801000
+7743500: system.mem_ctrls.dram: Activate bank 0, rank 0 at tick 7801000, now got 1 active
+7743500: system.mem_ctrls.dram: Schedule RD/WR burst at tick 7814750
+7743500: system.mem_ctrls.dram: New ready time: 7833500
+7743500: system.mem_ctrls.dram: Precharging bank 0, rank 0 at tick 7836000, now got 0 active
+7743500: system.mem_ctrls.dram: Auto-precharged bank: 0
+7743500: system.mem_ctrls: Access to 0, ready at 7833500 next burst at 7819750.
+7743500: system.mem_ctrls: new burst ready time: 7833500, entry time: 7743500
+7743500: system.mem_ctrls: respQueue len: 161
+7786250: 0: Refresh due
+7786250: 0: Refresh awaiting draining
+7792250: system.mem_ctrls: QoS Turnarounds selected state READ 
+7792250: 0: Refresh drain done, now precharging
+8109750: 0: Outstanding Events: 162

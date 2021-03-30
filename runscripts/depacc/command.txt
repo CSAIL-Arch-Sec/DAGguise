@@ -1,0 +1,2 @@
+g++ depAcc-DAG.cpp -o depAcc-DAG
+./ddepAcc-DAG
