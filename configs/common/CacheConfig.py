@@ -95,8 +95,7 @@ def config_cache(options, system):
         fatal("When elastic trace is enabled, do not configure L2 caches.")
 
     if options.l2cache and options.l3cache:
-        system.tol3bus = L3XBar(clk_domain = system.cpu_clk_domain)
-
+        pass
 
     elif options.l2cache:
         # Provide a clock for the L2 and the L1-to-L2 bus here as they
@@ -129,6 +128,10 @@ def config_cache(options, system):
                                   assoc=options.l1d_assoc)
             l2cache = l2_cache_class(size=options.l2_size,
                                   assoc=options.l2_assoc)
+
+            l3cache = l3_cache_class(size=options.l3_size,
+                                    assoc=options.l3_assoc)
+
 
             # If we have a walker cache specified, instantiate two
             # instances here
@@ -174,10 +177,10 @@ def config_cache(options, system):
 
             # When connecting the caches, the clock is also inherited
             # from the CPU in question
-            system.cpu[i].addPrivateSplitL2Caches(icache, dcache, l2cache,
+            system.cpu[i].addPrivateSplitL3Caches(icache, dcache, l2cache, l3cache,
                                                   iwalkcache, dwalkcache)
 
-            system.cpu[i].connectCachedPorts(system.tol3bus)
+            system.cpu[i].connectCachedPorts(system.membus)
 
             if options.memchecker:
                 # The mem_side ports of the caches haven't been connected yet.
@@ -204,15 +207,13 @@ def config_cache(options, system):
 
         system.cpu[i].createInterruptController()
         if options.l3cache:
-            system.l3cache = l3_cache_class(clk_domain=system.cpu_clk_domain,
-                                   size=options.l3_size,
-                                   assoc=options.l3_assoc)
-
+            
+            #system.tol3bus = L3XBar(clk_domain = system.cpu_clk_domain)
 
             #addPrivateSplitL2Caches(icache, dcache, l2cache, iwalkcache, dwalkcache)
 
-            system.l3cache.cpu_side = system.tol3bus.master
-            system.l3cache.mem_side = system.membus.slave
+            #system.l3cache.cpu_side = system.tol3bus.master
+            #system.l3cache.mem_side = system.membus.slave
 
             system.cpu[i].connectUncachedPorts(system.membus)
             #system.cpu[i].connectAllPorts(system.tol3bus, system.membus)

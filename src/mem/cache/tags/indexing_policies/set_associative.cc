@@ -60,7 +60,7 @@ SetAssociative::SetAssociative(const Params *p)
     {
 
     numSecurityDomains = p->numSecurityDomains;
-    setMask = numSets/numSecurityDomains - 1;
+    /*setMask = numSets/numSecurityDomains - 1;
 
     DPRINTF(Cache, "NumSets: %d, size %d, entry_size %d, assoc %d", numSets, p->size, p->entry_size, assoc);
 
@@ -74,13 +74,14 @@ SetAssociative::SetAssociative(const Params *p)
 
     if (numSets < numSecurityDomains) {
         fatal("Number of security domains must exceed number of sets!");
-    }
+    }*/
 
 }
 
 uint32_t
 SetAssociative::extractSet(const Addr addr, uint32_t securityDomain)
 {
+    /*
     int securityIndex;
     auto it = std::find(domainMapping.begin(), domainMapping.end(), securityDomain);
     if (it != domainMapping.end()) {
@@ -94,15 +95,17 @@ SetAssociative::extractSet(const Addr addr, uint32_t securityDomain)
 
     assert(securityIndex < numSecurityDomains);
     assert(numSets/numSecurityDomains != 0);
-
     return ((addr >> setShift) & setMask) | (securityIndex << (floorLog2(numSets/numSecurityDomains)));
+    */
+    return (addr >> setShift) & setMask;
 }
 
 Addr
 SetAssociative::regenerateAddr(const Addr tag, const ReplaceableEntry* entry)
                                                                         const
 {
-    return (tag << tagShift) | ((entry->getSet() & setMask) << setShift);
+    //return (tag << tagShift) | ((entry->getSet() & setMask) << setShift);
+    return (tag << tagShift) | (entry->getSet() << setShift);
 }
 
 std::vector<ReplaceableEntry*>

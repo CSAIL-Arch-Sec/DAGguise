@@ -741,7 +741,8 @@ bool
 MSHR::matchBlockAddr(const Addr addr, const bool is_secure, uint32_t security_domain) const
 {
     assert(hasTargets());
-    return (blkAddr == addr) && (isSecure == is_secure) && (securityDomain == security_domain);
+    //return (blkAddr == addr) && (isSecure == is_secure) && (securityDomain == security_domain);
+    return (blkAddr == addr) && (isSecure == is_secure);
 }
 
 bool
