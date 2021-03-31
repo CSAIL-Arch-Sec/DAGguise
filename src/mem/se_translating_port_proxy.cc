@@ -49,6 +49,7 @@
 #include "arch/isa_traits.hh"
 #include "base/chunk_generator.hh"
 #include "config/the_isa.hh"
+#include "debug/Cache.hh"
 #include "mem/page_table.hh"
 #include "sim/process.hh"
 #include "sim/system.hh"
@@ -78,6 +79,7 @@ SETranslatingPortProxy::tryReadBlob(Addr addr, void *p, int size) const
         if (!pTable->translate(gen.addr(),paddr))
             return false;
 
+        DPRINTF(Cache, "READING BLOB!\n");
         PortProxy::readBlobPhys(paddr, 0, bytes + prevSize, gen.size());
         prevSize += gen.size();
     }
@@ -109,6 +111,7 @@ SETranslatingPortProxy::tryWriteBlob(Addr addr, const void *p, int size) const
             }
             pTable->translate(gen.addr(), paddr);
         }
+        DPRINTF(Cache, "WRITING BLOB!\n");
 
         PortProxy::writeBlobPhys(paddr, 0, bytes + prevSize, gen.size());
         prevSize += gen.size();

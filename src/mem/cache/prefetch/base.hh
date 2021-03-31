@@ -303,7 +303,7 @@ class BasePrefetcher : public ClockedObject
     bool inCache(Addr addr, bool is_secure, uint32_t securityDomain) const;
 
     /** Determine if address is in cache miss queue */
-    bool inMissQueue(Addr addr, bool is_secure) const;
+    bool inMissQueue(Addr addr, bool is_secure, uint32_t securityDomain) const;
 
     bool hasBeenPrefetched(Addr addr, bool is_secure, uint32_t securityDomain) const;
 

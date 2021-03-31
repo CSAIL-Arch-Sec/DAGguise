@@ -152,9 +152,9 @@ BasePrefetcher::inCache(Addr addr, bool is_secure, uint32_t securityDomain) cons
 }
 
 bool
-BasePrefetcher::inMissQueue(Addr addr, bool is_secure) const
+BasePrefetcher::inMissQueue(Addr addr, bool is_secure, uint32_t securityDomain) const
 {
-    return cache->inMissQueue(addr, is_secure);
+    return cache->inMissQueue(addr, is_secure, securityDomain);
 }
 
 bool

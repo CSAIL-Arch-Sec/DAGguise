@@ -284,7 +284,7 @@ QueuedPrefetcher::translationComplete(DeferredPacket *dp, bool failed)
         Addr target_paddr = it->translationRequest->getPaddr();
         // check if this prefetch is already redundant
         if (cacheSnoop && (inCache(target_paddr, it->pfInfo.isSecure(),0) ||
-                    inMissQueue(target_paddr, it->pfInfo.isSecure()))) {
+                    inMissQueue(target_paddr, it->pfInfo.isSecure(),0))) {
             pfInCache++;
             DPRINTF(HWPrefetch, "Dropping redundant in "
                     "cache/MSHR prefetch addr:%#x\n", target_paddr);
@@ -420,7 +420,7 @@ QueuedPrefetcher::insert(const PacketPtr &pkt, PrefetchInfo &new_pfi,
     }
     if (has_target_pa && cacheSnoop &&
             (inCache(target_paddr, new_pfi.isSecure(),0) ||
-            inMissQueue(target_paddr, new_pfi.isSecure()))) {
+            inMissQueue(target_paddr, new_pfi.isSecure(),0))) {
         pfInCache++;
         DPRINTF(HWPrefetch, "Dropping redundant in "
                 "cache/MSHR prefetch addr:%#x\n", target_paddr);

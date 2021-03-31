@@ -119,9 +119,11 @@ class QueueEntry : public Packet::SenderState
     /** True if the entry targets the secure memory space. */
     bool isSecure;
 
+    uint32_t securityDomain;
+
     QueueEntry()
         : readyTime(0), _isUncacheable(false),
-          inService(false), order(0), blkAddr(0), blkSize(0), isSecure(false)
+          inService(false), order(0), blkAddr(0), blkSize(0), isSecure(false), securityDomain(0)
     {}
 
     bool isUncacheable() const { return _isUncacheable; }
@@ -133,7 +135,7 @@ class QueueEntry : public Packet::SenderState
      * @param is_secure Whether the target should be in secure space or not.
      * @return True if entry matches given information.
      */
-    virtual bool matchBlockAddr(const Addr addr, const bool is_secure)
+    virtual bool matchBlockAddr(const Addr addr, const bool is_secure, uint32_t securityDomain)
                                                             const = 0;
 
     /**

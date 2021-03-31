@@ -72,7 +72,7 @@ STeMSPrefetcher::checkForActiveGenerationsEnd() {
                     Addr cache_addr =
                         agt_entry.paddress + seq_entry.offset * blkSize;
                     if (!inCache(cache_addr, sr_is_secure, 0) &&
-                            !inMissQueue(cache_addr, sr_is_secure)) {
+                            !inMissQueue(cache_addr, sr_is_secure, 0)) {
                         generation_ended = true;
                         break;
                     }

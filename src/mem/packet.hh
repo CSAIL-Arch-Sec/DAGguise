@@ -988,7 +988,7 @@ class Packet : public Printable
      * @return Whether packet matches description.
      */
     bool matchBlockAddr(const Addr addr, const bool is_secure,
-                        const int blk_size) const;
+                        const int blk_size, uint32_t security_domain) const;
 
     /**
      * Check if this packet refers to the same block-aligned address and

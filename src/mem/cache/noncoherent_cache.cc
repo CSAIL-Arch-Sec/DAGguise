@@ -124,7 +124,7 @@ NoncoherentCache::handleTimingReqMiss(PacketPtr pkt, CacheBlk *blk,
 {
     // miss
     Addr blk_addr = pkt->getBlockAddr(blkSize);
-    MSHR *mshr = mshrQueue.findMatch(blk_addr, pkt->isSecure(), false);
+    MSHR *mshr = mshrQueue.findMatch(blk_addr, pkt->isSecure(), pkt->masterId(), false);
 
     // We can always write to a non coherent cache if the block is
     // present and therefore if we have reached this point then the

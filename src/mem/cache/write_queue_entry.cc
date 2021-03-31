@@ -94,6 +94,7 @@ WriteQueueEntry::allocate(Addr blk_addr, unsigned blk_size, PacketPtr target,
     blkAddr = blk_addr;
     blkSize = blk_size;
     isSecure = target->isSecure();
+    securityDomain = target->masterId();
     readyTime = when_ready;
     order = _order;
     assert(target);
@@ -145,24 +146,24 @@ WriteQueueEntry::sendPacket(BaseCache &cache)
 }
 
 bool
-WriteQueueEntry::matchBlockAddr(const Addr addr, const bool is_secure) const
+WriteQueueEntry::matchBlockAddr(const Addr addr, const bool is_secure, uint32_t security_domain) const
 {
     assert(hasTargets());
-    return (blkAddr == addr) && (isSecure == is_secure);
+    return (blkAddr == addr) && (isSecure == is_secure) && (securityDomain == security_domain);
 }
 
 bool
 WriteQueueEntry::matchBlockAddr(const PacketPtr pkt) const
 {
     assert(hasTargets());
-    return pkt->matchBlockAddr(blkAddr, isSecure, blkSize);
+    return pkt->matchBlockAddr(blkAddr, isSecure, blkSize, securityDomain);
 }
 
 bool
 WriteQueueEntry::conflictAddr(const QueueEntry* entry) const
 {
     assert(hasTargets());
-    return entry->matchBlockAddr(blkAddr, isSecure);
+    return entry->matchBlockAddr(blkAddr, isSecure, securityDomain);
 }
 
 void

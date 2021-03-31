@@ -395,16 +395,16 @@ Packet::print() const {
 
 bool
 Packet::matchBlockAddr(const Addr addr, const bool is_secure,
-                       const int blk_size) const
+                       const int blk_size, uint32_t security_domain) const
 {
-    return (getBlockAddr(blk_size) == addr) && (isSecure() == is_secure);
+    return (getBlockAddr(blk_size) == addr) && (isSecure() == is_secure) && (masterId() == security_domain);
 }
 
 bool
 Packet::matchBlockAddr(const PacketPtr pkt, const int blk_size) const
 {
     return matchBlockAddr(pkt->getBlockAddr(blk_size), pkt->isSecure(),
-                          blk_size);
+                          blk_size, pkt->masterId());
 }
 
 bool

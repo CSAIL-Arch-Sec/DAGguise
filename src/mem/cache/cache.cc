@@ -354,7 +354,7 @@ Cache::handleTimingReqMiss(PacketPtr pkt, CacheBlk *blk, Tick forward_time,
 
     Addr blk_addr = pkt->getBlockAddr(blkSize);
 
-    MSHR *mshr = mshrQueue.findMatch(blk_addr, pkt->isSecure());
+    MSHR *mshr = mshrQueue.findMatch(blk_addr, pkt->isSecure(), pkt->masterId());
 
     // Software prefetch handling:
     // To keep the core from waiting on data it won't look at
@@ -1212,7 +1212,7 @@ Cache::recvTimingSnoopReq(PacketPtr pkt)
     CacheBlk *blk = tags->findBlock(pkt->getAddr(), is_secure, pkt->req->masterId());
 
     Addr blk_addr = pkt->getBlockAddr(blkSize);
-    MSHR *mshr = mshrQueue.findMatch(blk_addr, is_secure);
+    MSHR *mshr = mshrQueue.findMatch(blk_addr, is_secure, pkt->req->masterId());
 
     // Update the latency cost of the snoop so that the crossbar can
     // account for it. Do not overwrite what other neighbouring caches
@@ -1244,7 +1244,7 @@ Cache::recvTimingSnoopReq(PacketPtr pkt)
     }
 
     //We also need to check the writeback buffers and handle those
-    WriteQueueEntry *wb_entry = writeBuffer.findMatch(blk_addr, is_secure);
+    WriteQueueEntry *wb_entry = writeBuffer.findMatch(blk_addr, is_secure, pkt->req->masterId());
     if (wb_entry) {
         DPRINTF(Cache, "Snoop hit in writeback to addr %#llx (%s)\n",
                 pkt->getAddr(), is_secure ? "s" : "ns");

@@ -163,7 +163,7 @@ class Queue : public Drainable
      * @param ignore_uncacheable Should uncacheables be ignored or not
      * @return Pointer to the matching WriteQueueEntry, null if not found.
      */
-    Entry* findMatch(Addr blk_addr, bool is_secure,
+    Entry* findMatch(Addr blk_addr, bool is_secure, uint32_t securityDomain,
                      bool ignore_uncacheable = true) const
     {
         for (const auto& entry : allocatedList) {
@@ -174,7 +174,7 @@ class Queue : public Drainable
             // cacheable accesses being added to an WriteQueueEntry
             // serving an uncacheable access
             if (!(ignore_uncacheable && entry->isUncacheable()) &&
-                entry->matchBlockAddr(blk_addr, is_secure)) {
+                entry->matchBlockAddr(blk_addr, is_secure, securityDomain)) {
                 return entry;
             }
         }

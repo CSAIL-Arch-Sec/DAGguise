@@ -625,7 +625,8 @@ BaseCache::functionalAccess(PacketPtr pkt, bool from_cpu_side)
     Addr blk_addr = pkt->getBlockAddr(blkSize);
     bool is_secure = pkt->isSecure();
     CacheBlk *blk = tags->findBlock(pkt->getAddr(), is_secure, pkt->req->masterId());
-    MSHR *mshr = mshrQueue.findMatch(blk_addr, is_secure);
+    DPRINTF(CacheVerbose, "Functional Access! Requestor: %x\n", pkt->req->masterId());
+    MSHR *mshr = mshrQueue.findMatch(blk_addr, is_secure, pkt->req->masterId());
 
     pkt->pushLabel(name());
 
@@ -773,8 +774,8 @@ BaseCache::getNextQueueEntry()
         if (pkt) {
             Addr pf_addr = pkt->getBlockAddr(blkSize);
             if (!tags->findBlock(pf_addr, pkt->isSecure(), pkt->req->masterId()) &&
-                !mshrQueue.findMatch(pf_addr, pkt->isSecure()) &&
-                !writeBuffer.findMatch(pf_addr, pkt->isSecure())) {
+                !mshrQueue.findMatch(pf_addr, pkt->isSecure(), 0) &&
+                !writeBuffer.findMatch(pf_addr, pkt->isSecure(), pkt->masterId())) {
                 // Update statistic on number of prefetches issued
                 // (hwpf_mshr_misses)
                 assert(pkt->req->masterId() < system->maxMasters());
@@ -804,8 +805,8 @@ BaseCache::handleEvictions(std::vector<CacheBlk*> &evict_blks,
             replacement = true;
 
             const MSHR* mshr =
-                mshrQueue.findMatch(regenerateBlkAddr(blk), blk->isSecure());
-            if (mshr && (blk->srcMasterId != securityDomain)) {
+                mshrQueue.findMatch(regenerateBlkAddr(blk), blk->isSecure(), blk->srcMasterId);
+            if (mshr) {
                 // Must be an outstanding upgrade or clean request on a block
                 // we're about to replace
                 assert((!blk->isWritable() && mshr->needsWritable()) ||
@@ -1072,7 +1073,8 @@ BaseCache::access(PacketPtr pkt, CacheBlk *&blk, Cycles &lat,
         // CleanEvict almost simultaneously will be caught by snoops sent out
         // by crossbar.
         WriteQueueEntry *wb_entry = writeBuffer.findMatch(pkt->getAddr(),
-                                                          pkt->isSecure());
+                                                          pkt->isSecure(),
+                                                          pkt->req->masterId());
         if (wb_entry) {
             assert(wb_entry->getNumTargets() == 1);
             PacketPtr wbPkt = wb_entry->getTarget()->pkt;
@@ -1119,7 +1121,7 @@ BaseCache::access(PacketPtr pkt, CacheBlk *&blk, Cycles &lat,
         // now and drop the clean writeback so that we do not upset
         // any ordering/decisions about ownership already taken
         if (pkt->cmd == MemCmd::WritebackClean &&
-            mshrQueue.findMatch(pkt->getAddr(), pkt->isSecure())) {
+            mshrQueue.findMatch(pkt->getAddr(), pkt->isSecure(), pkt->masterId())) {
             DPRINTF(Cache, "Clean writeback %#llx to block with MSHR, "
                     "dropping\n", pkt->getAddr());
 
@@ -1318,7 +1320,7 @@ BaseCache::handleFill(PacketPtr pkt, CacheBlk *blk, PacketList &writebacks,
 
     // When handling a fill, we should have no writes to this line.
     assert(addr == pkt->getBlockAddr(blkSize));
-    assert(!writeBuffer.findMatch(addr, is_secure));
+    assert(!writeBuffer.findMatch(addr, is_secure, pkt->masterId()));
 
     if (!blk) {
         // better have read new data...
@@ -1612,7 +1614,7 @@ BaseCache::writebackVisitor(CacheBlk &blk)
         assert(blk.isValid());
 
         RequestPtr request = std::make_shared<Request>(
-            regenerateBlkAddr(&blk), blkSize, 0, Request::funcMasterId);
+            regenerateBlkAddr(&blk), blkSize, 0, blk.srcMasterId);
 
         request->taskId(blk.task_id);
         if (blk.isSecure()) {

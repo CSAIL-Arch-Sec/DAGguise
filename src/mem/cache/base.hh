@@ -1133,7 +1133,7 @@ class BaseCache : public ClockedObject
         }
 
         WriteQueueEntry *wq_entry =
-            writeBuffer.findMatch(blk_addr, pkt->isSecure());
+            writeBuffer.findMatch(blk_addr, pkt->isSecure(), pkt->req->masterId());
         if (wq_entry && !wq_entry->inService) {
             DPRINTF(Cache, "Potential to merge writeback %s", pkt->print());
         }
@@ -1217,8 +1217,8 @@ class BaseCache : public ClockedObject
         }
     }
 
-    bool inMissQueue(Addr addr, bool is_secure) const {
-        return mshrQueue.findMatch(addr, is_secure);
+    bool inMissQueue(Addr addr, bool is_secure, uint32_t securityDomain) const {
+        return mshrQueue.findMatch(addr, is_secure, securityDomain);
     }
 
     void incMissCount(PacketPtr pkt)

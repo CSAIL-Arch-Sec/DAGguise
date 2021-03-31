@@ -180,7 +180,7 @@ class WriteQueueEntry : public QueueEntry, public Printable
      */
     std::string print() const;
 
-    bool matchBlockAddr(const Addr addr, const bool is_secure) const override;
+    bool matchBlockAddr(const Addr addr, const bool is_secure, uint32_t securityDomain) const override;
     bool matchBlockAddr(const PacketPtr pkt) const override;
     bool conflictAddr(const QueueEntry* entry) const override;
 };
