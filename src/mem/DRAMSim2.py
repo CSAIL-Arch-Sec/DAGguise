@@ -54,6 +54,6 @@ class DRAMSim2(AbstractMemory):
                             "Directory to prepend to file names")
     traceFile = Param.String("", "Output file for trace generation")
     
-    defenceFile = Param.String("defence/defDAGBest-95-encoded.json", "Input file for defence scheme")
+    defenceFile = Param.String("defence/def.json", "Input file for defence scheme")
 
     enableDebug = Param.Bool(True, "Enable DRAMSim2 debug output")
