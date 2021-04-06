@@ -50,7 +50,7 @@ class DRAMSim2(AbstractMemory):
                                     "Device configuration file")
     systemConfigFile = Param.String("system.ini",
                                     "Memory organisation configuration file")
-    filePath = Param.String("/home/pwd/gem5_checkpoint_19/ext/dramsim2/DRAMSim2/",
+    filePath = Param.String("",
                             "Directory to prepend to file names")
     traceFile = Param.String("", "Output file for trace generation")
     

@@ -411,6 +411,19 @@ def addSEOptions(parser):
                       dest="benchmark",
                       help="Specify the benchmark to run. Available benchmarks: %s"\
                       % DefinedBenchmarks)
+    parser.add_option("--dramdeviceconfigfile", action="store", type="string",
+                      dest="dramdeviceconfigfile",
+                      help="Specify an input DRAMSim2 config file")
+    parser.add_option("--dramsystemconfigfile", action="store", type="string",
+                      dest="dramsystemconfigfile",
+                      help="What input DAG we should use")
+    parser.add_option("--dagprotectionfile", action="store", type="string",
+                      dest="dagprotectionfile",
+                      help="What input DAG we should use")
+    parser.add_option("--enabledramlog", action="store_true",
+                      dest="enabledramlog",
+                      help="What input DAG we should use")
+                      
 
 
 

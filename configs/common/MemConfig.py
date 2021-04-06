@@ -166,6 +166,17 @@ def config_mem(options, system):
         for i in range(nbr_mem_ctrls):
             mem_ctrl = create_mem_ctrl(cls, r, i, nbr_mem_ctrls, intlv_bits,
                                        intlv_size)
+
+            if (opt_mem_type == "DRAMSim2"):
+                if options.dramdeviceconfigfile:
+                    mem_ctrl.deviceConfigFile = options.dramdeviceconfigfile
+                if options.dramsystemconfigfile:
+                    mem_ctrl.systemConfigFile = options.dramsystemconfigfile
+                if options.dagprotectionfile:
+                    mem_ctrl.defenceFile = options.dagprotectionfile
+                
+                mem_ctrl.enableDebug = options.enabledramlog
+
             # Set the number of ranks based on the command-line
             # options if it was explicitly set
             if issubclass(cls, m5.objects.DRAMCtrl) and opt_mem_ranks:
