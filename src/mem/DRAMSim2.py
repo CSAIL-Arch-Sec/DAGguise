@@ -50,10 +50,10 @@ class DRAMSim2(AbstractMemory):
                                     "Device configuration file")
     systemConfigFile = Param.String("system.ini",
                                     "Memory organisation configuration file")
-    filePath = Param.String("ext/dramsim2/DRAMSim2/",
+    filePath = Param.String("/home/pwd/gem5_checkpoint_19/ext/dramsim2/DRAMSim2/",
                             "Directory to prepend to file names")
     traceFile = Param.String("", "Output file for trace generation")
     
-    defenceFile = Param.String("defence/def.json", "Input file for defence scheme")
+    defenceFile = Param.String("/home/pwd/gem5_checkpoint_19/defence/def.json", "Input file for defence scheme")
 
     enableDebug = Param.Bool(True, "Enable DRAMSim2 debug output")
