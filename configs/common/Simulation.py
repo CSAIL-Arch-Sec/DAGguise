@@ -149,6 +149,9 @@ def findCptDir(options, cptdir, testsys):
         if not exists(checkpoint_dir):
             fatal("Unable to find checkpoint directory %s", checkpoint_dir)
 
+    if options.simpt_ckpt is not None:
+        checkpoint_dir = joinpath(cptdir, "cpt.%s.SIMP-%d" % (options.bench, options.simpt_ckpt))
+
     elif options.restore_simpoint_checkpoint:
         # Restore from SimPoint checkpoints
         # Assumes that the checkpoint dir names are formatted as follows:

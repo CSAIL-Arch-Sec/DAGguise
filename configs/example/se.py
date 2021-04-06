@@ -48,6 +48,7 @@ from __future__ import absolute_import
 import optparse
 import sys
 import os
+import benchmarks
 
 import m5
 from m5.defines import buildEnv
@@ -160,6 +161,14 @@ if options.bench:
             sys.exit(1)
 elif options.cmd:
     multiprocesses, numThreads = get_processes(options)
+elif options.benchmark:
+    process = getattr(benchmarks, options.benchmark, None)
+    if not process:
+        print("Unknown workload specified. Exiting!\n", file=sys.stderr)
+        sys.exit(1)
+    else:
+        multiprocesses.append(process)
+        numThreads = 1
 else:
     print("No workload specified. Exiting!\n", file=sys.stderr)
     sys.exit(1)

@@ -451,6 +451,7 @@ def addFSOptions(parser):
     # Benchmark options
     parser.add_option("--dual", action="store_true",
                       help="Simulate two systems attached with an ethernet link")
+    parser.add_option("--simpt-ckpt", action="store", default=None, type="int", help="Specify simpoint checkpoint ID")
     parser.add_option("-b", "--benchmark", action="store", type="string",
                       dest="benchmark",
                       help="Specify the benchmark to run. Available benchmarks: %s"\
