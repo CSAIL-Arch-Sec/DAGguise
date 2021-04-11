@@ -11,7 +11,7 @@
         --cpu-clock=2.4GHz --sys-clock=2.4GHz \
 	--mem-size=4GB --enabledramlog \
         --dramdeviceconfigfile=/home/peter/Desktop/gem5_19/gem5/ext/dramsim2/DRAMSim2/ini/DDR3_micron_32M_8B_x8_sg125.ini \
-        --dramsystemconfigfile=/home/peter/Desktop/gem5_19/gem5/ext/dramsim2/DRAMSim2/system.ini \
+        --dramsystemconfigfile=/home/peter/Desktop/gem5_19/gem5/ext/dramsim2/DRAMSim2/system_fsbta.ini \
         --dagprotectionfile=/home/peter/Desktop/gem5_19/gem5/defence/def.json \
         --enabledramlog \
 	-c 'runscripts/depacc/depAcc-DAG'

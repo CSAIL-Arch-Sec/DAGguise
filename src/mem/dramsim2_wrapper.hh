@@ -128,6 +128,7 @@ class DRAMSim2Wrapper
     bool canAccept() const;
 
     void startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain);
+    void updateDefence(uint64_t oldDomain, uint64_t newDomain);
     void endDefence();
 
     /**

@@ -72,6 +72,8 @@
 #include "sim/sim_events.hh"
 #include "sim/sim_exit.hh"
 #include "sim/system.hh"
+#include "mem/dramsim2.hh"
+
 
 // Hack
 #include "sim/stat_control.hh"
@@ -564,6 +566,10 @@ BaseCPU::takeOverFrom(BaseCPU *oldCPU)
     assert(oldCPU != this);
     _pid = oldCPU->getPid();
     _taskId = oldCPU->taskId();
+    
+    ((DRAMSim2*) this->system->getPhysMem().memories[0])->updateDefence(oldCPU->instMasterId(), this->instMasterId());
+    ((DRAMSim2*) this->system->getPhysMem().memories[0])->updateDefence(oldCPU->dataMasterId(), this->dataMasterId());
+
     // Take over the power state of the switchedOut CPU
     ClockedObject::pwrState(oldCPU->pwrState());
 

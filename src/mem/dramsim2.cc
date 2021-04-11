@@ -245,6 +245,12 @@ DRAMSim2::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 }
 
 void
+DRAMSim2::updateDefence(uint64_t oldDomain, uint64_t newDomain)
+{
+    wrapper.updateDefence(oldDomain, newDomain);
+}
+
+void
 DRAMSim2::endDefence()
 {
     DPRINTF(DRAMSim2, "Signalling to end defence in DRAMSim2\n");
