@@ -90,7 +90,7 @@ def get_processes(options):
 
     idx = 0
     for wrkld in workloads:
-        process = Process(pid = 100 + idx)
+        process = Process(pid = 101 + idx)
         process.executable = wrkld
         process.cwd = os.getcwd()
 
@@ -161,6 +161,16 @@ if options.bench:
             sys.exit(1)
 elif options.cmd:
     multiprocesses, numThreads = get_processes(options)
+    if options.benchmark:
+        process = getattr(benchmarks, options.benchmark, None)
+        if not process:
+            print("Unknown workload specified. Exiting!\n", file=sys.stderr)
+            sys.exit(1)
+        else:
+            multiprocesses = [process] + multiprocesses
+            numThreads = 1
+
+
 elif options.benchmark:
     process = getattr(benchmarks, options.benchmark, None)
     if not process:
@@ -238,6 +248,7 @@ for i in range(np):
         system.cpu[i].workload = multiprocesses[0]
     else:
         system.cpu[i].workload = multiprocesses[i]
+        print(multiprocesses[i].cmd)
 
     if options.simpoint_profile:
         system.cpu[i].addSimPointProbe(options.simpoint_interval)

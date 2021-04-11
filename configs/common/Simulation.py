@@ -148,7 +148,7 @@ def findCptDir(options, cptdir, testsys):
         checkpoint_dir = joinpath(cptdir, "cpt.%s.SIMP-%s" % (options.bench, inst))
         
         if options.simpt_ckpt is not None:
-            checkpoint_dir = joinpath(cptdir, "cpt.NONE.SIMP-%d" % (options.simpt_ckpt))
+            checkpoint_dir = joinpath(cptdir, "cpt.None.SIMP-%d" % (options.simpt_ckpt))
         
         if not exists(checkpoint_dir):
             fatal("Unable to find checkpoint directory %s", checkpoint_dir)
