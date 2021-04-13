@@ -163,7 +163,9 @@ elif options.cmd:
     multiprocesses, numThreads = get_processes(options)
     if options.benchmark:
         for i in range(options.benchmarkcopies):
-            process = getattr(benchmarks, options.benchmark, None)
+            benchname = options.benchmark
+            if i > 0: benchname = benchname + '_' + str(i)
+            process = getattr(benchmarks, benchname, None)
             if not process:
                 print("Unknown workload specified. Exiting!\n", file=sys.stderr)
                 sys.exit(1)

@@ -262,3 +262,119 @@ leela_r = Process()
 leela_r.executable = "leela_r"
 leela_r.cmd = ["leela_r"] + ["ref.sgf"]
 
+# x264_r
+x264_r_1 = Process()
+x264_r_1.executable = "x264_r"
+x264_r_1.cmd = ["x264_r"] + ["--pass", "1", "--stats", "x264_stats.log", "--bitrate", "1000", "--frames", "1000", "-o", "BuckBunny_New.264", "BuckBunny.yuv", "1280x720"]
+
+# omnetpp_r
+omnetpp_r_1 = Process()
+omnetpp_r_1.executable = "omnetpp_r"
+omnetpp_r_1.cmd = ["omnetpp_r"] + ["-c", "General", "-r", "0"]
+
+# parest_r
+parest_r_1 = Process()
+parest_r_1.executable = "parest_r"
+parest_r_1.cmd = ["parest_r"] + ["ref.prm"]
+
+# namd_r
+namd_r_1 = Process()
+namd_r_1.executable = "namd_r"
+namd_r_1.cmd = ["namd_r"] + ["--input", "apoa1.input", "--output", "apoa1.ref.output", "--iterations", "65"]
+
+# roms_r
+roms_r_1 = Process()
+roms_r_1.executable = "roms_r"
+roms_r_1.cmd = ["roms_r"] + []
+roms_r_1.input = "ocean_benchmark2.in.x"
+
+# cam4_r
+cam4_r_1 = Process()
+cam4_r_1.executable = "cam4_r"
+cam4_r_1.cmd = ["cam4_r"] + []
+
+# xalancbmk_r
+xalancbmk_r_1 = Process()
+xalancbmk_r_1.executable = "xalancbmk_r"
+xalancbmk_r_1.cmd = ["xalancbmk_r"] + ["-v", "t5.xml", "xalanc.xsl"]
+
+# deepsjeng_r
+deepsjeng_r_1 = Process()
+deepsjeng_r_1.executable = "deepsjeng_r"
+deepsjeng_r_1.cmd = ["deepsjeng_r"] + ["ref.txt"]
+
+# perlbench_r
+perlbench_r_1 = Process()
+perlbench_r_1.executable = "perlbench_r"
+perlbench_r_1.cmd = ["perlbench_r"] + ["-I./lib", "checkspam.pl", "2500", "5", "25", "11", "150", "1", "1", "1", "1"]
+
+# fotonik3d_r
+fotonik3d_r_1 = Process()
+fotonik3d_r_1.executable = "fotonik3d_r"
+fotonik3d_r_1.cmd = ["fotonik3d_r"] + []
+
+# wrf_r
+wrf_r_1 = Process()
+wrf_r_1.executable = "wrf_r"
+wrf_r_1.cmd = ["wrf_r"] + []
+
+# cactuBSSN_r
+cactuBSSN_r_1 = Process()
+cactuBSSN_r_1.executable = "cactuBSSN_r"
+cactuBSSN_r_1.cmd = ["cactuBSSN_r"] + ["spec_ref.par"]
+
+# bwaves_r
+bwaves_r_1 = Process()
+bwaves_r_1.executable = "bwaves_r"
+bwaves_r_1.cmd = ["bwaves_r"] + ["bwaves_1"]
+bwaves_r_1.input = "bwaves_1.in"
+
+# xz_r
+xz_r_1 = Process()
+xz_r_1.executable = "xz_r"
+xz_r_1.cmd = ["xz_r"] + ["cld.tar.xz", "160", "19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474", "59796407", "61004416", "6"]
+
+# povray_r
+povray_r_1 = Process()
+povray_r_1.executable = "povray_r"
+povray_r_1.cmd = ["povray_r"] + ["SPEC-benchmark-ref.ini"]
+
+# lbm_r
+lbm_r_1 = Process()
+lbm_r_1.executable = "lbm_r"
+lbm_r_1.cmd = ["lbm_r"] + ["3000", "reference.dat", "0", "0", "100_100_130_ldc.of"]
+
+# imagick_r
+imagick_r_1 = Process()
+imagick_r_1.executable = "imagick_r"
+imagick_r_1.cmd = ["imagick_r"] + ["-limit", "disk", "0", "refrate_input.tga", "-edge", "41", "-resample", "181%", "-emboss", "31", "-colorspace", "YUV", "-mean-shift", "19x19+15%", "-resize", "30%", "refrate_output.tga"]
+
+# mcf_r
+mcf_r_1 = Process()
+mcf_r_1.executable = "mcf_r"
+mcf_r_1.cmd = ["mcf_r"] + ["inp.in"]
+
+# nab_r
+nab_r_1 = Process()
+nab_r_1.executable = "nab_r"
+nab_r_1.cmd = ["nab_r"] + ["1am0", "1122214447", "122"]
+
+# gcc_r
+gcc_r_1 = Process()
+gcc_r_1.executable = "gcc_r"
+gcc_r_1.cmd = ["gcc_r"] + ["gcc-pp.c", "-O3", "-finline-limit=0", "-fif-conversion", "-fif-conversion2", "-o", "gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.s"]
+
+# blender_r
+blender_r_1 = Process()
+blender_r_1.executable = "blender_r"
+blender_r_1.cmd = ["blender_r"] + ["sh3_no_char.blend", "--render-output", "sh3_no_char_", "--threads", "1", "-b", "-F", "RAWTGA", "-s", "849", "-e", "849", "-a"]
+
+# exchange2_r
+exchange2_r_1 = Process()
+exchange2_r_1.executable = "exchange2_r"
+exchange2_r_1.cmd = ["exchange2_r"] + ["6"]
+
+# leela_r
+leela_r_1 = Process()
+leela_r_1.executable = "leela_r"
+leela_r_1.cmd = ["leela_r"] + ["ref.sgf"]
