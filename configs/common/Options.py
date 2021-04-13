@@ -411,6 +411,8 @@ def addSEOptions(parser):
                       dest="benchmark",
                       help="Specify the benchmark to run. Available benchmarks: %s"\
                       % DefinedBenchmarks)
+    parser.add_option("--benchmarkcopies", action="store", type="int",
+                    default=1, dest="benchmarkcopies", help="How many duplicated benchmarks we should use")
     parser.add_option("--dramdeviceconfigfile", action="store", type="string",
                       dest="dramdeviceconfigfile",
                       help="Specify an input DRAMSim2 config file")
