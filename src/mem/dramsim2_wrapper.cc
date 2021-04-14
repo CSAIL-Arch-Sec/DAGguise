@@ -180,9 +180,9 @@ DRAMSim2Wrapper::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 }
 
 void
-DRAMSim2Wrapper::updateDefence(uint64_t oldDomain, uint64_t newDomain)
+DRAMSim2Wrapper::updateDefence(uint64_t oldDomain, uint64_t newDomain, bool isdata)
 {
-    dramsim->updateDefence(oldDomain, newDomain);
+    dramsim->updateDefence(oldDomain, newDomain, isdata);
 }
 
 

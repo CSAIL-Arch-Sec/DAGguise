@@ -245,9 +245,9 @@ DRAMSim2::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 }
 
 void
-DRAMSim2::updateDefence(uint64_t oldDomain, uint64_t newDomain)
+DRAMSim2::updateDefence(uint64_t oldDomain, uint64_t newDomain, bool isdata)
 {
-    wrapper.updateDefence(oldDomain, newDomain);
+    wrapper.updateDefence(oldDomain, newDomain, isdata);
 }
 
 void
