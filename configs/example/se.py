@@ -90,7 +90,7 @@ def get_processes(options):
 
     idx = 0
     for wrkld in workloads:
-        process = Process(pid = 101 + idx)
+        process = Process(pid = 102 + idx)
         process.executable = wrkld
         process.cwd = os.getcwd()
 
