@@ -72,10 +72,11 @@ DRAMSim2Wrapper::DRAMSim2Wrapper(const std::string& config_file,
                                  const std::string& working_dir,
                                  const std::string& trace_file,
                                  const std::string& defence_file,
+                                 const std::string& defence_file_2,
                                  unsigned int memory_size_mb,
                                  bool enable_debug) :
     dramsim(new DRAMSim::MultiChannelMemorySystem(config_file, system_file,
-                                                  working_dir, trace_file, defence_file,
+                                                  working_dir, trace_file, defence_file, defence_file_2,
                                                   memory_size_mb, NULL, NULL)),
     _clockPeriod(0.0), _queueSize(0), _burstSize(0)
 {
@@ -180,9 +181,9 @@ DRAMSim2Wrapper::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 }
 
 void
-DRAMSim2Wrapper::updateDefence(uint64_t oldDomain, uint64_t newDomain)
+DRAMSim2Wrapper::updateDefence(uint64_t oldDomain, uint64_t newDomain, bool isdata)
 {
-    dramsim->updateDefence(oldDomain, newDomain);
+    dramsim->updateDefence(oldDomain, newDomain, isdata);
 }
 
 

@@ -50,7 +50,7 @@ DRAMSim2::DRAMSim2(const Params* p) :
     AbstractMemory(p),
     port(name() + ".port", *this),
     wrapper(p->deviceConfigFile, p->systemConfigFile, p->filePath,
-            p->traceFile, p->defenceFile, p->range.size() / 1024 / 1024, p->enableDebug),
+            p->traceFile, p->defenceFile, p->defenceFile2, p->range.size() / 1024 / 1024, p->enableDebug),
     retryReq(false), retryResp(false), startTick(0),
     nbrOutstandingReads(0), nbrOutstandingWrites(0),
     sendResponseEvent([this]{ sendResponse(); }, name()),
@@ -245,9 +245,9 @@ DRAMSim2::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 }
 
 void
-DRAMSim2::updateDefence(uint64_t oldDomain, uint64_t newDomain)
+DRAMSim2::updateDefence(uint64_t oldDomain, uint64_t newDomain, bool isdata)
 {
-    wrapper.updateDefence(oldDomain, newDomain);
+    wrapper.updateDefence(oldDomain, newDomain, isdata);
 }
 
 void

@@ -567,8 +567,8 @@ BaseCPU::takeOverFrom(BaseCPU *oldCPU)
     _pid = oldCPU->getPid();
     _taskId = oldCPU->taskId();
     
-    ((DRAMSim2*) this->system->getPhysMem().memories[0])->updateDefence(oldCPU->instMasterId(), this->instMasterId());
-    ((DRAMSim2*) this->system->getPhysMem().memories[0])->updateDefence(oldCPU->dataMasterId(), this->dataMasterId());
+    ((DRAMSim2*) this->system->getPhysMem().memories[0])->updateDefence(oldCPU->instMasterId(), this->instMasterId(), false);
+    ((DRAMSim2*) this->system->getPhysMem().memories[0])->updateDefence(oldCPU->dataMasterId(), this->dataMasterId(), true);
 
     // Take over the power state of the switchedOut CPU
     ClockedObject::pwrState(oldCPU->pwrState());

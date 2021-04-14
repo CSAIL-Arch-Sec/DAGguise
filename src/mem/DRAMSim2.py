@@ -55,5 +55,6 @@ class DRAMSim2(AbstractMemory):
     traceFile = Param.String("", "Output file for trace generation")
     
     defenceFile = Param.String("/home/pwd/gem5_checkpoint_19/defence/def.json", "Input file for defence scheme")
+    defenceFile2 = Param.String("/home/pwd/gem5_checkpoint_19/defence/def.json", "Input file for defence scheme")
 
     enableDebug = Param.Bool(True, "Enable DRAMSim2 debug output")

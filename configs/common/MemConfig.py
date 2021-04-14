@@ -174,6 +174,8 @@ def config_mem(options, system):
                     mem_ctrl.systemConfigFile = options.dramsystemconfigfile
                 if options.dagprotectionfile:
                     mem_ctrl.defenceFile = options.dagprotectionfile
+                if options.dagprotectionfile2:
+                    mem_ctrl.defenceFile2 = options.dagprotectionfile2
                 
                 mem_ctrl.enableDebug = options.enabledramlog
 
