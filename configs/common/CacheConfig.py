@@ -120,6 +120,16 @@ def config_cache(options, system):
     if options.memchecker:
         system.memchecker = MemChecker()
 
+    if options.caches and options.l3cache and options.sharedl3:
+        system.l3 = l3_cache_class(clk_domain=system.cpu_clk_domain,
+                                    size=options.l3_size, 
+                                    assoc=options.l3_assoc)
+        
+        system.tol3bus = L3XBar(clk_domain = system.cpu_clk_domain)
+        system.l3.cpu_side = system.tol3bus.master
+        system.l3.mem_side = system.membus.slave
+
+
     for i in range(options.num_cpus):
         if options.caches and options.l3cache:
             icache = icache_class(size=options.l1i_size,
@@ -128,9 +138,9 @@ def config_cache(options, system):
                                   assoc=options.l1d_assoc)
             l2cache = l2_cache_class(size=options.l2_size,
                                   assoc=options.l2_assoc)
-
-            l3cache = l3_cache_class(size=options.l3_size,
-                                    assoc=options.l3_assoc)
+            if not options.sharedl3:
+                l3cache = l3_cache_class(size=options.l3_size,
+                                        assoc=options.l3_assoc)
 
 
             # If we have a walker cache specified, instantiate two
@@ -177,10 +187,16 @@ def config_cache(options, system):
 
             # When connecting the caches, the clock is also inherited
             # from the CPU in question
-            system.cpu[i].addPrivateSplitL3Caches(icache, dcache, l2cache, l3cache,
-                                                  iwalkcache, dwalkcache)
+            
+            if options.sharedl3: 
+                system.cpu[i].addPrivateSplitL2Caches(icache, dcache, l2cache, 
+                                                      iwalkcache, dwalkcache)
+                system.cpu[i].connectCachedPorts(system.tol3bus)
+            else:
+                system.cpu[i].addPrivateSplitL3Caches(icache, dcache, l2cache, l3cache,
+                                                      iwalkcache, dwalkcache)
 
-            system.cpu[i].connectCachedPorts(system.membus)
+                system.cpu[i].connectCachedPorts(system.membus)
 
             if options.memchecker:
                 # The mem_side ports of the caches haven't been connected yet.
@@ -207,16 +223,7 @@ def config_cache(options, system):
 
         system.cpu[i].createInterruptController()
         if options.l3cache:
-            
-            #system.tol3bus = L3XBar(clk_domain = system.cpu_clk_domain)
-
-            #addPrivateSplitL2Caches(icache, dcache, l2cache, iwalkcache, dwalkcache)
-
-            #system.l3cache.cpu_side = system.tol3bus.master
-            #system.l3cache.mem_side = system.membus.slave
-
             system.cpu[i].connectUncachedPorts(system.membus)
-            #system.cpu[i].connectAllPorts(system.tol3bus, system.membus)
         elif options.l2cache:
             system.cpu[i].connectAllPorts(system.tol2bus, system.membus)
         elif options.external_memory_system:

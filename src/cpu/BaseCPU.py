@@ -250,7 +250,7 @@ class BaseCPU(ClockedObject):
                 self._cached_ports += ["checker.itb.walker.port", \
                                        "checker.dtb.walker.port"]
 
-    def addPrivateSplitL3Caches(self, ic, dc, l2c, l3c, iwc = None, dwc = None):
+    def addPrivateSplitL2Caches(self, ic, dc, l2c, iwc = None, dwc = None):
         self.icache = ic
         self.dcache = dc
 
@@ -281,13 +281,15 @@ class BaseCPU(ClockedObject):
         self.toL2Bus.master = self.l2cache.cpu_side
         self._cached_ports = ['l2cache.mem_side']
 
+    def addPrivateSplitL3Caches(self, ic, dc, l2c, l3c, iwc = None, dwc = None):
+ 
+        self.addPrivateSplitL2Caches(ic, dc, l2c, iwc, dwc)
+        
         self.toL3Bus = L3XBar()
         self.connectCachedPorts(self.toL3Bus)
         self.l3cache = l3c
         self.toL3Bus.master = self.l3cache.cpu_side
         self._cached_ports = ['l3cache.mem_side']
-
-
         
     def addTwoLevelCacheHierarchy(self, ic, dc, l2c, iwc=None, dwc=None,
                                   xbar=None):
