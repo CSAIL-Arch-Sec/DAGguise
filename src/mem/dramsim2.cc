@@ -238,10 +238,10 @@ DRAMSim2::recvTimingReq(PacketPtr pkt)
 }
 
 void
-DRAMSim2::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
+DRAMSim2::startDefence(uint64_t cpuid, uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 {
     DPRINTF(DRAMSim2, "Signalling to start defence in DRAMSim2, iDomain: %d, dDomain: %d\n", iDefenceDomain, dDefenceDomain);
-    wrapper.startDefence(iDefenceDomain, dDefenceDomain);
+    wrapper.startDefence(cpuid, iDefenceDomain, dDefenceDomain);
 }
 
 void

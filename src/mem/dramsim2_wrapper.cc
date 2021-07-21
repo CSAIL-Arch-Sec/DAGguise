@@ -175,9 +175,9 @@ DRAMSim2Wrapper::canAccept() const
 }
 
 void
-DRAMSim2Wrapper::startDefence(uint64_t iDefenceDomain, uint64_t dDefenceDomain)
+DRAMSim2Wrapper::startDefence(uint64_t cpuid, uint64_t iDefenceDomain, uint64_t dDefenceDomain)
 {
-    dramsim->startDefence(iDefenceDomain, dDefenceDomain);
+    dramsim->startDefence(cpuid, iDefenceDomain, dDefenceDomain);
 }
 
 void
