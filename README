@@ -1,37 +1,31 @@
-This is the gem5 simulator.
+## DAGguise 
 
-The main website can be found at http://www.gem5.org
+This is the official performance demonstration for the DAGguise shaper system, as
+first described in *DAGguise: Mitigating Memory Timing Side Channels*, by Peter Deutsch, Yuheng Yang, Thomas Bourgeat, Jules Drean, Joel Emer, and Mengjia Yan, ASPLOS 2022.
 
-A good starting point is http://www.gem5.org/about, and for
-more information about building the simulator and getting started
-please see http://www.gem5.org/documentation and
-http://www.gem5.org/documentation/learning_gem5/introduction.
+## Repository Overview
 
-To build gem5, you will need the following software: g++ or clang,
-Python (gem5 links in the Python interpreter), SCons, SWIG, zlib, m4,
-and lastly protobuf if you want trace capture and playback
-support. Please see http://www.gem5.org/documentation/general_docs/building
-for more details concerning the minimum versions of the aforementioned tools.
+This main repository contains a modified fork (last commit in Februrary 2020) of the modified gem5 simulator. Apart from miscellaneous glue logic, all changes pertinent to the DAGguise shaper are contained in the DRAMSim2 submodule.
 
-Once you have all dependencies resolved, type 'scons
-build/<ARCH>/gem5.opt' where ARCH is one of ALPHA, ARM, NULL, MIPS,
-POWER, SPARC, or X86. This will build an optimized version of the gem5
-binary (gem5.opt) for the the specified architecture. See
-http://www.gem5.org/documentation/general_docs/building for more details and
-options.
+Important folders include:
+   - **/runscripts/** - 
 
-The basic source release includes these subdirectories:
-   - configs: example simulation configuration scripts
-   - ext: less-common external packages needed to build gem5
-   - src: source code of the gem5 simulator
-   - system: source for some optional system software for simulated systems
-   - tests: regression tests
-   - util: useful utility programs and files
+## Setup
 
-To run full-system simulations, you will need compiled system firmware
-(console and PALcode for Alpha), kernel binaries and one or more disk
-images.
+   1. Ensure that you have all the [Gem5 prerequisites installed](https://www.gem5.org/documentation/general_docs/building)
+   2. Clone the repository using *git clone --recurse-submodules*. 
+   3. To build, in the root directory run *scons -jN build/X86/gem5.opt*, where N is the number of cores to use during compilation. The more cores the better, on a 2016 4-core i7, this takes about 1 hour to complete.
 
-If you have questions, please send mail to gem5-users@gem5.org
+## Running the Simulator
 
-Enjoy using gem5 and please share your modifications and extensions.
+In addition to the standard Gem5 run flags, three additional flags are important for evaluating DAGguise
+   1. **--dramdeviceconfigfile** A DRAMSim2 file description of the DRAM specification, including DRAM timing parameters, bank settings, etc. All evaluation was performed using the *ini/DDR3_micron_32M_8B_x8_sg125.ini* configuration.
+   2. **--dramsystemconfigfile** A DRAMSim2 file description of system-wide settings including, most importantly, the protection scheme to use.
+
+   Included configuration files (found in ext/dramsim2/DRAMSim2) include:
+      - DAGguise, FS-BTA, and Standard Configurations
+      - 2/4/8 Domain Configurations
+      - Open/Closed Row Configurations
+   3. **--dagprotectionfile** If the DAGguise shaper is enabled, this tells the shaper **which** defense rDAG to use.
+
+
