@@ -69,7 +69,9 @@ vals = vals.astype({"weight": float, 'para': int, 'bandwidth': float})
 colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
 mpl.rcParams['axes.prop_cycle'] = mpl.cycler(color=[colors[0], colors[2], colors[3], colors[4]])
 
-fig, axs = plt.subplots(1,3,figsize=(9,3.25))
+mpl.rcParams.update({'font.size': 11.5})
+
+fig, axs = plt.subplots(1,3,figsize=(11.5,2.82))
 
 mkr_dict = {1: 'x', 2: '+', 4: '.', 8: '*'}
 for kind in mkr_dict:
@@ -80,14 +82,15 @@ axs[0].set_xlabel('Weight\n(a)')
 axs[0].set_ylabel('Normalized IPC')
 handles, labels = [(a + b) for a, b in zip(axs[0].get_legend_handles_labels(), axs[1].get_legend_handles_labels())]
 print(handles)
-fig.legend(handles, labels, loc='upper center', title="Number of Parallel Sequences", bbox_to_anchor=(0.5, 1), ncol=4, fancybox=True, shadow=True)
+legend = fig.legend(handles, labels, loc='center left', title="Number of\nParallel Sequences", bbox_to_anchor=(0, 0.5), ncol=1, fancybox=True, shadow=True)
 
+plt.setp(legend.get_title(), multialignment='center')
 
 for kind in mkr_dict:
     d = vals[vals["para"] == kind]
     axs[1].scatter(d.weight[1::skipval], d.bandwidth[1::skipval], marker=mkr_dict[kind], label=kind, s=markersize)
 
-axs[1].set_ylabel('Avg. Allocated Bandwidth (GB/s)')
+axs[1].set_ylabel('Avg. Allocated\nBandwidth (GB/s)')
 axs[1].set_xlabel('Weight\n(b)')
 
 axs[2].add_patch(Rectangle((2, 0.75), 2, 0.15, linewidth=1.5, facecolor='orange', edgecolor='b', fill=True, alpha=0.3, linestyle='dotted', zorder=-1))
@@ -104,12 +107,20 @@ axs[2].set_xlabel('Avg. Allocated Bandwidth (GB/s)\n(c)')
 #          ncol=4, fancybox=True, shadow=True)
 plt.tight_layout()
 box = axs[0].get_position()
-axs[0].set_position([box.x0, box.y0-0.05, box.width, box.height*0.8])
+axs[0].set_position([box.x0+0.15, box.y0-0.06, box.width*0.8, box.height])
+axs[0].axhline(y=0.4, color='lightgrey', linestyle='dotted')
+axs[0].axhline(y=0.6, color='lightgrey', linestyle='dotted')
+axs[0].axhline(y=0.8, color='lightgrey', linestyle='dotted')
 box = axs[1].get_position()
-axs[1].set_position([box.x0, box.y0-0.05, box.width, box.height*0.8])
+axs[1].set_position([box.x0+0.1, box.y0-0.06, box.width*0.8, box.height])
+axs[1].axhline(y=2, color='lightgrey', linestyle='dotted')
+axs[1].axhline(y=4, color='lightgrey', linestyle='dotted')
+axs[1].axhline(y=6, color='lightgrey', linestyle='dotted')
 box = axs[2].get_position()
-axs[2].set_position([box.x0, box.y0-0.05, box.width, box.height*0.8])
-
+axs[2].set_position([box.x0+0.05, box.y0-0.06, box.width*0.8, box.height])
+axs[2].axhline(y=0.4, color='lightgrey', linestyle='dotted')
+axs[2].axhline(y=0.6, color='lightgrey', linestyle='dotted')
+axs[2].axhline(y=0.8, color='lightgrey', linestyle='dotted')
 
 plt.show()
 
