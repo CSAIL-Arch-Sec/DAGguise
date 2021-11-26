@@ -1,0 +1,3 @@
+[submodule "ext/dramsim2/DRAMSim2"]
+  path = ext/dramsim2/DRAMSim2
+  url = git@github.mit.edu:arch-sec/dramsim2.git
