@@ -1,0 +1,136 @@
+== Sources ==
+All sources can be alternating current (AC) or direct current (DC).
+
+=== Voltage Sources ===
+Many power sources or supplies such as batteries or wall outlets are voltage sources. This means they vary the current to keep the voltage constant. AAA and AA batteries ideally put out 1.5 volts at all times. Most of the time they are open (not connected to anything). Eventually they are connected to a circuit that draws current from them. An ideal AAA or AA battery could deliver infinite amount of current. A real world battery tries to deliver infinite current if shorted, but usually heats up, catches on fire or [[:wikipedia:Lithium-ion_polymer_battery|explodes]].
+
+=== Current Sources ===
+Most consumers have never had an first hand experience with a current source. Neither will most students in the first semester of Circuit Theory course's lab section. Current sources are the opposite of voltage sources: they keep the current constant by varying the voltage. This makes them very dangerous. 
+
+Current sources would require a wire shorting them at all times. If the shorting wire were removed, the ideal currents source would create the biggest, scariest lightening bolt instantaneously. 
+
+Current sources are important conceptually in order to understand ideal transistors and op amps. This is why they are part of circuit theory from the very beginning. Working with current sources inside op amps and transistors has few safety risks.
+
+===Power Supply Terminal Relation===
+There is no relationship between the current voltage through a power supply. A 5 volt DC power supply will vary it's current based upon the circuit attached. A 5 Amp DC power supply will vary it's voltage based upon the circuit attached.
+
+A power supply is a dependent device ... dependent upon the independent resistors, capacitors, inductors that are arranged in a circuit and attached to it.
+
+===Power/Energy Equations===
+At any given instant, the power flowing through a two terminal device is: <math>p(t) = v(t)i(t)</math>
+
+The average power being consumed during time t is: <math>p_{avg}(t)= 1/t * \int\limits_{0}^{t}{\tau}*p({\tau})\, d{\tau}</math><br>
+If p(t) is Sinusoidal, then the upper limit is one time period.<br>
+Remember that the period of <math>sin(wt+{\theta})</math> is <math>2{\pi}/w</math>
+
+The energy consumed or work done during time t is similar: <math>w(t)= \int\limits_{0}^{t}p({\tau})\, d{\tau}</math>
+
+All other power concepts derive from the above. For example:
+
+* If the voltage and current are constant (DC), then <math> p(t) = p_{avg}(t) = iv = i^2R = v^2/R</math>
+* If the voltage and current are Sinusoidal (AC) and enough time has passed that the circuit is steady state, then math can be simplified, but first have to learn phasors. However there are peak power, average power and power factor concepts that need to be understood to develop an intuition about circuits and understand the fictitious "[[:w:DeLorean_time_machine#Flux_capacitor|flux capacitor]]".
+* If the voltage and current are in any pattern and are steady state, then the above math can be simplified.
+
+===Power Supply Safety===
+There are many different types of power supplies that each have different safety concerns. LiPo batteries can [http://www.youtube.com/watch?feature=fvwp&v=ixIOEPnsgbI&NR=1 explode/catch on fire] if over charged. [http://www.youtube.com/watch?v=8hwLHdBTQ7s Here is a video] of someone exploring 244 dead 9 volt batteries creating a 2000 volt power supply. If shorted, voltage supplies can do the same. If opened, current sources (very rare) can do the same. 
+
+In most labs, the power supplies are protected by a fuse like a home is. Shorts cause a circuit breaker to trip, fuse to burn out, relay to cut off the circuit, etc. But batteries are typically not protected.
+
+Most power supplies just stop working.
+
+===Example 1===
+Find the average power consumed by a 20 ohm resistor when a current <math> i(t) = \frac{4}{3}sin(3t)</math> is applied.
+
+Solution:
+
+Assume the initial average power is 0. Actually this makes no rational sense. But every time an integral is computed, consider the possibility.
+
+<math>v(t) = i(t)*r</math> ...... from resistor terminal relation<br>
+<math>p(t) = i(t)*v(t)=i(t)*i(t)*r = i(t)^2*r</math> ..... from definition of power<br>
+<math>p_{avg}=\frac{1}{t}\int\limits_{0}^{t}{\tau}*i({\tau})^2*r\, d{\tau}</math> ...... average power definition<br>
+<math> t=\frac{2\pi}{3}</math> .... definition of period<br>
+<math>p_{avg} = \frac{20*3}{2\pi}\int\limits_{0}^{\frac{2\pi}{3}}{\tau}*(\frac{4}{3}sin(3{\tau}))^2\, d{\tau} = 8.36 watts</math> ... using [http://www.wolframalpha.com/input/?i=20*3%2F%282*pi%29+*+%28integral+%283%2F4*sin%283x%29%29%5E2*%281%2Fx%29%2C+dx%29+from+0+to+2*pi%2F3 wolfram]
+
+===Example 2===
+Given the two graphs of voltage and current, find and graph the power and energy for t=0 to t=8.
+[[File:J5nvopvplu.png|thumb|created with [https://www.desmos.com/calculator/j5nvopvplu desmos]]]
+[[File:Ofaxf4pcg6.png|thumb|right|created with [https://www.desmos.com/calculator/wtl7crymj6 desmos]]]
+[[File:Power plot for circuit analysis problem.png|thumb|created with [https://www.desmos.com/screenshot/7qfpa3klkm desmos]]]
+
+Solution: 
+
+====Turn the Question into Math====
+convert the voltage and current graphs to equations:
+<math> v(t) \text{,  } i(t) = \begin{cases}
+ v=0 \text{,  } i=0, & \text{for } t {\leq} 0\\
+ v=2 \text{,  } i=2, & \text{for } 0 < t {\leq} 2\\
+ v=2-2*(t-2) \text{,  } i=-2, & \text{for } 2 < t {\leq} 4\\ 
+ v=-2 \text{,  } i=2, & \text{for } 4 < t {\leq} 5\\ 
+ v=2*(t-5)-2 \text{,  } i=2, & \text{for } 5 < t {\leq} 6\\ 
+ v=2*(t-5)-2 \text{,  } i=-2, & \text{for } 6 < t {\leq} 7\\ 
+ v=2 \text{,  } i=-2, & \text{for } 7 < t {\leq} 8\\
+\end{cases}</math>
+
+====Find the Power by Multiplying====
+Now do the math <math>p(t)=v(t)i(t)</math> to find the power:
+
+<math> p(t) = \begin{cases}
+ 0, & \text{for } t {\leq} 0\\
+ 4, & \text{for } 0 < t {\leq} 2\\
+ 4*(t-2)-4, & \text{for } 2 < t {\leq} 4\\ 
+ -4, & \text{for } 4 < t {\leq} 5\\ 
+ 4*(t-5)-4, & \text{for } 5 < t {\leq} 6\\ 
+ 4-4*(t-5), & \text{for } 6 < t {\leq} 7\\ 
+ -4, & \text{for } 7 < t {\leq} 8\\
+\end{cases}</math>
+
+====Find the Energy by Integrating====
+Now comes the more difficult part. Energy <math>w(t)= \int\limits_{0}^{t}{\tau}*p({\tau})\, d{\tau}</math>. Integrate from the initial condition to t rather than a specific value. Evaluate the integrals using [http://www.wolframalpha.com/input/?i=integrate+x*%28-4%29+dx+from+x%3D7+to+t wolfram alpha]. 
+
+<math> w(t) = \begin{cases}
+ 0, & \text{for } t {\leq} 0\\
+ \int\limits_{0}^{t}4\, d{\tau}= 4t, & \text{for } 0 < t {\leq} 2\\
+ \int\limits_{2}^{t}(4*({\tau}-2)-4)\, d{\tau}=2(t^2-6t+8), & \text{for } 2 < t {\leq} 4\\ 
+ \int\limits_{4}^{t}(-4)\, d{\tau}=-4(t-4), & \text{for } 4 < t {\leq} 5\\ 
+ \int\limits_{5}^{t}(4*({\tau}-5)-4)\, d{\tau}=2(t^2-12t+35), & \text{for } 5 < t {\leq} 6\\ 
+ \int\limits_{6}^{t}(4-({\tau}-5)*4)\, d{\tau}=-2(t-6)^2, & \text{for } 6 < t {\leq} 7\\ 
+ \int\limits_{7}^{t}(-4)\, d{\tau}=-4(t-7), & \text{for } 7 < t {\leq} 8\\
+\end{cases}</math>
+
+====Find the integration constant and next initial condition====
+Find the first initial condition from the problem statement. Setting beginning t to the initial condition and find the integration constant. Find the next initial condition by setting the t to the end value of the defined segment. 
+
+The goal is to find the cumulative energy, not the change in energy of each segment. This is done by making sure that the end point of the previous segment matches the value at the beginning of the next segment. When graphed, there should be no vertical jumps.
+
+<math> w(t) = \begin{cases}
+ 0 \text{ the assumed initial condition}, & \text{for } t {\leq} 0\\
+ 2(0)^2 + C = 0 \Rightarrow C=0 \text{ and } 4*2+0 = 8, & \text{for } 0 < t {\leq} 2\\
+ 2(2^2-6*2+8) + C = 8 \Rightarrow C=8 \text{ and } 2(4^2-6*4+8) + 8 = 8, & \text{for } 2 < t {\leq} 4\\ 
+-4*(4-4) + C = 8 \Rightarrow C=8 \text{ and } -4*(5-4)+8 = 4, & \text{for } 4 < t {\leq} 5\\ 
+ 2*(5^2-12*5+35) + C = 4 \Rightarrow C=4 \text{ and } 2(6^2-12*6+35)+4 = 2, & \text{for } 5 < t {\leq} 6\\ 
+-2(6-6)^2 + C = 2 \Rightarrow C= 2 \text{ and } -2(7-6)^2 + 2 = 0, & \text{for } 6 < t {\leq} 7\\ 
+-4(7-7) + C = 0 \Rightarrow C=0 \text{ and } -4(8-7) +0 = -4, & \text{for } 7 < t {\leq} 8\\
+\end{cases}</math>
+
+====Graphing and Checking the Solution====
+[[File:Energy-graph-circuit-analysis.png|thumb|energy in joules versus time in seconds [https://www.desmos.com/calculator/369d27atrt desmos]]]
+Graphing is a form of checking your work. Without graphing, the intuitive process can not kick in.
+
+<math> w(t) = \begin{cases}
+ 0, & \text{for } t {\leq} 0\\
+ 4t, & \text{for } 0 < t {\leq} 2\\
+ 2(t^2-6t+8)+8, & \text{for } 2 < t {\leq} 4\\ 
+-4(t-4)+8, & \text{for } 4 < t {\leq} 5\\ 
+2(t^2-12t+35)+4, & \text{for } 5 < t {\leq} 6\\ 
+-2(t-6)^2+2, & \text{for } 6 < t {\leq} 7\\ 
+-4(t-7), & \text{for } 7 < t {\leq} 8\\
+\end{cases}</math>
+
+====Building Intuition====
+When doing a long problem like this one, it is important to build one's intuition. There are two basic ways to do this:
+* Think about power supply experiences and ask "What does this imply?" 
+* Add expectation feelings and emotion. Think of experiences, the emotion, the happening, not the end product of things you like. Attach the emotion associated with them to the problem at hand. Mix the doing them with solving the problem.
+* Tell a story, then check the story against the graphs.
+
+What kind of device are we looking at? Has to be an element that both consumes and generates electricity. The current is switching back and forth every two seconds, thus it is most likely a motor driving some kind of back and forth motion. Motors are essentially an inductor. An inductor is going to vary the voltage all over the place to try and keep the current constant ... like a current source.  The motor is working as planned (consuming energy) for the first four seconds sort of. During the second four seconds, something else is happening. It looks like a 2 year old has grabbed the fan that is trying to oscillate back and forth and is forcing it in the opposite direction. This could cause the motor to turn into a generator, hence the voltage variations, the negative energy and power.
+{{BookCat}}

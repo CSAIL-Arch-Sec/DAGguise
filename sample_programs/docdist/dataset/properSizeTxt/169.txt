@@ -1,0 +1,200 @@
+{{Simple Page Navigation|
+BookName=[[Proteomics/Protein Chips|Protein Chips]]|
+CurrentPage=Analysis|
+PrevPage=[[Proteomics/Protein Chips/Types|Types ]]|
+NextPage=[[Proteomics/Protein Chips/Applications|Applications]]}}
+
+
+
+'''Analysis:'''
+__TOC__
+
+
+
+== Analysis ==
+Within the realm of protein chip analysis, there are several hurdles presently being cleared by scientists experimenting at the fringe of this technology.  Several of the main challenges facing scientists include: dynamic protein concentrations, almost overwhelming numbers of unique proteins, and creation of specific probes for each protein.
+
+
+Dynamic protein concentration refers to the reality that the exact number of any given protein within a cell can be drastically different than the exact number of another protein within the same cell.  In fact, there are current estimates that place the difference in protein numbers between those expressed at the lowest levels and those expressed at the highest levels at an order of magnitude of roughly 10<sup>12</sup>. In other words, a million million fold difference can exists between the rarest and the most abundant proteins.
+
+
+To further complicate the issue of dynamic protein concentrations, the exact number of any given protein will fluctuate based on which type of cell is being considered.  Of course, there are some proteins, known as [http://www.everything2.com/index.pl?node_id=1513423 housekeeping proteins], that are highly expressed in every cell.  These proteins are needed for the basic structure and functions that keep the cell alive.  Housekeeping proteins aside, cells of different tissues will often have varying protein concentration profiles.  For example, proteins that are expressed at high concentrations in heart tissue will most likely be expressed at different concentrations in liver tissue.  Therefore, methods that detect a protein in one cell type may not work for a different cell type.
+
+
+Unfortunately, scientists are often interested in those proteins that are rare and present in low concentrations.  One method devised in order to overcome this limitation has been the removal of abundant proteins.  Usually, there are a very small number of proteins that are present in copious quantities.  Through the removal of these proteins, scientists can reduce the order of magnitude differences between the lowest and highest expressed proteins.  However, [http://en.wikipedia.org/wiki/Protein_purification protein purification] can be a very laborious and time consuming process and many scientists recognize that it may be prudent to run several protein chip experiments, each analyzing a different range of protein concentrations.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]
+
+
+Another massive challenge exists in determining a specific probe for each protein.  Currently, one attempt to solve this problem is in the designing of specific antibodies.  In the past, antibodies have been created through the immunization of animals.  This method, however, is not high-throughput enough to be considered effient for protein chip experimental design.  Instead, methods are being developed in order to create antibody libraries.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]  A few examples from [http://www.molecularstation.com/protein-microarrays/ Molecular Station] are listed below.
+*Phage antibody display
+*Ribosome display
+*SELEX (Systomatic Evolution of Ligands by Exponential Enrichment)
+*mRNA display
+*Affibody display
+
+
+Antibody approaches can be narrowed somewhat by creating antibodies that bind specific protein groups and not specific proteins.  An alternative to antibody usage exists in aptamers, or short oligonucleotides which are much easier to create, but can be difficult to select for a specific protein.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]
+
+
+In order to analyze the results of the protein chip it is necessary to determine the types or numbers of proteins that were bound to the capture agents (for analytical chips) or the number of interactions the proteins had (for functional chips).  Analysis of protein chips can be broken into two categories:  Labeled and Label-Free.  Analysis of protein chips can be a difficult and tricky process.  Many intuitive methods have been developed, but each has its own limitations.  Short descriptions of these methods and their limitations exists below.
+
+
+=== Labeled ===
+
+This type of analysis involves labeling either with radioactivity or fluorescence.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  The label can be attached directly to the protein or capture agent (such as an enzyme or substrate) and detected immediately.  The label can also be attached to a different molecule (such as an antibody, antigen or substrate) that is washed over the chip as part of a second step.  This prevents the label from altering the conformation of the proteins being studied.
+
+
+However there are several issues that arise with labeled protein chips.  Although methods exist to prevent a label from altering protein conformation, a probability of interference with protein interactions still exists.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]  Label influence on binding properites, along with a knack for having a lack of reproducability[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]], provide for a couple of significant issues which can be seen as sufficient reasoning for using a label-free approach.
+
+
+==== Common Detection Methods ====
+===== [http://en.wikipedia.org/wiki/ELISA ELISA] (Enzyme-Linked Immunosorbent Assay) =====
+ELISA assays are useful tool in the detection of antigens or proteins.  A specific antibody is used to target the desired antigen or protein.  The complex that forms from the antibody-antigen binding is bound by another antibody which recognizes such complexes.  The latter antibody is attached to an enzyme thus 'enzyme-linked' is part of the acronym, ELISA.  The binding of the antigen will usually trigger a reaction that can be observed and qualified or quantified.
+
+A very useful animation of both a positive and negative ELISA reaction can be found [http://www.biology.arizona.edu/IMMUNOLOGY/activities/elisa/technique.html here].
+
+Useful as ELISA assays may be, they are unfortunately prone to false positives as many non-specific protein-antibody interactions can occur.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]
+
+
+===== [http://en.wikipedia.org/wiki/ELISA#Sandwich_ELISA Sandwich Immunoassay] =====
+Sandwich immunoassays, a version of an ELISA assy, use fluorescently labeled antibodies for the probe and laser scanning for collecting the data.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]
+
+
+===== [http://en.wikipedia.org/wiki/Isotopic_labeling Isotopic labeling] =====
+Isotopic labeling involves using a radio isotope-labeled analyte for the probe and X-ray film for collecting the data.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  The attachment of unusual isotypes provides the information needed to identify specific markers, or in this case, proteins.
+
+Molecules containing these isotopes can be distinguished by either [[Proteomics/Protein Identification - Mass Spectrometry| mass spectrometry]] or [http://en.wikipedia.org/wiki/Infrared_spectroscopy infrared spectroscopy].[[Proteomics/Protein Chips/Analysis#References| <sup>3</sup>]]  There are various isotopes and each has a different mass therefore leading to the utilizaion of [[Proteomics/Protein Identification - Mass Spectrometry| mass spectrometry]].  [http://en.wikipedia.org/wiki/Infrared_spectroscopy Infrared spectroscopy] can be used because the various isotopes have different vibrational modes.
+
+
+===== Planar Waveguide =====
+Planar waveguides involve using fluorescently labeled antibodies for the probe and a charge-coupled device for collecting the data.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  [http://en.wikipedia.org/wiki/Waveguide_%28optics%29 Waveguides] typically involve the detection of electromagnetic waves.  The term planar simply refers to the geometry of the system resembling a plane.
+
+Planar waveguides may offer the exciting ability to analyze systems in real-time thus enabling the study of protein interaction kinetics.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]
+
+
+===== Electro-Chemical =====
+Electro-chemical detection involves using metal-coupled analyte for the probe and a conductivity measurement for collecting the data.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]
+
+
+
+==== Data ====
+
+Like DNA microarrays, protein chip experiments using fluorescent labeling provide data in the form of images with spots of varying intensities.  These images are then analyzed using software packages similar to those used for DNA microarray analysis.  Two examples of the types of analysis performed are the quantification of spot intensities and the comparison of intensities between control and experimental conditions.
+
+==== Software ====
+
+Software packages used for analysis of labeled protein chips include:
+*[http://www.pnl.gov/statistics/ProMAT/ Protein Microarray Analysis Tool (ProMAT)] is a freely available software package used to evaluate the intensity of the spots.  ProMAT was developed at Pacific Northwest National Laboratory.
+*[http://www.zeptosens.com/index2.html ZeptoVIEW PRO] is a commercially available software package from Zeptosens that allows quantification of spot intensity and is used with their protein chips.
+
+
+=== Label-Free ===
+
+This type of analysis takes advantage of the properties of the proteins and includes mass spectrometry, surface plasmon resonance (SPR) and atomic force microscopy (AFM).[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]
+
+
+==== [[Proteomics/Protein Identification - Mass Spectrometry| Mass Spectrometry]] ====
+
+Certain chips, such as the [http://www.ciphergen.com/MasterPage.aspx?URL=/products/pc/ ProteinChips] by Ciphergen, can be coupled to a MALDI-TOF mass spectrometer.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  Improved resolution can be obtained by using SELDI mass spectrometry.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  Data collection and analysis are performed in the same manner as mass spectrometry performed after protein separation techniques such as liquid chromatography.
+
+==== [http://en.wikipedia.org/wiki/Surface_plasmon_resonance Surface Plasmon Resonance (SPR)] ====
+
+Surface plasmon resonance is an optical effect produced when polarized light is shone on a specially designed protein chip.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  The chip needs to contain a thin metal film that will cause the light to refract.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  The angle of refraction depends on the mass of the molecule bound to the chip so a protein with a substrate bound to it will cause the light to refract at a different angle than a protein with no substrate.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  The different angles can be measured by a photodiode array.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  Additionally, surface plasmon resonance can be coupled to mass spectrometry for protein identification using microrecovery from the chip surface.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]
+
+
+Surface plasmon resonance has the ability to provide real-time analysis.  The consequences of such are that it becomes possible to study the kinetics of protein interactions.  Detection resolution, a challenge discussed previously on this page, represents a drawback to SPR analysis.  Planar waveguides may provide for a real-time analysis with improved detection resolution.[[Proteomics/Protein Chips/Analysis#References| <sup>1</sup>]]
+
+
+==== [http://en.wikipedia.org/wiki/Atomic_force_microscopy Atomic Force Microscopy (AFM)] ====
+
+Atomic force microscopy uses changes in surface topology to detect protein interactions.[[Proteomics/Protein Chips/Analysis#References| <sup>2</sup>]]  It is a high resolution technique and the data is collected in the form of topographical maps.[[Proteomics/Protein Chips/Analysis#References| <sup>4</sup>]]
+
+== References ==
+1. ''Protein Microarray Chips''. 2005-6. Molecular Station. (accessed) April 1, 2006 <http://www.molecularstation.com/protein-microarrays/>.
+
+2. Twyman R.M. ''Principles of Proteomics''; BIOS Scientific Publishers: Oxon, U.K., 2004; Chapter 9.
+
+3. "Isotopic labeling." Wikipedia, The Free Encyclopedia. 5 Feb 2007, 03:19 UTC. Wikimedia Foundation, Inc. 9 Apr 2007 <http://en.wikipedia.org/w/index.php?title=Isotopic_labeling&oldid=105717372>.
+
+4. Atomic Force Microscopy - Davis Heart Lung Research Institute. http://heartlung.osu.edu/6161.cfm (accessed May 20, 2006).
+
+==Articles Summarized==
+
+===Article Title===
+
+Insert your article citation here with the format Author1 AB, Author2 CD, etc. ''Journal'' '''Volume:'''pages (year)
+
+'''Main Focus'''
+
+One or two statements here
+
+'''Summary'''
+
+General Overview (include footnote markers and citation markers)
+
+'''Subtitle 2'''
+
+Introduction summary (include footnote markers and citation markers)
+
+'''New Terms'''
+
+;Term 1: definition ( http://notreal.sourceurl.sample/where_your_definition_came_from ) 
+;Term 2: definition ( http://notreal.sourceurl.sample/another_example )
+
+'''Course Relevance'''
+
+:How is this applicable to the proteomics class?
+
+===Article Title===
+
+Insert your article citation here with the format Author1 AB, Author2 CD, etc. ''Journal'' '''Volume:'''pages (year)
+
+'''Main Focus'''
+
+One or two statements here
+
+'''Summary'''
+
+General Overview (include footnote markers and citation markers)
+
+'''Subtitle 2'''
+
+Introduction summary (include footnote markers and citation markers)
+
+'''New Terms'''
+
+;Term 1: definition ( http://notreal.sourceurl.sample/where_your_definition_came_from ) 
+;Term 2: definition ( http://notreal.sourceurl.sample/another_example )
+
+'''Course Relevance'''
+
+:How is this applicable to the proteomics class?
+
+==Websites Summarized==
+
+===Web Site Title===
+
+Insert your web site citation here with the format Author1 AB, Author2 CD, etc. http://notreal.sampleurl.sample/this_is_an_example_of_a_site (date accessed)
+
+'''Main Focus'''
+
+One or two statements here
+
+'''Summary'''
+
+General Overview (include footnote markers and citation markers)
+
+'''Subtitle 2'''
+
+Introduction summary (include footnote markers and citation markers)
+
+'''New Terms'''
+
+;Term 1: definition ( http://notreal.sourceurl.sample/where_your_definition_came_from ) 
+;Term 2: definition ( http://notreal.sourceurl.sample/another_example )
+
+'''Course Relevance'''
+
+:How is this applicable to the proteomics class?
+
+
+{{BookCat}}

@@ -1,0 +1,208 @@
+<NOINCLUDE>
+{{CPTPageNavigationU2|
+ | Prev = Input devices
+ | Next = Secondary storage devices}}
+{{DISPLAYTITLE:Hardware Devices: Output devices}}
+</NOINCLUDE>
+Pay special attention to devices with an {{Font color||#ff9933|orange}} background, you need to be able to describe exactly how they work!
+
+{{Dbox|Output Devices|Device that a computer sends data or instructions to}}
+
+== Visual display units ==
+
+===[[w:Cathode ray tube|Cathode-Ray Tube]]===
+A cathode ray tube is a [[w:Visual display unit|Visual Display Unit]]. You might know them as the old 'fat' televisions and monitors that have mostly been superseded by LCD screens.
+
+'''Pros'''
+{{Plus|the image on a CRT can be viewed from a wide range of angles}}
+'''Cons'''
+{{Minus|Heavy, large and power hungry compared to LCD screens}}
+[[Image:CRT color enhanced.png|center|thumb|250px|Cutaway rendering of a color CRT: <br />'''1.'''&nbsp;Three Electron guns (for red, green, and blue phosphor dots)<br />'''2.'''&nbsp;Electron beams <br />'''3.'''&nbsp;Focusing coils <br />'''4.'''&nbsp;Deflection coils <br />'''5.'''&nbsp;Anode connection <br />'''6.'''&nbsp;Mask for separating beams for red, green, and blue part of displayed image <br />'''7.'''&nbsp;Phosphor layer with red, green, and blue zones <br />'''8.'''&nbsp;Close-up of the phosphor-coated inner side of the screen]]
+
+===<span style="background: #ff9933;">[[w:Flat-screen computer monitor|Flat Screen (LCD)]]</span>===
+[[File:LG L194WT-SF LCD monitor.jpg|thumb|center|A 19-inch [[w:LG|LG]] flat-panel [[w:LCD monitor|LCD monitor]].]]
+LCDs are Visual Display Units. Most modern Televisions and Monitors are liquid crystal displays (LCD).  An LCD screen is made up by an array of pixels or picture elements, each pixel contains Red Green and Blue and there is a back light that shines through the pixel, creating an image
+[[File:LCD-normal.png|80px|center]]
+To change the image displayed on the screen will require different combinations of Red, Green and Blue pixels.  To do this the pixels are sandwiched between two [[w:Polarization (waves)|polarized]] grills.
+[[File:CPT-Outputs-VDU-LCD-open.svg|300px|center]]
+These grills are controlled by an electric current and when current is applied, the grids go perpendicular to each other, blocking out all light from a particular colour.
+[[File:CPT-Outputs-VDU-LCD-green.svg|300px|center]]
+Applying different current patterns to different pixels means that you can choose whether each pixel displays Red, Green or Blue, thus building an image:
+[[File:LCD pixels on Acer Extensa 5620Z 20090124.jpg|300px|center]]
+
+'''Pros'''
+LCD screens have several benefits over traditional CRT screens:
+{{Plus|Smaller and lighter than equivalent sized CRT}}
+{{Plus|More energy efficient than CRT}}
+
+'''Cons'''
+{{Minus|viewing angles of LCD screens can be smaller than an equivalent CRT.  This means the viewers can't see images from the side of the screen}}
+{{Minus|[[w:Defective pixel|Dead pixels]] can plague LCD Monitors, where the grills governing the colour of an individual pixel get stuck and fix that pixel to always displaying a certain colour or no colour at all}}
+[[File:Lcd_display_dead_pixel.jpg|thumb|center|150px|an example of a dead pixel]]
+
+===[[w:Plasma screen|Plasma Screen]]===
+Plasma screens are Visual Display Units. They are generally more expensive than LCDs and CRTs, and offer similar performance to an LCD.  They are power hungry and  used mainly for large television sets
+
+{{CPTExercise|title=Exercise: Visual Display Units}}
+{{CPTQuestion|Explain how an LCD screen works:}}
+{{CPTAnswer|
+# An LCD screen is made up by an array of pixels, each pixel contains Red Green and Blue and there is a back light that shines through the pixel, creating an image.
+# The pixels are sandwiched between two [[w:Polarization (waves)|polarized]] grills.
+# These grills are controlled by an electric current and when current is applied, the grids go perpendicular to each other, blocking out all light from a particular colour.
+# Applying different current patterns to different pixels means that you can choose whether each pixel displays Red, Green or Blue, thus building an image
+}}
+{{CPTQuestion|Give two benefits and one drawback of using a LCD screen over a CRT:}}
+{{CPTAnswer|
+{{Plus|Smaller and lighter than equivalent sized CRT}}
+{{Plus|More energy efficient than CRT}}
+
+{{Minus|dead pixels can effect the image}}
+}}
+{{CPTQuestion|Name 3 types of Visual display unit:}}
+{{CPTAnswer|
+* LCD
+* Plasma
+* CRT
+}}
+{{Robox/Close}}
+
+== Sound output ==
+Speech output might include [[w:Speech synthesis|speech synthesis]], [[w:Headphones|headphones]] or [[w:Computer speaker|speakers]]
+[[Image:Logitech-usb-speakers.jpg|thumb|center|300px|A pair of speakers for notebook computers, runs off USB]]
+== [[w:Electronic paper|Electronic paper]] ==
+[[File:Amazon_Kindle_3.JPG|thumb|150px|center|Amazon Kindle using an e-paper display]]
+Electronic paper is made up of tiny plastic balls that have different colours on each side (black and white).  Applying an electrical current to the 'paper' flips the balls to make the pattern of a picture and an image is displayed.  The image stays there until you apply another current. This is used in modern e-book readers such as the Amazon Kindle and in other devices such as phones
+[[File:Kindle 3 texture (crop).jpg|thumb|center|If you look closely you can see the 'ball's on the Kindle 3]]
+[[Image:E-ink.svg|thumb|center|500px|Appearance of pixels]]
+'''Pros'''
+{{Plus|Images are easy to read in sunlight, unlike most electronic screens}}
+{{Plus|You only need to use electricity to change the image, not maintain it, meaning batteries last longer than LCD screens.  In some cases batteries may last weeks, whilst an LCD equivalent would only last a day or two}}
+
+'''Cons'''
+{{Minus|The refresh rate of screens is too slow to show moving images}}
+{{Minus|Ghosting might occur, where the shadow of old images remains on the screen after you have refreshed}}
+[[Image:e-ink ghost.jpg|thumb|center|An e-ink screen showing the "ghost" of a prior image]]
+
+{{CPTExercise|title=Exercise: Electronic paper}}
+{{CPTQuestion|Give two benefits and one drawback for using electronic paper over an LCD screen:}}
+{{CPTAnswer|
+{{Plus|Images are easy to read in sunlight}}
+{{Plus|You only need to use electricity to change the image, not maintain it, meaning batteries last longer than LCD screens}}
+
+{{Minus|The refresh rate of screens is too slow to show moving images}}
+}}
+{{Robox/Close}}
+
+== Printers ==
+There are several different types of [[w:Printer (computing)|Printer]]s, the one's you need to know are below
+
+===<span style="background: #ff9933;">[[w:Printer (computing)#Impact printers|Impact Printer]]</span>===
+Impact printers rely on a forcible impact to transfer ink to the media, similar to the action of a typewriter. All but the dot matrix printer rely on the use of formed characters, letterforms that represent each of the characters that the printer was capable of printing. Impact printers varieties include, typewriter-derived printers, teletypewriter-derived printers, daisy wheel printers, dot matrix printers and line printers. Dot matrix printers remain in common use in businesses where multi-part forms are printed, such as car rental services, this allows several sheets of paper to be written to with one strike of the printer head, it also allows for carbon paper to be written to through sealed envelopes:
+[[File:CPT-Outputs-Printers-Impact-MultiPart.svg|center|400px]]
+
+Dot matrix printers use a print head containing a line of pins.  The number of pins can vary from 7 into the dozens.  As the print head passes over the paper the pins impact on the ink ribbon forming characters on the paper line by line.
+[[File:CPT-Outputs-Printers-ImpactHead.svg|center|75px|7 pin print head]]
+
+[[File:CPT-Outputs-Printers-ImpactExample.svg|center|400px]]
+
+'''Pros'''
+{{Plus|Can print multi-part stationary}}
+{{Plus|very cheap to run}}
+
+'''Cons'''
+{{Minus|unable to produce high definition images, you are limited to the number of pins available}}
+{{Minus|slow when compared to laser}}
+
+[[File:Dot_matrix_example_text.png|thumb|center|output from a dot-matrix printer, showing the individual rod strikes on the ribbon to make an image on the paper]]
+
+===<span style="background: #ff9933;">[[w:Inkjet printer|Inkjet Printer]]</span>===
+[[File:Druckkopf.jpg|center|thumb|Inkjet heads: <br> Disposable head (left) and <br> Fixed head (right) with ink cartridge (middle)]]
+Inkjets are examples of non-impact printer.  They operate by propelling variably-sized droplets of liquid or molten material (ink) onto almost any sized page. They are the most common type of computer printer used by consumers.
+# The paper is fed into the printer
+# The print head contains one or more cartridges of ink of different colours (some only have black ink)
+# The print head moves from one side to another, each cartridge spraying tiny particles of ink onto the paper to form the correct pattern
+# After one line is finished the paper is fed through a little more, and the next line printed
+
+[[File:Inkjet_s.jpg|thumb|center|Output from an inkjet printer showing the individual blobs of ink on the paper]]
+
+'''Pros'''
+{{Plus|Inkjet printers are cheaper than lasers}}
+{{Plus|They can produce high quality images for photos etc}}
+
+'''Cons'''
+{{Minus|They are slower than lasers}}
+{{Minus|Per page they are relatively expensive}}
+
+===<span style="background: #ff9933;">[[w:Laser printer|Laser Printer]]</span>===
+Lasers are examples of non-impact printers. A laser printer rapidly produces high quality text and graphics.  They work in the following way:
+
+
+# The drum is given a negative charge
+# This charge is erased in the correct places by the laser to create the image using the [[w:Photoelectric effect|photoelectric effect]]
+[[File:Laser printer-Writing.svg|center|400px]]
+#<li value="3"> The drum is coated in [[w:Toner|toner]], a negatively charged fine dust, which is repelled by the charge on the drum. Only in the uncharged areas does the toner apply</li>
+# The drum rolls over the paper and transfers the toner onto it(if your printing gets jammed the paper might have this dust on it which comes off on your hands)
+# The paper is then put through heated rollers which melts the toner and seals it to the paper, thus finishing the image.
+[[File:Laser printer fusing.svg|center|300px]]
+
+'''Pros'''
+{{Plus|Fast}}
+{{Plus|Cheap to Produce large volumes of printing}}
+
+'''Cons'''
+{{Minus|Expensive hardware}}
+[[File:Hp_laserjet_4200dtns.jpg|center|thumb|Hp laserjet 4200]]
+
+===[[w:Plotter|Plotter]]===
+Plotters were an alternate printing technology once common in engineering and architectural firms. Pen-based plotters rely on contact with the paper, but not impact, per se, and special purpose pens that are mechanically run over the paper to create text and images.  They were particularly adept to printing vector graphics, though they have generally been replaced with wide-format conventional inkjet/laser printers.
+
+# Paper is placed in the plotter.
+# The plotter arm selects a pen of the correct colour
+# the arm then moves the pen to the area where printing needs to start.
+# the pen is lowered onto the paper and the arm moves it drawing a continuous image.
+# The pen raises and lowers depending on what needs to be drawn, the plotter can also select from a group of colour pens
+
+(some plotters involve keeping the pens stationary and moving the paper instead)
+
+'''Pros'''
+{{Plus|cheap to run}}
+{{Plus|can produce very precise technical drawings}}
+
+'''Cons'''
+{{Minus|there may be issues around the colour pens available, it is hard to combine colours as you would in an inkjet}}
+{{Minus|slow}}
+
+[[File:Bundesarchiv_B_145_Bild-F031434-0012,_Aachen,_Technische_Hochschule,_Rechenzentrum.jpg|center|thumb|Plotter at work on a technical drawing]]
+
+{{CPTExercise|title=Exercise: Printers}}
+{{CPTQuestion|What printing device is best for printing thousands of leaflets to advertise a shop opening? Why?}}
+{{CPTAnswer|
+Laser printer:
+* it can print incredibly fast
+* it can print in colour
+* toner doesn't run in the rain, meaning the leaflets won't be spoilt during delivery
+}}
+{{CPTQuestionTab}}
+For a seven pin impact printer, what character would the following line codes output:
+ 1,2,3,4,5,6,7 | 1,4 | 1,4 | 2,3
+{{CPTQuestionTabEnd}}
+{{CPTAnswer|
+[[File:CPT-Outputs-Printers-Impact-P.svg|50px]]
+}}
+{{CPTQuestion|Describe how a laser printer works:}}
+{{CPTAnswer|
+# Electrical charge version of the image is transferred to the drum
+# Paper passes over the drum and the charge is transferred to the paper
+# [[w:Toner|Toner]], a fine dust, is attracted to the charge on the paper, making the image
+# The paper is then put through heated rollers which then melts the toner and seals it to the paper, thus finishing the image.
+}}
+{{CPTQuestion|When might you want to use an impact printer over an inkjet printer?}}
+{{CPTAnswer|
+When you are printing multi-part stationary
+}}
+{{CPTQuestion|When might you want to use an inkjet printer over an impact printer?}}
+{{CPTAnswer|
+When you want detail and colour
+}}
+{{Robox/Close}}
+{{BookCat}}

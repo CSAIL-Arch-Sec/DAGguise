@@ -1,0 +1,118 @@
+== Slice (Acquisition) Time Correction ==
+
+In order to collect data from the entire brain, a typical pulse sequence might acquire 30 (or more) slices throughout the TR (e.g. 3s). One approach is to use ascending/descending slice acquisition, in which slice are collected consecutively. However, most fMRI studies now use interleaved slice acquisition, in which the scanner first collect all odd-numbered slices, and then all even numbered slices (avoids cross-slice excitation).
+
+Due to that consecutive or interleaved slice acquisition, adjacent parts of the brain are acquired at different time points within a certain TR. In other words, the BOLD-Signal at different layers of the brain are sampled at different time points. Consequently, the signal (haemodynamic response) acquired in the last slice (late in the TR) appears to peak earlier than those in the surrounding slices (acquired early in TR), even though the underlying activity is identical. Without correcting for the time of acquisition of each slice, the time courses would seem to differ across slices. 
+
+But we really like to have the signal for the whole volume from the same time point!
+
+===== Should I do slice timing correction? =====
+
+Sometimes slice timing correction is considered as an optional step in preprocessing, and whether do it before or after realignment (aiming to overcome the problem introduced by head motion) is also controversial. Typically, the argument is that with short TR, slice timing in not mandatory because the haemodynamic response is sluggish. However, there are arguments against this, and Sladky et al. (2011) showed that, in the worst case it doesn't change the results, but that in most cases, it improves the results - especially for event related designs.
+
+===== Suggestions from SPM! =====
+
+SPM provides several suggestions regarding to these questions.
+
+* With a sequential slice order
+:* trivial head movement: realignment first, and then slice timing correction
+:* significant head movement: slice timing correction first, and then realignment
+
+* With an interleaved slice order
+:It's very controversial about if slice timing should be used, especially when there is a severe head motion.
+
+* Performing dynamic causal modeling (DCM) 
+:If the DCM is going to use, then slice timing correction is a necessary step.
+
+===== Suggestions from FSL =====
+Generally, they do not recommend using slice-timing for GLM analysis. Instead, they recommend using temporal derivatives in the model. 
+If you still opt for slice-timing correction they suggest doing it after motion-correction (that is also how it is implemented in the FEAT workflow).  
+
+== Solution: Temporal Interpolation ==
+
+Correction of the slice-timing discrepancies is possible via temporal interpolation. Temporal interpolation refers to the estimation of a value of a signal at a time point that was not originally collected, using data from nearby time points. In other words, interpolation uses information from nearby time points to estimate the amplitude of the MR signal, for every slice, at a single time point within the TR. Typically either the first time-point of the TR, i.e. the time the first slice of the volume was acquired, or the middle time-point, i.e. the slice of the volume that was acquired at TA/2, are chosen as reference slices. Choosing the first time-point has the advantage of being straightforward, as e.g. GLM analyses can then be performed using the volume onset as time information. Using the middle time-point might be more accurate since less interpolation is needed (the maximum time difference being TA/2 versus a full TA) but it has to be accounted for when modelling the signal/event onsets. The standard algorithm uses sinc interpolation between time points.
+
+==== Limitation ====
+
+Any attempt to recover the missing information will be limited by the variability in the experimental data, especially variability that is not associated with the task.
+
+==== Alternative approach ====
+
+Create separate analysis models for each slice, which is then part of the data analysis instead of preprocessing.
+
+== Resting state fMRI ==
+Slice time correction is the same for rsfMRI as for task-based fMRI when using a standard EPI sequence. However, some rsfMRI studies use multiband sequences<ref>http://practicalfmri.blogspot.de/2012/03/grappa-and-multi-band-imaging-and.html</ref> These makes slice time correction a) potentially obsolete because of the very short TRs b) more tricky because not all slices are acquired separately.
+
+== Implementation ==
+
+====AFNI====
+''3dTshift'' is the command for slice time correction in the AFNI. ''-tzero nn'' option can be used to define the time offset to which all slides should be resampled to. Alternatively, the option ''-slice n'' can be used to interpolate to the nth slice of the volume.  The default interpolation is Fourier which is said (on the AFNI page) to be the most accurate but slowest, but this can also be adjusted. See the manual page for more options and details <ref>http://afni.nimh.nih.gov/pub/dist/doc/program_help/3dTshift.html</ref>. A command for slicetime correction to timepoint zero of slices that were acquired interleaved in z direction (alt+z) and with a TR of 2.3 seconds would look like this:
+ 3dTshift -TR 2.3s -tzero 0 -tpattern alt+z -prefix OUTPUTFILE INPUTFILE
+
+To verify the slice times (e.g. whether slices where acquired interleaved) you can execute the following command in the .results folder, which gives you the offsets for slice 0,1,2,... (where FILENAME is the name of the name of the current dataset, i.e. before slice timing but after e.g. discarding the first volumes, typically something like "pb00.SUBJECTNAME.RUNNAME.tcat+orig"):
+ 3dinfo -VERB FILENAME | grep offsets
+
+You can also use the graph display in the afni viewer to check slicetiming. When the timing (indx, value, '''at...''') jumps back and forth sliding through the slices in the image depicting the plane in which they were acquired, the slices are acquired interleaved. There should be no more change in timing after slice time correction and when walking through the timeseries in the graph itself the time should increase with TR from volume to volume. Look into the tutorial mentioned in the AFNI Software section of this book for a more detailed description.
+
+[[File:Graph afni.png|none|thumb|Check slice timing using time series graph]]
+
+In '''afni_proc.py''' this is a default component, aligning to first TR. Confusingly the standard interpolation here is quintic. All parameters can of course be adjusted using
+ -tshift_interp
+ -tshift_align_to
+
+====SPM====
+
+===== Slice timing order =====
+Slice order is a very important parameter in the procedure of slice timing, and an accurate description to the order ensure the correction performance. If you are not sure about the order, the best way is to ask the experimenter directly and get the first-hand information. On most scanners, the following slice orders for EPI will be availableː 
+
+# Ascendingː slices are obtained from the negative direction to positive, and it can be expressed as [1ː1ːnslices] in SPM
+# Descendingː slices are obtained from the positive direction to negative, and it can be expressed as [nslicesː-1ː1] in SPM
+# Interleavedː slices are obtained alternatively from odd and even slices. Odd slides can be expressed as [1ː2ːnslices], even slides can be expressed as [2ː2ːnslices]. Normally in this mode the aquisition is in ascending order
+
+Furthermore, some machines may have specific slice order modes, (such as center, reverse center, maximal interleaved, etc.), see [[SPM/Slice_Timing]] for more information.
+
+===== Slice timing parameters =====
+{| class="wikitable"
+|-
+! Parameter !! Value !! Comments
+|-
+| Session || Batch of images || /
+|-
+| Num.of.slice || Number of slice || Integer
+|-
+| TR || Repetition time || Float
+|-
+| TA || TA = TR-(TR/nslices) || Float
+|-
+| Slice order || See above part || /
+|-
+| File prefix || with ä.nii || /
+
+|}
+
+====FSL====
+Slicetime correction in FSL is part of the FEAT<ref>http://fsl.fmrib.ox.ac.uk/fsl/fsl4.0/feat5/detail.html</ref> pre-stats methods. It works by using (Hanning-windowed) sinc interpolation to shift each time-series by an appropriate fraction of a TR relative to the middle of the TR period. 
+
+In the FSL GUI select FEAT and then the pre-stats tab. There you can change ''Slice time correction:'' from ''None'' to the appropriate option, depending on how your slices where acquired. If slices were acquired from the bottom of the brain to the top select ''Regular up''. If slices were acquired from the top of the brain to the bottom select ''Regular down''. If the slices were acquired with interleaved order (0, 2, 4 ... 1, 3, 5 ...) then choose the ''Interleaved option''. If slices were not acquired in regular order you will need to use a slice order file or a slice timings file. If a slice order file is to be used, create a text file with a single number on each line, where the first line states which slice was acquired first, the second line states which slice was acquired second, etc. The first slice is numbered 1 not 0. If a slice timings file is to be used, put one value (ie for each slice) on each line of a text file. The units are in TRs, with 0.5 corresponding to no shift. Therefore a sensible range of values will be between 0 and 1. <ref>http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide#Pre-Stats</ref>
+
+[[File:slicetime_fsl.png|none|thumb|FEAT GUI prestats tab, interleaved slicetime correction selected]]
+
+The command line option in FSL is ''slicetimer''<ref>http://poc.vl-e.nl/distribution/manual/fsl-3.2/slicetimer/index.html</ref>:
+ slicetimer -i INPUTFILE [options]
+Options you should consider specifying are
+        -r,--repeat     Specify TR of data (default is 3s)
+        -d,--direction  direction of slice acquisition (x=1,y=2,z=3) (default is z)
+        --odd   use interleaved acquisition (default is ascending)
+        --down  reverse slice indexing (default is ascending)
+        --tcustom       filename of single-column custom interleave timing file
+        --ocustom       filename of single-column custom interleave order file (first slice is referred to as 1 not 0)
+
+== References ==
+
+Huettel, S. A., Song, A.W., & McCarthy, G. (2008). ''Functional Magnetic Resonance Imaging'' (2nd edition). Sinauer Associates, Inc: Sunderland, Massachusetts, USA.
+
+Sladky, R., Friston, K., Trostl, J, Cunnington, R., Moser, E. & Windischberger, C. (2011). Slice-timing effects and their correction in functional MRI. NeuroImage, 58, 588-594
+
+<references />
+
+{{BookCat}}

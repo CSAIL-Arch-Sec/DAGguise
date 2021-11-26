@@ -1,0 +1,122 @@
+{{Simple Page Navigation|
+BookName=[[Proteomics/Protein Separations - Chromatography|Protein Separations - Chromatography]]|
+CurrentPage=Affinity|
+PrevPage=[[Proteomics/Protein Separations - Chromatography/Molecular Exclusion|Molecular Exclusion]]|
+NextPage=[[Proteomics/Protein Separations - Chromatography/Immobilized Metal Ion Affinity Chromatography (IMAC)|Immobilized Metal Ion Affinity Chromatography (IMAC)]]}}
+__FORCETOC__
+<!--
+=Protein Separations - Chromatography- Table of Contents=
+#[[Proteomics/Protein Separations - Chromatography| Protein Separations - Chromatography]]
+#[[Proteomics/Protein Separations - Chromatography/Chromatography Theory| Chromatography Theory]]
+#[[Proteomics/Protein Separations - Chromatography/Stationary and Mobile Phases| Stationary and Mobile Phases ]]
+#[[Proteomics/Protein Separations - Chromatography/Ion exchange|Ion exchange]]
+#[[Proteomics/Protein Separations - Chromatography/Molecular Exclusion|Molecular Exclusion]]
+#[[Proteomics/Protein Separations - Chromatography/Affinity|Affinity]]
+#[[Proteomics/Protein Separations - Chromatography/Immobilized Metal Ion Affinity Chromatography (IMAC)|Immobilized Metal Ion Affinity Chromatography (IMAC)]]
+#[[Proteomics/Protein Separations - Chromatography/Reversed Phase|Reversed Phase]]
+#[[Proteomics/Protein Separations - Chromatography/Hydrophobic Interaction Chromatography (HIC)|Hydrophobic Interaction Chromatography (HIC)]]
+#[[Proteomics/Protein Separations - Chromatography/Two Dimensional (2D) Chromatography|Two Dimensional (2D) Chromatography]]
+#[[Proteomics/Protein Separations - Chromatography/Ultra High Performance Liquid Chromatography|Ultra High Performance Liquid Chromatography]]
+-->
+Chapter written by: Laura Grell and Alexander Butarbutar <br>
+Contact llg3875@rit.edu or nbb3924@rit.edu for contributions <br>
+Chapter modified by Kai Burnett and Dalia Ghoneim <br>
+Contact kab9783@rit.edu or dxg6098@rit.edu
+==Affinity Chromatography==
+[[Image:affinity2.gif|thumb|right|400px|Figure 1. Affinity Chromatography Column ]]
+Affinity chromatography is a biochemical method designed to separate proteins from a mixed sample. It is one of the most commonly used techniques as it is very selective and effective at isolating proteins. The technique relies on unique interaction between a molecules with a ligand bounded to the matrix. Affinity chromatography have been used in a variety of applications, several types of matrix are readily available and can be purchased at various vendors. These matrices include interaction between:
+
+{| width="300" border="1"
+|-
+| <strong>Molecule</strong>
+| <strong>Ligand</strong>
+|-
+| Antigen
+| Antibody
+|-
+| Enzyme
+| Substrate
+|-
+| Receptor
+| Ligand
+|-
+| Nucleic Acid Binding Protein
+| Nucleic Acid
+|-
+| Polysaccharide, glycoprotein
+| Lectin
+|}
+
+Affinity chromatography has been successfully performed with a number of protein tags, one of the most common application is the use of poly-histidine tag. Extracting a protein from a gene product can be difficult task; one strategy that is commonly employed is to engineer a poly-histidine tag near the end of the gene. Typically, the histidine tag is relatively short and does not interfere with protein conformation. In affinity chromatography, the poly-histidine tag will bind to the nickel resin in the column.
+
+Developing an effective affinity chromatography method involves:
+
+#Finding a ligand that is specific enough
+#Finding suitable conditions for binding between the target protein and the ligand as well as release the protein.
+
+==Stages in affinity chromatography==
+
+The affinity chromatography process can be separated into 3 main stages:
+
+#Equilibration
+#Application of Sample
+#Elution
+
+===Equilibration===
+The first step in affinity chromatography is to prepare a stationary phase by immobilizing one of the two recognized components on an insoluble hydrophobic polymer such as agarose.
+
+===Application of Sample===
+A crude mixture containing the other recognized component is then applied to this stationary phase. Only those that are attracted to the stationary phase will bind to the column, the rest will simply be washed through the column. The success of this portion of the experiment is highly dependent on the target molecule's ability to sufficiently bind to the ligand. The equilibrium dissociation constant (K<sub>D</sub>) is a value that quantifies the strength of the bond between the target protein and its ligand. The lower the K<sub>D</sub> value, the stronger the bond. K<sub>D</sub> values between 10<sup>-4</sup> and 10<sup>-6</sup> are ideal for binding of the target molecule to the stationary phase.
+
+If the K<sub>D</sub> value is too high, there will be leakage of the target protein. If the K<sub>D</sub> value is too low, the target protein will bind too strongly. This may result in "irreversible" adsorption to the stationary phase. Although in this case, the adsorption is not truly irreversible, the necessary elution conditions may be very harsh and may destroy the protein's ability to function. 
+
+During a wash step, which often includes a high concentration of salt to overcome weaker recognition interactions, all proteins except those that bind tightly to the stationary phase are eluted.
+
+===Elution===
+[[Image:freeligand.png|thumb|500px|Figure 2. One way to elute the bound protein is to introduce free ligand that will bind to the target molecule]]
+[[Image:competingProt.png|thumb|500px|Figure 3. The bound protein can be eluted by introducing another protein that will outcompete the target protein and bind to the ligand]]
+
+The wash is followed by an elution step in which a soluble form of the immobilized ligand is used to displace the bound protein from the stationary phase.
+
+Since only the specific target sample can bind to the stationary phase, no fine-tuned elution gradient is necessary. In affinity chromatography it is possible to simply switch from binding conditions to release conditions immediately.
+
+There are two possible ways to elute the target molecule from the stationary phase:
+
+#Change the K<sub>D</sub> value from low to high. Ideal K<sub>D</sub> values for elution are usually between 10<sup>-1</sup> and 10<sup>-2</sup>. The K<sub>D</sub> value can be altered by changing conditions such as the salt concentration, pH, temperature etc.
+#Add a competitor that will displace the target protein from the ligand. This can involve adding free ligand that will bind to the target protein and wash out with the protein, or can be a competitor that binds to the ligand  and in place of the target protein (Figures 2 and 3).
+
+==Target Molecules==
+
+There are three groups of target molecules that can be used in affinity chromatography:
+
+#Specific binding based on Biological Activity: These include receptor binding sites, antibody binding sites,and enzyme active sites. These are used with their naturally occurring ligands or analogues of these ligands. It is possible to use these to separate groups of molecules if and analogue to a ligand has broad specificity.
+#Prosthetic groups that occur in nature: An example of this is polysaccharides. This is usually only useful in performing group separations.
+#Molecules engineered to contain an affinity tag: Examples of common tags are GST (Glutathione-S-Transferase) or proteins with accessible histidine residues. These affinity tags are almost always engineered into recombinant proteins for the purpose of separation.
+
+==Ligands==
+
+[[Image:spacerarm.png|thumb|right|500px|Figure 4. When preparing the stationary phase ligand, it is often necessary to include a spacer arm to avoid possible interference with binding ]]
+
+When using ligands that are mono-specific, it is difficult to find a commercially produced matrix specific for each case. Companies often sell "activated gels" that have active residues ready to be coupled to ligands. Ligands that are used in group-specific chromatography experiments are usually available commercially because they are more widely applicable.
+
+Smaller ligands may result in some problems. One problem that may arise is steric interference. Another problem that may occur is blocked access to the ligand as illustrated in Figure 4. A spacer arm can solve this problem.
+
+[[Proteomics/Protein Separations - Chromatography/Molecular Exclusion|< Previous Page]] | [[Proteomics/Protein Separations - Chromatography/Immobilized Metal Ion Affinity Chromatography (IMAC)| Next Page >]]
+
+==Resources==
+#Davidson.edu [http://www.bio.davidson.edu/Courses/genomics/method/Affinity.html Affinity Chromatography Methods]
+#GE Healthcare [http://www4.amershambiosciences.com/aptrix/upp00919.nsf/Content/AD018C9E293F99BEC1256E92003E865A?OpenDocument Affinity Chromatography Animation] || [http://www4.amershambiosciences.com/aptrix/upp01077.nsf/Content/Products?OpenDocument&ParentId=702499&moduleid=166666 Introduction to Affinity & Products]
+#Craig, P. [http://www.rit.edu/~pac8612/webionex/website/html/ione08ah.html Affinity Chromatography]
+#EYLaboratories, Inc - [http://www.eylabs.com/www/AffinityChromatographyCatalog.pdf List of various ligand]
+#[http://courses.cm.utexas.edu/jrobertus/ch339k/overheads-1/ch5_affinity.jpg Affinity Image]
+#Bio-Rad [http://www.bio-rad.com/B2B/BioRad/product/br_category.jsp?BV_SessionID=@@@@1390940087.1147454172@@@@&BV_EngineID=ccccaddhkhgdliecfngcfkmdhkkdfll.0&categoryPath=Catalogs%2fProcess+Separations%2fAffinity&divName=Process+Separations&catLevel=3&lang=English&country=null&loggedIn=null&catOID=-8554&isPA=false&serviceLevel=null Affinity Chromatography & Products]
+
+==References==
+#Cuatrecasas P, Wilchek M, Anfinsen CB. [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=4971842&dopt=Abstract Selective enzyme purification by affinity chromatography.] Proc Natl Acad Sci U S A. 1968 Oct;61(2):636-43. *
+#Wilchek M, Chaiken I. [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10857080&dopt=Abstract An overview of affinity chromatography.] Methods Mol Biol. 2000;147:1-6.
+#Hage DS. [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10222345&dopt=Abstract Affinity chromatography: a review of clinical applications.] Clin Chem. 1999 May;45(5):593-615. *
+#Steen J, Uhlen M, Hober S, Ottosson J. [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=16483795&query_hl=13&itool=pubmed_docsum    High-throughput protein purification using an automated set-up for high-yield affinity chromatography.] Protein Expr Purif. 2006 Apr;46(2):173-8. Epub 2006 Jan 26. *
+#Cutler P. [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=14970552&query_hl=13&itool=pubmed_DocSum Affinity chromatography.] Methods Mol Biol. 2004;244:139-49.
+.* Denotes Free Article
+
+{{BookCat}}

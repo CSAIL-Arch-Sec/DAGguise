@@ -1,0 +1,20 @@
+'''NOTE:''' The following predates passing of [http://www.justice.gc.ca/eng/rp-pr/other-autre/rsddp-rlddp/index.html Bill C-26 (S.C. 2012 c. 9)], which revised this section.
+
+==Legislation==
+
+{{quotation|
+'''Self-defence against unprovoked assault'''<br>
+34. (1) Every one who is unlawfully assaulted without having provoked the assault is justified in repelling force by force if the force they use is not intended to cause death or grievous bodily harm and is no more than is necessary to enable him to defend himself.
+<br>
+'''Extent of justification'''<br>
+(2) Every one who is unlawfully assaulted and who causes death or grievous bodily harm in repelling the assault is justified if
+:(a) they cause it under reasonable apprehension of death or grievous bodily harm from the violence with which the assault was originally made or with which the assailant pursues his purposes; and
+:(b) they believes, on reasonable grounds, that he cannot otherwise preserve himself from death or grievous bodily harm.<br>
+
+'''Self-defence in case of aggression'''<br>
+35. Every one who has without justification assaulted another but did not commence the assault with intent to cause death or grievous bodily harm, or has without justification provoked an assault on himself by another, may justify the use of force subsequent to the assault if
+:(a) they use force
+::(i) under reasonable apprehension of death or grievous bodily harm from the violence of the person whom he has assaulted or provoked, and
+::(ii) in the belief, on reasonable grounds, that it is necessary in order to preserve himself from death or grievous bodily harm;
+:(b) they did not, at any time before the necessity of preserving himself from death or grievous bodily harm arose, endeavour to cause death or grievous bodily harm; and
+:(c) they declined further conflict and quitted or retreated from it as far as it was feasible to do so before the necessity of preserving himself from death or grievous bodily harm arose.<br>

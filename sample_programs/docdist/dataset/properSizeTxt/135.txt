@@ -1,0 +1,295 @@
+{{XML-MDE|prev=Cocoon|next=XUL}}
+
+{| cellspacing="10" cellpadding="10" border="5"
+|-
+|
+<font size=4><b>Learning objectives</b></font>
+<br>
+<ul>
+<li> <font size=3>Understand the concept of parsing XML files</li> </font>
+<li> <font size=3>Use different APIs for processing XML files</li> </font>
+<li> <font size=3>Be aware of the differences between different approaches for parsing XML files </li> </font>
+<li> <font size=3>Decide when to use a particular technique</li></font>
+</ul>
+|}
+
+
+In the earlier chapters we were taught how to create [[../Introduction to XML#The_major_XML_elements|XML files]] in detail. This involved the development of [[../A single entity#XML_document|XML documents]], [[../A single entity#XML_Stylesheet|Style sheets]] and [[../A single entity#XML_schema|Schema]] and their validation. In this chapter, we will focus on different approaches for parsing [[../Introduction to XML#The_major_XML_elements|XML files]] and when to use them. 
+
+But first, it is time to refresh what we have learned about parsing.
+
+== The Process of Parsing XML files ==
+
+One goal of the XML format was to enhance raw data formats like plain text by including detailed descriptions of the meaning of the content. Now, in order to be able to read XML files, we use a parser which basically exposes the document’s content through a so-called API (application programming interface). In other words, a client application accesses the content of the XML document through an interface, instead of having to interpret the XML code on its own! 
+
+=== Simple Text Parsing ===
+One way to extract data from an XML document is simple text parsing – browsing all characters in the document and check for a desired pattern:
+
+
+<syntaxhighlight lang="XML">
+<house>
+<value><int>150,000</int></value>
+</house>
+</syntaxhighlight>
+
+Let’s say we are interested in the value of the house. Using straight text parsing, we would scan the file for the character sequence <tt><nowiki><value><int></nowiki></tt> and call it the start pattern. Then, we would further scan the document for the end pattern (i.e. <tt><nowiki></int></value></nowiki></tt>). Finally, we declare the text string in between these two patterns to be the value of the surrounding <tt><nowiki><house></nowiki></tt> tag.
+
+=== Why it doesn't work that way ===
+Obviously, this approach is not suitable for extracting information from large and complex XML documents, since we would have to know exactly what the file looks like and where the information needed is located. From a more general point of view, the structure and semantics of an XML file is determined by the makeup of the document, its tags and attributes – hence, we need a device that is able to recognize and understand this structure and can point out any errors in it. Moreover, it has to provide the content of the document through an interface, so that other applications can access it without difficulty. This device is known as an XML parser.
+
+=== What a parser does ===
+Almost all programs that need to process XML documents use an XML parser to extract the information stored in the XML document in order to avoid any of the difficulties that occur when reading and interpreting raw XML data. The parser usually is a class library (e.g. a set of Java class files) that reads a given document and checks if it is well-formed according to the W3C specification. Then, any client software can use methods of the interface provided by the parser API to access the information the parser retrieved from the XML file. 
+
+All in all, the parser shields the user from dealing with the complex details of XML like assembling information distributed over several XML files, checking for well-formedness constraints, and so on.
+
+== Parsing: an Example ==
+
+To illustrate more clearly what parsing an XML file really means, the following example was created which contains information about some cities. It also keeps track of who is on vacation and demonstrates the parsing process with the currently most common parsing methods. 
+
+=== Example: ''cities.xml''===
+
+<syntaxhighlight lang="XML">
+<?xml version="1.0" encoding="UTF-8" ?>
+<cities>
+<city vacation="Sam">
+<cityName>Atlanta</cityName>
+<cityCountry>USA</cityCountry> 
+</city>
+<city vacation="David">
+<cityName>Sydney</cityName>
+<cityCountry>Australia</cityCountry> 
+</city>
+<city vacation="Pune">
+<cityName>Athens</cityName>
+<cityCountry>Greece</cityCountry> 
+</city>
+</cities>
+</syntaxhighlight>
+
+Based on the information stored in this XML document, we can easily check who is on vacation and where. The parser will read the file using one of the various techniques presented later in this chapter. 
+
+This process is very complicated and prone to errors of all kinds. Luckily, we will never have to write code for it, because there are plenty of free, fully-functional parsers on the Web. All we do is download a parser class library and access the XML document through the interface provided by the parser software.  With more recent builds of Java, most parsers do not even have to be downloaded.  In other words, we use the functions or methods included in the class library for extracting the information.
+
+Basically, a parser reads the XML document and tries to recognize the structure of the file itself while checking for errors. It simply checks for start/end tags, attributes, namespaces, prefixes, and so on. Then, the client software can access the information derived from this structure using methods provided by the parser software (i.e. the interface).
+
+The best way to learn about the functionality of a parser is to actually use them; therefore, the next section demonstrates the different methods of parsing.
+
+== Parser APIs (Application Programming Interface) ==
+
+=== Overview ===
+There are two “traditional” approaches that dominate the market right now, an event-based push-model as represented by SAX (Simple API for XML) and a tree-based model using the DOM (document object model) approach.
+
+However, there is a movement towards newer approaches and techniques that try to overcome the flaws inherent in these traditional models – an event-based pull-model and a “cursor model”, such as VTD-XML, which allows us to browse the XML document just like in the tree-based approach, but simpler and easier to use.
+
+=== SAX (Simple API for XML) ===
+==== Description ====
+The push model, typically the exemplified by SAX (www.saxproject.org) is the “gold standard” of XML parsing, since it is probably the most complete and accurate method so far. The SAX classes provide an interface between the input streams from which XML documents are read and the client software which receives the data made available by the parser. The parser browses through the whole document and fires events every time it recognizes an XML construct (e.g. it recognizes a start tag and fires an event – the client software is notified and can use this information… or not).
+
+==== Evaluation ====
+The advantage of such a model is that we don’t need to store the whole XML document in memory, since we are only reading one piece of information at a time. If you recall that the XML structure is a set of nodes of various types (like an element node) – parsing the document with a SAX parser means going through each node one at a time. This makes it possible to read even very large XML documents in a memory-efficient way. However, the fact that the parser only provides information about the node currently read also implies that the programmer of the client software is in charge of saving certain information in a separate data structure (e.g. the parents or children of the currently processed node). Moreover, the SAX approach is pretty much read-only, since it is hard to modify the XML structure when we do not have some sort of global view. 
+
+In fact, the parser is in control of what is read when. The user can only wait until a certain event has occurred and then use the information stored in the currently processed node. 
+
+==== Example: ''TGSAXParser.java'' ====
+As mentioned before, the best way to fully understand the concept of the parsing process is to actually use it. In the following code sample, the information about the name and country of the cities that people are vacationing in will be displayed. The SAX API that is part of the Xerces parser package was used for the implementation (([http://xml.apache.org/xerces2-j Xerces 2 Homepage]):
+
+
+<syntaxhighlight lang="java">
+// import the basic SAX API classes
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
+import java.io.*;
+
+public class TGSAXParser extends DefaultHandler
+{
+    public boolean onVacation = false;
+
+    // what to do when a start-element event was triggered
+    public void startElement(String uri, String name, String qName, Attributes atts)
+    {
+        // stores the string in the XML file          
+        String vacationer = atts.getValue("vacation");
+        String cityName = atts.getValue("cityName");
+        String cityCountry = atts.getValue("cityCountry");
+
+        // if the start tag is "city" set vacationer to true
+        if (qName.equals("city") && (vacationer != null))
+        {
+            onVacation = true;
+            System.out.print("\n" + vacationer + " is on vacation in ");
+        }
+        if (qName.equals("cityName") && onVacation)
+            {                       
+            }
+        if (qName.equals("cityCountry") && onVacation)
+        {                       
+        }
+    }
+
+    /**This method is used to stop printing information once the element has
+    *been read.  It will also reset the onVacation variable for the next
+    *element.
+    */
+    public void endElement(String uri, String name, String qName)
+    {
+        //reset flag
+        if (qName.equals("city"))
+        {
+            onVacation = false;
+        }
+    }
+
+    /**This method is triggered to store and print the values between
+    *the XML tags.  It will only print those values if onVacation == true.
+    */
+    public void characters(char[] ch, int start, int length)
+    {
+        if (onVacation)
+        {
+            for (int i = start; i < start + length; i++)
+            System.out.print(ch[i]);
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        System.out.println("People on vacation in the following cities:");
+
+        try
+        {
+            // create a SAX parser from the Xerces package
+            XMLReader xml = XMLReaderFactory.createXMLReader();
+            TGSAXParser handler = new TGSAXParser();
+            xml.setContentHandler(handler);
+            xml.setErrorHandler(handler);
+            FileReader r = new FileReader("cities.xml");
+            xml.parse(new InputSource(r));
+        }
+        catch (SAXException se)
+        {
+            System.out.println("XML Parsing Error: " + se);
+        } 
+        catch (IOException io) 
+        {
+            System.out.println("File I/O Error: " + io);
+        }
+    }
+}
+</syntaxhighlight>
+
+The <tt>DefaultHandler</tt>: As mentioned before, SAX is completely event-driven. Therefore, we need a handler that “listens” to the input stream coming from the input file (''cities.xml'' in this case). 
+
+The SAX API provides interface classes, which we have to extend with our own code to read our own specific XML document. In order to include our code in the SAX API, we just have to extend the DefaultHandler interface with our own class and set the content handler to our custom handler class (which consists of three methods: startElement, endElement and characters)
+
+The <tt>startElement()</tt> and <tt>endElement()</tt> methods: These methods are invoked whenever the SAX parser finds a start or end tag respectively. The SAX API provides blank stubs for both methods and we have to fill them with code of our own. 
+
+In this case, we want our program to do something whenever the <tt>vacation</tt> attribute is set, so we set a Boolean variable to true whenever we find such an element and process the node by printing out the character sequence in between the start and end tag. The <tt>character</tt> method is automatically called whenever a <tt>startElement</tt> and <tt>endElement</tt> event was triggered, but prints out the character string only if the <tt>onVacation</tt> attribute is set.
+
+=== DOM (Document Object Model) ===
+
+==== Description ====
+The other popular approach is the tree-based model as represented by the DOM (document object model, see [http://www.w3.org/DOM/DOMTR W3C Recommendation]). This method actually works similarly to a SAX parser, since it reads the XML document from an input stream by browsing through the file and recognizing XML structures. 
+
+This time, instead of returning the content of the document in a series of small fragments, the DOM method maps the XML hierarchy to a DOM tree object that contains everything from the original XML document. Everything from elements, comments, textual information or processing instructions is stored in the tree object as nodes, starting with the document itself as the root node. 
+
+Now that all the information we need is stored in memory, we access the data by using methods provided by the parser software to read or modify objects within the tree. This facilitates random access to the content of the XML document and provides the possibility to modify the data it contains or even create new XML files by transforming a DOM back to an XML document. 
+
+==== Evaluation ====
+However, the major downside of this approach is that it requires much more memory and is therefore not suitable for situations where large XML files are used. More importantly, it is somewhat more complex than the simplistic SAX method even for small and simple problems.
+
+==== Example: ''MyDOMParser.java'' ====
+In the following code sample, a list of cities with people on vacation is again created but this time with the tree-based approach:
+
+<syntaxhighlight lang="java">
+// import all necessary DOM API classes
+import org.apache.xerces.parsers.*;
+import org.apache.xerces.dom.*;
+import org.w3c.dom.*;
+public class MyDOMParser{
+	public static void main(String[] args) {
+		System.out.println("People on vacation in the following cities:");  
+		try {
+			// creates a DOM parser object
+			DOMParser parser = new DOMParser();
+			parser.parse("cities.xml"); 
+
+			// stores the tree object in a variable
+         		org.w3c.dom.Document doc  = parser.getDocument();
+
+			// returns a list of all city elements in my city list
+	 		NodeList list = doc.getElementsByTagName("city");
+
+			// now, for every element in the city list, check if the
+			// "vacation" attribute is set and if yes, print out the   
+			// information about the vacationer.
+			for(int i = 0, length = list.getLength(); i < length; i++){
+				Element city  = (Element)list.item(i);
+				Attr vacationer = city.getAttributeNode("vacation");
+				if(vacationer!= null){
+					String v = vacationer.getValue();
+					System.out.print(v + " is vacationing in ");
+
+					// grab information about city name and country
+					// directly from the DOM tree object
+					ParentNode cityname = (ParentNode)
+					doc.getElementsByTagName("cityName").item(0);
+					ParentNode country = (ParentNode)
+					doc.getElementsByTagName("cityCountry").item(0);
+					System.out.println(cityname.getTextContent() + ", " + country.getTextContent());
+				}
+			}
+		} catch (Exception e) {         
+			System.out.println(e.getMessage());
+		}  
+	}
+}
+</syntaxhighlight>
+
+<u><tt>parser.getDocument()</tt>:</u> Once we parsed the XML document, the tree object is temporarily stored in the parser variable. In order to work with the DOM object, we have to create a variable holding it (of type  <u><tt>org.w3c.dom.Document</tt></u>). 
+
+Then, we create a <u>list of nodes holding all elements with the tag name <tt><nowiki>city</nowiki></tt></u>. The parser finds these nodes by browsing through the DOM tree. Then, we just go through each one of the city-elements and check if the <tt>vacation</tt> attribute is set and display all the information about the vacationer if so. 
+
+Xerces provides a helpful method called <u><tt>getTextContent()</tt></u> that lets us directly access the text node of an element node, avoiding all difficulties emerging from unneeded white space and the like.
+
+== Summary == 
+
+Choosing an API at the beginning of your XML project is a very important decision. Once you decide which one to use, it is easy to try different vendors without having much trouble, but switching to a different API will be a very time-consuming and costly process, since you will have to redesign your whole program code.
+
+The SAX API is a widely accepted and well-working parser that is easy to implement and works especially well with streaming content (e.g. an online XML source). Because it is a read-only API, you would not be able to modify the underlying XML data source. Since it only reads one node at a time, it is very memory-efficient and fast. However, this implies that your application expects the information to be close together and ordered. 
+
+If you want to randomly access the entire document at any point of time, then the DOM approach might be a better choice for you. The DOM API is more complex and harder to implement, but gives you full control over the whole document and lets you modify the data, also. However, it reads the whole XML document into memory, so the DOM API is not suitable for projects with very large XML files.
+
+<font color="#8b4513">
+== Exercise == 
+
+=== Recommended optional exercise ===
+''Use the code sample for the SAX and DOM parser from this chapter and play around with it. You probably want to print out different nodes or add more constraints. This absolutely optional, but will give you an idea of the main differences between SAX and DOM.''
+
+=== Now for the exercise ===
+*''Create a SAX parser to parse the file movies.xml.  The output simply needs to come from your IDE, it does not need to be sent onto a webpage.  ''
+
+
+''TO HELP YOU'' [http://arches.uga.edu/~andy311/MovieSAXParser.zip download this], it provides a structure of the problem so that you can more easily run the app in NetBeans 5.0.
+
+If you’re interested in using Xerces – just download the following file:
+
+            http://www.apache.org/dist/xml/xerces-j/Xerces-J-bin.2.8.0.zip
+
+If the above link is dead. Go to http://www.apache.org/dist/xml/xerces-j/ and download the latest zip binary file. It should be in the format of "Xerces-J-bin.#.#.#.zip"
+
+Then put the content into the <tt>\lib\ext</tt> subfolder of your NetBeans directory and start up NetBeans IDE. Now, the Xerces package is successfully installed on your machine.
+</font>
+
+== Useful Links ==
+
+# http://www.cafeconleche.org
+# http://www.xml.com
+# http://www.xmlpull.org
+# http://workshop.bea.com/xmlbeans/reference/com/bea/xml/XmlCursor.html</pre>
+# http://workshop.bea.com/xmlbeans/reference/com/bea/xml/XmlCursor.html</pre>
+
+{{{{BOOKTEMPLATE}}/Answers}}
+
+{{BookCat}}
+
+[[fr:Programmation XML/Parsing]]

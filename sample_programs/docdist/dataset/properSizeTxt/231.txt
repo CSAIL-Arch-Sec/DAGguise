@@ -1,0 +1,101 @@
+== Altair ==
+The MITS Altair 8800 was designed around a new microprocessor, the Intel 8080, and debuted in 1975. Its announcement on the January 1975 issue of Popular Electronics magazine led the Albuquerque-based manufacturer to a four-month backlog attempting to fill orders.
+
+The Altair is considered the first home computer. Its only input was a series of front-panel switches. However, it had a motherboard with a bus, which allowed other companies to provide keyboards, tape readers and other devices to access the registers.
+
+A group of Harvard students wrote a BASIC interpreter for the MITS. These students -- Steve Ballmer, Paul Allen, and Bill Gates -- left school to focus on code development and not long afterward created MicroSoft.
+
+<gallery mode="slideshow">
+File:Altair 8800.jpg|The MITS Altair 8800
+File:Altair Computer Ad May 1975.jpg|An advertisement for the Altair Computer in May of 1975.
+File:Altair 8800 Computer.jpg|An Altier Computer extended with a floppy drive and see through casing.
+</gallery>
+
+== Radio Shack ==
+[[File:Okona-GfhR-TRS-80.jpg|thumb|right|TRS-80 Model 2]]
+The TRS-80 series computers were based on the Zilog Z80 processor and ran TRS-DOS on a monochrome monitor. It used floppy disks and then later hacks were made to use hard drives.
+
+The TRS-COCO computer was developed as a home computer with color graphics and the TRS-80 series was marketed towards businesses. The COCO used a TV set as a monitor to save on costs and tried to compete against the Atari 400 and 800 and Commodore 64 series. The COCO used a 6809 Motorola processor and ran OS9 (no relation to Mac OS 9).
+
+The Tandy 1000 series was based on the IBM PCJr graphics and sound chips, it used expansion slots but had the pins wired differently than PC and AT ISA expansion slots, and ran Deskmate as a GUI under Tandy DOS (Which was a modified MS-DOS that even reversed the DOS Interrupts to make sure it only ran on Tandy series computers.) Many MS-DOS video games were made with CGA, EGA, and Tandy graphics, and the Tandy version had advanced sound until the ISA sound cards like the AdLib and Sound Blaster got created. Eventually the IBM PS/2 series came out with VGA graphics and nobody wanted to buy the Tandy series PCs anymore. Once Windows 3.X became standard Radio Shack stopped selling the Tandy 1000 series, and then eventually dropped out of the PC business and sold PCs made by other companies like Dell or Compaq, and then eventually stopped selling computers.
+
+== ZX Spectrum, and Compatibles ==
+
+== Apple ==
+{{TODO| Reduce, streamline and share content and timeline with [[History of Apple Inc.]] Wikibook}}
+
+=== Apple II ===
+[[File:Apple II IMG 1107.jpg|thumb|right]]
+The Apple II was produced by Apple Computer. It used a BASIC-type operating system and was marketed toward home use. The original Apple I computer was created by Steve Wozniak and Steve Jobs in a garage. Both were college drop-outs that wanted to make one of the first micro computers with a color screen for under $1000. Steve Wozniak carefully chose chips from a catalog to make sure he got the best price and quality and settled for a MOS 6502 processor, which was a Motorola 6800 clone with some of the pins changed to avoid copyright laws. The MOS 6502 processor was cheaper and helped make the Apple I and then later Apple II series cost effective. The original Apple I was $666, and sold enough units in custom wooden cases to not only pay back loans, but help fund the Apple II series. The Apple II series ran Apple DOS and then later Pro DOS and a version of BASIC. It had expansion slots for floppy drive controllers, modems, and other things like a Z80 CP/M card to run CPM-80 software. Steve Wozniak was in a plane crash and lost most of his memory and dropped out of Apple, and Apple tried to make an Apple III series but it was nothing like the Apple II and had series hardware issues like loose chips and Apple's fix was to drop it six feet from a chair to snap the chips back into place. After the Apple II, Apple II+, Apple IIe, the Apple IIc was developed to help Apple compete in the home market against the Commodore 64, Atari 800, and IBM PCjr. After the Macintosh and Amiga the Apple //GS was developed with a 65C816 16 bit CPU to run Apple II code and enhanced Apple IIGS code that was based on the Mac Finder GUI, and later the Macintosh II series replaced it and the Macintosh II NuBus slots had an Apple II emulator card to run Apple II software. Apple used to have the slogan "Apple II Forever" but eventually abandoned the Apple II series in favor of the Macintosh series.
+
+=== Apple Lisa & Macintosh ===
+[[File:Macintosh 128k transparency.png|thumb|right|Macintosh]]
+Apple Computer followed the Apple II with the Apple Lisa, and after that, the Apple Macintosh. These computers were unique due to their graphical user interface (GUI), introducing the concept of icons, windows, pull down menus, and mice. (The GUI concept was actually taken from Xerox, via two of their computers, the Xerox Star and Xerox Alto). Apple was later sued by Xerox, but Xerox lost the lawsuit because the Macintosh GUI was different enough from the Xerox Star GUI to qualify as not the same GUI. The original Macintosh was $4000 and used the Motorola 68000 CPU and had 128K of RAM and a 400K 3.5" Floppy drive and a nine inch black and white monitor. It did not sell very well and Steve Jobs was fired from Apple and left and took key employees with him to found Next Inc. and base the Nextcube and NextOS on BSD Unix and the MACH kernel. Apple made the Macintosh II which had NuBus expansion slots and had color graphics like the Commodore Amiga and competed with the Commodore 2000 but had a 68020 32 bit CPU for faster speed. Eventually the Macintosh would be upgraded to the PowerPC processor via a joint effort by Apple, IBM, and Motorola to develop a processor to challenge the Intel 80386 and up processors. The new Macintosh series was called PowerMacs and continued on until Apple lost a lot of money due to Mac OS not being able to preemptive multi-task and have an error recovery system and ran sluggish. The PowerPC emulated the Motorola 68K series via software so the PowerMacs ran Classic Macintosh software. But Apple debated bringing Steve Jobs back to save the company, but also considered buying out Be Inc. the makers of BeOS and base future Macintosh systems on BeOS. Ultimately Apple decided to bring Steve Jobs back and buy out Next Inc. and merge Mac OS 9 and NextOS together to make Mac OSX. Steve Jobs got rid of nonprofitable products such as the Apple Newton and Apple printers and scanners and developed a new lower cost Mac named the iMac which was an all in one Macintosh inside a 15 inch monitor using translucent plastic colors and designs on the PowerPC G3 processor. Then Apple developed iTunes from Quicktime and developed the iPod to play music on it and later models played videos and movies. The iMac and the iPod were a success and Apple was able to turn itself around and start earning a profit again. The iMac series was updated to PowerPC G4 and G5 processors and became based on a LCD flat screen monitor and base. Mac OS X was finally finished and Apple made more profits from upgrades and ran Classic Mac software via the Carbon library and emulation. The Mac Mini was made with a $599 price to migrate PC users to the Mac, and it didn't include a keyboard, mouse, or monitor, but could use PC ones. Eventually Apple moved to Intel processors as Motorola could not keep up with demand and made video game consoles have priority for PowerPC processors over Apple's Macintosh systems, and could not keep up with Intel's Ghz levels. The Intel Macs were made with Rosetta software to emulate PowerPC macs, and then later the Mac OSX binary format was invented that ran code on PowerPC or Intel Macs. The Apple made the iPhone based on the iPod to make a Touch Screen Cell Phone and then made the iPod Touch to have a Touch Screen like the iPhone but it can't make phone calls. Apple developed BootCamp to partition an Intel Mac hard drive to Boot and Install Microsoft Windows on it since Macs have Intel chips they are basically a PC Clone now. Thus Apple gave Mac users the option to boot Mac OSX or Windows.
+
+== Commodore ==
+
+===Commodore Pet===
+
+===Commodore Vic 20===
+
+=== Commodore 64 ===
+[[File:Commodore64.jpg|thumb|right|Commodore 64]]
+The Commodore 64 was a revolution at the time it was released in 1981, expanding on the Vic 20's 8 colors to an amazing 16 colors and increasing the screen resolution to 40 columns and 25 lines. A 3 voice synthesizer topped off the features of this amazing computer.
+
+In its time. the Commodore 64 was one of the most popular home computers in the market with thousands of games and business applications available. (''I still have a copy of Microsoft Multiplan for the C64'')
+
+Its built-in BASIC and a plethora of magazines (''ZZap64'', ''Commodore'', ''Compute's Gazette'') with programs for readers to enter, enabled many people to learn BASIC and even Machine Code.
+
+In 1986, the C64C was introduced, its changes (a lighter colored case and a different shape) were mainly cosmetic but still compatible with all previous add-ons and software.
+
+Another version of the C64 was the SX-64. This was a "portable" version of the Commodore 64. I use the term portable very loosely, this thing was ''heavy''. It contained a 5-inch color Cathode Ray Tube (CRT) monitor and a built-in disk drive. The keyboard doubled as the lid of the unit.
+
+Commodore64 was a must for its time.
+
+This computer offered:
+:* An amazing 64K of RAM
+:* Built-in BASIC
+:* Built-in TV adapter
+:* A cartridge expansion port
+:* 3-channel audio (via the SID chip)
+:* 2 x D 9-pin input ports
+:* Serial port
+:* Optional external floppy drive (the 1541)
+:* Optional tape drive (normally supplied with the computer)
+
+===Commodore 128===
+
+===Commodore Plus/4===
+
+=== Amiga ===
+[[File:Amiga500 system.jpg|thumb|An Amiga 500 system.]]
+The Amiga microcomputer, compared to other computers of its age, was much more advanced in the areas of graphical processing, display, and manipulation. The Amiga series used the 68000 series Motorola processor along with customized co-processors for audio, video, and I/O, and the series went as far as the 68040 processor before moving on to the IBM/Apple/Motorola PowerPC series for the Amiga One.
+
+At the release of the original Amiga computer, the Amiga 1000, had the Amiga 1020 5.25" floppy drive that came with the PC-Transformer software that emulated an 8088 IBM Monochrome PC and ran MS-DOS at the speed of a 1.0 Mhz 8088, it was the only machine capable of displaying 12 bit color, using a format known as HAM-12, or Hold And Modify-12. This made it Amiga the only machine, for several years, to have as many as 4096 colors on screen at a time. 
+
+The machine was replaced by the Amiga 500, a slightly enhanced and stripped down version of the Amiga 1000, with some of the same capabilities, as well as some different expansion ports. After the Amiga 500, came the Amiga 2000, 3000, 600, 4000 and 1200 machines were released, each having minor enhancements over the previous. Currently, the Amiga corporation has handed off development of a new model, titled the Amiga One, to a separate company. This new machine would support speeds of up to 800 MHz, as opposed to the Amiga 4000, which had a top speed of 60 MHz, not counting the PPC enhancements which were released near the end of the Amiga 4000 life-cycle, which did not do well, due to lack of support from programming companies.
+
+The Amiga 2000 and above supported PC BridgeCards, developed that contained most of a PC Clone with an 8088, 80286, 80386 processor on it to run MS-DOS and Windows 3.X. The Amiga could use the BridgeCard CPU as a co-processor when it didn't run MS-DOS. The AMax program emulated a Macintosh using a Macintosh Plus or under BIOS chip and used the Amiga resolution to get a better graphics mode than a Macintosh Plus. There also existed Commodore 64, Apple //, Atari 8 bit, and other emulators for the Amiga, and the Amiga was one of the first computers to offer emulators for almost any system. Now the Amiga Forever emulator runs Amiga software, and the open sourced UAE (Universal Amiga Emulator) and Fellows projects run Amiga software as well, with the difference that Amiga Forever comes with the Kickstart Disks and ROMs as well as Workbench boot disks as part of the license and the others require users to copy them from an Amiga or buy them from Amiga, Inc.
+
+The Amiga series is still popular in parts of Europe and the old Motorola 68K series Amiga computers can have PowerPC upgrade boards to run the latest AmigaOS 4.0 and above operating systems. [http://www.scribd.com/doc/18058526/Amiga-History-and-Patent This is a link to the History of the Amiga via questions and answers in the early 1990's and the original Amiga patent in one PDF document at Scribd] for those interested in history and patents.
+
+== Atari ==
+
+===Atari 8-bit===
+[[File:Atari-400-Comp.jpg|thumb|The Atari 400 computer.]]
+Atari Inc. released it's first 8-bit computers, the 400 and 800 PCS's, in 1979.  Jay Miner was integral in the development of the computer before leaving Atari to develop the 68000 based Lorianne under Amiga in the early 80's.  Featuring custom graphics (CTIA/GTIA and Antic) and sound (POKEY) chips, and a custom expansion port (the SIO intelligent "plug and play" port), the systems are centered around the 6502 CPU.  The 400 was intended to fill the low end gaming computer market and game with a membrane keyboard and 16K RAM, while the 800 was intended to be the more serious computer with a full typewriter keyboard and 48k.  In 1982 Atari released the 1200XL which changed the styling of the case, increased RAM to 64k, and added function keys.  Software compatibility issues caused it to only be on the market for a year before being replaced by the 600xl and 800xl computers.  Similar in looks to the 1200XL, the 600XL (16K) and 800XL (64K), they included an expansion port in addition to the SIO standard, the Parallel Bus Interface (PBI).
+
+In 1983-1984, Atari's video game section of it's Consumer Division suffered massive losses that effected the entire company and prompted Atari owner Warner Communications to try and sell the company.  Jack Tramiel the founder of Commodore, left Commodore in early '84 and then went on to buy out Atari Consumer to form Atari Corporation in July of 1984.  Jack released several 8-bit computers under Atari Corporation, upgrading the model line to the XE series in 1985.  The 65XE (64K) and 130XE (128K) took on a new case style, and replaced the PBI with a semi-compatible bus called the Enhanced Cartridge Interface (ECI).
+
+In 1987 Jack took the 65XE, restyled the case and moved to a detached keyboard, releasing it as the XE Game System (XEGS).  When the keyboard was not plugged it, it functioned as a game console including Missile Command in it's ROM.  When the keyboard was plugged in it functions as a full 65XE computer, with full peripheral support through it's included SIO ports.
+
+=== Atari ST ===
+[[File:Atari 1040STf.jpg|thumb|right|Atari ST]]
+After leaving Commodore in January of 1984, by the Spring of 1984 Jack had decided to return to the computer business and formed Tramel Technology Ltd. (TTL).  Key engineering and management began to leave Commodore to join Jack, and in early May of 1984 former Commodore 64 engineer Shiraz Shivji lead a team to build Jack's next generation computer - code named Rock Bottom Price (RBP).   Initially based around the National Semiconductor NS32032, the design soon moved to a 68000 based system.  A wire wrap of RBP was completed by late August and in September began working with Digital Research Incorporated (DRI) on porting it's GEM GUI and newly developed GEMDOS to run as part of the TOS (The Operating System). ST also stood for SixTeen because the 68000 that powered it had a 16 bit I/O bus. The first ST series model, the 520ST, was released in 1985, to be followed by the 1040ST the following year.  Later the Atari TT used the 68020 and 68030 processors that were Thirty Two bits. The Atari Falcon was developed and released in 1992 to provide a 32 bit multimedia system and included a DSP audio chip, enhanced graphics modes, and a multi-tasking operating system. Like the Amiga, the Atari ST and above suffered lack of third party software support and lack of proper marketing. When the IBM PC Clones used 80386 processors and above and ran Microsoft Windows 3.X and used VGA or SVGA and the Sound Blaster or similar sound card, they were cheaper than the Amiga or Atari series computers and drove both companies into almost bankruptcy. Atari was resold many times, and now is a Video Game company for modern game consoles and Windows and Macintosh computers. A version of the Atari ST software is available via the [[Wikipedia:MiNT|MiNT]] project for the Atari St series hardware, an Ubuntu port of MiNT is being done to run Atari ST software under Ubuntu. When Windows 95 and above became standard many Atari ST users migrated to PC Clones and Windows, while others went to the Macintosh. The Atari ST had a Macintosh emulator called Magic Sack that used an old Macintosh Plus and under BIOS chip to emulate a Macintosh Plus or under system.
+
+== IBM ==
+[[File:IBM PC.jpg|thumb|right|IBM PC]]
+The IBM PC was a personal computer built around the Intel 8088 microprocessor (which was modeled after the Intel 8086). It became standardized, and today, the majority of personal computers are IBM compatible. IBM started out with the IBM DisplayWrite word processor, and then later made the IBM 5150 aka IBM PC based on the Intel 8088 processor. IBM had Microsoft write IBM Personal Computer DOS 1.0, and reserved DRI's CP/M-86 and Microsoft Xenix as standby operating systems. But DOS was the more popular operating system. IBM made the IBM PC/XT which was like the IBM PC but had more expansion slots, and then the IBM PC/AT based on the Intel 80286 16 bit processor (Skipping the Intel 80186) and 16 Bit ISA bus. Originally IBM had two displays MGA (Monochrome) 80X25 text graphics, and CGA (Color Graphic Adapter) with 80X25 text mode and 16 colors, 320x200 in 4 out of 16 colors and 640x200 in 2 colors. To compete with Atari and Commodore IBM made the IBM PCJr for home use, but it flopped despite having a wireless infrared keyboard and cartridge slot to make loading software easier. Each expansion took place on a sidebus and the more sidebus adapters added to it the larger it got. The PCJr had better graphics and a sound chip and the original PC series only had a PC speaker with limited sounds, so PCJr video games were better, but IBM sold the PCJr graphics and sound to Tandy for their Tandy 1000 series. IBM invented EGA graphics which used 16 colors in 320x200 mode and 4 colors in 640x200 mode. Eventually IBM moved on to the PS/2 series and OS/2, Personal Series 2 computers (A PS/1 was made with IBM PC specs but a better graphics card aka VGA) and PS/2 series had VGA graphics 256 colors out of 16 million and up to 640x480 graphics. Most of the PS/2 series had MCA slots or Microchannel slots that were not ISA compatible like the original IBM PC (and PS/1) and IBM considered it their "Clone Killer" while PC Clone makers tried to push EISA also a 32 bit expansion bus but backward compatible with 16 bit ISA. Ultimately either one caught on and Intel's PCI bus replaced ISA and Intel's VESA Local Bus briefly caught on that extended ISA with another slot in front of it for 32 bits, but ultimately PCI and later PCI Express beat all. Briefly video cards had an AGP video standard, but PCI Express beat it later on. IBM made the ValuePoint series using ISA slots, and the ThinkPad as a laptop, but eventually offshored work to Lenovo for making their PC systems to save on costs.
+
+
+{{BookCat}}

@@ -1,0 +1,111 @@
+'''Cells''' are the smallest units of life. The vast majority of organisms today are made up of eukaryotic cells, which contain distinct, membrane-bound organelles and which contain a membrane-bound nucleus. Earlier organisms with no membrane-bound organelles and no definite nucleus are termed prokaryotic. Each type has its own distinct anatomy.
+
+==Organelles==
+[[File:Plant cell structure-en.svg|right|350px]]
+The term "eukaryote" comes from the Greek (eu, "good", "true") and κάρυον](karyon, "nut").
+
+Karyon refers to the nucleus of the cell, thus pointing out that every eukaryote must have the following characteristics:
+
+* Contain a membrane-bound nucleus
+* Be composed of membrane-bound organelles
+
+Typically, eukaryotic cells are much larger and more complicated in comparison to prokaryotes.  Eukaryotes are believed to have evolved from early prokaryotes through endosymbiosis (see [[w:Endosymbiotic theory|endosymbiotic theory]]), roughly 1 billion years after the evolution of the first prokaryotes and archaea.  The endosymbiotic relationship between modern mitochondria and chloroplasts, and their corresponding membrane arrangements, provides some of the strongest evidence for this theory. The following is an overview of the main organelles which make up the eukaryotic cell.
+
+===Cell Membrane===
+
+The cell membrane is used to allow some materials to enter and block others, and vice versa.
+
+===Cell Wall===
+The '''cell wall''' is a more or less solid layer surrounding a cell. They are found in bacteria, archea, fungi, plants, and algae. Animals and most other protists have cell membranes without surrounding cell walls. When a cell wall is removed using cell wall degrading enzymes, what is left of the cell and its surrounding plasma membrane is called a protoplast.
+
+'''Cell sap''' is a dilute fluid that is found in the large central vacuole of many plant cells. It contains water, amino acids, glucose, and salts. The sap has many functions, such as storage of useful materials, and provides mechanical support for non-woody plants; it also helps plant-cells in the process of osmosis.
+
+===Centrioles===
+A '''centriole''' in biology is a barrel shaped microtubule structure found in most animal cells, and cells of fungi and algae though not frequently in plants.  The walls of each centriole are composed of nine triplet microtubules or, in the case of ''Drosophila'', nine doublet microtubules.  The microtubules which make up the '''centriole''' are very stable and are acetylated.  
+Centrioles are important in the cell division process, organizing the mitotic spindle upon which the chromosomes are pulled apart.  Some animal cells may be able to divide their chromosomes without centrioles, for instance in female meiosis. Centrioles assist the cell through the process of mitosis and in male meiosis.
+
+===Cytoplasm===
+The cytoplasm includes everything within the cell, within the cell membrane, but excludes the nucleus. Cytosol makes up the liquid part of the cytoplasm, filling the intracellular space of the cell. It functions to provide a medium in which cellular reactions take place, as well as suspending organelles, and aiding in sensory transduction and signaling.
+
+===Chloroplasts=== 
+Chloroplasts are organelles found in plant cells and eukaryotic algae which conduct photosynthesis.  
+They are similar to mitochondria but are found only in plants. Both organelles are surrounded by a double membrane with an intermembrane space; both have their own DNA and are involved in energy metabolism; and both have reticulations, or many foldings, filling their inner spaces. 
+Chloroplasts convert light energy from the sun into ATP through a process called photosynthesis.
+
+===Cytoskeleton===
+The '''cytoskeleton''' is a cellular "scaffolding" or "skeleton" contained, as all other organelles, within the cytoplasm. It is a dynamic structure that maintains cell shape, enables some cell motion (using structures such as flagella and cilia), and plays important roles in both intra-cellular transport (the movement of vesicles and organelles, for example) and cellular division. The three types of cytoskeleton are microfilaments, intermediate filaments, and microtubules.
+
+===Endoplasmic Reticulum===
+The '''endoplasmic reticulum''' or '''ER''' (endoplasmic means "within the cytoplasm," reticulum means "little net") is an organelle found in all eukaryotic cells. The ER modifies proteins, makes macromolecules, and transfers substances throughout the cell.
+Prokaryotic organisms do not have membrane-bound organelles and thus do not have an ER. 
+ER's base structure and composition is similar to the plasma membrane, though it is an extension of the nuclear membrane. The ER is the site of the translation, folding, and transport of proteins that are to become part of the cell membrane (e.g., transmembrane receptors and other integral membrane proteins) as well as proteins that are to be secreted or "exocytosed" from the cell (e.g., digestive enzymes).
+
+===Golgi bodies===
+The structure and internal function of the Golgi apparatus is quite complex and is the subject of scientific dispute. The Golgi apparatus consists, like the ER, of membranous structures. It is made up of a stack of flattened cisternae and similar vesicles. The ''cis'' face is the side facing the ER, the ''medial'' region is in the middle while the ''trans'' face is directed towards the plasma membrane (Fig. 1). The cis and trans faces have different membranous compositions.The Golgi apparatus is considered more or less the "postal office" of the cell. It handles all incoming lipids, proteins, etc., and controls their export as well.
+
+===Lysosomes===
+'''Lysosomes'''  contain digestive enzymes (acid hydrolases) to digest macromolecules. They are found in both plant and animal cells, but because animal cells also have vacuoles, animal cells contain many more lysosomes. They are built in the Golgi apparatus. At pH 4.8, the interior of the lysosomes is more acidic than the cytosol (pH 7). The lysosome single membrane stabilizes the low pH by pumping in protons (H<sup>+</sup>) from the cytosol, and also protects the cytosol, and therefore the rest of the cell, from the degradative enzymes within the lysosome. The digestive enzymes need the acidic environment of the lysosome to function correctly.  For this reason, should a lysosome's acid hydrolases leak into the cytosol, their potential to damage the cell will be reduced, because they will not be at their optimum pH.  All these enzymes are produced in the endoplasmic reticulum, and transported and processed through the Golgi apparatus. The Golgi apparatus produces lysosomes by budding.  Each acid hydrolase is then targeted to a lysosome. The lysosome itself is likely protected from digestion due to its unique internal 3-D structures which prevent enzymatic action{{ref|Campbell}}.
+
+Some important enzymes in lysosomes are:
+*Lipase, which digests lipids,
+*Carbohydrases, which digest carbohydrates (e.g., sugars),
+*Proteases, which digest proteins,
+*Nucleases, which digest nucleic acids.
+
+===Mitochondrion===
+Mitochodrion (from Greek ''mitos'' thread + ''khondrion'' granule) is an organelle found in most
+eukaryotic cells, including those of plants, animals, fungi, and protists. A few cells, such as the trypanosome protozoan, have a single large mitochondrion, but usually a cell has hundreds or thousands of mitochondria. The exact number of mitochondria depends on the cell's level of metabolic activity: more activity means more mitochondria. Mitochondria can occupy up to 25% of the cell's cytosol.
+
+Mitochondria are sometimes described as "cellular power plants", because their primary function is to convert organic materials into energy in the form of ATP.
+
+Important to note is that mitochondria are, in fact, separate cells unto themselves.  They were at one time independent prokaryotic cells living in a mutualistic prokaryotic community.  Over time, they evolved to live as ''endosymbionts'' within eukaryotic cells.  They reproduce independently of their host cells, having their own genetic material.
+
+Mitochondrion have inner membranes composed of phospholipid bilayers.
+
+===Nucleus===
+The nucleus varies in diameter from 10 to 20 micrometres. It is enclosed by a double membrane called the nuclear envelope. The inner and outer membrane fuse at regular intervals, forming nuclear pores. The nuclear envelope regulates and facilitates transport between the nucleus and the cytoplasm, while separating the chemical reactions taking place in cytoplasm from reactions happening within the nucleus. The outer membrane is continuous with the rough endoplasmic reticulum (RER) and may be studded with ribosomes. The space between the two membranes (called the "perinuclear space") is continuous with the lumen of the RER. The nuclear face of the nuclear envelope is surrounded by a scaffold of filaments called the nuclear lamina.
+
+===Peroxisomes===
+'''Peroxisomes''' are ubiquitous organelles in eukaryotes that function to rid the cell of toxic substances. They consist of a single membrane that separates them from the cytoso] (the internal fluid of the cell). Peroxisomes were discovered by Christian de Duve in 1965. Unlike lysosomes, which are formed in the secretory pathway, peroxisomes usually self-replicate by enlarging and then dividing, although there is some indication new ones may be formed directly.  They also have membrane proteins that are critical for various functions, such as for importing proteins into their interiors and to proliferate and segregate into daughter cells.
+
+Peroxisomes function to rid the cell of toxic substances, such as hydrogen peroxide, or other metabolites and contain enzymes concerned with oxygen utilization such as D-amino acid oxidase and urease oxidase.
+The peroxisome contains the enzyme catalase which converts H<sub>2</sub>O<sub>2</sub> (hydrogen peroxide, a toxic byproduct of cellular metabolism) to H<sub>2</sub>O and O<sub>2</sub>, with 2H<sub>2</sub>O<sub>2</sub> → 2H<sub>2</sub>O + O<sub>2</sub>.
+
+===Ribosomes===
+Organelle composed of rRNA (synthesized in the nucleolus) and ribosomal proteins. It translates mRNA into a polypeptide chain (e.g., a protein). 
+It can be thought of as a factory that builds a protein from a set of genetic instructions. Ribosomes can float freely in the cytoplasm (the internal fluid of the cell) or bind to another organelle called the endoplasmic reticulum, or to the nuclear envelope. Since ribosomes are ribozym]s, it is thought that they might be remnants of the [[w:RNA world|RNA world]].
+
+==Prokaryotic Cells==
+[[File:Prokaryote cell.svg|left|300px]]
+The term "prokaryote" comes from the following combining terms:
+
+'''"pro"''', meaning before
+'''"karyote"''', meaning kernel (referring to the nucleus)
+
+Thus, prokaryotes are cells that came before nuclei.  They have no membrane-bound organelles and lack a membrane-bound nucleus.  They are significantly simpler than eukaryotes.
+
+==Nucleoid==
+The nucleoid is the area of the cytoplasm where the single bacterial chromosome is located
+
+==Ribosomes==
+-Consists of RNA Molecules and proteins.
+==Cell Covering==
+
+===Cell Membrane===
+In bacteria, this is also known as the plasma membrane.
+
+===Cell Wall===
+-found in plant cells, fungi, protists, and bacteria. They develop outside the plasma membrane and provide support for the cell.
+===Capsule===
+
+==Inclusion Bodies==
+
+==Cytoplasm==
+
+==Flagella==
+
+==Pili==
+
+==Plasmid==
+
+{{BookCat}}

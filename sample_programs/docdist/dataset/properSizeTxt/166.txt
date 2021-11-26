@@ -1,0 +1,292 @@
+{{userwip|Guide to Unix/BSD/OpenBSD/OpenBSD Installation}}
+
+=== ===
+{{User:CFeyecare/templates/tabs|3}}
+
+=OpenBSD installation=
+OpenBSD has an easy (although non-graphical) installation procedure. 
+
+==Starting Installation==
+ erase ^?, werase ^W, kill ^U, intr ^C, status ^T
+ (I)nstall, (U)pgrade or (S)hell? '''i'''
+ 
+ Welcome to the OpenBSD/i386 4.4 install program.
+ 
+ This program will help you install OpenBSD. At any prompt except password
+ prompts you can escape to a shell by typing '!'. Default answers are shown
+ in []'s and are selected by pressing RETURN.  At any time you can exit this
+ program by pressing Control-C, but exiting during an install can leave your
+ system in an inconsistent state.
+ 
+ Terminal type: [vt220] '''<enter>'''
+ kbd(8) mapping? ('L' for list) [none] '''<enter>'''
+ 
+ IS YOUR DATA BACKED UP? As with anything that modifies disk contents, this
+ program can cause SIGNIFICANT data loss.
+ 
+ It is often helpful to have the installation notes handy. For complex disk
+ configurations, relevant disk hardware manuals and a calculator are useful.
+ 
+ Proceed with install? [no] '''yes'''
+ Cool!  Let's get to it.
+ 
+ You will now initialize the disk(s) that OpenBSD will use. To enable all
+ available security features you should configure the disk(s) to allow the
+ creation of separate filesystems for /, /tmp, /var, /usr, and /home.
+ 
+ Available disks are: wd0.
+ Which one is the root disk? (or done) [wd0] '''<enter>'''
+ Do you want to use *all* of wd0 for OpenBSD? [no] '''yes'''
+ Putting all of wd0 into an active OpenBSD MBR partion (type 'A6')...done.
+ 
+ You will now create an OpenBSD disklabel inside the OpenBSD MBR
+ partition. The disklabel defines how OpenBSD splits up the MBR partition
+ into OpenBSD partitions in which filesystems and swap space are created.
+ 
+ The offsets used in the disklabel are ABSOLUTE, i.e. relative to the
+ start of the disk, NOT the start of the OpenBSD MBR partition.
+ 
+ # Inside MBR partition 3: type A6 start 63 size 80292807
+ 
+ Treating sectors 63-80292870 as the OpenBSD portion of the disk.
+ You can use the 'b' command to change this.
+ 
+==Partitioning==
+ Initial label editor (enter '?' for help at any prompt)
+ > '''p g'''
+ device: /dev/rwd0c
+ type: ESDI
+ disk: ESDI/IDE disk
+ label: Maxtor 2F040L0  
+ bytes/sector: 512
+ sectors/track: 63
+ tracks/cylinder: 16
+ sectors/cylinder: 1008
+ cylinders: 16383
+ total bytes: 38.3G
+ free bytes: 0.2G
+ rpm: 3600
+ 
+ 16 partitions:
+ #             size        offset  fstype [fsize bsize  cpg]
+   a:          5.0G          0.0G  4.2BSD   2048 16384  328 
+   b:          0.2G          5.0G    swap                   
+   c:         38.3G          0.0G  unused      0     0      
+   d:          5.0G          5.2G  4.2BSD   2048 16384  328
+ > '''d *'''
+ > '''a a'''
+ offset: [63] '''<enter>'''
+ size: [80292807] '''10g'''{{fn|1}}
+ Rounding to nearest cylinder: 20971377
+ FS type: [4.2BSD] '''<enter>'''
+ mount point: [none] '''/'''
+ > '''a b'''
+ offset: [20971440] '''<enter>'''
+ size: [59321430] '''1.1g'''{{fn|2}}
+ Rounding to nearest cylinder: 2307312
+ FS type: [swap] '''<enter>'''
+ > '''a d'''
+ offset: [23278752] '''<enter>'''
+ size: [57014118] '''2g'''{{fn|3}}
+ Rounding to nearest cylinder: 4194288
+ FS type: [4.2BSD] '''<enter>'''
+ mount point: [none] '''/tmp'''
+ > '''a e'''
+ offset: [27473040] '''<enter>'''
+ size: [52819830] '''6g'''{{fn|4}}
+ Rounding to nearest cylinder: 12582864
+ FS type: [4.2BSD] '''<enter>'''
+ mount point: [none] '''/var'''
+ > '''a g'''
+ offset: [40055904] '''<enter>'''
+ size: [40236966] '''10g'''{{fn|5}}
+ Rounding to nearest cylinder: 20971440
+ FS type: [4.2BSD] '''<enter>'''  
+ mount point: [none] '''/usr'''
+ > '''a h'''
+ offset: [61027344] '''<enter>'''
+ size: [19265526] '''<enter>'''{{fn|6}}
+ Rounding to nearest cylinder: 18874800
+ FS type: [4.2BSD] '''<enter>'''
+ mount point: [none] '''/home'''
+ > '''w'''
+ > '''q'''
+ No label changes.
+ Mount point for wd0d (size=2097144k)? (or 'none' or 'done') [/tmp] '''<enter>'''
+ Mount point for wd0e (size=6291432k)? (or 'none' or 'done') [/var] '''<enter>'''
+ Mount point for wd0g (size=10485720k)? (or 'none' or 'done') [/usr] '''<enter>'''
+ Mount point for wd0h (size=9437400k)? (or 'none' or 'done') [/home] '''<enter>'''
+ Mount point for wd0d (size=2097144k)? (or 'none' or 'done') [/tmp] '''done'''
+ No more disks to initialize.
+ 
+ OpenBSD filesystems:
+ wd0a /
+ wd0d /tmp
+ wd0e /var
+ wd0g /usr
+ wd0h /home
+ 
+ The next step *DESTROYS* all existing data on these partitions!
+ Are you really sure that you're ready to proceed? [no] '''yes'''
+ 
+ /dev/rwd0a:     20971376 sectors in 20805 cylinders of 16 tracks, 63 sectors
+         10239.9MB in 64 cyl groups (328 c/g, 161.44MB/g, 20608 i/g)
+ /dev/rwd0d:     4194288 sectors in 4161 cylinders of 16 tracks, 63 sectors
+         2048.0MB in 13 cyl groups (328 c/g, 161.44MB/g, 20608 i/g)
+ /dev/rwd0e:     12582864 sectors in 12483 cylinders of 16 tracks, 63 sectors
+         6144.0MB in 39 cyl groups (328 c/g, 161.44MB/g, 20608 i/g)
+ /dev/rwd0g:     20971440 sectors in 20805 cylinders of 16 tracks, 63 sectors
+         10240.0MB in 64 cyl groups (328 c/g, 161.44MB/g, 20608 i/g)
+ /dev/rwd0h:     18874800 sectors in 18725 cylinders of 16 tracks, 63 sectors
+         9216.2MB in 58 cyl groups (328 c/g, 161.44MB/g, 20608 i/g)
+ /dev/wd0a on /mnt type ffs(rw, asynchronous, local, ctime=Wed Nov  1 01:47:50 2006)
+ /dev/wd0h on /mnt/home type ffs
+ (rw, asynchronous, local, nodev, nosuid, ctime=Wed Nov  1 01:47:50 2006)
+ /dev/wd0d on /mnt/tmp type ffs
+ (rw, asynchronous, local, nodev, nosuid, ctime=Wed Nov  1 01:47:50 2006)
+ /dev/wd0g on /mnt/usr type ffs
+ (rw, asynchronous, local, nodev, ctime=Wed Nov  1 01:47:50 2006)
+ /dev/wd0e on /mnt/var type ffs
+ (rw, asynchronous, local, nodev, nosuid, ctime=Wed Nov  1 01:47:50 2006)
+
+==Network Configuration==
+ System hostname (short form, e.g. 'foo'): '''home'''
+ Configure the network? [yes] '''<enter>'''
+ Available interfaces are: fxp0.
+ Which one do you wish to initialize? (or 'done') [fxp0] '''<enter>'''
+ Symbolic (host) name for fxp0? [home] '''<enter>'''
+ The media options for fxp0 are currently
+       media: Ethernet autoselect (100baseTX full-duplex)
+ Do you want to change the media options? [no] '''<enter>'''
+ IPv4 address for fxp0? (or 'none' or 'dhcp') '''192.168.1.7'''{{fn|7}}
+ Netmask? [255.255.255.0] '''<enter>'''
+ IPv6 address for fxp0? (or 'rtsol' or 'none') [none] '''<enter>'''
+ No more interfaces to initilaize.
+ DNS domain name? (e.g. 'bar.com') [my.domain] '''openbsd101'''
+ DNS nameserver? (IP address or 'none') [none] '''<enter your nameserver IP address>'''{{fn|8}}
+ Use the nameserver now? [yes] '''<enter>'''
+ Default IPv4 route? (IP address, 'dhcp' or 'none') '''192.168.1.1'''
+ add net default: gateway '''192.168.1.1'''
+ Edit hosts with ed? [no] '''<enter>''' 
+ Do you want to do any manual network configuration? [no] '''<enter>'''
+ Password for root account? (will not echo) '''<your password>'''
+ Password for root account? (again) '''<your password>'''
+
+==Retrieval of Sets==
+ Let's install the sets!
+ Location of sets? (cd disk ftp http or 'done') [cd] '''cdrom'''
+ Select sets by entering a set name, a file name pattern or 'all'. De-select
+ sets by prepending a '-' to the set name, file name pattern or 'all'. Selected
+ sets are labelled '[X]'.
+ 
+         [X] bsd
+         [X] bsd.rd
+         [ ] bsd.mp
+         [X] base44.tgz
+         [X] etc44.tgz
+         [X] misc44.tgz
+         [X] comp44.tgz
+         [X] man44.tgz
+         [X] game44.tgz
+         [ ] xbase44.tgz
+         [ ] xetc44.tgz
+         [ ] xshare44.tgz
+         [ ] xfont44.tgz
+         [ ] xserv44.tgz
+ Set name? (or 'done') [bsd.mp] '''all'''
+ 
+         [X] bsd
+         [X] bsd.rd
+         [X] bsd.mp
+         [X] base44.tgz
+         [X] etc44.tgz
+         [X] misc44.tgz
+         [X] comp44.tgz
+         [X] man44.tgz
+         [X] game44.tgz
+         [X] xbase44.tgz
+         [X] xetc44.tgz
+         [X] xshare44.tgz
+         [X] xfont44.tgz
+         [X] xserv44.tgz
+ Set name? (or 'done') [done] '''<enter>'''
+ Ready to install sets? [yes] '''<enter>'''
+ Getting bsd ...
+ 100% |**************************************************|  5972 KB    00:26    
+ Getting bsd.rd ...
+ 100% |**************************************************|  4887 KB    00:25    
+ Getting bsd.mp ...
+ 100% |**************************************************|  6020 KB    00:23    
+ Getting base44.tgz ...
+ 100% |**************************************************| 41437 KB    02:39    
+ Getting etc44.tgz ...
+ 100% |**************************************************|  1210 KB    00:08    
+ Getting misc44.tgz ...
+ 100% |**************************************************|  2238 KB    00:14    
+ Getting comp44.tgz ...
+ 100% |**************************************************| 76666 KB    01:36    
+ Getting man44.tgz ...
+ 100% |**************************************************|  7473 KB    00:30    
+ Getting game44.tgz ...
+ 100% |**************************************************|  2548 KB    00:12    
+ Getting xbase44.tgz ...
+ 100% |**************************************************| 10344 KB    00:51    
+ Getting xetc44.tgz ...
+ 100% |**************************************************| 90772 KB    00:03    
+ Getting xshare44.tgz ...
+ 100% |**************************************************|  2024 KB    00:10    
+ Getting xfont44.tgz ...
+ 100% |**************************************************| 32456 KB    02:41    
+ Getting xserv44.tgz ...
+ 100% |**************************************************| 19365 KB    01:26   
+  
+ Location of sets? (cd disk ftp http or 'done') [done] '''<enter>''' 
+ 
+ Start sshd(8) by default? [yes] '''<enter>'''
+ NTP server? (or 'none' or 'default') [none] '''default'''
+ Do you expect to run the X Window System? [no] '''yes'''
+ Change the default console to com0? [no] '''<enter>'''
+ Saving configuration files...done.
+ Generating initial host.random file...done.
+ What timezone are you in? ('?' for list) [Canada/Mountain] '''<your time zone>/<your subtime zone>'''
+ Setting local timezone to '<your time zone>/<your subtime zone>'...done.
+ Making all device nodes...done.
+ Installing boot block...
+ boot: /mnt/boot
+ proto: /usr/mdec/biosboot
+ device: /dev/rwd0c
+ /usr/mdec/biosboot: entry point 0
+ proto bootblock size 512
+ /mnt/boot is 3 blocks x 16384 bytes
+ fs block shift 2; part offset 63; inode block 24, offset 1704
+ using MBR partition 3: type 166 (0xa6) offset 63 (0x3f)
+ done.
+
+==Done==
+ CONGRATULATIONS! Your OpenBSD install has been successfully completed!
+ To boot the new system, enter halt at the command prompt. Once the
+ system has halted, reset the machine and boot from the disk.
+ # '''reboot'''
+ syncing disks... done
+ 
+ The operating system has halted.
+ Please press any key to reboot.
+
+==Notes==
+
+{{fnb|1}}This controls how much memory is in the root partition. I would not recomend using 10g as the example used. 5g would be plenty.<br>
+{{fnb|2}}This controls how much memory the swap partition has.<br>
+{{fnb|3}}This controls how much memory the tmp partition has.<br>
+{{fnb|4}}This controls how much memory the var partition has.<br>
+{{fnb|5}}This controls how much memory the usr partition has. The usr partition is where you store all of your program. Vary the size depending on how many applications you want. 10g is good for a workstation. 3g is enough for a server.<br>
+{{fnb|6}}This controls how much memory the home partition has. <br>
+{{fnb|7}}If you want to use OpenBSD as a desktop or a workstation, you may want to use dhcp.<br>
+{{fnb|8}}Usually you will use your router as a DNS server (192.168.1.1).<br>
+
+==Authors==
+
+:The authors of this article: [http://www.openbsd101.com/installation.html OpenBSD 101]
+:[[User:CFeyecare|CFeyecare]]- started page.
+
+==References==
+*"OpenBSD 101." OpenBSD101. 9 Nov. 2008 <http://www.openbsd101.com/installation.html>.

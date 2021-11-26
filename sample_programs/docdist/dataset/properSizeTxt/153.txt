@@ -1,0 +1,62 @@
+This is a critique of the research article: Goldfield Gary S, Kenny Glen P, Hadjiyannakis Stasia, Phillips Penny, Alberga Angela S, Saunders Travis J, Tremblay Mark S. Malcolm Janine, Prud’homme Denis, Gougeon Rejeanne, Sigal Ronald J, (2011), [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026643 Video game playing Is independently associated with blood pressure and lipids in overweight and obese adolescents]<ref>Goldfield Gary S, Kenny Glen P, Hadjiyannakis Stasia, Phillips Penny, Alberga Angela S, Saunders Travis J, Tremblay Mark S. Malcolm Janine, Prud’homme Denis, Gougeon Rejeanne, Sigal Ronald J Video game playing Is independently associated with blood pressure and lipids in overweight and obese adolescents, 2011; PLoS ONE, 6 (11).</ref>
+
+This critique was undertaken as an assignment for the unit Health, Disease, and Exercise (8340) at the University of Canberra, during Semester 2 of 2020
+'''
+== What is the background to this research? ==
+
+Overweight and obesity have been increasing rapidly over the last three decades and has now reached epidemic proportions worldwide. As many as 32% of adolescents are estimated to be overweight or obese. [1] <ref>Kelly Rebecca K, Magnussen Costan G, Sabin Matthew A, Cheung Michael, Juonala Markus, Development of hypertension in overweight adolescents: a review, Adolescent Health, Medicine and Therapeutics, 2015; 6; 171-187;Guy Stacey, Ratzki-Leewing Alexandria, Gwadry-Sridhar Femida, Moving beyond the stigma: systematic review of video games and their potential to combat obesity, International Journal of Hypertension, 2011.</ref> Increased Body Mass Index (BMI) is strongly associated with morbidity and mortality in adults. More concerning, is that adolescent inactivity and overweight tends to carry forward into adulthood, increasing health risks.[1,2] Adolescent overweight has been linked to a number of comorbidities including diabetes mellitus type2; obstructive sleep apnea; non-alcoholic steatohepatitis (fatty liver disease); psychological disorders; metabolic syndrome; dyslipidemia (abnormally elevated cholesterol or fats (lipids) in the blood); and hypertension (high blood pressure) [2].<ref>Guy Stacey, Ratzki-Leewing Alexandria, Gwadry-Sridhar Femida, Moving beyond the stigma: systematic review of video games and their potential to combat obesity, International Journal of Hypertension, 2011</ref> Online gaming is now global a multi-billion dollar industry with an estimated 1.5billion people participating worldwide.<ref>Jones Katie, Online gaming: the rise of a multi-billion dollar industry, Visual Capitalist, 2020, https://www.visualcapitalist.com/online-gaming-the-rise-of-a-multi-billion-dollar-industry/,</ref> The rise of video gaming seems to coincide with the rise in obesity levels.<ref>Calvert Sandra L, Staiano Amanda E, Bond Bradley J, Electronic gaming and the obesity crisis, New Directions for Child and Adolescent Development, 2013; 139: 51-57.</ref> The relationship between screen media exposure and obesity has been widely studied since the mid- 1980s. Observational and epidemiologic studies have recorded mixed findings on whether screen time is linked to obesity and associated health issues. But general opinion supports reducing screen time and promoting physical activity.<ref>Australian Department of Health, Australia's Physical Activity and Sedentary Behaviour Guidelines and the Australian 24-Hour Movement Guidelines, 2020</ref><ref>Robinson Thomas N, Banda Jorge A, Hale Lauren, Shirong Lu Amy, Fleming-Milici Frances, Calvert Sandra L, Wartella Ellen, Screen media exposure and obesity in children and adolescents, Pediatrics, 2017, 140 (Supplement 2)</ref>
+
+== Where is the research from? ==
+This research was conducted in Ontario Canada and published in PLoS One in 2011 as an open-access article distributed under the terms of  a Creative Commons Attribution Licence. The researchers identified their objective as examining ‘the association between duration and type of screen time and blood pressure and lipids in overweight and obese adolescents’.
+
+== What kind of research was this? ==
+The researchers conducted a cross-sectional study of overweight or obese adolescents using a small sample of participants from a range of ethnic groups voluntarily recruited from within the local Ontario population. Each participant undertook a range of medical assessments and completed diaries to record various activities and food intake. The researchers then applied statistical methods, including multiple linear regression, to analyse the data gathered and identify correlations between various sedentary behaviours, physical activity and blood pressure and lipids. This mix of quantitative and qualitative methods to gather data allowed the researchers to consider and manage a range of inter-related variables
+
+== What did the research involve? ==
+
+A total of 282 overweight and obese adolescents aged between 14 and 18 years (86 male and 196 female) were selected for a diet and exercise trial. All participants had to be either obese (≥ 95 BMI) or overweight (85th to 94th BMI percentile for age and sex) based on cut off values determined by the US Centers for Disease Control. Participants who were overweight had to have at least one comorbid cardiovascular disease or diabetes risk factor, including family history, to be included. All participants had passed through puberty or were well advanced in their development. Consent to join this study was obtained from either the participants or their parents. Participants were asked to self-report time spent each day watching television, playing seated video games and recreational computer use via a questionnaire. They also completed a Likert-type rating scale for the amount of physical activity undertaken each day. Duration and intensity of physical activity were used as covariates for statistical analysis. Lipid levels were tested from overnight-fasting blood samples to assess cholesterol/HDL-C ratios. Blood pressure was measured manually using a  mercury sphygmomanometer. Three blood pressure readings were taken for each participant with the mean of the final two measurements being used for analysis. Covariates of weight, height and socio-economic status (using parental education as a proxy) were measured. Dietary intake was recorded using 3-day, 24 hour food diaries under the supervision of a registered dietician.
+
+Table 1. Describes the characteristics of the participants in the sample.
+
+[[File:Table 1. Descriptive characteristics of the sample.png|thumb|Table 1. Descriptive characteristics of the sample]]
+
+== What were the basic results? ==
+This study found that seated video gaming was the only sedentary behaviour undertaken by the participants that was associated with elevated blood pressure and elevated lipids both before and after adjustment for a range of variables including age, sex, pubertal stage, parental education (socio-economic background), BMI, overall calorie intake, calorie intake for fats, and duration and intensity of physical activity.
+
+Table 2. Shows the correlations between various sedentary behaviours, physical activity and blood pressure and lipids amongst participants in the sample.
+ 
+[[File:Table 2. Correlations between various sedentary behaviours, physical activity and blood pressure and lipids.png|thumb|Table 2. Correlations between various sedentary behaviours, physical activity and blood pressure and lipids]]
+
+Table 3. Shows the independent associations of various sedentary behaviours, physical activity intensity and blood pressure and lipids for participants in the sample.
+
+[[File:Table 3. Independent associations of various sedentary behaviours, physical activity intensity and blood pressure and lipids.png|thumb|Table 3. Independent associations of various sedentary behaviours, physical activity intensity and blood pressure and lipids]]
+
+== What conclusions can we take from this research? ==
+These findings are consistent with other research about the association between obesity, engaging in sedentary activity and hypertension. Connections to raised lipid levels have been studied much less.<ref>Mazin Caryn, Etter Marci, Do video games affect blood pressure? JAMA, 1984: 252 (5); 626</ref><ref>Turel O, Romashkin A, Morrison K M, A model linking video gaming, sleep quality, sweet drinks consumption and obesity among children and youth, Clinical Obesity, 2017</ref> Another US study using a ‘nationally representative sample’, also published in 2011, also found a link between screen time and cardiometabolic risk factors including hypertension, elevated cholesterol levels, insulin resistance, elevated inflammation and metabolic syndrome. [7] Much of the other research appears to have been undertaken after this study and consistently reiterates:
+•	The prevalence of hypertension is rising in parallel with global increases in the prevalence of overweight and obesity.<ref>Wuhl Elke, Hypertension in childhood obesity, Acta Paedatrica, 2018; Vol 108 (1)</ref>
+•	A close correlation between BMI and raised blood pressure in adolescents. [10]
+•	Sedentary behaviours such a playing video games increasing risk of obesity and to also increase level of blood pressure. [2]  
+Other research has also suggested that the distraction caused by playing video games weakens the ability to interpret and process visceral sensations leading to overeating by gamers.<ref>Siervo M, Sabatini S, Fewtrell M S, Wells J C, Acute effects of violent video-game playing on blood pressure and appetite perception in normal-weight young men: a randomized controlled trial, European Journal of Clinical Nutrition, 2013; 67: 1322-1324</ref> Some  research now suggests that adolescents can also develop life-threatening thromboembolic events in a setting of obesity, sedentary lifestyle and/or immobilisation and prolonged video game use.<ref>Korhorst, Mira A, Warad Deepti M, Nageswara Rao Amulya A, Rodriguez Vilmarie, Obesity, sedentsry lifestyle and video games: the new thrombophilia cocktail in adolescents, Pediatric Blood and Cancer 2018; Vol 65 (7)</ref> Whether playing video games alone is the source of raised blood pressure or lipids in adolescents is now a moot point as mounting evidence points to many health-related concerns of sedentary behaviour – including video gaming.
+
+== Practical advice ==
+Video games are now an inescapable part of our lives. Lifestyle modification is considered a cornerstone for the treatment of obesity and related conditions such as hypertension or dyslipidaemia. Limiting screen time – including video gaming, and increasing physical activity (at least 60 minutes of moderate to vigorous activity on at least three days per week) are generally recognised as suitable strategies to manage weight and associated health risks. [6,10] Interestingly, some researchers are now even suggesting that video games can actually help to fight obesity by improving knowledge about nutrition, eating habits and exercise and by offering games to improve physical activity, but it is unclear whether this really helps with weight management.<ref>Mack Isabelle, Bayer Carolin, Schffleler Norbert, Reiband Nadine, Brolz Ellen, Zurstiege Guido, Fernandez-Aranda Fernando, Gawrilow Caterina, Zipfel Stephan, Chances and limitations of video games in the fight against childhood obesity-a systematic review, European Eating Disorders, 2017; Vol 25 (4)</ref>
+
+== Further information/resources ==
+[https://www.esafety.gov.au/parents/big-issues/gaming Online gaming / eSafety Commissioner]
+
+[https://childmind.org/article/healthy-limits-on-video-games Healthy Limits on Video Games]
+
+[https://childdevelopmentinfo.com/family-living/kids-media-safety/video%20games%20and%20children/video-games-safety/ Video Game Safety Guidelines for Parents]
+
+[https://www.positiveparenting.com/setting-limits-on-video-games/ Setting Limits on Video Games]
+
+[https://kidshealth.org/en/parents/good-gaming.html Can Playing Video Games be Good for Kids?]
+
+[https://www1.health.gov.au/internet/main/publishing.nsf/Content/health-pubhlth-strateg-phys-act-guidelines Australia's Physical Activity and Sedentary Behaviour Guidelines]
+
+[https://bjsm.bmj.com/content/45/11/866.short Physical Activity and Obesity in Children]
+
+== References ==
+{{Reflist}}
+
+{{BookCat}}

@@ -1,0 +1,60 @@
+{{dewikify}}
+John William Gofman (September 21, 1918 - August 15, 2007) was an American scientist and advocate. He was Professor Emeritus of Molecular and Cell Biology at [[University of California at Berkeley]]. Some of his early work was on the [[Manhattan Project]], and he shares patents on the fissionability of [[uranium-233]] as well as on early processes for separating [[plutonium]] from fission products. Dr. Gofman later worked in medicine and led the team that discovered and characterized [[lipoprotein]]s in the causation of [[heart disease]]. In 1963, he established the Biomedical Research Division for the [[Livermore National Laboratory]], where he was on the cutting edge of research into the connection between [[chromosomal abnormalities]] and cancer.
+
+Later in life, he took on a role as an advocate warning of dangers involved with nuclear power (see [[Nuclear power debate]]). From 1971 onward, he was the Chairman of the [[Committee for Nuclear Responsibility]]. He also described himself a libertarian and spoke at several events sponsored by the [[Students for a Libertarian Society]] in 1979 and 1980.  He was awarded the [[Right Livelihood Award]] for his work on the effects of the [[Chernobyl disaster]]'s low-level radiation exposure on the population.<ref>[http://www.ratical.org/radiation/CNR/CNR.html Mission Statement of the Committee for Nuclear Responsibility]</ref> John Gofman died of heart failure on August 15, 2007 in his home in San Francisco.
+
+==Early work==
+John Gofman was born in [[Cleveland, Ohio]]. He graduated from [[Oberlin College]] with a bachelor's in 1939, and received a doctorate in nuclear and physical chemistry from [[University of California at Berkeley|Berkeley]] in 1943. In his work as a graduate student, he studied nuclear isotopes and helped to describe several discoveries, including [[protactinium]]-232, [[uranium-232]], protactinium-233, and [[uranium-233]]. He also helped to work out the fissionability of uranium-233. He later became the group co-leader of the Plutonium Project, an offshoot of the [[Manhattan Project]].<ref name="nytimes">[http://www.nytimes.com/2007/08/26/us/26gofman.html Obituary: John W. Gofman, 88, Scientist and Advocate for Nuclear Safety Dies] ''New York Times'', August 26, 2007.</ref>
+
+Dr. Gofman earned his medical degree from the [[University of California, San Francisco]], in 1946. After that, he and his collaborators investigated the body’s [[lipoprotein]]s, which contain both [[protein]]s and [[fat]]s, and their circulation within the bloodstream. The researchers described low-density and high-density lipoproteins and their roles in metabolic disorders and coronary disease. This work continued throughout the late 1940s and early 1950s.<ref name="nytimes" />
+
+==At Livermore==
+Dr. Gofman established the Biomedical Research Division for the [[Lawrence Livermore National Laboratory]] in 1963. In 1964, he raised questions about a lack of data on low-level radiation and also proposed a wide-ranging study of exposure in medicine and the workplace at a symposium for nuclear scientists and engineers. This helped start a national inquiry into the safety of atomic power. With his colleague Dr. [[Arthur R. Tamplin]], Dr. Gofman then looked at health studies of the survivors of Hiroshima and Nagasaki, as well as other epidemiological studies, and conducted research on radiation’s influences on human chromosomes. The two scientists suggested that federal safety guidelines for low-level exposures be reduced by 90 percent in 1969. The [[United States Atomic Energy Commission|Atomic Energy Commission]] contested the findings, and "the furor made Dr. Gofman a reluctant figurehead of the [[Anti-nuclear movement in the United States|anti-nuclear movement]]" according to ''The New York Times''.<ref name="nytimes" />  In 1970, he testified in favor of a bill to ban commercial nuclear reactors in New York City and told the City Council that a reactor in an urban environment would be "equal in the opposite direction to all the medical advances put together in the last 25 years."<ref name="nytimes" />
+
+==Opposition to nuclear power ==
+Gofman retired as a teaching professor in 1973 and became a professor emeritus of molecular and cell biology.
+
+Gofman testified on the behalf of [[Montague Nuclear Power Plant|Samuel Lovejoy]] at Lovejoy's 1974 trial. Lovejoy was charged with malicious destruction of property for toppling a weather tower in [[Montague, Massachusetts]], owned by [[Northeast Utilities]]. Lovejoy's actions were an act of protest against a proposed [[nuclear power plant]] to be built on Montague Plains. Lovejoy was inspired by Gofman's book, ''Poisoned Power''.
+
+After the 1979 [[Three Mile Island accident]], Gofman used his model of the effects of low-level radiation to predict 333 deaths {{Citation needed|date=April 2010}} from the accident; to date no deaths have been officially attributed to the accident.{{Citation needed|date=April 2010}} After the April 26, 1986 [[Chernobyl disaster]], he predicted one million malignancies from the fallout, half of which would be fatal. {{Citation needed|date=April 2010}} According to the United Nations, the official death toll to date {{Which?|date=April 2010}} is 56, of which nine were children who died of [[thyroid cancer]] (although many animals died from that cause), as well as 4,000 eventual extra cancer deaths.{{Citation needed|date=April 2010}}  [[Greenpeace]] and others disputes the U.N. fatality number. Amory Lovins, in a [[Huffington Post]] [[op-ed]], claims support for his skeptical views on such estimates from a book translated from Russian and reprinted by the New York Academy of Sciences,<ref>[http://www.nyas.org/Publications/Annals/Detail.aspx?cid=f3f3bd16-51ba-4d7b-a086-753f44b3bfc1 Chernobyl: Consequences of the Catastrophe for People and the Environment"]</ref> which he says cited 
+:5,000 mainly Slavic-language scientific papers the IAEA overlooked. It found deaths approaching a million through 2004, nearly 170,000 of them in North America. The total toll now exceeds a million, plus a half-trillion dollars' economic damage.<ref>http://www.huffingtonpost.com/amory-lovins/nuclear-power-fukushima-_b_837643.html</ref>
+
+After a speech Gofman gave on [[nuclear waste]] at a national conference of activists in the summer of 1990, Charles Butler approached him for help. Butler was a retired physicist living in the [[Mojave Desert]] town of [[Needles, California]], and was looking for help to stop the proposed low-level nuclear waste facility at [[Ward Valley, California]]. Gofman referred him to the [[Abalone Alliance]] Clearinghouse in San Francisco. With less than two weeks before the closure of the [[Environmental Impact Statement]], the Alliance was able to mount a letter writing campaign that helped delay the EIS for an additional 90 days. This initial delay gave activists the time to form Don't Waste California and build a grassroots campaign that eventually stopped Ward Valley from opening.
+
+Gofman also did work on the [[Diablo Canyon Power Plant]].
+
+==Legacy==
+Gofman promoted a [[linear no-threshold model]] for the dangers of radiation, suggesting that even small doses over time could prove harmful.  His 1981 book ''Radiation and Human Health'' expounded on this and gave prediction tables for how much average life expectancy might be affected by radiation.
+<!--
+Excerpts from an obituary tribute by Dr. Kathleen Burns on the Energy Justice website at http://mail.energyjustice.net/pipermail/nukenet_energyjustice.net/2007-August/002217.html){{Cleanup-section|date=August 2007}}
+
+John Gofman was one of the first scientists who offered a clear path to documenting the long-term harm done by radiation using cancer epidemiology. His approach to taking current real-world data on what was happening in communities of radiation-exposed people and projecting likely cancers in the future was a major leap forward. It made it possible to understand that the likely consequences of low level radiation were much greater than previously described. He understood that cancer develops in different people at different ages, and so constructed tables to "predict" the long-term consequences of exposing large populations to radiation. His 1981 book ''Radiation and Human Health'', described this and many other things that are still very relevant to our struggles for public health protection today.
+
+For those people who also work on chemical hazards and protection of children's health, his 1981 book was one of the first that contained a concept we are finding to be extremely important in chemicals management for public health protection. His study of radiation-induced cancer showed that low dose exposures could do greater damage per unit of dose than high dose exposures (a supralinear dynamic illustrated in "Radiation and Human Health" by Gofman, as listed below)).{{Fact|date=August 2007}}  At a time when accepted truths about radiation were derived from high dose Hiroshima and Nagasaki effects, this was a leap forward in thinking about radiation and understanding the hazards of low doses of ionizing radiation. It has only been in the last 5 years that studies have been published on this same dynamic for some chemical hazards, for example lead and mercury induced cognitive damage in children (Axelrad et al., 2007 at www.ehponline.org/members/2007/9303/9303.pdf Free full text online). The implications for national public health policies are substantial - for at least some chemicals, our water, food, air, and soil standards that rely on old ways of thinking may not be sufficient.{{Fact|date=August 2007}}
+-->
+==Bibliography==
+
+* ''[http://www.ratical.org/radiation/CNR/PP/ Poisoned Power, The Case Against Nuclear Power Plants Before and After Three Mile Island]'' (with Arthur R. Tamplin, Ph.D.), 1971, 1979
+* ''Irrevy: an irreverent, illustrated view of nuclear power,'' 1979
+* ''Radiation And Human Health,'' 908 pages, 1981
+* ''X-Rays: Health Effects of Common Exams'' (with Egan O'Connor), 439 pages, 1985
+* ''[http://www.ratical.org/radiation/CNR/RIC/ Radiation-Induced Cancer From Low-Dose Exposure: An Independent Analysis]'' 480 pages, 1990
+* ''Chernobyl Accident: Radiation Consequences for This and Future Generations,'' 574 pages, 1994
+* ''[http://www.ratical.org/radiation/CNR/PBC/ Preventing Breast Cancer: The Story of a Major, Proven, Preventable Cause of this Disease]'' 1996
+* ''[http://www.ratical.org/radiation/CNR/RMP/ Radiation from Medical Procedures in the Pathogenesis of Cancer and Ischemic Heart Disease: Dose-Response Studies with Physicians per 100,000 Population]'' 1999
+
+==Awards==
+
+* Gold-Headed Cane Award, University of California Medical School, 1946, presented to the graduating senior who most fully personifies the qualities of a "true physician."
+* Modern Medicine Award, 1954, for outstanding contributions to heart disease research.
+* The Lyman Duff Lectureship Award of the American Heart Association in 1965, for research in atherosclerosis and coronary heart disease; lecture published in 1966 as "Ischemic Heart Disease, Atherosclerosis, and Longevity," in Circulation 34: 679-697.
+* The Stouffer Prize (shared) 1972, for outstanding contributions to research in arterioslerosis.
+* American College of Cardiology, 1974; selection as one of twenty-five leading researchers in cardiology of the past quarter-century.
+* University of California, Berkeley, Bancroft Library, 1988; announcement of the "Gofman Papers" established in the History of Science and Technology Special Collection (October 1988, Bancroftiana, No. 97: 10-11). 
+* Right livelihood Award, 1992
+* Honored Speaker for the Meeting of the Arteriosclerosis Section of the American Heart Association, 1993
+
+==References==
+{{Reflist}}
+
+{{BookCat}}

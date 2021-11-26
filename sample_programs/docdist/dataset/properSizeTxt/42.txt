@@ -1,0 +1,115 @@
+This is a book about the legal ''processes'' involved in claiming refugee status in Canada, focusing particularly on the Refugee Protection Division Rules of the Immigration and Refugee Board of Canada. Tens of thousands of people file a claim for refugee protection in Canada every year. The ensuing process that they navigate is governed by the set of laws described herein.
+
+{{Print version|Canadian Refugee Procedure/print version}}
+
+==Preliminary==
+* [[Canadian Refugee Procedure/About this text|About this text]]
+* [[Canadian Refugee Procedure/Glossary|Glossary, Acronyms, Terms, and Definitions]]
+* [[Canadian Refugee Procedure/This history of refugee procedure in Canada|History of refugee procedure in Canada]]
+
+== Procedural Fairness and Natural Justice ==
+*[[Canadian Refugee Procedure/Principles_for_the_interpretation_of_refugee_procedure|Principles for the interpretation of refugee procedure]]
+*[[Canadian Refugee Procedure/The Board's inquisitorial mandate|The Board's inquisitorial mandate]]
+*[[Canadian Refugee Procedure/The right to a hearing and the right to be heard|The right to be heard and the right to a fair hearing]]
+*[[Canadian Refugee Procedure/The right to an unbiased decision-maker|The right to an unbiased decision-maker]]
+*[[Canadian Refugee Procedure/The right to an independent decision-maker|The right to an independent decision-maker]]
+*[[Canadian Refugee Procedure/Decorum|Appropriate decorum and propriety at a refugee hearing]]
+
+== Annotated Refugee Protection Division Rules ==
+*[[Canadian Refugee Procedure/Interpretation|Interpretation and Definitions (Rule 1)]]
+* [[Canadian Refugee Procedure/Communicating with the Division|Communicating with the Division (Rule 2)]]
+* [[Canadian Refugee Procedure/Information and Documents to be Provided|Information and Documents to be Provided (Rules 3-13)]]. This section discusses the process for initially scheduling a hearing, the conduct of a hearing, the order of proceedings, and the information to be provided in advance of a hearing.
+**[[Canadian Refugee Procedure/Information and Documents to be Provided#Rule%207%20-%20Providing%20BOC%20Form|Rule 7 - How to provide the BOC form and what documents are to be provided with it]]
+**[[Canadian Refugee Procedure/Information and Documents to be Provided#Rule 8 - Application for an extension of time to provide BOC|Rule 8 - Application for an extension of time to provide BOC form]]
+**[[Canadian Refugee Procedure/Information and Documents to be Provided#Rule_10_-_Order_of_questioning_in_hearings,_oral_representations,_oral_decisions,_limiting_questioning|Rule 10 - Order of questioning and requirement to provide oral representations and decisions]]
+**[[Canadian Refugee Procedure/Information and Documents to be Provided#Rule_11_-_Documents_Establishing_Identity_and_Other_Elements_of_the_Claim|Rule 11 - Documents Establishing Identity and Other Elements of the Claim]]
+* [[Canadian Refugee Procedure/Counsel of Record|Counsel of Record (Rules 14-16)]]. This section discusses the process to appoint and remove counsel and the way that deficiencies in counsel's conduct are attributed to their client.
+* [[Canadian Refugee Procedure/Language of Proceedings|Language of Proceedings  (Rules 17-18)]]
+* [[Canadian Refugee Procedure/Interpreters|Interpreters (Rule 19)]]
+* [[Canadian Refugee Procedure/Designated Representatives|Designated Representatives (Rule 20)]]
+* [[Canadian Refugee Procedure/Disclosure of Personal Information|Disclosure of Personal Information (Rule 21)]]
+* [[Canadian Refugee Procedure/Specialized Knowledge|Specialized Knowledge (Rule 22)]]
+* [[Canadian Refugee Procedure/Allowing a Claim Without a Hearing|Allowing a Claim Without a Hearing (Rule 23)]]. This section discusses the Board's File-Review Process (FRP). 
+* [[Canadian Refugee Procedure/Conferences|Conferences (Rule 24)]]
+* [[Canadian Refugee Procedure/Notice to Appear|Notice to Appear (Rule 25)]]
+* [[Canadian Refugee Procedure/Exclusion, Integrity Issues, Inadmissibility and Ineligibility|Exclusion, Integrity Issues, Inadmissibility and Ineligibility (Rules 26-28)]]
+* [[Canadian Refugee Procedure/Intervention by the Minister|Intervention by the Minister (Rule 29)]]
+* [[Canadian Refugee Procedure/Claimant or Protected Person in Custody|Claimant or Protected Person in Custody (Rule 30)]]. The rules regarding the presence of those who have been detained (detention).
+* [[Canadian Refugee Procedure/Documents|Documents (Rules 31-43)]]
+**[[Canadian Refugee Procedure/Documents#Rule 31 - How to provide documents|Rule 31 - How to provide documents]]. Concerns the format of, numbering of, and creation of lists of documents.
+**[[Canadian Refugee Procedure/Documents#Rule%2032%20-%20Language%20of%20Documents|Rule 32 - Language of Documents]]
+**[[Canadian Refugee Procedure/Documents#Rule%2034%20-%20Obligation%2C%20process%2C%20and%20timeline%20for%20a%20party%20to%20disclose%20documents%20they%20want%20to%20use%20in%20a%20hearing|Rule 34 - Obligation, process, and timeline for a party to disclose documents they want to use in a hearing]]
+**[[Canadian Refugee Procedure/Documents#Rule%2035%20-%20Documents%20relevant%20and%20not%20duplicate|Rule 35 - Documents relevant and not duplicate (incl. voluminous disclosure)]]
+**[[Canadian Refugee Procedure/Documents#Rule%2036%20-%20Use%20of%20undisclosed%20documents|Rule 36 - Use of undisclosed or late documents]]
+**[[Canadian Refugee Procedure/Documents#Rule_43_-_Additional_documents_provided_as_evidence_after_a_hearing|Rule 43 - Additional documents provided after a hearing]]
+* [[Canadian Refugee Procedure/Witnesses|Witnesses (Rules 44-48)]]
+**[[Canadian Refugee Procedure/Witnesses#Rules%2044%20-%20Witness%20notification|Rule 44 - Witness notification]]
+**[[Canadian Refugee Procedure/Witnesses#Rule%2045(1)%20-%20Requesting%20summons|Rule 45(1) - Requesting a summons]]
+* [[Canadian Refugee Procedure/Applications|Applications (Rules 49-52)]]
+**[[Canadian Refugee Procedure/Applications#Rule_51_-_How_to_Respond_to_a_Written_Application|Rule 51 - Timelines and process for responding to a written application]]
+**[[Canadian Refugee Procedure/Applications#Rule_52_-_How_to_Reply_to_a_Written_Response|Rule 52 - Timelines and process for replying to a response to a written application]]
+* [[Canadian Refugee Procedure/Changing the Location of a Proceeding|Changing the Location of a Proceeding (Rule 53)]]
+* [[Canadian Refugee Procedure/Changing the Date or Time of a Proceeding|Changing the Date or Time of a Proceeding (Rule 54)]]
+* [[Canadian Refugee Procedure/Joining or Separating Claims or Applications|Joining or Separating Claims or Applications (Rules 55-56)]]
+* [[Canadian Refugee Procedure/Proceedings Conducted in Public|Proceedings Conducted in Public (Rule 57)]]
+* [[Canadian Refugee Procedure/Observers|Observers (Rule 58)]]
+* [[Canadian Refugee Procedure/Withdrawal|Withdrawal (Rule 59)]]
+* [[Canadian Refugee Procedure/Reinstating a Withdrawn Claim or Application|Reinstating a Withdrawn Claim or Application (Rules 60-61)]]
+* [[Canadian Refugee Procedure/Reopening a Claim or Application|Reopening a Claim or Application (Rules 62-63)]]
+* [[Canadian Refugee Procedure/Applications to Vacate or to Cease Refugee Protection|Applications to Vacate or to Cease Refugee Protection (Rule 64)]]
+* [[Canadian Refugee Procedure/Abandonment|Abandonment (Rule 65)]]
+* [[Canadian Refugee Procedure/Notice of Constitutional Question|Notice of Constitutional Question (Rule 66)]]
+* [[Canadian Refugee Procedure/Decisions|Decisions (Rules 67-68)]]. Discusses rules for panels of a single member and three-member panels. 
+** [[Canadian Refugee Procedure/Decisions#Rule_67_-_Requirement_for_a_Notice_of_Decision_and_when_written_reasons_must_be_provided|Rule 67 - Obligation to provide written reasons]]
+** [[Canadian Refugee Procedure/Decisions#Rule_68(1)_-_When_a_decision_of_a_single_member_panel_takes_effect|Rule 68 - When a decision takes effect for single-member and three-member panels]]
+* [[Canadian Refugee Procedure/General Provisions|General Provisions (Rules 69-71)]]. These provisions govern what the Refugee Protection Division should do when there is no applicable rule to govern a matter, the process by which the Division may deviate from these rules, and the import of failing to follow the rules. 
+* [[Canadian Refugee Procedure/Coming into Force|Coming into Force (Rule 74)]]
+* [[Canadian Refugee Procedure/Schedules|Schedules]]
+
+== Annotated Immigration and Refugee Protection Regulations (IRPR) Provisions ==
+* Section 13: [[Canadian Refugee Procedure/Regulations|Regulations Regarding Documents and Certified Copies]]
+* Section 13.11: [[Canadian Refugee Procedure/Disclosure Regulation|Regulations Regarding Disclosure of Personal Information]]
+* Section 315.21, et al.: [[Canadian Refugee Procedure/Information Sharing|Regulations Regarding Information Sharing Between Countries]]
+* Section 159-159.7: [[Canadian Refugee Procedure/Safe Third Countries|Regulations Regarding Eligibility to Claim and Safe Third Countries]]
+* Section 159.8: [[Canadian Refugee Procedure/Time Limit for Providing Documents|Regulations Regarding Time Limits for Providing Documents]]
+*Section 159.9: [[Canadian Refugee Procedure/Timelines|Regulations Regarding Time Limits for Holding Hearings]]
+
+==Annotated Immigration and Refugee Protection Act (IRPA) Provisions==
+* [[Canadian Refugee Procedure/Provisions of the IRPA concerning refugees|Summary of provisions of the IRPA concerning refugees]]
+*Sections 2-3: [[Canadian Refugee Procedure/Objectives and application of the IRPA|Definitions, objectives, and application of the IRPA]]
+*Sections 4-6: [[Canadian Refugee Procedure/4-6 - Enabling Authority|Enabling Authority]]
+*Provisions about Convention Refugees and Persons in Need of Protection:
+**Section 99: [[Canadian Refugee Procedure/99 - Claim for Refugee Protection|Claim for Refugee Protection]]. Where and how to make a claim for protection inside and outside of Canada.
+**Sections 100-102: [[Canadian Refugee Procedure/100-102 - Examination of Eligibility to Refer Claim|Examination of Eligibility to Refer Claim]]
+**Section 106: [[Canadian Refugee Procedure/106 - Claimant Without Identification - Credibility|Claimant Without Identification - Credibility]]
+**Section 108: [[Canadian Refugee Procedure/108 - Cessation of Refugee Protection|Cessation of Refugee Protection]]
+**Section 109: [[Canadian Refugee Procedure/109 - Applications to Vacate|Applications to Vacate]]
+*Provisions applicable to all Divisions:
+**Section 154: [[Canadian Refugee Procedure/154 - Disposition after member ceases to hold office|Disposition after member ceases to hold office]]
+**Section 155: [[Canadian Refugee Procedure/155 - Disposition if member unable to take part|Disposition if member unable to take part]]
+**Section 156: [[Canadian Refugee Procedure/156 - Immunity and no summons|Immunity and no summons]]
+**Section 159: [[Canadian Refugee Procedure/Duties of Chairperson|Duties of Chairperson]]
+**Section 161: [[Canadian Refugee Procedure/161 - Functioning of Board and Division Rules|Functioning of Board and Division Rules]]
+**Section 162: [[Canadian Refugee Procedure/IRPA|The jurisdiction of the Board and its obligation to proceed quickly and informally]]
+**Section 163: [[Canadian Refugee Procedure/Composition of Panels|Composition of Panels]]. When panels have one or three members.
+**Section 164: [[Canadian Refugee Procedure/Presence of parties and use of telecommunications for hearings|Presence of parties and use of telecommunications for hearings]]
+**Section 165: [[Canadian Refugee Procedure/Powers of a Member|Powers of each Division and each Member]]. This describes the powers of the Divisions and the Board Members, including those provided by the Inquiries Act.
+**Section 166: [[Canadian Refugee Procedure/Proceedings must be held in the absence of the public|Proceedings must be held in the absence of the public]]. Provisions of the Act and privacy and confidentiality of RPD proceedings.
+**Section 167: [[Canadian Refugee Procedure/Section 167 IRPA: Right to counsel and representation by a designated representative.|Right to counsel and representation by a designated representative]]
+**Section 169: [[Canadian Refugee Procedure/Decisions and Reasons|Decisions and Reasons]]. When the Board must provide written reasons
+
+*Provisions specific to the Refugee Protection Division:
+**Section 169.1: [[Canadian Refugee Procedure/IRPA Section 169.1 - Composition|Composition]].
+**Section 170: [[Canadian Refugee Procedure/IRPA Section 170 - Proceedings|Proceedings]]. How the RPD is to approach proceedings before it, including with respect to evidence, holding hearings, and providing notice to the Minister.
+***[[Canadian Refugee Procedure/IRPA Section 170 - Proceedings#IRPA%20Section%20170(f)%20-%20May%20allow%20a%20claim%20without%20a%20hearing|Section 170(f) - Allowing a claim without a hearing (the file-review process)]]
+***[[Canadian Refugee Procedure/IRPA Section 170 - Proceedings#IRPA%20Section%20170(h)%20-%20May%20receive%20evidence%20considered%20credible%20or%20trustworthy|Section 170(h) - The Board may receive evidence considered credible or trustworthy]]
+**Section 170.2: [[Canadian Refugee Procedure/No reopening of claim or application|No reopening of claim or application]]
+
+== Chairperson's Guidelines ==
+*[[Canadian Refugee Procedure/Guideline 4 - Women Refugee Claimants Fearing Gender-Related Persecution|Guideline 4 - Women Refugee Claimants Fearing Gender-Related Persecution]]
+*[[Canadian Refugee Procedure/Guideline 8 - Concerning Procedures with Respect to Vulnerable Persons Appearing Before the Immigration and Refugee Board of Canada|Guideline 8 - Concerning Procedures with Respect to Vulnerable Persons Appearing Before the Immigration and Refugee Board of Canada]]
+
+==Categories and Tags For This Book==
+{{Shelves|Law}}
+{{alphabetical|C}}
+{{status|50%}}

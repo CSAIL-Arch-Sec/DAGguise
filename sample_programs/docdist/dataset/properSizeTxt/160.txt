@@ -1,0 +1,469 @@
+[[File:Hydrochloric_acid_ammonia.jpg|thumb|250px|right|Vapors of hydrogen chloride in a beaker and ammonia in a test tube meet to form a cloud of a new substance, ammonium chloride]]
+
+==Introduction==
+'''Metals''' are commonly found all around us in our everyday lives. Usually, we see them as compounds such as stainless steel (made of iron, nickel and chromium). In chemistry, metals are elements found on the left and middle of the periodic table. Metals in the middle are called transition metals.
+
+==Physical properties==
+Most metals have the following physical properties:
+
+*electrical conductivity (has free electrons)
+*thermal conductivity (heat conductor)
+*density (tightly packed atom structure)
+*ductility (able to be drawn into wires ie. electrical wires)
+*lustre (shiny)
+*malleability (able to be beaten into shapes)
+
+Metal are usually solid at room temperature (20˚C) with an exception to mercury which has a melting point of -39˚C. Metals are also usually grey or silver with the exception of copper.
+
+<gallery>
+Image:Busbars.jpg|Electrical conductivity
+Image:Wok-and-karahi.jpg|Thermal conductivity
+Image:Atomic_resolution_Au100.JPG|Density
+Image:Tubo_in_rame_-_Foto_di_Giovanni_Dall'Orto.jpg|Ductility
+Image:Pyrite_foolsgold.jpg|Lustre
+Image:Kanazawa_Gold_Factory.jpg|Malleability
+</gallery>
+
+
+==Reaction of metals==
+[[Image:Metal-fire.ogg|thumb|200px|Magnesium fire. The first stream comes for a CO<sub>2</sub> fire extinguisher, the second from a powder extinguisher, and the third from a foam one. Since the camera sets the sensibility according to the most lightning source, keep an eye to the setting to have an idea of the light emited by the fire.]]
+
+{| class="wikitable" border="2"
+|+ '''Activity (reactivity) series'''
+|-
+! Metal
+| Na
+| Ca
+| Mg
+| Al
+| Zn
+| Fe
+| Pb
+| Cu
+|-
+! Symbol
+| Na<sup>+</sup>
+| Ca<sup>2+</sup>
+| Mg<sup>2+</sup>
+| Al<sup>3+</sup>
+| Zn<sup>2+</sup>
+| Fe<sup>2+</sup>
+| Pb<sup>2+</sup>
+| Cu<sup>2+</sup>
+|-
+! Reactivity
+| bgcolor=red |
+| bgcolor=red |
+| bgcolor=yellow |
+| bgcolor=yellow |
+| bgcolor=yellow |
+| bgcolor=yellow |
+| bgcolor=yellow |
+| bgcolor=gray |
+|}
+
+The reactivity series shows how reactive a metal is to oxygen, water or acids. Sodium and calcium are the most reactive. Sodium is the most reactive because it is 1 electron from having a full valence energy level.
+
+
+===Metals and oxygen===
+{{Helpful hint|hint = Metals + Oxygen → Metal oxide}}
+When metals react with oxygen, they form a metal oxide coating.
+
+With word equations, the names of the reactants and products are required. For chemical equations, the [[NCEA Level 1 Science/Contents/Atomic Structure#Naming and Writing Formulae|drop and swap rule ]] should be followed. In addition, the equation needs to be balanced so the number of reactants is equal to the number of products.
+
+
+{| class="wikitable" border="1"
+! Metal !! Reaction !! Comments
+|-
+| <center>Sodium</center>
+| Sodium + Oxygen → Sodium oxide
+4Na + O<sub>2</sub> → 2Na<sub>2</sub>O
+|Upon exposure to air, sodium reacts immediately with oxygen so it is necessary to place it under oil to prevent contact with air.
+|-
+| <center>Calcium</center>
+| Calcium + Oxygen → Calcium oxide
+2 Ca + O<sub>2</sub> → 2CaO
+| Calcium is highly reactive to oxygen since it is two electrons away from having a full outer shell.
+|-
+| <center>Magnesium</center>
+| Magnesium + Oxygen → Magnesium oxide
+2Mg + O<sub>2</sub> → 2MgO
+| In the magnesium oxide reaction, a bright white light is observed when the magnesium is burnt in the bunsen flame. The product, magnesium oxide is the white powder that results.
+|-
+| <center>Aluminium</center>
+| Aluminium + oxygen → Aluminium oxide
+4Al +3 O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>
+| The aluminium oxide layer is complete leaving no gaps thus prevents the aluminium from contact with oxygen, water or acids. This insoluble coating makes aluminium '''appear''' to be unreactive despite aluminium’s high ranking on the activity series.
+|-
+| <center>Zinc</center>
+| Zinc + oxygen → Zinc oxide
+2Zn + O<sub>2</sub> → 2ZnO
+| Zinc is quite reactive it will easily oxidise.
+|-
+| <center>Iron</center>
+| Iron + Oxygen → Iron oxide
+4Fe +3 O<sub>2</sub> →2Fe<sub>2</sub>O<sub>3</sub>
+| The iron oxidation reaction is commonly known as rusting. Rusting slowly occurs in the presence of oxygen and water forming iron oxide.
+|-
+| <center>Lead</center>
+| Lead + Oxygen → Lead oxide
+2Pb + O<sub>2</sub> → 2PbO
+
+| Lead (II) oxide occurs when lead is heated to 600°C and is red or yellow. Like lead, lead oxide is toxic and is a component in lead paint.
+|-
+| <center>Copper</center>
+| Copper + Oxygen → Copper Oxide
+2Cu + O<sub>2</sub> → 2CuO
+| Copper being at the end of the activity series is quite unreactive. It will take a long time to react with oxygen. Being a '''transition metal''', it will change colour when it becomes a compound. Copper turns from brownish-red to black when it becomes copper oxide.
+|}
+
+
+====Rusting====
+[[Image:Love_by_SillyPuttyEnemies.jpg|thumb|200px|A heart-shaped patch of rusted metal, showing through cracked and flaking paint; a metal wall, near railway tracks.]]
+The iron oxide reaction is commonly known as '''rusting'''.
+
+Rusting occurs in the presence of oxygen (not air which is mostly nitrogen) and water. Both elements are required for a metal to rust or to '''oxidise'''. With those conditions present, iron will combine with air and water to form hydrated iron oxide.
+
+Rusting is a very expensive problem because it corrodes the metal eventually completely dissolving it. Rusting can be prevented by:
+
+*'''alloying'''
+
+:By alloying iron with chromium or nickel or both, stainless steel can be formed which is chemically resistant to corrosion. This is the most expensive method by it makes the metals absolutely rustproof.
+
+*'''galvanising'''
+
+:Metals that react more readily with corroding substances than iron will sacrifice themselves to protect iron (these metals can be found in the activity series above). This '''sacrificial corrosion''' is commonly used to protect iron when used on rooftops in the form of galvanised iron (iron galvanised with zinc). In the presence of corrosive substances, zinc forms an electric potential with iron causing it to sacrifice itself and protect the iron as long as the zinc remains. However, if another lesser reactive metal touches this zinc coating, the zinc will dissolve to prevent the corrosion of this lesser reactive metal. When the zinc has corroded, the iron will begin to corrode.
+
+[[Image:RustyFence_amk.jpg|thumb|200px|Fence which has rusted]]
+*'''coating'''
+
+:The coating must '''completely''' cover over the iron as well as being impermeable (preventing contact with oxygen and water). This works as long as the coating completely covers it. It is the least expensive therefore the most common. Paint is a commonly used coating to coat metals like cars. The protective layer may also be an unreactive metal such as chromium and tin (used in cans called tin cans). However, this means that the electric potential is set up to protect the layer so if the coating is broken, rusting will occur at an accelerated rate on the iron.
+
+==== Special oxide layers ====
+
+Though aluminium is quite reactive chemically, aluminium forms a thin, transparent and complete oxide layer that protects it from further corrosion. Thus under normal atmospheric conditions, it appears to be unreactive.
+
+Zinc and lead which are less reactive than aluminium also form similar protective layers.
+
+
+===Metals and Water===
+{{Helpful hint|hint = Metal + water → metal hydroxide + hydrogen}}
+Metals react with water to form metal hydroxide (liquid) and hydrogen gas.  The metal hydroxide is a base. Metals such as sodium react violently with water while copper is quite unreactive.
+
+'''Examples:'''
+:Sodium + water → Sodium hydroxide + hydrogen
+:Mg + H<sub>2</sub>O → Mg(OH)<sub>2</sub> → H<sub>2</sub>
+:Zn + H<sub>2</sub>O → Zn(OH)<sub>2</sub> + H<sub>2</sub>
+:Calcium + water → calcium hydroxide + hydrogen
+:Pb + 2H<sub>2</sub>O → Pb(OH)<sub>2</sub> + H<sub>2</sub>
+:Iron + water → Iron hydroxide + hydrogen
+:Al + H<sub>2</sub>O → Al(OH)<sub>3</sub> + H<sub>2</sub>O
+:H is the element hydrogen and H<sub>2</sub> is the gas. 
+
+The test for hydrogen gas is the pop test. The pop test involves collecting igniting a sample of gas. Hydrogen burns with a pop sound.
+
+
+===Metals and Acids===
+{{Helpful hint|hint = Metal + acid → metal ion (salt) + hydrogen}}
+When metals react with acids, a metal ion (salt) is formed and hydrogen gas is produced.
+
+'''Examples:'''
+:Zinc + hydrochloric acid → zinc chloride + hydrogen
+:Ca + H<sub>2</sub>SO<sub>4</sub> + CaSO<sub>4</sub> + H<sub>2</sub>
+:Magnesium + hydrochloric acid → magnesium chloride + hydrogen
+:Mg + HCl → MgCl<sub>2</sub> + H<sub>2</sub>
+:Sodium + sulphuric acid → sodium sulphate + hydrogen
+:Al + H<sub>2</sub>SO<sub>4</sub> → Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + H<sub>2</sub>
+:Lead + hydrochloric acid → lead chloride + hydrogen
+:Cu + H<sub>2</sub>SO<sub>4</sub> → CuSO<sub>4</sub> + H<sub>2</sub>
+
+
+===Balancing Equations===
+{{Helpful hint|hint = reactants → products}}
+A balanced equation is where the number of atoms for each element is the same on each side of the arrow. To balance an equation, we put large numbers in front of elements of compounds.
+
+'''Example'''
+:2Mg + O2 → 2MgO
+
+
+==Relating properties to uses==
+
+==Effects on indicators==
+====Acid====
+An '''acid''' is a compound that contains hydrogen and can release hydrogen ions (H<sup>+</sup>) in water, producing a concentration of hydrogen ions which is more than what is found in pure water. Acids taste sour and can be corrosive. 
+
+
+'''Examples of organic acids (acids with carbon):'''
+<gallery>
+Image:Bottles_ofCoca-Cola.jpg|Coke (carbonic acid)
+Image:Citrus_fruits.jpg|Citrus fruits (citric acid)
+Image:Persimmonvinegar.jpg|Vinegar (acetic acid)
+Image:Bee-sting-abeille-dard-2.jpg|Bee Sting
+Image:Leaf_1_web.jpg|Leaves (Oxalic acid) 
+Image:Regular_strength_enteric_coated_aspirin_tablets.jpg|Aspirin (Salicylic Acid)
+Image:Illu_stomach.jpg|Stomach acid (hydrochloric acid)
+</gallery>
+
+
+[[Image:Hydrochloric_acid_05.jpg|thumb|100px|Hydrochloric acid is common laboratory reagent.]]
+The inorganic acids used in laboratories include 
+*'''Hydrochloric acid''' (HCl)
+*'''Sulphuric acid''' (H<sub>2</sub>SO<sub>4</sub>)
+
+
+Hydrogen Chloride (HCl) is an acid because it dissolves in water to give a solution of hydrogen ions and chloride ions known as hydrochloric acid. A clue to whether a substance is an acid is whether its formula begins with H, as in HCl and H<sub>2</sub>SO<sub>4</sub>. However, this is not true in all cases.
+
+Acids are corrosive because when dissolved in water (i.e. hydrogen chloride dissolved to become hydrochloric acid), they release hydrogen ions. These hydrogen are highly reactive as they seek to bond with another compound to form become stable. When acid spills into skin, the acid breaks down the skin by joining onto compounds that make up the skin. However, in a school laboratory environment, the acid is usually highly diluted but will still have the potential to cause harm if not quickly treated.
+
+====Bases====
+Alkalis are a class of bases that taste bitter and feel slippery. When dissolved in water, a base produces an excess of hydroxide ions (OH<sup>-</sup>.)
+
+
+Example of common household bases:
+*Soap
+*Oven Cleaners
+*Cleaning Products
+*Indigestion tablets
+*Laundry detergents
+*Household cleaners
+*Dishwashing liquid
+
+
+Common bases include:
+*'''Sodium hydroxide''' (NaOH)
+*'''Calcium hydroxide''' (Ca(OH)<sub>2</sub>)
+*'''Ammonia''' (NH<sub>3</sub>)
+
+====Neutralisation====
+When acids and alkalis react with each other, a '''neutralisation''' reaction occurs to give a salt and water. The point at which the mixture becomes neutral can be found with an '''indicator''' such as litmus.
+
+The neutralization reaction then becomes: 
+
+H<sup>+</sup> + OH<sup>-</sup> → H<sub>2</sub>0
+
+However, due the presence of other compounds in the acid and base reaction, the actual reaction forms a salt.
+
+Acid + base → salt + water
+
+
+{{TextBox|1=
+; Examples
+Sodium hydroxide (also known as caustic soda) is mixed with hydrochloric acid to form water and sodium chloride.
+
+Sodium hydroxide + hydrochloric acid → water + sodium chloride
+NaOH<sup></sup> + HCl → H<sub>2</sub>O + NaCl}}
+
+
+The driving force behind this reaction is the formation of a solvent which in this case is water. Though water molecules have been formed, the sodium (Na<sup>+</sup>) and the chloride (Cl<sup>-</sup>) ions are still separated. By evaporating the water, sodium chloride (NaCl) will form as the ions bond together to form a compound. 
+
+
+{{Info|Another name for sodium chloride is table salt. This is the same salt used in cooking.}}
+
+
+{{Yellow Warning|Wear safety glasses when evaporating the water. The hot sodium chloride salt that forms from this chemical reaction spits out from the solution.}}
+{{Warning|Not all salts are edible. You should not taste the salt formed in this reaction as it may be contaminated from previous experiment performed in this evaporating dish.}}
+
+====Indicators====
+An indicator is any chemical or natural product that changes colour in an acidic, basic or neutral solution. Common chemical indicators are:
+*universal indicator
+*&litmus (dye and paper)
+
+The most useful of these is the universal indicator. Universal indicator is a mixture of several different chemical indicators. The range of colours is possible because colour of the universal indicator solution at a particular pH is derived from the colours of the individual indicators. The overall effect is a gradual colour change over a large range of pH.
+
+Litmus and many other indicators are derived from plant juices. Litmus is made from lichens. Many vegetable juices such as beetroot juice can also change colour depending on a solution’s acidity, alkalinity or neutrality.
+
+<center>
+{| class="wikitable" border="1"
+|+'''Colour change at different levels of acidity and alkalinity''' 
+! Indicator !! Acids !! Colour !! Neutral !! Colour !! Base !! Colour
+|-
+| '''Universal Indicator''' || '''Red''', orange, yellow || bgcolor="red" | || '''Green''' || bgcolor="green" | || '''Blue''', purple || bgcolor="blue" | 
+|-
+| '''Litmus''' || '''Red''' || bgcolor="red" | || || bgcolor="green" | || '''Blue''' || bgcolor="blue" | 
+|}</center>
+
+
+{| class="wikitable" border="1"
+|+'''Examples of Colour Changes''' 
+! Solution !! Colour change !! Colour !! Solution Type
+|-
+| Jif || Blue || bgcolor="blue" | || Base
+|-
+| Milk || Yellow || bgcolor="yellow" | || Weak acid
+|-
+| Oven cleaner || Blue || bgcolor="blue" | || Base
+|-
+| Coffee || Yellow || bgcolor="yellow" | || Weak acid
+|-
+| Lime juice || Red || bgcolor="red" | || Acid
+|-
+| Sprite || Red || bgcolor="red" | || Acid
+|-
+| Vinegar || Red || bgcolor="red" | || Acid
+|-
+| Dish washing liquid || Blue || bgcolor="blue" | || Base
+|-
+| Tea || Yellow || bgcolor="yellow" | || Weak acid
+|}
+
+==pH values==
+The pH (potential for hydrogen) scale is the measure of how acid or alkaline a solution is.
+[[Image:PH scale.png|350px|center]]
+
+===Universal Indicator===
+The universal indicator colours determine the strength of an acid or base. Moving away from the pH of 7 will increase the strength of the acid or base.
+
+{| class=wikitable
+!pH range
+!Description
+!Colour
+!Colour sample
+|-
+|align="center" | 0
+|Strong acid
+|align="center" | Red
+| bgcolor="red" |
+|-
+|align="center" | 1
+|Strong acid
+|align="center" | Red
+| bgcolor="red" |
+|-
+|align="center" | 2
+|Strong acid
+|align="center" | Red
+| bgcolor="red" |
+|-
+|align="center" | 3
+|Mild Acid
+|align="center" | Orange
+| bgcolor="orange" |
+|-
+|align="center" | 4
+|Mild Acid
+|align="center" | Orange
+| bgcolor="orange" |
+|-
+|align="center" | 5
+|Weak Acid
+|align="center" | Yellow
+| bgcolor="yellow" |
+|-
+|align="center" | 6
+|Weak Acid
+|align="center" | Yellow
+| bgcolor="yellow" |
+|-
+|align="center" | 7
+|Neutral
+|align="center" | Green
+| bgcolor="green" |
+|-
+|align="center" | 8
+|Weak base
+|align="center" | Blue
+| bgcolor="blue" |
+|-
+|align="center" | 9
+|Weak base
+|align="center" | Blue
+| bgcolor="blue" |
+|-
+|align="center" | 10
+|Mild base
+|align="center" | Blue
+| bgcolor="blue" |
+|-
+|align="center" | 11
+|Mild base
+|align="center" | Blue
+| bgcolor="blue" |
+|-
+|align="center" | 12
+|Strong base
+|align="center" | Purple
+| bgcolor="purple" |
+|-
+|align="center" | 13
+|Strong base
+|align="center" | Purple
+| bgcolor="purple" |
+|-
+|align="center" | 14
+|Strong base
+|align="center" | Purple
+| bgcolor="purple" |
+|}
+
+==Acids and carbonates==
+===Acids and Metal Oxides===
+When metal oxides react with acids, a salt is formed and water is produced.
+{{helpful hint|hint = metal oxide + acid → salt + water}}
+
+'''Examples'''
+:MgO + 2HCl → MgCl<sub>2</sub> + H<sub>2</sub>O
+:Magnesium oxide + hydrochloric acid → Magnesium chloride + water
+:FeO + 2HCl → FeCl<sub>2</sub> + H<sub>2</sub>O
+:Sodium oxide + sulphuric acid → sodium sulphate + water
+:Al<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>SO<sub>4</sub> → Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 3H<sub>2</sub>O
+:Lead oxide + hydrochloric acid → lead chloride + water
+:CuO + H<sub>2</sub>SO<sub>4</sub> → CuSO<sub>4</sub> + H<sub>2</sub>O
+
+Metals oxides are basic and can be neutralised with acids.
+
+
+===Acids and Hydroxides===
+The acids with metal hydroxide reaction also produces a salt and water.
+{{helpful hint|hint = metal hydroxide + acid → salt + water}}
+
+'''Examples'''
+:Cu(OH)<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → CuSO<sub>4</sub> + H<sub>2</sub>O
+:Copper hydroxide + Sulfuric acid → Copper Sulfate + water
+:Mg(OH)<sub>2</sub> + 2HCl → MgCl<sub>2 + 2H<sub>2</sub>O
+:Magnesium hydroxide + Hydrochloric acid → Magnesium chloride + water
+:2Al(OH)<sub>2</sub> +3H<sub>2</sub>SO<sub>4</sub> → 2Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 6H<sub>2</sub>O
+
+===Acids and Carbonates===
+{{helpful hint|hint = metal carbonate + acid → salt + carbon dioxide + water}}
+
+Metal carbonates react with acids to produce a salt, carbon dioxide gas and water.
+
+'''Examples'''
+:ZnCO<sub>3</sub> + HCl → ZnCl<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O
+
+The test for CO<sub>2</sub> is limewater turns cloudy.
+
+===Acids and Hydrogen Carbonates===
+{{helpful hint|hint = metal hydrogen carbonate + acid → salt carbon dioxide + water}}
+Metal hydrogen carbonates (bicarbonates) also react with acids to produce salt, carbon dioxide and water.
+
+'''Examples'''
+:Calcium bicarbonate + Sulphuric acid → Calcium sulphate + carbon dioxide + water
+:NaHCO<sub>3</sub> + HCl → NaCl + CO<sub>2</sub> + H<sub>2</sub>O
+
+====Baking Soda====
+NaHCO<sub>3</sub> is commonly known as baking soda. Baking powder is NaHCO<sub>3</sub> with tartaric acid added to improve the taste.
+
+==Metals==
+{| class="wikitable" border="1"
+|+ 
+! Metal !! Symbol !! Example
+|-
+| [[w:Sodium|Sodium]] || <center>Na</center> || [[File:Na_(Sodium).jpg|75px]]
+|-
+| [[w:Calcium|Calcium]] || <center>Ca</center> || [[File:Calcium_1.jpg|75px]]
+|-
+| [[w:Magnesium|Magnesium]] || <center>Mg</center> || [[File:Magnesium_crystals.jpg|75px]]
+|-
+| [[w:Aluminium|Aluminium]] || <center>Al</center> || [[File:Aluminum Metal coinless.jpg|75px]]
+|-
+| [[w:Zinc|Zinc]] || <center>Zn</center> || [[File:Zinc-sample.jpg|75px]]
+|-
+| [[w:Iron|Iron]] || <center>Fe</center> || [[File:Banded_iron_formation.jpg|75px]]
+|-
+| [[w:Lead|Lead]] || <center>Pb</center> || [[File:Metal_cube_lead.jpg|75px]]
+|-
+| [[w:Copper|Copper]] || <center>Cu</center> || [[File:Kupfer_Nugget.jpeg|75px]]
+|}
+
+{{BookCat}}

@@ -1,0 +1,403 @@
+<noinclude>{{French/Lessons/Introductory/Header||||.}}</noinclude>
+
+==G: The French alphabet==
+{| {{French/Table|Grammar|The French Alphabet|L'alphabet français||27}}
+|-
+!Characters
+|Aa||Bb||Cc||Dd||Ee||Ff||Gg||Hh||Ii||Jj||Kk||Ll||Mm
+|-
+!Pronunciation
+|ah||bay||say||day||uh||ehf||zhay||ahsh||ee||zhee||kah||ehl||ehm
+|-
+!Characters
+|Nn||Oo||Pp||Qq||Rr||Ss||Tt||Uu||Vv||Ww||Xx||Yy||Zz
+|-
+!Pronunciation
+| ehn || oh ||pay||kew||ehr||ehs||tay||ew||vay||doo-bluh-vay||eeks||ee-grehk||zehd
+|}
+
+In addition, French uses several accents which are worth understanding. These are: à, è, ù, (grave accents) and é (acute accent). A circumflex applies to all vowels: â, ê, î, ô, û. A tréma (French for dieresis) is also applied: ä, ë, ï, ö, ü, ÿ. Two combined letters are used: æ and œ, and a cedilla is used on the c to make it sound like an English s: ç.
+
+==V: Basic phrases==
+
+{| {{French/Table|Vocabulary|Basic Phrases|Les expressions de base||2}}
+|bonjour, salut||hello (formal), hi (informal)
+|-
+|Comment allez-vous ? (formal),<br> Comment vas-tu ? (informal),<br> Comment ça va ? / Ça va ? (informal)|| (lit: How you go/How it goes?)
+|-
+|ça va (très) bien||I'm doing (very) well (lit. It goes (very) well)
+|-
+|merci||thank you
+|-
+|et toi ? et vous ?||and you? (informal) and you? (formal)
+|-
+|pas mal||not bad
+|-
+|bien||well
+|-
+|pas si bien/pas très bien||not so well
+|-
+|comme ci, comme ça ||so-so
+|-
+|Désolé(e)||I'm sorry.
+|-
+|quoi de neuf ?||what's up with you? (lit. what's new)
+|-
+|pas grand-chose||not much (lit. no big-thing)
+|-
+|au revoir||bye
+|-
+|à demain||see you tomorrow (lit. at tomorrow)
+|-
+|à plus tard||see you later
+|-
+|Au revoir, à demain.||Bye, see you tomorrow 
+|}
+{{newpage}}
+
+==V: Numbers==
+
+{| {{French/Table|Vocabulary|Numbers|Les nombres||3}}
+|-
+| un || 1 || une unité (a unity)
+|-
+| deux || 2 || &nbsp;
+|-
+| trois || 3 || &nbsp;
+|-
+| quatre || 4 || &nbsp;
+|-
+| cinq || 5 || &nbsp;
+|-
+| six || 6 || &nbsp;
+|-
+| sept || 7 || &nbsp;
+|-
+| huit || 8 || &nbsp;
+|-
+| neuf || 9 || &nbsp;
+|-
+| dix || 10 || une dizaine (one ten)
+|-
+| onze || 11 || &nbsp;
+|-
+| douze || 12 || une douzaine (one dozen)
+|-
+| treize || 13 || &nbsp;
+|-
+| quatorze || 14 || &nbsp;
+|-
+| quinze|| 15 || &nbsp;
+|-
+| seize|| 16 || &nbsp;
+|-
+| dix-sept|| 17 || &nbsp;
+|-
+| dix-huit || 18 || &nbsp;
+|-
+| dix-neuf|| 19 || &nbsp;
+|-
+| vingt || 20 || &nbsp;
+|-
+| vingt et un || 21 || &nbsp;
+|-
+| vingt [deux - neuf] || 22-29 || 
+|-
+| trente || 30 || &nbsp;
+|-
+| trente et un || 31 || &nbsp;
+|-
+| trente [deux - neuf] || 32-39 || &nbsp;
+|-
+| quarante || 40 || &nbsp;
+|-
+| cinquante || 50 || &nbsp;
+|-
+| soixante || 60 || &nbsp;
+|-
+| soixante-dix || 70 || &nbsp;
+|-
+| soixante et onze || 71 || &nbsp;
+|-
+| soixante-[douze - dix-neuf] || 72-79 || &nbsp;
+|-
+| quatre-vingts || 80 || &nbsp;
+|- 
+| quatre-vingt-un || 81 || &nbsp;
+|-
+| quatre-vingt-[deux - neuf] || 82-89 || &nbsp;
+|-
+| quatre-vingt-dix || 90 || &nbsp;
+|-
+| quatre-vingt-[onze - dix-neuf] || 91-99 || &nbsp;
+|-
+| cent || 100 || une centaine (one hundred)
+|-
+| [deux - neuf] cents || 200-900 || &nbsp;
+|-
+| deux cent un || 201 || &nbsp;
+|-
+| neuf cent un || 901 || &nbsp;
+|-
+| mille || 1.000 || un millier (one thousand)
+|-
+| (un) million || 1.000.000 || &nbsp;
+|-
+| (un) milliard || 1.000.000.000 || &nbsp;
+|-
+| (un) billion || 1.000.000.000.000 || &nbsp;
+|}
+
+====Things of note about numbers====
+
+*For 70-79, it builds upon "soixante" but past that it builds upon a combination of terms for 80-99
+*Only the first (21,31,41,51,61 and 71, but not 81 nor 91) have "et un" without a hyphen; but past this it is simply both words consecutively (vingt-six, trente-trois, etc.) with a hyphen in between.
+*For 100-199, it looks much like this list already save that "cent" is added before the rest of the number; this continues up to 1000 and onward.
+
+==V: Asking for the day/date/time==
+{| {{French/Table|Vocabulary|Asking For The Day, Date, Time|Demander le jour, la date, le temps||4}}
+! colspan=4 | Asking for the day.
+|-
+| 1a ||Aujourd'hui c'est quel jour?||Today is what day?||(''oh-zhur-dewee seh kehl zhoor'')
+|-
+| 1b ||Aujourd'hui c'est [''jour''].||Today is [''day''].||
+|-
+| 2a ||Demain c'est quel jour||Tomorrow is what day?||(''duh-ma<sup>(n)</sup> seh kehl zhoor'')
+|-
+| 2b ||Demain c'est [''jour''].||Tomorrow is [''day''].||
+|-
+! colspan=4 | Asking for the date.
+|-
+| 3a ||Quelle est la date<br>(aujourd'hui)?||What is the date<br>(today)?||(''kehl eh lah daht'')
+|-
+| 3b ||C'est le [#] [month].||It's [month] [#].||
+|-
+! colspan=4 | Asking for the time.
+|-
+| 4a ||Quelle heure est-il?
+| rowspan=2 | What hour/time is it?
+| (''kehl ewr eh-teel'')
+|-
+| 4b ||Il est quelle heure?||(''eel eh kehl ewr'')
+|-
+| 5 ||Il est [nombre] heure(s).||It is [''number''] hours.||(''eel eh [nombre] ewr'')
+|}
+
+==V: Time==
+
+In French, “il est” is used to express the time; though it would literally translate as “he is”, it is actually, in this case, equivalent to “it is” (unpersonal "il"). Unlike in English, it is always important to use “heures” (“hours”) when referring to the time. In English, it is OK to say, “It’s nine,” but this wouldn’t make sense in French.  The French time system traditionally uses a 24-hour scale.  Shorthand for writing times in French follows the format "17h30", which would represent 5:30PM in English.
+
+{| {{French/Table|Vocabulary|Time|Le temps||2}}
+|Quelle heure est-il ?||What time is it?
+|-
+|Il est une heure.||It is one o’clock.
+|-
+|Il est trois heures.||It is three o’clock.
+|-
+|Il est dix heures.||It is ten o’clock.
+|-
+|Il est midi.||It is noon.
+|-
+|Il est minuit.||It is midnight.
+|-
+|Il est quatre heures cinq.||It is five past four.
+|-
+|Il est quatre heures et quart.||It is a quarter past four.
+|-
+|Il est quatre heures quinze.||It is four fifteen.
+|-
+|Il est quatre heures et demie.||It is half past four.
+|-
+|Il est dix-neuf heures moins le quart.||It is a quarter to seven, or six forty-five.
+|-
+|Il est quatre heures trente.||It is four thirty.
+|-
+|Il est cinq heures moins vingt.||It is twenty to five.
+|-
+|Il est quatre heures quarante.||It is four forty.
+|}
+
+==V: The days of the week.==
+
+{| {{French/Table|Vocabulary|The days of the week|Les jours de la semaine|audio=French Vocabulary - The Days of the Week..ogg|columns=4}}
+! colspan=1| French || Pronunciation || English || Origin
+|-
+| lundi || {{fr/IPA|/lœ̃di/|approx=luh<sup>(n)</sup>-dee}} || Monday || {{French/sec|(Moon)}}
+|-
+| mardi || {{fr/IPA|/maʁdi/|approx=mahr-dee}} || Tuesday || {{French/sec|(Mars)}}
+|-
+| mercredi || {{fr/IPA|/mɛʁkʁədi/|approx=mehr-kruh-dee}} || Wednesday || {{French/sec|(Mercury)}}
+|-
+| jeudi || {{fr/IPA|/ʒødi/|approx=zhur-dee}} || Thursday || {{French/sec|(Jupiter)}}
+|-
+| vendredi || {{fr/IPA|/vɑ̃dʁədi/|approx=vah<sup>(n)</sup>-druh-dee}} || Friday || {{French/sec|(Venus)}}
+|-
+| samedi || {{fr/IPA|/samdi/|approx=sahm-dee}} || Saturday || {{French/sec|(Saturn)}}
+|-
+| dimanche || {{fr/IPA|/dimɑ̃ʃ/|approx=dee-mah<sup>(n)</sup>sh}} || Sunday || {{French/sec|(Dies Domini)}}
+|}
+
+*The days of the week are not capitalized in French.
+*For phrases relating to the day of the week, see [[French/Vocabulary/Travel/Phrases|the phrasebook]].
+
+Notes:
+* ''What day is it today?'' is equivalent to ''Quel jour sommes-nous ?''.
+* ''Quel jour sommes-nous ?'' can be answered with ''Nous sommes...'', ''C'est...'' or ''On est...'' (last two are less formal).
+* ''Nous sommes...'' is not used with ''hier'', ''aujourd’hui'', or ''demain''. ''C'était'' (past) or ''C'est'' (present/future) must be used accordingly.
+
+==V: The months of the year==
+
+{| {{French/Table|Vocabulary|The months of the year|Les mois de l'année|audio=French Vocabulary - The Months of the Year.ogg|columns=3}}
+! colspan=1| French || Pron. || English 
+|-
+| janvier || {{fr/IPA|/ʒɑ̃vje/|approx=zhah<sup>(n)</sup>-vyay}} || January
+|-
+| février || {{fr/IPA|/fevʁije/|approx=fay-vree-yay}} || February
+|-
+| mars || {{fr/IPA|/maʁs/|approx=mahrs}} || March
+|-
+| avril || {{fr/IPA|/avʁil/|approx=ahv-reel}} || April
+|-
+| mai || {{fr/IPA|/mɛ/|approx=meh}} || May
+|-
+| juin || {{fr/IPA|/ʒɥɛ̃/|approx=zhoo-a<sup>(n)</sup>}} || June
+|-
+| juillet || {{fr/IPA|/ʒɥijɛ/|approx=zhoo-ee-yeh}} || July
+|-
+| août || {{fr/IPA|/ut/|/u/|approx=oot/oo}} || August
+|-
+| septembre || {{fr/IPA|/sɛptɑ̃bʁ/|approx=sehp-tah<sup>(n)</sup>-br}} || September
+|-
+| octobre || {{fr/IPA|/ɔktɔbʁ/|approx=ohk-toh-br}} || October
+|-
+| novembre || {{fr/IPA|/nɔvɑ̃bʁ/|approx=noh-vah<sup>(n)</sup>-br}} || November
+|-
+| décembre || {{fr/IPA|/desɑ̃bʁ/|approx=day-sah<sup>(n)</sup>-br}} || December
+|}
+
+==V: Relative date and time==
+
+{| {{French/Table|Vocabulary|Relative Date and Time|Date et heure relatives|columns=2}}
+! colspan=2 | Times of Day
+|-
+|le lever du jour||daybreak<br>lit:the rise of the day
+|-
+|le lever du soleil||sunrise<br>lit: the rise of the sun
+|-
+|le soleil levant||rising sun.
+|-
+|le matin||morning
+|-
+|...du matin||A.M., lit: of the mornng
+|-
+|hier matin||yesterday morning
+|-
+|le midi ||noon, midday
+|-
+|l'après-midi (m)||afternoon
+|-
+|le soir||evening, in the evening
+|-
+|...du soir||P.M. lit: of the evening
+|-
+|le coucher du soleil||sunset
+|-
+|la nuit||night
+|-
+! colspan=2 | Relative Days
+|-
+|avant-hier||the day before yesterday
+|-
+|hier||yesterday
+|-
+|aujourd'hui||today
+|-
+|ce soir||tonight
+|-
+|demain||tomorrow
+|-
+|après-demain||the day after tomorrow
+|}
+
+==V: Seasons==
+
+{| {{French/Translations table|Vocabulary|The Seasons|Les Saisons|audio=French Vocabulary - Seasons.ogg}}
+| la saison || {{fr/IPA|/la sɛ.zɔ̃/|approx=lah seh-zoh<sup>(n)</sup>}} || season
+|-
+| le printemps || {{fr/IPA|/lə pʁɛ̃.tɑ̃/|approx=luh pra<sup>(n)</sup>-taw<sup>(n)</sup>|audio=Fr-printemps.ogg}} || Spring
+|-
+| l'été {{fr/sec|(m)}} || {{fr/IPA|/le.te/|approx=lay-tay}} || Summer
+|-
+| l'automne {{fr/sec|(m)}} || {{fr/IPA|/lo.tɔn/|approx=loh-tawn}} || Autumn
+|-
+| l'hiver {{fr/sec|(m)}} || {{fr/IPA|/li.vɛʁ/|approx=lee-vehr}} || Winter
+|}
+{{newpage}}
+
+== {{French/Section|Dialogue|A conversation between friends|Une conversation entre amis}} ==
+
+{| {{French/Dialogue|includestranslations=true|audio=A conversation between friends.ogg}}
+| rowspan=2 | Daniel
+| Bonjour Hervé. Comment vas-tu ?
+|-
+| Hello, Hervé. How are you?
+|-
+| rowspan=2 | Hervé
+| Je vais bien, merci. Et toi ça va ?
+|-
+| I'm good,{{ref|1|1}} thank you. And you, it goes (fine)?
+|-
+| rowspan=2 | Daniel
+| Ça va bien. Est-ce que{{ref|2|2}} tu viens à mon anniversaire ? J'organise une petite fête.
+|-
+| It goes well. You're coming to my party? I'm organizing a little party.
+|-
+| rowspan=2 | Hervé
+| C'est quand ?
+|-
+| When is it?
+|-
+| rowspan=2 | Daniel
+| Le 3 mars à 20h.
+|-
+| March 3 at 08:00 PM.
+|-
+| rowspan=2 | Hervé
+| Le 3 mars, entendu. Tu fais ça chez toi{{ref|3|3}} ?
+|-
+| March 3, agreed. You're having it at your place?
+|-
+| rowspan=2 | Daniel
+| Oui c'est chez moi. J'ai invité une vingtaine d'amis. On va danser toute la nuit.
+|-
+| Yes, it's at my place. I have invited (a set of) twenty friends. We{{ref|4|4}} are going to dance all night.
+|-
+| rowspan=2 | Hervé
+| C'est très gentil de m'inviter, merci. A bientôt.
+|-
+| It's very nice to invite me, thank you. So long.
+|-
+| rowspan=2 | Daniel
+| A demain, bonne journée.
+|-
+| Until tomorrow, good day.
+|}
+
+{{note|1|1}} ''Bien...'' is an adverb meaning ''well''. Its adjective equivalent is ''bon(ne)'', which means ''good''. Since ''je vais'', meaning ''I go'', uses an action verb,<br>
+the adverb ''bien'' is used. In English, I'm good, which uses the linking verb ''am'', is followed by an adjective rather than an adverb.
+
+
+
+{{note|2|2}} ''Est-ce que...'' doesn't mean anything (like the Spanish upside down question mark) and is used to start a question.<br>
+This can be used in a similar manner to ''do'' in English. Instead of ''You want it?'', one can say ''Do you want it?''
+
+
+
+{{note|3|3}} ''chez...'' is a preposition meaning ''at the house of...''. ''Chez moi'' is used to say ''at my place''. ''Chez [''name'']'' is used to say ''at [''name'''s] place''. 
+<p>
+{{note|4|4}} ''on...'' can mean ''we'' or ''one''.
+
+
+
+
+<noinclude>{{French/Lessons/Introductory}}[[{{BOOKCATEGORY}}/Lessons/Introductory|Review]]</noinclude>

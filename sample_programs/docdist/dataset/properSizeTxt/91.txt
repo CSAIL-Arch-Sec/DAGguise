@@ -1,0 +1,171 @@
+<gallery mode="packed" heights="300">
+File:Xbox-360-Pro-wController.jpg|An original Xbox 360 Premium.
+File:Xbox-360-Arcade-wController.jpg|An Xbox 360 Arcade, with no Hard Drive.
+File:Xbox-360-Elite-wController.jpg|An Xbox 360 Elite
+File:Microsoft-Xbox-360-E-wController.jpg|An Xbox 360 E. The style of this console is very close to it's successor the Xbox One.
+</gallery>
+__NOTOC__
+==History==
+===Development===
+Development on the Xbox 360 started in 2003 as project Xenon.<ref>{{cite web |title=The Story Behind the Xbox |url=https://www.pcmag.com/news/the-story-behind-the-xbox |website=PCMAG |accessdate=14 November 2020 |language=en}}</ref> From 2003 to 2005 the dev kit for the Xbox 360 was based on an Apple PowerMac G5 desktop computer.<ref>{{cite web |title=The Mac That Helped Build The Xbox Rides Again |url=https://hackaday.com/2019/01/24/the-mac-that-helped-build-the-xbox-rides-again/ |website=Hackaday |access-date=7 December 2020 |date=24 January 2019}}</ref><ref>{{cite web |title=The SDK “Power Mac G5” for the Xbox 360 |url=https://www.journaldulapin.com/2019/01/21/power-mac-g5-sdk/ |website=Le journal du lapin |access-date=7 December 2020 |language=fr |date=21 January 2019}}</ref>
+
+The Xbox 360 exterior was designed by three different studios.<ref>{{cite web |last1=staff |first1=CNET Australia |title=Xbox 360 hardware specs in detail |url=https://www.cnet.com/news/xbox-360-hardware-specs-in-detail/ |website=CNET |accessdate=9 November 2020 |language=en}}</ref>
+
+===Launch===
+The Xbox 360 was launched on November 22nd, 2005.<ref>{{cite news |title=Microsoft Announces Xbox 360 Day One Launch Lineup — Strongest Launch in the History of Video Game Consoles |url=https://news.microsoft.com/2005/11/14/microsoft-announces-xbox-360-day-one-launch-lineup-strongest-launch-in-the-history-of-video-game-consoles/ |accessdate=28 October 2020 |work=Stories |date=14 November 2005}}</ref>
+
+===Prime===
+
+Early Xbox 360 consoles would often scratch disks or overheat to the point of bricking the console.<ref>{{cite web |title=Engineering Disaster: The Xbox 360 Red Ring of Death |url=https://www.designnews.com/engineering-disaster-xbox-360-red-ring-death |website=designnews.com |accessdate=13 November 2020 |language=en |date=26 October 2016}}</ref> In light of high failure rates, in 2007 Microsoft extended the Warranty of the Xbox 360 to three years, ultimately costing Microsoft $1.15 billion dollars.<ref name="Win Balmer"/><ref>{{cite web |last1=Gilbert |first1=Ben |title=How Microsoft spent $1 billion on a simple mistake with its best game console |url=https://www.businessinsider.com/red-ring-of-death-recall-2016-4 |website=Business Insider |accessdate=13 November 2020}}</ref> The sheer scale of the recall was so massive that a significant portion of that cost, $240 million dollars, was solely dedicated to paying for the logistics of shipping consoles.<ref name="Win Balmer">{{cite news |title=Steve Ballmer saved the Xbox brand |url=https://www.windowscentral.com/peter-moore-xbox-one-wouldnt-have-happened-if-steve-ballmer-had-not-saved-xbox-360 |access-date=4 March 2021 |work=Windows Central |date=3 July 2015}}</ref> Legal action resulting from the high failure rates on the Xbox 360 would eventually lead to the US Supreme Court case ''Microsoft Corp. v. Baker''.<ref>{{cite web |title=Microsoft Corp. v. Baker |url=https://harvardlawreview.org/2017/11/microsoft-corp-v-baker/ |website=harvardlawreview.org |access-date=25 November 2020}}</ref>
+
+The Xbox 360 S was released in 2010.<ref name="Xbox evolution">{{cite web |title=The Evolution Of Xbox Consoles |url=https://www.gamespot.com/gallery/the-evolution-of-xbox-consoles/2900-1322/#9 |website=GameSpot |accessdate=13 November 2020}}</ref> The price of Xbox Live also increased in 2010.<ref>{{cite news |title=Xbox Live Price Increase Coming November 1 |url=https://kotaku.com/xbox-live-price-increase-coming-november-1-5625516 |access-date=22 January 2021 |work=Kotaku |language=en-us}}</ref><ref>{{cite news |last1=Carpenter |first1=Nicole |title=The price of Xbox Live Gold is going up |url=https://www.polygon.com/2021/1/22/22244203/xbox-live-gold-price-increase-subscription |access-date=22 January 2021 |work=Polygon |date=22 January 2021 |language=en}}</ref>
+
+The Xbox 360 E was released in 2013.<ref name="Xbox evolution"/>
+
+===Legacy===
+Xbox 360 production ceased in 2016.<ref>{{cite news |title=Xbox 360 games console discontinued by Microsoft |url=https://www.bbc.com/news/technology-36097461#:~:text=Microsoft%20has%20said%20it%20is,10%20years%20after%20it%20launched.&text=Mr%20Spencer%20said%20all%20remaining,be%20supported%20for%20existing%20users. |accessdate=28 October 2020 |work=BBC News |date=20 April 2016}}</ref> 85 million Xbox 360 consoles were sold.<ref>{{cite web |title=The bestselling consoles of all time |url=https://www.digitaltrends.com/gaming/bestselling-consoles-of-all-time/ |website=www.digitaltrends.com |accessdate=14 November 2020}}</ref>
+
+==Technology==
+===Compute===
+The Xbox 360 is powered by a custom  three core IBM 64-bit PowerPC CPU named '''Xenon''', clocked at 3.2 gigahertz.<ref name="How Xbox360 works"/><ref name="Inside Xbox Xenon">{{cite web |last1=Stokes |first1=Jon |title=Inside the Xbox 360, Part II: the Xenon CPU |url=https://arstechnica.com/features/2005/06/xbox360-2/3/ |website=Ars Technica |accessdate=9 November 2020 |language=en-us |date=2 June 2005}}</ref> The CPU has 165 million transistors.<ref name="How Xbox360 works"/> The CPU also contains eFuses to prevent firmware rollbacks.<ref>{{cite web |title=eFuse blown, 360 homebrew now possible |url=https://www.engadget.com/2007-08-24-efuse-blown-360-homebrew-now-possible.html |website=Engadget |accessdate=9 November 2020 |language=en}}</ref>
+
+The Xbox 360 GPU is a custom ATI design clocked at 500 megahertz, with 10 megabytes of dedicated RAM.<ref name="How Xbox360 works"/>
+
+The Xbox 360 has 512 megabytes of unified GDDR3 RAM clocked at 700 megahertz.<ref name="Untapped Cell">{{cite web |title=The Untapped Potential of the PS3’s CELL Processor And How Naughty Dog Tamed The Beast |url=https://gamingbolt.com/the-untapped-potential-of-the-ps3s-cell-processor-and-how-naughty-dog-tamed-the-beast |accessdate=9 November 2020}}</ref><ref name="How Xbox360 works">{{cite web |title=How Xbox 360 Works |url=https://electronics.howstuffworks.com/xbox-three-sixty.htm |website=HowStuffWorks |accessdate=9 November 2020 |language=en |date=29 November 2006}}</ref> The Xbox 360 RAM is shared between the CPU and GPU.<ref name="Untapped Cell"/>
+
+===Storage===
+
+Most Xbox 360 units have removable hard drives.<ref>{{cite web |title=Xbox Support |url=https://support.xbox.com/en-US/help/xbox-360/accessories/add-remove-hard-drive |website=support.xbox.com |accessdate=13 November 2020}}</ref>
+
+===Software===
+Despite using a 64-bit CPU, ExtremeTech suggests that much of the code for the Xbox 360 was 32 bit.<ref>{{cite web |title=How Microsoft Built Xbox 360, Xbox Compatibility Into the Xbox One - ExtremeTech |url=https://www.extremetech.com/gaming/257851-microsoft-built-xbox-360-xbox-compatibility-xbox-one |website=www.extremetech.com |accessdate=9 November 2020}}</ref>
+====Xbox Live====
+In 2020 Xbox Live cloud saves were made available to free Xbox Live users on the Xbox 360.<ref>{{cite web |title=Xbox 360 Gets New Feature 15 Years Later |url=https://comicbook.com/gaming/news/xbox-360-cloud-saves-update-feature/ |website=GAMING |accessdate=13 November 2020 |language=en}}</ref>
+
+==Notable Games==
+===2005===
+[[File:Tokyo Game Show 2005 XBox 360 Press Conference.jpg|thumb|Xbox 360 at the Tokyo Game Show in 2005.]]
+* [[w:Perfect Dark Zero|Perfect Dark Zero]]
+* [[w:Kameo|Kameo]]
+* [[w:Project Gotham Racing 3|Project Gotham Racing 3]]
+* [[w:Geometry Wars: Retro Evolved|Geometry Wars: Retro Evolved]]
+
+===2006===
+* [[w:Gears of War (video game)|Gears of War]]
+* [[w:Viva Piñata (video game)|Viva Piñata]]
+* [[w:Blue Dragon (video game)|Blue Dragon]] - JRPG
+
+===2007===
+[[File:Bill Gates Halo 3 launch.jpg|thumb|Bill Gates sells the first official copy of ''Halo 3'' on launch night.]]
+* [[w:Halo 3|Halo 3]]
+* [[w:Lost Odyssey|Lost Odyssey]] - JRPG
+* [[w:Mass Effect (video game)|Mass Effect]]
+* [[w:Jetpac Refuelled|Jetpac Refuelled]]
+* [[w:Forza Motorsport 2|Forza Motorsport 2]]
+* [[w:Fuzion Frenzy 2|Fuzion Frenzy 2]]
+====Shadowrun====
+One of the first games to have cross platform multiplayer between Xbox 360 and PC.<ref>{{cite news |title=Why Shadowrun 2007 Featured PC/Xbox Crossplay — IGN Unfiltered - IGN |url=https://www.ign.com/articles/2017/12/21/why-shadowrun-2007-featured-pcxbox-crossplay-a-ign-unfiltered |access-date=29 January 2021 |language=en}}</ref>
+
+Read more about the 2007 [[w:Shadowrun (2007 video game)|Shadowrun]] video game on Wikipedia.
+
+===2008===
+[[File:PAX 2008 - Gears of War 2 (2810850802).jpg|thumb|''Gears of War 2'' at PAX 2008]]
+* [[w:Banjo-Kazooie: Nuts & Bolts|Banjo-Kazooie: Nuts & Bolts]]
+* [[w:Fable II|Fable II]]
+* [[w:Gears of War 2|Gears of War 2]]
+* [[w:Too Human|Too Human]]
+* [[w:Go! Go! Break Steady|Go! Go! Break Steady]]
+
+===2009===
+* [[w:Halo 3: ODST|Halo 3: ODST]]
+* [[w:Halo Wars|Halo Wars]]
+* [[w:Earth Defense Force 2017|Earth Defense Force 2017]]
+* [[w:Forza Motorsport 3|Forza Motorsport 3]]
+<gallery mode="packed" heights="150px">
+File:Dan Greenawalt unveiling Forza Motorsport 3 at E309.jpg|''Forza Motorsport 3'' at E3 2009.
+File:E3 natal.jpg|''Project Natal'' at E3 2009
+File:Halo Reach-e3 2009 trailer.jpg|''Halo Reach'' trailer at E3 2009.
+</gallery>
+
+===2010===
+[[File:Microsoft xbox promotiontruck.jpg|thumb|An Xbox 360 promotion truck.]]
+* [[w:Halo: Reach|Halo: Reach]]
+* [[w:Fable III|Fable III]]
+* [[w:Alan Wake|Alan Wake]]
+
+===2011===
+* [[w:Gears of War 3|Gears of War 3]]
+* [[w:Insanely Twisted Shadow Planet|Insanely Twisted Shadow Planet]]
+* [[w:Forza Motorsport 4|Forza Motorsport 4]]
+
+===2012===
+* [[w:Halo 4|Halo 4]]
+===2021===
+====Goldeneye 007 Remake====
+A nearly completed and highly anticipated, yet ultimately unreleased remasted version of Rare's innovative N64 title ''Goldeneye 007'' was leaked in February 2021.<ref>{{cite news |last1=Machkovech |first1=Sam |title=“90 bugs left”: Rare devs talk about the nearly completed Goldeneye 007 remake [Updated] |url=https://arstechnica.com/gaming/2021/02/ex-rare-devs-open-up-about-the-canceled-goldeneye-007-remake-for-xbox-360/ |access-date=24 February 2021 |work=Ars Technica |date=8 February 2021 |language=en-us}}</ref><ref>{{cite news |title=Canceled Xbox 360 GoldenEye Remaster Is In The Wild |url=https://kotaku.com/canceled-xbox-360-goldeneye-remake-is-in-the-wild-1846190800 |access-date=24 February 2021 |work=Kotaku |language=en-us}}</ref>
+
+==Gallery==
+===Consoles===
+<gallery mode="slideshow">
+File:Microsoft-Xbox-360-Pro-Console-FL.jpg|Xbox 360 Pro front
+File:Microsoft-Xbox-360-Pro-Console-BR.jpg|Xbox 360 Pro rear, with no HDMI.
+File:Microsoft-Xbox-360-Elite-Console-FL.jpg|Elite front
+File:Microsoft-Xbox-360-Elite-Console-BR.jpg|Elite rear, with HDMI.
+File:Xbox-360S-Console-Set.jpg|An Xbox 360 S
+File:Xbox-360-S-Console-Back.jpg|Xbox 360 S rear. Note the new Kinect Port.
+File:Xbox-360-E-HardDrive-Bay.jpg|The redesigned 360 E Hard Drive bay.
+File:Xbox-360-E-Flat-Front.jpg|360 E front
+File:Xbox-360-E-Inputs-&-Outputs.jpg|360 E IO. Note the new Kinect jack, as well as the new composite and audio minijack.
+</gallery>
+
+===Controllers & Accessories===
+<gallery mode="slideshow">
+File:Xbox-360-Wired-Controller.jpg|Wired controller.
+File:Xbox 360 Chatpad+controller.png|The Xbox 360 controller with chatpad attached
+File:Xbox 360 special edition transforming dpad controller.jpg|A special edition transforming d-pad controller.
+File:DJ-Hero-Turntable.jpg|DJ Hero Turntable
+File:Xbox-360-Headset-White.jpg|Xbox 360 Headset
+File:Xbox-360-Headset-Mk2-Black.jpg|2nd Gen Headset
+File:Xbox-360-WiFi-Adapter-Original.jpg|Xbox 360 WiFi Adapter
+File:Xbox-360-Kinect-Standalone.png|The Xbox 360 Kinect
+File:DVD-ROM for Xbox 360.jpg|An Xbox 360 DVD-ROM.
+File:Xbox Live Vision at E3 2006.jpg|Xbox accessories at E3 2006
+File:Microsoft-Xbox-360-HD-DVD-Drive-Front.jpg|The HD DVD add on for the Xbox 360.
+File:Microsoft-Xbox-360-HD-DVD-Drive-Back.jpg|The HD DVD add on rear.
+File:Xbox-360-HD-Transfer-Cable-Gray.jpg|Xbox 360 HD Transfer Cable
+File:Microsoft-Xbox-360-Hard-Drives.jpg|Xbox 360 Hard Drive
+File:Xbox-360-512MB-MemCard.jpg|A 512MB memory card for the Xbox 360.
+File:Xbox-360-Play&Charge-Kit-White.jpg|Xbox 360 Play & Charge Kit
+File:Microsoft-Xbox-360-Faceplate-Blue-Hotrod.jpg|Xbox 360 Faceplate
+</gallery>
+
+===Technology===
+<gallery mode="slideshow">
+File:Ic-photo-ATI--(X-BOX 360-GPU).jpg|The custom ATI Xenos GPU used by the Xbox 260.
+File:KL Microsoft XBOX 380 CPU ES.jpg|90nm 2005 Engineering Sample of the IBM "Xenon" CPU for the Xbox 360 
+File:XCPU-ES Xenon.jpg|Clearer illustration of the same "Xenon" Engineering sample.
+File:XCPU Zephyr.jpg|Illustration of the 90nm 2006 "Zephyr" CPU revision
+File:XCPU Falcon.jpg|Illustration of the 65nm 2007 "Falcon" CPU revision
+File:XCGPU.jpg|Illustration of the 45nm 2010 "XCGPU" which contains the CPU and GPU on the same die, as well as 10Mb of eDRAM in the smaller die.
+File:PopcornBGA.jpg|Popcorn BGA on an Xbox360 GPU.
+File:Xbox 360 devkits.jpg|Two Xbox 360 Development Kits. Note the extended tops.
+File:Ring of Death (208136999).jpg|The infamous Red Ring of Death
+File:Xbox 360 Error codes.svg|How to read Xbox 360 error codes
+File:Power Mac G5 hero right.jpg|A 1.8 gigahertz Apple Power Macintosh G5, similar to the 2 gigahertz ones that served as the basis for the original Xbox 360 development kits.
+File:XBox 360 bandwidth and hardware.png|A diagram of how memory works on the Xbox 360.
+File:Scratchedxboxdisc.jpg|Early Xbox 360 DVD drives could scratch disks, as seen here.
+</gallery>
+
+==Preservation==
+There is a [[Xbox 360|WikiBook]] on the Xbox 360, with notes on development, undocumented commands, and motherboard replacement.
+==External Resources==
+{{wikipedia|Xbox 360}}
+{{commonscat|Xbox 360}}
+* [https://www.videogameconsolelibrary.com/pg00-xbox_360.htm#page=reviews Video Game Console Library] - Xbox 360 page with technical info.
+
+==References==
+{{WikipediaCredit}}<!--Games List-->
+{{reflist}}
+
+{{status|100%}}
+{{BookCat}}

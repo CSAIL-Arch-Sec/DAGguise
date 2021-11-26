@@ -1,0 +1,52 @@
+Project monitoring is identical with [[Development Cooperation Handbook/Designing and Executing Projects/Project Execution and Control/Project performance measurement|project performance measurement]] and belongs to the [[http://en.wikibooks.org/wiki/Development_Cooperation_Handbook/Designing_and_Executing_Projects/Project_Execution_and_Control|project execution and control]] phase of project management. Monitoring and reporting the project performance is to review the project progress against expected milestones, timelines and costs. The purpouse of reporting is to share the information required to manage Manage CSSQ (Cost, Scope, Schedule, and Quality). . With reference to tasks, actions and projects, monitoring is looking at what is currently happening. It is functional to the objective of delivering the project outputs with the expected quality and within the time and cost constrains defined in the project plan document. The deliverable of project appraisal is the Project Status (or progress) report&nbsp; 
+
+
+
+
+[[File:Monitoring and Controlling Process Group Processes.jpg|thumb|320px|Monitoring and controlling process group processes]]
+
+[[Image:Project Management (project control).png|thumb|240px|Monitoring and controlling cycle]]
+
+
+<br> 
+
+[[Project evaluation]] is not a part of project execution but is a different phase of the [[Designing and Managing Programmes|programme cycle]]. Project evaluation is not done by the project manager but by the project sponsor (e.g. the Programme Manager, etc.) or by someone supporting her. It requires Project Status reports as a fundamental input. Its outputs are projects evaluation reports and program lessons learned. Evaluation is based on monitoring but adds a "judgment" on the correlation between activities performed, outputs delivered, changes induced objectives achieved and impacts obtained upon the factors generating the problems and opportunities that motivated the project. While the delivery of project outputs is the responsibility of the project team, the achievements of project outcomes and objectives depends also by the way stakeholders utilize the project outputs to interact with the rest of the community and contribute to achieve the project objectives. 
+
+<br> 
+
+[[Monitoring]] is looking at what is going on. With reference to tasks, actions and projects, monitoring is looking at what is currently happening. for example: Are the people working at their tasks? Are these tasks being executed? Are the expected deliverables being delivered? Is the money being spent? Are the procurements being consigned to the team? Are the outputs consigned to the beneficiaries?. Through monitoring we arrive to an "assessment of facts". 
+
+As we have mentioned elsewhere, in a projectised organisation, programmes are implemented through projects. And in order to implement projects, teams carry out activities and tasks. Before beginning a project, the project manager, along with his team, makes a work plan that details the timelines of activities, individual responsibilities in the team and budget allocations for each activity. The work plan helps the team in having clarity on what they are doing, on their timelines to complete activities and tasks and on what their budgets allocations are. If you are a project manager, you need the workplan to monitor whether your team is implementing the project as planned and is spending within stipulated budgets. Monitoring is thus an integral activity of project management and implementation. The activity of establishing a monitoring and evaluation system is an activity in itself and must be planned well. 
+
+In order to make corrective measures, it is important that the information emerging from monitoring is analysed at the end of each project year. This exercise of analysing monitoring information is called a monitoring review. The objective of monitoring review is to empower staff in delivering programmes effectively. The learning that emerges from a monitoring review must be integrated into current programme implementation. In order that the learning become integrated into new programming, the information must be shared, among the wider programme team, during country learning reviews usually held every alternate year. 
+
+<br> 
+
+[[Evaluation]] is based on monitoring but adds a "judgment". Is what happening supposed to happen? What we are doing is it the right thing? What we have done, was it done right? Do the actions follow the plan? Are the employees doing their tasks as they were expected to do? Are the tasks managers working efficiently? Is the team working efficaciously? Was the plan well conceived? Are there new factors taking place that require modifications in the plan? Are the project deliverable leading to the expected project outputs? Are the project outputs leading to the expected project objectives? What are the outcomes and the impacts of the project? Is the project contributing as intended to the wider programme to which it was a component? Are we learning from the experiences? 
+
+These judgment are possible as far as there is the possibility of comparing what is happening to what was expected to happen: therefore in order to carry out an evaluation we need at least two commonly visualized scenarios: the one that was expected (the program/project plan) and the one that is factual (the facts resulting from monitoring). When comparison highlights difference between expectations and results, evaluation will attempt to find the causes of such discrepancies, attributing them either to lack of capacity of the implementing team, or lack of vision of planner, or to unexpected external factors, or other factors as it may be the case. If the project is still running evaluations report will possibly indicate how to redesign the remaining actions in order to conciliate expectations and results. If the project is already completed, evaluations will indicate the lessons learned from the project to be considered in the successive planning and implementation of similar projects. Evaluations are therefore an indispensable means for .programme cycle management and constitute an essential element of its actions. 
+
+While implementing a project the project team always need to carry on a certain level of monitoring and evaluation upon its own activities in order to constantly re-orient the work towards the expected results (see the section on project execution and control). But self evaluation of the implementing team is not sufficient because development projects are part of a wider programme and therefore it is necessary that programme stakeholders understand how efficiently and efficaciously the resources devoted to the project have been used for the achievement of the expected project outcomes and impacts. Evaluation therefore becomes a shared effort between various project stakeholders who want to understand how successful was a project and learn what are the factors that have to be considered in order to manage successfully follow up activities or similar projects in other contexts. While designing a new project and new programmes the lessons learnt from the evaluation of past actions is fundamental. (See also [[Clarifying the relationship: Responsibilities of Project Managers and programme Managers|clarifying the relationship: Responsibilities of Project Managers and programme Managers]]). 
+
+<br> 
+
+In [[Designing and Managing Programmes|programme cycle management]], evaluation is the last stage of each ending cycle and the first one of each new cycle. 
+
+== <br>Indicators  ==
+
+The purpose of evaluations is to empowering the different stakeholders to understand and learn all the project implications. Since evaluations are judgments, it is important that these judgments are based on documented facts and are interpreted at the light of values amongst project major stakeholders. If judgments happen to be perceived as arbitrary and subjective they cannot lead to meaningful evaluations. While preparing a project it is therefore important to arrive at a consensus upon what will be measured during monitoring and evaluation phases, how it will be measured and against what parameters these measures will be interpreted. What is going to be measured is called an "indicator". A constellation of indicators quantifies qualitative processes and facilitate the description of the complex balance of social systems. Development projects aim at improving the quality of life of the beneficiaries. And so the big question is "how to measure objectively and transparently the "quality of life"? Only quantities can be measured objectively, judgment about qualities tent to be subjective to the value system of the judge. So in order to be "as objective as possible" we have to identify a constellation of quantitative parameters that can be actually measured and that have a logical relationship with the quality we intend to evaluate. Like in the case of the "health of a person" (that is a quality) we can use a number of objectively verifiable parameters that can help understanding the health balance (various physical analysis, psychological responses, etc.). In the same manner we can identify a series of economic, social and cultural parameters that can through light on the quality of life of the beneficiary population. 
+
+<br>There are different kind of evaluations according if it is with reference to the effectiveness or the efficiency of the action, i.e. with reference of what qualitative difference has it made to the life of the beneficiaries and according to what qualitative standard has the action been carried out. (see later sections of this chapter). Accordingly in the logical framework we describe different indicators (and different sources of information) as they are chosen in order to evaluate how far the project was able to achieve the objectives (specific and overall), to produce the outputs (and their quality standard) and carry out the intended activities (with what level of efficiency). 
+
+<br>In order to through light on project effectiveness and efficiency indicators should respond to certain "validity" criteria, i.e. they should be: 
+
+*measurable, 
+*understandable, 
+*acceptable (by all stakeholders), 
+*pertinent.
+
+<br> More in definition of [[Indicators]] <br> 
+
+<br>
+
+{{BookCat}}

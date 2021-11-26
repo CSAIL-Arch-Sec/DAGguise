@@ -1,0 +1,507 @@
+<!--Аа Бб Вв Гг Ґґ Дд Ее Єє Жж Зз Ии Іі Її Йй Кк Лл Мм Нн Оо Пп Рр Сс Тт Уу Фф Хх Цц Чч Шш Щщ Юю Яя Ьь-->
+To add to this page, go to [[../../Template:Steps | Template:Steps]].  Click on ''edit this page'', and then highlight and copy the entire template.  Return to this page and click on ''edit this page''.  Go to the end of the page and paste the template.  Update the template with your description of the steps.
+
+== Pokhid Skladniy or Triple Step ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Pokhid Skladniy; Potriyniy Krok; Pereminniy Krok; Pokhid Tankoviy Skladaniy; Pokhid Tankoviy Skladniy
+|- 
+! Cyrillic
+| Похід складний
+|-
+! English Name
+| Triple Step; 1-2-3; Plain Step; Basic Step
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is 1-2-3-pause or 1-and-2-pause.
+|-
+! Opening Position
+| Sixth position.  Step is performed on the balls of both feet.
+|}
+
+=== Description ===
+
+# Before the first beat, raise the right foot.
+# On '''one''', hop onto the right foot.  This is often described as a big step to the right.
+# On '''two''' (or and), bring the left foot next to the right foot and step onto the left foot.  This is often described as a little step.
+# On '''three''' (or two, if using a 1-and-2-and count), step back onto the right foot.
+# There is a brief pause on the fourth count, but most dancers probably will not notice it.
+
+Repeat on the next beat, starting with the left foot.
+
+== Bihunets or Triple Step ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Bihunets; sometimes referred to as a travelling pokhid skladniy
+|- 
+! Cyrillic
+| Бігунець
+|-
+! English Name
+| Triple Step; 1-2-3; Plain Step; Basic Step
+|-
+! Direction of the Step
+| Travelling
+|- 
+! Music
+| One step per beat.  Count is 1-2-3-pause or 1-and-2-pause.
+|-
+! Opening Position
+| Sixth position.  Step is performed on the balls of both feet.
+|}
+
+=== Description ===
+
+# Before the first beat, raise the right foot.
+# On '''one''', take a large step forward with the right foot.
+# On '''two''' (or and), bring the left foot forward and only slightly in front of the right foot, and step onto the left foot.  This is often described as a little step.
+# On '''three''' (or two, if using a 1-and-2-and count), take another small step forward onto the right foot.
+# There is a brief pause on the fourth count, but most dancers probably will not notice it.
+
+Repeat on the next beat, starting with the left foot.
+
+Most of the forward movement in this step occurs during the initial large step forward on the first count.
+
+== Prytup or Stamp ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Prytup.
+|- 
+! Cyrillic
+| Притуп
+|-
+! English Name
+| Stamp
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is and-1.
+|-
+! Opening Position
+| First, third, or sixth position.
+|}
+
+=== Description ===
+# On the last '''and''' of the previous beat, raise right foot.
+# On '''one''' stamp the right foot, placing it back in its original position.
+
+== Potriinyi Prytup or Triple Stamp ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Potriinyi Prytup
+|- 
+! Cyrillic
+| Пoтрійний Притуп
+|-
+! English Name
+| Triple Stamp
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is 1-and-2-and or 1-2-3-pause.
+|-
+! Opening Position
+| Sixth position, knees slightly bent in a demi-plié.
+|}
+
+=== Description ===
+# On '''one''' stamp the right foot.
+# On '''and'''(or two) stamp the left foot.
+# On '''two''' (or three) stamp the right foot.
+# On '''and''' pause.
+
+Repeat on the next beat, beginning with the left foot.
+
+==  Tynok ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Tynok
+|- 
+! Cyrillic
+| Тинок
+|-
+! English Name
+| Tynok (Little Fence or Little Hedge)
+|-
+! Direction of the Step
+| Stationary or Travelling
+|- 
+! Music
+| One step per beat.  Count is 1-2-3-pause.
+|-
+! Opening Position
+| Third position.  Step is performed on the balls of both feet.
+|}
+
+=== Description ===
+# Before the first beat, sweep right foot in an arc from left to right.
+# On '''one''' step onto the right foot, as though stepping your foot over a low picket fence.
+# On '''two''' sweep the left foot in front and across the right foot, as though bringing the left foot over the fence.  Lead with the heel to maintain the turn-out.  Raise the right foot slightly.
+# On '''three''' step back on to the right foot, placing it back in its original position.
+# On '''pause''' prepare to repeat the step to the left.
+
+Repeat counts 1,2,3 and the pause, alternating sides.  Repeat on the next beat, beginning with the left foot.
+
+Some authors distinguish different versions of tynok, based on the height of sweeping motions.  A low sweeping motion, where the feet are kept close to the ground, is called "small" or "maliy."  A medium sized sweeping motion, where the feet are brought about mid-calf height is called an intermediate tynok or "tynok seredniy."  A large tynok, where the feet are brought to about knee height, is performed only by men and boys and referred to as "tynok velykiy."
+
+When performed as a travelling step, most of the forward movement occurs during the initial sweep before the count of '''one'''.  The motion is to leap forward onto right foot, cross the left foot over, and step again onto the right foot; then, leap forward with the left foot, cross the right foot over, step onto the left foot.
+
+=== Arm Movement ===
+Tynok may be performed with hands on hips, or by opening the arms to second position on the odd-numbered counts, and then closing them to the waist on the even-numbered counts.
+
+==  Vykhyliasnyk or Toe-Heel ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Vykhyliasnyk
+|- 
+! Cyrillic
+| Вихилясник
+|-
+! English Name
+| Toe-heel
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is 1-2.
+|-
+! Opening Position
+| Third or sixth position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# Weight is on the left foot.  On '''one''' hop on the left foot.  At the same time, extend the right foot to the right side, turn the foot under, and place the toes on the ground, heel turned up.  The foot should be in slightly extended.
+# On '''two''' hop on the left foot.  At the same time, turn the right foot up, and place the heel on the ground in the same spot as the toes, with the toes facing up and the foot flexed.
+
+Repeat, hopping onto the right foot and repeating the toe-heel movement with the left foot.
+
+=== Variations ===
+The toe-heel movement can be performed without the hop on the supporting leg.
+
+'''Toe-heel, 1-2-3''' (vykhyliasnyk skladnyi) - perform the toe-heel movement on the first count.  On the next count, perform pokhid skladnyi, leading with the right foot.  Repeat, shifting weight to the right foot and performing the movement with the left foot.
+
+'''Toe-heel, triple stamp''' (vykhyliasnyk z potriinym prytupom) - perform the toe-heel movement on the first count.  On the next count, perform a triple-stamp, leading with the right foot.  Repeat, shifting weight to the right foot and performing the movement with the left foot.
+
+'''Toe-heel with feet close together''' (nocok-kabluk) - One '''one''' hop on the left foot, and at the same time place the right toes on the ground, next to the heel of the left foot.  On '''two''' hop on the left foot, and at the seme time place the heel of the right foot next to the toes of the left foot.
+
+==  Uhynannya or Knee-kick ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Uhynannya or Vyhynannya
+|- 
+! Cyrillic
+| Угинання
+|-
+! English Name
+| Knee-kick
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is 1-2.
+|-
+! Opening Position
+| Third position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# Weight is on the left foot.  On '''one''' hop on the left foot.  At the same time, bend the right leg and place the heel of the right foot so that it touches the knee of the left leg, just under the kneecap.  Toes should be pointed.  Knees should be turned out.
+# On '''two''' hop on the left foot.  At the same time, extend the right foot forward and at a slight angle, toes pointed.  The upper part of the right leg should not change position while the leg is extended.
+
+Repeat, hopping onto the right foot and repeating the knee-kick movement with the left foot.
+
+=== Variation ===
+'''Knee-kick, 1-2-3''' (uhynannya skladnyi) - perform the knee-kick movement on the first count.  On the next count, perform pokhid skladnyi, leading with the right foot.  Repeat, shifting weight to the right foot and performing the movement with the left foot.
+
+==  Vypad or Stamp-Kick/Touch-Point ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Vypad
+|- 
+! Cyrillic
+| Випад
+|-
+! English Name
+| Stamp-kick or touch-point
+|-
+! Direction of the Step
+| Stationary or travelling
+|- 
+! Music
+| One step per beat.  Count is 1-2
+|-
+! Opening Position
+| Third position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# Weight is on the left foot.  On '''one''' step onto the right foot.  Weight is placed on the whole foot.  The foot should be placed slightly in between third and fourth positions.
+# On '''two''' hop on the left foot.  At the same time, raise the right foot forward and on a slight angle.  The foot should be about knee height.  Toes should be pointed.
+
+Vypad is usually followed by one beat of pokhid skladniy, performed to the right.  Then the dancer switches the working and supporting leg, and performs vypad skladniy to the left side.  Vypad may also be used in combination with other steps.
+
+== Back-kick ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| 
+|- 
+! Cyrillic
+| 
+|-
+! English Name
+| Back-kick
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is 1-2
+|-
+! Opening Position
+| Third position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# Weight is on the left foot.  On '''one''' hop on the left foot.  At the same time, bend the right leg and place the right foot behind the left knee.  Toes should be pointed.  Knees should be turned out.
+# On '''two''' hop on the left foot.  At the same time, extend the right foot forward and at a slight angle, toes pointed.  The upper part of the right leg should not change position while the leg is extended.
+
+Repeat, hopping onto the right foot and repeating the back-kick movement with the left foot.
+
+== Cross-kick ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| 
+|- 
+! Cyrillic
+| 
+|-
+! English Name
+| Cross-kick
+|-
+! Direction of the Step
+| Stationary
+|- 
+! Music
+| One step per beat.  Count is 1-2
+|-
+! Opening Position
+| Third position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# On '''one''' step the right foot across and in front of the left leg.  At the same time, bend the left leg and place the left foot behind the right knee.  Toes should be pointed.  Knees should be turned out.
+# On '''two''' hop on the right foot.  At the same time, extend the left foot forward and at a slight angle, toes pointed.  The upper part of the left leg should not change position while the leg is extended.
+
+Repeat, hopping onto the left foot and repeating the back-kick movement with the right foot.
+
+== Merezhka ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Merezhka
+|- 
+! Cyrillic
+|Мережка
+|-
+! English Name
+| Merezhka; 1-2-side
+|-
+! Direction of the Step
+| Stationary or travelling
+|- 
+! Music
+| One step per beat.  Count is 1-2-3 or 1-and-2
+|-
+! Opening Position
+| First position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# On '''one''' step on to the right foot.
+# On '''two''' step on to the left foot.
+# On '''three''' step on to the right foot and extend the left foot towards the side, toes pointed.
+
+Repeat, stepping onto the left foot.
+
+== 1-2-Front ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+|
+|- 
+! Cyrillic
+| 
+|-
+! English Name
+| 1-2-Front
+|-
+! Direction of the Step
+| Stationary or travelling backwards
+|- 
+! Music
+| One step per beat.  Count is 1-2-3 or 1-and-2
+|-
+! Opening Position
+| First position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# On '''one''' step on to the right foot.
+# On '''two''' step on to the left foot.
+# On '''three''' step on to the right foot and extend the left foot towards the front, toes pointed.
+
+Repeat, stepping onto the left foot.
+
+== Vidryvanka Zvychaina or Kicks==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Vidryvanka Zvychaina
+|- 
+! Cyrillic
+|Відриванка Звичайна
+|-
+! English Name
+| Kicks (standing)
+|-
+! Direction of the Step
+| Stationary or travelling backwards
+|- 
+! Music
+| One step per beat.  Count is 1-2
+|-
+! Opening Position
+| First position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# On '''one''' hop on to the right foot and extend the left foot forward, toes pointed.
+# On '''two''' hop on to the left foot and extend the right foot forward, toes pointed.
+
+== Dorizhka or Little Step ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Dorizhka
+|- 
+! Cyrillic
+| Дорижка
+|-
+! English Name
+| Side-step; Little Step
+|-
+! Direction of the Step
+| Travelling
+|- 
+! Music
+| One step per beat.  Count is 1-and-2-and
+|-
+! Opening Position
+| First position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# On '''one''' take a small step to the right with the right foot.  Weight is on the left foot.
+# On '''and''' bring the left foot up to meet the right foot.
+# On '''two''' take a small step to the right with the right foot.  Weight is on the left foot.
+# On '''and''' bring the left foot up to meet the right foot.
+
+Step may also be performed travelling to the forward or backward.  It may be performed travelling to the left by reversing the working and supporting legs.
+
+== Pletenna or Back-step ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Pletenna; Dorizhka-nazad; Viryovochka
+|- 
+! Cyrillic
+|Плетення
+|-
+! English Name
+| Back-step
+|-
+! Direction of the Step
+| Stationary or travelling backwards
+|- 
+! Music
+| One step per beat.  Count is 1-and-2-and
+|-
+! Opening Position
+| Third position.  Step is performed on the balls of the feet.
+|}
+
+=== Description ===
+# Before the first beat, bring the right foot slightly in front.
+# On '''one-and''', bring the right foot up the front of the left leg, and then bring it down behind the left leg.  Shift weight onto the balls of the right foot.  Feet and knees are turned out.  The right foot should almost slide down the back of the left leg.
+# On '''two-and''', raise the left leg up the front of the right leg and then bring it down behind the right leg.
+
+== Holubtsi or Clicks ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| Holubtsi
+|- 
+! Cyrillic
+| Голубці
+|-
+! English Name
+| Clicks
+|-
+! Direction of the Step
+| Stationary or travelling sideways
+|- 
+! Music
+| One step per beat.  Count is 1-and-2-and.
+|-
+! Opening Position
+| First position.  
+|}
+
+=== Description ===
+# Before the first beat, shift weight onto the ball of the left foot.  Extend the right leg to the side.
+# On '''one-and''' hop upward on the left foot and beat the left heel against the right heel.  The left heel should move upwards to meet the right heel, which remains stationary.  Feet should be turned out in first position.  Land on the ball of the left foot.
+# On '''two-and''', repeat the movements of one-and.
+
+The step may be performed to the left, reversing the working and supporting legs.
+
+=== Male and Female Variations ===
+When performed by men, holubtsi are characterized by large leap upwards.  Both legs are bent at the knees.  The working leg is extended in a kick on landing.
+
+In contrast, when performed by women, holubsti are low to the ground and the legs are kept straight.  The step should appear light and dainty.
+
+== Cross-click ==
+{| border="1" cellspacing="0" cellpadding="5"
+! Ukrainian Name
+| 
+|- 
+! Cyrillic
+| 
+|-
+! English Name
+| Cross-click
+|-
+! Direction of the Step
+| Stationary or travelling sideways
+|- 
+! Music
+| One step per beat.  Count is 1-2.
+|-
+! Opening Position
+| First position.  
+|}
+
+=== Description ===
+# On '''one''', hop onto the ball of the right foot, crossing it in front of the left foot.  The left foot is extended to the side.
+# On '''two''', hop upward on the right foot and beat the heel of the right foot against the heel of the left foot.  The left leg remains stationary, while the right leg moves to meet the left leg.  Feet should be turned out in first position.  Land on the ball of the right foot.
+
+The step may be performed to the right, reversing the working and supporting legs.
+
+=== Male and Female Variations ===
+When performed by men, cross-clicks are characterized by large leap upwards.  Both legs are bent at the knees.  The working leg is extended in a kick on landing.
+
+In contrast, when performed by women, cross-clicks are low to the ground and the legs are kept straight.  The step should appear light and dainty.
+
+{{BookCat}}

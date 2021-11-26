@@ -1,0 +1,58 @@
+== Referencing for "Evidence in Economics" ==
+
+I noticed that some of the references in the References list repeat a few times (References 5, 7, 18, 19, 21; 12 and 14, etc). Since you are referencing to the same source each time in the text, I believe you can just reuse the same in-text reference so that there is only a single entry for each reference in the list at the end, to make things simpler. Let me know if you're okay with this, op - I can help you edit the citations/in-text citations! [[User:Gonkponk|Gonkponk]] ([[User talk:Gonkponk|discuss]] • [[Special:Contributions/Gonkponk|contribs]]) 09:55, 27 October 2020 (UTC)
+
+:Uhh this is pretty awkward, but @Gonkponk I just saw your message in the discussion after the edits but whoever wrote "evidence in economics" and "sociology", I have already made some edits to your sources that were repeated in the reference list, do comment if you find any issues with it! [[User:Gingerisadog3025|Gingerisadog3025]] ([[User talk:Gingerisadog3025|discuss]] • [[Special:Contributions/Gingerisadog3025|contribs]]) 04:58, 6 November 2020 (UTC)
+
+::No worries - as long as the references are formatted to your liking and correctly of course. [[User:Gonkponk|Gonkponk]] ([[User talk:Gonkponk|discuss]] • [[Special:Contributions/Gonkponk|contribs]]) 08:07, 8 November 2020 (UTC)
+
+::I wrote "evidence in economics": thanks so much @Gingerisadog3025, looks great! [[User:RandomOmellette|RandomOmellette]] ([[User talk:RandomOmellette|discuss]] • [[Special:Contributions/RandomOmellette|contribs]]) 07:44, 10 November 2020 (UTC)
+
+== Rearrangement of the sections ==
+
+I assembled the sections talking about Sociology and Economics because I've noticed that they were both social sciences. I will be adding my text about psychology (also a social science) in this section in a short time, however, if someone is interested about this field, they are other disciplines who were still not discussed. Just to give you an idea: history, law, geography... Feel free to explore this field further to have a good overall view on the issues in evidence related to the social sciences. [[User:Anarmi632|Anarmi632]] ([[User talk:Anarmi632|discuss]] • [[Special:Contributions/Anarmi632|contribs]]) 08:17, 28 October 2020 (UTC)
+
+I have added an introduction for the main section: Evidence in social sciences. My references are more focused on psychology because it is the discipline I did my research on. Feel free to add informations in it (new ideas, references...) since it is regrouping the work of everyone who talked about a social science discipline. [[User:Anarmi632|Anarmi632]] ([[User talk:Anarmi632|discuss]] • [[Special:Contributions/Anarmi632|contribs]]) 06:47, 29 October 2020 (UTC)
+
+:That's a great idea. I agree that presenting them as one gives a better overview of how evidence is used in different areas of social sciences. I will be adding a bit to the introduction from a sociology perspective. [[User:Avotoast|Avotoast]] ([[User talk:Avotoast|discuss]] • [[Special:Contributions/Avotoast|contribs]]) 19:36, 7 November 2020 (UTC)
+
+::Great! I realized that someone talked about Neuropsychology, it is a good example of cross-disciplinarily evidence, therefore I added it in the section of social science under psychology. I didn't forget to precise that it was not a social science like the others in the section but I found it interesting to put it in relation with the discipline from which it originated. It allows use to compare the two approach to evidence and helps us elaborate the link between social and natural sciences. [[User:Anarmi632|Anarmi632]] ([[User talk:Anarmi632|discuss]] • [[Special:Contributions/Anarmi632|contribs]]) 07:59, 8 November 2020 (UTC)
+
+== Formatting for "Evidence in Sociology" ==
+I noticed that the formating of the entry was slightly off, in that the heading made it seem as though it were a part of the "evidence in economics" section instead. Hence, I changed the line in question from "=== Evidence in Sociology ===" to "== Evidence in Sociology ==". As there was a small introductory paragraph as well, I added the heading "==== Introduction to Sociology ====". With this small change in formatting, I feel that the entry looks more organized and each mini section is more distinct. [[User:RandomOmellette|RandomOmellette]] ([[User talk:RandomOmellette|discuss]] 04:09, 28 October 2020 (HKT)
+
+: I am sorry, it may seemed confusing because I added my explication on the discussion just after you ended your message. This was voluntary, I put the two sections together because they had something in common I wanted to show it on the sandbox. If someone prefer the sections to be totally separated, please get in touch with me and I will separate the sections again [[User:Anarmi632|Anarmi632]] ([[User talk:Anarmi632|discuss]] • [[Special:Contributions/Anarmi632|contribs]]) 08:23, 28 October 2020 (UTC)
+
+:: I see! no worries, i checked again and it seems to flow fine! it just happened to be a bit of a bad timing thing then [[User:RandomOmellette|RandomOmellette]] ([[User talk:RandomOmellette|discuss]] • [[Special:Contributions/RandomOmellette|contribs]]) 14:24, 9 November 2020 (UTC)
+
+== In-text citation edits (formatting) ==
+
+As with the History sandbox, I've re-formatted some of the in-text citations so that the number comes after the period/comma rather than before it. [[User:Gonkponk|Gonkponk]] ([[User talk:Gonkponk|discuss]] • [[Special:Contributions/Gonkponk|contribs]]) 19:13, 1 November 2020 (UTC)
+
+== Numbers in References==
+While looking through the references, some of the references had numbers in front of the actual reference - ie. 1.6 some author etc., so I edited it to make it easier to read [[User:Gingerisadog3025|Gingerisadog3025]] ([[User talk:Gingerisadog3025|discuss]] • [[Special:Contributions/Gingerisadog3025|contribs]]) 19:16, 6 November 2020 (UTC)
+
+==Tones in "Evidence in Social Sciences"==
+"However, a question rose: could the same methods be used in the natural and social sciences knowing that the fields where the research is carried is not the same (it is easier to do experiments on a living cell than on the behaviour of a human) which resulted in a broader definition of science[3]." 
+I noticed that the tone of this sentence is rather informal as evidenced by the structure used. I suggest you to rephrase it by using the passive form. Example: "However, the question stands whether the same methods could be used in the natural and social sciences, knowing that the fields of the research differ--it is easier to do experiments on a living cell than on human behaviour--, which resulted in a broader definition of science."[[User:uhmmmm|uhmmmm]] ([[User talk:uhmmmm|discuss]] • [[Special:Contributions/uhmmmm|contribs]]) 06:23, 7 November 2020 (UTC)
+
+:Throughout the article in "Evidence in Social Sciences", the writer should avoid using "we" since, for informative essays, it is always advised to take on the third person point of view. For example, "We will see the methods that have been implemented in these numerous disciplines to collect evidences." can be rewritten like "Methods implemented in these numerous disciplines to collect evidences will be explored.” [[User:uhmmmm|uhmmmm]] ([[User talk:uhmmmm|discuss]] • [[Special:Contributions/uhmmmm|contribs]]) 06:40, 7 November 2020 (UTC)
+
+::Thank you for your suggestions, I wanted my introduction to sound like an introduction to a group project but I didn't realize that it wasn't the best format for this particular context. [[User:Anarmi632|Anarmi632]] ([[User talk:Anarmi632|discuss]] • [[Special:Contributions/Anarmi632|contribs]]) 08:03, 8 November 2020 (UTC)
+
+== Suggestions for "Evidence in Neuropsychology"==
+I think this sentence "The qualitative evaluation includes analysis of remarkable neuropsychological syndromes, which are matched up with the intricate regions of the brain and its deficit." needs a reference. Moreover, I believe the author should elaborate on the techniques and especially the benefits of using qualitative or quantitative evidence in the respective subsections. "By observing symptoms with its feasible origins, it can organize the overall structure of the analysis and data elucidation" in this section, who are you referring to by 'it'? It sounds like you are referring to a machine perhaps that produces data, but it's unclear. [[User:Avotoast|Avotoast]] ([[User talk:Avotoast|discuss]] • [[Special:Contributions/Avotoast|contribs]]) 19:47, 7 November 2020 (UTC)
+
+:Thank you for your feedback. "it" refers back to the subject in the previous sentence: a qualitative evaluation. Thus, I changed it to minimize confusion. Also, I expanded the idea through examples which use a qualitative and quantitative approach. [[User:uhmmmm|uhmmmm]] ([[User talk:uhmmmm|discuss]] • [[Special:Contributions/uhmmmm|contribs]]) 15:01, 8 November 2020 (UTC)
+
+==Formatting in spacing overall==
+I noticed some inconsistency in the spacings within the page, so I edited it so that the spacings are consistent, otherwise it looks a bit visually disorganised. [[User:RandomOmellette|RandomOmellette]] ([[User talk:RandomOmellette|discuss]] • [[Special:Contributions/RandomOmellette|contribs]]) 14:28, 9 November 2020 (UTC)
+
+==Suggestions for "Evidence in Cultural Anthropology==
+I think the entry is great, though i think maybe the titles can be changed to reflect quantitative/qualitative methods because the entry already discusses them quite a bit. This way, it ties in more with how quantitative/qualitative methods were discussed in the lecture.([[User:RandomOmellette|RandomOmellette]] ([[User talk:RandomOmellette|discuss]] • [[Special:Contributions/RandomOmellette|contribs]]) 14:57, 9 November 2020 (UTC)
+
+:Hi, thanks for your advice! I changed the title of my "participation observation" to "qualitative methods in anthropology" to better describe the contribution as a whole but to also more effectively tie in in what was taught in the lecture. Thanks again! ([[User:Gingerisadog3025 |Gingerisadog3025 ]] ([[User talk:Gingerisadog3025 |discuss]] • [[Special:Contributions/Gingerisadog3025 |contribs]]) 14:57, 9 November 2020 (UTC)
+
+== Grammar Correction == 
+
+Just as in the History sandbox I have read through the whole sandbox as and corrected any double spaces, misspellings, added comas where is needed and corrected any typos--[[User:Piscesmoodphase|Piscesmoodphase]] ([[User talk:Piscesmoodphase|discuss]] • [[Special:Contributions/Piscesmoodphase|contribs]]) 19:06, 15 November 2020 (UTC)

@@ -1,0 +1,110 @@
+[[File:Alfa beta gamma radiation penetration.svg|300px|thumb|right|This figure illustrates the relative abilities of three 
+different types of ionizing radiation to penetrate solid matter. Alpha particles (α) are stopped by a sheet of paper while 
+beta particles (β) are stopped by an aluminium plate. Gamma radiation (γ) is dampened when it penetrates matter.]]
+
+Radiation is a process in which energetic particles or energy or waves travel through a medium or space. There are two distinct types of '''radiation'''; ionizing and non-ionizing. The word ''radiation'' is commonly used in reference to ionizing radiation only (i.e., having sufficient energy to ionize an atom), but it may also refer to non-ionizing radiation (e.g., radio waves or visible light). The energy ''radiates'' (i.e., travels outward in straight lines in all directions) from its source. This geometry naturally leads to a system of measurements and physical units that are equally applicable to all types of radiation. Both ionizing and non-ionizing radiation can be harmful to organisms and can result in changes to the natural environment.
+
+==Ionizing radiation==
+
+Radiation with sufficiently high energy can ionize atoms. Most often, this occurs when an electron is stripped (or 'knocked out') from an electron shell, which leaves the atom with a net positive charge. Because cells and more importantly the DNA can be damaged, this ionization can result in an increased chance of cancer. An individual cell is made of trillions of atoms. The probability of ionizing radiation causing cancer is dependent upon the dose rate of the radiation and the sensitivity of the organism being irradiated.
+
+Alpha particles, beta particles, gamma rays, X-ray radiation, and neutrons may all be accelerated to an energy high enough to ionize atoms.
+
+===Alpha===
+
+===Beta===
+
+Beta-minus (β−) radiation consists of an energetic electron. It is more ionizing than alpha radiation, but less than gamma. The electrons can often be stopped with a few centimeters of metal. It occurs when a neutron decays into a proton in a nucleus, releasing the beta particle and an antineutrino.
+
+Beta-plus (β+) radiation is the emission of positrons. Because these are antimatter particles, they annihilate any matter nearby, releasing gamma photons.
+
+===Neutron===
+
+Neutrons are categorized according to their speed. High-energy (high-speed) neutrons have the ability to ionize atoms and are able to deeply penetrate materials. Neutrons are the only type of ionizing radiation that can make other objects, or material, radioactive. This process, called neutron activation, is the primary method used to produce radioactive sources for use in medical, academic, and industrial applications.
+
+High-energy neutrons can travel great distances in air and typically require hydrogen rich shielding, such as concrete or water, to block them. A common source of neutron radiation occurs inside a nuclear reactor, where many feet of water is used as effective shielding.
+
+===X-ray===
+
+X-rays are electromagnetic waves with a wavelength smaller than about 10 nanometres. A smaller wavelength corresponds to a higher energy according to the equation E=h⋅c/λ. ("E" is Energy; "h" is Planck's Constant; "c" is the speed of light; "λ" is wavelength.) A "packet" of electromagnetic waves is called a photon. When an X-ray photon collides with an atom, the atom may absorb the energy of the photon and boost an electron to a higher orbital level or if the photon is very energetic, it may knock an electron from the atom altogether, causing the atom to ionize. Generally, a larger atom is more likely to absorb an X-ray photon, since larger atoms have greater energy differences between orbital electrons. Soft tissue in the human body is composed of smaller atoms than the calcium atoms that make up bone, hence there is a contrast in the absorption of X-rays. X-ray machines are specifically designed to take advantage of the absorption difference between bone and soft tissue, allowing physicians to examine structure in the human body.
+
+===Gamma===
+
+Gamma (γ) radiation consists of photons with a frequency of greater than 10<sup>19</sup> Hz.<ref name="ICNIR2003">{{cite journal|url=http://www.who.int/peh-emf/meetings/archive/en/keynote3ng.pdf| title=Non-Ionizing Radiations – Sources, Biological Effects, Emissions and Exposures|journal= Proceedings of the International Conference on Non-Ionizing Radiation at Universiti Tenaga Nasional ICNIR2003 Electromagnetic Fields and Our Health|date=20–22 October 2003|author= Kwan-Hoong Ng}}</ref> Gamma radiation occurs to rid the decaying nucleus of excess energy after it has emitted either alpha or beta radiation. Both alpha and beta particles have an electric charge and mass, and thus are quite likely to interact with other atoms in their path. Gamma radiation is composed of photons, and photons have neither mass nor electric charge. Gamma radiation penetrates much further through matter than either alpha or beta radiation.
+
+Gamma rays, which are highly energetic photons, penetrate deeply and are difficult to stop. They can be stopped by a sufficiently thick layer of material, where stopping power of the material per given area depends mostly (but not entirely) on its total mass, whether the material is of high or low density. However, as is the case with X-rays, materials with high atomic number such as lead or depleted uranium add a modest (typically 20% to 30%) amount of stopping power over an equal mass of less-dense and lower atomic weight materials (such as water or concrete).
+
+==Non-ionizing radiation==
+
+The energy of non-ionizing radiation is less and instead of producing charged ions when passing through matter, the electromagnetic radiation has only sufficient energy to change the rotational, vibrational or electronic valence configurations of molecules and atoms. The effect of non-ionizing forms of radiation on living tissue has only recently been studied. Nevertheless, different biological effects are observed for different types of non-ionizing radiation.<ref name="ICNIR2003"/><ref name="Moulder">{{cite web|url= http://www.mcw.edu/gcrc/cop/static-fields-cancer-FAQ/toc.html|title=Static Electric and Magnetic Fields and Human Health|author=John E. Moulder}}</ref>
+
+===Neutron radiation===
+
+Neutron radiation is sometimes called "indirectly ionizing radiation" since so many of its interactions with matter eventually result in ionization. Neutron radiation consists of free neutrons. These neutrons may be emitted during either spontaneous or induced nuclear fission, nuclear fusion processes, or from any other nuclear reactions. It does not ionize atoms in the same way that charged particles such as protons and electrons do (exciting an electron), because neutrons have no charge. However, both slow and fast neutrons react with the atomic nuclei of many elements upon collision with nuclei, creating unstable isotopes and therefore inducing radioactivity in a previously non-radioactive material. This process is known as neutron activation.
+
+In addition, high energy neutrons can cause ionizing radiation by "neutron spallation" or knockout, wherein neutrons cause emission of high-energy protons from atomic nuclei (especially hydrogen nuclei) on impact (the last process imparts most of the neutron's energy to the proton, much like one billiard ball striking another). A high-energy neutron impact on at atomic nucleus is also enough to impart enough energy for it to break the atom's chemical bonds, again resulting in ionization of the molecule. Fast neutrons can directly damage DNA in this fashion.
+
+===Electromagnetic radiation===
+
+[[File:Electromagnetic-Spectrum.png|thumb|The electromagnetic spectrum]]
+
+Electromagnetic radiation (sometimes abbreviated EMR) takes the form of self-propagating waves in a vacuum or in matter. EM radiation has an electric and magnetic field component which oscillate in phase perpendicular to each other and to the direction of energy propagation. Electromagnetic radiation is classified into types according to the frequency of the wave, these types include (in order of increasing frequency): radio waves, microwaves, terahertz radiation, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. Of these, radio waves have the longest wavelengths and gamma rays have the shortest. A small window of frequencies, called visible spectrum or light, is sensed by the eye of various organisms.
+
+Ionizing radiation consists of subatomic particles or electromagnetic waves that are energetic enough to detach electrons from atoms or molecules, ionizing them. The occurrence of ionization depends on the energy of the individual particles or waves, and not on their number. An intense flood of particles or waves will not cause ionization if these particles or waves do not carry enough energy to be ionizing. Roughly speaking, particles or photons with energies above a few electron volts (eV) are ionizing.
+
+Examples of ionizing particles are energetic alpha particles, beta particles, and neutrons. The ability of an electromagnetic wave (photons) to ionize an atom or molecule depends on its frequency. Radiation on the short-wavelength end of the electromagnetic spectrum—high frequency ultraviolet, X-rays, and gamma rays—is ionizing.
+
+Ionizing radiation comes from radioactive materials, X-ray tubes, particle accelerators, and is present in the environment. It is invisible and not directly detectable by human senses, so instruments such as Geiger counters are usually required to detect its presence. In some cases, it may lead to secondary emission of visible light upon interaction with matter, as in Cherenkov radiation and radioluminescence. It has many practical uses in medicine, research, construction, and other areas, but presents a health hazard if used improperly. Exposure to radiation causes damage to living tissue, resulting in skin burns, radiation sickness and death at high doses and cancer,<ref name="ICNIR2003" /> tumors and genetic damage at low doses.
+
+EM radiation carries energy and momentum, which may be imparted when it interacts with matter.
+
+<span id="The electromagnetic spectrum"></span>
+The electromagnetic spectrum is the range of all possible electromagnetic radiation frequencies.<ref name="ICNIR2003"/> The electromagnetic spectrum (usually just spectrum) of an object is the characteristic distribution of electromagnetic radiation emitted by, or absorbed by, that particular object.
+
+====Visible light====
+
+Light, or visible light, is a very narrow range of electromagnetic radiation of a wavelength that is visible to the human eye (about 400–700&nbsp;nm), or up to 380–750&nbsp;nm.<ref name="ICNIR2003"/> More broadly, physicists refer to light as electromagnetic radiation of all wavelengths, whether visible or not.
+
+====Infrared====
+Infrared (IR) light is electromagnetic radiation with a wavelength between 0.7 and 300 micrometres, which equates to a frequency range between approximately 1 and 430 THz.
+IR wavelengths are longer than that of visible light, but shorter than that of terahertz radiation microwaves. Bright sunlight provides an irradiance of just over 1 kilowatt per square meter at sea level. Of this energy, 527 watts is infrared radiation, 445 watts is visible light, and 32 watts is ultraviolet radiation.<ref name="ICNIR2003" />
+
+====Microwave====
+Microwaves are electromagnetic waves with wavelengths ranging from as long as one meter to as short as one millimeter, or equivalently, with frequencies between 300&nbsp;MHz (0.3&nbsp;GHz) and 300&nbsp;GHz. This broad definition includes both UHF and EHF (millimeter waves), and various sources use different boundaries.<ref name="ICNIR2003" /> In all cases, microwave includes the entire SHF band (3 to 30&nbsp;GHz, or 10 to 1&nbsp;cm) at minimum, with RF engineering often putting the lower boundary at 1&nbsp;GHz (30&nbsp;cm), and the upper around 100&nbsp;GHz (3mm).
+
+====Radio waves====
+Radio waves are a type of electromagnetic radiation with wavelengths in the electromagnetic spectrum longer than infrared light. Like all other electromagnetic waves, they travel at the speed of light. Naturally-occurring radio waves are made by lightning, or by astronomical objects. Artificially-generated radio waves are used for fixed and mobile radio communication, broadcasting, radar and other navigation systems, satellite communication, computer networks and innumerable other applications. Different frequencies of radio waves have different propagation characteristics in the Earth's atmosphere; long waves may cover a part of the Earth very consistently, shorter waves can reflect off the ionosphere and travel around the world, and much shorter wavelengths bend or reflect very little and travel on a line of sight.
+
+====Very low frequency (VLF)====
+Very low frequency or VLF refers to radio frequencies (RF) in the range of 3 to 30&nbsp;kHz. Since there is not much bandwidth in this band of the radio spectrum, only the very simplest signals are used, such as for radio navigation. Also known as the myriametre band or myriametre wave as the wavelengths range from ten to one myriametres (an obsolete metric unit equal to 10 kilometres)
+
+====Extremely low frequency (ELF)====
+Extremely low frequency (ELF) is a term used to describe radiation frequencies from 3 to 30&nbsp;Hz. In atmosphere science, an alternative definition is usually given, from 3&nbsp;Hz to 3&nbsp;kHz.<ref name="ICNIR2003" /> In the related magnetosphere science, the lower frequency electromagnetic oscillations (pulsations occurring below ~3&nbsp;Hz) are considered to lie in the ULF range, which is thus also defined differently from the ITU Radio Bands.
+
+====Black body radiation====
+''Black body radiation'' is radiation from an idealized radiator that emits at any temperature the maximum possible amount of radiation at any given wavelength. A black body will also absorb the maximum possible incident radiation at any given wavelength. The radiation emitted covers the entire electromagnetic spectrum and the intensity (power/unit-area) at a given frequency is dictated by Planck's law of radiation. A black body at temperatures at or below room temperature would thus appear absolutely black as it would not reflect any light. Theoretically a black body emits electromagnetic radiation over the entire spectrum from very low frequency radio waves to x-rays. The frequency at which the black body radiation is a maximum is given by Wien's displacement law.
+
+==Discovery==
+Wilhelm Röntgen discovered and named X-rays when experimenting with a vacuum and a tube, he noticed a fluorescence on a nearby plate of coated glass. In one month, he discovered the main properties of X-rays that we understand to this day. Henri Becquerel found that uranium salts caused fogging of an unexposed photographic plate, and Marie Curie discovered that only certain elements gave off these rays of energy. She named this behavior radioactivity.
+
+Alpha particles, beta particles and gamma ray radiation were discovered by Ernest Rutherford through simple experimentation. Rutherford used a generic radioactive source and determined that the rays produced by the source struck three distinct areas on a screen of reactive material: one of them corresponding to a positive charge (alpha), one of them being negative (beta), and one of them being neutral (gamma). He calculated the magnitude of the charge by their location. Using this data, Rutherford concluded that this radiation consisted of three different types, and named them after the first three letters of the Greek alphabet alpha, beta, and gamma.
+
+In December 1899, Marie Curie and Pierre Curie discovered radium in pitchblende. This new element was two million times more radioactive than uranium, as described by Madam Curie.
+
+==Uses of radiation==
+===In communication===
+All modern communication systems use forms of electromagnetic radiation. Variations in the intensity of the radiation represent changes in the sound, pictures, or other information being transmitted. For example, a human voice can be sent as a radio wave or microwave by making the wave vary to correspond variations in the voice.
+
+===In science===
+Researchers use radioactive atoms to determine the age of materials that were once part of a living organism. The age of such materials can be estimated by measuring the amount of radioactive carbon they contain in a process called radiocarbon dating. Environmental scientists use radioactive atoms known as tracer atoms to identify the pathways taken by pollutants through the environment.
+
+Radiation is used to determine the composition of materials in a process called neutron activation analysis. In this process, scientists bombard a sample of a substance with particles called neutrons. Some of the atoms in the sample absorb neutrons and become radioactive. The scientists can identify the elements in the sample by studying the emitted radiation.
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.radiationanswers.org Health Physics Society Public Education Website]
+*[http://webcast.berkeley.edu/course_details.php?seriesid=1906978373 Physics for Future Presidents], by Prof. Richard Muller, [http://webcast.berkeley.edu/ Webcast.Berkeley]
+
+{{BookCat}}

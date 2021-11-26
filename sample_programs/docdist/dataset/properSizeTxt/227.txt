@@ -1,0 +1,215 @@
+{{sectstub}}
+
+Design and technology have improved the lives of millions of people around the world. However these changes have resulted in social consequences.
+
+== Mass production and the consumer society ==
+The invention of the steam engine by James Watt in 1765 marked the start of the 'industrial revolution', which was a major changing point on a global basis. 
+[[File:Maquina_vapor_Watt_ETSIIM.jpg|thumb|centre|Jame Watt's Steam Engine.]]
+Industrialization and specialization led to changes in the production, work force, transportation and infrastructure. This then sparked many new fields of design to accommodate the effects of industrialization. Population explosions occurred in towns and cities where production was centred and a new urban way of life was created. An increasing amount of people needed more and more products, this is when mass production responded to this need. Expensive, laborious and time consuming work can now be replaced by machine work. Products that were exclusively for the rich could now be made at an affordable price for ordinary working people.
+
+The modern mass-consumer society is a feature of the developed world where peoples 'wants' are fulfilled by a constant range of new products. It is also refereed to as 'throw away' culture with an increasing demands for convenience products such as fast food and over-packed goods.
+[[File:SnackfoodRackDF.JPG|thumb|centre|A range of convenience food products.]]
+
+Mass consumerism developed during the 1930's from pop culture, lifestyle and fashion. Innovative new products and materials were introduced, especially in electrical consumer goods such as radios, refrigerators and washing machines.<ref>https://en.wikipedia.org/wiki/Washing_machine#Washing_by_machine</ref> As peoples standard of living improved, their demand for new products increased. Advertising and marketing became and important new industry, using market research, packaging and product styling to sell new products.
+
+After the second world war (1939–1945), for many, there was a period of hardship with very few luxuries as countries struggled to recover from the disasters caused by the war. However by the mid-1950's a new consumer society was developing. It started in America and soon spread to Europe, here is where the 'teenager' was born. Up until this point young men and women wore the same type of clothes as their parents and listened to the same type of music. The advent of Rock 'n' Roll music was to change all that and soon teenagers were rebelling against their parents' values and began carving out a style of their own. Design evolved rapidly to meet the expanding needs of the teenage market, incorporating high fashion and customer goods such as portable transistor radios for the beach and cars, motorbike sand scooter for increasingly mobile and independent youth culture.
+
+== Targeting children as new consumers. ==
+
+== Built-in obsolescence ==
+
+=== Table showing the different types of built-in obsolescence ===
+{| class="wikitable"
+|-
+! Form of obsolescence !! Description !! Example
+|-
+| Technological || Problems due to technological advances. || A better newer phone come out with more features.
+|-
+| Postponed || When a company released old technology. || Apple revealing the iPhone 5C when they could make a better product (5S).
+|-
+| Physical || Wear and tear on a product, making it become broken over time. || Light bulbs/Ink cartridges.
+|-
+| Style || When a product become not trendy and not fashionable. || Clothes: Old football shirt/Spring-Summer-Autumn-Winder fashion.
+|}
+
+== Mass production and its effects on employment ==
+•	Mass production processes led to the craftsperson being replaced by a low skilled worker in highly mechanised factories. 
+
+•	Low skilled = low wages
+
+•	Which led to the employment of women and children in “sweatshop” factories
+
+•	The resulting poverty led worker to rise and create trade unions; that fight for better living conditions and the increasing pollution because of industrialisation
+
+•	Leftover jobs after industrialisation:
+
+-	High skilled technical roles
+
+-	Low skilled manual roles
+
+•	This can lead to low morale and poor job satisfaction
+
+== The 'new' industrial age of high-technology production ==
+
+•	In the 20th century, developments in materials and manufacturing technologies revolutionised product design
+
+•	New materials such as metal alloys, polymers and composites enabled new ways of designing and manufacturing
+
+•	Digital computers in 1940s
+
+•	Silicon chip in 1960s
+
+•	Inexpensive, portable technology
+
+== Computers in development and manufacturing of products ==
+
+•	CIM systems incorporating CAD and CAM have revolutionised modern manufacturing and the print industry
+
+•	The digital age has brought about change to which companies are responding by providing quick turnaround jobs to meet clients’ needs
+
+•	Reduce development times and costs
+
+•	On demand printing supplies the exact number of copies to satisfy each customers’ needs
+
+•	By doing designs on computers it allows businesses to discuss and develop designs before printing and producing products.
+
+•	CTP (computer to plate) technology quickly prints designs to plates
+
+•	Cuts time for producing these plates and quickly using CTP and a laser engraver the plate can be formed
+
+•	Printing costs can largely be reduced using digital printing machines
+-	Best suited to short print runs
+
+•	In post press, the printed materials can be die cut, folded, glued or bound using automated machinery with efficient workflows.
+
+== Miniaturisation of products and components ==
+
+•	Not only have products been reduced in size but multi-functional products are possible
+
+•	The miniaturisation of a telephone is mainly due to the three key developments:
+-	Advanced integrated circuits (ICs) basically allow more stuff to be put on circuits and increase functionality and power
+-	Advanced battery technology such as lithium ion rechargeable batteries and thinner, lightweight fuel cells
+-	Advanced liquid crystal display (LCDs) enabling screens that are thinner and brighter and require much smaller current, so greater energy efficiency and slimmer housings
+
+== Use of smart materials and products for innovative applications ==
+
+
+=== Table of smart materials and their applications ===
+{| class="wikitable"
+|-
+! Smart material !! What is it? !! Applications !! Advantages !! Disadvantages
+|-
+| Smart Glass || When a voltage is applied the colour changes to white for privacy. || Used in windows for skylights ||
+* Controls the amount of heat passing through the window/glass
+* Gives privacy
+* Gives protection from UV rays
+|| 
+* Expensive installation
+* Speed of control
+* Requires a constant supply of electricity.
+* Degree of transparency
+|-
+| Shape memory alloys (SMAs) || This is a metal alloy that can be deformed at one state, but then go back to it's default state once there is a big enough increase in temperature. An example can be seen [https://www.youtube.com/watch?v=1rrPv5AlVXg here] || Used in spectacle frames to shape around a person's head when they wear it. ||
+* Super flexible
+* Immediately recovers shape
+* Lightweight durable
+|| 
+* Not breakable
+* Expensive
+|-
+| Thermochromic pigments || This is ink that changes colour at certain temperatures. Note in [https://www.youtube.com/watch?v=I--O1dxEKKw this example] they are using electricity to heat it up, but any form of heat would do. || Used in kettles to show when the water has boiled ||
+* Works immediately
+* Can be used for safety
+* Nice aesthetic novelty
+|| 
+* Limited colour range
+* Not possible to engineer specific temperatures to change at
+|-
+| Smart fluid/oils/grease|| A fluid who's viscosity can be altered when a magnetic field is applied. || Car suspension system. ||
+* Improves handling for cars when used for suspension.
+* Better faster control for cars when used for suspension.
+|| 
+* Expensive
+|}
+
+== The global market place ==
+
+•	Need to be competitive means that companies sell their product all over the world 
+
+•	Sometimes is a problem to design unfamiliar markets or design products that will sell across different countries
+
+•	Many business employ design teams across the world to design for local markets
+
+-	Other companies use focused market research
+
+== Offshore manufacturing of multinationals ==
+
+•	Vital strategic tool
+
+•	Helps develop new products e.g. technology
+
+•	Companies relocate to less-developed countries like India, China and Soviet nation
+
+-	Outsourcing their work
+
+•	Nowadays all kind of “knowledge work” and manufacturing can be performed anywhere 
+
+-	E.g. call centres in India
+
+•	The driving forces are digitisation, the internet and high-speed data networks 
+
+-	Design data can be sent to an offshore company and using local expertise product can be developed
+
+•	Offshore manufacturing is cheaper
+
+•	Same quality of work at a fraction of the price
+
+-	More affordable to do injection moulding in China than in the west
+
+•	It is also easier to gain greater access to expanding overseas markets.
+
+•	However, there are some disadvantages:
+
+-	Unemployment in developed countries
+
+-	Exploitation of labour in developing countries
+
+-	Workers in developing countries don’t have the opportunity for promotions, pay rises and company benefits, union membership and better working 
+conditions
+
+•	But this is a good thing for developing countries:
+
+-	Local workforce moves on from traditional trades
+
+-	Gains more skilled workforce
+
+-	Gains more knowledge of industrial processes
+
+== Local and Global production ==
+There are concerns on global production on multinational economies, the quality of life, employment and the environment.
+
+=== Advantages and Disadvantages of global manufacturing in developing countries ===
+{| class="wikitable"
+|-
+! Advantages !! Disadvantages
+|-
+| Increased employment. || Increased pollution and waste production as a result of manufacturing activities.
+|-
+| Improved living standards and staff are then trained to be multi-skilled. || Destruction of local environment.
+|-
+| Helps the infrastructure of the local environment develop. || Lower wages than workers in developed countries.
+|-
+| Allows foreign currencies to be bought in these countries. || Promotion restrictions.
+|-
+| Advancement of technology like internet banking. || No unions for equal rights.
+|-
+|  || Low safety standards.
+|-
+|  || Re-valuing tradition craft skills, being swapped with tedious tasks.
+|-
+|  || Local community become dependent upon everyone else.
+|}
+
+== References ==
+{{reflist}}
+{{bookcat}}

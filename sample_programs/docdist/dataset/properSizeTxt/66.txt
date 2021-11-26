@@ -1,0 +1,132 @@
+This document is a guide to sources of information that may help smallholders in KwaZulu-Natal (South Africa) to produce crops and vegetables without expensive inputs.
+
+Smallholder agriculture is practised widely in KwaZulu-Natal. Although low-cost agriculture is unlikely to raise many poor people out of poverty, it can improve household livelihoods This is because most households in the province have insufficient resources to generate a living wage from agriculture, and need other forms of income. 
+
+Smallholders in KZN generally have less than 2 ha (often less than 0.2 ha or 2000 m2) available for crop production. Despite this limitation, there are many successful smallholders; they often produce a variety of crops that may include a small patch of irrigated vegetables, a few fruit trees, and a mix of dryland (rain-fed) crops. There is a great deal of information available to help these farmers, but it is not always accessible. This document is an attempt to show what locally relevant information is available, and where it can be found (mostly on the world-wide web).
+
+<br>
+<br>
+== Natural resources ==
+The availability of natural resources will limit the choice of crops that can be produced at low cost - Rainfall, temperature regime, soil type and terrain all vary considerably from place to place in KZN. At the scale of the smallholder, the soil and terrain usually require an on-site inspection to determine soil depth, soil drainage and slopes of individual fields. However, there are a number of mapping projects that can serve as guides regarding climate, soil patterns, terrain, and water availability for irrigation at the village or ward scale.<br>
+
+Bioresource Groups<br>
+Camp, K.G.T., 1999. A bioresource classification for KwaZulu-Natal, South Africa.
+https://researchspace.ukzn.ac.za/handle/10413/5406
+
+
+
+Handbook on adaptation to climate change for farmers, officials and others in the agricultural sector of South Africa
+https://www.daff.gov.za/daffweb3/Branches/Forestry-Natural-Resources-Management/Climate-Change-and-Disaster-Management/Climate-Change-Unit
+
+Agrohydrology Atlas<br>
+
+DWAS regulations regarding use of surface water
+<br>
+<br>
+
+== Climate-smart Agriculture ==
+There are many low-cost technologies available that can help smallholders make the most of the limited climatic resources available to them.
+
+=== Conservation Agriculture ===
+No-Till Crop Production For KwaZulu-Natal
+https://archive.org/details/no-till-crop-production-for-kzn<br>
+
+Introduction to Conservation Agriculture
+https://www.mahlathini.org/resources/manuals/conservation-agriculture-manual/conservation-agriculture/<br>
+
+No-Till For KwaZulu-Natal's Small-Scale Farming Systems 
+https://archive.org/details/no-till-for-kwa-zulu-natals-small-scale-farming-systems
+
+No-till: Guidelines for beginners
+This 54-page document is aimed at commercial crop farmers (rather than smallholders) considering conversion to no-till cropping. However, it is included here because it highlights many of the difficulties associated with conservation agriculture and no-till crop production in KwaZulu-Natal. It is available from the No-Till Club of KwaZulu-Natal (the publishers; http://notillclub.com/) and was authored by Aubrey Venter and Ant Muirhead in 2005.<br>
+
+=== Water harvesting and other technologies ===
+Smallholder Decision Support System - https://dss.mahlathini.org/home<br>
+
+
+=== Farmer-managed natural regeneration ===
+Rinaudo, T., Muller, A. & Morris, M. 2019. Farmer Managed Natural Regeneration (FMNR) Manual. World Vision Australia. [https://fmnrhub.com.au/fmnr-manual/ PDF]<br>
+
+Hassan Abdirizak, Masumi Gudka, Benjamin Kibor, Monica Kinuthia, Paul Kimeu, Jan de Leeuw, Malesu Maimbo, Uriel Safriel, Mary Njenga, Miyuki Iiyama 2013. Farmer-managed natural regeneration: How to regenerate pasture and farmland on a low budget. World Agroforestry.
+
+World Vision International 2012 Farmer Managed Natural Regeneration (FMNR) project model. Integrated Ministry & World Vision International. Uxbridge, UK. [https://www.wvi.org/sites/default/files/FMNR_PM_0.zip PDF]<br>
+
+=== Bioirrigation ===
+Bayala, J. and Prieto, I., 2019. Water acquisition, sharing and redistribution by roots: applications to agroforestry systems. Plant and Soil, pp.1-12. [https://doi.org/10.1007/s11104-019-04173-z DOI] [https://link.springer.com/article/10.1007/s11104-019-04173-z PDF]<br>
+This review indicates that hydraulic lift by deep-rooted perennial plants (shrubs or trees) can help to reduce the effect of droughts on annual crop production in agroforestry systems and promote productivity in some regions with erratic rainfall. Precise measurement of the contribution of the various water fluxes in the groundwater-subsoil water-topsoil water-mycorrhizal-root-shoot-atmosphere continuum is fraught with difficulties, but modelling of important parameters may contribute to the design of more productive agroforestry systems for drought-prone regions.
+
+=== Drought-tolerant crops ===
+Drought avoidance by having a short growing season - mung bean, millet, leafy vegetables, buckwheat http://mccc.msu.edu/wp-content/uploads/2016/09/IA_2016_Short-Duration-Cover-Crops-for-Vegetable-Production-Systems.pdf <br>
+CAM crops need less water per unit CO<sub>2</sub> fixed <br>
+The potential of CAM crops as a globally significant bioenergy resource: moving from ‘fuel or food’ to ‘fuel and more food’ https://www.researchgate.net/publication/278742016_The_Potential_Of_CAM_Crops_As_A_Globally_Significant_Bioenergy_Resource_Moving_From_Fuel_Or_Food_To_Fuel_And_More_Food <br>
+Davis 2019 https://doi.org/10.1093/jxb/erz223
+
+=== Crop modelling ===
+Estes, L.D., Beukes, H., Bradley, B.A., Debats, S.R., Oppenheimer, M., Ruane, A.C., Schulze, R. and Tadross, M., 2013. Projected climate impacts to South African maize and wheat production in 2055: a comparison of empirical and mechanistic modeling approaches. Global change biology, 19(12), pp.3762-3774. [https://doi.org/10.1111/gcb.12325 DOI] [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.2288&rep=rep1&type=pdf PDF]
+
+Sinnathamby, S., Douglas-Mankin, K.R. and Craige, C., 2017. Field-scale calibration of crop-yield parameters in the Soil and Water Assessment Tool (SWAT). Agricultural water management, 180, pp.61-69.  [https://doi.org/10.1016/j.agwat.2016.10.024 DOI]
+
+Schulze, R.E., 2016. Agriculture and Climate Change in South Africa: On Vulnerability, Adaptation and Climate Smart Agriculture A Selection of Extracts from HANDBOOK ON ADAPTATION TO CLIMATE CHANGE FOR FARMERS, OFFICIALS AND OTHERS IN THE AGRICULTURAL SECTOR OF SOUTH AFRICA Chapters A1, A2, A3, A4, K1 and Appendices. [https://www.researchgate.net/publication/335653278_Agriculture_and_Climate_Change_in_South_Africa_On_Vulnerability_Adaptation_and_Climate_Smart_Agriculture_A_Selection_of_Extracts_from_HANDBOOK_ON_ADAPTATION_TO_CLIMATE_CHANGE_FOR_FARMERS_OFFICIALS_AND PDF]
+
+Schulze, R.E., 2016. On Observations, Climate Challenges, the South African Agriculture Sector and Considerations for an Adaptation Handbook. In: Schulze, R.E. (Ed.) Handbook for Farmers, Officials and Other Stakeholders on Adaptation to Climate Change in the Agriculture Sector within South Africa. Section A: Agriculture and Climate Change in South Africa: Setting the Scene, Chapter A1. [https://www.researchgate.net/publication/335619129 PDF]<br>
+<br>
+
+== Pest and Disease Control ==
+Natural Pest and Disease Control Handbook
+Chemical control options for Fall Armyworm in maize
+https://www.kzndard.gov.za/images/Documents/RESOURCE_CENTRE/GUIDELINE_DOCUMENTS/Research_and_Technology_Bulletin/Chemical-control-options-for-Fall-Armyworm-in-maize.pdf 
+Disease Management in Crops
+https://www.kzndard.gov.za/images/Documents/researchandtechnologydevelopment/publications/Research_and_Technology_Bulletins/2016.01-Disease-Management-in-Crops.pdf 
+The application of plant based pesticides in sustainable agriculture
+https://www.kzndard.gov.za/images/Documents/RESOURCE_CENTRE/GUIDELINE_DOCUMENTS/Research_and_Technology_Bulletin/2015.08%20The%20application%20of%20plant%20based%20pesticides%20in%20sustainable%20agriculture.pdf
+<br>
+<br>
+
+== Weed control ==
+Weed Management Principles For Maize [https://archive.org/details/bezuidenhout-2016-weed-management-principles-for-maize PDF]<br>
+This four-page document discusses the principles of weed control in a maize crop. It indicates the importance of good general agronomic practices to ensure rapid closure of the maize canopy, makes recommendations regarding the use of tillage and mulching and gives guidelines for the use of herbicides.<br>
+
+Vegetable Production In KwaZulu-Natal: Weed Control [https://archive.org/details/vegetable-production-in-kwa-zulu-natal-weed-control PDF]<br>
+A three-page document that outlines the importance of weed control in vegetable production and discusses the use of cultural methods and herbicides.<br>
+
+Bezuidenhout, S., 2015, Sprayer calibration.  Research & Technology Bulletin 2015/10, KwaZulu-Natal Department of Agriculture and Rural Development. Republic of South Africa, Pietermaritzburg. [https://archive.org/details/bezuidenhout-2015-sprayer-calibration PDF]<br>
+A four-page document describing how to calibrate agrochemical spraying equipment. It includes sections on nozzle selection, water quality, and details of calculations used to calibrate knapsack sprayers and boom sprayers.<br>
+
+== Soil Fertility ==
+Using Manures To Supply Plant Nutrients
+https://archive.org/details/miles-1998-using-manures-to-supply-plant-nutrients
+A two-page guide to the use of manures. It includes information on the nutrient content of manures and suggested application rates.<br>
+
+Soil Testing for Better Crops
+https://www.kzndard.gov.za/images/Documents/researchandtechnologydevelopment/publications/Research_and_Technology_Bulletins/Soil-Testing-for-Better-Crops.pdf
+A four-page guide to soil sampling and the submission of soil samples for fertilizer recommendations. 
+
+Completing the Sample Submission Form
+https://www.kzndard.gov.za/images/Documents/researchandtechnologydevelopment/publications/Research_and_Technology_Bulletins/Completing-the-sample-submission-form.pdf
+A pamphlet outlining the information requested when submitting soil samples for fertilizer recommendations.
+<br>
+
+== Crop-specific guidelines ==
+Vegetable Production In A Nutshell
+https://archive.org/details/allemann-young-1998-vegetable-production-in-a-nutshell
+Crop-specific guidelines are given for a range of vegetable crops grown in South Africa, along with general fertiliser guidelines. Suitable climate, soil types, cultivars, sowing times, seeding rates, plant population and spacing are outlined, and brief indications are given regarding the required fertiliser, possible pests and diseases, and likely yields. Vegetables included are beetroot, brinjal (eggplant), cabbage, carrot, chilli (hot pepper), trailing cucurbits (butternut, gem squash, hubbard squash, pumpkin),  green bean (bush type), green pea, lettuce, amadumbe (taro), onion, potato, sweet pepper, sweet potato, swiss chard, and table tomato.
+
+Brochures and Production guidelines for a wide range of props are available on the website of the South African Department of Agriculture, Land Reform and Rural Development (DALRRD)
+https://www.dalrrd.gov.za/Branches/Agricultural-Production-Health-Food-Safety/Plant-Production/Production-Guidelines<br>
+
+Important rain-fed (dryland) crops
+Maize
+Dry beans
+Sugar cane
+Pumpkin
+Madumbe
+Sweet potato
+Irish potato
+Minor rain-fed crops
+Cowpea
+Field pea
+Dryland leafy greens - Japanese radish, kale, amaranthus, swiss chard
+Sorghum
+Millet
+Vegetables (most need irrigation or water harvesting)
+Trees for fruit, nuts, medicinal purposes, edible leaves

@@ -1,0 +1,123 @@
+{{#ifeq:{{{bottom}}}|yes
+|{{tmbox
+|small = 
+|image = none
+|style = text-align:center;
+|text = '''Please place new discussions at the bottom of the page.'''
+}}
+}}{{#ifexpr:{{#ifeq:{{NAMESPACE}}|User talk|1|0}}*{{#ifeq:|yes|1|0}}|
+<table style="text-align:center; border: 1px solid #000000; border-bottom: none; background-color:#FFFFF3">
+<tr>
+<th style="font-size: 85%">This is a <span style="white-space: nowrap"><span>&#87;&#105;<!-- Wikibooks -->&#107;&#105;</span><span>&#98;&#111;&#111;&#107;&#115;</span></span> [[WB:TALK|user discussion page]].
+
+This is not a textbook or the discussion page for a textbook. If you find this page on any site other than <span style="white-space: nowrap"><span>&#87;&#105;<!-- Wikibooks -->&#107;&#105;</span><span>&#98;&#111;&#111;&#107;&#115;</span>,</span> you are viewing a mirror site. Be aware that the page may be outdated, and that the user this page belongs to may have no personal affiliation with any site other than <span style="white-space: nowrap"><span>&#87;&#105;<!-- Wikibooks -->&#107;&#105;</span><span>&#98;&#111;&#111;&#107;&#115;</span></span> itself. The original page is located at <span class="plainlinks" style="white-space:nowrap;">[http://en.wiki<!---->books.org/wiki/{{FULLPAGENAMEE}} <span>http://en.wiki</span><!----><span>books.org/wi</span><span>ki/{{FULLPAGENAMEE}}</span>].</span>
+</th></tr></table> }}
+<table {{#ifexpr:{{#ifeq:{{NAMESPACE}}|User talk|1|0}}*{{#ifeq:|yes|1|0}}
+ |width="100%" align="center" cellspacing="3" style="border: 1px solid #000000; background-color: #F8EABA; margin-bottom: 0px"
+ |class="tmbox tmbox-notice plainlinks" id="talkheader" style="width: 80%; border-collapse: separate"
+}} ><tr>
+<th colspan=4 style="border-bottom: 1px solid #c0c090; width: 100%">{{#ifeq:{{NAMESPACE}}|User talk|This is [[{{SUBJECTPAGENAME}}|{{PAGENAME}}]]'s [[WB:DISCUSS|discussion page]], where you can send messages and comments to {{PAGENAME}}.|This is the [[WB:DISCUSS|discussion page]] for discussing {{#if:|[[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] and anything related to its purposes and tasks|improvements to the [[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] {{pagetype}}}}.}}</th>
+</tr><tr>
+<td style="background-color: white; border: 1px solid #c0c090">{{#if:{{SUBJECTSPACE}}||*'''This is not a forum for general discussion of the page's subject.'''}}
+* '''Put new text under old text.''' [{{fullurl:{{TALKPAGENAMEE}}|action=edit&section=new}} Click here to start a new topic].
+* '''Please sign and date your posts''' by typing four tildes (<code><nowiki>~~~~</nowiki></code>).
+* '''New to Wikibooks?''' [[Wikibooks:Welcome|Welcome]]! [[Wikibooks:Reading room/Assistance|Ask questions, get answers]].
+</td><td>
+* [[Wikibooks:Be civil|Be polite]]
+* [[Wikibooks:Assume good faith|Assume good faith]]
+* [[Wikibooks:No personal attacks|Avoid personal attacks]]
+* [[Wikibooks:Please do not bite the newcomers|Be welcoming]]
+{{#switch:yes||{{#if:{{SUBJECTSPACE}}|no|yes}}=<td style="border-left: 1px solid #c0c090"><center>
+; Textbook policies: </center>
+* [[Wikibooks:Original research|No original research]]
+* [[Wikibooks:Neutral point of view|Neutral point of view]]
+* [[Wikibooks:What is Wikibooks|Stay in scope]]
+</td>
+}}{{#if:|<td>{{shortcut||||| }}</td>}}
+</tr>
+{{#if:||{{#ifexist:{{FULLPAGENAME}}/Archive 1|
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 1px 3px">'''[[WB:ARCHIVE|Archives]]:''' {{#ifexist:{{FULLPAGENAME}}/Archive index|[[{{FULLPAGENAME}}/Archive index|Index]],&#32;}}{{Archive list|nobr=yes|root={{FULLPAGENAME}}}}</td>
+</tr>
+}}
+}}
+{{#if:|
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0"><inputbox>
+type=fulltext
+prefix={{#tag:nowiki|{{FULLPAGENAME}}/}}
+searchbuttonlabel=Search archives
+break=no
+</inputbox></td>
+</tr>
+}}
+</table>
+
+
+
+== Transwiki categories ==
+
+Regarding your [https://en.wikibooks.org/wiki/Special:Log?logid=4853293 deletion summary]: Should such categories just be removed from the transwiki pages? That would also clean up [[Special:WantedCategories]]. [[User:1234qwer1234qwer4|𝟙𝟤𝟯𝟺𝐪𝑤𝒆𝓇𝟷𝟮𝟥𝟜𝓺𝔴𝕖𝖗𝟰]] ([[User talk:1234qwer1234qwer4|𝗍𝗮𝘭𝙠]]) 12:38, 2 January 2021 (UTC)
+:{{Ping|1234qwer1234qwer4}} Yes, I agree with that. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 16:43, 22 January 2021 (UTC)
+:: I did some cleanup. As this is a task that will have to be done over and over again as new transwikis are imported, this might be a good task for a bot. @[[User:JackPotte|JackPotte]] Could you add a task to automatically remove categories from pages in the Transwiki: namespace (108)? [[User:1234qwer1234qwer4|𝟙𝟤𝟯𝟺𝐪𝑤𝒆𝓇𝟷𝟮𝟥𝟜𝓺𝔴𝕖𝖗𝟰]] ([[User talk:1234qwer1234qwer4|𝗍𝗮𝘭𝙠]]) 16:07, 4 March 2021 (UTC)
+::: Hello, I rather think that it's a human job to treat the transwiki pages instead of decorating them outside of the books (and maybe forget them a little more). [[User:JackPotte|JackPotte]] ([[User talk:JackPotte|discuss]] • [[Special:Contributions/JackPotte|contribs]]) 20:36, 4 March 2021 (UTC)
+
+== Need for additional sysops ==
+	
+Hi, I'm part of the SWMT (Small Wiki Monitoring Team), and I see you have active editors. You do not have many active admins (6), so I was wondering if you were in need of assistance on-wiki. If so, please do tell me, and I'll be happy to help. If you are in need of additional sysops, I can get those as well, or I am happy to help out myself. You can email me at this [[Special:EmailUser/BlackWidowMovie0|link]], reach me on IRC at <code>#wikimedia-stewards</code>, and on Discord at <code>BlackWidowMovie0#8377</code>. [[User:BlackWidowMovie0|BlackWidowMovie0]] ([[User talk:BlackWidowMovie0|discuss]] • [[Special:Contributions/BlackWidowMovie0|contribs]]) 20:11, 22 January 2021 (UTC)
+* User is cross-wiki hatcollector and sockpuppeteer; see, for example, [[testwiki:Wikipedia:Requests/Permissions/BlackWidowMovie0]]. [[User:1234qwer1234qwer4|𝟙𝟤𝟯𝟺𝐪𝑤𝒆𝓇𝟷𝟮𝟥𝟜𝓺𝔴𝕖𝖗𝟰]] ([[User talk:1234qwer1234qwer4|𝗍𝗮𝘭𝙠]]) 20:18, 22 January 2021 (UTC)
+:Incorrect, I socked on enwiki, and am moving on. I had a genuine need for the testwiki perms, which were denied. So.....hatcollector: '''X'''. Sockpupeteer: '''X'''. [[User:BlackWidowMovie0|BlackWidowMovie0]] ([[User talk:BlackWidowMovie0|discuss]] • [[Special:Contributions/BlackWidowMovie0|contribs]]) 20:27, 22 January 2021 (UTC)
+
+The usual criteria apply for administrators here - tenure, many productive contributions and an understanding of the unique nature of Wikibooks. This is a global Sysop project so I'd recommend you pursue that route. Getting administration rights here would likely take you at least a year or two of extensive editing, not just vandal reverting. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 20:31, 22 January 2021 (UTC)
+:{{u|QuiteUnusual}}, Thank you for the advice! If you ever need anything, don't hesitate to reach out. Thanks! [[User:BlackWidowMovie0|BlackWidowMovie0]] ([[User talk:BlackWidowMovie0|discuss]] • [[Special:Contributions/BlackWidowMovie0|contribs]]) 16:05, 23 January 2021 (UTC)
+
+== CheckUser ==
+
+Hi, can you run a CheckUser on the account [[User:Seckends]]? They have very similar editing patterns to an IP that I've blocked for creating nonsensical pages. Thanks in advance. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 19:36, 31 January 2021 (UTC)
+
+Looks like a duck. Blocked [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 19:50, 31 January 2021 (UTC)
+
+== "Mermaid" CheckUser ==
+
+Can you run a CheckUser on the following sets of accounts:
+
+* [[User:MermaidWhoCodes1912]]
+* [[User:Mermaid2602]]
+* [[User:MermaidWhoCodes]]
+* [[User:NFP02]]
+
+They are creating copyvio material (remember the C++ Wikibooks book they tried to create? Turns out that they're copying it from various sources), and repeatedly creating accounts despite my blocking. It would be helpful if you could block the underlying IP range. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 12:01, 3 February 2021 (UTC)
+:You got all of the accounts and autoblock is now in effect for the underlying IP addresses, so that should stop the problem. I'll keep an eye on it. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 12:57, 3 February 2021 (UTC)
+
+== Thank you for the assist ==
+Thank you for pointing out how using the word "Shambles" was inappropriate on [[US History/Biden]]. I think I let my own personal experience in the pandemic color my writing, and I apologize for that. I will do better to remain neutral while editing. Thank you again, and apologies for my slip. --[[User:Mbrickn|Mbrickn]] ([[User talk:Mbrickn|discuss]] • [[Special:Contributions/Mbrickn|contribs]]) 22:08, 3 February 2021 (UTC)
+
+== Blocking using abusefilter ==
+
+Any way we can get that to work (it seems to be absent here, unlike mediawiki)? Or do I need to file a Phabricator task? [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 09:39, 4 February 2021 (UTC)
+:{{Ping|Leaderboard}} - a Phab task is required. Block is disabled by default on all wikis, then enabled by request on a small number. To enable it needs $wgAbuseFilterActions['block'] = true; added to the enwikibooks configuration section of abusefilter.php. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 10:43, 4 February 2021 (UTC)
+:I'll do it then, it's kind of urgent due to the chess spam. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 10:45, 4 February 2021 (UTC)
+
+== [https://lists.wikimedia.org/mailman/listinfo/wikimedia-l Wikimedia-1] ==
+
+I can't seem to post anything there, so can you do that for me? I want to post about [[Wikibooks:Reading_room/Proposals#Start_allowing_game_strategies]] because I think that this proposal will have wide-ranging changes to the entire Wikimedia community if passed, and hence want to get more consensus if possible. Thanks in advance. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 08:26, 14 February 2021 (UTC)
+
+== File:DUN config 1.png ==
+
+I am not sure what you mean; it looks fine to me, with the Microsoft licensing template added...? Plus the rationale seems valid, and is no different to the fair-use images I've uploaded from Microsoft. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 11:53, 22 February 2021 (UTC)
+: I've undeleted one of them (Animated_paperclip.png); it's not "replaceable" as you claimed, because the context is not about the paperclip, but about the software that employed the paperclip, and is an example of poor usability. I might be misunderstanding something from a Wikibooks point of view however. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 11:59, 22 February 2021 (UTC)
+::Fair Use would mean, in this context, that nothing else could be used to illustrate bad usability - including properly licensed content. That is, you would have to be discussing very specifically ONLY Microsoft poor usability and which is not what the book is about. E.g., I can't use a copyright picture from a bad movie to illustrate a book about bad movies in general. It would have to be both specifically about that movie, be absolutely necessary to illustrate why the movie was bad, etc. I think you have crossed a bright line on  copyright to include it. Personally I think our EDP is legally questionable and is not rigid enough per the requirements the [https://foundation.wikimedia.org/wiki/Resolution:Licensing_policy Foundation lays down]. E.g., the [[w:Wikipedia:Non-free content|Wikipedia]] one is extensive and precise and I don't think the stuff I deleted would comply with their policy. Ours is about [https://en.wikibooks.org/wiki/Wikibooks:Copyrights#Non-free_materials_and_special_requirements three lines of text]. That however is a different issue.  Probably worth a discussion in one of the Reading Rooms rather than wheel warring over it. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 13:18, 22 February 2021 (UTC)
+:::I hate the organisation of material here. So the actual policy is at [[Wikibooks:Media]]. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 13:27, 22 February 2021 (UTC)
+::::I can see where you're coming from, but the paperclip image is a very good example. Is it worth using an inferior image that would not convey the idea as well for the sake of ensuring free use? A similar example can be given for the network images that you deleted. (As for the EDP, that's something we can consider for the proposals section) [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 13:45, 22 February 2021 (UTC)
+:::::You're as qualified as me to decide. If you think it is in line with the policy, then go ahead and use it. I was actually getting round to reviewing all the unreviewed Files here (having cleared the pending changes backlog) rather than specifically targeting particular images, and these ones looked out of line with the policy - most of the changes I made were to ones with no license or FU criteria. Happy to go with your opinion rather than mine on these specific ones. [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 13:52, 22 February 2021 (UTC)
+
+== LTA ==
+If you're already revdelling (which I don't know if it is necessary), you should also delete https://en.wikibooks.org/w/index.php?title=Special:Log&logid=4929610. [[User:1234qwer1234qwer4|𝟙𝟤𝟯𝟺𝐪𝑤𝒆𝓇𝟷𝟮𝟥𝟜𝓺𝔴𝕖𝖗𝟰]] ([[User talk:1234qwer1234qwer4|𝗍𝗮𝘭𝙠]]) 21:04, 2 March 2021 (UTC)
+: {{re|1234qwer1234qwer4}}, I undid the initial revdel (which I think was due to a concern of a user accidentally posting their IP), not sure what exactly you want us to delete (or revdel?). [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 21:11, 2 March 2021 (UTC)
+:: Right, didn't see this. Thanks! [[User:1234qwer1234qwer4|𝟙𝟤𝟯𝟺𝐪𝑤𝒆𝓇𝟷𝟮𝟥𝟜𝓺𝔴𝕖𝖗𝟰]] ([[User talk:1234qwer1234qwer4|𝗍𝗮𝘭𝙠]]) 21:12, 2 March 2021 (UTC)
+
+I started the revdel because I was going to CU the account and if I needed to subsequently warn them then I would be linking their account to an IP which is strongly discouraged. It became unnecessary when it became obvious that it's was the same user logged out and an LTA.  [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 22:00, 2 March 2021 (UTC)
+
+== Archiving ==
+
+Hi, would you mind removing an Amazon link from a comment you wrote and helping automated archiving? [https://en.wikibooks.org/w/index.php?title=Wikibooks:Reading_room/Assistance&diff=3471734&oldid=3471614] It looks like the link prevents [[User:ArchiverBot|my bot]] from archiving the surrounding text because doing so will trigger [[MediaWiki:Spam-blacklist]]. [https://archiving.toolforge.org/logs/run_enwb.txt.2021-01-14] A quick solution would be to [[mw:Help:Formatting#Text_formatting_markunp|nowiki]]-fy the external link. A similar situation [https://ja.wikipedia.org/w/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:%E6%86%B2%E6%B3%95%E6%94%B9%E6%AD%A3%E8%AB%96%E8%AD%B0&oldid=prev&diff=80275294 happened at ja.wikipedia] and the same fix worked. [[User:Whym|Whym]] ([[User talk:Whym|discuss]] • [[Special:Contributions/Whym|contribs]]) 10:51, 5 March 2021 (UTC)
+:I'll just refactor it and remove the link. Thanks - [[User:QuiteUnusual|QuiteUnusual]] ([[User talk:QuiteUnusual|discuss]] • [[Special:Contributions/QuiteUnusual|contribs]]) 10:55, 5 March 2021 (UTC)
+::Thanks, I think the bot works as expected now. [[User:Whym|Whym]] ([[User talk:Whym|discuss]] • [[Special:Contributions/Whym|contribs]]) 11:10, 5 March 2021 (UTC)

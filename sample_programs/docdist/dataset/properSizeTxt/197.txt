@@ -1,0 +1,184 @@
+===Topic 9: Plant Science===
+
+== 9.1 Plant Structure and Growth ==
+
+'''9.1.0 Outline the wide diversity in the plant kingdom as exemplified by the structural differences between bryophytes, filicinophytes, coniferophytes and angiospermophytes.'''
+
+[This question does not feature in the AHL part but it is a part of core portion (Chapter 5 ecology and evolution 5.5.3)]
+
+''Bryophytes'' (mosses and liverworts):
+:*No roots, vascular system, or cuticle.
+:*Rhizoids similar to root hairs.
+:*Mosses with simple leaf-like structures.
+:*Liverworts have flattened shape called a thallus.
+
+''Filicinophytes'' (ferns):
+:*Roots, leaves in fronds, and vascular system.
+:*Cuticle on leaves.
+:*Can form small trees but not woody.
+
+''Coniferophytes'' (conifers):
+:*Shrubs to very large trees.
+:*Advanced vascular system.
+:*Woody stems and roots.
+
+''Angiospermophytes'' (flowering plants):
+:*Highly variable in structure-tiny herbaceous to large trees
+:*Roots, stems and leaves.
+:*Advanced vascular system.
+:*Can form woody tissue.
+
+
+'''<s>13.1.2 Draw a diagram to show the external parts of a named dicotyledonous plant.</s>'''
+
+'''9.1.1 Draw and label plant diagrams to show the distribution of tissues in the stem and leaf of a dicotyledonous plant. 
+[''Formerly 13.1.3 Draw plan diagrams to show distribution of tissues in the stem, root, and leaf of a generalized dicotyledonous plant.'']'''
+
+'''9.1.2 Outline three differences between the structures of dicotyledonous and monocotyledonous plants.'''
+
+{| class="wikitable"
+|-
+! ------ !! '''Dicotyledonous''' !! '''Monocotyledonous'''
+|-
+| '''Leaf Veins''' || Form a net-like pattern || Run parellel to each other
+|-
+| '''Vascular Bundles''' || In a ring near outside of stem || Spread through stem randomly
+|-
+| '''Stamens/Florals''' || In multiples of 4 or 5 || In multiples of 3
+|-
+| '''Roots''' || Branch off from other roots || Unbranched roots grow from stems
+|}
+
+'''9.1.3 Explain the relationship between the distribution of tissues in the leaves and the function of these tissues.
+[''Formerly 13.1.4'']'''
+
+:* Xylem: Bring water to replace losses due to transpiration, and inorganic minerals from the soil.
+:* Phloem: Transports products of photosynthesis out of the leaf.
+:* Stoma: A pore that allows CO2 for photosynthesis to diffuse in and O2 to diffuse out.
+:* Guard Cells: this pair of cells can open or close the stoma and so control the amount of transpiration.
+:* Upper Epidermis: a continuous layer of cells covered by a thick waxy cuticle. It prevents water loss from the upper surface even when heated by sunlight. 
+:* Lower Epidermis: is in a cooler position and has a thinner waxy cuticle.
+:* Spongy mesophyll: consists of loosely packed rounded cells with few chloroplasts. This tissue provides the main gas exchange surface so must be near the stomata in the lower epidermis.
+:* Palisade mesophyll: consists of densely packed cylindrical cells with many chloroplasts. This is the main photosynthetic tissue and is positions near the upper surface where the light intensity is highest.
+
+'''9.1.4 Identify modifications of roots, stems and leaves for different functions: bulbs, stem tubers, storage roots, and tendrils.'''
+
+:* Bulb = stem modification consisting of enlarged bases of leaves; aids in food storage (e.g. onion)
+:* Stem tuber = horizontally growing stem; aids in carbohydrate and starch storage (e.g. potato)
+:* Storage root = specialized root for storing large volumes of carbohydrates and water (e.g. carrots)
+:* Tendrils = leaf modification to aid in support and climbing; able to coil around objects during growth through a thigmotropic response (e.g. morning glory tendril)
+
+'''9.1.5. State that dicotyledonous plant have apical and lateral meristems.'''
+:* '''Meristem''': a plant's region where cells continue to divide and grow, often throughout it's life.
+
+'''9.1.6 Compare growth due to apical and lateral meristems in dicotyledonous plants.'''
+
+:* '''Apical meristem''' exists at the root and shoot tip, and is involved in plant elongation. 
+:* '''Lateral meristem''' exists in cambium tissue. Growth in lateral meristem increases the thickness of the plant. 
+
+'''9.1.7 Explain the role of auxin in phototropism as an example of the control of plant growth.'''
+
+:* Auxin is a hormone that promotes elongation of cells in the stem. Auxin is synthesized by the tip of the stem, and is carried to the part of stem which receives less light. This will cause the elongation of that side, thus bending towards the bright side.
+
+'''13.1.5 Outline four adaptations of xerophytes.'''
+
+:* spines instead of leaves - reduce rate of transpiration
+:* thick stems - contain high amounts of water storage tissue
+:* thick waxy cuticle
+:* vertical stems - absorbs sunlight late and early in the day but not midday when sun is too intense
+:* wide branching and shallow root systems - absorb water closer to the surface that would be otherwise evaporated before reaching roots
+
+'''13.1.6 Outline two structural adaptations of hydrophytes.'''
+
+:* Air spaces in leaves - create buoyancy
+:* Small amounts of xylem in stem and leaf
+:* Stomata in upper epidermis
+:* Waxy cuticle on upper surface of leaves
+
+== 13.2 Transport in Angiospermophytes ==
+
+'''9.2.1. Outline how the root system provides a large surface area for mineral ion and water uptake by means of branching and root hairs.
+[''Formerly 13.2.1 Explain how root systems provide a large surface area for mineral ion and water uptake by means of branching, root hairs, and cortex cell walls.'']'''
+
+Root hairs provide a large surface area for mineral ion and water uptake.  Cortex cells absorb ions that are dissolved in water, drawn in by capillary action through cortex cell walls.  Branching increases quantity and area roots can absorb ions from.
+
+'''9.2.2 List ways in which mineral ions in the soil move to the root.
+[''Formerly 13.2.2 Describe the process of mineral ion uptake into roots by active transport.'']'''
+
+Plants absorb potassium, phosphate, nitrates, and other mineral ions from the soil.  Active transport pump ions into the roots.  Root hairs provide large surface area for ion uptake.
+
+'''13.2.3 Explain the process of water uptake by root epidermis cells and its movement through symplastic and apoplastic pathways across the root to the xylem.'''
+
+The cytoplasm of root cells usually have much higher total solute concentrations than water in the surrounding soil.  Thus, water diffuses into root cells by osmosis.  Water must cross the cortex of the root to enter the xylem via the symplastic and apoplastic routes.
+
+:* '''Symplastic route''' - water moves from cell to cell by entering the cytoplasm and going through plasmodesmata(cytoplasmic connections)
+
+:* '''Apoplastic route''' - water moves by capillary action through cortex cell walls until it reaches the endodermis. 90 % of water moves through the route this way.
+
+'''13.2.4 State that terrestrial plants support themselves by means of thickened cellulose, cell turgor, and xylem.'''
+
+'''13.2.5 Define transpiration'''
+
+'''Transpiration''' - loss of water vapor from the leaves and stems of plants
+
+'''13.2.6 Explain how water is carried by transpiration stream, including the structure of xylem vessels, transpiration pull, cohesion, and evaporation.'''
+
+Transpiration causes a flow of water from roots to stem and leaves.  This movement is called transpiration stream.
+
+:# Evaporation of water from spongy mesophyll cell walls of leaves
+:# Evaporated water is replaced from xylem, pulled out of the xylem through mesophyll pores by capillary action
+:# Low pressure is created inside xylem vessels when water is pulled out (transpiration pull).  Xylem vessels contain long, unbroken columns of water where the pressure is transmitted across.
+:# To equalize the pressure, water travels up the vessels through its property of cohesion
+
+'''13.2.7 State that guard cells open and close stomata to regulate transpiration.'''
+
+'''13.2.8 Explain how abiotic factors affect the rate of transpiration in a typical terrestrial mesophyllic plant.'''
+
+:* '''Light''' - The intensity of light increases or decreases the rate of evaporation of water from the top of leaves, causing an increase or decrease in the rate of transpiration.
+:* '''Temperature''' - High temperatures increase the rate of evaporation of water from the top of leaves, resulting in an increase in the rate of transpiration.  Conversely, low temperatures decrease the rate of evaporation of water from the top of leaves, resulting in a decrease in the rate of transpiration.
+:* '''Wind''' - High wind also increases evaporation by allowing more air molecules to collide with the water molecules on leaves, resulting in an increase in evaporation of water and transpiration.  Low wind results in more stagnant, saturated air around the stomata which decreases evaporation and transpiration.
+:* '''Humidity''' - High humidity decreases the rate of evaporation and transpiration of a plant.
+
+'''13.2.9 Outline the role of phloem in active translocation of biochemicals.'''
+
+Phloem have sieve tubes that transport organic compounds.  Column cells develop into sieve tubes by breaking down nuclei and cytoplasm, making large pores in their end walls to allow a flow of sap.  The plasma membrane pump organic compounds into sieve tubes using ATP.  This creates a high concentration of solute causing water to diffuse in, resulting in a positive pressure gradient allowing organic compounds to be pumped anywhere in the plant.
+
+'''13.2.10 Describe an example of food storage in a plant.'''
+
+Potato Tuber
+:* Leaves produce food by photosynthesis
+:* Phloem in stems transport food to storage organs
+:* Tuber grows and stores food
+
+== 13.3 Reproduction in Flowering Plants ==
+
+'''13.3.1 Draw the structure of a dicotledonous animal pollinated flower, as seen by the naked hand eye and hands lens.'''
+
+'''13.3.2 Define pollination'''
+
+'''Pollination''' - the transfer of pollen from anther to stigma
+
+'''13.3.3 Distinguish between pollination, fertilization, and seed dispersal.'''
+
+:* '''Pollination''' - transfer of pollen from anther to stigma
+:* '''Fertilization''' - fusion of male and female gametes in the ovum
+:* '''Seed dispersa'''l - the spreading out of seeds (fertilised ovules), contained within fruits (which develop from ovaries), by various means.
+
+'''13.3.4 Draw the external and internal structure of a named dicotyledonous seed.'''
+
+'''13.3.5 Describe the metabolic events in the germination in a typical starchy seed.'''
+:# Absorption of water rehydrates living cells in seed
+:# Plant growth hormone gibberellin produced
+:# Stimulates production of amylase, catalyzing the digestion of starch to maltose
+:# Maltose is transported to growth regions of seedling
+:# Maltose converted to glucose
+:## Used in cellular respiration until leaves can start photosynthesis above ground
+:## Used to synthesize cellulose of other substances for growth
+
+'''13.3.6 Explain the conditions needed for the germination of a typical seed.'''
+:* '''Abundance of water''' - rehydrates dry tissue
+:* '''Oxygen''' - aerobic cellular respiration before photosynthesis can occur
+:* '''Suitable temperatures''' - Germination involves enzymatic activity in digestion of starch and cellulose synthesis. If temperatures :*fall outside of temperature ranges for these enzymes, germination does not occur. This causes seasonal germination in many places.
+:*Seeds vary in their light requirements and,therefore, this factor need not be included
+
+{{BookCat}}

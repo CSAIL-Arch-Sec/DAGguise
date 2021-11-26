@@ -1,0 +1,113 @@
+{|  width="624" border="0" cellpadding="5" cellpacing="0" border="0" cellpadding="0" cellpacing="5" align="center"
+|- valign="top"
+| style="font-family: comic sans ms;" |
+== What is this, John? ==
+
+:What is this John? [[Alice in Cyberwonderland]]. -- [[user:zanimum]]
+::John, I think [[Alice in Cyberwonderland]] violates [[Wikibooks:What Wikibooks is not]], rule #4, ''Wikibooks is not fiction''. [[User:Gentgeen|Gentgeen]] 20:09, 1 Aug 2004 (UTC)
+
+:::Genteen, thanks for pointing this out, as I realize at first glance Alice in Cyberwonderland does appear to be fiction, and your concern gives me an opportunity to talk about the underlying conceptual framework of '''Alice in Wonderland''' and how it is intended to serve as a '''teaching tale'''.
+
+:::For as Alice journeys through the various doors, windows, gates and digital passageways. etc, she learns - albeit in an uncoventional, fantastic way - about the remarkable and fascinating properties of a real-time, interactive. digital, knowledge-based universe. I have outlined some of the details below, and slightly reorganized what I had written here before. [[User:John Doe|John Doe]] 01:41, 7 Aug 2004 (UTC)
+
+== Alice in Cyberwonderland - A Teaching Tale ==
+
+:'''4. ... Wikibooks primary mission is to create open source textbooks, how-to guides, and classroom aids.'' - from [[Wikibooks:What Wikibooks is not]]
+
+:'''Alice in Cyberwonderland''' - and any such sequels as might emerge, e.g. '''Alice Through the Windows''', '''Alice's Adventures in Wikiwonderland''', although on the surface a work of fiction and fantasy, is being written as an imaginative vehicle of discovery of the wonders of a digital universe: a universe not subject to the constraints of the laws of conservation of mass and energy - as everything that lives in a purely digital form has '''zero mass''', '''zero physical size''', with '''virtually zero travel time''', a universe governed by the laws and properties of information, information systems; a world where the nture of proerty has become transformed, with the nature of information itself favouring the freedom of expression, exploration. inquiry and exchnage that a wiki, open source, open content, interactive information powered by evolving interoperable digital engines whose creative work consumes virtually no energy, where the same entity can be in many places at the same time and in many different forms ...
+
+:Among the specific examples of how Alice's adventures open up exploration and discovering of the naure of digital universes are the '''light and colour cubes'''[http://www.light-cubes.net] - soon to be the basis for another Wikibook - and her discovery of the state of the '''[[Mesopotamian Marshlands]]''' will led her into a journey through time and space where becomes a participant in the emergence of a new knowledge-based civilization in which the restoration of the decimated Mesopotamian Marshes in Southern Iraq serves as a catalyst for a rebirth in the cradle of civilization.
+
+:Alice also becomes immersed in a world of '''information species''' - a few of which have already been identified in the current draft - and begins to become aware of the wonders of information ecosystems and [[Information Ecology]].
+:I could go into more detail - in fact I did so yesterday but neglected to save the draft - and hadn't found the time get back here until a short time go - however, the hour is late. More - or less - later.
+
+=== A Tale Whose Time Has Come ===
+
+::"''There is a tide in the affairs of man''
+::'' Which, taken at the flood, leads on to fortune''
+:: ...
+::''On such a full sea are we now afloat;''
+::''And we must take the current when it serves,''
+::''Or lose our ventures.''
+:::'''Brutus''' in '''Julius Caesar''' by William Shakespeare
+
+=== A tribute to Lewis Carroll ===
+
+:A self-revealing light-hearted tribute to '''Lewis Carroll''' - ''aka'' '''Rev. Charles Dodson'' - and a choice to follow Rev. Dodson's footsteps of anonymity.
+
+:An exploration of a different wonderland, one that did not exist in Lewis Carroll's time. If Lewis Carroll were alive now, might not he - as a mathematician - have been fascinated by the wonders of digital technology. Might he not have conjured up tales for a modern-day Alice that took place in today's '''lookinglass''' - plus microscope and telescope - world of the Internet?
+
+=== A tribute to mathematics ===
+
+:The commmon bond of mathematics is a special bridge to the mind to Lewis Carroll, for the '''mathematics of information''' - including zero mass, zero physical size, and virtually zero travel time - and fields such as '''chaos mathematics''', '''mathematical biology''' and more have been among the numerous sources of inspiration to John Doe's alter ego in his explorations and appreciation of the dynamics of a digital knowledge-based universe.
+
+=== An imaginary journey through the wonders of a digital universe ===
+
+:For the tale that reveals itself, is a tale of global transofrmation - transition to a center of gravity - and levity too - a new '''Nash Equilibirum''' based on the properties and dynamics of the digital knowledge-based universe that many '''John Doe'''s - and '''Jane Doe'''s too - discover themselves immersed in the vast, wonderful and mysterious information ecosystem - see, for example, the wikibook on '''Information Ecology'''[http://en.wikibooks.org/wiki/Information_Ecology] - with virtually no boundaries, and virtually free from the constraints of the laws of conservation of mass and energy.
+
+=== Improvisatonal Plays ===
+
+:In a world that at time can be osessed with '''work''', Alice in Cyberwonderland is a space for '''improvisational play''' - playing with words and meanings, with numbers and mathematical expresions, plays of apparent illusion and disillusion - plays of paradox ... and in the process, rediscovering how we can - and do - learn through interactive play and games.
+
+::''The play's the thing,''
+::''Wherein I'll catch the conscience of the King.''
+:::'''Hamlet''' in ''Hamlet''', Act 2, Scene 2, by William Shakespeare
+
+=== An Invitation to explore and discover Cyberwonderland ===
+
+== Revelation of a "Gaia Mind"? ==
+
+:Perhaps it will become '''self-evident''' that what is arising through the birth and evolution of new forms of collective intelligence is no less than the manifestation of a '''Gaia Mind''' - a mind that serves as the key to a new era in the life of Gaia - the Earth and the commuity of life of the Earth
+
+=== Catalyst: the Mesopotamian Marshlands ===
+
+:Who knows? Perhaps the regeneration of the '''Mesopotamian Marshlands'''[http://www.mesopotamian-marshlands.net] - ''between the rivers - a cradle of civilization'' - may be the venue through which clear evidence of the presence and workings of a Gaia Mind become revealed - '''hotspots''', '''tension points''' that reflect the convergence of almost all of the dimensions of tension and conflict on the Earth and that may, going beyond the '''canary in the coal mine''', may not only be alerting us to the perils of the distortion of '''moral and economic values''' associated with a world addicted to '''unsustainable fossil-fuel-dependence''' and a reliance on military force and '''weapons of destruction''' to suppress conflict, rather than a way that '''honours the earth''', treasures the '''healing powers of hwater''', and where civilization and the laws of the land uphold nonviolent, '''peaceful resolution of conflict'''.
+
+== Who is John Doe? ==
+
+=== John Doe - Everybody, Anybody ===
+
+:In common usage, '''John Doe''' is '''anybody''' - and '''everybody''' - and seems to be a fitting name for a '''wikibook author'''
+
+:In this wikibook, anybody - even '''you''' - can be a co-author, a contributor, perhaps even a member of the cast of what might even evolve into a feature-length interactive '''open source dvd movie''' ...
+
+=== John Doe & Lewis Carroll ===
+
+:'''like''' Lewis Carroll, John Doe's ''alter ego'' is a '''mathematician'''
+::'''unlike''' Lewis Carroll, John Doe's ''alter ego'' read mathematics at '''Cambridge''', not '''Oxford'''
+:'''like''' Lewis Carroll, John Doe's ''alter ego'' loves '''reading''' imaginary tales to '''young children'''
+::'''unlike''' Lewis Carroll, John Doe's ''alter ego'' is a '''father''' - of one daughter and two sons
+:'''like''' Lewis Carroll, John Doe's ''alter ego'' is a '''person of faith'''
+::'''unlike''' Lewis Carroll, John Doe's ''alter ego'' has no formal credentials as to his faith
+
+=== John Doe and the Housing Court of Kings ===
+
+:While the seeds of '''Alice in Cyberwonderland''' had begun to germinatre earlier, it was the appearance of John Doe in the '''Housing Court of Kings'''[http://habitat.igc.org/housing-court-of-kings] that that both inspired the as-yet barely revealed episodes of '''Alice in the Housing Court of Kings''' and led to he adoption of the name of John Doe as the alias under which Alice would be writeen.
+
+<p align="right">[[User:John Doe|John Doe]] 15:01, 1 Aug 2004 (UTC)
+</p>
+|}
+
+== Your account will be renamed ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Hello,
+
+The developer team at Wikimedia is making some changes to how accounts work, as part of our on-going efforts to provide new and better tools for our users like cross-wiki notifications. These changes will mean you have the same account name everywhere. This will let us give you new features that will help you edit and discuss better, and allow more flexible user permissions for tools. One of the side-effects of this is that user accounts will now have to be unique across all 900 Wikimedia wikis. See [[m:Special:MyLanguage/Single User Login finalisation announcement|the announcement]] for more information.
+
+Unfortunately, your account clashes with another account also called John Doe. To make sure that both of you can use all Wikimedia projects in future, we have reserved the name John Doe~enwikibooks that only you will have. If you like it, you don't have to do anything. If you do not like it, you can [[Special:GlobalRenameRequest|pick out a different name]].
+
+Your account will still work as before, and you will be credited for all your edits made so far, but you will have to use the new account name when you log in.
+
+Sorry for the inconvenience.
+
+Yours,<br />[[m:User:Keegan (WMF)|Keegan Peterzell]]<br />Community Liaison, Wikimedia Foundation
+</div> 23:17, 17 March 2015 (UTC)
+<!-- SUL finalisation notification -->
+
+== Renamed ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr”>
+This account has been renamed as part of [[m:Special:MyLanguage/Single User Login finalisation announcement|single-user login finalisation]]. If you own this account you can [[{{#special:userlogin}}|log in using your previous username and password]] for more information. If you do not like this account's new name, you can choose your own using this form after logging in: [[{{#special:GlobalRenameRequest}}]]. -- [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]])
+</div> 05:05, 19 April 2015 (UTC)
+<!-- SUL post-rename notification -->

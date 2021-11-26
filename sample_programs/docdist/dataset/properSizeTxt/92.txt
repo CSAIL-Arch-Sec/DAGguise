@@ -1,0 +1,240 @@
+Objectives
+* define linear and non-linear regression models.
+* reason about goodness of fit criteria.
+* derive coefficients of linear regression models.
+* derive coefficients of non-linear regression models
+
+Resources
+* [http://mathforcollege.com/nm/mws/gen/06reg/mws_gen_reg_txt_straightline.pdf textbook chapter on linear regression]
+* [http://mathforcollege.com/nm/mws/gen/06reg/mws_gen_reg_txt_nonlinear.pdf non-linear regression]
+
+__TOC__
+
+Regression is different from interpolation in that it allows us to approximate [https://en.wikipedia.org/wiki/Overdetermined_system overdetermined system], which has more equations than unknowns. This is useful when the exact solution is too expensive or unnecessary due to errors in the data, such as measurement errors or random noise.
+
+=Linear Regression=
+Linear regression finds a linear function that most nearly passes through the given data points - the regression (function) line best fits the data. We must define our metric for measuring the goodness of fit. If all data points lie on the function it is a perfect fit, otherwise there are errors in the function representation of the data. We can measure the deviations of the data points from the function. As shown in the following example ([http://mathforcollege.com/nm/mws/gen/06reg/mws_gen_reg_txt_straightline.pdf source]) neither the sum of errors nor the sum of  the absolute errors is a good metric. 
+The data include four points (2, 4), (3, 6), (2, 6), and (3, 8). We use a straight line to fit the data. Two possible solutions are shown in [http://nbviewer.ipython.org/gist/lubaochuan/a4a123b65eb81fafeecc iPython notebook] (Example 1).
+
+==Straight Line (one variable)==
+Lets look at the example of fitting a straight line to data, i.e. find a linear regression model with one variable that represents the data. The function is <math>f(x)=a_{0}+a_{1}x</math> and the (cost) sum of squares of errors function to be minimized is 
+:<math>S(a_0,a_1)=\sum_{i=1}^{n}{(y_i-f(x_i))}^2=\sum_{i=1}^{n}{[y_i-a_{0}-a_{1}x_{i}]}^2</math>
+
+We can minimize the <math>S(a,b)</math> function by setting the [https://en.wikipedia.org/wiki/Gradient gradient] to zero. Because the function has two parameters (variables) there are two gradient equations:
+
+:<math>\frac{\partial S}{\partial a_{0}}=2\sum_{i=1}^{n}(y_{i}-a_{0}-a_{1}x_{i})(-1)=0 </math>
+:<math>\frac{\partial S}{\partial a_{1}}=2\sum_{i=1}^{n}(y_{i}-a_{0}-a_{1}x_{i})(-x_{i})=0 </math>
+
+The partial derivative represents the rate of change of the function value with respect to an independent variable while all other variables being held fixed. When a partial derivative becomes zero it means the change has stopped. This implies that we have reach a minimum or a maximum, which can be determined by checking the sign of the 2nd derivative.
+
+Let's consider:
+:<math>
+\begin{align}
+-\sum_{i=1}^{n}y_{i}+\sum_{i=1}^{n}a_{0}+\sum_{i=1}^{n}a_{1}x_{i}&=0\\
+-\sum_{i=1}^{n}y_{i}+na_0+\sum_{i=1}^{n}a_{1}x_{i}&=0\\
+\end{align}
+</math>
+
+and
+
+:<math>
+\begin{align}
+-\sum_{i=1}^{n}y_{i}x_{i}+\sum_{i=1}^{n}a_{0}x_{i}+\sum_{i=1}^{n}a_{1}x_{i}&=0\\
+\end{align}
+</math>,
+we can derive
+:<math>
+\begin{align}
+na_{0}+a_{1}\sum_{i=1}^{n}x_{i}&=\sum_{i=1}^{n}y_{i}\\
+a_{0}\sum_{i=1}^{n}x_{i}+a_{1}\sum_{i=1}^{n}x_{i}^2&=\sum_{i=1}^{n}x_{i}y_{i}
+\end{align}
+</math>.
+
+Therefore, we can calculate <math>a_{0}</math> and <math>a_{1}</math> as follows:
+:<math>a_{1}=\frac{n\sum_{i=1}^{n}x_{i}y_{i}-\sum_{i=1}^{n}x_{i}\sum_{i=1}^{n}y_{i}}{n\sum_{i=1}^{n}x_{i}^{2} - (\sum_{i=1}^{n}x_{i})^{2}}</math>
+:<math>a_{0}=\frac{\sum_{i=1}^{n}x_{i}^{2}\sum_{i=1}^{n}y_{i}-\sum_{i=1}^{n}x_{i}\sum_{i=1}^{n}x_{i}y_{i}}{n\sum_{i=1}^{n}x_{i}^2-(\sum_{i=1}^{n}x_{i})^2}</math>.
+
+Given the following definitions:
+:<math>
+\begin{align}
+\bar{x}&=\frac{\sum_{i=1}^{n}x_{i}}{n}\\
+\bar{y}&=\frac{\sum_{i=1}^{n}y_{i}}{n}\\
+S_{1}&=\sum_{i=1}^{n}x_{i}y_{i}-n\bar{x}\bar{y}\\
+S_{2}&=\sum_{i=1}^{n}x_{i}^{2}-n\bar{x}^2
+\end{align}
+</math>
+we get
+:<math>a_{1}=\frac{S1}{S2}</math>
+:<math>a_{0}=\bar{y}-a_{1}\bar{x}</math>.
+
+=Multi-linear Regression=
+A linear regression line models the relationship between independent variables (predictors) and a response variable. Once the model is built it can be used for prediction. In almost all real-world regression models multiple predictors (independent variables) are involved to  model multiple factors that affect the response (dependent variable) from the system. Such kind of model is known as a multivariate or multiple linear regression model.
+
+==Normal Equation==
+Another way to find the parameters of a regression model that minimize the sum of squares of errors is to solve the corresponding [http://mathworld.wolfram.com/NormalEquation.html normal equation]. Given a matrix equation <math>Ax=b</math>, the normal equation is that which minimizes the sum of the square differences between the left and right sides:
+:<math>A^{T}Ax=A^{T}b</math>.
+
+Given a hypothesized regression model and a dataset we can construct the left side to express the values our model would predict using the data. A should be a <math>m \times n</math> matrix where each row represents one of the <math>m</math> data points (samples) and each column of each row represents a multiplier for each of the <math>n</math> parameters. <math>x</math> is a <math>1 \times n</math> column vector for the unknown parameters. The right side <math>b</math> should be a <math>1 \times m</math> column vector that stores the corresponding <math>y</math> values for the data points.
+
+Recall the example that fits a straight line (model) <math>y=a_{0}+a_{1}x</math> to the following data points. 
+{| class="wikitable" style="float: right;"
+|+data points
+|-
+|x
+|y
+|-
+|2
+|4
+|-
+|2
+|6
+|-
+|3
+|6
+|-
+|3
+|8 
+|}
+
+We can construct the left side of the matrix equation <math>Ax=b</math> as:
+:<math>
+Ax=\underbrace{
+\begin{bmatrix}
+1 & 2 \\
+1 & 2 \\
+1 & 3 \\
+1 & 3 
+\end{bmatrix}}_{A}
+\underbrace{
+\begin{bmatrix}
+a_{0} \\
+a_{1}
+\end{bmatrix}}_{x}
+</math>, 
+which should result in a column vector of the values our model would predict:
+:<math>
+\begin{bmatrix}
+a_{0}+2a_{1}\\
+a_{0}+2a_{1}\\
+a_{0}+3a_{1}\\
+a_{0}+3a_{1}
+\end{bmatrix}
+</math>.
+
+The right side should be a vector of corresponding values from the data points:
+: <math>
+b=
+\begin{bmatrix}
+4 \\
+6 \\
+6 \\
+8
+\end{bmatrix}. 
+</math>
+To minimize the sum of square differences between the left and the right sides is equivalent to solving the following normal equation:
+:<math>A^{T}Ax=A^{T}b</math>. 
+The normal equation for our example is:
+:<math>
+\underbrace{
+\begin{bmatrix}
+1 & 1 & 1 & 1 \\
+2 & 2 & 3 & 3
+\end{bmatrix}}_{A^{T}}
+\underbrace{
+\begin{bmatrix}
+1 & 2 \\
+1 & 2 \\
+1 & 3 \\
+1 & 3
+\end{bmatrix}}_{A}
+\underbrace{
+\begin{bmatrix}
+a_{0} \\
+a_{1}
+\end{bmatrix}}_{x}
+=
+\underbrace{
+\begin{bmatrix}
+1 & 1 & 1 & 1 \\
+2 & 2 & 3 & 3
+\end{bmatrix}}_{A^T}
+\underbrace{
+\begin{bmatrix}
+4 \\
+6 \\
+6 \\
+8
+\end{bmatrix}}_{b}
+</math>
+If <math>A^{T}A</math> is invertible, the solution vector should be unique and give us the values for the parameters <math>a_{0}</math> and <math>a_{1}</math> that minimizes the difference between the model and the data, i.e. the model best fits the data.
+
+When we determine a regression line of the form <math>y=a_{0}+a_{1}x</math> that fits four data points, we have four equations that can be written as <math>Ax=y</math> or
+:<math>
+\begin{bmatrix}
+1 & x^{(1)} \\
+1 & x^{(2)} \\
+1 & x^{(3)} \\
+1 & x^{(4)} 
+\end{bmatrix}
+\begin{bmatrix}
+a_{0} \\
+a_{1}
+\end{bmatrix}
+=
+\begin{bmatrix}
+y^{(0)} \\
+y^{(1)} \\
+y^{(2)} \\
+y^{(3)}
+\end{bmatrix}
+</math>
+
+To solve the model we are effectively minimizing <math>||Ax-b||</math>.
+
+<math>y=a_{0}+a_{1}x+a_{2}x^2</math>
+
+<math>y=a_{0}+a_{1}sin(x)</math>
+
+<math>y=a_{0}e^{-a_{1}x}</math>
+
+The method introduced in the previous section boils down to solving a system of linear equations with two unknowns in the following form:
+:<math>
+\begin{bmatrix}
+p & q \\
+r & s
+\end{bmatrix}
+\begin{bmatrix}
+a_{0} \\
+a_{1}
+\end{bmatrix}
+=
+\begin{bmatrix}
+u \\
+v
+\end{bmatrix}
+</math>
+
+It is not hard to imagine that with <math>n</math> independent variables and <math>m</math> data points we can derive a similar system of linear equations with <math>n</math> unknowns. Then numerical methods, such as Gaussian elimination can be used to solve for the parameters. We could also use normal equations and matrix operations to solve for the parameters.
+
+==Gradient Descent==
+[https://en.wikipedia.org/wiki/Gradient_descent Gradient descent] is a method for finding local minimum of a function. The method is based on the concept of [https://en.wikipedia.org/wiki/Gradient Gradient], which is a generalization of the derivative of a function in one dimension (slope or tangent) to a function in multiple dimensions. For a function with <math>n</math> variables the gradient at a particular point is a vector whose components are the <math>n</math> partial derivatives of the function. The following figure shows the gradient of a function.
+
+[[File:Gradient Visual.svg|thumb|400px|The gradient of the function {{math|''f''(''x'',''y'') {{=}} −(cos<sup>2</sup>''x'' + cos<sup>2</sup>''y'')<sup>2</sup>}} depicted as a projected vector field on the bottom plane.]]
+
+Because the gradient points in the direction of the greatest rate of increase of the function and its magnitude is the slope of the graph in that direction, we can start at a random point and take steps proportional to the negative of the gradient of the current point to find the local minimum - gradient decent or steepest descent.
+
+Recall that gradients in multiple dimensions are partial derivatives of the cost function with respect to the parameters for the dimensions:
+:<math>S(a_0,a_1, \cdots, a_n)=\sum_{i=1}^{n}{(y^{(i)}-f(x_1^{(i)},x_2^{(i)},\cdots, x_n^{(i)}))}^2=\sum_{i=1}^{n}{(y^{(i)}-a_{0}-a_{1}x_{1}^{(i)}-\cdots-a_{n}x_{n}^{(i)})}^2</math>
+:<math>\frac{\partial S}{\partial a_{0}}=2\sum_{i=1}^{n}(y^{(i)}-a_{0}-a_{1}x_{1}^{(i)}-a_{2}x_{2}^{(i)}-\dots-a_{n}x_{n}^{(i)})(-1) </math>
+:<math>\frac{\partial S}{\partial a_{1}}=2\sum_{i=1}^{n}(y^{(i)}-a_{0}-a_{1}x_{1}^{(i)}-a_{2}x_{2}^{(i)}-\dots-a_{n}x_{n}^{(i)})(-x_{1}^{(i)})</math>
+:<math>\cdots</math>
+:<math>\frac{\partial S}{\partial a_{n}}=2\sum_{i=1}^{n}(y^{(i)}-a_{0}-a_{1}x_{1}^{(i)}-a_{2}x_{2}^{(i)}-\dots-a_{n}x_{n}^{(i)})(-x_{n}^{(i)}) </math>
+
+Gradient descent can be used to solve non-linear regression models.
+
+=Non-linear Regression=
+[https://en.wikipedia.org/wiki/Nonlinear_regression Non-linear regression] models the relationship in observational data by a function which is a nonlinear combination of the model parameters and depends on one or more independent variables. Some nonlinear regression problems can be transformed to a linear domain. For example, solving <math>y=a_{0}+a_{1}x+a_{2}x^{2}</math> is equivalent to solving <math>y=a_{0}+a_{1}x+a_{2}z</math> where <math>z=x^{2}</math>.
+
+Here is an [https://en.wikipedia.org/wiki/Gradient_descent#A_computational_example example] of a gradient descent solution to a non-linear regression model.
+
+{{BookCat}}

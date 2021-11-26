@@ -1,0 +1,112 @@
+==<font size= 32>Student Mobility</font>==
+''
+'''By: Joshua Tarwater'''
+
+<table WIDTH="85%" ALIGN="center"><tr><td style="background-color: #CCCCCC;
+border: solid 2.5px #336633; padding: 1em;" valign=top>
+"'''Student mobility''' refers to the phenomenon of students changing schools for reasons other than grade promotion" (Hartman, 2002)</td></tr></table>
+
+==<FONT COLOR = "8B0000"> <big> <i>Learning Targets</i> ==
+Students will be able to:
+
+* Define Student Mobility
+* Describe in detail the effects of Student Mobility on a student's productivity
+* Identify common trends on Student Mobility
+* Identify effective practices which can lower the adverse emotional effects on those students who are "mobile"
+</big>
+
+== ''Introduction'' ==
+
+As a teacher, one might begin each year by asking themselves questions such as: 'What subjects am I teaching? Where will I be teaching? How will I go about teaching?' and of course, 'Who am I teaching?' Unfortunately, due to student mobility, answering this last question could turn out as a difficult concern. As the economy changes, so might a student's financial situation, living environments, and basic needs might change as well which could lead to a student having to move from home to home, city to city, or even just school to school. Even in some instances, even a student attending a Private school might have to switch to public schooling due to lack of funds or problems in the home or current classroom.
+
+<table WIDTH="60%" ALIGN="right"><tr><td style="background-color: #CCCCCC;
+border: solid 2.5px #336633; padding: 1em;" valign=top>
+ 
+"A national longitudinal survey . . . found that 31 percent of eighth graders had changed schools two or more times between the first and eighth graders and 10 percent changed schools two or more times between the eighth grade and twelfth grades, not counting regular promotions between elementary, middle and high schools" (Rumberger & Larson, 1998 p.&nbsp;2).
+</td></tr></table>
+
+== '' How Might Student Mobility Effect The Student? '' ==
+
+A student's move within a school district, state, country, what have you, can be due to a myriad of reasons. This move might not always be a physical move, but could also be an extremely emotional and unavoidable relocation altogether. Some students who are moving short distances have the possible chance of less immediate change in their lifestyle. Contrary to short moves, a student who is making a further move may be leaving close friends, family members, or possibly just a familiar environment, which ultimately could adversely effect their emotional status. Some effects on students losing these familiarities might feel insignificant, lost, displaced, or even "home-sick" regardless if moving with their nuclear family or not. The bonds this child might have made prior to one, or multiple move(s) have either just been severed or compromised.
+
+This switch in emotional states could lead to distraction from their studies and their involvement in their new educational domain. As North Central Regional Educational Laboratory (NCREL) states, "Student mobility has a negative impact on educational achievement for students and schools, creating an achievement gap between mobile and nonmobile students. Frequent relocation interrupts regular attendance, continuity of lesson content, and the development of relationships with teachers and peers. In addition, high student mobility has a slowing effect on basic skills acquisition, creating a long-term risk of school failure and dropout. Another risk, because academic records are not always available, is inappropriate placement in a new school. . . " (Paik & Phillips, 2002). I feel that this statement is extremely relevant and gives good examples concerning what to look out for as an educator. Signs such as self-displacement or removal from peers, sadness, dropping grades, or less attendance and participation might indicate to an educator that this child could be in need of therapy. I use the term therapy loosely; I don't believe that every child's problem should be resolved by medication or a psychiatrist, however, peer study groups, meetings with family members, and special attention to this student could give them the self-worth needed to progress in this new environment.
+
+==''Student Mobility's Effect On The Classroom''==
+
+In the classroom, student mobility adds to the tension of not only those students who are dealing with a new environment, but assuredly so those students who are coping with the addition of a new classmate as well. Thinking back to elementary and middle school it would be safe to assume there were the typical archetypes one could expect to encounter in the classroom' such as; the quiet one, the bully, the crier, the clown, and the nerd (amongst others). Imagine learning your peers' traits and characteristics, the process of self-discovery and creating a level of comfort in your surroundings. Now remove yourself from that comfortable environment and move yourself to a completely new school and having to undergo the process all over. Not only are you conforming yourself to learn characteristics of those surrounding you, finding a lunch buddy, surviving dodge ball, you are also the "new kid". All that was previously mentioned could possibly be a huge distraction and a lot to cope with. These stresses along with whatever the reasoning behind the student's move ultimately could be detrimental to a student's productivity in the classroom. Due to Student Mobility such distractions and in-classroom tensions can result in "lower achievement levels due to discontinuity of curriculum between schools, behavioral problems, difficulty developing peer relationships, and a greater risk for dropping out" (Hartman, 2002).
+
+==''The Who of Mobility''==
+
+Most studies done on Student Mobility lead to a general consensus as to who undergoes a higher level of mobility and those who do not. In an article posted on EdWeek.org, a website run by Editorial Projects in Education, Inc., the three groups of which had the highest level of mobility where children of migrant workers, homeless children, and low-income children (Student Mobility, 2008). These children are at risk of higher mobility due to migration of family from one location to another location either due to location and availability of work. Unfortunately, this type of move is usually unavoidable and leaves the student feeling insecure or with a lack of a sense of home. Educators who observe these types of moves typically live in areas which undergo crop rotations or are near a border of another country. This being said, educators in those areas would be well off to try and establish in the classroom a type of familiarity with the student to aide their attention levels and learning while in that classroom. This would also help the student comfortable which might allow the formation of bonds with the teacher and those around him or her.
+
+These statistics, as with many other researches, do not include military families in their research. Reasoning for this particular omission would be the special circumstances that the departments of the Military and Department of Defense consider and implement to reduce to the effects of mobility on their students and children. "Approximately 13 percent of these students attend schools run by the Department of Defense. Due to targeted programs aimed at reducing the negative affects of mobility, DOD students tend to have high academic achievement" (Student Mobility, 2008). Reasoning behind this would be the level of study done on family members of extremely mobile federally dictated families. Families who are moved by the government are usually around other families who have to move around - strangely enough giving them a bonding point. Along with being surrounded by others who must move, private schools on military bases are much smaller and allow the students to grow and connect with each other and their teacher in a way that crammed public schools might not be able to.
+
+==''How to Fight the Effects of Mobility''==
+
+Glori Chaika graciously offers a few examples of what can be done in the classroom to attempt reversing the effects of Mobility on younger students. Chaika suggests:
+
+* "A class could throw a party at the end of the last day for a child who is moving. At the party, each child in the class could say one thing he or she will miss or one thing he or she appreciates about the child who is leaving.
+* A class could give a child who is moving a going-away gift. A nice remembrance is a good-bye book with photos of classmates and notes from them. Or children can draw pictures of themselves and use talk bubbles in which to say a farewell to their classmate. A card, an autograph book, a T-shirt signed by each classmate, or an address book with the address of everyone in the class are other gifts the class could give a child who is moving.
+* A teacher could send letters from a child's classmates to the child's new school to greet the child when she or he gets there."
+
+By utilizing these suggestions, teachers are giving the student a small type of buffer that would aide the student with coping with a move. Where these will not completely remedy the hindrance at hand, it alleviates a degree of post- or pre-move stress and tensions the child might be undergoing.
+
+==''References''==
+
+Chaika, Glori (1999). Student mobility: Helping children cope with a moving experience. ''Education World, The Educator's Best Friend'', Accessed September 17, 2008, from http://www.education-world.com/a_curr/curr134.shtml
+
+Hartman, C. (2002), High classroom turnover: How children get left behind. ''Rights at Risk: Equality in an Age of Terrorism'', 227-244.
+
+Paik, S.  Z. &  Phillips, R.  (2002). Student mobility in rural communities: What are the implications for student achievement?. ''Education Policy'', Accessed September 16, 2008, from http://www.ncrel.org/policy/pubs/html/rmobile/effect.htm
+
+Rumerger, R. W. & Larson, K. A. (1998). Student Mobility and the increasing risk of high-school dropout. ''American Journal of Education'', 107(1) 1-3.
+
+(September 21, 2004). Student mobility. ''Editorial Projects in Education'', Retrieved September 19, 2008, from http://www.edweek.org/rc/issues/student-mobility/
+
+==''Tell Me What You Know''==
+
+1) What Does Student Mobility Refer to?
+
+a) student movement from school to school
+
+b) student movement from subject to subject
+
+c) student progression through grade levels
+
+d) student transportation to and from school
+
+2) Maria is a student new to the 7th grade class. It does not seem as though she is close with any of her classmates, does not communicate well with others or the teacher, does not maintain regular and consistent attendance, nor does she do well on her assignments. Maria is a student that falls into which category?
+
+a) foreign exchange
+
+b) has a speech impediment
+
+c) inclusion student
+
+d) new student to the school or area
+
+3) As a child who undergoes frequent mobility, I am likely to experience . . .
+
+a) lower grades and test scores
+
+b) lower peer relationship development
+
+c) lower level of comprehension and retention of information
+
+d) all of the above
+
+4) Out of Eighth grade students ___% of students have moved schools more than twice excluding progression to middle/high school.
+
+a) 14%
+
+b) 26%
+
+c) 31%
+
+d) 87%
+
+<small>answers - a,d,d,c</small>
+
+{{FAE/Rating|edition=1|UIN=64}}
+
+{{BookCat}}

@@ -1,0 +1,318 @@
+==Semantics==
+==Definition 3 (Semantics of propositional logic)==
+
+For the semantics of our formal language of propositions we do not refer to a
+specific intended interpretation. Moreover we only are interested in truth
+values. We assume an initial assignment of truth values to atomic formulae and
+based on this, we define the truth value of more complex formulae.
+The set of truth values is the set <math>\{true,
+false\}</math>.
+An assignment for a set <math>D</math> of atomic formulae is a function 
+
+<math>\mathcal{A} | D </math><math> \to \{true, false\}</math>.
+Let <math>E</math> be the set of formulae containing <math>D</math>, i.e <math>E \supseteq D</math> and
+exactly those  formulae which can be  constructed from <math>D</math> according
+to the definition of the syntax. Then
+the extension of <math>\mathcal{A}</math> on <math>E</math>, <math>\mathcal{A}_E | E \to \{true, false\}</math>, is given as:
+
+  
+*<math>A \in D</math> : <math> \mathcal{A}_E(A) = \mathcal{A}(A)</math> 
+
+*<math> \mathcal{A}_E((F\land G)) = 
+\begin{cases} 
+\;\;\,true & \text {if } \mathcal{A}_E(F) = true  \text { and }  \mathcal{A}_E(G) = true \\
+\;\;\,false & otherwise  
+\end{cases} </math>  
+                         
+*<math> \mathcal{A}_E((F\lor G)) = 
+\begin{cases} 
+\;\;\,true & \text {if } \mathcal{A}_E(F) = true \text{ or }  \mathcal{A}_E(G) = true \\
+\;\;\,false & otherwise
+\end{cases} </math>
+
+*<math>\mathcal{A}_E(\lnot F) = 
+\begin{cases}
+\;\;\,true & \text {if } \mathcal{A}_E(F) = false \\
+\;\;\,false & otherwise
+\end{cases} </math>
+
+In the following we will omit the index <math>E</math> to indicate the
+extension of an assignment <math>\mathcal{A}</math>. 
+Note that this is the right place to name formulae of type <math>(F \land
+G)</math> as conjunctions, formulae of type <math>(F \lor G)</math> as disjunctions and formulae of
+type <math>\lnot F</math> as negations.
+
+The following is an example evaluation by means of the definition of
+<math>\mathcal{A}</math>:
+Assume as given <math>\mathcal{A}(A) = true,\text { }   \mathcal{A}(B) = true</math>  and <math>\mathcal{A}(C) =
+false</math>, then 
+
+<math>\mathcal{A}( \lnot((A\land B) \lor C))</math><br>
+:::::::<math>\text{  } =
+\begin{cases}
+\;\;\,true &  \text { if }   \mathcal{A}((((A \land B)) \lor C)) = false \\
+\;\;\,false & \; otherwise
+\end{cases}</math></center>
+:::::::<math>\text{ }=  
+\begin{cases}
+\;\;\,false  & \text { if }   \mathcal{A}((((A \land B)) \lor C)) = true \\
+\;\;\,true & \; otherwise 
+\end{cases}</math>
+:::::::<math>
+\text{ }= 
+\begin{cases}
+\;\;\,false  & \text { if }   \mathcal{A}((((A \land B))))= true \text{ or } A(C) = true \\
+\;\;\,true & \; otherwise 
+\end{cases}</math>
+:::::::<math> 
+\text{ }=  
+\begin{cases}
+\;\;\,false  & \text{ if }   \mathcal{A}((((A \land B)))) = true \\ 
+\;\;\,true & \; otherwise 
+\end{cases}
+</math>
+:::::::<math>
+\text{ }=  
+\begin{cases}
+\;\;\,false  & \text{ if }   \mathcal{A}(A) = true  \text { and }  \mathcal{A}(B)= true\\
+\;\;\,true & \; otherwise 
+\end{cases}</math>
+
+:::::::<math>\text{ }= false</math>
+
+==Definition 4 ==
+
+Let <math>\mathcal{A}</math> be an assignment and <math>F</math> a formula. <math>\mathcal{A}</math> is called
+assignment for <math>F</math>, if <math>\mathcal{A}</math> is defined for every subformula of <math>F</math>.
+If <math>\mathcal{A}</math> is an assignment for <math>F</math> and <math>\mathcal{A}(F) = true</math> we call <math>\mathcal{A}</math>
+a model for <math>F</math> and we write <math> \mathcal{A} \models F</math> 
+If <math>\mathcal{A}</math> is an assignment for <math>F</math> and <math>\mathcal{A}(F) = false</math>,  we write <math>\mathcal{A}
+\nvDash F</math>.
+
+A formula <math>F</math> is called satisfiable, iff there is 
+a model for <math>F</math>, otherwise <math>F</math> is called unsatisfiable. <math> F</math> is called valid (or a
+tautology) iff every assignment for <math>F</math> is a
+model. We write <math>\models F</math>  rsp. <math>\nvDash F</math>.
+
+==Theorem 1==
+A formula <math>F</math> is valid, iff <math>\lnot F</math> is unsatisfiable.
+
+'''Proof:'''
+<math>F</math> is a tautology 
+
+iff every assignment for <math>F</math> is a model for <math>F</math>
+
+iff every assignment for <math>F</math> (which is of course, also an
+assignment for <math>\lnot F</math>) is not a model for <math>\lnot F</math>
+
+iff <math>\lnot F</math> has no model
+
+iff <math>\lnot F</math> is unsatisfiable.
+
+==Definition 5 (Consequence)==
+
+A formula <math>G</math> is called a consequence of the formulae  <math>F_1,\cdots, F_k</math>, if for every assignment <math>\mathcal{A}</math> for <math>G</math> and
+<math>F_1,\cdots, F_k</math> holds: if <math>\mathcal{A}</math>  is a model for <math>F_1, \cdots, F_k</math>, then <math>\mathcal{A}</math> is a model for <math>G</math>. We write <math>\{F_1, \cdots, F_k\} \models G</math>.
+
+The following theorem is a simple consequence from definitions:
+
+==Theorem 2==
+
+<math>G</math> is called a  consequence of the formulae <math>F_1,\cdots, F_k</math>, 
+
+iff  <math> ((\bigwedge^k_{i=1} ~F_i) \to G)</math> is a tautologie
+
+iff  <math> ((\bigwedge^k_{i=1} ~F_i) \land ~\lnot G)</math> is unsatisfiable.
+
+Obviously the validity of a formula depends only of the assignments
+for its atomic subformulae: If <math>\mathcal{A}</math>  and <math>\mathcal{A}'</math>  are assignments for
+<math>F</math> and if they yield the same value for every occurring atomic
+subformulae,  then <math>\mathcal{A}(F) = \mathcal{A}'(F)</math> holds. As a consequence we can
+state, that it suffices for a test of the validity of a formula <math>F</math>
+to check the infinitely many assignments of its atomic subformulae.
+Such a check can be depicted easily in a tableau of the following
+form, where <math>F</math> is an arbritrary formula, containing <math>n</math> distinct
+atomic formulae <math>\mathcal{A}_i</math>.
+<center>
+{| border="1" cellspacing="0" cellpadding="5" align="center"}
+!
+! <math>\mathcal{A}_1</math>
+! <math>\cdots</math>
+!<math>\mathcal{A}_{n-1}</math>
+!<math>\mathcal{A}_n</math>
+!<math>F</math>
+|- 
+|<math>\mathcal{A}_1</math>
+| false
+| <math>\cdots</math>
+|false
+|false
+| <math>\mathcal{A}_1 (F)</math>
+|-
+|<math>\mathcal{A}_2</math>
+|false
+|<math>\cdots</math>
+|false
+|true
+|<math>\mathcal{A}_2 (F)</math> 
+|-
+|
+|
+|
+|
+|
+|
+|-
+|<math>\mathcal{A}_2n</math>
+|true
+|<math>\cdots</math>
+|true
+|true
+|<math>\mathcal{A}_n (F)</math>
+|}
+
+
+</center>
+<br><br>
+When applying this procedure it might me helpful to introduce
+intermediate results for subformulae, as done in the following
+example.
+<br>
+<center>
+{|border="1" cellspacing="0" cellpadding="5" align="center"
+!<math>A</math>
+!<math>B</math>
+!<math>\lnot A</math> 
+!<math>A \text{ }\to \text { } B</math>
+!(<math>\lnot \text{ } A \text{ }\to \text{ } ( A \text{ }\to \text{ } B</math> ))
+|-
+|false
+|false
+|true
+|true
+|true
+|-
+|false
+|true
+|true
+|true
+|true
+|-
+|true
+|false
+|false
+|false
+|true
+|-
+|true
+|true
+|false
+|true
+|true
+|-
+|}
+</center>
+<br>
+Note that we just have depicted an algorithm to check the validity of
+a formula. Assume the Formula contains <math>n</math> atomic subformulae, then
+our just constructed tableaux contain <math>2^n</math> lines. To estimate the
+costs for such an exponential algorithm, assume that the computation
+of one line takes 1 micro-second. Is <math>F</math> contains only 100 atomic
+subformulae the computation of the tableau would take <math>2^{100}</math>
+micro-seconds.
+
+==Truth Tables==
+
+The problem whether a propositional formula is satisfiable is called
+SAT and the corresponding tautology problem  is called TAUT.
+
+SAT is an NP-complete problem, and hence it is not known whether SAT
+is tractable or not. Whether TAUT is in NP is still an open problem.
+For TAUT we know, that it is in NP iff NP is closed under
+complementation. SAT and TAUT, both, play a prominent role in the
+study of complexity theory, in particular with respect to the question
+whether <math>P = NP</math>.
+
+==Problem==
+====Problem 1 (Propositional)====
+
+Compute  truth tables for the following formulae. Decide for each  formula
+whether it is valid (a tautology), satisfiable or unsatisfiable.
+  
+#<math>(A \land B) \land (B \to C)</math>         
+#<math>(A \land B) \leftrightarrow (\lnot A \lor \lnot B)</math> 
+#<math>(\lnot A \lor \lnot(\lnot B \lor A)) \lor A</math>         
+#<math>(A \to (B \land C)) \leftrightarrow ((A \to B) \land (A\to C))</math> 
+#<math>(A \lor (B \land A)) \land ((C \lor \lnot C) \to \lnot A)</math>         
+#<math>((C \lor B) \land (C \lor \lnot B))\land\lnot C </math>    
+#<math>\lnot(\lnot A \lor \lnot(\lnot B \lor \lnot A)) </math>         
+#<math>(A \to (B \to A))</math> 
+#<math>(A \lor (B \land A)) \land ((C \lor \lnot C) \to \lnot A)</math>         
+#<math>((A \lor \lnot B) \lor ((\lnot A \land \lnot C) \land B))\leftrightarrow ((A \lor \lnot C) \lor \lnot B)</math> 
+#<math>\lnot(A \land \lnot(B \land \lnot C))</math>
+
+====Problem 2 (Propositional)====
+"What is the secret of your long life?" a 100-year old man was asked. He answered: "I apply the following diet rules very strictly:
+If I drink no wine at dinner then I have always fish. Whenever I take fish and wine for dinner, it is without garlic. If I have garlic or wine I avoid fish"
+  
+#Formalize these rules with the help of propositional logic. 
+#Try to simplify the advice of the 100-year old man.
+
+====Problem 3 (Propositional)====
+Define the following functions recursively by induction over the construction of
+propositional formulae:
+  
+#<math>\alpha(F)</math>: Set of atomic formula in <math>F</math>             
+#<math>\beta(F)</math>: Number of the binary junctors <math>\land</math> and <math>\lor</math> in <math>F</math> 
+Note: For <br>
+<center>
+<math> F</math> = <math>(\lnot(A \lor B) \lor C)</math> <math> \land </math> <math>((\lnot A \lor B) \land C) </math><br><br> <math>\alpha(F) = \{A,B,C\}</math> and <math>\beta(F) = 5</math> holds.</center>
+
+====Problem 4 (Propositional)====
+Given the formulae <math>F_n </math>= <math>A_1</math> <math>\stackrel{\cdot} \vee \cdots \stackrel{\cdot} \vee A_n</math>, in which <math>A_1,\dots,A_n</math> are
+atomic formulae (<math>n \geq 1</math>) where <math>\stackrel{\cdot} \vee</math> denotes exclusive or.  Prove for all
+<math>n \in \N</math>: A suitable assignment  <math>\mathcal{A}</math> for  <math>F_n</math> is a model for <math>F_n</math>
+(i.e. <math>\mathcal{A} \models F_n</math>) iff <math> \mathcal{A}(A_i)=1</math> halds for an odd number of
+<math>\mathcal{A}_i</math> (<math>1 \leq i \leq n</math>).
+
+====Problem 5 (Propositional)====
+
+In the following we investigate formulae, in which only atoms <math>A_1,\dots,A_n</math> occur.
+                      
+#How many of such formulae with different truth tables exist at most?             
+#Is there for every truth table a formula? If yes, please indicate a construction!
+
+====Problem 6 (Propositional)====
+If the colonel was not in the room during the murder then
+he cannot know the weapon of the murderer. The butler
+lies or he knows the murderer. If Lady Barntree is the
+murderer then the colonel was in the room during the murder
+or the butler lies. The butler knows the murderer or the
+colonel was not in the room during the murder.
+The policeman concludes that Lady Barntree is the murderer.
+Give propositional variables for every statement
+of the argumentation. Write the argumentation as a set <math>M</math>
+of propositional formulae of the prerequisites and the
+conclusion as a propositional formula <math>F</math>.
+
+====Problem 7 (Propositional)====
+Formalize the following expressions and then simplify the corresponding formulae and the verbal propositions.
+  
+#It is not true that his mother is English and his father French. 
+#It is not true that he is studying physics but not mathematics. 
+#It is not true that the wages are going down and the prices are going up. 
+#It is not true that it is not cold or rainy.
+
+====Problem 8 (Propositional)====
+The professor proposes to make a new conception for the lunch in the University restaurant:
+  
+#There must be bread with every lunch if there is no dessert. 
+#If bread and dessert are served then is be no soup. 
+#If soup is served then there is no bread. 
+Help the management to fulfill the wishes of the professor. For this
+  
+#formalize the three propositions (as implications, disjunctions/conjunctions) and combine them into one logical formula. 
+#Give a truth table for this logical formula. Is there a model for the formula? 
+#Give a colloquial verbalization for the assignment.
+
+{{BookCat}}

@@ -1,0 +1,95 @@
+== Why do dissertations always have a lit review? ==
+A doctoral dissertation is both a piece of original scholarship, and an assessment tool. In other words, your committee must make sure that anyone who receives a doctoral degree from our program, is a competent scholar. A competent scholar not only knows the literature in her or his field, but also can "read up" on any subject or topic that becomes of interest. These are not trivial skills, and take years to learn. "Reading up" on a subject should be efficient, reasonably quick, but still thorough and not shallow. However, your undergraduate and masters-level training have probably provided you with a good foundation.
+
+In some fields, literature reviews look very differently, or are not distinguishable from the rest of the work. This applies to theoretical work in fields such as Philosophy of education, or Curriculum Theory. Most of empirical research projects will include a lit review of one sort or another, usually in chapter II, immediately following the chapter on conceptual framework and hypothesis.
+
+If you tend to think in analogies, consider this one which could be applied to any writing (or art) endeavor. In this case we'll use this as applied to writing a dissertation. First, picture the cross section of an apple.
+
+The seeds will represent the ideas/purpose for the dissertation, which of course should be the research question(s). 
+The area immediately around the seeds, the core, should be the form. This form is relatively set in stone by your university, usually explained in some kind of graduate student handbook. Basically, the form consists of a number of chapters delineated for specific purposes. Often the literature review is the second chapter of your dissertation. 
+Beyond the form is the idiom, meaning the general style. In the case of the dissertation, the expectation is that this is a formal and academic style, though there is much debate regarding whether first or third person is used. The debate about this seems to be influenced by the methodology used (qualitative=first person, quantitative=third person), though this is not consistent, and may be more influenced by the recommendations from your committee more than anything else. 
+Next is the structure of the piece, where this is all put together. Your research questions and methodology determine a lot of the expected structure due to particular ways that the statistics must be written up, and/or the descriptive language used in the write-up of qualitative research. 
+Very closely related to your structure, is the craft of your writing. Whether you write in first or third person, your writing should hold the interest of your readers throughout all sections of the dissertation. 
+Finally, we've reached the skin of the apple, the surface. This is the wordsmithing, the refining of eloquent language, the grammatical correctness, the scrupulous editing that is essential for the professionalism expected of the dissertation. 
+Okay, now to the focus of this chapter, the why. The literature review is the shell encompassing the seed of the dissertation. Although your study topic is your own, it is contained within the great and not so great works of your field. Without these works, your study does not have the sustainability to take on a form and progress to idiom, structure, or craft. At the surface (the wordsmithing, eloquent prose, etc.) your research study may appear to be similar to the masters', those researchers that have published their work in journals, book chapters, etc. (Picture an apple, ripe, heavy with juice, providing sustenance to the body of research read and used by many to understand the field.) But, without the literature review, your dissertation would remain hollow in essence, thus unable to feed the field so-to-speak. Therefore, what purpose, if any, would it really serve?
+
+(The analogy used for this section was adapted from Scott McCloud's book, Understanding Comics, copyright 1993, HarperCollins Publishers.)
+
+== What makes a good lit review ==
+First, let's talk about what makes a terrible lit review. A laundry list of names and summaries of what they have said make terrible lit reviews. If you read dissertations [1], you may find a fair portion of terrible lit reviews. Do not draw comfort from that; just because someone slipped through the cracks does not mean you should settle for a poor review. Those are very hard and boring to write and even harder and "boringer" to read.
+
+This is a secret to good experience in your doctoral program: work on something you have a passion for, and that can hold your interest. Try to do a good job, and the job won't seem to be daunting. To cope with a big challenge, enjoy it! If you try several takes, and still find that you hate writing and reading research, think of a career change.
+
+A good lit review may have some of the following:
+
+It tells a story. The author takes the body of literature as a research field, and looks for patterns, themes, at how it develops; where are its strength and what has been a blind spot, and why. The lit review is a research of research, so it should have a point or a thesis. 
+Hopefully, the story you tell in lit review (the thesis of it) confirms that your dissertation is BOTH grounded in a previous research and meets a need, or fills a gap. Before starting to write, ask yourself two questions: 
+What conversation(s) am I joining, and 
+Why do(es) the conversation(s) need my research? 
+A good lit review also reads like a story. It is clearly organized, has a strong voice, and does not sound like an encyclopedia entry, Wikipedia excluded. 
+A review in most cases needs to touch up on foundational literature, just to situate, or position itself in scholarly traditions. It is especially important for field that are fragmented, divided, and controversial (which is most of educational fields). 
+A good review will include the "buzz" - what is hot in contemporary research, if it is relevant, of course. 
+And most importantly, you need to make sure you're not reinventing the wheel, and are not missing something very relevant just because it is called something else, that is, uses different terminology. 
+To strengthen your literature review you may want to consult Machi & McEvoy's The Literature Review (2008) or Glatthorn & Joyner's Writing the Winning Thesis or Dissertation(2005).
+
+The lit review chapter should be organized as a mini-research where the subject is the body of literature you are reviewing. Therefore, you should probably begin with how you selected the literature for review, how did you go about reviewing, and what is the main claim/thesis.
+
+For example:
+
+"The parameters of my research described in the previous chapter, dictated the scope of this literature review. Three main scholarship traditions contributed to development of the conceptual framework and methodology:...
+
+My aim here is to show that the three traditions exist largely independent of each other, although they consider similar phenomena. The ... school of thought was able to achieve..., but does not have a good grasp on .... The other tradition, represented by ... was able to provide important data on the phenomenon that interests me, but its conceptual weakness prevented it from extending research into the areas of...
+
+I will consider all three traditions simultaneously, and organize the chapter by themes, rather than chronologically."
+
+== How do you know which field(s) to review? ==
+This is not such a trivial question as one might think. One has to have a more or less complete conceptual framework before engaging in extensive lit review work. You need to know the key concepts you are going to use, in their relationships to each other. Having a hypothesis, however vague, is also very important.  A hypothesis serves as a set of working criteria for dividing literature in two groups: relevant to your work, or not relevant. You cannot just read in search of interesting stuff beyond the very beginning stages of your work. The “exploratory” stage should be completed by the end of the first semester of your doctoral program, or before you even enter. 
+
+You also need to have some pilot literature investigation, just to know what do we know about whatever the problem you are investigating. For example, if you want to write about Hispanic adolescent's attitudes toward schooling, you may survey several literature strands at the same time, then focus your research question, and only then do a proper literature review. 
+
+*Adolescent attitudes to schooling
+*Hispanic youth and learning motivation
+*Family dynamics in Hispanic households and school
+*Dropout causes and Hispanics
+*etc.,. etc. 
+
+Each of these will be more or less relevant. You need to find "home" in the research literature, and understand which conversation or conversations you want to be a part of. Then adopt these people's language, and read about their research in depth. 
+
+It is perfectly all right, and often very beneficial, to bring together two or more research strands, or bring a different theoretical perspective into an existing research. This is how many new ideas are born. However, make sure to avoid being in too many places at the same time. Three different research traditions is probably a maximum you can afford to investigate. Ignore the rest.
+
+Keep in mind that any problem and any solution can be framed in many different ways. various fields and subfields have generated their own languages and bodies of evidence. While you cannot afford to ignore relevant evidence, you should choose a specific theoretical language to use and move forward.
+
+== How do you track down foundational research? ==
+For any research project, one can identify "foundational" literature. Who first introduced the key concepts you are using? Who first drew attention to the set of problems and issues you are dealing with? Who contributed significantly to the development of your sub-field(s)?
+
+You do not need to go all the way back to Plato. All intellectual history is related, all is built on top of previous knowledge. So, it does not make sense to invest a lot of time in tracing the intellectual roots of your research inspiration. However, almost any problem or issue is associated with just a few most important names. 
+
+For example, if you are writing about learning motivation, there is no need to cover a whole gamut of motivational theories from Freud to Skinner (unless your research directly looks at different approaches to learning motivation). However, you would not want to miss, for example, the pioneering work of Edward Deci (1971) or Mark Lepper (1973). How do you find those two? Use all of these ways:
+# Ask your adviser or other more experienced researchers. If they work in exactly the same sub-field as you, those names might be just at the top of their heads, or in their bibliography files.
+# Take a look at relevant textbooks and handbooks, and see who the authors cite in the appropriate section. Those are the names you need to look up.
+# Read any contemporary research on the subject; in most cases, the foundational names will be referred to at the beginning of each paper. 
+
+****Note: It is really fun to discover or rediscover obscure but interesting researchers. Unfortunately, not every good researcher or scholar gets recognition, and some important work is forgotten after a few decades or sooner. Including a discovery like that in your lit review can make it livelier and more interesting to read. Just be careful not to slip into another genre. After all, you are not a historian of research, but a researcher. However, if you rediscover someone really interesting, you become an instant authority on that forgotten researcher, and others will really appreciate it. 
+
+==== References ====
+*Deci,Edward L. (1971) “Effects of Externally Mediated Rewards on Intrinsic Motivation,” Journal of Personality and Social Psychology 18/1: 105-115.
+
+*Lepper, Mark R., David Greene and Richard Nisbet,(1973) “Undermining Children’s Intrinsic Interest with Extrinsic Reward; A Test of ‘Overjustification’ Hypothesis,” Journal of Personality and Social Psychology 28: 129-37.
+
+== Who is who in your field? ==
+Within each educational field and sub-field, there exist traditions, or lines of investigation. They aften overlap, split, and merge, but they definitely exist. Those are groups of people who investigate the same or similar topic, follow each other's work, and sometimes collaborate, compete, or fight bitter fights. There are many parallel lines in different fields. Those investigate very similar things, but use different concepts and sometimes very different language. 
+
+When you look at contemporary research, the task of selecting relevant research can be daunting. There is just too much being published, and it is not always clear who is important, and who is safe to ignore. What you want to avoid is two extreme cases, which can be expressed as comments about your work:
+#"She clearly has not read so and so, whose research is directly relevant to this dissertation topic."
+#"He reviews everyone and one's brother. This looks amateurish."
+How do you avoid getting into one of the two pitfalls? Here is a list of tips:
+*Just because you happened to look at some research piece does not mean it should be included in your dissertation. Avoid thinking "I spent time digging this article up, so I should find a place for it." Cut the crap out. 
+*Distinguish between your "anchor" sources and non-essential sources:
+**"Anchor" sources are your direct antecedents in the world of research. Those are the people you are building on. Treat them with utmost respect, read them carefully. Thos do not have to be people you agree with; you may disagree and critique them as well; in both cases, those are your anchors.
+**In many cases, you are only saying that there was such and such research done, and it may or may not affect your line of reasoning or the direction of your own project. Do not invest too much time in reading these sources: The abstract and the conclusion maybe enough, with some scanning of methods and references. 
+*Ultimately, there is a lot of flexibility and choice about who to include and not to include in the lit review. Doctoral committee members always have many suggestions, which you should always check out. However, if you check and the suggested choices do not sound like a good fit, it is up to you to include or not include them, as long as you have a rationale. Most committee members won't be offended, if you do not include their favorite author in your lit review. 
+*Listen to the "buzz." Go to conferences, or chat with people who just went to a conference, and find out what was hot. Like any other social network, scholarly communities operate partly by the word of mouth. It is important not to miss some cutting-edge fresh research, if it is relevant to your topic.
+*For contemporary research Amazon.com's sales rankings may give an indication of the popular appeal of a certain author. It does not reflect his or her standing in the professional community. Citation indexes are a batter indicators of standing. Schoolar Google has the citation index. However, in small fields, this may not work either. 
+*When you are making a case for or against certain theoretical position, consider using works of one or two authors as either "typical representatives" or "leaders" of a certain school of thought. Mention others, but concentrate on a few. This saves time and focuses on important things. There is no point of comparing similar positions in search for minute differences, if you are aiming at larger picture.
+
+{{BookCat}}

@@ -1,0 +1,94 @@
+The cable car is a mass transit vehicle that uses a grip, manipulated by an operator, to reach under the street and clamp onto a cable moving at a constant speed. The cable itself is guided by pulleys powered through stationary motors located in powerhouses. In order to move, the operator gradually pulls a lever that moves the grip down towards the conduit and clamps it onto the moving cable. When the operator wants to stop the cable car, he or she releases pressure on the cable by opening the grip and applying the brakes. Today much of this process is automated.<br><br>
+The cable car started out in San Francisco as a solution for traversing its steep hills. However, others realized that it could replace animal power as well. The cable car was cheaper, faster, cleaner, and stronger than animal power. By the turn of the nineteenth century, every large United States city had a cable car line except Boston, Detroit, and New Orleans. Although the cable car rose quickly in popularity, it fell almost as fast. Today, San Francisco has the only operating cable cars in the United States.
+[[File:Grip car and trailer car of cable street railway, Seattle, late 1888 (CURTIS 424).jpeg|thumb|right|350px|Seattle Cable Car, 1888.]]
+
+==Pre-Cable Car Transportation and Its Limitations==
+Before the cable car, there was animal and steam-powered mass transit. Nineteenth century animal powered mass transit consisted of horse-pulled omnibuses and its larger descendant, horse-pulled streetcars. Essentially, these were large wagons with benches inside that were pulled by horses, or sometimes mules.<br><br>
+There were significant drawbacks to these modes. First, horse power was very constrained. Horses had limited energy and could only work so many hours in a day, often averaging four to five hours <ref>Post,R. (2007).Urban Mass Transit: The Life Story of a Technology. West Port, CT: Greenwood Publishing Group.</ref>. Their carrying capacity and speed were limited. Horse-powered vehicles were very slow; barely faster than the average walking pace. Horses were even slower if the street condition was poor. Travel was smoothest on macadam or planked roads, but not all cities could afford paved roads. In addition, horse cars were limited by terrain. Often one horse could not pull a streetcar up a hill. Second, horses posed a public health risk with their manure and urine on streets. Diseases like tetanus threatened the public. Third, horses were expensive. The average horse was $200 in the nineteenth century <ref>Post,R. (2007).''Urban Mass Transit: The Life Story of a Technology''. West Port, CT: Greenwood Publishing Group.</ref>, and this did not include the horse's maintenance. Cheaper mules could be used, but they depreciated faster than horses. However, a horse was only expected to work three or four years. Fourth, these modes took up a lot of road space, often leading to congestion.<br><br>
+One of the first solutions to animal-powered mass transit was steam-powered elevated rail (or “El” trains). Steam-power was already harnessed by steamboats in the country’s then vast canal network and by railroads connecting the coasts. In the late 1860's, congested inner city roadways were a serious concern. The idea of the elevated rail connected steam and rail technology already used on the ground and moved it above the street. Manhattan and Brooklyn were the first areas in the United States to build the infrastructure. The “El” alleviated congestion and decreased travel time. However, many residents considered coal derived steam-power as dirty. This was solved with the innovation of electric-power, but then residents considered the infrastructure as blight on the city skyline. Again, engineers and planners looked back down to the streets.<br><br>
+
+==The Birth of the Cable Car==
+===Andrew Hallidie===
+The innovation of the cable car is often credited to Andrew Hallidie. Hallidie’s first experiences with cable and wires were with his father, who tinkered with the two and had a few patented inventions. As a young man, he moved to California to prospect. It was there in the Sierra Nevada mountains that he had his first idea of using cables to pull carts. He even obtained a patent in traveling rope-way used to transport buckets over mountainous areas<ref>Post,R. (2007).''Urban Mass Transit: The Life Story of a Technology''. West Port, CT: Greenwood Publishing Group.</ref>. In 1869 while in San Francisco, Hallidie also witnessed a horrible horse car accident, in which one of four horses slipped while pulling a car up a hill, bringing the entire party down<ref>Cudahy, Brian J. (1990). ''Cash, Tokens, and Transfers: A History of Urban Mass Transit in North America''. New York: Fordham University Press</ref> . Having his cable and wire knowledge, he innovated his patent to solve San Francisco’s dangerous hill transportation issue. Hallidie figured out that his cable system could work there as it had in the Sierra Nevadas, but he innovated it by making the cables underground instead of over steep terrain.
+===The Grip===
+The next step was figuring out a mechanism to attach the cart to the moving cable. Hallidie and engineer William Eppelsheimer developed the first lever system that raised and lowered the grip, along with the opening and closing jaw mechanism <ref>Friends of the Cable Car Museum. (2011). "The Grip". ''Cable Car Museum'', retrieved from [http://www.cablecarmuseum.org/the-grip.html]</ref>. However, this early grip proved unreliable. Henry Casebolt, Asa Hovey, and T. Day improved the grip technology by having the grip come down and clamp from the side as opposed to the bottom. This removed the need for turntables because the operator could now shift position on the lever to change directions. However, the side grip let go of the cable frequently, so Eppelsheimer returned to the bottom grip and made improvements. Eppelsheimer’s improved grip is currently used on all San Francisco cable cars.  In addition to the grip, Eppelsheimer discovered how to ease the grip onto the cable to reduce the cart’s jerkiness, which had been an issue on elevated trains.
+===The Roebling Cable===
+As for cables, early Roebling cables were approximately an inch thick, consisting of 96 steel wires wound into six strands of sixteen wires each that were wrapped around tar covered hemp rope<ref>Post,R. (2007).''Urban Mass Transit: The Life Story of a Technology''. West Port, CT: Greenwood Publishing Group.</ref>. The average cable was about four miles long (6.44 km), weighed 60,000 pounds (27,215.5 kg), and cost $7,000 in the 1880s’<ref>Post,R. (2007).''Urban Mass Transit: The Life Story of a Technology''. West Port, CT: Greenwood Publishing Group.</ref>. It was able to stretch up to two percent as it broke in<ref>Post,R. (2007).''Urban Mass Transit: The Life Story of a Technology''. West Port, CT: Greenwood Publishing Group.</ref>. This meant the cable needed consistent readjustment in order to work at the correct level. On average, cables lasted around one year in ideal conditions. The cable was originally powered through coal-fed steam engines in a powerhouse. Today, they are electric. 
+This combination of Hallidie’s expertise in cables and Eppelsheimer’s grips with previous streetcar knowledge created the first cable car, which was launched on San Francisco’s Clay Street on September 1, 1873. Through the years, cable cars that remained became automated and electrified; however, San Francisco’s cable cars are still manually operated.
+
+==The Cable Car's Early Days==
+===Early Markets===
+After the Clay Street cable car, Hallidie, with the financial help of three friends, worked hard to add cable car lines in San Francisco<ref>Palmer, P. & Palmer, M. (1963). ''The Cable Cars of San Francisco''. Berkeley, CA:Howell-North</ref>. Many investors throughout the country saw the cable car’s advantages over horse cars and invested. After San Francisco expanded its Clay Street line, other cities adopted cable cars. Chicago was the second city to use cable cars. With a rapidly growing population, animal power was not serving its residents well. The city saw the cable car, in addition to elevated rail, as the answer. Chicago experiences winter though, so engineers had to figure out how to keep ice from building up in the conduits. Ultimately, they used expensive extra-sturdy ironwork to get around the problem. Together, the two modes removed the horse element of mass transit, which relieved congestion, lowered public health concerns, and saved travel time and money. Many residents were proud of their city’s cable car system, with one resident even writing “the cable car system constitutes the finest method of locomotion ever introduced here or elsewhere”<ref>(1885, August 16).The Cable Roads of Chicago.''Chicago Inter Ocean''. Retrieved from [http://query.nytimes.com/mem/archive-free/pdf?res=9D05E5DD153FE533A25755C1A96E9C94649FD7CF].</ref>.<br><br>
+While most cities invested in cable cars in order to replace horse power, other hilly cities, like Los Angeles and Seattle, invested to combat the hill issue. Cable cars allowed residents to expand to new parts of the city that were previously unreachable. An example is the Temple Street Cable Railway in Los Angeles that led to the development of Angeleno Heights.<br><br>
+On a last note, it should be acknowledged that initial cable car investment was expensive. A city needed to dig deep trenches, install a succession of hundreds of iron yokes to support track, build the conduit and pulley system, and install the cable. Only cities that could afford this investment could have cable cars. In the end, most large American cities did choose to invest. Only Boston, Detroit, and New Orleans opted not to have cable cars.
+===Early Policies===
+In the cable car’s infancy, policies used from previous modes, such as the horse car, elevated rail, and railroad, were applied. Many of these policies concerned safety, service, and fares. One safety measure was the addition of a bell to let passersby know that the cable car was approaching. New signs had to be added to let passengers know where the cable car stopped to let riders on and off. A five cent fare policy, currently used on other modes, was adopted<ref>Garrison, W.L. & Levinson,D.M. (2005)''Transportation Policy, Planning, and Deployment''. Oxford English Press.</ref> Since cable cars shared public roads with other modes, right of way was not an issue. Overall, the transition from horse car to cable car was not difficult for riders. It was a similar mode with a new energy source. However, safety concerns would continue to grow.
+
+==The Growth of Cable Cars==
+By 1890, cable cars carried 373 million passengers in the United States <ref>McKay, J.P. (1988). "Comparative Perspectives on Transit in Europe and the United States, 1850-1914". ''Technology and the Rise of the Networked City in Europe and America''. Philadelphia: Temple University Press.</ref>. Like the majority of transit modes before World War I, the cable car was privately-owned. Overall, it was difficult to start up a cable car agency because cable cars were expensive to operate. Powerhouses had to constantly run at full capacity to power the line. Cables had to been replaced annually, if not sooner due to their likelihood of breakage. Grips and brakes, too, wore down quickly. However, once more cable cars were running, economies of scale lowered costs. The most profitable lines were those that went out towards the outer rings of the city. These lines allowed for new housing developments, which provided riders to the cable cars. Los Angeles’ Temple Street line is an example of this. The government's involvement included approving and financing the initial start up. After that occurred, laissez faire attitudes prohibited local governments from interfering in what was considered private business decisions. There was one exception: public safety. <br><br>
+Although cable cars were much more efficient than horse cars, they were more dangerous. Cable cars’ cables or grip levers could snap, preventing the operator from braking. Other times, people would fall out of cars or walk in front of them to be crushed. Many municipalities crafted legislation to improve cable car’s safety records. Chicago is an example. As aforementioned, cable car agencies maximized profits if it ran more cable cars. Chicago, a growing city with congestion issues, was a cable car city that needed more cars to achieve higher capacity. Instead of pulling one or two trains at a time, Chicago tried pulling three to four cars a train. This proved to be very dangerous, and policy was put in place to limit the number of cars.
+
+==The Decline of the Cable Car==
+Cable cars peaked in 1893 with 305 miles of track. With the addition of electric power, streetcars became the cable car’s main competition in 1892. The electrified streetcar was faster, cheaper to assemble and operate, and less burdensome. Streetcars did not require as much expensive upkeep as cable cars did. This new mode became more attractive to city officials than cable cars. Attempts were made to electrify cable cars, but this proved ineffective. In San Francisco's case, the 1906 earthquake destroyed much of the cable cars' network, and city officials deemed it more practical to build the "modern" electric streetcar than return to the "archaic" cable car. The only remaining cars were those not severely affected or those that went up the steepest hills. As time went on, other modes took the cable car's place. Today, San Francisco's three remaining lines are the only cable car lines left in the United States.
+
+==The Birth, Growth, and Decline of Cable Cars Through An S-Curve==
+As has been discussed, transportation modes proceed through four phases: birth, growth, maturity, and decline. The cable car is no exception. Looking at its track mileage over time, we can see these stages. From 1873 until 1882, the cable car was in its birth stage. People were slowly becoming familiarized with this new mode, and cities were starting to build the necessary infrastructure. From 1883 until 1893, the cable car grew to replace horse cars in most major U.S. cities. It is interesting to note that the cable car did not have a maturity stage. Right after its peak year in 1893, the cable car started on a steep decline due to the increased competition of the electric streetcar. Below is a table of the cable car's track mileage in the United States from 1873 to 1913 as obtained from George Hilton's ''The Cable Car in America'' (1982).<br><br>
+{| class="wikitable"
+|-
+! Year!! Track Mileage !! Year!! Track Mileage
+|-
+| 1873 || 0.6 || 1895 || 289.5
+|-
+| 1877 || 2.1 || 1896 || 255.7
+|-
+| 1878 || 4.6 || 1897 || 241.7
+|-
+| 1879 || 7.0 || 1898 || 220.2
+|-
+| 1880 || 11.2 || 1899 || 183.3
+|-
+| 1881 || 11.2 || 1900 || 147.9
+|-
+| 1882 || 20.3 || 1901 || 120.3
+|-
+| 1883 || 31.1 || 1902 || 108.4
+|-
+| 1884 || 31.1 || 1903 || 101.4
+|-
+| 1885 || 46.5 || 1904 || 95.3
+|-
+| 1886 || 62.3 || 1905 || 95.3
+|-
+| 1887 || 93.0 || 1906 || 29.9
+|-
+| 1888 || 151.4 || 1907 || 29.3
+|-
+| 1889 || 213.0 || 1908 || 28.2
+|-
+| 1890 || 266.4 || 1909 || 27.7
+|-
+| 1891 || 272.3 || 1910 || 25.9
+|-
+| 1892 || 287.6 || 1911 || 25.0
+|-
+| 1893 || 305.1 || 1912 || 21.0
+|-
+| 1894 || 302.3 || 1913 || 20.0
+|}
+Due to the fact that it can show status over time, an S-curve was used to show the cable car's history graphically. The S-curve was created through the formula: <br><br>
+<math>S(t) = K/[1+e^{(-b(t-t_0)}]</math><br><br>
+Where:<br>
+S(t) = total mileage in a given year<br>
+K = saturation status level (in this case the maximum miles of track - 305.1)<br>
+b = coefficient<br>
+t = year<br>
+t0 = inflection point (year in which 1/2 k is achieved)<br>
+A linear regression was needed to determine the coefficient (b) and inflection point (t0) in order to use the S-curve equation. This was done through the equation:<br><math>Y = \ln\left(\cfrac{S(t)}{(K-S(t))}\right)= bt-bt_0</math><br>
+This was done twice - first for the birth/growth stage and second for the decline. In the birth/growth stage, b was found to be 0.47 and t0 was 1887. In the decline stage, b was found to be -0.78 and t0 was 1904. After running this regression, the newly calculated variables were plugged into the S-curve equation to determine the predicted track mileage. All together, these points were then graphed with the actual track mileage in order to see a comparison. This can be see in the graph below. For the birth/growth stage, the s-curve had an R-squared of 0.97, meaning it is a very close prediction. However, for the decline stage, the R-squared was 0.31, reflecting a poor prediction. This may be due to the fact that the S-curve predicted a maturity phase when in actuality the cable car never had a maturity phase. 
+[[File:Actual and Predicted Mileage of Cable Cars.jpg|thumb|center|450px|Actual and Predicted Mileage of Cable Cars in the United States]]
+==The Cable Car's Lasting Impact==
+The cable car may have had a brief life, but it made a lasting impact on transportation history. It was the cable car that finally took the horse and all its negative externalities out of the equation. It served as a bridge from the old mode, horse cars, to the new mode, electric streetcars. While it tried to compete with the latter mode by turning to electric power itself, it was not enough. However, the electric streetcar did not completely kill off the cable car. Due to the fighting efforts of a grassroots group, the Citizens' Committee to Save the Cable Cars, San Francisco still has three operating lines today for people to enjoy.
+[[File:Sf_cable_car.jpg|thumb|right|450px|Powell and Market Cable Car, San Francisco]]
+==References==
+{{reflist}}
+{{BookCat}}

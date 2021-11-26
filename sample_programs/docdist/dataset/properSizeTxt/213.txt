@@ -1,0 +1,277 @@
+<noinclude>{{prognav|JavaScript|Changing element styles|W3C event handlers|prog=0}}</noinclude>
+== Event Handlers ==
+
+An event that can be handled is something happening in a browser window, including a document loading, the user clicking a mouse button, the user pressing a key, and the browser screen changing size. When a function is assigned to handle an event type, that function is run when an event of the event type occurs.
+
+An event handler can be assigned in the following ways:
+# Via an element attribute directly in HTML: <nowiki><body onload="alert('Hello World!');"></nowiki>
+# Via JavaScript, by assigning the event type to an element attribute: <nowiki>document.onclick = clickHandler;</nowiki>
+# Via JavaScript by a direct call to the [[#addEventListener|addEventListener]]() method of an element.
+
+A handler that is assigned from a script uses the syntax '<tt>[element].[event] = [function];</tt>', where <tt>[element]</tt> is a page element, <tt>[event]</tt> is the name of the selected event and [function] is the name of the function that is called when the event takes place.
+
+For example:
+
+<syntaxhighlight lang=javascript>
+document.onclick = clickHandler;
+</syntaxhighlight>
+
+This handler will cause the function <tt>clickHandler()</tt> to be executed whenever the user clicks the mouse anywhere on the screen. Note that when an event handler is assigned, the function name does not end with parentheses. We are just pointing the event to the name of the function. The <tt>clickHandler()</tt> function is defined like this:
+
+<syntaxhighlight lang=javascript>
+function clickHandler(event) {
+  //some code here
+}
+</syntaxhighlight>
+
+In some browsers the event must be explicitly passed to the function, so as a precaution it's often best to include a conditional to test that the <tt>event</tt> variable has been passed, and if it hasn't then to use an alternative method that works on those other browsers:
+
+
+<syntaxhighlight lang=javascript>
+function clickHandler(event) {
+  event = event || window.event;
+  //some code here
+}
+</syntaxhighlight>
+
+Elements within a document can also be assigned event handlers. For example:
+
+<syntaxhighlight lang=javascript>
+document.getElementsByTagName('a')[0].onclick = linkHandler;
+</syntaxhighlight>
+
+This will cause the <tt>linkHandler()</tt> function to be executed when the user clicks the first link on the page.
+
+Keep in mind that this style of handler assignment depends on the link's position inside the page. If another link tag is added before this one, it will take over the handler from the original link. A best practice is to maintain the separation of code and page structure by assigning each link an identifier by using the id attribute.
+
+<syntaxhighlight lang=html4strict>
+<a id="faqLink" href="faq.html">Faq</a>
+</syntaxhighlight>
+
+A handler assignment can then work regardless of where the element is positioned.
+
+<syntaxhighlight lang=javascript>
+document.getElementById('faqLink').onclick = linkHandler;
+</syntaxhighlight>
+Events are actions that can be detected by JavaScript, and the event object gives information about the event that has occurred.
+Sometimes we want to execute a JavaScript when an event occurs, such as when a user clicks a button.
+Events are normally used in combination with functions, and the function will not be executed before the event occurs!
+JavaScript event handlers are divided into two types:
+#Interactive event handlers - depend on user interaction with the HTML page; ex. clicking a button
+#Non-Interactive event handlers - do not need user interaction; ex. on load
+
+===Event Attributes===
+Below are the event attributes that can be inserted into different HTML elements to define event actions.
+IE: Internet Explorer, F: Firefox, O: Opera, W3C: W3C Standard.
+
+{| class="wikitable"
+! Attribute !! The event occurs when... !! IE !! F !! O !! W3C
+|-
+| <tt>onblur</tt> || An element loses focus || 3 || 1 || 9 || Yes
+|-
+| <tt>onchange</tt> || The content of a field changes || 3 || 1 || 9 || Yes
+|-
+| <tt>onclick</tt> || Mouse clicks an object || 3 || 1 || 9 || Yes
+|-
+| <tt>ondblclick</tt> || Mouse double-clicks an object || 4 || 1 || 9 || Yes
+|-
+| <tt>onerror</tt> || An error occurs when loading<br>a document or an image || 4 || 1 || 9 || Yes
+|-
+| <tt>onfocus</tt> || An element gets focus || 3 || 1 || 9 || Yes
+|-
+| <tt>onkeydown</tt> || A keyboard key is pressed || 3 || 1 || No || Yes
+|-
+| <tt>onkeypress</tt> || A keyboard key is pressed<br>or held down || 3 || 1 || 9 || Yes
+|-
+| <tt>onkeyup</tt> || A keyboard key is released || 3 || 1 || 9 || Yes
+|-
+| <tt>onload</tt> || A page or image has<br>finished loading || 3 || 1 || 9 || Yes
+|-
+| <tt>onmousedown</tt> || A mouse button is pressed || 4 || 1 || 9 || Yes
+|-
+| <tt>onmousemove</tt> || The mouse is moved || 3 || 1 || 9 || Yes
+|-
+| <tt>onmouseout</tt> || The mouse is moved<br>off an element || 4 || 1 || 9 || Yes
+|-
+| <tt>onmouseover</tt> || The mouse is moved<br>over an element || 3 || 1 || 9 || Yes
+|-
+| <tt>onmouseup</tt> || A mouse button is released || 4 || 1 || 9 || Yes
+|-
+| <tt>onresize</tt> || A window or frame is resized || 4 || 1 || 9 || Yes
+|-
+| <tt>onselect</tt> || Text is selected || 3 || 1 || 9 || Yes
+|-
+| <tt>onunload</tt> || The user exits the page || 3 || 1 || 9 || Yes
+|}
+
+Mouse/Keyboard Attributes:
+
+{| class="wikitable"
+! Property || Description || IE || F || O || W3C
+|-
+| <tt>altKey</tt> || Returns whether or not the "ALT"<br>key was pressed when an event<br>was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>button</tt> || Returns which mouse button was<br>clicked when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>clientX</tt> || Returns the horizontal coordinate of<br>the mouse pointer when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>clientY</tt> || Returns the vertical coordinate of the<br>mouse pointer when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>ctrlKey</tt> || Returns whether or not the "CTRL" key<br>was pressed when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>metaKey</tt> || Returns whether or not the "meta" key<br>was pressed when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>relatedTarget</tt> || Returns the element related to the<br>element that triggered the event || No || 1 || 9 || Yes
+|-
+| <tt>screenX</tt> || Returns the horizontal coordinate of the<br>mouse pointer when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>screenY</tt> || Returns the vertical coordinate of the mouse<br>pointer when an event was triggered || 6 || 1 || 9 || Yes
+|-
+| <tt>shiftKey</tt> || Returns whether or not the "SHIFT" key was<br>pressed when an event was triggered || 6 || 1 || 9 || Yes
+|}
+
+Other Event Attributes:
+
+{| class="wikitable"
+! Property !! Description !! IE !! F !! O !! W3C
+|-
+| <tt>bubbles</tt> || Returns a Boolean value that indicates<br>whether or not an event is a bubbling event || No || 1 || 9 || Yes
+|-
+| <tt>cancellable</tt> || Returns a Boolean value that indicates<br>whether or not an event can have<br>its default action prevented || No || 1 || 9 || Yes
+|-
+| <tt>currentTarget</tt> || Returns the element whose event<br>listeners triggered the event || No || 1 || 9 || Yes
+|-
+| <tt></tt> || Returns the element that triggered the event || No || 1 || 9 || Yes
+|-
+| <tt>timeStamp</tt> || Returns the time stamp, in milliseconds<br>from the epoch (system start or event trigger) || No || 1 || 9 || Yes
+|}
+
+== Standard event handlers ==
+
+{| class="wikitable"
+! Attribute
+! Trigger
+|-
+| <tt>onabort</tt>
+| Loading of image was interrupted
+|-
+| <tt>onblur</tt>
+| Element loses focus
+|-
+| <tt>onchange</tt>
+| Element gets modified
+|-
+| <tt>onclick</tt>
+| Element gets clicked
+|-
+| <tt>ondblclick</tt>
+| Element gets double clicked
+|-
+| <tt>onerror</tt>
+| An error occurred loading an element
+|-
+| <tt>onfocus</tt>
+| An element received focus
+|-
+| <tt>onkeydown</tt>
+| A key was pressed when an element has focus
+|-
+| <tt>onkeypress</tt>
+| A keystroke was received by the element
+|-
+| <tt>onkeyup</tt>
+| A key was released when the element has focus
+|-
+| <tt>onload</tt>
+| An element was loaded
+|-
+| <tt>onmousedown</tt>
+| The mouse button was pressed on the element
+|-
+| <tt>onmousemove</tt>
+| The mouse pointer moves while inside the element
+|-
+| <tt>onmouseout</tt>
+| The mouse pointer was moved outside the element
+|-
+| <tt>onmouseover</tt>
+| The mouse pointer was moved onto the element
+|-
+| <tt>onmouseup</tt>
+| The mouse button was released on the element.
+|-
+| <tt>onreset</tt>
+| The form's reset button was clicked
+|-
+| <tt>onresize</tt>
+| The containing window or frame was resized
+|-
+| <tt>onselect</tt>
+| Text within the element was selected
+|-
+| <tt>onsubmit</tt>
+| A form is being submitted
+|-
+| <tt>onunload</tt>
+| The content is being unloaded (e.g. window being closed)
+|-
+| <tt>onscroll</tt>
+| The user scrolls (in any direction and with any means).
+|}
+
+== Event Handlers as HTML attributes ==
+
+In HTML, JavaScript events can be included within any specified attribute - for example, a body tag can have an <tt>onload</tt> event:
+
+<syntaxhighlight lang=html4strict>
+<body onload="alert('Hello World!');">
+</syntaxhighlight>
+
+The content of the HTML event attributes is JavaScript code that is interpreted when the event is triggered, and works very similarly to the blocks of JavaScript. This form of code is used when you want to have the JavaScript attached directly to the tag in question.
+
+This type of technique is called inline JavaScript, and can be seen as being a less desirable technique than other unobtrusive JavaScript techniques that have previously been covered. The use of inline JavaScript can be considered to be similar in nature to that of using inline CSS, where HTML is styled by putting CSS in style attributes. This is a practice that is best avoided in favour of more versatile techniques.
+
+==addEventListener==
+This method adds an event handler to an element for an event type without dropping existing handlers.
+
+Links:
+* [https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener EventTarget.addEventListener()], developer.mozilla.org
+* [https://www.w3schools.com/js/js_htmldom_eventlistener.asp JavaScript HTML DOM EventListener], w3schools.com
+* [https://www.w3schools.com/jsref/dom_obj_event.asp HTML DOM Events], w3schools.com
+
+==removeEventListener==
+This methods removes a particular event handler from an element, given event type.
+
+Links:
+* [https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener EventTarget.removeEventListener()], developer.mozilla.org
+* [https://www.w3schools.com/js/js_htmldom_eventlistener.asp JavaScript HTML DOM EventListener], w3schools.com
+
+==keyCode==
+keyCode property of a keyboard event contains a number indicating which key was pressed.
+
+For keydown event, key codes include 65 for A through 90 for Z, and 48 for 0 through 57 for 9.
+
+Examples:
+<pre>
+document.addEventListener("keydown", function(evt) {
+  alert("Key pressed; key code: " + evt.keyCode);
+  evt.preventDefault();
+});
+</pre>
+
+Links:
+* [https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode KeyboardEvent.keyCode], developer.mozilla.org
+* [https://www.w3schools.com/jsref/event_key_keycode.asp KeyboardEvent keyCode Property], w3schools.com
+
+==Further reading==
+* [https://developer.mozilla.org/en-US/docs/Web/Events Event reference], developer.mozilla.org
+* [https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers DOM on-event handlers], developer.mozilla.org
+* [https://www.w3schools.com/js/js_events.asp JavaScript Events], w3schools.com
+* [https://www.w3schools.com/jsref/dom_obj_event.asp HTML DOM Events], w3schools.com
+
+<noinclude>{{prognav|JavaScript|Changing element styles|W3C event handlers|prog=0}}</noinclude>
+
+{{BookCat}}
+
+[[fr:Programmation Javascript/Évènement]]
+[[it:JavaScript/Gli eventi nel BOM]]

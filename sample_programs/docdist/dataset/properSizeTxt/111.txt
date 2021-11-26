@@ -1,0 +1,200 @@
+The C programming language provides many standard library functions for file input and output. These functions make up the bulk of the C standard library header <code><stdio.h></code>.
+
+The I/O functionality of C is fairly low-level by modern standards; C abstracts all file operations into operations on streams of bytes, which may be "input streams" or "output streams". Unlike some earlier programming languages, C has no direct support for random-access data files; to read from a record in the middle of a file, the programmer must create a stream, seek to the middle of the file, and then read bytes in sequence from the stream.
+
+The stream model of file I/O was popularized by the Unix operating system, which was developed concurrently with the C programming language itself. The vast majority of modern operating systems have inherited streams from Unix, and many languages in the C programming language family have inherited C's file I/O interface with few if any changes (for example, PHP). The C++ standard library reflects the "stream" concept in its syntax; see iostream.
+
+== Function overview ==
+
+Most of the C file input/output functions are defined in <tt>/stdio.h</tt> (<tt>/cstdio</tt> header in C++).
+
+;File access
+*<tt>fopen</tt> - opens a file
+*<tt>freopen</tt> - opens a different file with an existing stream
+*<tt>fflush</tt> - synchronizes an output stream with the actual file
+*<tt>fclose</tt> - closes a file
+*<tt>setbuf</tt> - sets the buffer for a file stream
+*<tt>setvbuf</tt> - sets the buffer and its size for a file stream
+*<tt>fwide</tt> - switches a file stream between wide character I/O and narrow character I/O
+;Direct input/output
+*<tt>fread</tt> - reads from a file
+*<tt>fwrite</tt> - writes to a file
+;Unformatted input/output
+:;Narrow character
+*<tt>fgetc</tt>, <tt>getc</tt> - reads a character from a file stream
+*<tt>fgets</tt> - reads a character string from a file stream
+*<tt>fputc</tt>, <tt>putc</tt> - writes a character to a file stream
+*<tt>fputs</tt> - writes a character string to a file stream
+*<tt>getchar</tt> - reads a character from stdin
+*<tt>gets</tt> - reads a character string from stdin
+*<tt>putchar</tt> - writes a character to stdout
+*<tt>puts</tt> - writes a character string to stdout
+*<tt>ungetc</tt> - puts a character back into a file stream
+:;Wide character
+*<tt>fgetwc</tt>, <tt>getwc</tt> - reads a wide character from a file stream
+*<tt>fgetws</tt> - reads a wide character string from a file stream
+*<tt>fputwc</tt>, <tt>putwc</tt> - writes a wide character to a file stream
+*<tt>fputws</tt> - writes a wide character string to a file stream
+*<tt>getwchar</tt> - reads a wide character from stdin
+*<tt>putwchar</tt> - writes a wide character to stdout
+*<tt>ungetwc</tt> - puts a wide character back into a file stream
+;Formatted input/output
+:;Narrow character
+*<tt>scanf</tt>, <tt>fscanf</tt>, <tt>sscanf</tt> - reads formatted input from stdin, a file stream or a buffer
+*<tt>vscanf</tt>, <tt>vfscanf</tt>, <tt>wsscanf</tt> - reads formatted input from stdin, a file stream or a buffer using variable argument list
+*<tt>printf</tt>, <tt>fprintf</tt>, <tt>sprintf</tt>, <tt>snprintf</tt> - prints formatted output to stdout, a file stream or a buffer
+*<tt>vprintf</tt>, <tt>vfprintf</tt>, <tt>vsprintf</tt>, <tt>vsnprintf</tt> - prints formatted output to stdout, a file stream, or a buffer using variable argument list
+
+:;Wide character
+*<tt>wscanf</tt>, <tt>fwscanf</tt>, <tt>swscanf</tt> - reads formatted wide character input from stdin, a file stream or a buffer
+*<tt>vwscanf</tt>, <tt>vfwscanf</tt>, <tt>vswscanf</tt> - reads formatted wide character input from stdin, a file stream or a buffer using variable argument list
+*<tt>wprintf</tt>, <tt>fwprintf</tt>, <tt>swprintf</tt> - prints formatted wide character output to stdout, a file stream or a buffer
+*<tt>vwprintf</tt>, <tt>vfwprintf</tt>, <tt>vswprintf</tt> - prints formatted wide character output to stdout, a file sttream or a buffer using variable argument list
+
+;File positioning
+*<tt>ftell</tt> - returns the current file position indicator
+*<tt>fgetpos</tt> - gets the file position indicator
+*<tt>fseek</tt> - moves the file position indicator to a specific location in a file
+*<tt>fsetpos</tt> - moves the file position indicator to a specific location in a file
+*<tt>rewind</tt> - moves the file position indicator to the beginning in a file
+;Error handling
+*<tt>clearerr</tt> - clears errors
+*<tt>feof</tt> - checks for the end-of-file
+*<tt>ferror</tt> - checks for a file error
+*<tt>perror</tt> - displays a character string corresponding of the current error to stderr
+;Operations on files
+*<tt>remove</tt> - erases a file
+*<tt>rename</tt> - renames a file
+*<tt>tmpfile</tt> - returns a pointer to a temporary file
+*<tt>tmpnam</tt> - returns a unique filename
+
+==Reading from a stream using fgetc==
+The <code>'''fgetc'''</code> function is used to read a character from a stream.
+
+<syntaxhighlight lang="c">
+int fgetc(FILE *fp);
+</syntaxhighlight>
+
+If successful, <code>fgetc</code> returns the next byte or character from the stream (depending on whether the file is "binary" or "text", as discussed under <code>fopen</code> above). If unsuccessful, fgetc returns <code>EOF</code>. (The specific type of error can be determined by calling <code>ferror</code> or <code>feof</code> with the file pointer.)
+
+The standard macro <code>'''getc'''</code>, also defined in <code><stdio.h></code>, behaves in almost the same way as <code>fgetc</code>, except that—being a macro—it may evaluate its arguments more than once.
+
+The standard function <code>'''getchar'''</code>, also defined in <code><stdio.h></code>, takes no arguments, and is equivalent to <code>getc(stdin)</code>.
+
+===EOF pitfall===
+A mistake when using <code>fgetc</code>, <code>getc</code>, or <code>getchar</code> is to assign the result to a variable of type <code>char</code> ''before'' comparing it to <code>EOF</code>. The following code fragments exhibit this mistake, and then show the correct approach (using type int):
+
+<center>
+{| width="80%" style="margin-left: auto; margin-right: auto; "
+! Mistake
+! Correction
+|-
+|
+<syntaxhighlight lang="c">
+char c;
+while ((c = getchar()) != EOF)
+    putchar(c);
+</syntaxhighlight>
+|
+<syntaxhighlight lang="c">
+int c;  /* This will hold the EOF value */
+while ((c = getchar()) != EOF)
+    putchar(c);
+</syntaxhighlight>
+|}
+</center>
+
+Consider a system in which the type <code>char</code> is 8&nbsp;bits wide, representing 256&nbsp;different values. <code>getchar</code> may return any of the 256&nbsp;possible characters, and it also may return <code>EOF</code> to indicate end-of-file, for a total of 257 different possible return values.
+
+When <code>getchar</code>'s result is assigned to a <code>char</code>, which can represent only 256 different values, there is necessarily some loss of information—when packing 257&nbsp;items into 256&nbsp;slots, there must be a collision. The <code>EOF</code> value, when converted to <code>char</code>, becomes indistinguishable from whichever one of the 256 characters shares its numerical value. If that character is found in the file, the above example may mistake it for an end-of-file indicator; or, just as bad, if type <code>char</code> is unsigned, then because <code>EOF</code> is negative, it can never be equal to any unsigned <code>char</code>, so the above example will not terminate at end-of-file. It will loop forever, repeatedly printing the character which results from converting <code>EOF</code> to <code>char</code>.
+
+However, this looping failure mode does not occur if the char definition is signed (C makes the signedness of the default char type implementation-dependent),<ref>C99 §6.2.5/15</ref>  assuming the commonly used <code>EOF</code> value of -1.  However, the fundamental issue remains that if the <code>EOF</code> value is defined outside of the range of the <code>char</code> type, when assigned to a <code>char</code> that value is sliced and will no longer match the full <code>EOF</code> value necessary to exit the loop.  On the other hand, if <code>EOF</code> is within range of <code>char</code>, this guarantees a collision between <code>EOF</code> and a char value.  Thus, regardless of how system types are defined, never use <code>char</code> types when testing against <code>EOF</code>.
+
+On systems where <code>int</code> and <code>char</code> are the same size (i.e., systems incompatible with minimally the POSIX and C99 standards), even the "good" example will suffer from the indistinguishability of <code>EOF</code> and some character's value. The proper way to handle this situation is to check <code>feof</code> and <code>ferror</code> after <code>getchar</code> returns <code>EOF</code>. If <code>feof</code> indicates that end-of-file has not been reached, and <code>ferror</code> indicates that no errors have occurred, then the <code>EOF</code> returned by <code>getchar</code> can be assumed to represent an actual character. These extra checks are rarely done, because most programmers assume that their code will never need to run on one of these "big <code>char</code>" systems. Another way is to use a compile-time assertion to make sure that <code>UINT_MAX > UCHAR_MAX</code>, which at least prevents a program with such an assumption from compiling in such a system.
+
+==fwrite==
+In the C programming language, the <code>'''fread'''</code> and <code>'''fwrite'''</code> functions respectively provide the file operations of input and output. <code>fread</code> and <code>fwrite</code> are declared in <code><stdio.h></code>.
+
+===Writing a file using fwrite===
+fwrite is defined as
+
+<syntaxhighlight lang="c">
+size_t fwrite (const void *array, size_t size, size_t count, FILE *stream);
+</syntaxhighlight>
+
+<code>fwrite</code> function writes a block of data to the stream. It will write an array of <code>count</code> elements to the current position in the stream. For each element, it will write <code>size</code> bytes. The position indicator of the stream will be advanced by the number of bytes written successfully.
+
+The function will return the number of elements written successfully. The return value will be equal to <code>count</code> if the write completes successfully. In case of a write error, the return value will be less than <code>count</code>.
+
+The following program opens a file named <tt>sample.txt</tt>, writes a string of characters to the file, then closes it.
+
+<syntaxhighlight lang="c">
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    FILE *fp;
+    size_t count;
+    const char *str = "hello\n";
+
+    fp = fopen("sample.txt", "w");
+    if(fp == NULL) {
+        perror("failed to open sample.txt");
+        return EXIT_FAILURE;
+    }
+    count = fwrite(str, 1, strlen(str), fp);
+    printf("Wrote %zu bytes. fclose(fp) %s.\n", count, fclose(fp) == 0 ? "succeeded" : "failed");
+    return EXIT_SUCCESS;
+}
+</syntaxhighlight>
+
+==Writing to a stream using fputc==
+The <code>'''fputc'''</code> function is used to write a character to a stream.
+
+<syntaxhighlight lang="c">
+int fputc(int c, FILE *fp);
+</syntaxhighlight>
+
+The parameter <code>c</code> is silently converted to an <code>unsigned char</code> before being output. If successful, <code>fputc</code> returns the character written. If unsuccessful, fputc returns <code>EOF</code>.
+
+The standard macro <code>'''putc'''</code>, also defined in <code><stdio.h></code>, behaves in almost the same way as <code>fputc</code>, except that—being a macro—it may evaluate its arguments more than once.
+
+The standard function <code>'''putchar'''</code>, also defined in <code><stdio.h></code>, takes only the first argument, and is equivalent to <code>putc(''c'', stdout)</code> where <code>''c''</code> is that argument.
+
+==Example usage==
+The following C program opens a binary file called ''myfile'', reads five bytes from it, and then closes the file.
+
+<syntaxhighlight lang="c">
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+  const int count = 5;  /* count of bytes to read from file */
+  char buffer[count] = {0};  /* initialized to zeroes */
+  int i, rc;
+  FILE *fp = fopen("myfile", "rb");
+  if (fp == NULL) {
+    perror("Failed to open file \"myfile\"");
+    return EXIT_FAILURE;
+  }
+  for (i = 0; (rc = getc(fp)) != EOF && i < count; buffer[i++] = rc)
+    ;
+  fclose(fp);
+  if (i == count) {
+    puts("The bytes read were...");
+    for (i = 0; i < count; i++)
+      printf("%x ", buffer[i]);
+    puts("");
+  } else
+    fputs("There was an error reading the file.\n", stderr);
+  return EXIT_SUCCESS;
+}
+</syntaxhighlight>
+
+==References==
+{{Reflist}}
+
+{{BookCat}}

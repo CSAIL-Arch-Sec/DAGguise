@@ -1,0 +1,186 @@
+= What is a function =
+Much of this course is devoted to the study of properties of real-valued functions of a real variable. Such a function <math>f</math> assigns to each element <math>x</math> of a given set of real numbers exactly one real number y, called the value of
+the function <math>f</math> at <math>x</math>.
+[[File:Function Machine.png|left|frameless|150x150px]]
+Students can think about function as a process in which when one input a number(e.g. <math>x</math>), a number(e.g. <math>y</math>) can be generated. In other word, a function is simply a relation where for every independent variable(e.g. <math>x</math>), there is only one dependent variable(e.g. <math>y</math>).  The dependence of <math>y</math> on <math>f</math> and on <math>x</math> is made explicit by using the notation <math>f(x)</math> to mean the value of <math>f</math> at <math>x</math>. 
+
+'''Example:'''
+
+<math>f(x) = x^2</math>
+
+For Every value of <math>x</math>, <math>f(x)</math> only generate a single value. This can be shown through the table of values.
+[[File:Y=x^2.svg|thumb|184x184px|A graph of <math>y=x^2</math>.]]
+{| class="wikitable"
+!<math>x</math>
+!0
+!1
+!2
+!3
+!4
+|-
+|<math>f(x)</math>
+|0
+|1
+|4
+|9
+|16
+|}
+The function y = <math>f(x)</math>may be represented pictorially by its graph, which is the set of points (<math>x</math>,<math>f(x)</math>) for each <math>x</math> in the domain of <math>f</math>, indicated with respect to cartesian coordinate axes x,y.
+
+Notice that a vertical line only cuts the graph once, thus making the graph a function. 
+
+A relation, however, is different to a function. A relation is a set of operations that links the independent variables to a set of dependent variables. In order words, for a single <math>x</math> value. there can be multiple y values. 
+
+'''Example:''' 
+
+<math>x^2+y^2 = 1</math> 
+[[File:Circle cut by vertical line.svg|thumb]]
+This is the formula for a circle. Notice that a vertical line may cross the circle more than once, thus for a given x value, there may be more than 1 y value exist. This can be illustrated pictorially or algebraically.  
+
+<math>x^2+y^2 = 1</math>
+
+<math>y^2=1-x^2</math>
+
+<math>y=\pm\sqrt[]{1-x^2}</math>
+
+= Domain =
+The domain of a function is simply a set of possible <math>x</math> values for which it's corresponding <math>f(x)</math> exists. 
+
+'''Example:'''
+
+<math>f(x)=\sqrt[]{1-x^2}</math>
+
+As we know, in real numbers, we can not square root a negative number. Thus, by solving the following inequality, we can find out the this function's domain.
+
+<math>1-x^2\geq 0</math>
+
+<math>1\geq x^2</math>
+
+<math>x^2 \leq 1</math>
+
+∴ the domain of this function is all real x where <math>-1\leq x \leq 1</math>.
+
+Note that a lot of questions test this topic around rational functions. It is important to remember that when the denominator is zero, the number is undefined.
+
+'''Example:'''
+
+<math>f(x)=\frac{1}{x^2+5x+6}</math>
+
+Since the number is undefined when the denominator is zero, we can equate the denominator to zero to find out exactly when this function is undefined.
+
+<math>x^2+5x+6 = 0 </math>
+
+<math>(x+2)(x+3) = 0 </math>
+
+<math>(x+2)=0 </math> OR <math>(x+3)=0 </math>
+
+<math>x = 2,3 </math>
+
+∴ the domain of this function is all real x where <math>x \neq 2,3</math>.
+
+= Range =
+[[File:Y=x^2.svg|thumb|184x184px|A graph of <math>y=x^2</math>.]]The domain of a function is simply a set of possible <math>f(x)</math> values for which it's corresponding <math>x</math> exists. This is very similar to Domain, but concerning a different axis.
+
+'''Example:'''
+
+<math>f(x)=x^2</math>
+
+The best way to approach this problem is by drawing a quick sketch of the function in question. As you can see, this function is simply a parabola. We know that all parabolas have their two arms extending to either positive or negative infinity depending on the signs of the parabola. In this parabola, we can see that its minimum point(minima) is at 0 with no <math>f(x)</math> value exisiting below it. Thus, we know that all the possible <math>f(x)</math> value of this function is above 0 inclusive.
+
+∴the range of this function is all real y where <math>y\geq0</math>.
+
+= Even/Odd Functions =
+First that's have a brief look of some of the typical even functions.[[File:Y=x^2.svg|thumb|220x220px|A graph of <math>y=x^2</math>.|left]]
+[[File:Cos.svg|thumb|y= cos(x)]]
+
+As it is clearly shown, an even function is one that is symmetrical with respect to the Y axis. Now, in order to solve problems around even functions, we need to make this geographical description more mathematical. 
+
+As you can see if you input 1 or -1, the output of this function remains constant. Thus we can deduce that if a function is even, then <math>f(x)=f(-x) </math>.
+
+'''Example:'''
+
+Show that the function <math>f(x) = \frac{x^4+1}{x^2+x^4} </math> is even.
+
+First don't be intimidated by this seemingly complex function, you don't have to graph it.
+
+Calculate what <math>f(-x) </math>; to do this replace all x with (-x).
+
+<math>f(-x) = \frac{(-x)^4+1}{(-x)^2+(-x)^4} </math>
+
+As we all know if 
+
+<math>(-x)^2 = x^2 </math> so that 
+
+<math>((-x)^2)^2 = (x^2)^2
+ </math> hence
+
+<math>(-x)^4 = x^4 </math>
+
+In fact any even number power will make what's inside the bracket positive.
+
+Thus 
+
+<math>f(-x) = \frac{x^4+1}{x^2+x^4} </math>
+
+∴<math>f(x)=f(-x) </math>, f(x) is even. 
+
+= Locus =
+
+= Regions/Inequality =
+
+==Dependent and independent variables. Functional notation. Range and domain.==
+
+Much of this course is devoted to the study of properties of real-valued functions of a real variable. Such a function f assigns to each element x of a given set of real numbers exactly one real number y, called the value of
+the function f at x. The dependence of y on f and on x is made explicit by using the notation f(x) to mean the value of f at x. The set of real numbers x on which f is defined is called the domain of f, while the set of values
+f(x) obtained as x varies over the domain of f is called the range or image of f. x is called the independent variable since it may be chosen freely within the domain of f, while y = f(x) is called the dependent variable since its value depends on the value chosen for x.
+
+The functions f studied in this course are usually given by an explicit rule involving calculations to be made on the variable x in order to obtain f(x). For this reason, a function f is often described in a form such as ‘y = f(x)’ with the domain of x specified.
+
+It is also common usage to refer to ‘the function f(x)’ where f(x) is prescribed but no domain is given. In such cases, the  understanding required to be developed is that the domain of f is the set of real numbers for which the expression f(x) defines a real number.
+
+It is important to realise that use of the notation y = f(x) does not imply that the expression corresponding to f(x) is the same for all x. For example, the rule
+
+<math> f(x) = x, x \ge 0 </math>
+
+<math>f(x) = -x, x < 0 \;</math>
+
+defines a function with domain all real x.
+
+The use of x and y is customary and is related to the geometrical representation of a function f by graphing the set of points (x, f(x)) for x in the domain of f, using cartesian (x, y) coordinates. Other symbols for independent and dependent variables occur frequently in practice and students should become familiar with functions defined in terms of other symbols.
+
+==The graph of a function. Simple examples.==
+
+The pictorial representation of a function is extremely useful and important, as is the idea that algebraic and geometrical descriptions of functions are both helpful in understanding and learning about their properties.
+
+The function y = f(x) may be represented pictorially by its graph, which is the set of points (x, f(x)) for each x in the domain of f, indicated with respect to cartesian coordinate axes 0x0y. Denoting the point with coordinates (x, f(x)) by P, the graph of the function (and sometimes the function itself) is often referred to as the ‘set of points P(x, f(x))’. Since f is a function, there is at most one point P of its graph on any ordinate. The graph of y = f(x) is also called the curve y = f(x) and the part of the curve
+lying between two ordinates is called an arc.
+
+Examples of functions y = f(x) should be given which illustrate different types of domain, bounded and unbounded ranges, continuous and discontinuous curves, curves which display simple symmetries, curves with sharp corners and curves with asymptotes. Students are to be encouraged to develop the habit of drawing sketches which indicate the main features of the graphs of any functions presented
+to them. They should also develop at this stage the habit of checking simple properties of functions and identifying simple features such as:
+
+where is the function positive? negative? zero?; where is it increasing? decreasing?; does it have any symmetry properties?; is it bounded?; does it have gaps (jumps) or sharp corners?; is there an asymptote?
+
+Knowledge of the symmetries of the graphs of odd and even functions is useful in curve sketching.
+
+A function f(x) is even if f(–x) = f(x) for all values of x in the domain. Its graph is symmetric with respect to reflection in the y-axis, i.e. it has line symmetry about the y-axis. 
+A function f(x) is odd if f(–x) = –f(x) for all values of x in the domain. Its graph is symmetric with respect to reflection in the point 0 (the origin or axes), i.e. it has point symmetry about the origin.
+
+==Algebraic representation of geometrical relationships. Locus problems.==
+
+Some of the work of this section might profitably be discussed in conjunction with Topics 6 and 9. A circle with a given centre C and a given radius r is defined as the set of points in the plane whose distance from C is r. If cartesian coordinate axes 0x0y are set up in the plane so that C is the point with coordinates (a, b), then the distance formula shows that P(x, y) lies on the given circle if and only if x and y satisfy the equation (x – a)<sup>2</sup> + (y – b)<sup>2</sup> = r<sup>2</sup>, hence this equation is an algebraic representation corresponding to the geometrical description given above.
+
+It should be noted that if this equation is used to express y as a function of x, then two functions are obtained: y = b + &radic;(r<sup>2</sup> – (x – a)<sup>2</sup>) and y = b – &radic;(r<sup>2</sup> – (x – a)<sup>2</sup>), each with domain a – r less than or equal to x less than or equal to a + r.
+
+Generally, sets of points satisfying simple conditions stated in geometrical terms can be described in algebraic terms by introducing cartesian coordinates and interpreting the original conditions as conditions relating x and y. The conditions then usually reduce to one or more equations or inequalities.
+
+problems involving the determination of the set of points which satisfy a given number of conditions (which may be expressed geometrically or algebraically) are called locus problems and often stated in the form ‘Find the locus of a point P which satisfies …’. The means in practice ‘Find a simple algebraic or geometric description of the set of all points P which satisfy …’.
+
+==Region and inequality. Simple examples.==
+
+Treatment is to be restricted to regions of the (cartesian x, y–) plane which admit a simple geometrical description — for example, by use of words such as interior, exterior, bounded by, boundary, sector, common to, etc., — and which admit a simple algebraic description using one or more inequalities in x and y.
+
+Examples should be simple and involve at most one non-linear inequality, but should include both bounded and unbounded regions. Note that the case of one or more linear inequalities is specifically listed in Topic 6.4.
+
+A clear sketch diagram, illustrating the relevant regions, should be drawn for each example. Regions whose algebraic description involves two or more inequalities should be understood to correspond to the common part (intersection) of the regions determined by each separate inequality.
+
+{{BookCat}}

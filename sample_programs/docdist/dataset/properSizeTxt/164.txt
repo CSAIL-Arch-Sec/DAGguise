@@ -1,0 +1,57 @@
+{{TOCright}}
+In Trainz, '''content creation''' refers to the creation of content, or ''{{TL|assets}}'', that can be used in-game. Assets may be 3D objects such as buildings, trees, tracks or rolling stock; they may be driver sessions, rules or scenarios; or they may be routes that may incorporate many different model or non-model assets. This article is concerned with the creation of 3D objects since the creation of other assets is discussed elsewhere in this wikibook.
+{{TrainzTip|The distinction between 'content' and 'assets' is contextual and indistinct in discussion or prose usages.
+* Technically, oontent is an {{TL|asset}} in a {{TL|container}} which contain parts or elements&mdash;data definitions of a proscribed sub-{{wp|data type}}) defining something important (attributes), but in Trainz, the highest level container is one's own {{TL|Trainz data base}} managed by the software suite. 
+* The biggest container in Trainz is the {{TL|Download Station}} the next your Content Manager managed database, the {{wp|Virtual model railroad}} world building and manager  {{TL|Surveyor|Trainz Surveyor}} {{wp|GUI}} which defines the content in {{TL|Routes|routes (or layouts)}} and {{TL|Sessions}} (or the older, rarer {{TL|Trainz Scenarios}}).
+* Hence one speaks of downloading or upgrading or modifying or fixing (possibly new or old or imported or exported) ''''''assets' or 'content''''' pretty much interchangeably.
+* ''Routes'' ({{wp|V-scale|Virtual model railroading}} and ''layouts'' (The historical name used in Physical Model Railroading parlance) is an example of another pair of terms used interchangeably in Trainz forums (There are several such formed by sub-groups of the world-wide {{TL|Trainz communities}}).
+}}
+{{-}}
+[[File:Wire frame.svg|thumb|3D Wire frame models examples, cube and larger meshes]]
+==3D Models in Trainz==
+[[File:Dolphin_triangle_mesh.png|right|400px|A complex {{wp|wireframe}} 'mesh'}}]]
+[[File:Normal_map_example.png |thumb|400px|A 3D real world surface transformation into meshes.]]
+3D objects are sometimes called {{wp|3D_model|3D models}}. Generally they consist of two main components:
+* The {{wp|Polygon mesh}} (or just ''mesh''), which is a 3D {{wp|wire_frame}} model of the surfact or visible parts of the modeled object. The mesh is usually comprised of many ''faces'', or ''polygons'', the most common being of {{wp|triangles}}, for any larger polygon can be mathematically broken into triangles.
+* ''Textures'', which are 2D images applied to the faces of the mesh. By changing a texture file an object's mesh remains the same but its appearance can change drastically.
+
+The mesh gives an object its shape whereas the textures define its appearance.
+
+This thread has many useful tutorials listed.
+
+http://forums.auran.com/trainz/showthread.php?t=3345&highlight=tutorials
+==Software for Trainz mesh creation==
+[[File:Bachmann Class 4 tank locomotive.jpg|450px|thumb|This HO scale locomotive with its rich authentic detailing has many meshes, for level of detail is directly proportional for such fine feature detailing. The physical model took man-months of development, and so do many Trainz assets, especially locomotives and more so for steam locos like this one. One is in plastic made using 3D CAD planning and likely involved {{wp|computer-aided manufacturing|CAM}} to create the molds. A Trainz traincar asset creator uses 3D graphics modeling software that is a sub-genre of a full up engineering CAD package, but with an orientation towards creating visual simulations &mdash; so professional packages (cost thousands, Autodesk's 3dsMax is $3,600 US and up!) are oriented for advertising and so an architectural firm can sell it's concept; this CAD package variant lends itself to Trainz needs, but the components in both engineering and graphics CAD modeling are much the same, one builds with pieces that can be defined in 3-space (3D), then hooks them together appropriately. Graphics engines then render these into lifelike simulated 3D objects.]]
+Generally complicated {{wp|3D modeling software}} application with an exporting ability compatible with Trainz is required in order to create 3D objects for Trainz. Currently, a number of different software packages are available:
+* [http://www.amabilis.com/ '''3D Canvas'''] (commercial software). The Pro version is required for the Trainz exporter. The exporter supports one of two more functions than the official gmax exporter. Not officially supported by Auran.
+* [http://usa.autodesk.com/3ds-max/ '''Autodesk 3ds Max'''] (commercial software). It is expensive and sophisticated but there is a new beta exporter for version 9 currently being developed. Already available is an exporter available for versions 4 to 6.
+* [http://www.blender.org/ '''Blender'''] (open-source freeware). It is very sophisticated and offers more capabilities than gmax (for example, the ability to do texture baking and ambient occlusion). Blender has a very large and varied user base, and there are many tutorials online. One of the better online communities is [http://www.blenderartists.org/forum/ BlenderArtists.org]. Recently, an [https://sourceforge.net/projects/blenderextrainz open-source Trainz exporter] has been developed for Blender (currently Windows only). Blender is not officially supported by Auran.
+* [http://www.turbosquid.com/gmax '''gmax'''] (freeware). gmax is essentially the freeware, "lite" version of 3ds Max, and as such many advanced features are removed. It is still available to download from Turbosquid but further development of the software is discontinuied. Auran used to maintain the [http://www.auran.com/trainz/contentcreation.htm Trainz Content Creation Pack] plugin for gmax, which enables export of gmax models for Trainz. Paul Hobbs discusses configuring gmax for Trainz [http://www.44090digitalmodels.co.uk/tutorials/CC_01_GMAX_Setup.pdf here]. Turbosquid maintain a gmax support forum [http://www.turbosquid.com/Forum/Index.cfm/stgAct/ForumList/intGroupID/1004 here]. There are many gmax modelling tutorials online.
+* [http://sketchup.google.com/ '''Google SketchUp'''] (freeware; [http://sketchup.google.com/product/gsup.html '''SketchUp Pro'''] is payware). An [http://www.dhobh.net/trainz/GoogleSketchUp/RubyTMIX.htm unofficial Trainz exporter] is in development.
+==Reskinning==
+'''Reskinning''' is the act of applying a different texture to the mesh of an existing 3D model. The simplest method is to reskin another content creator's mesh but you will need permission from the original creator to publish the reskinned model. 
+===Obsolete software===
+* '''Trainz PaintShed''' (obsolete). Auran used to bundle the PaintShed software with versions of Trainz up to TRS2006. PaintShed was an early attempt to help people create content without having to purchase additional software, but is now obsolete. PaintShed allowed a limited number of reskinning options to be applied to some of the built-in rolling stock meshes. It was an excellent introduction to reskinning for anyone unfamiliar with the process. No permission was required to reskin models in PaintShed provided the reskinned models were for your own use.
+===Conventional graphics software===
+For more conventional reskinning, you need to be able to edit a 3D object's texture files. These are normally <code>.tga</code> files but they can be <code>.bmp</code> or <code>.tif</code> files. <code>.jpg</code> files should never be used.  Note to edit a <code>.texture</code> file you need TGAtool2 to extract the textures or see page 193 of the Trainz Classics Content Creation Guide for an explanation of how to edit these files.
+
+A number of software packages are available:
+* [http://www.adobe.com/products/photoshopfamily.html '''Adobe Photoshop'''] (commercial).
+* [http://www.corel.com/corel/jump/us/en/prod4220093/5900044/catalog20038/photo-editing-software/paintshop-pro-ultimate '''Corel PaintShop Pro'''] (commercial).
+* [http://www.gimp.org/ '''GIMP'''] (open-source freeware). GIMP has about the best lettering capabilities of any graphics program.  You can use the eye dropper to select the letterings colour then change the font size and the text changes it's size on the image, use M for move to move the lettering but select move the active layer so it just moves the lettering.  When you save the <code>.tga</code> with GIMP make sure you save it without RLE compression and alpha channel.  Gimp adds alpha channel when you add a second layer. To remove it, layer, transparency, remove alpha channel.
+* {{plain link|http://www.irfanview.com/| '''Irfanview'''}} (highly rated, widely used freeware) primarily designed for graphics artist tasks, Irfanview contains a powerful thumbs viewer in the basic download (great for selecting assets from an asset library of screeenshots) and handles just about every graphics file and video type known in computing. With a powerful suite of plugins, the popular package also will handle audio files and has paint capabilities.
+:* A must have for resizing, cropping and enhancing image quality, or to translate one image type to another with selectable degrees of compression standards. In Trainz where the preferred images are the true color video industry 'Truevision TGA type formatted files, by far the best manager and tool for manipulating Texture files in the {{wp|Truevision TGA|TGA file}} formats.
+:* Correct or auto-correct photo imagery by adjusting gamma, color balance, contrast, sharpness and other such factors. Turn dark views into useable images, etc. Crop, resize and best of all, move and or rename with hotkeys. A five start image manager and photo processing application. The author makes his living in the graphics business and it shows.
+* '''Microsoft Paint''' (included with the Windows operating system). Microsoft Paint can be used to edit <code>*.bmp, *.jpg, *.png</code> files but not <code>.tga</code> files directly. Use together with Irfanview which also makes a great thumbs display or image browsing and processing pair.
+* [http://www.getpaint.net/ Paint.NET] (freeware). A recent but powerful relcase that is another modern day open source collaboration like notepad++, GIMP, and open office. The second generation of this powerful package reached beta testing in 2013 and the reviews have been great.
+
+Many content creators prefer to use commercial products such as PaintShop Pro or Photoshop for additional functionality and ease of use. PaintShop Pro being less expensive has a larger following in the forums. The PaintShop PhotoPro XI version or later has useful tools for colour changing which makes using black and white photos as coloured textures much easier and can be found on eBay for a reasonable price.
+==Resources==
+It is possible to convert Gmax meshes to other software.  http://panda3d.org/wiki/index.php/Converting_from_GMax 
+http://www.katsbits.com/htm/tutorials/gmax_exporting-models-obj.htm
+
+A very useful set of links to tutorials on Gmax and other aspects of content creation can be found on Auran's web site at http://www.auran.com/TRS2004/learning_f.php
+
+The Auran XML importer, needed for Blender etc. http://online.ts2009.com/mediaWiki/index.php5/Downloads then download Trainzimporter.rar
+
+{{BookCat}}

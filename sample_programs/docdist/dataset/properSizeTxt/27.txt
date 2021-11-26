@@ -1,0 +1,187 @@
+{{Navlist/Top}}
+
+'''Phones''' are every possible sound that the human mouth can make.  As well as the ''regular'' sounds of language, this includes hissing through your teeth, smacking your lips, and waggling your tongue.  There are thousands of possible phones.
+
+== The phoneme/allophone distinction ==
+
+The phones that occur in a language are usually divided up into two categories: phonemes and allophones.  The difference between the two is sometimes summarised like this:  "Allophones are what the speaker says, and phonemes are what the listener hears".
+
+=== Phonemes ===
+
+'''Phonemes''' are the individual sounds that makes up syllables in a language. For example, in the word "tin", there are three sounds:
+#The "t" sound
+#The "i" sound
+#The "n" sound
+
+So what's so special about a phoneme, you ask? Isn't it the same as a phone? Well no, some phones aren't phonemes. For example, if you cough, that's a sound that you're making with your mouth, but it's certainly not a phoneme, since it is not going to be a part of any English word that you're likely to speak. But languages don't usually have the same phonemes. If you smack your lips together, say, that's not a phoneme in the language you speak (English), but it is in some languages of southern Africa &mdash; they use this sound as part of their words. And depending on where you're from, you might roll your tongue in such basic words like "bird" and "hard", but this is actually one of the rarest phonemes to be found in all the languages of the world!
+
+Here are more examples of English words split into phonemes:
+
+*"shape" is made up of the "sh" phoneme /{{CXS|S}}/, the "ay" phoneme /{{CXS|ei}}/, and the "p" phoneme /{{CXS|p}}/.
+*"knife" is made up of the "n" phoneme /{{CXS|n}}/, the "eye" phoneme /{{CXS|ai}}/, and the "f" phoneme /{{CXS|f}}/.
+*"complexity" is made up of the following eleven phonemes: "k"&nbsp;/{{CXS|k}}/, "uh"&nbsp;/{{CXS|@}}/, "m"&nbsp;/{{CXS|m}}/, "p"&nbsp;/{{CXS|p}}/, "l"&nbsp;/{{CXS|l}}/, "eh"&nbsp;/{{CXS|E}}/, "k"&nbsp;/{{CXS|k}}/, "s"&nbsp;/{{CXS|s}}/, "ih"&nbsp;/{{CXS|I}}/, "t"&nbsp;/{{CXS|t}}/, "ee"&nbsp;/{{CXS|i}}/.
+
+''Note that we're talking about sounds here, not letters, so all the silent letters and irregular spellings are ignored. Furthermore, "x" is two sounds, "k" and "s", while "sh" is one sound &mdash; just "sh", not "s" and "h".''
+
+So when you're conlanging, first consider this: what phonemes do you have? If you just make up words on the fly, eventually you're going to use up all of the phonemes of English (and no more), giving you a phonology that's precisely the same as English. To avoid this problem, it's much better to have an idea of the phonemes that you have, and make up words according to ''those''. This way you can have a language that sounds like itself, and not like English.
+
+=== Allophones ===
+
+Say "ssss" to yourself, "s" as in "snake" or "soon". You'll notice that the sound is coming from the tip of your tongue, which is resting flat against the roof of your mouth. Now, while still hissing to yourself, vary it a bit; move it forwards and backwards; perhaps lower your tongue and raise it again. You may notice that as long as you don't go too far, it still sounds like "s" to you &mdash; even though it may sound a bit different, it's still the same basic sound.
+
+That's what "allophone" means.  As long as you're within reasonable bounds, you can make a lot of sounds that are a little different from each other, but they're still the same basic sound, or phoneme.  Those individual variations are allophones.
+
+Now, why is this important? Well, what are allophones in one language may not be in another. The different "s"s that you pronounced just now may sound the same to you, but they are considered as two or more different phonemes in Basque, a language of northern Spain. If you were speaking Basque, you'd have to distinguish a "sharp s" and a "regular s" &mdash; sounds that may sound exactly the same to you! Tonal languages go even further &mdash; in Chinese, the syllable "ma" can change into the word for "mother", "horse", "scold", and even "hemp" (yeah that's right) depending on the tone that you "sing" it with. Again, to the untrained ear, these sound almost exactly the same. On the other hand, the words "beet" and "bit" may sound very different to you, but in many languages, the "ee" and "ih" sounds sound like the exact same phoneme. This is why people all over the world, from France to China to Japan to Brazil, all end up pronouncing English "this" as "zees". (The "z" is another case in point &mdash; the "th" and "z" sounds sound different to you, but they are likely to sound the same to a non-English speaker.)
+
+So when you're conlanging, remember that if you're including new sounds that don't exist in the English language, those are going to sound pretty confusing (even to yourself) for a while. That's okay &mdash; it simply means that you're an English speaker, attuned to the sounds of English, not your conlang (yet). Trust that the conpeople speaking your conlang are not going to have trouble with sounds that you yourself cannot tell apart or even pronounce.
+
+Sometimes allophones appear depending on environment.  For example, the English sound /{{CXS|p}}/ consists of two main allophones: [{{CXS|p}}] and [{{CXS|p_h}}] ("unaspirated" and "aspirated"). [{{CXS|p_h}}] is pronounced with a small puff of air afterwards.  Put your hand in front of your mouth and feel for the puff of air in the word "pat" (with an aspirated p).  Then compare the airflow from the "p" in "spat" (unaspirated).  While this distinction may seem almost unnoticeable to an English speaker, since they are allophones in English and our mind isn't in the mode to interpret them separately, there are languages where they are separate phonemes and are distinguished &mdash; Quechua, for example.
+
+So if you have two sounds in a given language, how do you know whether they are different phonemes, or just allophones of the same phoneme?  Well, one way is to find a ''minimal pair''.  A minimal pair is a pair of two words that are exactly the same except for the sound in question.  For example, "bat" and "pat" are pronounced the same except for the initial consonant.  In English, a speaker can distinguish between the two words, so that means that /{{CXS|b}}/ and /{{CXS|p}}/ are separate phonemes word-initially.  There are languages where "bat" and "pat" would sound the same to the speakers, and in those languages [{{CXS|b}}] and [{{CXS|p}}] probably are allophones.  Similarly, in English [{{CXS|p}}] and [{{CXS|p_h}}] do not form any minimal pairs, but in Quechua, they do.
+
+=== Writing Phonemes and Allophones ===
+
+In the [[{{BOOKNAME}}/Intermediate/Sound notation|Sound notation]] section we told you how linguists distinguish writing from speech by putting writing in <angle brackets> and sounds in /slashes/.  We can now introduce you to the full system.  It's actually '''phonemes''' (rather than just "sounds") that are written in /slashes/.  To write '''allophones''', linguists surround them with [square brackets].
+
+*Example &mdash; In English, [{{CXS|p}}] and [{{CXS|p_h}}] are both allophones of the phoneme /{{CXS|p}}/ which is written as &lt;p&gt;.
+
+== The Vowel/Consonant Distinction ==
+
+In the Beginner section on sounds, we saw that sounds can be divided into two groups:  consonants and vowels.
+
+English &mdash; though, like all languages, it varies from dialect to dialect &mdash; usually contains about 25 consonants and 19 vowels (and not 21 consonants and 5 vowels as one might assume when looking at the alphabet). The average language has about three times as many consonants as vowels<!-- WALS Chapter 3 -->.
+
+=== Vowels ===
+
+Different vowels can be described using two main criteria:
+
+==== Height ====
+
+How high or low a vowel is.  This is basically a fancy name for saying how wide you open your mouth to say it.  Low vowels require opening wide, and high vowels don't.  Just think of it as how "high" or "low" your jaw needs to be &mdash; the lower the jaw, the wider you need to open your mouth.
+
+*High vowels: /{{CXS|i}}/ <peat>, /{{CXS|u}}/ <boot>
+*Mid-height vowels: /{{CXS|e}}/ <pet>, /{{CXS|o}}/ <pot>, /{{CXS|@}}/  <putt>
+*Low vowels: /{{CXS|a}}/ <pat>, /{{CXS|A}}/
+
+Some people call these "close" (for high), "mid" (for mid-height), and "open" (for low).
+
+==== Backness ====
+
+How front or back a vowel is.  This is a bit harder to describe, but it's basically where the highest part of your tongue is &mdash; whether it's at the front of your mouth or the back of your mouth.
+
+*Front vowels: /{{CXS|e}}/ <pet>, /{{CXS|i}}/ <peat>
+*Central vowels: /{{CXS|@}}/ <putt>, /{{CXS|a}}/ <pat>
+*Back vowels: /{{CXS|A}}/, /{{CXS|o}}/ <pot>, /{{CXS|u}}/ <boot>
+
+Tip: If you're having trouble grasping this concept, try putting a tootsie pop in your mouth and saying various vowels. You'll be more able to feel the height and frontness of the different sounds.
+
+==== Other features ====
+
+Vowels also have some other features which aren't as important as the ones above. All languages distinguish their vowels using both height and backness, but the following distinctions are optional; feel free to play around with them and perhaps, if you're feeling confident, include one in your conlang. We'll go into more detail about these in the Advanced level.
+
+* Rounding &mdash; the amount of rounding of the lips when pronouncing the vowel. Typically, front vowels are unrounded, back vowels rounded. Almost all languages have some rounded vowels, but that doesn't mean that they have a roundness distinction. The key is having at least one pair of vowel phonemes that differ from each other only by whether they're rounded or not. French and German are examples of languages that contrast roundness.
+
+* Length &mdash; the time duration of the vowel.  Many languages contrast ''long'' and ''short'' forms of a vowel (By the way, English isn't one of them.  The vowels traditionally called "long" and "short" in English actually differed that way about a thousand years ago, but then came a change in English pronunciation now called the Great Vowel Shift, and after that, the traditional names didn't correspond to actual vowel length any more.) <!-- that's quite a big diversion. do we need it? -->
+
+* Nasalization &mdash; whether or not air is allowed to flow through the nose when pronouncing the vowel.  If it is, the vowel is ''nasal'', otherwise it's ''oral''.  Vowel nasalization is contrastive in some languages, like Portuguese and French, but not in English.
+
+* R-coloring &mdash; in practice, an "r-colored vowel" (also called a "rhotic vowel" or "vocalic r") isn't really a vowel at all: it's an "r" sound used as the nucleus of a syllable, ''as if'' it were a vowel.  (Syllable nucleus will be explained in the next section, on [[{{BOOKNAME}}/Intermediate/Sounds/Syllables|syllables]].)
+
+=== Consonants ===
+
+Consonants are sounds that are produced by constricting the airflow at one or more points along the vocal tract.
+
+Just like vowels, consonants can vary in many ways.
+
+==== Manner ====
+
+The '''manner of articulation''' basically corresponds to how strong the consonants are and how much they disrupt the airflow from the lungs. The plosives are pronounced with the tongue (or other part of the lower jaw) touching the roof of the mouth. As consonants get weaker the gap between the top of the mouth and the bottom gets larger and the mouth lets the air through more directly.
+
+*Plosives (strongest): /{{CXS|p}}/, /{{CXS|d}}/, /{{CXS|g}}/
+*Nasals: /{{CXS|m}}/, /{{CXS|n}}/, /{{CXS|N}}/ (the sound of <ng> in <sing>)
+*Fricatives: /{{CXS|f}}/, /{{CXS|s}}/, /{{CXS|z}}/
+*Approximants (weakest): /{{CXS|r\}}/ (<r> in <race>), /{{CXS|w}}/, /{{CXS|l}}/
+
+==== Place ====
+
+The '''place of articulation''' &mdash; Like the vowels, consonants differ depending on how far forward or back they are.  Different parts of the mouth are used for different positions.  For example, the lips are used to make some of the more frontal consonants while the palate is further back.  This part is complicated because some sounds use a combination of the features (for example "w" uses both the lips and the back of the mouth).
+
+*Labial: /{{CXS|b}}/, /{{CXS|m}}/
+*Coronal: /{{CXS|s}}/, /{{CXS|t}}/
+*Dorsal: /{{CXS|N}}/, /{{CXS|k}}/
+
+Labial consonants are the furthest forward, and are pronounced using the lips. A little further back we have the coronal consonants which are pronounced using the teeth or the alveolar ridge (a "bump" just behind the teeth). Dorsal consonants are at the back of the mouth and are pronounced using the hard palate (middle roof of the mouth) or the velum (or soft palate: back roof of the mouth).
+
+It's important to understand that labial, coronal, and dorsal are all groups of articulations that can be subdivided into more precise terms. For example &mdash; Coronal can be subdivided into ''dental'', ''alveolar'', and ''retroflex''. We don't expect you to understand all these subdivisions here at the Intermediate level, but you should be aware that they exist.
+
+==== Voice ====
+
+Place the palm of your hand against the base of your neck just below your adam's apple and start pronouncing the /{{CXS|f}}/ sound, the first sound in the word <fit>. Try to draw the sound out for a few seconds, as though you were saying "ffffff". Now do the same with the /{{CXS|v}}/ sound as in <very>, "vvvvvv". You should immediately feel a vibration in your throat when you say /{{CXS|v}}/ that doesn't occur when you say /{{CXS|f}}/. This vibration is called ''voicing'' and the thing inside your throat that is vibrating is called your ''vocal cords''.
+
+The consonants that are pronounced together with this vibration are called ''voiced'' consonants. Those consonants that do not vibrate the vocal cords are called ''unvoiced''.
+
+*Unvoiced consonants: /{{CXS|p}}/ /{{CXS|f}}/ /{{CXS|s}}/
+*Voiced consonants: /{{CXS|b}}/ /{{CXS|v}}/ /{{CXS|z}}/
+
+Most languages make use of both voiced and unvoiced consonants, but there are plenty that do not. If you decide that your conlang doesn't care about voicing then you should use the unvoiced letters when you're describing the sounds of your language. If you're feeling particularly adventurous then you may want to research a concept related to voicing called ''aspiration'' which you can think of as a kind of "super-unvoiced" or "whispered" form that some consonants can have.
+
+If you experiment with the hand-on-throat trick a little you may discover that voicing also applies to vowels. All vowels in English have that same vibration as voiced consonants. Unvoiced vowels do exist but they're pretty rare because they can be difficult to hear accurately.
+
+==== More terms ====
+
+Terms for describing consonants aren't neatly divided into the basic terms given above and esoteric terms that clearly belong at the Advanced level.  There are a lot of middling-difficult terms.  You don't really need them for the rest of the Intermediate level of this book (once we're off this page, Intermediate Phones); but in discussions of conlanging, it's likely that one or another of them will come up from time to time.  To keep your head above water when following such discussions, you don't need a detailed technical knowledge of all these terms, but it will help if you have some idea what they're about.
+
+To start with, you can look over the row and column headings of the main table of consonant sounds in the '''[[{{BOOKNAME}}/Appendix/CXS#Consonant sounds|CXS appendix]]'''.  The column headings name many more precise places of articulation than just the three we've mentioned (labial, coronal, and dorsal), and the row headings name several more manners of articulation.
+
+Here are some other terms that may be useful to have some clue about, and clues to a few of the more opaque of those row and column headings.
+
+; Nasalized : pronounced while allowing airflow through the nose. Similar to the vowel term of the same name.
+; Labialized : pronounced with the lips rounded, which would be called ''rounded'' if the sound were a vowel.
+; Geminated : extended in time duration, which would be called ''long'' if the sound were a vowel.
+; Stop, occlusive : synonyms for ''plosive''.
+; Glide, semivowel, non-syllabic vowel : all synonyms, for any approximant that is very similar to some high vowel.
+; Trill : a consonant such as the rolled&nbsp;R of Spanish,&nbsp; /{{CXS|r}}/.
+; Tap, flap : like a trill, but with just one staccato sound instead of a series of them.
+; Rhotic : either a trill, or an approximant similar to English&nbsp;R,&nbsp; /{{CXS|r\}}/.
+; Lateral : a consonant similar to English&nbsp;L,&nbsp; /{{CXS|l}}/.  Consonants that aren't lateral are sometimes called ''central'' &mdash; which is completely different from what ''central'' means when applied to a vowel.
+; Liquid : either a lateral approximant, or a rhotic.  (All approximants are either liquids or glides.)
+; Affricate : a sound that starts out as a plosive and ends up as a fricative, like the sound of English &lt;ch&gt;,&nbsp; /{{CXS|tS)}}/.
+; Coarticulated : using more than one place of articulation at the same time.  English&nbsp;W,&nbsp; /{{CXS|w}}/,&nbsp; does this.
+; Apical, laminal : these terms refer to which part of the tongue is used.
+; Cerebral : an occasionally used synonym for ''retroflex'' (one of the column headings).
+
+=== The sonority hierarchy ===
+
+There is some order to this welter of sounds, and it's called the '''sonority hierarchy'''.  It arranges all the different kinds of consonants and vowels into a single scale according to, essentially, how free the airflow is, unifying the properties of consonant "strength" and vowel "height".  At one end of the scale are the strongest consonants, and then increasingly weak consonants until the weakest consonants give way to the high vowels; at the far end of the scale are the low vowels.
+
+Here is a typical version of the hierarchy.  Not everyone agrees on some details of the ordering.  Note that the term ''sonorant'' defies the vowel/consonant distinction, as it includes both all the vowels and some of the weaker consonants. The table goes from most sonorous at the top to least sonorous at the bottom.
+
+{| class="wikitable"
+! colspan="4" | Sonority
+|-
+| colspan="2" align="center" | low vowels || rowspan="6" align="center" | sonorants || rowspan="3" align="center" | vowels
+|-
+| colspan="2" align="center" | mid-height vowels
+|-
+| colspan="2" align="center" | high vowels
+|-
+| colspan="2" align="center" | glides || rowspan="9" align="center" | consonants
+|-
+| colspan="2" align="center" | liquids
+|-
+| colspan="2" align="center" | nasals
+|-
+| align="right" | voiced || rowspan="2" | fricatives || rowspan="6" align="center" | obstruents
+|-
+| align="right" | unvoiced
+|-
+| align="right" | voiced || rowspan="2" | affricates
+|-
+| align="right" | unvoiced
+|-
+| align="right" | voiced || rowspan="2" | plosives
+|-
+| align="right" | unvoiced
+|}
+
+{{Navlist/Bottom}}

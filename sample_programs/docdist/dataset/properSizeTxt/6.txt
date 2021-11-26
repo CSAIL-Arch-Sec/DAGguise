@@ -1,0 +1,331 @@
+{{incomplete}}
+
+{{TOC right|limit=3}}
+
+==P.01 - Front Cover==
+'''The Australasian Radio World'''
+
+Registered at the G.P.O., Sydney, for transmission by post as a periodical.
+
+1/-
+
+Vol. 11 - No. 9; February 15, 1947
+
+==P.01 - Rola Ad==
+
+==P.02 - Crown Radio Products Ad==
+
+==P.03 - Contents Banner==
+'''THE AUSTRALASIAN RADIO WORLD'''
+
+Devoted entirely to Technical Radio
+
+and incorporating
+
+'''ALL-WAVE ALL-WORLD DX NEWS'''
+
+VOL. 11. - FEBRUARY, 1947. - No. 9.
+
+==P.03 - Publication Notes==
+Editor, Publisher, Proprietor — '''A. G. HULL''', Balcombe St., Mornington, Vic.
+
+Short-wave Editor — '''L. J. KEAST''', 6 Fitzgerald Road, Ermington, N.S.W. 'Phone: WL1101
+
+Ham Notes By — '''D. B. KNOCK''' (VK2NO), 43 Yanko Av., Waverley, N.S.W.
+
+Advertising Representative for Vic. — W. J. LEWIS, 20 Queen St., Melbourne, 'Phone MU5154
+
+Advertising Representative for N.S.W. - Amalgamated Publications Pty. Ltd., 83 Pitt St., Sydney, Phone: B1077
+
+Subscription Rates: 6 issues - 5/3; 12 issues - 10/6; 24 issues - £1; Post free to any address in the world.
+
+Address for all correspondence - Australasian Radio World, Balcombe St., Mornington, Victoria
+
+Printed by Bridge Printery Pty. Ltd., 117 Reservoir Street, Sydney, N.S.W., for the proprietor of the "Australasian Radio World," Balcombe St., Mornington, Vic. (Footnote P.44)
+
+==P.03 - Contents==
+
+'''CONTENTS'''
+
+'''TECHNICAL —'''
+
+Trends in Design . . . . 5
+
+High-Fidelity Pick-ups from England . . . . 9
+
+The "F.F.R." 45-watt Amplifier . . . . 15
+
+Two more "Connoisseur" Sets . . . . 21
+
+Re-vamping the "F.S.6" . . . . 27
+
+Calling CQ . . . . 33
+
+'''SHORTWAVE REVIEW —'''
+
+Notes from My Diary . . . . 38
+
+'''THE SERVICE PAGES —'''
+
+Answers . . . . 42
+
+==P.03 - Editorial==
+
+'''EDITORIAL'''
+
+Journalism is one of the surest ways to fame and fortune. During the past twenty years I have had the pleasure of seeing many people succeed in life directly or indirectly on account of their literary efforts. There was Dr. Barry, who did music criticism for the old "Wireless Weekly." The last I heard of him he was Director of Programmes for the A.B.C. Then I remember Bob McCall, who signed himself as "Discobolus" at the foot of a page of record criticisms in the old "Weekly." In almost no time he was in charge of recorded music at the A.B.C., then Manager for Victoria and away to England for further promotion. The Discobolus page was taken over by Greg Spencer, and sure enough he too climbed the ladder of fame until his untimely death recently. Lahm did comic drawings for me long before he became famous for Snifter in "Man." Wep did the Humperdink series as one of his stepping stones to fame. You know him now if you read the "Women's Weekly." I could go on indefinitely with the names of dozens I knew when they were keen to succeed. They had the ability; they showed it in black and white; it w as recognised; now they are on top. Yet how difficult it is to get anyone to try their hand at writing a technical article. In last month’s issue I called for applications for the position of editorial representative in Sydney. Hundreds of replies were received; most of them mentioning how much they would like to take up journalism, yet apparently not one of them had ever submitted anything for publication, let alone get it published. Wouldn’t it? — '''A. G. HULL.'''
+
+==P.05 - Technical - Trends in Design==
+
+==P.09 - Technical - High-Fidelity Pick-ups from England==
+==P.15 - Technical - The "F.F.R." 45-watt Amplifier==
+==P.21 - Technical - Two more "Connoisseur" Sets==
+==P.27 - Technical - Re-vamping the "F.S. 6"==
+==P.33 - Technical - Calling CQ==
+==P.38 - Shortwave Review - Notes from My Diary==
+
+'''Shortwave Review''' Conducted by L. J. Keast
+
+NOTES FROM MY DIARY
+S u n s p o t s
+Dr. John Q. Stewart, astronomer
+of Princeton University, U.S.A.,
+says: "Sunspots— some as big as the
+earth—w ill continue to disrupt
+radio for at least another year. Even
+then the respite w ill be brief for
+one spot cycle is no more completed than another one begins. It
+usually takes about 11 years for the
+maximum to he reached. Dr. Stewart predicts that the present cycle
+w ill reach its maximum by about
+the end of 1947.—Radio News.
+" R a d io A u s t r a l i a ”
+I have received a very fine
+double-sided pamphlet from the
+Department of Information, M elbourne, setting out in splendid
+form the various, programmes,
+schedules and transmitters used by
+"Radio Australia.” In this issue I
+am showing the call-signs, frequencies and times on the air and
+it is hoped space w ill be available
+in March issue for the various features. The whole set-up compares
+more than favourably with anything from overseas and it is
+printed all ready for posting, so
+should be a splendid advertisement
+for Australia.
+I n t e r n a t i o n a l S h o r t w a v e
+I was very pleased and proud to
+receive a card from Kenneth R.
+Boord, shortwave editor of "Radio
+News,” appointing me as monitor
+for international shortwave during
+the year 1946-7. "Radio News” is
+one of — if not—the best American
+magazines dealing with radio. It is
+profusely illustrated and contains
+most informative notes on shortwave.
+SAYS WHO?
+'''Arthur Cushen''' of Invercargill, N.Z., reports three • nice verifications: LJK, Oslo, 9.54mc, 31.45m:
+this was in the form of a nice card
+showing photo of Oslo across the
+harbour. They state they are using
+5K W and relay Norwegian N ational Programmes from 5-5.15
+p.m.; 8.45-10.30 p.m.; 2-8 a.m.
+There are no regular English broadcasts at present. This verification
+by the way took a little over a year
+to arrive . . . Cushen’s report was
+dated October 13, 1945. Another
+was from CE622, Santiago, 6.22
+me, 48.23m. This verification took
+the form of a letter in Spanish
+signed by F. Elisso Merino B,
+Casilla 2626, Santiago. Power is
+5000 watts. (Slogan of this station
+is "Radio Sociedad Nacional de
+M ineria.”-—L .J.K .) The final was
+from Paris for reports on 9.985mc
+and 11.845mc.—L.J.K.
+* * *
+'''Rex Gillett''' of Adelaide is also proud of his veries and considers the best received for some time is KOFA, Salzburg, 7.22mc, 41.55m. This United States Forces station in Austria uses a power of 725 watts. The manager of the station, Mel. London, said in answer to Rex’s question, "Am I the first Australian to pick you up and report the fact?” "The answer is definitely YES and
+we are quite proud of your report because, although we have been picked up all over the United States and most of Europe, yours is the first from down under’.” Another good verie received on
+Boxing Day was ZNB, Mafeking, Bechuanaland, 5.900mc, 50.85m. Mr. A. P. Brittz, the station’s technician, in verifying Mr. Gillett’s report stated that ZNB is NOT a broadcasting station. "It is primarily the control station for numerous communication stations upcountry in the Bechuanaland Protectorate where there is no telephone communication or telegraph. They average two  transmissions a day and all traffic handled is passed through ZNB, who disposes of the stuff to the local post office and other channels. During their spare time ZNB broadcasts records, of
+which they have approximately 9000, between 1 and 2 p.m. and 7 and 9.30 p.m. South African Standard time (8-9 p.m. and 3-5.30 а.m. Sydney time).
+R a d io So f i a , B u l g a r i a
+Radio Sofia is State owned, the
+whole radio service being administered under the name of Bulgarian
+Broadcasting System. Radio Sofia,
+using a power of .5 kilowatts, is
+heard on 7.66mc, 39.16m, and
+Radio Rodina, 9-35mc, 32.09m, the
+power on this one being 5 kilowatts. Radio Sofia has five broadcasting studios, four of which are
+in the central building of Radio
+Sofia and the fifth at Radio Rodina.
+Bulgaria has well over 200,000
+registered receiving sets, which of
+course get their programmes from
+the broadcast band outlets, 650kc
+(Radio Sofia); l,402kc (Radio
+Stara Zagora) and l,276kc (Radio
+V arna). Advertising over the air
+was discontinued some years ago
+but is likely to be resumed shortly.
+News and talks in English are
+given over Radio Sofia from 6.30-
+б.40 a.m. daily on both 9-35 and
+7.66mc.-—Radio Call.
+" R a d io A u s t r a l i a ”
+Overseas Shortwave Service of
+Department of Information
+The following alterations took
+place as from January 14:
+VLA-9, Shepparton, 21.60mc,
+13.89m: Programme to North
+America (East) and Canada is now
+on the air from 9-30 a.m.-10.45
+a.m.
+VLA-8, Shepparton, 11.76mc,
+25.51m, and VLB-9-, Shepparton,
+9.6l 5mc, 31.2m: Replace VLA-4
+and VLG-2 and have joined VLC-4
+and VLG-7 in programme to N.
+America (W est) from 2.45-3.45
+p.m. (VLB-9 and VLG-7 are not
+in use on Saturdays.)
+
+VLA-8, Shepparton, 11.76mc,
+25.51m, and VLG-4, Lyndhurst,
+11.84mc, 25.35m: Replace VLA-4
+and V L G -10 and have joined
+VLC-6, 9-615mc, in programme to
+N . America (W est) and South
+Africa.
+R a d io N e w s r e e l
+A special Pacific edition is given
+every Sunday by Chester Wilmott
+at 5 p.m. It is a survey of the
+week’s happenings and as usual
+with items handled by Wilmott is
+excellent.
+D i p l o m a t i c D ia r y
+A weekly review of international
+affairs, seen from the diplomatic
+standpoint, is being given by the
+Hon. Harold Nicholson in the
+Overseas Services. Mr. Nicholson
+— listeners will remember his
+analytical commentaries from Paris
+on the occasion of the recent
+United Nations Conference there—
+is well known through his books
+and broadcasts as an expert interpreter of the international scene.
+"Diplomatic Diary” is heard in the
+Pacific Service at 4.15 p.m. on
+Thursdays.
+L a t e s t L o g g in g s
+XO PD , Hangchow, 9.555mc,
+31.40m: Heard well at 8.30 p.m.—
+'''L.J.K.'''
+Radio Kuala Lumpur, 6.l65m c,
+48.70m: News in English from
+"Radio Malaya” at 9- p.m.—
+'''Cushen'''.
+C H N X , Halifax, 6.13mc, 48.93
+m: News at 10 p.m.— Cushen.
+VUC-2, Calcutta, 6.01mc, 49.93
+m: News at 10.30 p.m.— '''Cushen'''.
+FFE, Paris, 13.715mc, 21.87m:
+Has contacts and programme for
+New York at 5.30 a.m.— '''Cushen'''.
+K N B A , San Francisco, 9.49mc,
+31.61m, and K N BI, San Francisco,
+6.06mc, 49.50m: Both in parallel
+and good at 9 p.m.— '''L.J.K.'''
+
+GVS, London, 21.71mc, 13.82
+m: Very good from 6-9- p.m.—
+L.J.K .
+FHE3, Dakar, 11.715mc, 25.61
+m: Has now been dropped in favour of 15.385mc, 19.49m, and is
+at good strength till closing at 8
+a.m.— '''Gillett'''.
+
+WLKS, Tokyo, 6.105mc, 49.15
+m: I must thank '''Ray Simpson''' for
+news about this new Japanese outlet. This station is conducted by
+the British Commonwealth Occupation Forces and is on the air
+twice daily— 7.30-9.30 a.m. and
+noon-7.30 p.m. In a letter to Ray,
+Signaller Henderson of Station
+W LKS says they are not yet operating of a night as so far they have
+not been granted a suitable frequency. Station closes following
+the playing of "God Save the
+K ing.”
+KZPI, M anila, 9.710mc, 30.9-0
+m: Rex Gillett says "Radio Philippines” is operated by the Philippines Broadcasting Corporation and
+is on the air from about 7 p.m. till
+after 12.30 a.m. and also again
+about 7.15 a.m. (W hilst mentioning M anila, I notice our old friend
+KZRH, "The Voice of the Philippines,” is particularly good at 10
+p.m. on 9.65mc, 31.09m.— '''L.J.K.''')
+
+==P.39 - New Stations==
+'''New Stations'''
+
+CKRZ, Sackville, 6.06mc, 49.50
+m: Mr. '''Cushen''' reports hearing this
+new Canadian in Latin-American
+Service from 9.25-10.35 a.m. This
+time does not coincide with the
+schedule I received by air-mail
+from the Canadian Broadcasting
+Corporation and which is printed
+in full in this issue. But one must
+remember it is the prerogative of
+A LL shortwave stations to change
+schedules without notice . . . and
+don’t we know they do it.
+A D D IS ABABA, 15.065mc,
+19.92m: "Universalite” mentioned
+this new frequency for the Ethiopian station and says they are on
+the air from 11.15 a.m.-12.30 p.m.
+but it is doubtful if they would be
+heard here at that hour. However,
+'''Ray Simpson''' logged them on this
+new frequency at a little before
+midnight. Strength was poor and
+there was a fair amount of interference, but it is worth trying for,
+as frequent announcements are
+made in English. So try from about
+11.30 p.m. till 1 a.m. '''Ern Suffolk'''
+of South Australia is hearing them
+
+weakly from 11 p.m.
+------, Munich, 6.10mc, 49.18m;
+------, Munich, 6.17mc, 38.62m;
+------, Munich, 7.29-mc, 41.15m:
+Rex Gillett sends advice of these
+new German stations heard by him
+from as early as 2.30 a.m. Station
+announces, "This is Munich relaying The Voice of the United States
+of America, operating in the 41,
+48 and 49 metre bands.” Closes at
+7.30 a.m. with "Star Spangled Banner.” Arthur Cushen also reports
+Munich as good from 5 till 7.30
+a.m.— 41 best.
+CR8AA, Macau, 9.235mc, 32.48
+m: Arthur Cushen reports hearing
+this new outlet in Portuguese
+China. At 10 p.m. at fair strength,
+the announcement is: "This is CR8 A A, Macau Radio Society, on 33
+metres, 9.2mc.” English programme
+at 11 p.m.
+RA D IO OMROEP, Soerabaya,
+l 6.68mc, 17.98m: Another catch by
+Rex Gillett. Is quite good strength
+at 11 p.m., but morse occasionally
+causes trouble.
+(Continued on page 4 i)
+
+==P.42 - The Service Pages - Answers==
+
+{{BookCat}}

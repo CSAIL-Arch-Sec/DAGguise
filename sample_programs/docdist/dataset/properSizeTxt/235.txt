@@ -1,0 +1,56 @@
+This is where my educational assignments will be.
+
+== Wiki Exercise #2: Visibility and Data Trails ==
+
+With more social media apps than ever before, It is easy to understand why the amount of users is constantly growing. It seems almost the norm to currently be signed up to the most common social media apps, I find these to be Facebook, Twitter, Instagram and Snapchat. Although having an account on all of these apps, I find that I very rarely post anything that is directly from me, across all platforms. I think this is due to never really knowing what to post. I am a very frequent user of these apps though and will find myself on them throughout the day, usually checking every app at least every couple of hours. The information about me online is very limited on my Snapchat, Instagram and Twitter account, this is because to me, these apps seem much less formal than Facebook, and all that is displayed on these is your name and in my case, the city I am from. Facebook however has a much more detailed personal information section that is displayed. Personally, I have information on it such as the high school I went to, where I work, what university I study at, what I study at University and the city I live in. This may seem like a lot to openly share, however the amount of people that can see that information is limited to the people that I am friends with on Facebook, and I only ever accept friend requests from people I know and who I would be comfortable with knowing my details. The privacy that can be attained in these Social Media platforms is much different to that of Wikibooks, as when a piece of work is published, anyone can access it and there is no stopping that. However this is the whole point of Wikibooks and therefore does exactly what it should do.
+
+==Wiki Exercise #3: Information Overload==
+
+It is undeniable that with more and more information being available to the everyday internet user, it has become increasingly difficult to not get distracted with biased or false information. However, whilst selecting what information to use as support in my argument, I discovered that it did not take long to decide what information was accurate and was going to back up my statement. I found that looking at the source of the information is key, as this quickly told me if it was published by a reliable source and not one that is known for its false information or exaggerated facts. The factors I always take into consideration are who has published the information, what is their incentive in discussing the subject, for example is it a website that is going to be biased when talking about the information. Another factor I had to take into consideration was when was the information published, as if it was out of date the information would not be suitable to use in an up to date report. Whilst I have been working on the project, my workflow has increased, as I have become more accurate and efficient in deciding what information to use and then discussing it. I have found however that this increase has been balanced out as a result of workload increase from other modules as well as this one.
+
+==Wiki Exercise #4: Wikibook Project Reflective Account==
+
+After completing my Wikibook project, I can now give my thoughts and review of the whole process. Firstly, as a keen social media user and everyday internet user. I was curious to see what the whole process of publishing work on wikibooks and using it in order to communicate to my group and discuss what parts of the project each person was going to do. It did not take long to realise that it was going to be more difficult than I thought to stay in contact with my group as I found the discussion page was a lot more complicated than it needed to be. Of course, I was not expecting the level of fluidity and smoothness that you see when messaging friends on facebook, as facebook is a social media platform that specialises in making it as easy as possible for friends to connect to each other. However it was still more inconvenient than i thought it would be. One aspect that i found constantly an issue was the lack of a notification of some sort when there had been a new post in the page. The discussion page became much easier to use after a few visits and over the duration of the project, I got used to checking back frequently to see the new information posted by my colleagues. Another immediate thought that I had upon beginning the project was just how much can be achieved when there is a number of students contributing and working together on something. I really liked the fact that there was a main destination where all our work was to go, this made it really simple to read and contribute to other peoples work.   Furthermore, having all our work in the same place and the fact that anybody could create an account, and then edit our work made me think a lot about how I present myself and what I am writing about, this then made me look into the privacy of my social media websites and how I had presented myself on Twitter etc. 
+
+As a result of using social media platforms every day for a number of years, I think it made the transition very hard as to begin with, the setup and the way in which I had to upload my work was very confusing. Another issue I found was that I did not feel like I could fully get into the project as a result of never using wikibooks before, and the differences that occur when comparing it to social media sites. 
+
+Overall, I think that the project was a good learning experience and taught me a lot about wiki websites and how to use them to help other people and learn new information. However I did feel like the major differences that occur when going from Twitter, Facebook and Instagram to wiki sites were a lot to get used to.
+
+== Marker’s Feedback on Wikibook Project Work ==
+
+:::{{reply to|marshallcammy}}
+
+===Content (weighted 20%)===
+
+The Introduction to this chapter is rather odd – it includes user signatures which do not belong on the book page. A couple of sentences as contribs from different users, with very different styles, and this creates a jarring, almost Brechtian feel to the start of the chapter – I can’t imagine that this is deliberate, but I may be incorrect about this. There is little evidence to suggest that this effect serves a critical function for the remainder of the chapter.
+
+Very unusual way of citing sources in-text. However, there is something really useful about including live links to actual reading – it engages the reader in proper hypertext reading, and arguably makes a lot of the platform, its functionality, and how it can be used as a knowledge-building peer-assisted learning platform. This seems deliberate, and works!
+
+Some problems with links that appear red (i.e. not live) and one or two typos dotted throughout.
+
+The section “Evidence and the Unreliability of Online Sources” is a little text-heavy. It’s a fairly heavy-going section to read. Use of wiki commons images to illustrate the argument would help to not only break up the text, but to make more of the platform’s functionality. The following section on “Evidence Available Online and in Social Media” is problematic – there are a few assertions that do not make anything of available conceptual frameworks to build an argument, and entire paragraphs drawing from a source (Mayfield) that go to a dead link. Additionally, whole chucks of text seem superfluous to the overall drive of the chapter, or seem anecdotal or conversational, rather than forming a critically-engaged argument. Finally, in this section, there seems to be an overreliance on a superficial pros vs. cons presentation – this is rarely if ever a good idea because such structures fail to engage the very tensions at the heart of the conceptual framework (in this case – notions of security, and age appropriate context).
+
+Some very useful sections on photojournalism and citizen journalism. There is some repetition of work found in other chapters – a more deliberative, joined-up approach would have enabled you to add interwiki links to a number of relevant places in the wikibook, thereby considerably improving the book overall (e.g. the subsection on “theories” mentions Habermas – where critical theory, the Frankfurt School, and aspects of public sphere are discussed at length in other parts of the book).
+
+The glossary is rather short! The reference list is worryingly so. Some very useful reading and research in evidence, but at this level, and with this number of students working on the project over a period of 3+ weeks, one would expect more.
+
+:::Satisfactory. Your contribution to the book page gives a satisfactory brief overview of the subject under discussion in your chosen themed chapter. There is a fair range of concepts associated with your subject, and an effort to deliver critical definitions. There is evidence that you draw from relevant literature and scholarship, however your own critical voice in the building of a robust argument is slightly lost, perhaps due to a variable depth of understanding the subject matter or over reliance on rote learning. The primary and secondary sources you found about the chapter’s themes cover a somewhat circumscribed range and depth of subject matter.
+
+===Wiki Exercise Portfolio (Understanding weighted 30%)===
+Posts and comments on other people’s work, of this standard, roughly corresponds to the following grade descriptor. Depending on where your actual mark is overall (and particularly in relation to Understanding and Engagement elements), that should give you an idea of strengths and weaknesses within the achieved grade band, relative to the descriptor
+
+:::Assignment responses receiving marks of this standard tend to not contain any merit or relevance to the module. Posts are one-liners, sometimes made up of text-speak. Often they are indicative of failure to comment on other students’ posts, and therefore do not engage with the crucial peer-review element. Entries of this grade may have been subject to admin warnings or take-down notices for copyright infringement, or the user has been blocked for vandalism or other contraventions of wiki T&C. The wiki markup formatting will be more or less non-existent.
+
+*'''Reading and research''': 
+** no evidence of critical engagement with set materials; 
+**no evidence of independent reading of appropriate academic and peer-reviewed material
+*'''Argument and analysis''': 
+**poor articulation and lack of support in argument, or no argument at all; 
+**no evidence of critical thinking (you did not take a position in relation to key ideas from the module, nor did you support this position in discussion); 
+**no evidence of relational thinking (you did not make connections between key ideas from the module and wider literature, nor did you support these connections in discussion); 
+**no evidence of independent critical ability
+
+===Engagement (weighted 50%)===
+*No evidence from contributions to both editing and discussion of content (i.e. volume and breadth of activity as evidenced through contribs) 
+*No engagement with and learning from other Wikipedians about the task of writing/editing content for a Wikibook
+*Little or no use of discussion pages

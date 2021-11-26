@@ -1,0 +1,173 @@
+{{Information systems in the consumer industry}}
+Starting from the two real case studies we saw, now we want to analyze, at the highest level, the information needs for the processes of a consumer company. This will help us in defining the whole context of data and procedures to be informationally represented. Once we have done this step we can then match the existing coverage with the actual IT system.
+
+In this work I will specifically speak about clothing industry but the method is valid also for other companies and specially for those where “customer care” is a goal and not only an instrument.
+
+It might happen that the customer is not conscious of his needs but then, I think, we should pursue a “maieutic” process of extraction more than the induction of a new need. In this vision of business, agents and retailers are part of the “extended” enterprise as they transmit the idea of “service”.
+
+The reason why I chose the apparel world is that, among companies which operate on physical goods, most probably is the one which best fits the “service” idea in terms of
+
+* Volume of goods and information
+* Changing ratio for the product
+* Low unitary value for the product
+* Different ways of approaching the final customers
+* Difference between “customer” (retailer) and “consumer” (2 decision levels).
+
+Anyway I tried to be as general as possible and you could think of applying this method even to politics as a “service” industry to people.
+
+ Before getting into the phase of analysis, I would like to consider something we quickly quoted: apparel sales are usually made in shop with the help of an employee. From the point of view of producers the “customer” is the retailer or some people in its organization (e.g. department store) while the “real” market is the end-user.  The employee actually has a very important role in addressing the choice but he is also a fundamental vehicle for the satisfaction of the esteem needs of the “real customer”.
+
+From an information point of view, the employee is a problem as it creates a “human” bias on the sales data (he addresses the sale) and also, sometimes, he forces his opinions into the information system. The same problem exists in the process of selling the garments to the retailers: the agent can be himself a source of information errors.   
+
+ 
+
+As my goal is to help defining a model for an information system, to be later translated into technical instruments, I need to define data, states and processes into detail. This is a huge work and I decided to stop at first level; this is not an ERP detail analysis which would be unrealistic. Sometime I go deeper in the analysis when I think that the actual topic has not been fully cleared.
+
+'''Analysis Methodology'''
+
+As analysis practice is not so clear and defined, I tried to use a methodological approach as general as possible using technique of system and process analysis.
+
+Let us define “system” as an ordered set of organized elements all of them aimed at a certain goal. These elements can include physical objects (hardware, software), people, information, instruments etc.
+
+The representation of a physical system can be made via a dynamic picture (processes) or a static picture (states). A process can be defined as the passage between states (initial and final) of a system; the “state” is the photograph of a system in a steady situation. 
+
+According to the nature of the content, we can divide processes in information-bound (e.g. document handling) and physical object related (service) ones. In the first group the information and physical process coincide. As far as the second case is concerned let us make an example related to the industrial world: we can define the state (space and time location of goods: logistic view) or the changing process (goods transformation: industrial view).
+
+The associated information system, related to the physical one, must define the context, the initial state and the transformation rules (processes).
+
+Here we are interested in defining the abstract model (information model in our case) of the real system (natural of artificial) which we call physical system. The representation has its meaning in the context defined by variables and metrics which relate the variables to physical data. Context is defined by the choice of variables and their physical significance; state by the initial values (inventory etc.) and process by the measurement quantities (inventory movements etc.).
+
+Information (context meaningful data) are itself object of some form of treatment: we classify information “functions” into retrieval, storage, transmission, transformation and presentation.
+
+Just for the sake of completeness we quote the conceptual problem of “measure” problem in its two faced aspects of the need of a measuring instrument and of the fact that the measuring action could change the measured system.
+
+We need also to remind that we have been talking about “semantic ontologies” (which means that these rules belong to a general schema including variables and metric systems) while we know that in the global information world there are plenty of unstructured semantics with many information inside but with a high grade of difficulty in using them.
+
+In this work, we are interested in “business processes” which are artificial processes representing functions related to the activity of a business company. These processes, not like natural systems, do not work on deterministic laws where, once you know the initial state and the total input, the total output of the system is pre-determined. We are talking about social systems in different cultural environments and related to unpredictable events so the output, at most, can only be generally forecasted and not galileianly determined. 
+
+In this chapter more than trying to represent the processes in formally correct a usable language (a task for methodologies like UML), I would like to approach the problem of a methodology to be sure that every aspect of an information problem has been taken into consideration; I am looking how to define all the aspects of an industrial general process, a fashion one in our case.
+
+We already saw that to define the information system we need to individuate the values of the variables related both to the state and to the process; in my experience this passes through the analysis of what I call the “information dimensions” where a dimension is an independent set of information data.
+
+From a practical point of view we have to ask ourselves a set of questions about the initial state and about what happens in the system. The questions I asked myself are:
+
+* What: what is the content of the process; which indicators are chosen and measured in the process
+* How: how do I collect and treat information (state), how does the process happen. This dimension includes the problem of the measuring methods, of the change of indicators (e.g. six-sigma method) and of the choice of the representation language for a coherent formalism
+* Who: the definition of the actors in the process and their representation in terms of information
+* Where: which are the location of the processes; initial, actual and results places? In a global system these places can be very far away so you have to consider time-shift, different languages (presentation) and culture
+* When: the time the process starts (initial state), lives and finishes so that parameters are in the final state (remember that people are components of the system)
+* How much: what is the change in the variables; both internal and context variables
+* Why: the reason why the process happens: internal laws (initial stability of the system) and external (context need).
+
+Out of all these questions the most peculiar one is certainly “Why” as sometimes it is related to external laws or habits and sometimes it relates to internal reasons of order and efficiency. Again these last considerations show that we are not operating in a “classical” deterministic world.
+
+ The “how much” dimension relates the process to the physical reality (remember we are trying to write some sort of “semantics” of physical processes). We should be able to separate really meaningful variables which actually change during the process assuming that, quite often, the change is only a statistical change and the sample is in the limit of the De Moivre (see example) theorem.
+
+It might happen that some dimension coincides: for example imagine the physical process of an apple falling form a tree. In this case the “what” and the “where” of the process are the same as the process is exactly the fall of the apple; this does not mean that we can confuse
+
+“where” as a geographical context and
+
+“where” as a content of the process.
+
+From the point of view of methodology all the dimensions should be taken into consideration and, in special case, some of them coincide.
+
+As we said, we are talking about systems which are not completely deterministic, like classical physics; space-time homogeneity is to be considered a lucky case and not a general situation. This implies that reversibility of processes is not guaranteed, sometime it is even forbidden; so certain technical instruments (compensation handlers) cannot be given for granted.
+
+''' The company goal: a real problem.'''
+
+We assume that a fashion company goal is to create value via improving the level of the apparel worn in the surrounding world which, by itself, is the target market for the company itself. This gets real through four fundamental processes:
+
+* '''Ability to perceive and categorize customer needs'''
+* '''Ability to rationalize and interpreter customer needs'''
+* '''Ability to satisfy customer needs'''
+* '''Ability to explain its capability in satisfying the needs.'''
+
+The way to solve this major task is the full stream of the industrial project with all its aspects: marketing, sales, production, logistics, and structure.
+
+In the marketing books we can see underlined the meaning of the 4P (product, price, place, promotion) which means getting the right product, at the right price, in the right place at the right moment  and tell this opportunity to the customer.
+
+ From an information point of view, this analysis leaves us with more than one open question, the most important: what does “right” means? How can we measure such a quantity? Someone says that it will be the market response to determine whether or not the choice was “right” but this is an answer  “a posteriori”; what a company needs is a correct, or at least “best guess”, forecast “a priori”.
+
+Customer needs: fundamentals
+
+ Before advancing further I think we should clear out what “customer needs” are.
+
+Psychologist  Abraham Maslow indicated a hierarchy of needs into 5 levels:
+
+Physiological needs (air, water, nourishment, sleep)
+
+Safety (medical insurance, job security, peace)
+
+Social needs (friends, group belonging, give and receive love)
+
+Esteem (self-respect, achievement, recognition, reputation)
+
+Self-actualization (truth, justice, wisdom, meaning)
+
+Once a need is mostly satisfied it no longer motivates and the next higher need takes place.
+
+As far as clothing are concerned 
+
+* The first level is never taken into account
+* The second level concerns “utilitarianism” which means the basic role of garments as defense from environment (cold etc.). In the rich society this needs is getting less and less important because of many factors (the heating systems, cars) which modify the relation between human body and environment. This need is still very important into technical clothing (work, sport) where functionality is predominant
+* In the third level I would introduce personal feeling (cashmere hand feeling, valentino’s red, leather smell) and the sensation we feel when we fit well
+* In the fourth level I think we can fit the social factor of recognition in the act of buying the garment (actual sale moment) or in the belonging to a “group” with its distinctive signs. Some authors tent to underline the first aspect but the actual rise in the internet sales seems to contradict them. Another argument supporting the after-sale group belonging experience is related to the expanding business of counterfeiting which could indicate how much people need to be “brand dependent”
+* The fifth point, in my opinion, includes a real shopping experience in which the customer is recognized as an individual and his needs are fulfilled in a mature and respectful way.
+
+Personally I think that the rating of the various needs depend not only on the person himself but also on the context (time, place and mood) which, by itself is not a scientific variable.
+
+  
+
+Customer needs: practice
+
+What we really want to do is zeroing the difference between customer expectations and the perception of the product/service quality of what he has bought; in this case we have satisfied our customer who thinks he has paid the correct price for what he buys.
+
+Referring  to the quality service models via multidimensional hierarchical analysis (Dabholkar) or to gap analysis model (Parasumaran et alt.) and integrating other variables, we must satisfy quality parameters related to:
+
+* Product: actual variables ( aesthetical/design  level, fashion update)
+* Product: reliability (quality of components and handwork, company reliability)
+* Product: availability where and when it is requested
+* Subjectivity: problem solving capability (punctuality, flexibility, quality problems solving)
+* Subjectivity: reassurance capability (competence, kindness, credibility)
+* Subjectivity : empathy
+* Sociality: group belonging
+* Sociality: individual recognition.
+
+As we said before, customer satisfaction is a multi-faced operation and we must never forget that the “customer” is “the important person” and not only a “product” accessory, even for the best products. On the other hand, we do not want to “sell dreams” with no product around as, once the sale euphoria passed, we would have an unsatisfied customer and no customer retention in future time.
+
+As far as the “social” part of the company-customer business relation we keep into consideration the difference between “style” and “fashion” (Espinoza  - MIT Media Lab). “Style” is a principal component in group identity so, maybe in a costly way, it can be copied from someone outside the “group”. To keep it difficult for externals to keep updated with the group dynamics, the code must be continuously changed and this give rise to the “fashion” phenomena. Now we understand how “fashion” is something related to the internal of a group while “style” relates to an outside value for the group culture. When a new “style” reaches a critical mass it gets accepted into social culture and some new break point are looked for.
+
+This topic becomes very important when we talk about information systems (in the wide sense) for the social aspect.
+
+Data importance
+
+From a survey we did in a group of generic customers, we found that the relative importance of the various factors in the buying action is
+
+Product: actual variables ( aesthetical/design  level, fashion update)    6,3
+
+Product: availability where and when it is requested    9,0
+
+Product: reliability (quality of components and handwork, company reliability)    7,0
+
+Subjectivity: problem solving capability (punctuality, flexibility, quality problems solving)    7,3
+
+Subjectivity: reassurance capability (competence, kindness, credibility)    7,3
+
+Subjectivity : empathy    6,6
+
+Sociality: group belonging    5,9
+
+Sociality: individual recognition.    6,3
+
+It is important to point out that these values are related to a sample of customers in the field of apparel so its value is significant only in this field.
+
+Methodologies for a solution
+
+Actual methods for solving the customer needs are now essentially two:
+
+# Industry: start from customer  requirements and designing the whole industrial process (design, production, logistic) to fulfill the need
+# Trade: choosing globally and offering locally what the retailer thinks is the best solution for the customer need.
+
+These approaches, obviously, have some common aspects but also some special features that we shall discuss later.
+
+{{BookCat}}

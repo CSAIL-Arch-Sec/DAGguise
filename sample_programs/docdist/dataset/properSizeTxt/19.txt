@@ -1,0 +1,140 @@
+== Techniques ==
+=== Forging ===
+Forging is the most common smithing technique.  If there's no forging involved, it probably isn't smithing at all.
+
+There are 5 basic forging techniques:
+
+==== Drawing ====
+Drawing makes the work thinner, but longer or wider.  Heat the part of the work to be drawn to "forging heat", a bright red glow.  Hold the work in your non dominant hand, using tongs, unless the work is so long that one end is cool enough to hold directly.  Take the work directly from the heat and place it on the anvil.  Strike the work with your hammer, keeping the flat part of the hammer aimed directly at the work.  The metal will flow away from the center of the hammer face, spreading out in the other directions.
+
+Repeat the hammer blows until the work is as thin as desired or until it's too cool to flow easily (the usual case).  You can get a couple of blows in after the work has cooled to the point it now longer glows, but continuing to strike after the metal is too cool to flow accomplishes little and risks breaking it, destroying all you've accomplished so far.  Once the work has lost the heat, place it back in the forge to reheat.
+
+Plan your method to accomplish as much as you can in each "heat".  Place your hammer on the anvil, where it's easy to grab with the right grip for striking.  Grab the work with the tongs positioned at the right angle for placing it on the anvil.  Plan your path from forge to anvil for minimum lost time.
+
+As you gain experience, you'll find ways to reduce the number of heats for a given task, which not only greatly increases the amount you can get done, but reduces the amount of scale that builds up on the work.
+
+You can control the direction of flow in several ways:
+
+* Heat only the area that you want to flow or cool the area that you don't want to.
+* Turn the work on the anvil and strike the side that has spread more than you want.  This is the basic method for making squares, points and "round" shapes.
+* Use the peen face of the hammer to make a series of dents along the desired direction of flow, then flatten them out with the flat face.  This is the main use for a cross-peen hammer, but other shapes are handy for particular kinds of work.
+
+[http://video.pbs.org/video/2365021516/ 17th Century Lock, shows several different drawing, cutting, punching and riveting techniques.]
+
+==== Bending ====
+
+Heat the section to be curved to forging heat.  Hold one end of the work and rotate the other.  There are many different ways to hold the work: tongs, a wrench, a bending fork, a vise, or even using one hand on each end.  One can also bend over the edge or horn of the anvil by striking the work.  Twisting is just a different direction of bending.  Unbending is done the same way, but in reverse.  The accuracy with which bends can be unbent is surprising, but not unbounded.
+
+==== Upsetting ====
+In principle, this is the opposite of drawing, making the work thicker, but shorter or narrower.  Since it's harder to control, it's less frequently used.  Heat the section to be upset to forging heat, then hold one end of the work firmly against the anvil, and strike the other end.  The most usual case is a bar or rod that needs to have a bit more material near one end.  This can be done by dropping the heated end onto the anvil or an "upsetting plate", a flat plate set on the floor, serving as a sort of anvil.
+
+==== Punching ====
+To make a hole, divide the work into a fork, or cut off part of the work, heat the part to be punched to forging heat.  Hold the work over a hardy hole, line up the punch carefully with the point to be punched and strike the end of the punch sharply.
+
+Use care not to hit the anvil with the punch, which will scar the anvil and dull or break the punch.  The best is to use a hole that is slightly larger than and the same shape as the desired hole, such as a die.  A piece of wood or soft metal is a more adaptable alternative.
+
+Select or make a punch the right shape for the hole you want.  Alternatively, one can use a hot-cut or other tool to place in the hardy hole and strike the work onto the hardy tool, either directly with the hammer or another tool placed over the work.
+
+Since punching involves holding several items in alignment use of a helper or hold-down tools is most advantageous.  Simple bent tools can go into the pritchel hole, having enough spring force to hold the work down onto the anvil or hardy hole.  Matched dies can be held in alignment by hinges, springs etc.
+
+==== Shrinking ====
+This is, in principle, the same as upsetting, but accomplished in a different way.  When a workpiece is given a compound curve (e.g. a flat plate being bent into a bowl), it develops waves or ripples, due to the extra length being forced into a smaller radius.  By compressing the waves between the flat of the hammer and the flat of the anvil, the material is slightly thickened and the length is reduced, flattening out the waves.
+
+This works best when the radius of the hammer face and the anvil (or equivalent striking surface) are close to the final radius.
+
+=== Welding ===
+Many smiths avoid welding, substituting other fastening methods.  Most working smiths use modern welding methods: gas welding or one of the various kinds of arc welding.  These are efficient, strong, and convenient, but require materials and equipment beyond the scope of Down'n'dirty Blacksmithing.  In any case, those techniques are adequately covered in other places, including [[Welding]].
+
+For those interested in historical reenactment, the frugal, or the merely obstinant, there is forge welding.  This consists of 4 steps:
+# Clean the surfaces to be joined of any rust or scale
+# Heat to welding heat
+# Hold the joint together
+# Forge the pieces together
+
+The tricky part is that Step 2 needs to be done without allowing the surfaces to accumulate scale or other contaminants that would undo Step 1 and Steps 3 & 4 need to be done quickly, so the work doesn't cool to the point that Step 2 is undone.
+
+==== Cleaning ====
+Is straightforward; use wire brush, file, and grinder in combination to leave the mating surfaces smooth and clean.  The mating surfaces should fit together fairly tightly, meeting near the middle of the joint, with a slight taper apart away from the middle, to allow flux and slag to be squished out.
+
+==== Heating ====
+You'll want to use a clean burning fuel, propane, charcoal, or coke.  Coal will smoke, coating the work with a layer that will prevent a good weld.  A coating of flux will help keep the surfaces clean.  Many smiths who use charcoal or coke (which can make a reducing fire) do without flux, but a propane forge has an oxidizing flame, so will require flux.
+
+Welding heat is white-hot, just short of melting.  If you overdo it, the work is ruined, if your work isn't hot enough, you'll end up with a weak weld, although it will look fine.
+
+==== Holding ====
+The trick is that you'll usually have 2 or more pieces to hold, giving you 1 for each hand, leaving your third hand free for the hammer.  Strategies available include:
+* Welding a single piece back to itself.
+Not as useless as it sounds, when you need an eye or a hoop.
+* Riveting the pieces together temporarily
+The rivet gets forged into the final work.
+* Using a clamp or vise to hold one piece
+An L-shaped holddown for the pritchel hole is easy to make from a suitable chunk of rebar.
+* Finding a helper
+
+Choreograph your movements from forge to anvil exactly; the work will rapidly cool below welding heat.
+
+==== Forging ====
+Strike hard and quick, but straight.  Slag, flux, and molten metal will come spraying out the sides of the weld, so wear protective gear and clear the work area of anything remotely flammable.
+
+It's likely that the weld won't be complete before the work cools down to yellow-hot.  Reheat and continue.
+
+Once the weld is complete, clean off any remaining slag and continue with any remaining hot forging.  Be sure to normalize out the stresses remaining from welding before any cold operations or using the piece.  [https://www.youtube.com/watch?v=7vJiAePk2yI Video demonstrates welding a high-carbon alloy to a lower-carbon alloy.]
+
+=== Heat Treatment ===
+The main heat treatment techniques are:
+[[File:Differentially tempered sword.jpg|thumb|Differentially tempered sword]]
+==== Hardening ====
+* Heat the piece to cherry-red heat.
+* Plunge it rapidly into a bucket of water.
+* Swirl it around until it stops steaming.
+
+Plunge the edge or point (the part that really needs to be hard) in first.  Try to plunge it in straight, since that minimizes distortion.
+
+Be sure to keep your hands clear of steam.  Gloves, tongs, and a face-shield are your best friends.
+
+If distortion, brittleness, or shattering are a problem, alternatives include:
+* Use salt water or oil for quenching.  These have a higher boiling point, so don't cool the work so quickly.
+* Switch to a lower-carbon alloy
+* Temper the piece
+
+==== Annealing ====
+* Heat the work to cherry-red heat.
+* Cool it slowly
+
+Usually, just putting the work down next to the forge is good enough, but you can slow the annealing by filling a bucket with ashes or Perlite.  It may be necessary to preheat the ash bucket, to slow the cooling rate even further.
+
+In extreme cases, you may have to leave the work in the fire, then slowly reduce the fire and bank it.
+
+==== Tempering ====
+Sometimes known as "drawing the temper".[[File:Tempering colors in steel.jpg|thumb|Tempering colors of steel]]
+
+To make a piece that has a nice hard sharp edge, but with the bulk of the tool tough enough to take a beating:
+
+* Harden it (completely)
+* Polish the face leading up to the edge with emery cloth, so it shines.
+* Slowly heat the work from the end that needs to be softer, with the heat progressing towards the hard edge.
+* As the heat reaches the polished face, the shiny surface will change color: first a pale straw, then a darker brown, then a bluish color (called peacock).
+* When the peacock color gets to the edge, quench the whole tool.
+[[File:Tempering standards used in blacksmithing.JPG|thumb|Tempering standards used in blacksmithing]]
+
+Any part of the tool that started to glow will now be hard again.  You may need to temper that part again.  Generally, you can repeat the process as many times as you need to get the hard parts hard and the soft ones soft.
+[[File:Differentially tempered chisel.jpg|thumb|Differentially tempered chisel]]
+
+==== Case Hardening ====
+Not frequently attempted by most smiths, this is a method to increase the carbon content of the near-surface part of a relatively low-carbon alloy.
+
+The general scheme is:
+* Pack the work in powdered charcoal or some other carbon-rich substance in a heat-proof, tightly-closed container (the case).
+* Heat to cherry-red heat
+* Keep it there for 10–20 hours
+* Cool it down before unpacking
+* Harden as above
+
+You'll want to shape the work to its final shape as much as possible before case hardening, since any shaping afterwards is apt to remove the high-carbon surface layer.
+
+== Combining Techniques ==
+Most work is accomplished by combining these techniques to create the finished shape.  For instance, drawing a fireplace poker to a point, then putting a decorative twist in the middle, bending to make a handle, upsetting the bend to make a square corner, and splitting the end into decorative horns.
+
+Next Chapter: [[Down'n'dirty Blacksmithing/Pointing|Exercise 1: Pointing]]
+
+{{BookCat}}

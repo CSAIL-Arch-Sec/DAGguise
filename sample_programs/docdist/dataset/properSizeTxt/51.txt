@@ -1,0 +1,313 @@
+{{Haskell minitoc|chapter=Monads}}
+
+In our studies so far, we saw that both <code>Maybe</code> and lists can represent computations with a varying number of results. We use <code>Maybe</code> to indicate a computation can fail somehow (that is, it can have either zero results or one result), and we use lists for computations that can have many possible results (ranging from zero to arbitrarily many results). In both of these cases, one useful operation is amalgamating ''all'' possible results from multiple computations into a single computation. With lists, for instance, that would amount to concatenating lists of possible results. The <code>Alternative</code> class captures this amalgamation in a general way.
+
+== Definition ==
+
+{{body note|The <code>Alternative</code> class and its methods can be found in the {{Haskell lib|p=base|v=latest|Control|Applicative}} module.}}
+
+<code>Alternative</code> is a subclass of <code>Applicative</code> whose instances must define, at a minimum, the following two methods:
+
+<syntaxhighlight lang="haskell">
+class Applicative f => Alternative f where
+  empty :: f a
+  (<|>) :: f a -> f a -> f a
+</syntaxhighlight>
+
+<code>empty</code> is an applicative computation with zero results, while <code>(<|>)</code> is a binary function which combines two computations.
+
+Here are the two instance definitions for <code>Maybe</code> and lists:
+
+<syntaxhighlight lang="haskell">
+instance Alternative Maybe where
+  empty               = Nothing
+  -- Note that this could have been written more compactly.
+  Nothing <|> Nothing = Nothing -- 0 results + 0 results = 0 results
+  Just x  <|> Nothing = Just x  -- 1 result  + 0 results = 1 result
+  Nothing <|> Just x  = Just x  -- 0 results + 1 result  = 1 result
+  Just x  <|> Just y  = Just x  -- 1 result  + 1 result  = 1 result:
+                                -- Maybe can only hold up to one result,
+                                -- so we discard the second one.
+
+instance Alternative [] where
+  empty = []
+  (<|>) = (++) -- length xs + length ys = length (xs ++ ys)
+</syntaxhighlight>
+
+== Example: parallel parsing ==
+
+Traditional input parsing involves functions which consume an input one character at a time. That is, a parsing function takes an input string and chops off (i.e. "consumes") characters from the front if they satisfy certain criteria. For example, you could write a function which consumes one uppercase character. If the characters on the front of the string don't satisfy the given criteria, the parser has ''failed''. In the example below, for instance, we consume a digit in the input and return the digit that was parsed. The possibility of failure is expressed by using <code>Maybe</code>. 
+
+<syntaxhighlight lang="haskell">
+digit :: Int -> String -> Maybe Int
+digit _ []                     = Nothing
+digit i (c:_) | i > 9 || i < 0 = Nothing
+              | otherwise      =
+  if [c] == show i then Just i else Nothing
+</syntaxhighlight>
+
+The guards assure that the <code>Int</code> we are checking for is a single digit. Otherwise, we are just checking that the first character of our String matches the digit we are checking for. If it passes, we return the digit wrapped in a <code>Just</code>. Otherwise we return <code>Nothing</code>.
+
+Now, <code>(<|>)</code> can be used to run two parsers ''in parallel''. That is, we use the result of the first one if it succeeds, and otherwise, we use the result of the second. If both fail, then the combined parser returns <code>Nothing</code>. We can use <code>digit</code> with <code>(<|>)</code> to, for instance, parse strings of binary digits:
+
+<syntaxhighlight lang="haskell">
+binChar :: String -> Maybe Int
+binChar s = digit 0 s <|> digit 1 s
+</syntaxhighlight>
+
+Parser libraries often make use of <code>Alternative</code> in this way. Two examples are <code>(+++)</code> in {{Haskell lib|p=base|v=latest|Text|ParserCombinators|ReadP}} and <code>(<|>)</code> in {{Haskell lib|p=parsec|v=latest|Text|ParserCombinators|Parsec|Prim}}. This usage pattern can be described in terms of ''choice''. For instance, if we want to give <code>binChar</code> a string that will be successfully parsed, we have two choices: either to begin the string with <code>'0'</code> or with <code>'1'</code>.
+
+== MonadPlus ==
+
+The <code>MonadPlus</code> class is closely related to <code>Alternative</code>:
+
+<syntaxhighlight lang="haskell">
+class Monad m => MonadPlus m where
+  mzero :: m a
+  mplus :: m a -> m a -> m a
+</syntaxhighlight>
+
+Its definition is the same of <code>Alternative</code>, except for different method names and the <code>Applicative</code> constraint being changed into <code>Monad</code>. Unsurprisingly, for types that have instances of both <code>Alternative</code> and <code>MonadPlus</code>, <code>mzero</code> and <code>mplus</code> should be equivalent to <code>empty</code> and <code>(<|>)</code> respectively.
+
+One might legitimately wonder why the seemingly redundant <code>MonadPlus</code> class exists. Part of the reason is historical: just like <code>Monad</code> existed in Haskell long before <code>Applicative</code> was introduced, <code>MonadPlus</code> is much older than <code>Alternative</code>. Beyond such accidents, there are additional expectations (ones that do not apply to <code>Alternative</code>) about how the <code>MonadPlus</code> methods should interact with the <code>Monad</code>, and therefore indicating that something is a <code>MonadPlus</code> is a stronger claim than indicating that it is both an <code>Alternative</code> and a <code>Monad</code>. We will make some additional considerations about this issue in the following section.
+
+== Alternative and MonadPlus laws ==
+
+Like most general-purpose classes, <code>Alternative</code> and <code>MonadPlus</code> are expected to follow a handful of laws. However, there isn't universal agreement on what the full set of laws should look like. The most commonly adopted laws, and the most crucial for providing intuition about <code>Alternative</code>, say that <code>empty</code> and <code>(<|>)</code> form a ''monoid''. By that, we mean:
+
+<syntaxhighlight lang="haskell">
+-- empty is a neutral element
+empty <|> u  =  u
+u <|> empty  =  u
+-- (<|>) is associative
+u <|> (v <|> w)  =  (u <|> v) <|> w
+</syntaxhighlight>
+
+There is nothing fancy about "forming a monoid": in the above, "neutral element" and "associative" here is just like how addition of integer numbers is said to be associative and to have zero as neutral element. In fact, this analogy is the source of the names of the <code>MonadPlus</code> methods, <code>mzero</code> and <code>mplus</code>.
+
+As for <code>MonadPlus</code>, at a minimum there usually are the monoid laws, which correspond exactly to the ones just above...
+
+<syntaxhighlight lang="haskell">
+mzero `mplus` m  =  m
+m `mplus` mzero  =  m
+m `mplus` (n `mplus` o)  =  (m `mplus` n) `mplus` o
+</syntaxhighlight>
+
+... plus the additional two laws, quoted by the {{Haskell lib|p=base|v=latest|Control|Monad}} documentation:
+
+<syntaxhighlight lang="haskell">
+mzero >>= f  =  mzero -- left zero
+m >> mzero   =  mzero -- right zero
+</syntaxhighlight>
+
+If <code>mzero</code> is interpreted as a failed computation, these laws state that a failure within a chain of monadic computations leads to the failure of the whole chain.
+
+We will touch upon some additional suggestions of laws for <code>Alternative</code> and <code>MonadPlus</code> at the end of the chapter.
+
+== Useful functions ==
+
+In addition to <code>(<|>)</code> and <code>empty</code>, there are two other general-purpose functions in the base libraries involving <code>Alternative</code>.
+
+=== asum ===
+
+A common task when working with <code>Alternative</code> is taking a list of alternative values, e.g. <code>[Maybe a]</code> or <code><nowiki>[[a]]</nowiki></code>, and folding it down with <code>(<|>)</code>. The function <code>asum</code>, from <code>Data.Foldable</code> fulfills this role:
+
+<syntaxhighlight lang="haskell">
+asum :: (Alternative f, Foldable t) => t (f a) -> f a
+asum = foldr (<|>) empty
+</syntaxhighlight>
+
+In a sense, <code>asum</code> generalizes the list-specific <code>concat</code> operation. Indeed, the two are equivalent when lists are the <code>Alternative</code> being used. For Maybe, <code>asum</code> finds the first <code>Just x</code> in the list and returns <code>Nothing</code> if there aren't any.
+
+It should also be mentioned that <code>msum</code>, available from both `Data.Foldable` and `Control.Monad`, is just <code>asum</code> specialised to <code>MonadPlus</code>.
+
+<syntaxhighlight lang="haskell">
+msum :: (MonadPlus m, Foldable t) => t (m a) -> m a
+</syntaxhighlight>
+
+=== guard ===
+
+When discussing the [[Haskell/Understanding monads/List|list monad]] we noted how similar it was to list comprehensions, but we didn't discuss how to mirror list comprehension filtering. The <code>guard</code> function from <code>Control.Monad</code> allows us to do exactly that.
+
+Consider the following comprehension which retrieves all [[w:Pythagorean_triple|pythagorean triples]] (i.e. trios of integer numbers which work as the lengths of the sides for a right triangle). First we'll examine the brute-force approach. We'll use a boolean condition for filtering; namely, Pythagoras' theorem:
+
+<syntaxhighlight lang="haskell">
+pythags = [ (x, y, z) | z <- [1..], x <- [1..z], y <- [x..z], x^2 + y^2 == z^2 ]
+</syntaxhighlight>
+
+The translation of the comprehension above to a list monad do-block is:
+
+<syntaxhighlight lang="haskell">
+pythags = do
+  z <- [1..]
+  x <- [1..z]
+  y <- [x..z]
+  guard (x^2 + y^2 == z^2)
+  return (x, y, z)
+</syntaxhighlight>
+
+The <code>guard</code> function can be defined for all <code>Alternative</code>s like this:
+
+<syntaxhighlight lang="haskell">
+guard :: Alternative m => Bool -> m ()
+guard True  = pure ()
+guard _ = empty
+</syntaxhighlight>
+
+<code>guard</code> will reduce a do-block to <code>empty</code> if its predicate is <code>False</code>. Given the left zero law...
+
+<syntaxhighlight lang="haskell">
+mzero >>= f = mzero
+-- Or, equivalently:
+empty >>= f = empty
+</syntaxhighlight>
+
+... an <code>empty</code> on the left-hand side of an <code>>>=</code> operation will produce <code>empty</code> again. As do-blocks are decomposed to lots of expressions joined up by <code>(>>=)</code>, an <code>empty</code> at any point will cause the entire do-block to become <code>empty</code>.
+
+Let's examine in detail what <code>guard</code> does in the <code>pythags</code>. First, here is <code>guard</code> defined for the list monad:
+
+<syntaxhighlight lang="haskell">
+-- guard :: Bool -> [()]
+guard True  = [()]
+guard _ = []
+</syntaxhighlight>
+
+Basically, <code>guard</code> ''blocks off'' a route. In <code>pythags</code>, we want to block off all the routes (or combinations of <code>x</code>, <code>y</code> and <code>z</code>) where <code>x^2 + y^2 == z^2</code> is <code>False</code>. Let's look at the expansion of the above <code>do</code>-block to see how it works:
+
+<syntaxhighlight lang="haskell">
+pythags =
+  [1..] >>= \z ->
+  [1..z] >>= \x ->
+  [x..z] >>= \y ->
+  guard (x^2 + y^2 == z^2) >>= \_ ->
+  return (x, y, z)
+</syntaxhighlight>
+
+Replacing <code>>>=</code> and <code>return</code> with their definitions for the list monad (and using some let-bindings to keep it readable), we obtain:
+
+<syntaxhighlight lang="haskell">
+pythags =
+ let ret x y z = [(x, y, z)]
+     gd  z x y = concatMap (\_ -> ret x y z) (guard $ x^2 + y^2 == z^2)
+     doY z x   = concatMap (gd  z x) [x..z]
+     doX z     = concatMap (doY z  ) [1..z]
+     doZ       = concatMap (doX    ) [1..]
+ in doZ
+</syntaxhighlight>
+
+Remember that <code>guard</code> returns the empty list in the case of its argument being <code>False</code>. Mapping across the empty list produces the empty list, no matter what function you pass in. So an empty list produced by the call to <code>guard</code> in <code>gd</code> will cause <code>gd</code> to produce an empty list, with <code>\_ -> ret x y z</code>, which would otherwise add a result, not being actually called.
+
+To understand why this matters, think about list-computations as a tree. With our Pythagorean triple algorithm, we need a branch starting from the top for every choice of <code>z</code>, then a branch from each of these branches for every value of <code>x</code>, then from each of these, a branch for every value of <code>y</code>. So the tree looks like this:
+
+    start
+    |_________________________...
+    |    |         |
+ z  1    2         3
+    |    |____     |____________
+    |    |    |    |       |    |
+ x  1    1    2    1       2    3
+    |    |_   |    |___    |_   |
+    |    | |  |    | | |   | |  |
+ y  1    1 2  2    1 2 3   2 3  3
+
+Each combination of z, x and y represents a route through the tree. Once all the functions have been applied, the results of each branch are concatenated together, starting from the bottom. Any route where our predicate doesn't hold evaluates to an empty list, and so has no impact on this concatenation.
+
+== Exercises ==
+
+{{Exercises|1=
+<ol>
+<li>Prove the <code>Alternative</code> monoid laws for <code>Maybe</code> and lists.</li>
+<li> We could augment the parser from the parallel parsing example so that it would handle any character, in the following manner:
+<syntaxhighlight lang="haskell">
+-- | Consume a given character in the input, and return 
+--   the character we just consumed, paired with rest of 
+--   the string. We use a do-block  so that if the
+--   pattern match fails at any point, 'fail' of the
+--   Maybe monad (i.e. Nothing) is returned.
+char :: Char -> String -> Maybe (Char, String)
+char c s = do
+  c' : s' <- return s
+  guard (c == c')
+  return (c, s')
+</syntaxhighlight>
+It would then be possible to write a <code>hexChar</code> function which parses any valid hexadecimal character (0-9 or a-f). Try writing this function (hint: <code>map digit [0..9] :: [String -> Maybe Int]</code>).</li>
+<li>Use <code>guard</code> and the <code>Applicative</code> combinators (<code>pure</code>, <code>(<*>)</code>, <code>(*>)</code>, etc.) to implement <code>safeLog</code> from [[Haskell/Understanding monads/Maybe|the Maybe monad chapter]]. Do not use the <code>Monad</code> combinators (<code>return</code>, <code>(>>=)</code>, <code>(>>)</code>, etc.).</li>
+</ol>
+}}
+
+== Relationship with monoids ==
+
+While discussing the <code>Alternative</code> laws above, we alluded to the mathematical concept of monoids. There is in fact already a <code>Monoid</code> class in Haskell (defined in {{Haskell lib|p=base|v=latest|Data|Monoid}}). A thorough presentation of monoid will be given in [[Haskell/Monoids|a later chapter]]. However for now it suffices to say that a minimal definition of <code>Monoid</code> implements two methods; namely, a neutral element (or 'zero') and an associative binary operation (or 'plus').
+
+<syntaxhighlight lang="haskell">
+class Monoid m where 
+  mempty  :: m
+  mappend :: m -> m -> m
+</syntaxhighlight>
+
+For example, lists form a simple monoid:
+
+<syntaxhighlight lang="haskell">
+instance Monoid [a] where
+  mempty  = []
+  mappend = (++)
+</syntaxhighlight>
+
+Looks familiar, doesn't it? In spite of the uncanny resemblance to <code>Alternative</code> and <code>MonadPlus</code>, there is a key difference. Note the use of <code><nowiki>[a]</nowiki></code> instead of <code><nowiki>[]</nowiki></code> in the instance declaration. Monoids are not necessarily "wrappers" of anything, or parametrically polymorphic. For instance, the integer numbers  form a monoid under addition with <tt>0</tt> as neutral element. <code>Alternative</code> is a separate type class because it captures a specific sort of monoid with distinctive properties − for instance, a binary operation {{nowrap|<code>(<{{!}}>) :: Alternative f {{=}}> f a -> f a -> f a</code>}} that is intrinsically linked to an <code>Applicative</code> context.
+
+== Other suggested laws ==
+
+{{body note|Consider this as a bonus section. While it is good to be aware of there being various takes on these laws, the whole issue is, generally speaking, not worth losing sleep over.}}
+
+Beyond the commonly assumed laws mentioned a few sections above, there are a handful of others which make sense from certain perspectives, but do not hold for all existing instances of <code>Alternative</code> and <code>MonadPlus</code>. The current <code>MonadPlus</code>, in particular, might be seen as an intersection between a handful of hypothetical classes that would have additional laws.
+
+The following two additional laws are commonly suggested for <code>Alternative</code>. While they do hold for both <code>Maybe</code> and lists, there are counterexamples in the core libraries. Also note that, for <code>Alternative</code>s that are also <code>MonadPlus</code>, the <code>mzero</code> laws mentioned earlier are not a consequence of these laws.
+
+<syntaxhighlight lang="haskell">
+(f <|> g) <*> a = (f <*> a) <|> (g <*> a) -- right distributivity (of <*>)
+empty <*> a = empty -- right absorption (for <*>)
+</syntaxhighlight>
+
+As for <code>MonadPlus</code>, a common suggestion is the ''left distribution'' law, which holds for lists, but not for <code>Maybe</code>:
+
+<syntaxhighlight lang="haskell">
+(m `mplus` n) >>= k  =  (m >>= k) `mplus` (n >>= k) -- left distribution
+</syntaxhighlight>
+
+Conversely, the ''left catch'' law holds for <code>Maybe</code> but not for lists:
+
+<syntaxhighlight lang="haskell">
+return x `mplus` m = return x -- left catch
+</syntaxhighlight>
+
+It is generally assumed that either left distribution or left catch will hold for any <code>MonadPlus</code> instance. Why not both? Suppose they both hold. Then for any <code>x, y :: m a</code>,
+
+<syntaxhighlight lang="haskell">
+x `mplus` y
+= -- monad identity
+(return x >>= id) `mplus` (return y >>= id)
+= -- left distribution
+(return x `mplus` return y) >>= id
+= -- left catch
+return x >>= id
+= -- monad identity
+x
+</syntaxhighlight>
+
+This immediately rules out all but the most trivial <code>MonadPlus</code> implementation. Even worse, it implies that for any <code>x</code>, <code>mzero `mplus` x = mzero</code>. Adding the monoid identity law <code>mzero `mplus` x = x</code> then implies that the monad has only one value, and is thus isomorphic to the trivial monad <code>Data.Proxy.Proxy</code>.
+
+Finally, it is worth noting that there are divergences even about the monoid laws. One case sometimes raised against them is that for certain non-determinism monads typically expressed in terms of <code>MonadPlus</code> the key laws are left zero and left distribution, while the monoid laws in such cases lead to difficulties and should be relaxed or dropped entirely.
+
+Some entirely optional further reading, for the curious reader:
+
+* [http://www.haskell.org/haskellwiki/MonadPlus The Haskell Wiki on MonadPlus] (note that this debate long predates the existence of <code>Alternative</code>).
+* [http://stackoverflow.com/q/10167879/2751851 ''Distinction between typeclasses MonadPlus, Alternative, and Monoid?''] and [http://stackoverflow.com/q/13080606/2751851 ''Confused by the meaning of the 'Alternative' type class and its relationship to other type classes''] at Stack Overflow (detailed overviews of the ''status quo'' reflected by the documentation of the relevant libraries as of GHC 7.x/8.x − as opposed to the 2010 Haskell Report, which is less prescriptive on this matter.)
+* [https://lirias.kuleuven.be/handle/123456789/499951 ''From monoids to near-semirings: the essence of MonadPlus and Alternative'' by Rivas, Jaskelioff and Schrijvers] (a formulation that includes, beyond the monoid laws, right distribution and right absorption for <code>Alternative</code>, as well as left zero and left distribution for <code>MonadPlus</code>).
+* [http://winterkoninkje.dreamwidth.org/90905.html Wren Romano on MonadPlus and seminearrings] (argues that the <code>MonadPlus</code> right zero law is too strong).
+* [http://okmij.org/ftp/Computation/monads.html#monadplus Oleg Kiselyov on the MonadPlus laws] (argues against the monoid laws in the case of non-determinism monads).
+* [http://stackoverflow.com/q/15722906/2751851 ''Must mplus always be associative?'' at Stack Overflow] (a discussion about the merits of the monoid laws of <code>MonadPlus</code>).
+
+
+{{Haskell navigation|chapter=Monads}}
+
+{{BookCat}}

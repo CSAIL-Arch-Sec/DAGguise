@@ -1,0 +1,72 @@
+This is a critique of the research article:Robbins J, Kays SA, Gangnon RE, Hind JA, Hewitt AL, Gentry LR, Taylor AJ. The effects of lingual exercise in stroke patients with dysphagia. Archives of physical medicine and rehabilitation. 2007 Feb 1;88(2):150-8.<ref name="number seven"/>
+
+== What is the background to this research? ==   
+A {{w|Stroke}} is when brain cells are damaged or die due to blocked or burst arteries preventing oxygenated blood cells from reaching the brain.<ref name="number two">Party IS. National clinical guideline for stroke. London: Royal College of Physicians; 2012 Sep.</ref>. A stroke can cause problems with speech and weakness of the body<ref name="number two"/>. Dysphagia refers to difficulty swallowing which occurs in 76% of acute stroke patients<ref>Katzan, I.L., Cebul, R.D., Husak, B.A., Dawson, N.V., Baker, D.W. The effect of pneumonia on mortality among patients hospitalized for acute stroke. Neurology. 2003;60:620–625</ref>.  Depending on the region of the brain affected, dysphagia can increase the risk of dehydration, {{w|Malnutrition}}, depression and {{w|Pneumonia}}<ref name="number seven"/>. 
+
+In the past, patients have had to modify their behaviour due to their disability<ref name="number seven">Robbins J, Kays SA, Gangnon RE, Hind JA, Hewitt AL, Gentry LR, Taylor AJ. The effects of lingual exercise in stroke patients with dysphagia. Archives of physical medicine and rehabilitation. 2007 Feb 1;88(2):150-8.</ref>. For many who suffer strokes the affects are often life long and negatively impact their quality of life. It causes many to have to adapt to their new situation. One such example of this is the way the patients eat, often by having to reduce the bolus size. While not being curable, rehabilitation is commonly used to improve the quality of life for stoke patients. A study conducted by JoAnne Robbins et al., focused on increasing the strength of lingual muscles to improve swallowing. Despite a limited sample size the study produced positive results amongst its participants.<ref name="number seven"/>.
+
+== Where is the research from? ==
+For this study, ten stroke patients were tested pre intervention, at 4 weeks, 8 weeks and post intervention. Six of the patients being acute stroke suffers with less then 3 months post stroke, while the other four patients, being chronic with more then 3 months post stroke. The age of the participants were from 51 to 90 years, with a mean age of 69.7. All ten patients went to a dysphagia clinic where data was collected. This increases the accuracy of results as the patients were seen by specialist to record the data. 
+
+In addition to accurate sample collection and a specific sample criteria, the reliability of the paper is increased as several of the lead authors of this article have extensive experience in this field of research. JoAnne Robbins has written published articles on swallowing pressures.<ref>Nicosia MA, Hind JA, Roecker EB, Carnes M, Doyle J, Dengel GA, Robbins J. Age effects on the temporal evolution of isometric and swallowing pressure. The Journals of Gerontology Series A: Biological Sciences and Medical Sciences. 2000 Nov 1;55(11):M634-40.</ref> While Stephanie A Kays has written articles on tongue volume and endurance.<ref>Kays SA, Hind JA, Gangnon RE, Robbins J. Effects of dining on tongue endurance and swallowing-related outcomes. Journal of Speech, Language, and Hearing Research. 2010.</ref>.
+
+== What kind of research was this? ==
+This article is a prospective cohort intervention study. This study involves 10 patients that are given an 8-week lingual exercising program to improve swallowing pressure. Data was collected prior to the intervention, at 4 weeks and 8 weeks. This allows readers to see the progress the patients had. Further research may be needed to improve the quality of the research due to the small sample size. 
+
+A study by Robbins et al., showed that there is a positive relationship between lingual strength and lingual resistance training for adults over 70 years<ref>Robbins J, Gangnon RE, Theis SM, Kays SA, Hewitt AL, Hind JA. The effects of lingual exercise on swallowing in older adults. Journal of the American Geriatrics Society. 2005 Sep;53(9):1483-9.</ref>. Data showed that a lingual resistance program will improve swallowing pressure and therefore, can help stroke patients who have difficulty swallowing. This study has the same results as the article “The Effects of Lingual Exercise in Stroke Patients with Dysphagia” by JoAnne Robbins et al<ref name="number seven"/>.
+ 
+Disregarding the study by Robbins et al., the majority of past studies focused on increasing muscle strength to improve mobility<ref name="number seven"/><ref>Pollock A, Baer G, Campbell P, Choo PL, Forster A, Morris J, Pomeroy VM, Langhorne P. Physical rehabilitation approaches for the recovery of function and mobility following stroke. Cochrane Database of Systematic Reviews. 2014(4).</ref>. Therefore, there is limited data supporting the links between lingual resistance training and the improvements of swallowing pressure it causes.
+
+== What did the research involve? ==
+The ten patients were considered to be eligible if they had history of a stroke, were 45 years or older and had a lower then average lingual pressure of the anterior or posterior tongue. An average lingual pressure for a young adult (69.9kPa) is greater than an older adult (54.5 kPa)<ref>Headley D. Examination of Maximum Isometric Lingual Pressure and Total Oral Phase Duration in the Healthy Adult Swallow.</ref>. For this intervention a patient with a lingual pressure lower than 40 kPa was considered eligible. 
+
+The 10 patients took part in an 8-week lingual exercise program. The program consisted of placing an Iowa Oral Performance Instrument (IOPI) in the mouth. The IOPI has a hard bulb on the end and the patients were to place pressure on the air-filled bulb between the tongue and hard palate. This was to occur 10 times on the anterior (10mm from the tongue tip) and posterior (posterior third of the tongue) portions of the tongue, three times a day on three days of the week. Each patient maintained a logbook documenting all sessions taken. 
+
+The programs design of 10 times, 3 times a day for 3 days per week was due to the American College of Sports Medicine<ref>Garber CE, Blissmer B, Deschenes MR, Franklin BA, Lamonte MJ, Lee IM, Nieman DC, Swain DP. American College of Sports Medicine position stand. Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults: guidance for prescribing exercise. Medicine and science in sports and exercise. 2011 Jul;43(7):1334-59.</ref>. It suggested that by keeping a consistent workload while still allowing some days of rest will improve lingual strength the quickest.  
+
+The data collected included a quality of life (QOL) and dietary questionnaire, lingual strength (maximum isometric pressure and swallowing pressure), bolus flow parameters (oropharyngeal residue measures, penetration-aspiration scale and durational measure), and magnetic resonance imaging. 
+The eldest patient (83 years) was unable to take part in the posterior pressure exercise due to her inability of consistent placement on the IOPI in the correct area. Therefore, she could only take place in the anterior pressure exercises.
+
+== What were the basic results? ==
+
+In the first 4 weeks there was an increase of 63% anterior and 76% posterior in isometric pressure in the tongue. This increase makes swallowing and communicating easier<ref name="number seven"/>. An increase continued throughout the 8-week exercise program. After 4 weeks of exercising a significant lower score in penetration-aspiration scale was recorded. This indicates an increase in swallowing safety levels for 3-mL thin liquid bolus and 10-mL liquid bolus post intervention. 
+
+As seen in the table below the SWAL-QOL questionnaire (a dysphagia-specific QOL questionnaire) showed an improvement in all stages. By improving swallowing pressure, the patients’ lives became easier and more enjoyable. The patients can communicate better, increasing their social life and therefore, improving their mental state. 
+
+{| class="wikitable"
+|-
+! SWAL-QOL !! Baseline !! Week 4 !! Week 8
+|-
+| Sleep || 71 || 73 || 75
+|-
+| Communication || 53 || 61 || 72
+|-
+| Mental || 49 || 68 || 80
+|-
+| Social || 55 || 72 || 79
+|}
+NOTE. Maximum score per segment is 100.<ref name="number seven"/>
+
+The magnetic resonance imaging data was only available for three of the ten patients due to movement interrupting the image or dental crowns. The results showed that two out of the three patients showed an increase in lingual volume. The two patients had an average increase volume of 4.35% and the other patient had a decrease of 6.5%.  This data can be considered unreliable due to such a small sample size and different range of results. 
+It is currently not clear if the exercise program alone improved swallowing pressure or if neuroplastic modifications had a part in it as well. Further research with exercise programming and neuroplasticity needs to take place to understand this further.
+
+== What conclusions can we take from this research? ==
+This study indicated that lingual exercises improves swallowing for people with dysphagia. Dysphagia can often be dangerous for its sufferers and negatively effects people’s lifestyles by impacting their social life, nutritional intake and mental health. As this study only had 10 participants, further research needs to take place to ensure accurate results. The SWAL-QOL questionnaire showed that this intervention improved social life, nutritional intake and mental health. While limited, the data indicated lingual exercises positively effects stroke patient's lifestyle. Therefore implantation of lingual exercises as part of a patients rehabilitation should be considered.
+
+== Practical advice ==
+Stoke patients should see a speech-language pathologist to provide lingual exercises specific for their needs. The SWAL-QOL questionnaire, lingual strength pressure and magnetic resonance imaging should be taken multiple times throughout the rehabilitation to allow the patients to see their progression. Stroke patients should be provided information explaining the importance of lingual exercises and how it can improve their social life, nutritional intake and mental health.
+
+== Further information/resources ==
+[https://strokefoundation.org.au/ Overview of a Stroke]
+
+[https://www.who.int/bulletin/volumes/94/9/16-181636.pdf A Global Response is Needed]
+
+[https://swallowingdisorderfoundation.com/oral-swallowing-exercises/ Swallowing Exercises]
+
+[https://www.speechpathologyaustralia.org.au/SPAweb/Resources_for_the_Public/What_is_a_Speech_Pathologist/SPAweb/Resources_for_the_Pubic/What_is_a_Speech_Pathologist/What_is_a_Speech_Pathologist.aspx?hkey=7e5fb9f8-c226-4db6-934c-0c3987214d7a What is a Speech Pathologist? ]
+
+[https://www.cdc.gov/stroke/signs_symptoms.htm Stroke Signs and Prevention]
+
+== References ==
+
+ {{BookCat}}

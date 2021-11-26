@@ -1,0 +1,501 @@
+{{bookcat}}
+{{wikipedia|Monitoring}}
+
+== System monitoring overview ==
+
+
+=== What is system monitoring? ===
+Computer monitoring systems are used to repeatedly gather data from various monitored systems for the purpose of real-time incident notification, system health verification, performance analysis, and longitudinal capacity planning. Various metrics are typically gathered by these systems, including CPU, memory, network, or disk utilization, response time of network services, occurrence of anomalous messages in system log, et al. Without such a tool, like big brother or Xymon, a system administrator would have to login to each machines to collect these information repeatedly. This kind of repetitive task can be automated using a system monitoring tool.
+
+Please see the chapter ''[[../Other Docs/About System Monitoring/]]'' for a more details overview of monitoring systems.
+
+=== Existing system monitoring features ===
+
+{| class="wikitable sortable" style="font-size: 85%; text-align: center; width: 100%;"
+|-
+|colspan="11"|
+=== Freeware ===
+|-
+! 
+! [http://xymon.sourceforge.net/ Xymon]
+! [http://www.nagios.org/ Nagios]<ref>[http://wikitech.wikimedia.org/view/Nagios Nagios is used by Wikimedia]</ref>
+! [http://www.icinga.org/ Icinga]
+! [http://spong.sourceforge.net/ Spong]
+! [http://www.opennms.org/ OpenNMS]
+! [http://www.zenoss.com/ Zenoss]
+! [http://munin.projects.linpro.no/ Munin]
+! [[Zabbix]] [http://www.zabbix.org/ (website)] 
+! [http://www.ethereal.com/ Ethereal]
+! [http://www.bigsister.ch/ Big Sister]
+|-
+! Maintainer
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| <!-- Zabbix --> Zabbix Inc.
+|
+| [http://www.canonical.com Canonical]
+|-
+! License
+| GPL
+| GPL
+| 
+| 
+| 
+| 
+| 
+| <!-- Zabbix --> GPL
+|
+| GPL
+|-
+! Open source
+| Yes
+| Yes
+| 
+| 
+| Yes
+| 
+| 
+| <!-- Zabbix --> yes
+|
+| Yes
+|-
+! Platforms supported
+| Server: HTTP. Client: Unix-line, Windows
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|
+| [[Microsoft Windows|Windows]], [[Unix-like]], [[Mac OS X]]
+|-
+! Main Programming Language
+| [[C]]
+| [[C]]
+| [[C]]
+| 
+| [[Java]]
+| 
+| 
+| <!--  Zabbix --> 
+|
+| [[Perl]]
+|-
+! Client configuration changes from Central Server?
+| Yes
+| 
+| 
+| 
+| 
+| 
+| 
+| <!--  Zabbix --> 
+| 
+|
+|-
+! Client binary update from Central Server?
+| Yes
+| 
+| 
+| 
+| 
+|  
+|
+| <!--  Zabbix --> 
+|
+|
+|-
+! Monitoring Server with WAN High Availability Support?
+| Yes
+| 
+| 
+| 
+| 
+|  
+|
+| <!--  Zabbix --> 
+|
+|
+|-
+! Monitoring Server with LAN High Availability Support?
+| Yes
+| 
+|
+|
+| 
+| 
+| 
+| <!--  Zabbix --> 
+|
+|
+|-
+! Is solution scalable to handle huge monitoring clients?
+| Yes
+| 
+| 
+| 
+|  
+|
+| 
+| <!--  Zabbix --> 
+|
+|
+|-
+|colspan="11"|
+
+=== Some commercial system monitoring tools ===
+|-
+!
+! [http://bb4.com/ Big Brother]
+! [http://www-01.ibm.com/software/tivoli/ Tivoli]
+! [http://www.netiq.com/products/performancemgmt/default.asp NetIQ]
+! [https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&cp=1-11-15-28^1745_4000_100__ HP Openview]
+! [http://www.bmc.com/products/offering/BMC-ProactiveNet-Performance-Management.html BMC Performance Manager]
+! [http://www.microsoft.com/systemcenter/operationsmanager/en/us/default.aspx Microsoft SCOM]
+! [http://www.a1monitor.com/ A2Monitor]
+!
+!
+|-
+! Maintainer
+| [http://www.quest.com/ Quest]
+| 
+| 
+| 
+| 
+| 
+| [http://www.a1tech.com/ A1 Tech, Inc.]
+| 
+|
+|-
+! Cost
+| Depends on number of devices
+| Depends on number of devices
+| 
+| 
+| 
+| 
+| $79
+|
+|
+|-
+! License
+| Proprietary
+| Proprietary
+| Proprietary
+| Proprietary
+| Proprietary
+| Proprietary
+| Proprietary
+|
+|
+|-
+! Platforms supported
+| [[Microsoft Windows|Windows]], [[Unix]], [[Mac OS X]], [[Linux]]
+| [[Microsoft Windows|Windows]], [[Unix]], [[Mac OS X]], [[Linux]]
+| [[Microsoft Windows|Windows]], [[Unix-like]], [[Mac OS X]]
+| [[Microsoft Windows|Windows]], [[Linux]], [[iSeries]]
+| [[Microsoft Windows|Windows]], [[Unix-like]], [[Mac OS X]]
+| Server: Microsoft Windows Server; Clients: Mostly Microsoft, but some support for Linux, SNMP, etc.
+| [[Microsoft Windows|Windows]]
+| 
+|
+|-
+! Main Programming Language
+| [[C]], [[Flash]], [[Shell]]
+| [[C]], [[Flash]]
+| [[C]]
+| [[C]], [[bash]]
+| 
+| [[.Net]]
+| 
+|
+|
+|-
+! Client configuration changes from Central Server?
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|-
+! Client binary update from Central Server?
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|
+|-
+! Monitoring Server with WAN High Availability Support?
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|
+|-
+! Monitoring Server with LAN High Availability Support?
+| 
+| 
+|
+| 
+| 
+| 
+|
+|
+|
+|-
+! Is solution scalable to handle huge monitoring clients?
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|
+|}
+
+* ''Repository model'' describes the relationship between various copies of the source code repository. In a client-server model, users access a master repository via a client; typically, their local machines hold only a working copy of a project tree. Changes in one working copy must be committed to the master repository before they are propagated to other users. In a distributed model, repositories act as peers, and users typically have a local repository with version history available, in addition to their working copies.
+* ''Concurrency model'' describes how changes to the working copy are managed to prevent simultaneous edits from causing nonsensical data in the repository. In a ''lock'' model, changes are disallowed until the user requests and receives an exclusive lock on the file from the master repository. In a ''merge'' model, users may freely edit files, but are informed of possible conflicts upon checking their changes into the repository, whereupon the version control system may merge changes on both sides, or let the user decide when conflicts arise. Note that distributed version control almost always implies a merge concurrency model.
+
+== Xymon ==
+[[Image:Xymon.png|thumb|Xymon]]
+=== Who use Xymon ? ===
+
+ Please See [[/The Xymon Users list| The Xymon Users across the world]].
+
+=== Why use Xymon ? ===
+# The source code is open and in GPL license.
+# There is no seat license fee.
+# Xymon(Hobbit) Server highly compatible with Big Brother client.
+# It has a user and developer community. 
+
+=== Xymon System Monitoring Tool Wish lists ===
+* Delete a host from web page UI.
+* GUI administration tool.
+* Prepackaged binary for different OS with lots of add-on modules.
+* E-mail or SMS notification --already exists, you can also trigger shell scripts on events
+* Has commercial email support -Granted, see http://www.xymon.com/license/
+* Remote wake/die capabilities
+
+=== Xymon vs Big Brother  ===
+This is a detailed comparison chart why a current BB site would want to migrate to Xymon. Opinions could be biased toward Xymon.
+{| border=1 cellspacing=0 cellpadding=5 align=center
+| '''Features'''
+| Xymon 4.2.0 above
+| Big Brother BTF (Better Than Free, 1.9c version above)
+|- 
+| Home Page
+| http://www.xymon.com/  
+| http://www.bb4.org  
+|- 
+| Community contributed addon modules.
+| Xymon: http://xymonton.org/about, BB:http://www.deadcat.net, bb modules can be reused without much rewriting effort.  
+| http://www.deadcat.net
+|- 
+| Monitor Server on Windows 
+| Not directly, Unix platform only so far.  See [http://bbwin.sourceforge.net/ BBWin].
+| Yes, only binary are available.  
+|- 
+| Monitor agent for Windows  
+| Yes. [http://sourceforge.net/projects/bbwin Opensource] and use WiX for MSI packaging.
+| Yes, only binary are available.  
+|- 
+| Software in package format 
+| Yes. Will have complete packages for different OS over time.
+| No. Due to license issue.  
+|- 
+| Software Age
+|?  
+|?  
+|- 
+| Commercial Support
+| Yes. Available [http://en.wikibooks.org/w/index.php?title=System_Monitoring_with_Xymon/User_Guide#Commercial%20Support here].
+| Yes. Available from Quest Software.
+|-
+| Main Programming Language
+| C, use as much C as possible to improve performance.
+| Shell, use C only for bottleneck areas of code.
+|-
+| License type
+| GPL Open source. No need to have accurate count how many clients you have deployed.
+| BB BTF(1.9c above) version require seat-license of every deployed bb client. Source code is available but it is not open source. Only free for non commercial use for version 1.9c and below.1.9c above version is per-seat license. Need to match the license purchased and number of bb clients deployed.
+|-
+| Install base
+| Large. [http://en.wikibooks.org/wiki/System_Monitoring_with_Xymon/User_Guide/The_Xymon_Users_list See the Xymon users list].
+| Very Large.
+|-
+| Development
+| Active.
+| Stalled. Active only in BB professional edition.  BB PE is closed-source.
+|-
+| Process alert differentiation
+| Yes. "oracle listener process died" alerts can be configured to send to oracle team only.
+| No. 
+|-
+| Disk Partitions alert differentiation
+| Yes. "/oracle partition is 96% full" alerts can be sent to oracle team directly while "/ is 96% full" alert sent to UNIX team.
+| No. 
+|-
+| Base features
+| Xymon has larger basic features set. LARRD Trending is included by default.
+| BB has smaller features by default, need more customization works.
+|-
+| Centralized configuration 
+| Modify xymon/bb client configuration from one central configuration.
+| Need to login to each xymon/bb client to perform the changes.
+|-
+| Client version update automation 
+| Enhanced 1984 protocol to perform binary update automatically.
+| Need login into each client to update binary.
+|-
+| Performance
+| Hobbit can handle thousands of monitored clients.
+| BB by default without tweaking can only handle hundreds of machines and thousands of machines with tweaking.
+
+|-
+| Client report
+| Xymon provide detail information about hosts monitored. 
+| No.
+
+|-
+| Search
+| Xymon provides search ability to help get to a machine quickly. 
+| Yes, available on http://www.deadcat.net
+
+|-
+| Menu System
+| Xymon provides a better menu system for ease of browsing. 
+| No. 
+
+|-
+| LDAP authentication
+| Yes.
+| Yes.
+
+|-
+| RT Ticket system integration
+| Yes, via external module.
+| Yes, via external module.
+
+|-
+| Remedy Ticket system integration
+| Yes, via external module. 
+| Yes, via external module.
+
+|-
+| BB messages compatibility
+| Xymon server can accept BB messages from bb clients.
+| BB server can receive BB messages from xymon clients.
+
+|-
+| Alerts on different color codes
+| Xymon can act different color codes.
+| BB server can only act on yellow or red.
+
+|-
+| subtests combination for SLA.
+| pingable + web process running + port 80 is answering request = web server is green.
+| Yes.  Using bbgen (not under active development though).
+
+|-
+| SNMP Integration
+| Not by default.  http://devmon.sourceforge.net/
+| Not by default.  http://devmon.sourceforge.net/
+
+|-
+| Classification and actions on different priority levels of monitored hosts
+| default support.
+| No. may be via external modules.
+|}
+
+==== References ====
+* http://www.hswn.dk/hobbit/help/about.html
+
+=== Xymon System Monitoring at home  ===
+* To monitor your computers at home, perhaps integration with X10 stuff.
+* This section is about Xymon and your home system monitoring.
+* porting hobbit to linksys's nlsu2 or wrt54g.
+
+=== Xymon Support ===
+
+=== Commercial Support ===
+* Email support from Xymon Author, http://www.xymon.com/license/.
+* VM Assist, Inc., http://www.vmassist.com.
+* McNatton Technologies, LLC, http://www.mcnatton.com/monitor.php
+* [http://www.revpol.com/ Reverse Polarity, LLC]  -  We offer full support for Xymon, including on-site server installation, client configurations and custom scripting where required. Call us and see how we can help!
+* [http://www.xymonmonitoring.com/ Xymon Support by A-team]
+* [http://www.a-key.it A-Key S.r.l The Things Integrator - Monitoring Team] - We can offer a high-level support for planning, installation, configuration and plugin development for Xymon tool. Contact us for more information!
+
+=== Free Community Support ===
+Your questions will not necessarily get answered.
+* Maillist Archive: 
+* Project page at
+
+=== Xymon Demo Site ===
+Here are a few best xymon implementation sites.
+* [http://www.xymon.com/ Official Xymon Site]
+
+=== Hobbit Renamed to Xymon ===
+This note needs a date...
+<pre>
+Greetings!
+
+As I wrote some time ago, I was contacted by the owners of the 
+"Hobbit" trademark back in June.
+
+Several names have been suggested by you on the mailing list
+(see ), but
+the decision has now been made.
+
+As of today, the official name is "Xymon" (pronounced just
+like "Simon").
+
+At the moment this renaming has not caused much of a change,
+but it will be implemented over the coming weeks.
+
+* The Sourceforge project URL remains at 
+   due to project renamings
+  currently being suspended on Sourceforge. Once the suspension
+  is lifted, however, there is a queued request to rename the
+  project. It will then be available at
+
+* The mailing list address remains "" for the
+  moment. A new "Xymon" mailing list will be setup, but 
+  this will be announced separately.
+
+* The demo website  is active. The old
+  address -  - will remain in place for
+  some time, but no longer than August 2009.
+
+* Changes to documentation, code, webpages inside the
+  Hobbit monitor etc. will be happening over the next couple
+  of weeks, and will be fully implemented in the upcoming
+  release.
+
+
+Best regards,
+Henrik
+</pre>
+
+== References ==
+<references/>

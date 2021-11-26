@@ -1,0 +1,112 @@
+{{honor_header|2|1937|Nature|General Conference}}
+{{AY Master|Naturalist|Options}}
+==1. Give the name of five classes of fungi and examples of each.==
+;Chytridiomycota:  The phylum Chytridiomycota, the chytrids, represents a group of primitive aquatic fungi. They are characterized by having reproductive cells can move themselves by using whip-like tails called flagella.  ''Synchytrium endobioticum'' is a chytrid fungus that causes the potato wart disease or black Scab.
+
+;Zygomycota: The zygomycetes, in phylum Zygomycota, are characterized by the formation of sexual spores called zygospores. The zygospores are not contained within a specialized fruiting body or sac. An example of a zygomycete is the common black bread mold, Rhizopus nigricans.
+
+;Glomeromycota: Members of the Glomeromycota are also known as the arbuscular mycorhizal fungi. Only one species has been observed forming zygospores; all other species only reproduce asexually.
+
+;Ascomycota:  The ascomycetes are members of the phylum Ascomycota. They are also called the “sac fungi” because their sexual spores (ascospores) are enclosed in tube-like sacs known as asci.  Familiar examples of sac fungi include morels, truffles, Baker's yeast, Dead Man's Fingers, cup fungi, and the majority of lichens (loosely termed "ascolichens") such as Cladonia.
+
+;Basidiomycota:  Basidiomycetes, also known as the “club fungi,” are classified in phylum Basidiomycota. Basidiomycetes include some of the most complex fungi, including mushrooms and puffballs.
+
+==2. Identify fifteen common fungi of your locality. Draw or photograph them from live specimens. ==
+The best way to approach this requirement is to go out looking for fungi, and then try to figure out what you have found.  This is far more effective than studying your field guide, deciding what you want to look for, and then going out for a look.
+
+To do this, you will need a field guide.  The field guide you select should cover the area where you are looking for mushrooms.  For example, a field guide to the mushrooms of Australia is not going to help you very much if you're looking for fungi in North America.
+
+Once you have a field guide, take it, plus your camera or sketch pad, and go out looking for fungi.  When you find one, try to figure out what it is using your field guide.  It is difficult to distinguish the various species of fungi from photographs alone, so you will want to identify it on the spot.  Many times the identification of a species will rely on an obscure feature such as the gills on the underside of a mushroom.  Chances are, if you attempt to identify the fungus later from a snapshot, you will not have captured one of the critical identifying features, or the feature was not sufficiently in focus.  That is why you will want to make an identification when you have direct access to the specimen.  If you find yourself looking at an interesting specimen and do not have your field guide with you, by all means, sketch it out and take photos.  There is always the chance that you will be able to identify it later.  Take special notice of the gills (if there are any), how they attach to the stem, and any "fringes" around the stem.
+
+==3. Name three important fungi and tell what their value is. ==
+
+;''Saccharomyces cerevisiae'': This fungus is used in baker's yeast.
+
+;''Aspergillus niger'': This fungus is used to make citric acid commercially, and it also can be used to make gluconic acid. Both are important food additives.
+
+;''Penicillium chrysogenum'': This is the organism that makes penicillin, from which the majority of the large class of beta-lactam antibiotics are derived. Penicillin and its derivatives have saved countless lives since they were discovered and isolated, starting in the 1940s.
+
+==4. Tell the life history of one example of each of the following ==
+===a. Rust ===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Rust infection}}
+===b. Mold ===
+Penicillium chrysogenum is a mold that is widely distributed in nature, and is often found living on foods and in indoor environments.  It is the source of several β-lactam antibiotics, most significantly penicillin.
+
+Like the many other species of the genus Penicillium, ''P. chrysogenum'' reproduces by forming dry chains of spores (or conidia) from brush-shaped stalks called conidiophores. The conidia are typically carried by air currents to new colonization sites. In ''P. chrysogenum'' the conidia are blue to blue-green, and the mold sometimes exudes a yellow pigment. However, P. chrysogenum cannot be identified based on color alone. Observations of morphology and microscopic features are needed to confirm its identity.
+
+===c. Mushroom ===
+[[Image:Bird's nest fungi - context.jpg|thumb|220px|''Nidulariaceae'' - Bird's nest fungi]]
+Bird's nest fungi are fungi with fruiting bodies that look like egg-filled birds' nests and make up the order the ''Nidulariales''.
+
+They are often seen on decaying wood and in soils enriched with wood chips or bark mulch. ''Cyathus striatus'' is probably the most commonly encountered species in the temperate northern hemisphere.
+
+The "eggs" are spore cases called ''peridioles''. Peridioles contain glebal tissue, basidia (a microscopic, spore-producing structure), and basidiospores (a reproductive spore), and are dispersed by rain. The nests are splash cups. When a raindrop hits one at the right angle the walls are shaped such that the eggs are expelled a good distance from the nest. Each egg has a sticky trailing thread attached to it. If that thread encounters a twig on its flight the egg will swing around and wrap itself around the twig. The spores can then germinate there and start the life cycle over again.
+
+{{clear}}
+===d. Yeast ===
+[[Image:Yeast lifecycle.svg|thumb|right|400px|The yeast cell's life cycle.<br>
+1. Budding<br>
+2. Conjugation<br>
+3. Spore]]
+Yeasts have asexual and sexual reproductive cycles; however the most common mode of vegetative growth in yeast is asexual reproduction by budding or fission. Here a small bud, or daughter cell, is formed on the parent cell. The nucleus of the parent cell splits into a daughter nucleus and migrates into the daughter cell. The bud continues to grow until it separates from the parent cell, forming a new cell. The bud can develop on different parts of the parent cell depending on the genus of the yeast.
+
+Under high stress conditions haploid cells will generally die, however under the same conditions diploid cells (cells containing a full set of chromosomes) can undergo sporulation, entering sexual reproduction (meiosis) and producing a variety of haploid spores (which have only a half-set of chromosomes), which can go on to mate (conjugate), reforming the diploid.
+{{clear}}
+
+==5. Identify five fungus plant diseases. ==
+===Fusarium oxysporum===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Fusarium oxysporum}}
+{{clear}}
+
+===Downy mildew===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Downy mildew}}
+{{clear}}
+
+===Botrytis (Leaf blight, Neck rot)===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Botryotinia}}
+{{clear}}
+
+===Alternaria alternata===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Alternaria alternata}}
+{{clear}}
+
+===Smut===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Smut}}
+{{clear}}
+
+===Magnaporthe grisea===
+{{:Adventist Youth Honors Answer Book/Nature/Fungi/Magnaporthe grisea}}
+{{clear}}
+
+==6. Know what safety precautions to observe when handling fungi. ==
+Flood conditions contribute to the growth and transmission of many kinds of fungi, some of which can cause sickness. Cleanup workers are at increased risk of exposure to airborne fungi and their spores because they often handle moldy building materials, decaying vegetable matter, rotting waste material, and other fungus-contaminated debris. The fungal material is carried into the respiratory tract when airborne particles are inhaled.
+
+There are many different kinds of fungi, including mildew, molds, rusts, and yeasts.
+Most of these are harmless, but some can cause respiratory and other disorders when
+workers inhale or come into contact with fungi. Inhalation is the route of exposure of
+most concern to flood cleanup workers. The recommendations below offer strategies for
+workers renovating flooded buildings, homes, and structures to protect themselves while
+handling building materials that are visibly contaminated with fungi.
+
+For workers cleaning up flooded buildings, homes, and other structures, excessive moisture
+or water accumulation indoors will encourage the growth of the fungi that are already present. Some fungi have the potential to cause adverse health effects such as allergic responses and asthma attacks. Individuals who are sensitive to molds may have signs and symptoms of allergic reactions such as nasal stuffiness, eye irritation, and wheezing. These individuals should minimize fungal exposure by wearing respirators, gloves, and eye protection. They should also seek to eliminate fungi, as described below. In addition, repeated or prolonged contact of the skin with flood water and continuous sweating can lead to fungal skin infections. These can be minimized or avoided by washing the skin with warm, soapy water and keeping it as dry as possible.
+
+If a person experiences severe allergic or skin symptoms, or severe flu-like symptoms, he or she should seek medical advice. A health care provider can determine whether medication or any other precautions are necessary.
+===Tips to Remember===
+For anyone who may be exposed to mold and fungi:
+*Avoid breathing dust (fungal spores) generated by moldy building materials, crops, and other materials. 
+*Consider using a disposable respirator as a minimum when working with moldy or damp hay, grain, compost, or building materials. 
+* Consider discarding all water damaged materials. Articles that are visibly contaminated with mold should be discarded. When in doubt, throw it out.
+* Surfaces that have a light covering of mold should be scrubbed with warm, soapy water and rinsed with a disinfectant made of 1/2 cup liquid household bleach mixed into one gallon of water.
+* CAUTION: Do not mix bleach with other cleaning products that contain ammonia.
+* After working with mold-contaminated materials, wash thoroughly, including the hair, scalp, and nails.
+* If the safety of food or beverage is questionable, throw it out. Only drink safe drinking
+water that has been bottled, boiled, or treated until there is confirmation that the community water supply is safe for consumption.
+
+For additional information concerning fungi, health effects, and addressing flood damaged materials, please visit OSHA’s Safety and Health Topics web page on Molds and Fungi at: http://www.osha.gov/SLTC/molds/index.html
+
+==References==
+* http://www.caes.state.ct.us/PlantPestHandbookFiles/pphO/pphonio.htm
+* http://www.osha.gov/OshDoc/data_Hurricane_Facts/Bulletin3.pdf
+
+[[{{BOOKCATEGORY|Category:Adventist Youth Honors Answer Book}}/Completed Honors|{{SUBPAGENAME}}]]

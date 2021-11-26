@@ -1,0 +1,398 @@
+== Architecture ==
+The Oracle architecture considers one database per server, in which we can find several {{wt|tablespace}}s, equivalent to the [[MySQL]] and [[MS-SQL]] databases objects, containing tables and stored procedures.
+
+[[Image:Oracle Disk Files.jpg|vignette|center|upright=2]]
+
+In the Windows Express version, these data are stored into <u>C:\oraclexe\app\oracle\oradata\XE</u>.
+
+These variables and keywords are not sensible to casing.
+
+== Create tablespaces ==
+Once connected, it's possible to begin to create some tables directly, in the default tablespace. However before, we can add some tablespaces in some defined files:
+<syntaxhighlight lang=plsql>
+   CREATE TABLESPACE Wikibooks
+   DATAFILE 'C:\oraclexe\app\oracle\oradata\XE\Wikibooks.dbf' size 10M reuse
+   DEFAULT STORAGE (INITIAL 10K NEXT 50K MINEXTENTS 1 MAXEXTENTS 999) 
+   ONLINE;
+</syntaxhighlight>
+
+== Create schemas ==
+A schema is a permission accorded to a set of elements<ref>https://docs.oracle.com/cd/B12037_01/server.101/b10759/statements_6013.htm</ref>, like tables and stored procedures. The keyword <code>AUTHORIZATION</code> specifies the user name:
+<syntaxhighlight lang=plsql>
+CREATE SCHEMA AUTHORIZATION root
+  CREATE TABLE TableName1...
+  CREATE TABLE TableName2...
+;
+</syntaxhighlight>
+
+== Create tables ==
+Example:
+<syntaxhighlight lang=plsql>
+CREATE TABLE client1 (last VARCHAR(10), first VARCHAR(10), address VARCHAR(20));
+</syntaxhighlight>
+ Table created.
+
+In SQL Developer, with a right click on the tables, ''New table...'', we can generate and execute this creation in an array, which is translated into PL/SQL in the DDL tab:
+<syntaxhighlight lang=plsql>
+CREATE TABLE client1
+( id INT NOT NULL 
+, last VARCHAR2(50) 
+, first VARCHAR2(50) 
+, address VARCHAR2(255) 
+, CONSTRAINT client1_PK PRIMARY KEY (ID) ENABLE
+) TABLESPACE Wikibooks;
+</syntaxhighlight>
+
+We can also set the table tablespace, by selecting it into the GUI, or with the keyword <code>TABLESPACE</code> in the creation clause.
+
+=== Available data types ===
+The possible column types are:<ref>https://docs.oracle.com/cd/B28359_01/server.111/b28318/datatype.htm</ref>
+# Characters:
+## <code>CHAR</code>: 2 kB.
+## <code>VARCHAR</code>: 4 kB.
+## <code>VARCHAR2</code>: 4 kB, synonymous of <code>VARCHAR</code>.
+## <code>NCHAR</code>: 2 kB.
+## <code>NVARCHAR2</code>: 4 kB.
+# Numeric:
+## <code>NUMBER</code>.
+## <code>BINARY_INTEGER</code>.
+## <code>BINARY_FLOAT</code>.
+## <code>BINARY_DOUBLE</code>.
+# Date:
+## <code>DATE</code>.
+## <code>TIMESTAMP</code>.
+# <code>RAW</code>.
+# <code>LONG RAW</code>.
+# <code>BLOB</code>.
+# <code>CLOB</code>.
+# <code>NCLOB</code>.
+# <code>ROWID</code>.
+# <code>UROWID</code>.
+# <code>BFILE</code>.
+# <code>XMLType</code>.
+# <code>UriType</code>.
+
+== List tables ==
+The following system view can display the system and the users tables:
+<syntaxhighlight lang=plsql>
+SELECT owner, table_name FROM all_tables;
+</syntaxhighlight>
+
+== Manage tables content ==
+=== Insert rows ===
+<syntaxhighlight lang=plsql>
+INSERT INTO client1 (id, last, first, address) VALUES (1, 'Doe', 'Jane', 'UK');
+</syntaxhighlight>
+ 1 line created.
+
+Multiple rows:
+<syntaxhighlight lang=plsql>
+INSERT ALL
+ INTO client1 (id, last, first, address) VALUES (2, 'Doe', 'Jack', 'US')
+ INTO client1 (id, last, first, address) VALUES (3, 'Doe', 'John', 'US')
+ SELECT 1 FROM DUAL;
+</syntaxhighlight>
+ 2 lines created.
+
+The {{w|DUAL table}} is a special one-row, one-column table present by default in Oracle, used because the <code>SELECT</code> clause needs a <code>FROM</code> clause, but some queries don't require any tables.
+
+=== Update rows ===
+<syntaxhighlight lang=plsql>
+UPDATE client1 SET address = 'US' WHERE id = 1;
+</syntaxhighlight>
+
+=== Delete rows ===
+<syntaxhighlight lang=plsql>
+DELETE client1 WHERE ID = 2;
+</syntaxhighlight>
+
+== Read tables ==
+=== Structure ===
+To get its structure, we can use either the function <code>desc</code> (description) or the system view <code>ALL_TAB_COLUMNS</code>.
+
+==== desc ====
+<syntaxhighlight lang=plsql>
+desc client1;
+</syntaxhighlight>
+
+ Name    NULL     Type          
+ ------- -------- ------------- 
+ ID      NOT NULL NUMBER(38)    
+ LAST             VARCHAR2(10)  
+ FIRST            VARCHAR2(10)  
+ ADDRESS          VARCHAR2(20) 
+
+If the table doesn't exist, the error which occurs is: <code>ORA-00923: FROM keyword not found where expected</code>.
+
+==== ALL_TAB_COLUMNS ====
+<syntaxhighlight lang=plsql>
+ SELECT * FROM ALL_TAB_COLUMNS WHERE TABLE_NAME = "client1"
+</syntaxhighlight>
+ OWNER
+ --------------------------------------------------------------------------------
+ TABLE_NAME
+ --------------------------------------------------------------------------------
+ COLUMN_NAME
+ --------------------------------------------------------------------------------
+ DATA_TYPE
+ --------------------------------------------------------------------------------
+ DAT
+ ---
+ DATA_TYPE_OWNER
+ --------------------------------------------------------------------------------
+ DATA_LENGTH DATA_PRECISION DATA_SCALE N  COLUMN_ID DEFAULT_LENGTH
+ ----------- -------------- ---------- - ---------- --------------
+ DATA_DEFAULT
+ --------------------------------------------------------------------------------
+ NUM_DISTINCT
+ ------------
+ LOW_VALUE
+ --------------------------------------------------------------------------------
+ HIGH_VALUE
+ --------------------------------------------------------------------------------
+    DENSITY  NUM_NULLS NUM_BUCKETS LAST_ANA SAMPLE_SIZE
+ ---------- ---------- ----------- -------- -----------
+ CHARACTER_SET_NAME                           CHAR_COL_DECL_LENGTH GLO USE
+ -------------------------------------------- -------------------- --- ---
+ AVG_COL_LEN CHAR_LENGTH C V80 DAT HISTOGRAM       DEF IDE
+ ----------- ----------- - --- --- --------------- --- ---
+ EVALUATION_EDITION
+ --------------------------------------------------------------------------------
+ UNUSABLE_BEFORE
+ --------------------------------------------------------------------------------
+ UNUSABLE_BEGINNING
+ --------------------------------------------------------------------------------
+
+=== Content ===
+To get its content:
+<syntaxhighlight lang=plsql>
+SELECT * from client1;
+</syntaxhighlight>
+ LAST        FIRST     ADDRESS
+ ---------- ---------- --------------------
+ Doe         Jane      UK
+
+The number of dashes represents the field size.
+
+== Indexes==
+{{...}}
+=== Create indexes using the CREATE TABLE statement ===
+=== Create function-based indexes ===
+
+== Constraints ==
+In essence, constraints safeguard and validate the data.
+
+Primary Key (PK) and Unique constraints both ensure the data is not duplicated. PK also ensure the data is not null. Oracle will automatically generate index for PK and Unique constraints. A table can only have one PK, but it can have multiple unique constraints.
+
+Foreign Key (FK) ensure the data exists in the column of the parent table it refer to. Each parent record can have multiple child records, but each child can relate to ONLY one parent record. A column with FK may not necessary to have an index.
+
+FK can only refer to column with PK or Unique constraint. Example:
+<syntaxhighlight lang=sql>
+    create table tblA (colX number, colY char);
+    create table tblB (colX number);
+
+    alter table tblB add (constraint colX_FK foreign key (colX) references tblA(colX));
+    -- ORA-02270: no matching unique or primary key for this column-list
+
+    alter table tblA add (constraint colX_PK primary key (colX));
+    alter table tblB add (constraint colX_FK foreign key (colX) references tblA(colX));
+    -- alter table success.
+</syntaxhighlight>
+
+A table can ONLY have one Primary Key, but it can have multiple UNIQUE key.
+if the child table(s) require to referencing column other than primary key, the column on the parent table must have UNIQUE constraint.
+<syntaxhighlight lang=sql>
+    alter table tblA add (constraint colY_PK primary key (colY));
+    -- ORA-02260: table can have only one primary key
+</syntaxhighlight>
+
+Cannot create PK or Unique on a column contains duplicate data
+<syntaxhighlight lang=sql>
+    insert into tblA values(1,'A');
+    insert into tblA values(2,'A');
+    alter table tblA add (constraint colY_UK unique (colY));
+    -- ORA-02299: cannot validate (HR.COLY_UK) - duplicate keys found
+
+
+    delete from tblA where colx = 2;
+    alter table tblA add (constraint colY_UK unique (colY));
+    -- alter table success.
+
+    create table tblC (colY char);
+    alter table tblC add (constraint colY_FK foreign key (colY) references tblA(colY));
+    -- alter table success.
+</syntaxhighlight>
+
+Insert data into a column with FK, the value must already exist in the column that the FK reference to.
+<syntaxhighlight lang=sql>
+    insert into tblC values ('B');
+    -- ORA-02291: integrity constraint (HR.COLY_FK) violated - parent key not found
+
+    insert into tblC values ('A');
+    -- 1 rows inserted
+</syntaxhighlight>
+
+As long as a foreign key exist, the parent table can truncate/delete the data or disable the PK or Unique constraint
+<syntaxhighlight lang=sql>
+    truncate table tblA;
+    -- ORA-02266: unique/primary keys in table referenced by enabled foreign keys
+</syntaxhighlight>
+
+Find out the constraint information in Oracle
+<syntaxhighlight lang=sql>
+    desc all_constraints;
+
+    select
+      a.owner, a.table_name, a.constraint_name,
+      a.constraint_type, a.status, a.r_owner, a.r_constraint_name,
+      b.table_name as r_table_name, b.status as r_status
+    from all_constraints a
+      left join all_constraints b on a.owner = b.owner and a.r_constraint_name = b.constraint_name
+    where a.table_name like 'TBL%';
+
+    select *
+    from all_cons_columns
+    where table_name like 'TBL%';
+</syntaxhighlight>
+
+Disable constraint that have foreign key refer to is not allowed, in order to do this, you have to disable the foreign key first.
+<syntaxhighlight lang=sql>
+    alter table tblA disable constraint colX_PK;
+    -- ORA-02297: cannot disable constraint (HR.COLX_PK) - dependencies exist
+    alter table tblA disable constraint colY_UK;
+    -- ORA-02297: cannot disable constraint (HR.COLY_UK) - dependencies exist
+
+    alter table tblC disable constraint colY_FK;
+    alter table tblB disable constraint colX_FK;
+
+    alter table tblA disable constraint colX_PK;
+    alter table tblA disable constraint colY_UK;
+    truncate table tblA;
+</syntaxhighlight>
+
+If the data in parent table is deleted, re-enable the foreign key that contain data reference to the missing data is not allowed.
+<syntaxhighlight lang=sql>
+    select * from tblC;
+    alter table tblA enable constraint colY_UK;
+    alter table tblC enable constraint colY_FK;
+    -- ORA-02298: cannot validate (HR.COLY_FK) - parent keys not found
+</syntaxhighlight>
+
+Generate a SQL statements to disable all the Foreign Key on a specified table
+<syntaxhighlight lang=sql>
+    select
+      'alter table '||a.owner||'.'||a.table_name||
+      ' disable constraint '||a.constraint_name||';' as STMT
+    from all_constraints a, all_constraints b
+    where a.constraint_type = 'R'
+      and a.r_constraint_name = b.constraint_name
+      and a.r_owner = b.owner
+      and b.table_name = 'TBLA';
+</syntaxhighlight>
+
+== Modify tables structure ==
+Example of renaming:
+<syntaxhighlight lang=plsql>
+ALTER TABLE client1 RENAME to client2
+</syntaxhighlight>
+
+First field values constraint addition:
+<syntaxhighlight lang=plsql>
+ALTER TABLE client1 CHECK id > 1;
+</syntaxhighlight>
+
+Primary key addition:
+<syntaxhighlight lang=plsql>
+ALTER TABLE client1 ADD CONSTRAINT client1_pk PRIMARY KEY (id);
+</syntaxhighlight>
+
+Primary key removal:
+<syntaxhighlight lang=plsql>
+ALTER TABLE client1 ADD PRIMARY KEY (id) DISABLE;
+</syntaxhighlight>
+
+Foreign key addition:
+<syntaxhighlight lang=plsql>
+ALTER TABLE client1
+ADD CONSTRAINT fk_client2
+  FOREIGN KEY (client2_id)
+  REFERENCES client2(id);
+</syntaxhighlight>
+
+== Drop tables ==
+<syntaxhighlight lang=plsql>
+DROP TABLE client1;
+</syntaxhighlight>
+
+== Partitioning ==
+The Oracle partitioning is a process to split a huge table into several smaller ones in order to increase its performance.
+
+=== Range ===
+Example:
+<syntaxhighlight lang="plsql">
+CREATE TABLE t_range 
+( t1      VARCHAR2(10) NOT NULL,
+  t2      NUMBER       NOT NULL,
+  t3      NUMBER  
+) 
+PARTITION BY RANGE (t2) 
+( PARTITION part1 VALUES LESS THAN (1),
+  PARTITION part2 VALUES LESS THAN (11),
+  PARTITION part3 VALUES LESS THAN (MAXVALUE)
+);
+</syntaxhighlight>
+
+=== Hash ===
+Example:
+<syntaxhighlight lang="plsql">
+CREATE TABLE t_hash 
+( t1      VARCHAR2(10) NOT NULL,
+  t2      NUMBER       NOT NULL,
+  t3      NUMBER  
+PARTITION BY HASH (t2)
+PARTITIONS 4
+;
+</syntaxhighlight>
+
+=== List ===
+Example:
+<syntaxhighlight lang="plsql">
+CREATE TABLE t_list 
+( ort     VARCHAR2(30) NOT NULL,
+  t2      NUMBER,
+  t3      NUMBER  
+)
+PARTITION BY LIST(ort) 
+( PARTITION part_nord VALUES IN ('Hamburg','Berlin'),
+  PARTITION part_sued VALUES IN ('Muenchen', 'Nuernberg'),
+  PARTITION part_west VALUES IN ('Koeln','Duesseldorf'),
+  PARTITION part_ost VALUES IN ('Halle'),
+  PARTITION part_def VALUES (DEFAULT)
+);
+</syntaxhighlight>
+
+=== Interval ===
+Example:
+<syntaxhighlight lang="plsql">
+CREATE TABLE t_interval 
+( buchungs_datum  DATE NOT NULL,
+  buchungs_text   VARCHAR2(100),
+  betrag          NUMBER(10,2)
+)  
+PARTITION BY RANGE (buchungs_datum)
+INTERVAL(NUMTOYMINTERVAL(1, 'MONTH'))
+( PARTITION p_historie VALUES LESS THAN (TO_DATE('2014.01.01', 'YYYY.MM.DD')),
+  PARTITION p_2014_01  VALUES LESS THAN (TO_DATE('2014.02.01', 'YYYY.MM.DD')),
+  PARTITION p_2014_02  VALUES LESS THAN (TO_DATE('2014.03.01', 'YYYY.MM.DD'))
+);
+</syntaxhighlight>
+
+===Drop columns and set column UNUSED===
+{{...}}
+===Perform FLASHBACK operations===
+===Create and use external tables===
+
+== References ==
+{{Reflist}}
+
+{{BookCat}}

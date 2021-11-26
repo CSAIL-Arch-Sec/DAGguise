@@ -1,0 +1,75 @@
+== Introduction ==
+
+=== Foreword ===
+
+OpenVOGEL{{efn|Originally the name comes from the acronym of ''Vorticity Generated Lattice'', but the word ''vogel'' was chosen instead of ''VGL'' because it means ''bird'' in Dutch (with the ''v'' pronounced as ''f'').}} is an open source project founded with as goal to provide free access to a computer program that would allow the numerical study of aeromechanic problems (aerodynamics + elasticity + dynamics). OpenVOGEL can be used to create from scratch, calculate and analyse several aspects of an aircraft model. The software integrates grid generators, unsteady flow theory based in first order panels, structural dynamics by finite elements (modal decomposition) and a graphical user interface. 
+
+OpenVOGEL relies in a series of common software packages that are implemented in two separate user applications: ''Tucan'' (a user friendly GUI) and the ''Console'' (a command line tool).
+Throughout this Wikibook you will find information about what these two programs are capable of, how they works, and how they can be used in aircraft design.
+
+[[File:Tucan Example.png|thumb|Aircraft model built and simulated with OpenVOGEL Tucan]]
+
+OpenVOGEL is open source, which means that everyone has access to the source code. The source code is published under the General Public License (GPLv3).
+To help with the development of the code, please visit [https://github.com/OpenVOGEL/OpenVOGEL repository].
+
+==== Note to newcomers ====
+If you love airplanes but you are new to the world of ''aeromechanics'', take into account that the topic is difficult in many ways. If you don't have a solid background in basic math (algebra and analysis), you might have a very difficult time trying to figure out what this is all about. I do not consider myself an expert in mathematics so you don't have to be one either, but the basics like working with Euclidean vectors you cannot miss. To understand how an aircraft flies you also need a basic knowledge of fluid dynamics and, in general, classic (Newtonian) mechanics.
+
+This project targets mainly aerospace engineers and undergraduate students actively working on aircraft design. However, this does not prevent amateurs or less qualified people from using the program as guidance to understand how to fly or design an RC model or drone. I have tried to make the program accessible to a broad public.
+
+=== Over this wikibook ===
+
+The intention of this wikibook is to make the documentation of the project as rich as possible through the contribution of users.
+This wikibook aims to cover theoretic notions behind the software and information about how to use it, how NOT to use it, and how to develop it.
+Open source code is great, but to get the most of it the code must be clearly specified and documented. Many open source projects have become incredibly popular, but their lack of documentation causes a lot of confusion and wrong implementations. To avoid this, we try to provide here as much information as possible so that users can have a good idea of both the bigger picture and the low level math.
+
+This book is currently divided in the following chapters:
+* [[OpenVOGEL/Tutorials|Tutorials]]
+* [[OpenVOGEL/SourceCode|Source code]]
+* [[OpenVOGEL/Aerodynamics|Aerodynamics]]
+* [[OpenVOGEL/Aeroelasticity|Aeroelasticity]]
+* [[OpenVOGEL/Free_flight|Free flight]]
+* [[OpenVOGEL/Validation|Validation]]
+
+=== The evolution of the program ===
+
+Sometimes it is useful to know a little bit of history to understand why something is the way it is, so I would like to write here a brief introduction about the evolution of OpenVOGEL.
+
+OpenVOGEL was born at the end of the year 2009 as a small research project during my last years at university. It was first developed in FORTRAN, and it was actually only intended to study the behavior of droplets being sprayed by fumigation airplanes flying at very low altitude, a curiosity that can only emerge in a country where corn and soja fields cover an extent of gigantic proportions.
+
+As the program matured, I started to develop a Human-Machine Interface (HMI) for it in Visual Basic 6; unsatisfied with the result and having learned VB.NET at work, I decided to rewrite the whole calculation core in a full object-oriented fashion using Visual Studio and .NET. This compiler (actually ''virtual machine'') was chosen because it provides access to innumerable useful standard libraries and because it is stable and mature enough for doing scientific calculations. One of the advantages is that it saves lot of development time, mainly because memory is managed by something called a garbage collector, which is not present in languages like C, Ada or Fortran. This makes life easier for the developer by letting them focus on the functionality of the software instead of in how the computer should do the job. This is not always necessary to have and for some applications such as real-time applications, it might even be undesired. When it comes about prototyping science projects, however, it clearly is an advantage. Of course this is paid with some loss of performance but for the purpose of this project, the balance was clearly in favor of easier coding.
+Within .NET there are many compliant languages, Visual Basic (VB) and C# being the most common two. I chose VB instead if C# simply because it is more natural to read and easier to learn. However, many libraries are found in C# and have been linked to the project without problems. 
+
+When it comes to coding, the evolution of OpenVOGEL in .NET is naturally linked to the evolution of Visual Studio Community Edition. Since 2010, Microsoft has been publishing a free version of Visual Studio which has evolved rapidly and in favor of open source communities. It started with the Express editions and evolved towards a series of Community editions, which are a lot more feature-rich than the former but with extra license limitations.
+In 2014 Microsoft pushed .NET as a standard specification, and since then it has been implemented in a parallel open source project called Mono. This project also includes an open source editor called Mono Develop which would eventually be used to develop OpenVOGEL calculation core and make it cross platform.
+
+Let's now talk a bit more about the .NET versions of the program. A program is not made from one day to another. Normally, the life cycle is as follows. The program starts with something simple, evolves to something complex, and then reaches a point where it becomes so complex that it has to be restructured from scratch again. Only when you know exactly from the beginning what the program should be capable of are you in a position to make a strong and flexible kernel. With OpenVOGEL it happened just like that. The current version is the result of rewriting parts to make them more general.
+The first version of the program only included slender lifting surfaces, and it was only able of handling Neumann boundary conditions (by explicitly fixing zero normal velocity at the boundary). After validation of the results, the aeroelastic algorithms followed. The development of Dirichlet boundary conditions (zero internal velocity potential) took more time to develop, and it is one of the latest implemented features.
+At least the first four years of development were done in private because the program was not yet mature enough to meet the world. The program first saw light when it became open source in the year 2015 with the idea of making science instead of marketing, and because I sensed the lack of a free friendly program in this area. While the market of proprietary software is very rich, there is very little up-to-date open source software based in panel methods. In fact, most books still present popular FORTRAN routines of the 70's, when object-oriented programming was still in the early development phase. Based on today's technology, OpenVOGEL offers a new perspective on aeromechanical modeling.
+
+=== Limitations and capabilities ===
+
+As we will see in the chapters of this book, the aerodynamic method that is implemented in the software can be very powerful for solving some problems and insufficient for others. The restrictions are of differing natures: due to complex geometry, due to the simplified representation of true physics, or even due to limited calculation power.
+The restrictions of the software will be pointed out as they become evident while describing the different modules of the software. However, I would like to make a small resume of the most important facts. Let me start with a brief description of what simulation means.
+
+Simulating a system is trying to predict its behavior by watching the behavior of a model, which can be a material object or a collection of linked algorithms. 
+Simulating a system with computer algorithms is clearly not like a real test, where real fluids are used and the real equations are naturally integrated. For the last three decades or more, computer simulations have improved dramatically but still face limitations.
+The problem of numerical simulations is treating the complex math that represents the system behavior with a limited amount of computation resources. We cannot keep track of all molecules in a fluid because there is no sufficient storage in a computer to do so, so the problem needs to be simplified and condensed in a process called ''discretization''.
+
+The problem of real simulations, on the other hand, is that the environment has to be carefully adjusted and controlled to match the target situation. Even if using the same fluid, a real model can deviate from the target situation. For example, consider testing an airplane using a wind tunnel. First you need a model of the plane matching the shape and roughness of the real model. Then you need the wind tunnel, which due to the limited volume does not behave the same as an open fluid domain. Boundary layers develop in the walls, and they introduce effects that are not encountered in free flight. Moreover, the airspeed and the static pressure need to be adjusted to match the Reynolds number, and this could be a challenge. Also, if the flow is not well controlled downstream, at the entrance of the tunnel, turbulence could be introduced that is unreal or out of proportion. Finally, you will need an accurate instrument to measure the air loads. And this is only to mention a few of the many possible sources of deviation.
+
+So we could conclude that simulating a system is never exactly like reality, and no matter the method that is used it is always a challenge. It is an approach that could accurately represent ''some'' aspects of the target situation, while ''at the same time failing'' to predict others.
+
+Probably the most important thing to make clear in our case is that OpenVOGEL is totally based on potential flow theory. This is an idealization made in fluid dynamics. It does not match reality, but it simplifies the mathematical description of the problem. For many reasons, this simplification must be done.
+
+The potential flow theory states that when viscosity is zero (or, in practice, when the Reynolds number tends to infinity), the flow becomes irrotational and subsequently all we need to describe the motion is a potential function in the form of an unsteady scalar field. The velocity becomes the gradient of that field, and the pressure is linked to the square of the velocity by the very well known Bernoulli's equation. It is a beautiful and understandable theory for sure.
+However, there are no skin friction forces in potential flow theory, not to mention micro turbulence. So you will never get an accurate description of how boundary layers behave. You will never even get to see one. I know this sounds very disappointing, but don't quit reading yet because in practice it manages to give very good predictions of the main aerodynamic forces and in just a couple of minutes.
+
+Other CFD programs are able to solve Navier Stokes equations, and this brings some advantages. For instance, these programs usually include friction forces and turbulence models. However, the algorithms behind these programs are far more complex since they are typically based in finite elements or finite difference methods. They require many more degrees of freedom and a more complex geometrical description, and therefore they demand more memory and CPU capacity. They also need to be fine tuned to work, usually by modifying control parameters that are adjusted to match real simulations. Because of this, most designers will not use them in the early design of an aircraft where different geometry configurations need to be quickly compared. Complex CFD programs are more natural to be used in research of cutting edge technologies, where accuracy plays an important role. So you are probably beginning to realize from these thoughts the importance of using simple methods, such as the one we will study here, for common engineering applications.
+
+==Notes==
+{{notelist}}
+
+{{status|75%}}
+{{Alphabetical|Vogel}}
+{{Shelves|Aerospace engineering|Software engineering}}

@@ -1,0 +1,27 @@
+==Mini-Grid Cell Height==
+The Mini-Grid is accessed by pressing '''OK/Select''' while viewing video, and no reminder is active or you are on a reminder-active channel. It displays a shorter program grid on the bottom of the display. The settings are ''Double Height'' or ''Single Height''. ''Double Height'' will display up to two lines of text for a program name, and lists 2 channels. ''Single Height'' will only display one line of text for a program name, and lists 3 channels.
+==Message Indicator==
+Selects whether or not the red light will turn on when your cable company sends messages. The selections are ''On'' and ''Off''. 
+Note:  The cable provider can override this setting on a message by message basis with a special override flag.
+
+==About Us==
+Displays patent information.
+
+
+==Locks Setup==
+This is the basic Parental Control setup menu. Information about it is on the [[../Parental Control/|Parental Control]] page.
+
+As of version A25, this has been expanded and moved into ''Parental Control Setup''.
+
+
+=Parental Control Setup=
+[[../Parental Control/|Parental Control]]
+
+==PINs Setup==
+These options allow you to clear or create Personal Identification Numbers ([[w:Personal Identification Number|PIN]]s).
+Note: As of version A25, this has been moved into the ''Parental Control Setup'' menu.
+
+==Remote Access Setup==
+Note: Cable providers can override this depending on the STB
+
+This option returns a code and information for configuring the myDVR feature (certain Comcast STB models). This allows you to manage your future recordings via your cable provider's website.

@@ -1,0 +1,74 @@
+==Background==
+Honeywell Industries is a large, multinational conglomerate company. They service many different markets such as aerospace and defense; however, the Baton Rouge facility produces Specialty Materials: specifically fluorocarbon-based refrigerants and calcium chloride. Their major raw materials used on site are chlorine and hydrogen fluoride. The facility also maintains a recycling and reclamation center for their gas shipping containers.
+
+==The Three Accidents==
+
+===July 20 Chlorine Release===
+On July 20th, 14,400 pounds of chlorine gas leaked from the facility into the surrounding environment. Liquid chlorine is used a major ingredient to the refrigerants produced at the plant. It was being pumped through a cooling system when the shell and tube cooler leaked, allowing the chlorine to escape into the centralized coolant system. It took 3.5 hours from alert to manually shut down the gas leak. Although maintenance was on par with company standards and found no faults (yearly and biyearly through visual checks and magnetic flux leakage respectively), outside inspectors found that the methods were not up to par and better inspection methods were needed as three holes were found after the incident. The chlorine gas spread and was responsible for 7 hospitalizations; although, many of which were fairly mild.<ref name="CSB report" />
+
+===July 29 Antimony Pentachloride Release===
+The recycling and reclamation facility was still operational despite most of the plant being shut down for repairs. A container of presumably spent “r-22” refrigerant was not draining properly and a worker decided to take matters in his own hands. He loosened a valve to help the cylinder drain; however, it was actually a full tank of antimony pentachloride: a organic chemical reaction catalyst that is highly toxic. The worker was engulfed in later passed away. <ref name="CSB report" />
+===August 13 Hydrogen Fluoride Release===
+Over three weeks after the initial incident, the plant was almost in working order. Leftover fluids needed to be drained from machinery, specifically the hydrogen fluoride (HF) vaporizer. The automated draining systems were offline; therefore, manual draining through a venturi tube was used. A worker saw that the tube was no draining efficiently, so they increased the pump pressure to increase draining. However, this allowed the venturi tube to lift from the holding apparatus and spray the nearby workers with HF gas. Two workers were injured. <ref name="CSB report" />
+
+==Consequences and Investigation==
+===CSB Investigation===
+On August 10, 2005, the U.S. Chemical Safety and Hazard Investigation Board (CSB) released a final report on its investigation of three incidents. The report claimed that because the July 20 incident was serious enough to result in employee injuries and a shelter-in-place advisory, CSB launched an investigation to determine the root and contributing causes and to issue recommendations to help prevent similar occurrences. The July 29 incident happened during the early phases of this investigation, and because that second incident resulted in a fatality, CSB extended its investigation. Although the consequences of the August 13 incident were not as severe, CSB decided that—since the three incidents occurred in less than 4 weeks—all three would be investigated to determine if there was a relationship among them.<ref name="CSB report">CSB. Honeywell Chemical Incidents. Retrieved from https://www.csb.gov/file.aspx?DocumentId=5599[https://www.csb.gov/file.aspx?DocumentId=5599]</ref>
+
+===Loss of Life===
+Seven plant workers were injured during the evacuation process in the July 20 Chlorine Release. For the July 29 Contaminated Antimony Pentachloride Exposure, the operator who removed the plug and caused the release died the following day. The August 13 HF Release injured one employee and exposed one operator. <ref name="CSB report" />
+
+===Harm to Neighborhood===
+When investigating the July 20 incident, CSB interviewed emergency responders, who reported a strong chlorine odor more than 1.5 miles away in the vicinity of Plank and Prescott Roads. A few citizens also noticed a strong chlorine odor on Interstate 110 north of the Honeywell facility. Ten members of the general public sought treatment at a local emergency room—three initially and seven throughout the day. They complained of headaches and sore throats and were either treated or observed, then released from the emergency room. <ref name="CSB report" />
+
+For the July 29 incident, Honeywell employees interviewed by CSB stated that they immediately recognized the odor of antimony pentachloride. The cloud filled the area around the cylinder rack and was visible from offsite. Neighbors directly to the southeast of the facility noticed a strong odor. Shortly after seeing the cloud, plant personnel activated the nearby water deluge towers to knock it down. Plant employees were evacuated, and the plant emergency response team, dressed in appropriate personal protective equipment (PPE), entered the area to plug the cylinder. <ref name="CSB report" />
+
+The August 13 incident didn't cause damage to neighborhood as the situation was quickly contained.
+
+===Environmental Harm===
+All incidents caused no long-term damage to surroundings comparable to pollutions by plastics or nuclear wastes as the released chemicals disposed completely in a few days.
+
+===Criminal Prosecution===
+Chemical and Metal Industries, Inc. (C&MI) received the cylinder from a Honeywell locate in El Segundo, California, as a hazardous waste. The cylinder was relabeled and shipped to Honeywell's Baton Rouge facility for 5 years, where it remained until it was opened by Delvin Henry who was killed in the July 29 incident. C&MI was charged in an Indictment with one count of violating RCRA {42 U.S.C. 6928(d)(2)(A) - illegally storing hazardous waste}<ref name="RCRA">United States Environmental Protection Agency (EPA). Criminal Provisions of the Resource Conservation and Recovery Act (RCRA). Retrieved from https://www.epa.gov/enforcement/criminal-provisions-resource-conservation-and-recovery-act-rcra[https://www.epa.gov/enforcement/criminal-provisions-resource-conservation-and-recovery-act-rcra]</ref> and one count of violating the Clean Air Act (CAA) {42 U.S.C. 7413(c)(4)}. <ref name="Clean Air Act">EPA. Criminal Provision of the Clean Air Act. Retrieved from https://www.epa.gov/enforcement/criminal-provisions-clean-air-act[https://www.epa.gov/enforcement/criminal-provisions-clean-air-act]</ref>. C&MI was sentenced to 24 months probation and ordered to pay a $1,000,000 fine, and $2,000,000 in restitution to the victim’s estate.<ref name="Criminal Prosecution">EPA. Summary of Criminal Prosecution. Retrieved from https://cfpub.epa.gov/compliance/criminal_prosecution/index.cfm?action=3&prosecution_summary_id=2172[https://cfpub.epa.gov/compliance/criminal_prosecution/index.cfm?action=3&prosecution_summary_id=2172]</ref>
+
+In 2008, Honeywell accepted responsibility for its role in the incident, pled guilty to negligent endangerment under the Clean Air Act, and was sentenced to pay a criminal fine of $8,000,000, restitution of $2,000,000 to Mr. Henry’s three children, community restitution of $750,000 to the Louisiana Department of Environmental Quality, community restitution valued at $750,000 to the Louisiana State Police Hazardous Materials Unit, and community restitution valued at $500,000 to the Louisiana State Police Emergency Operations Center. <ref name="Criminal Prosecution" /> The $12 million fine in total was the largest criminal monetary penalty in the history of Middle District of Louisiana.
+
+==Issues at Play and Avoidable Hazards==
+
+After investigation, it was found that the toxic gas releases were attributed to a weakness in management systems that should have identified potential problems in each incident and included appropriate responses in the case of accidents. 
+
+===Hazard Recognition===
+
+For the chlorine incident, Honeywell failed to abide by the required Process Safety Management Standard to utilities outside of the chlorine system. The process hazard analysis that Honeywell did not consider coolant systems and control room utilities even though it was required. If these processes were followed, an investigation might have been launched following the first instance of chlorine leaking into the control room which would have identified the issue at play. Instead, it was cleaned up and forgotten about. 
+
+In the antimony pentachloride release, both Honeywell's Baton Rouge plant as well as a Chemical and Metals Industry facility failed to identify the contents of the cylinder. Chemical and Metals Industry characterized the contents of the antimonty pentachloride cylinder as "a tar-like solid with only a small amount of liquid" and re-labeled the cylinder as R-22. The worker at Honeywell's plant failed to realize that the cylinder was heavier than how much a full refrigerant cylinder would be, and, following convention, proceeded to vent the cylinder despite written procedures not to vent R-22 like other refrigerants.
+
+During the removal of hydrogen fluoride, the device, a venturi stick, was only secured using a hanging rope. This provided no structural support besides leaving the venturi stick hanging. In addition, again by convention, the operator removed protective equipment after setting up the venturi stick despite knowing the hazardous contents being disposed of.
+
+===Avoidability===
+
+In each and every accident, accurate identification of potential hazards would have led to the discovery of issues and the ability to avoid the damage that was done. 
+
+July 20, 2003 was not the first day that chlorine entered the control room. If an investigation was conducted prior to the accident to identify how chlorine entered, the HVAC system could have been improved, protecting workers in the control room from chlorine releases. Successful identification of the chlorine leak would also have allowed Honeywell to improve their coolant system.
+
+There was no system to ensure the labeling of cylinders reflected the actual contents. Had there been a positive identification, the operator of July 29th would not have erroneously believed he was venting R-22. This would have saved his life. In addition, if the operators of Honeywell's plant followed written directives not to vent R-22 like other refrigerants, this tragedy could also have been prevented. Conventions which relaxed procedures to speed up work processes as helped lead to this tragedy.
+
+In the release of hydrogen fluoride, convention that failed to follow safety policies was once again the root cause of human injury. After setting up the venturi stick, the operator removed protective equipment including his respirator and suit. This protective equipment would most likely had prevented the red mark on his arm due to the hydrogen fluoride leak as well as respiratory issues.
+
+The avoidability of accidents given enough consideration is obvious in the Baton Rouge plant. Following the first three releases, there was another chlorine release in 2003. However, due to the newly implemented safety mechanisms, the leak lasted a mere 45 seconds with no injuries. 
+
+===Ethical Considerations===
+
+A lack of accountability allowed both managers and operators at Honeywell's refrigerant plant to ignore potential issues. Managers have a responsibility to their workers to create a safe environment and ensure that designs were up to standards. In the case of chemicals such as those at Honeywell's plant, accidents can lead to death. However, even charged with the responsibility, managers at the plant listed that "design, inspection, and testing" were sufficient safeguards instead of further investigation. 
+
+Operators further jeopardized their own safety when they failed to follow written directives. In both the antimony pentachloride and hydrogen fluoride releases, the operators went with dangerous conventions that gave them improved comfort and speed at the cost of safety, which led to be fatal. Quality of work should not be sacrificed for quality. This sentiment is shared in all after-accident reports yet is often ignored by all parties.
+
+Finally, both managers and operators failed to consider the consequences of their actions to both themselves as well as those around them during the operation of the plant. Given that there was a neighborhood with people living in it surrounding the plant, managers should have taken extra steps to ensure that accidents of the plant do not impact the community. This of course, was not considered. Operators venting antimony pentachloride and hydrogen fluoride failed to consider the risks to those around them should anything go wrong due to not following written directives.
+
+==Conclusion==
+Band-aid fixes are not solutions. if the root of major problems are not addressed, they will stay problems and have compounding consequences. we must learn from our mistakes because as you can see, if we do not learn from history, we are doomed to repeat it.
+
+== References ==
+
+{{reflist}}
+{{BookCat}}

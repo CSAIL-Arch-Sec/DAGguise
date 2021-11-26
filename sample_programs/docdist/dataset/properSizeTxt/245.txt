@@ -1,0 +1,387 @@
+This chapter shows how to set up multiple pages and allow the user to navigate between them with the help of [[Canvas 2D Web Apps/Responsive Buttons|responsive buttons]]. 
+
+===The Example===
+The example of this chapter (which is available [http://martin-kraus.org/webapps/pages/pages.html online]; also as [http://martin-kraus.org/webapps/pages/pages.html downloadable version]) allows users to navigate between three pages of different dimensions using four buttons. The pages are automatically scaled to fit the dimensions of the browser window or the screen of a mobile device. The following sections will discuss how to set up the pages. See the chapter on [[Canvas 2D Web Apps/Responsive Buttons|responsive buttons]] and previous chapters for discussions of other parts.
+
+<syntaxhighlight lang="javascript">
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <script src="cui2d.js"></script>
+
+    <script>
+      function init() {
+        // get images
+        imageNormalButton.src = "normal.png";
+        imageNormalButton.onload = cuiRepaint;
+        imageFocusedButton.src = "selected.png";
+        imageFocusedButton.onload = cuiRepaint;
+        imagePressedButton.src = "depressed.png";
+        imagePressedButton.onload = cuiRepaint;
+
+        // initialize and start cui2d
+        cuiInit(firstPage);
+      }
+
+      // first page
+
+      var firstPage = new cuiPage(400, 300, firstPageProcess);
+      var button0 = new cuiButton();
+      var imageNormalButton = new Image();
+      var imageFocusedButton = new Image();
+      var imagePressedButton = new Image();
+
+      function firstPageProcess(event) {
+        if (button0.process(event, 300, 50, 80, 50, "next",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button0.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = secondPage;
+            cuiRepaint(); 
+          }
+          return true; 
+        }
+        if (null == event) {
+          // draw background
+          cuiContext.fillText("First page using landcape format.", 200, 150);
+          cuiContext.fillStyle = "#E0E0E0";
+          cuiContext.fillRect(0, 0, this.width, this.height);
+        }
+        return false;  // event has not been processed
+      }
+
+      // second page
+
+      var secondPage = new cuiPage(400, 400, secondPageProcess);
+      var button1 = new cuiButton();
+      var button2 = new cuiButton();
+
+      function secondPageProcess(event) {
+        if (button1.process(event, 20, 50, 120, 50, "previous",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button1.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = firstPage;
+            cuiRepaint(); 
+          }
+          return true;
+        }
+        if (button2.process(event, 300, 50, 80, 50, "next",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button2.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = thirdPage;
+            cuiRepaint(); 
+          }
+          return true;
+        }
+        if (null == event) {
+          // draw background
+          cuiContext.fillText("Second page using square format.", 200, 200);
+          cuiContext.fillStyle = "#FFF0E0";
+          cuiContext.fillRect(0, 0, this.width, this.height);
+        }
+        return false;
+      }
+
+      // third page
+
+      var thirdPage = new cuiPage(400, 533, thirdPageProcess);
+      var button3 = new cuiButton();
+
+      function thirdPageProcess(event) {
+        if (button3.process(event, 20, 50, 120, 50, "previous",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button3.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = secondPage;
+            cuiRepaint(); 
+          }
+          return true;
+        }
+        if (null == event) {
+          // draw background
+          cuiContext.fillText("Third page using portrait format.", 200, 266);
+          cuiContext.fillStyle = "#FFE0F0";
+          cuiContext.fillRect(0, 0, this.width, this.height);
+        }    
+        return false;
+      }
+      
+    </script>
+  </head>
+ 
+  <body bgcolor="#000000" onload="init()" 
+    style="-webkit-user-drag:none; -webkit-user-select:none; ">
+    <font color="white">A canvas element cannot be displayed.</font>
+  </body>
+</html></syntaxhighlight>
+
+===Defining Multiple Pages===
+In order to implement multiple pages, we need to have one <code>cuiPage</code> object for each page. In the example, these are created this way:
+
+<syntaxhighlight lang="javascript">
+      ...
+      var firstPage = new cuiPage(400, 300, firstPageProcess);
+      ...
+      var secondPage = new cuiPage(400, 400, secondPageProcess);
+      ...
+      var thirdPage = new cuiPage(400, 533, thirdPageProcess);
+      ...
+</syntaxhighlight>
+
+Each constructor call defines the width and height of the page and the page's process function. The first process function looks like this:
+
+<syntaxhighlight lang="javascript">
+      function firstPageProcess(event) {
+        if (button0.process(event, 300, 50, 80, 50, "next",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button0.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = secondPage;
+            cuiRepaint(); 
+          }
+          return true; 
+        }
+        if (null == event) {
+          // draw background
+          cuiContext.fillText("First page using landcape format.", 200, 150);
+          cuiContext.fillStyle = "#E0E0E0";
+          cuiContext.fillRect(0, 0, this.width, this.height);
+        }
+        return false;  // event has not been processed
+      }
+</syntaxhighlight>
+
+It checks whether <code>button0</code> has processed the event and whether the button was clicked (with <code>button0.isClicked()</code>). If that's the case, it sets the global variable <code>cuiIgnoreEventEnds</code> to the current time (in milliseconds since January 1, 1970) plus 50 milliseconds in order to ignore all events for the next 50 milliseconds. This is useful because the current user interactions should not be applied to the next page, which is set by assigning another <code>cuiPage</code> to the global variable <code>cuiCurrentPage</code>. Lastly, the new page is painted by calling <code>cuiRepaint()</code>.
+
+Otherwise, if the button hasn't been clicked, the page's background is rendered if <code>event</code> is <code>null</code>.
+
+The process functions of the other two pages work similarly, except that the second page has two buttons:
+
+<syntaxhighlight lang="javascript">
+      function secondPageProcess(event) {
+        if (button1.process(event, 20, 50, 120, 50, "previous",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button1.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = firstPage;
+            cuiRepaint(); 
+          }
+          return true;
+        }
+        if (button2.process(event, 300, 50, 80, 50, "next",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button2.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = thirdPage;
+            cuiRepaint(); 
+          }
+          return true;
+        }
+        if (null == event) {
+          // draw background
+          cuiContext.fillText("Second page using square format.", 200, 200);
+          cuiContext.fillStyle = "#FFF0E0";
+          cuiContext.fillRect(0, 0, this.width, this.height);
+        }
+        return false;
+      }
+</syntaxhighlight>
+
+And the third page with one button:
+
+<syntaxhighlight lang="javascript">
+      function thirdPageProcess(event) {
+        if (button3.process(event, 20, 50, 120, 50, "previous",
+          imageNormalButton, imageFocusedButton, imagePressedButton)) {
+          if (button3.isClicked()) {
+            cuiIgnoreEventsEnd = (new Date()).getTime() + 50; 
+                // ignore events for 50 milliseconds
+            cuiCurrentPage = secondPage;
+            cuiRepaint(); 
+          }
+          return true;
+        }
+        if (null == event) {
+          // draw background
+          cuiContext.fillText("Third page using portrait format.", 200, 266);
+          cuiContext.fillStyle = "#FFE0F0";
+          cuiContext.fillRect(0, 0, this.width, this.height);
+        }    
+        return false;
+      }
+</syntaxhighlight>
+
+===Implementation of cuiPage===
+
+The constructor for <code>cuiPage</code> objects is defined as follows:
+
+<syntaxhighlight lang="javascript">
+/**
+ * Pages are the top-level structure of a cui2d user interface: There is always exactly one page visible. 
+ * (In the future there might be a hierarchy of pages visible but then there is always one root page.)
+ * @typedef cuiPage
+ */
+
+/**
+ * Creates a new cuiPage of specified width and height with the specified process(event) function
+ * to process an event (with process(event) which should return true to indicate that the event has
+ * been processed and therefore to prevent the default gestures for manipulating pages) and 
+ * to repaint the page (with process(null) which should always return false).
+ * Each page has a coordinate system with the origin in the top, left corner and x coordinates between
+ * 0 and width, and y coordinates between 0 and height. 
+ * @constructor
+ */
+function cuiPage(width, height, process) {
+  this.width = width;
+  this.height = height;
+  this.process = process;
+  this.isDraggableWithOneFinger = true; // can be disallowed by setting it to false
+  this.view = new cuiTransformable(); // the page transformed by the user (set by cuiProcess())
+}
+</syntaxhighlight>
+
+There is only one method defined for <code>cuiPages</code>, which is only relevant for animated transitions between pages; see the chapter on [[Canvas 2D Web Apps/Transitions|transitions]].
+
+Note that each page uses a <code>cuiTransformable</code> object (called <code>view</code>) for its transformation. This is applied in the <code>cuiProcess</code> function (which also calls the page's user-defined process function). The function is relatively complex since it has to scale the page optimally by taking the page's dimensions and the dimensions of the screen into account. Furthermore, it has to apply the transformation of the transformable object <code>view</code>. And then it has to apply the inverse transformation to event points such that they are correctly transformed.
+
+<syntaxhighlight lang="javascript">
+/** 
+ * Either process the event (if event != null) or repaint the canvas (if event == null). 
+ */
+function cuiProcess(event) {
+  // ignore events if necessary
+  if (null != event && cuiIgnoringEventsEnd > 0) {
+    if ((new Date()).getTime() < cuiIgnoringEventsEnd) {
+      return;
+    }
+  }
+
+  // clear repaint flag
+  if (null == event) {
+    cuiCanvasNeedsRepaint = false;
+  }
+
+  // determine initial scale and position for the page to fit it into the window
+  var scaleFactor = 1.0;
+  var offsetX = 0.0;
+  var offsetY = 0.0;
+  if (window.innerWidth / cuiCurrentPage.width < window.innerHeight / cuiCurrentPage.height) {
+    // required X scaling is smaller: use it
+    scaleFactor = window.innerWidth / cuiCurrentPage.width;
+    offsetX = 0.0; // X is scaled for full window
+    offsetY = 0.5 * (window.innerHeight - cuiCurrentPage.height * scaleFactor);
+      // scaling is too small for Y: offset to center content
+  }
+  else { // required Y scaling is smaller: use it
+    scaleFactor = window.innerHeight / cuiCurrentPage.height;
+    offsetX = 0.5 * (window.innerWidth - cuiCurrentPage.width * scaleFactor);
+      // scaling is too small for X: offset to center content
+    offsetY = 0.0;
+  }
+
+  // adapt coordinates of event 
+  if (null != event) {
+    // transformation in cuiCurrentPage.view
+    var mappedX = event.clientX - cuiCurrentPage.view.translationX;
+    var mappedY = event.clientY - cuiCurrentPage.view.translationY;
+    mappedX = mappedX - offsetX - 0.5 * cuiCurrentPage.width * scaleFactor;
+    mappedY = mappedY - offsetY - 0.5 * cuiCurrentPage.height * scaleFactor;
+    var angle = -cuiCurrentPage.view.rotation * Math.PI / 180.0;
+    var tempX = Math.cos(angle) * mappedX - Math.sin(angle) * mappedY;
+    mappedY = Math.sin(angle) * mappedX  + Math.cos(angle) * mappedY;
+    mappedX = tempX / cuiCurrentPage.view.scale;
+    mappedY = mappedY / cuiCurrentPage.view.scale;
+    mappedX = mappedX + offsetX + 0.5 * cuiCurrentPage.width * scaleFactor;
+    mappedY = mappedY + offsetY + 0.5 * cuiCurrentPage.height * scaleFactor;
+    // initial transformation for fitting the page into the window
+    event.eventX = (mappedX - offsetX) / scaleFactor;
+    event.eventY = (mappedY - offsetY) / scaleFactor;
+  }
+
+  // initialize drawing
+  if (null == event) {
+    cuiCanvas.width = window.innerWidth;
+    cuiCanvas.height = window.innerHeight;
+      // The following line is not necessary because we set the canvas size: 
+      //   cuiContext.clearRect(0, 0, cuiCanvas.width, cuiCanvas.height);
+      // Some people recommend to avoid setting the canvas size every frame, 
+      // but I had trouble with rendering a transition effect on Firefox without it.
+
+    // transformation in cuiCurrentPage.view
+    cuiContext.setTransform(1.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+    cuiContext.translate(cuiCurrentPage.view.translationX, cuiCurrentPage.view.translationY);
+    cuiContext.translate(offsetX + 0.5 * cuiCurrentPage.width * scaleFactor, 
+      offsetY + 0.5 * cuiCurrentPage.height * scaleFactor);
+    cuiContext.rotate(cuiCurrentPage.view.rotation * Math.PI / 180.0);
+    cuiContext.scale(cuiCurrentPage.view.scale, cuiCurrentPage.view.scale);
+    cuiContext.translate(-offsetX - 0.5 * cuiCurrentPage.width * scaleFactor, 
+      -offsetY - 0.5 * cuiCurrentPage.height * scaleFactor);
+    // initial transformation for fitting the page into the window
+    cuiContext.translate(offsetX, offsetY);
+    cuiContext.scale(scaleFactor, scaleFactor);
+
+    cuiContext.globalCompositeOperation = "destination-over";
+    cuiContext.globalAlpha = 1.0;
+    cuiContext.font = cuiDefaultFont;
+    cuiContext.textAlign = cuiDefaultTextAlign;
+    cuiContext.textBaseline = cuiDefaultTextBaseline;
+    cuiContext.fillStyle = cuiDefaultFillStyle;
+  }
+
+  if (!cuiCurrentPage.process(event) && cuiCurrentPage != cuiPageForTransitions && null != event) { 
+    // event hasn't been processed, not a transition, and we have an event?
+    event.eventX = event.clientX; // we don't need any transformation here because the initial ...
+    event.eventY = event.clientY; // ... transformation is applied to the arguments of ... 
+      // ... view.process() and the transformation in view is applied internally in view.process()
+    if (cuiCurrentPage.view.process(event, offsetX, offsetY, cuiCurrentPage.width * scaleFactor, 
+      cuiCurrentPage.height * scaleFactor,
+      null, null, null, null, null, cuiCurrentPage.isDraggableWithOneFinger)) {
+      // limit translation such that users don't lose the page 
+      if (cuiCurrentPage.view.translationX < -0.5 * window.innerWidth * 
+        Math.max(1.0, cuiCurrentPage.view.scale)) {
+        cuiCurrentPage.view.translationX = -0.5 * window.innerWidth * 
+        Math.max(1.0, cuiCurrentPage.view.scale);
+      }
+      if (cuiCurrentPage.view.translationX > 0.5 * window.innerWidth * 
+        Math.max(1.0, cuiCurrentPage.view.scale)) {
+        cuiCurrentPage.view.translationX = 0.5 * window.innerWidth * 
+        Math.max(1.0, cuiCurrentPage.view.scale);
+      }
+      if (cuiCurrentPage.view.translationY < -0.5 * window.innerHeight * 
+        Math.max(1.0, cuiCurrentPage.view.scale)) {
+        cuiCurrentPage.view.translationY = -0.5 * window.innerHeight * 
+        Math.max(1.0, cuiCurrentPage.view.scale);
+      }
+      if (cuiCurrentPage.view.translationY > 0.5 * window.innerHeight * 
+        Math.max(1.0, cuiCurrentPage.view.scale)) {
+        cuiCurrentPage.view.translationY = 0.5 * window.innerHeight * 
+        Math.max(1.0, cuiCurrentPage.view.scale);
+      }
+    }
+  }
+
+  // draw background
+  if (null == event) {
+    cuiContext.globalCompositeOperation = "destination-over";
+    cuiContext.globalAlpha = 1.0;
+    cuiContext.setTransform(1.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+    cuiContext.fillStyle = cuiBackgroundFillStyle;
+    cuiContext.fillRect(0, 0, cuiCanvas.width, cuiCanvas.height);
+  }
+}
+</syntaxhighlight>
+
+{{Canvas 2D Web Apps BottomNav}}

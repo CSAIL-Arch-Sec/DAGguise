@@ -1,0 +1,81 @@
+{{talk archive}}
+
+== Multilingual Wikibooks ==
+Hi, I don't read the mail list, so maybe I am repeating something.
+Is this a multilanguage project like wikipedia? Is possible to start a textbook in another language? I think that it is not contemplated at this moment. For instance: The text book: 'spanish', maybe should be: 'english-español' or 'español from english' or something similar. Well I suppose that you could use the convention 'the word that define the language that you want learn wrote in the language from where your are learning'. I dont know. [[User:Wintermute|Wintermute]] 22:26 6 Aug 2003 (UTC)
+
+:I was wondering about the same thing just a bit ago, surely one of the old-timers will have a good explanation. [[User:Karl Wick|Karl Wick]]
+
+::Old timer here. This is the English Wikibooks; although we plan on having textbooks and similar instructional material ''about'' different languages (that is, teaching a foreign language to students), the books are written with the intent on teaching English-speaking students. For example, our textbook on [[Spanish]] has all its explanatory text in English. We are still a very young project so it will be some time before we are self-aware enough to start setting-up other language versions (NOTE: Wiktionary was set up in December of 2002 and still is not internationalized). --[[User:Maveric149|mav]]
+
+:::Oops, I guess I was misunderstanding something here.. So, if some japanese  wikipedians want to write a wiki textbook (in japanese), they should go elsewhere, like setting up their own wiki? I might have said something else (misleading), and I would need to make correction. Mav (or anyone else), could you elaborate on this? Thanks. [[User:Tomos|Tomos]] 00:08, 16 Sep 2003 (UTC)
+
+::::That's how it is done on Wikipedia. We may be able to get by with a meta-type internationalization enhanced by language category tags that would change the language of the interface for the user. Therefore visiting a French textbook that has French category tags in it, will change the user's interface to French. That way a developer isn't needed to set up new languages and we can make an international Main Page ourself. This type of internationalization would not be possible for Wikipedia, Wiktionary, or Wikiquote since there would be too many page name conflicts. However, this is a community decision. --[[User:Maveric149|mav]]
+
+:::::Thanks for the reply. But, yes, I know how things are done within wikimedia sites. I was wondering if I should tell my fellows that they should set up their own wiki, without relying on wikimedia. I mean, like starting their own project independently from wikimedia. Or should I just tell them to contact Jimbo (or the foundation if they are two separate thing) and ask if they can start wikibook projects in Japanese? I got an impression from mav's  earlier comments that untill this English project matures, books in other languages will not be supported, or people wanting on those projects are advised to wait and see how things develop here. And I think that was the impression Wintermute got (see below, posted earlier than this one I am posting). I kind of see that there could be a merit to wait and see what is going to happen here (at least I am intending to benefit from observing this project), but I also see the benefits of just letting things happen in multiple languages and expect cross-pollination. I would need to make some correction at Japanese wikipedia if "wait" is the case. And I feel a lot more comfortable if I can be ready to explain why it is perceived a better way. [[User:Tomos|Tomos]] 20:16, 16 Sep 2003 (UTC)
+
+:::I am agreeing with Tomos. I would like to know what exactly the problem with internationalization is. We only need define a good namespace for the pages for avoid problems. In fact there is, at least, one textbook that is not English (I have seen it yesterday in "Languages"). I think that we should set rules for specified the language in the title of the pages. No more is necessary by the moment. In other hand, working only in English could be no very clever. For instance, I am from Spain, I like the project, so I have worked in the Spanish textbook. It seems natural for me work in this textbook because I am a native speaker. But I don't need to learn Spanish. I want to mean that if this project is only for English speakers maybe there are people who are not going to be interested in collaborate. A fork in the project for every different language is not a good idea, at least, is not a good thing for the project itself. Well, that was only my opinion. Regards, and sorry by my English, it’s not very good.[[User:Wintermute|Wintermute]] 15:29, 16 Sep 2003 (UTC)
+
+== Wikibooks Logo ==
+
+Hi mav- well I've decided to hang about here for a bit and see what happens- one thing though is I think this project should have a different logo to wikipedia as it will get confusing remebering exactly which project one is contributing to or viewing, what do you think? [[User:Quercusrobur|Quercusrobur]] 14:26 3 Aug 2003 (UTC)
+
+: My idea for a logo, have an ex-libris/bookplate style logo with the phrase "ex libris wikimedia". --[[User:Imran|Imran]]
+
+::I love it! Nice idea. --mav
+
+:::One of the replacement logos for wikipedia has the possibility of having different colors for different sections of wikipedia but the same design. It looks really cool. It's at [[m:image talk:Ncwiki.png]]. Specifically, I'm talking about 24 b1. Except ours could be red or something. [[User:LittleDan|LittleDan]] 19:49 4 Aug 2003 (UTC)
+
+=== Wikipedia Logo contest ===
+One of the logos in the Wikipedia logo contest looks like it would be perfect for us (IMO):
+http://meta.wikipedia.org/upload/7/7f/Wikipedia3fnlc.jpg It doesn't look like it will win (or even become a finalist). --[[User:Maveric149|mav]]
+
+=== Logo page ===
+What? Where was the discussion about a logo change? [[#Wikipedia Logo contest|Wikipedia Logo contest]] is much better concept, IMO. For one thing it has more than one book. --[[User:Maveric149|mav]] 04:24, 25 Sep 2003 (UTC)
+:those logos mav suggests for consideration do better convey a sense of a collection of books - [[User:Marshman|Marsh]]
+:Two book logo looking better - [[User:Marshman|Marsh]] 18:41, 26 Sep 2003 (UTC)
+
+*Here is a page for logo options: [[Logo discussion]]. We can submit potential logos there and discuss them. --[[User:Karl Wick|Karl Wick]]
+
+== Wikibooks Functional Aspects ==
+
+=== Annotation markup ===
+You are talking about having more than one column of text on one page, right ? That sounds like a useful feature for my textbook. --[[User:Karl Wick|Karl Wick]] 13:39 29 Jul 2003 (UTC)
+
+:Yes. But only one 1/3 slice on the right for notes and smallish images. --mav
+
+Maybe it could be that to make a note on the same line as a particular word, you write in the form (for 'many notes' being next to 'word') "otherwords otherwords word/*many notes*/ otherword otherword", kinda like in some programming languages. For now, we can just use plain old footnotes (linking to [[article#place]] works), or you can go for a complicated CSS solution. [[User:LittleDan|LittleDan]] 15:21 1 Aug 2003 (UTC)
+
+<div style="float:right; margin: 5px 5px 5px 5px; width: 100px; border:solid 1px black;">This works if there are not many notes compared to the size of the text.</div>
+:Just use a floating div like we do for images for the occasional markup. Unfortunately this div crosses an hr... See --> --[[User:Geoffrey|Geoffrey]] 04:04 3 Aug 2003 (UTC)
+
+=== Images question ===
+Suppose i want to include an image that's on wikipedia. Should I copy it and upload it to wikibooks or should I just link to it? And how do I link to it anyway?
+
+:Copy it and upload it here. Make sure to also copy over the text on the image page of the Wikipedia image and provide a link to it. --mav
+
+=== Editable Recent Changes ===
+Is there an equivalent here to [[en:Wikipedia:Recentchanges]]? it would be nice to have links to other wikis, and maybe some text to remind us which recent changes we're looking at... -- [[User:Merphant|Merphant]] 09:51 6 Aug 2003 (UTC)
+
+:Part of an answer may depend on your browser set up. For me, the current URL in the toolbar tells me which Wiki I'm in....[[User:LouI|LouI]]
+
+::I think Merphant is talking about interwiki links like [[Wiktionary:Dog]]. The answer so far is no. AFAIK each language.php file for each wiki will have to updated with interwiki syntax to our website. This will happen - just not yet (we only recently decided a name for the project and still haven't moved to that URL). --[[User:Maveric149|mav]]
+
+=== Referencing Wikipedia & Wiktionary ===
+Is there a shortcut way to refernce the Wikipedia or Wictionary? I'm currently using a full reference, such as <nowiki> [http://www.wikipedia.org/wiki/Plant_cell] </nowiki>. This works but its akward. If no current techniaue exists, should we suggest the idea of a simpler or abbrievated markup coding on one of the Meta pages? [[User:LouI|LouI]] 05:21, 8 Sep 2003 (UTC)
+
+:[[EnWikipedia:Dog]], [[w:en:Dog]] and even [[en:Dog]] work (although we may want to reserve the last one for intraproject interlanguage links). Wiktionary only works via [[Wiktionary:Dog]]. --[[User:Maveric149|mav]]
+
+I'm going to put the staff lounge back on the main page. As a related question: Do we want to save that name for Wikiversity, and maybe move this page to something like Wikibooks:The stacks? [[User:LouI|LouI]]
+
+:Save the name? What do you mean? I already own the domain name... The Wikiversity page is going to be moved to meta soon. --mav
+
+::Sorry, I should have explained more carefully. We now use separate names for the general talk and question space on each project: the pump at wikipedia, the tavern or tea room at wiktionary and the staff lounge at wikibooks. I'd like to suggest that the ''Staff lounge'' at wikibooks be renamed. We coiuld make it ''The Stacks'' at wikibooks. The reason I suggested this change is that i like the lounge name, but the name seems to fit better with wikiversity. So, if we made the change, we would have ''The Stacks'' area in the libary at wikibooks and later (if the prpject takes off) ''The Staff Lounge'', and maybe the ''Student Lounge'' at WikiU. I hope thisbetter explains my comment. [[User:LouI|LouI]]
+
+:::I for one don't know what ''the stacks'' means. How about ''the pub'' or ''the coffee house'' ?
+
+:::My apology to Thersa and any others who are puzzled by ''The Stacks'' reference. In the U.S. at least, libraries tend to have material freely available (shelved in publicxxly browsable areas) and other material kept in a back room, available only by asking a librarian. Back issue magazines typically get stored in the back room. Since there aren't enough shelves for display, many  times the material just gets ''stacked''. When I worked as a library assistant, we called the task of fetching material ''working the stacks'' and ''the stacks'' were the storage rooms. The idea here, is that the stack room was used only by librarians. [[User:LouI|LouI]]
+
+::::But we ain't librarians; we are teachers. Thus "staff lounge" is perfect. No reason why Wikiversity can't also have one (Wikiquote also has a village pump). --mav
+
+:: Sorry for the first statement, the lounge is still on the main page, just not very visible. [[User:LouI|LouI]] 05:28, 8 Sep 2003 (UTC)

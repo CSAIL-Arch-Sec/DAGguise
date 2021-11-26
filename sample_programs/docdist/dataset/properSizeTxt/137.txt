@@ -1,0 +1,300 @@
+<noinclude>{{SbcHeaderSpanishPod|title=It's Expensive|id=A0033}}</noinclude>
+{{SbcIntroductionSpanishPod}}
+Beware! This is the taboo lesson: rents, salaries, politics, religion, sex, and ... mamas! Liliana and JP give invaluable information about US-American and Latin-American culture. The keywords are: '''cara''' – expensive (for feminine nouns) and '''caro''' – expensive (for masculine nouns).
+{{SbcSourceSpanishPod|[[Spanish by Choice/SpanishPod newbie lesson A0013|A0013: Doing the laundry]], [[Spanish by Choice/SpanishPod newbie lesson A0037|A0037: The baby is sleeping]], [[Spanish by Choice/SpanishPod newbie lesson A0062|A0062: At the bank]]}}
+<noinclude>{{SbcAudioSpanishPod|title=It's expensive|id=A0033|dialogueid=A0033 dialogue}}</noinclude>
+{{SbcDialogueSpanishPod}}
+:{|
+|-
+|align="right"|''hombre:'' || '''Mi renta es de mil dólares.'''<noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0033 line 1}}</noinclude>
+|-
+|align="right"|''mujer:'' || '''¿En serio? Es muy cara.'''<noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0033 line 2}}</noinclude>
+|-
+|align="right"|''hombre:'' || '''Pero todo es caro.'''<noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0033 line 3}}</noinclude>
+|-
+|align="right"|''mujer:'' || '''Tienes razón.'''<noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0033 line 4}}</noinclude>
+|-
+|}
+
+{{SbcDialogueWithTranslationSpanishPod}}
+:{|
+|-
+|align="right"|''hombre:'' || '''Mi''' || '''renta''' || '''es''' || '''de''' || '''mil''' || '''dólares.''' <noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0033 line 1}}</noinclude>
+|-
+|align="right"|  ||''my'' || ''rent'' || ''is'' || ''of'' || ''thousand'' || ''dollars''
+|-
+|align="right"|''man:'' ||colspan=6| My rent is at a thousand dollars.
+|-
+|}
+
+:{|
+|-
+|align="right"|''mujer:'' || '''¿En''' || '''serio?''' || '''Es''' || '''muy''' || '''cara.'''<noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0033 line 2}}</noinclude>
+|-
+|align="right"| || ''in'' || ''serious'' || ''(it) is'' || ''very'' || ''expensive''
+|-
+|align="right"|''woman:'' ||colspan=5| Seriously? It's very expensive.
+|-
+|}
+
+:{|
+|-
+|align="right"|''hombre:'' || '''Pero''' || '''todo''' || '''es''' || '''caro'''<noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0033 line 3}}</noinclude>
+|-
+|align="right"|  ||''but'' || ''everything'' || ''is'' || ''expensive''
+|-
+|align="right"|''man:'' ||colspan=4| But everything is expensive.
+|-
+|}
+
+:{|
+|-
+|align="right"|''mujer:'' || '''Tienes''' || '''razón.'''<noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0033 line 4}}</noinclude>
+|-
+|align="right"|  || ''(you) have'' || ''right''
+|-
+|align="right"|''woman:'' ||colspan=2| You're right.
+|-
+|}
+
+[[Image:United States one dollar bill, obverse.jpg|thumb|'''el dólar''' – the dollar|160px]]
+[[Image:1000 USD note; series of 1934; obverse.jpg|thumb|'''mil dólares''' – one thousand dollars|160px]]
+[[Image:Addesso opie.svg|thumb|'''la cara''' – the face|120px]]
+===Vocabulary for Dialogue===
+:{|
+|-
+|| '''el hombre''' || {{SbcNounM}} || the man
+|-
+|| '''la mujer''' || {{SbcNounF}} || the woman
+|-
+|| '''mi''' || {{SbcPossessiveAdjective}} || my
+|-
+|| '''la renta''' || {{SbcNounF}}|| the rent
+|-
+|| '''ser''' || {{SbcVerbInf}} || to be
+|-
+|| '''(él/ella) es''' || {{SbcVerbPT}} || he/she(/it) is
+|-
+|| '''de''' || {{SbcPreposition}} || of
+|-
+|| '''mil''' || {{SbcNumber}} || thousand
+|-
+|| '''el dólar''' || {{SbcNounM}} || the dollar
+|-
+|| '''los dólares''' || {{SbcNounPM}} || the dollars
+|-
+|| '''en''' || {{SbcPreposition}} || in
+|-
+|| '''serio/seria''' || {{SbcAdjectiveMF}} || serious
+|-
+|| '''muy''' || {{SbcAdverb}} || very
+|-
+|| '''caro/cara''' || {{SbcAdjectiveMF}} || expensive
+|-
+|| '''pero''' || {{SbcConjunction}} || but
+|-
+|| '''todo''' || {{SbcPronoun}} || everything, all
+|-
+|| '''tener''' || {{SbcVerbInf}} || to have
+|-
+|| '''(tú) tienes''' || {{SbcVerbPT}} || you have (informal, singular)
+|-
+|| '''la razón''' || {{SbcNounF}} || the reason
+|-
+|| '''tener razón''' || {{SbcPhrase}} || to be right
+|-
+|}
+
+===Vocabulary for Audio Lesson===
+:{|
+|-
+|| '''la cara''' || {{SbcNounF}} || the face
+|-
+|| '''hasta luego''' || {{SbcPhrase}} || see you later
+|-
+|}
+
+{{SbcMoreVocabularySpanishPod}}
+{|
+|-
+|align="right"| '''mi''' || {{SbcPossessiveAdjective}} || my
+|-
+|align="right"| '''mis''' || {{SbcPossessiveAdjectiveP}} || my
+|-
+|align="right"| '''tu''' || {{SbcPossessiveAdjective}} || your (informal, singular)
+|-
+|align="right"| '''tus''' || {{SbcPossessiveAdjectiveP}} || your (informal, singular) 
+|-
+|align="right"| '''su''' || {{SbcPossessiveAdjective}} || his/her(/its)/their
+|-
+|align="right"| '''sus''' || {{SbcPossessiveAdjectiveP}} || his/her(/its)/their 
+|-
+|align="right"| '''su''' || {{SbcPossessiveAdjective}} || your (formal)
+|-
+|align="right"| '''sus''' || {{SbcPossessiveAdjectiveP}} || your (formal) 
+|-
+|align="right"| '''nuestro/nuestra''' || {{SbcPossessiveAdjectiveMF}} || our 
+|-
+|align="right"| '''nuestros/nuestras''' || {{SbcPossessiveAdjectivePMF}} || our 
+|-
+|align="right"| '''vuestro/vuestra''' || {{SbcPossessiveAdjectiveMF}} || your (informal, plural) 
+|-
+|align="right"| '''vuestros/vuestras''' || {{SbcPossessiveAdjectivePMF}} || your (informal, plural) 
+|-
+|| &nbsp; ||
+|-
+|align="right"| '''ser'''  || {{SbcInf}} || to be
+|-
+|align="right"| '''(yo) soy'''  || {{SbcPT}} || I am
+|-
+|align="right"| '''(tú) eres''' ||  || you are (informal, singular)
+|-
+|align="right"| '''(él/ella) es''' || || he/she(/it) is 
+|-
+|align="right"| '''(usted) es'''  || || you are (formal, singular)
+|-
+|align="right"| '''(nosotros/-as) somos'''||  || we are (m./f.) 
+|-
+|align="right"| '''(vosotros/-as) sois'''||  || you are (informal, plural, m./f.) 
+|-
+|align="right"| '''(ellos/ellas) son'''||  || they are (m./f.) 
+|-
+|align="right"| '''(ustedes) son'''  || || you are (formal, plural)
+|-
+|| &nbsp; ||
+|-
+|align="right"| '''tener'''  || {{SbcInf}} || to have 
+|-
+|align="right"| '''(yo) tengo'''  || {{SbcPT}} || I have
+|-
+|align="right"| '''(tú) tienes''' ||  || you have (informal, singular)
+|-
+|align="right"| '''(él/ella) tiene''' || || he/she(/it) has 
+|-
+|align="right"| '''(usted) tiene'''  || || you have (formal, singular)
+|-
+|align="right"| '''(nosotros/-as) tenemos'''||  || we have (m./f.) 
+|-
+|align="right"| '''(vosotros/-as) tenéis'''||  || you have (informal, plural, m./f.) 
+|-
+|align="right"| '''(ellos/ellas) tienen'''||  || they have (m./f.) 
+|-
+|align="right"| '''(ustedes) tienen'''  || || you have (formal, plural)
+|-
+|}
+
+{{SbcExercisesSpanishPod}}
+<noinclude>====Dialogue Translation====
+Translate from Spanish to English. Click each bar to check your answer. If possible, read the Spanish sentences aloud.
+{{SbcQuestion
+| '''Mi renta es de mil dólares.'''
+| My rent is at a thousand dollars.
+| '''¿En serio? Es muy cara.'''
+| Seriously? It's very expensive.
+| '''Pero todo es caro.'''
+| But everything is expensive.
+| '''Tienes razón.'''
+| You're right.
+}}</noinclude><includeonly>====Dialogue Translation====
+Cover the right column, translate from Spanish to English and uncover the right column line by line to check your answers. If possible, read the Spanish sentences aloud.
+{{SbcQuestionPrint
+| '''Mi renta es de mil dólares.'''
+| My rent is at a thousand dollars.
+| '''¿En serio? Es muy cara.'''
+| Seriously? It's very expensive.
+| '''Pero todo es caro.'''
+| But everything is expensive.
+| '''Tienes razón.'''
+| You're right.
+}}</includeonly>
+<noinclude>====Dialogue Recall====
+Now translate from English to Spanish. Remember to say the Spanish sentences aloud.
+{{SbcQuestion
+| My rent is at a thousand dollars.
+| '''Mi renta es de mil dólares.'''
+| Seriously? It's very expensive.
+| '''¿En serio? Es muy cara.'''
+| But everything is expensive.
+| '''Pero todo es caro.'''
+| You're right.
+| '''Tienes razón.'''
+}}</noinclude><includeonly>====Dialogue Recall====
+Now translate from English to Spanish. Remember to say the Spanish sentences aloud.
+{{SbcQuestionPrint
+| My rent is at a thousand dollars.
+| '''Mi renta es de mil dólares.'''
+| Seriously? It's very expensive.
+| '''¿En serio? Es muy cara.'''
+| But everything is expensive.
+| '''Pero todo es caro.'''
+| You're right.
+| '''Tienes razón.'''
+}}</includeonly>
+<noinclude>====Dialogue Remix====
+Translate this variant of the dialogue from English to Spanish.
+{{SbcQuestion
+| Everything is very expensive.
+| '''Todo es muy caro.'''
+| You are right. My rent is very expensive.
+| '''Tienes razón. Mi renta es muy caro.'''
+| Everything.
+| '''Todo.'''
+| My rent is at a thousand dollars.
+| '''Mi renta es de mil dólares.'''
+| That is very, very expensive.
+| '''Es muy, muy caro.'''
+| Seriously?
+| '''¿En serio?'''
+| Seriously! But everything is very expensive.
+| '''¡En serio! Pero todo es muy caro.'''
+| Everything.
+| '''Todo.'''
+}}</noinclude><includeonly>====Dialogue Remix====
+Translate this variant of the dialogue from English to Spanish.
+{{SbcQuestionPrint
+| Everything is very expensive.
+| '''Todo es muy caro.'''
+| You are right. My rent is very expensive.
+| '''Tienes razón. Mi renta es muy caro.'''
+| Everything.
+| '''Todo.'''
+| My rent is at a thousand dollars.
+| '''Mi renta es de mil dólares.'''
+| That is very, very expensive.
+| '''Es muy, muy caro.'''
+| Seriously?
+| '''¿En serio?'''
+| Seriously! But everything is very expensive.
+| '''¡En serio! Pero todo es muy caro.'''
+| Everything.
+| '''Todo.'''
+}}</includeonly>
+<noinclude>====Dialogue Recast====
+This translation exercise requires some of the words from the [[#More Vocabulary|More Vocabulary]] section.
+{{SbcQuestion
+| Our rent is at a thousand dollars.
+| '''Nuestra renta es de mil dólares.'''
+| Seriously? It's very expensive.
+| '''¿En serio? Es muy cara.'''
+| But everything is expensive.
+| '''Pero todo es caro.'''
+| You're right. (formal)
+| '''Tiene razón.'''
+}}</noinclude><includeonly>====Dialogue Recast====
+This exercise requires some of the words from the More Vocabulary section.
+{{SbcQuestionPrint
+| Our rent is at a thousand dollars.
+| '''Nuestra renta es de mil dólares.'''
+| Seriously? It's very expensive.
+| '''¿En serio? Es muy cara.'''
+| But everything is expensive.
+| '''Pero todo es caro.'''
+| You're right. (formal)
+| '''Tiene razón.'''
+}}</includeonly>
+
+<includeonly>===Image Credits===
+*“Image:United States one dollar bill, obverse.jpg” by the United States government (Public Domain)
+*“Image:1000 USD note; series of 1934; obverse.jpg” by the United States government (Public Domain)
+*“Image:Addesso opie.svg” by Addesso at en.wikipedia (Public Domain)</includeonly>
+<noinclude>{{SbcNavigateSpanishPod|A0030|A0033|A0035}}</noinclude>

@@ -1,0 +1,178 @@
+{{GeneralChemTOC|next=Phase Changes|prev=Liquids}}
+
+== Characteristics of Gases ==
+
+Gases have a number of special characteristics that differentiate them from other states of matter. Here is a list of characteristics of gases:
+
+{{TextBox|1=
+;Characteristics of Gases:
+* Gases have neither '''definite shape''' nor '''definite volume'''. They expand to the size of their container.
+* Gases are '''fluid''', and flow easily.
+* Gases have '''low density''', unless compressed.  Being made of tiny particles in a large, open space, gases are very compressible.
+* Gases '''diffuse''' (mix and spread out) and '''effuse''' (travel through small holes).
+}}
+
+=== Standard Temperature and Pressure ===
+
+{{Wikipedia|Standard conditions for temperature and pressure}}
+
+''Standard Temperature and Pressure'', or '''STP''', is 0 °C and 1 atmosphere of pressure.  Expressed in other units, STP is 273 '''K''' and 760 '''torr'''.  The Kelvin and torr are useful units of temperature and pressure respectively that we will discuss later in the following sections.
+{{-}}
+
+=== Avogadro's Law ===
+
+[[File:Amedeo Avogadro2.jpg|left|thumb|Amedeo Avogadro, the Italian chemist. Avogadro's Law is named after him and his discoveries about the behavior of gases]]
+{{wikipedia|Avogadro's Law}}
+'''Avogadro's Law''' states that equal volumes of gases at the same temperature and pressure contain the same number of molecules. So both one mole of Xenon at STP (131.3 grams) and one mole of helium at STP (4.00 grams) take up 22.4 liters. Even 1 mole of air, which is a mixture of several gases, takes up 22.4 liters of volume. 22.4 L is the standard molar volume of a gas.
+
+{{Eqn|Avogadro's Law}}
+:<math>\frac{V}{n} = k\,</math>.
+
+where:
+:''V'' is the volume of the gas.
+:''n'' is the number of moles of the gas.
+:''k'' is a proportionality constant.
+
+The most important consequence of Avogadro's law is that the '''ideal gas constant''' has the same value for all gases. This means that the constant
+
+:<math>\frac{p_1\cdot V_1}{T_1\cdot n_1}=\frac{p_2\cdot V_2}{T_2 \cdot n_2} = const</math>
+where:
+:''p'' is the pressure of the gas
+:''T'' is the temperature of the gas
+
+has the same value for all gases, independent of the size or mass of the gas molecules.
+{{-}}
+
+=== Pressure ===
+
+Gases exert pressure on their containers and all other objects.  Pressure is measured as force per unit area.  A barometer is a device that measures pressure. There are a number of different units to measure pressure:
+*'''torr''', equal to millimeters of mercury (mm Hg): if a glass cylinder with no gas in it is placed in a dish of liquid mercury, the mercury will rise in the cylinder to a certain number of millimeters.
+*atmosphere ('''atm'''), the pressure of air at sea level.
+*pascal ('''Pa'''), equal to one newton (N) per square meter. A newton is the force necessary to accelerate one kilogram by one meter per second squared.
+
+You should know that '''1 atm = 760 torr = 101.3 kPa'''.
+
+== Ideal Gases ==
+
+{{Wikipedia|Ideal gas}}
+
+Gases are complicated things composed a large numbers of tiny particles zipping around at high speeds. There are a number of complex forces governing the interactions between molecules in the gas, which in turn affect the qualities of the gas as a whole. To get around these various complexities and to simplify our study, we will talk about '''ideal gases'''.
+
+An ideal gas is a simplified model of a gas that follows several strict rules and satisfies several limiting assumptions. Ideal gases can be perfectly modeled and predicted with a handful of equations.
+
+Ideal gases follow, among others, these important rules:
+
+{{TextBox|1=
+'''Rules of Ideal Gases'''
+
+# The molecules that make up a gas are point masses, meaning '''they have no volume'''. 
+# Gas particles are spread out with very great distance between each molecule. Thus, '''intermolecular forces are essentially zero''', meaning they neither attract nor repel each other.
+# If collisions do occur between gas particles, these '''collisions are elastic''', meaning there is no loss of kinetic (motion) energy.
+# Gas molecules are in '''continuous random motion'''.
+# Temperature is directly proportionate to kinetic energy.
+}}
+
+{{Info|'''Note:''' Ideal gases never truly exist (because the nature of gases is so complicated), but gases are often close enough to an ideal gas that the equations still hold fairly accurate.}}
+
+=== Ideal Gas Law ===
+
+Ideal gases can be completely described using the '''ideal gas law''':
+
+{{Eqn|Ideal Gas Law}}
+:<math>\ pV = nRT   </math> 
+
+where 
+:<math>\ p  </math> is the absolute pressure of the gas, 
+:<math>\ V  </math> is the volume of the gas,
+:<math>\ n  </math> is the number of moles of gas,
+:<math>\ R  </math> is the ideal gas constant,
+:<math>\ T  </math> is the absolute temperature, in Kelvin.
+
+=== Ideal Gas Constant ===
+
+{|  class="wikitable" style="float: right;"
+! Values of ''R''
+! Units
+|-
+| 8.314&thinsp;472(15)
+|  J&thinsp;K<sup>&minus;1</sup>&thinsp;mol<sup>&minus;1</sup>
+|-
+| 8.314&thinsp;472(15) 
+| m<sup>3</sup>&thinsp;Pa&thinsp;K<sup>&minus;1</sup>&thinsp;mol<sup>&minus;1</sup>
+|- 
+| 8.314&thinsp;472(15)
+| cm<sup>3</sup>&thinsp;MPa&thinsp;K<sup>&minus;1</sup>&thinsp;mol<sup>&minus;1</sup>
+|-
+| 0.082&thinsp;057&thinsp;46(14)
+| L&thinsp;atm&thinsp;K<sup>&minus;1</sup>&thinsp;mol<sup>&minus;1</sup>
+|- 
+| 62.363&thinsp;67(11)
+| L&thinsp;Torr&thinsp;K<sup>&minus;1</sup>&thinsp;mol<sup>&minus;1</sup>
+|-
+|}
+
+The ideal gas constant, ''R'',  is a constant from the ideal gas equation, above, that helps to relate the various quantities together. The gas constant represents the same value, but the exact numerical representation of it may be different depending on the units used for each term. The table at right shows some values of ''R'' for different units. Here is the value of ''R'' using Joules for energy, Kelvin for temperature, and moles for quantity:
+
+{{eqn|Ideal Gas Constant}}
+:<math>R = 8.314472\ \ JK^{-1}mol^{-1}</math>
+
+{{-}}
+
+=== Real Gases ===
+
+All '''real gases''' (or ''non-ideal'' gases) deviate from the ideal gas laws that we discussed above. These deviations can occur for several reasons:
+
+* Real molecules have mass and volume. They are too big and no longer behave like ideal point masses
+* Low volumes and high pressures cause molecules to be close enough for intermolecular forces.  Polar molecules exaggerate the problem.
+* Low temperature means low kinetic energy. At lower temperatures, intermolecular forces become significant and cannot be ignored like they are in ideal gasses
+* Other complicated factors may prevent ideal behavior.
+
+When these issues are present, gas molecules attract each other, and may even condense into a liquid.  Gases act most like ideal gases when the molecules have low mass (small volume), are not polar, and are at high temperature and low pressure. Noble gases like Xenon or Argon act the most like ideal gases because they are mostly electrical neutral and non-interactive.
+
+==Kinetic Molecular Theory==
+This theory describes why gases exhibit their properties.  It only applies accurately to ideal gases.  Because there is no such thing as an ideal gas, the '''Kinetic Molecular Theory''' can only approximate gas behavior. It is still very useful to chemists.
+
+{{Wikipedia|Kinetic theory}}
+
+The Kinetic Molecular Theory explains the pressure, temperature, kinetic energy, and speed of gases and their molecules.  See Wikipedia for the exact equations of the Kinetic Molecular Theory, as well as detailed explanations.  What is most important is understanding the general concepts, not the specific equations.
+
+=== Kinetic Energy and Temperature ===
+Kinetic energy is the mechanical, or movement, energy.  It is given by the equation:
+
+: <math>KE = \frac{1}{2}mv^2_{rms}</math>
+
+where
+:<math>m</math> is mass and
+:<math>v_{rms}</math> is the average velocity
+
+Explained with words, kinetic energy is dependent on the product of a particle's mass and its velocity squared.  The more kinetic energy, the faster a particle moves.  Conversely, the faster a particle moves, the more kinetic energy it has.
+
+The Kinetic Molecular Theory states that kinetic energy and temperature are directly proportionate.  Thus, a double in temperature will result in a double in kinetic energy and an increase in velocity by a factor of 1.4 (the square root of 2, see the KE equation). This means that the higher the temperature of a gas, the faster the individual particles in that gas are moving.
+
+A hotter gas has more kinetic energy than a colder gas.  If two gases are at the same temperature, they will have the same kinetic energy.  The lighter-massed gas will have a higher average speed for its particles at the same energy level.  It is important to know that gas temperature '''must be measured in kelvin'''.  Zero degrees Celsius is 273 kelvin.  One Celsius degree is equal to one kelvin, but the kelvin scale has water's freezing point at 273 and boiling point at 373.  It is necessary to use kelvin because temperatures must always be positive when using the Kinetic Molecular Theory.
+
+{{TextBox|1=
+;Question for the reader:
+A gas's temperature is increased from 20 °C to 40° C.  What factor does its kinetic energy increase?  Velocity?
+}}
+
+{{Info|Keep in mind that gases are all about averages. For a temperature increase, there will be an average increase in the kinetic energy of the particles in that gas. Even in a very hot gas there will be some particles moving very slowly. However, the average will be high.}}
+
+=== Pressure and Collisions ===
+
+Pressure exists because the gas molecules are in continuous random motion, and they will constantly strike the walls of their container.  Pressure will increase as the speed of the molecules increases, due to greater forces of collision.  Pressure will also increase as the mass of the molecules increase.  A small, slow molecule has less momentum than a large, fast molecule, which explains their difference in pressure.
+
+{{TextBox|1=
+;Question for the reader:
+There are two jars of ideal gas, for example.  In Jar A there is nitrogen gas (N<sub>2</sub>).  In Jar B there is methane gas (CH<sub>4</sub>).  Both jars are at the same temperature.  Which will have greater pressure?
+}}
+
+{{TextBox|1=
+;Question for the reader:
+Now, Jars A and B both have propane gas (C<sub>3</sub>H<sub>8</sub>).  Jar A is at 300 K and Jar B is at 500 K.  Which will have greater pressure?
+}}
+
+{{BookCat}}
+
+[[es:Química/Propiedades de los gases]]
+[[pt:Introdução à Química/A fase gasosa]]

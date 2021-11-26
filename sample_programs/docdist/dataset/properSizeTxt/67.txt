@@ -1,0 +1,135 @@
+[[Development Cooperation Handbook/Designing and Executing Projects/Detailed Planning or design stage|Detailed Planning or design stage]]
+<br />
+
+According to the [http://www.pmi.org PMI] terminology, project detailed planning  is the third stage of the [[Development Cooperation Handbook/Designing and Executing Projects/Project Phases|project life]].  It follows [[Development Cooperation Handbook/Designing and Executing Projects/Project initiation stage|project initiation]] and is followed by [[Development Cooperation Handbook/Designing and Executing Projects/Project Execution and Control|project execution and control stage]]. 
+
+In project detailed planning we list all the requirements that will be needed by the executing team in order to deliver the expected project outputs within the agreed  costs and time frames.
+
+''(Note: Planning is not a rigid cage: it is the set of [[Development Cooperation Handbook/Definitions/Baseline|baseline]] decisions that leads the action and as new events occur, evaluation and re-planning is required in order to change the basic design and confront the events with congruity of purpose.)'' 
+
+In the [[Development Cooperation Handbook/Designing and Executing Projects/Project initiation stage|project initiation]] we identified project objectives and outputs, now in project detailed planning we identify:
+* the activities required to produce and deliver the outputs,
+* the resources required 
+* the time required.
+
+In detailed planning we divide the whole action into tasks and figure out the time and the resources, both human and material, required for each task.  Then we calculate the cost necessary for performing each tasks, calculate the cost of the whole project and decide how to raise the financial resources required for covering these costs. Finally we decide how we  assign the tasks to the persons who will execute them, how we will select them and how we will supervise and coordinate them.
+
+
+== The Work Breakdown Structure == 
+
+At the core of project designing, is the development of a '''Work Breakdown Structure''' (WBS), i.e. a hierarchical structure that is used to organize tasks for reporting schedules and tracking costs. Generally new WBS are re-adaptations of WBS already used in earlier projects. Modifications are based on lessons learned from the previous projects, on the new need analysis of the context of the new project and on the structure and competences of the new work team. That is why it is desirable that at this stage the person designated to be the project manager is involved directly in this phase, so as to allow her/him to contribute in designing and not treat her/him just as an implementer. Specific development sectors generally include typical development activities. Good organizations record their knowledge in Books recording sector of activity standards for use by cost and schedule estimators.
+
+The WBS creation involves: 
+<br> 
+[[File:Work Breakdown Structure and Schedule.gif|right|517px|Work Breakdown Structure and Schedule]]
+*Listing all the project outputs (deliverables and other direct results); 
+*The identification of all the activities required to deliver the outputs. 
+*The subdivision of these activities into sub-activities and tasks. 
+*The identification of the deliverable and milestone(s) of each task 
+*The identification of the time usage of all the resources (personnel and material) required to complete each task.
+<br>
+The purpose of developing a WBS is to: 
+*Allow easier management of each component. 
+*Allow accurate estimation of time, cost, and resource requirements. 
+*Allow easier assignment of human resources. 
+*Allow easier assignment of responsibility for activities).
+
+This proceeds according the following steps:
+* Activity Definition
+* Activity Sequencing
+* Activity Resource Estimating
+* Activity Duration Estimating
+* Schedule Development 
+* and describe the choices made in the [[Development_Cooperation_Handbook/Templates/The_project_Plan_Document|project plan document]], that is the deliverable that terminates the designing phase. 
+
+See more details in ⇒ [[File:Swiss_sknife.png|14px]] [[Development Cooperation Handbook/Designing and Executing Projects/Guidelines/How to prepare a detailed project plan document|Guideline: how to prepare a detailed project plan document]]
+
+
+In Development Cooperation Projects a project plan will generally also include "logical framework   that summarizes the plan and represents it in a table showing the inter linkages between objectives, outputs, activities, resources, presuppositions and indicators and sources of information .  (see the [[Development_Cooperation_Handbook/Designing_and_Executing_Projects/Logical_Framework_Approach|logical framework]])
+
+== Deciding Project Action Methodology ==
+
+In a sense there is no fundamental difference between describing the activities and describing the methodology.
+
+However it is a good practice to make explicit statements about the way the project decisions are participated and how the project results will lead to a non-ephemeral change (i.e. how the project will be sustainable.
+
+[[Image:Swiss_sknife.png|20px]] [[Development Cooperation Handbook/Designing and Executing Projects/Guildelines/How can we plan a project so as to ensure that is sustainable?|Guildeline: How can we plan a project so as to ensure that is sustainable?]]
+
+== The Project Plan Document ==
+
+The Project Plan Document is the deliverable that terminates the designing phase (and opens the of execution phase of the programme cycle management) is the Project Management stages. 
+
+Once the Project Plan Document is ready some organization prepare a Project Charter, i.e. a smaller version of the document to be made available to all project stakeholders - everyone who may associated with the project, reaching as wide an audience as practical. 
+
+[[Image:Swiss_sknife.png|20px]] [[Development Cooperation Handbook/Designing and Executing Projects/Guidelines/How to prepare a detailed project plan document|Guideline: How to prepare a detailed project plan document]]
+<br />
+[[Image:Swiss_sknife.png|20px]]  [[Development Cooperation Handbook/Templates/The project Plan Document|Template The project Plan Document]]
+
+A project plan will generally also include a Logical Framework 
+
+By the term [[Development Cooperation Handbook/Definitions/Baseline|"baseline"]] in general we refer to the conditions that exist at a given point, usually the start point, of an activity, study, or project. Establishing the project baseline (i.e. The  project Plan Document approved by the project sponsors)  is the formal end of the planning phase and the beginning of project execution and control.   
+
+This baseline is the reference meter for the project manager for budget, schedule, and project scope. After the initial iterative planning process, the planning baselines must be frozen, i.e. the executing team should not be able to modify it without the prior consultation and approval from the major stakeholders and sponsors who agreed to the project charter. 
+
+''Note: It is advisable if the project plan considers also the standard procedures for authorization of changes in the project scope, budget, schedule.  (see [[Development Cooperation Handbook/Designing and Executing Projects/Project Execution and Control/Manage Change Control Process|Manage Change Control Process]])''
+
+== Tools for Project Detailed planning ==
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Stakeholde_Roles.pdf Template for Project stakeholder Roles and Responsibilities] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Responsibility_Matrix_Template.pdf Project Stakeholder Responsibility Matrix] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Management_Plan.pdf Template: Project Management plan] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Risk_management_plan.pdf Template: Risk Management Plan] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Training_plan.pdf Template: Project team training plan] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Communication_Plan_Template.pdf Template: Project Communication Plan] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Action_Plan.pdf Action plan] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_resource_sheet.pdf Project Resource Sheet] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Human_Resource_Plan.pdf Human Resource Plan] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Action_Plan_with_Resource_Usage.pdf Action Plan with Resource Usage] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [[Development Cooperation Handbook/Designing and Executing Projects/Logical Framework Approach|Logical Framework]] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [[Development Cooperation Handbook/Templates/The project Plan Document|The project Plan Template]]
+
+[[Image:Swiss_sknife.png|20px]][[Development Cooperation Handbook/Designing and Executing Projects/Detailed Planning or design stage/The steps for Creating a budget|The steps for creating a budget]]
+
+[[Image:Swiss_sknife.png|20px]] [[Development Cooperation Handbook/Designing and Executing Projects/Guildelines/How can we plan a project so as to ensure that is sustainable?|Guildeline: How can we plan a project so as to ensure that is sustainable?]]
+
+==== Evaluation of the Project Plan ====
+
+[[Image:Swiss_sknife.png|20px]]     [http://commons.wikimedia.org/wiki/File:Decision_Process_Checklist.pdf Project Decision Process Checklist] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Planning_Checklist.pdf Project Planning Process Report] <br />
+
+[[Image:Swiss_sknife.png|20px]] [[Development Cooperation Handbook/Designing and Executing Projects/Detailed Planning or design stage/How do you create budgets and track costs against them?|How do you create budgets and track costs against them?]]
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Plan_Evaluation_Checklist.pdf Project Plan Evaluation Checklist] <br />
+
+[[Image:Swiss_sknife.png|20px]]    [http://commons.wikimedia.org/wiki/File:Project_Review_Worksheet.pdf Worksheet for Project Auditing and Review]<br />
+
+==== Examples of Project Plans ====
+⇒ [http://commons.wikimedia.org/wiki/File:Example_of_Grant_application_EU_projects_-_EUGAD.pdf The Eugad project grant aplication]<br />
+
+== See also ==
+[[File:Script.png]]  In the documentary story  ⇒ [[Development Cooperation Handbook/The video resources linked to this handbook/The Documentary Story/Project approved!|Project approved!]] <br> 
+
+* on Wikipedia
+:[[File:600X WIKIPEDIA LOGO.svg|14px]]  [http://en.wikipedia.org/wiki/Project_planning Project planning]
+
+:[[File:600X WIKIPEDIA LOGO.svg|14px]]  [http://en.wikipedia.org/wiki/Project_management#Planning_and_design Project management: Planning and design]
+
+:[[File:600X WIKIPEDIA LOGO.svg|14px]]  [http://en.wikipedia.org/wiki/Work_breakdown_structure Work breakdown structure]
+
+
+
+
+
+{{BookCat}}

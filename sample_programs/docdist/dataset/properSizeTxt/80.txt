@@ -1,0 +1,132 @@
+Analysis of the journal article: "Exercise improves quality of life in indigenous Polynesian peoples with type 2 diabetes and visceral obesity." - (2013).
+
+== What is the background to this research? == 
+
+Historically, Polynesians were known to be some of the largest people in the world in size and stature.<ref>Houghton P, Leach BF, Sutton DG. The Estimation of Stature of Prehistoric Polynesians in New Zealand. The Journal of the Polynesian Society. 1975; Vol. 84(No. 3):325-36.</ref> In more recent times, Polynesians have been plagued by health complications including chronic diseases such as Type 2 Diabetes Mellitus (T2DM) and are now known as the ‘largest’ people on Earth according to various World Obesity Rankings.<ref>"Health Topics, Obesity". World Health Organisation. Retrieved September 2017.</ref>
+
+In New Zealand, research indicates Polynesians have three times the prevalence of T2DM, are more likely to have comorbidities (chronic obesity, cardiovascular disease etc.); and score lower in health surveys measuring Quality of Life (QoL) than the general population.<ref>Ministry of Health. A portrait of health:  Key results of the 2006/2007 New Zealand Health Survey. Wellington, 2008.</ref><ref name=four>Scott K, Tobias M, Sarfati D, Haslett S. SF-36 health survey reliability, validity, and norms for New Zealand.  Australian and New Zealand Journal of Public Health. 1999, 23:401-406.</ref>  To alleviate such a burden and improve health outcomes; this study was conducted to evaluate the effects of exercise interventions on the QoL of Indigenous Polynesian peoples afflicted by T2DM and Visceral Obesity.
+
+== Where is the research from? == 
+
+A Massey University Research Grant funded this study, and research was conducted in Porirua, New Zealand.<ref name=five>Sukala W, Page R, Lonsdale C, Lys I, Rowlands D, Krebs J, Leikis M, & Cheema BS. Exercise Improves Quality of Life in Indigenous Polynesian Peoples with Type 2 Diabetes and Visceral Obesity. Journal of Physical Activity and Health. 2013 10:5, 699-707.</ref> The study was published in ''The Journal of Physical Activity and Health Vol 10 Issue 5, July 2013,'' and was a collaboration between eight authors across various universities and institutions: Southern Cross University, Massey University, University of Western Sydney, Charles Darwin University, University of Otago, & The Capital and Coast District Health Board.<ref name=five/>
+
+The main author, Dr William Sukala (Exercise Physiologist), has extensive experience in clinical health care and published research in the areas of morbid obesity, physical inactivity, and Type 2 Diabetes.<ref name=six>Sukala W. Website: https://www.drbillsukala.com.au/about/. Accessed September 2017.</ref> He has appeared in mainstream health magazines, journals, and websites and is frequently quoted and interviewed by major media outlets and has spoken at conferences around the world.<ref name=six/>
+
+== What kind of research was this? == 
+
+Due to cultural implications with participants, the research design was adjsuted as a ''Randomized Controlled Trial'' only comparing resistance training to non-exercise; to a trial that assessed both ''resistance'' and ''aerobic'' training, thus excluding a non-exercise control group.<ref name=five/>
+
+Indigenous Cultural consultants and the Central Regional Ethics Committee, NZ, reviewed and permitted all study procedures.<ref name=five/>
+
+== What did the research involve? ==
+
+Participants were referred by local health care professionals, completed pre-medical screening and then were assessed against a specific list of selection criteria.<ref name=five/>  Once deemed eligible, participants were randomly assigned to exercise interventions over 16-weeks: aerobic or resistance.<ref name=five/> Both exercise groups trained three sessions per week, ranging from 40-60mins in duration.<ref name=five/>
+
+''The Medical Outcomes Trust Short Form-36 Health Survey (SF-36)'' was used to assess participants QoL which included a ''Physical Component Summary (PCS)'', and a ''Mental Component Summary'' ''(MCS)''.<ref name=five/>  All training and survey data was recorded before and after the 16-week period.<ref name=five/>
+
+== What were the basic results? == 
+
+After the 16-week exercise intervention, there was a significant improvement in scores of all domains of QoL for both training groups.<ref name=five/> Specifically, the resistance training prescription improved scores in more domains than the aerobic training.<ref name=five/>
+
+In general, there was moderate to significant improvements in all domains, even in the physical and mental component summaries from pre to post intervention.<ref name=five/>
+
+The table represents the changes in QoL for both groups from total data collected in the study.<ref name=five/>
+{| class="wikitable"
+|'''OUTCOME MEASURES'''
+|'''Week  0'''
+|'''Week  16'''
+|'''%Change'''
+|-
+|'''Domain Scores:'''
+|
+|
+|
+|-
+|Physical Functioning
+|65.9 ± 27.5
+|87.9 ± 18.2
+|<nowiki>+22%</nowiki>
+|-
+|Role-Physical
+|69.1 ± 35.9
+|88.2 ± 26.7
+|<nowiki>+19%</nowiki>
+|-
+|Bodily Pain
+|66.7 ± 16.9
+|78.8 ± 21.5
+|<nowiki>+12%</nowiki>
+|-
+|General Health
+|51.1 ± 26.4
+|70 ± 21.3
+|<nowiki>+22%</nowiki>
+|-
+|Vitality
+|51.8 ± 19.8
+|73.8 ± 16
+|<nowiki>+22%</nowiki>
+|-
+|Social Functioning
+|72.8 ± 20.8
+|0.4 ± 12.9
+|<nowiki>+18%</nowiki>
+|-
+|Role-Emotional
+|76 ±39.3
+|90.4 ± 12.9
+|<nowiki>+18%</nowiki>
+|-
+|Mental Health
+|80 ± 10.4
+|5.4 ± 9.3
+|<nowiki>+5%</nowiki>
+|-
+|'''Summary Scores:'''
+|
+|
+|
+|-
+|Physical Component
+|41 ± 12.1
+|9.4 ± 10.1
+|<nowiki>+8%</nowiki>
+|-
+|Mental Component
+|1.5 ± 8.2
+|6.6 ± 3.8
+|<nowiki>+5%</nowiki>
+|}
+Fig.1.<ref name=five/> Note: all data expressed as mean ± SD.
+
+== What conclusions can we take from this research? == 
+
+The results of the study showed that exercise, regardless of type, significantly improved the QoL of the Polynesian participants to near equivalent or greater levels than the general New Zealand population.<ref name="five" /> This is noteworthy given that QoL norms are both lower in Indigenous Polynesian peoples and populations that are afflicted by T2DM and comorbidities.<ref name="four" />
+
+A previous study led by Sukala showed the positive metabolic effects exercise has on Polynesian populations with T2DM and comorbidities<ref name="seven">Sukala W, Page R, Rowlands D, et al. South Pacific Islanders resist type 2 diabetes: Comparison of aerobic and resistance training European Journal of Applied Physiology. 2012;112(1):317-325.</ref>, subsequently, this study is the first to evaluate the effect exercise has on QoL within the same cohort.<ref name="five" />  Similar trials using similar methodologies as this study have found mixed results with other populations, possibly due to differences in exercise interventions, cohorts, or questionaries, to name a few.<ref>Reid, R. Effects of aerobic exercise, resistance exercise or both, on patient-reported health status and well-being in type 2 diabetes mellitus: a randomised trial. Diabetologia. 2010. 53(4), pp.632-640.</ref><ref>Kaplan R, Hartwell S, Wilson D, Wallace J. Effects of diet and exercise interventions on control and quality of life in non-insulin-dependent diabetes mellitus. Journal of General Internal Medicine. 1987; 2:220-228.</ref>
+
+The researchers carefully considered many aspects involved in this study, e.g. no control group - cultural considerations, physical & mental health status pre and post intervention.<ref name=five/>
+
+== Practical Advice == 
+
+There is a consensus in the health industry that exercise can have lasting positive effects on QoL and all aspects of health in general, and this study’s findings reiterate that within a Polynesian population afflicted by T2DM and Obesity.<ref name=five/><ref>Warburton DER, Nicol CW, Bredin SSD. Health benefits of physical activity: the evidence. CMAJ: Canadian Medical Association Journal. 2006;174(6):801-809. doi:10.1503/cmaj.051351.</ref> Despite a need for more research, this study presents an opportunity for Polynesian people to use these findings as motivation to participate in regular exercise, and work towards positive health outcomes within their respective communities.  The social benefits of group based exercise aren’t measured in this study, but are known to have positive ramifications within populations and should only add motivation for Polynesian peoples to get active together.<ref>Eime RM, Young JA, Harvey JT, Charity MJ, Payne WR. A systematic review of the psychological and social benefits of participation in sport for children and adolescents: informing development of a conceptual model of health through sport. The International Journal of Behavioural Nutrition and Physical Activity. 2013; 10:98. doi:10.1186/1479-5868-10-98.</ref> 
+
+Recent studies alike further emphasise the benefits exercise can have on the health outcomes of various populations with low QoL and comorbidities such as Polynesians.<ref name=five/><ref>Sushames A, Van Uffelen JGZ, Gebel K. Do physical activity interventions in Indigenous people in Australia and New Zealand improve activity levels and health outcomes? A systematic review. The International Journal of Behavioural Nutrition and Physical Activity. 2016; 13:129.</ref><ref>Asano RY, Sales MM, Browne RAV, et al. Acute effects of physical exercise in type 2 diabetes: A review. World Journal of Diabetes. 2014;5(5):659-665.</ref>
+
+Undoubtedly, exercise should be an integral part in the lives of Polynesian peoples and the general population to improve QoL and attain positive health outcomes for the future.
+
+== Further Information ==
+
+''' Diagnosis and Management of the Diabetes Epidemic in the Pacific Islands: ''' http://www.alere.com/en/home/viewpoints/diagnosis-management-diabetes-pacific-islands.html
+
+''' Obesity & Diabetes Burden in The Pacific (Research Article): ''' Hawley, N.L. & McGarvey, S.T. Curr Diab Rep (2015) 15: 29. https://doi.org/10.1007/s11892-015-0594-5
+
+''' WHO Pacific Adult Physical Activity Guidelines: ''' www.who.int/dietphysicalactivity/publications/pacific_pa_guidelines.pdf
+
+''' Intiative to Use Sport for Development in the Pacific: ''' http://dfat.gov.au/people-to-people/sport/sport-for-development/pacific/Pages/sport-for-development-pacific.aspx
+
+'''Dr Bill Sukala Information: ''' https://www.drbillsukala.com.au/
+
+== References ==
+{{reflist}}
+{{BookCat}}

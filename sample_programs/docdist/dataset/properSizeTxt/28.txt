@@ -1,0 +1,114 @@
+Some thoughts about the organization of this text: 
+
+Since this book is primarily about art in a visual medium, should it be retititled "Visual Art" or perhaps even more narrowly focused? 
+
+Also, since the history of visual art and the techniques of visual art are each such vast subjects, should they not be split into separate books?
+
+Is the focus to be more on "fine" or "commercial" art?
+
+There are whole sections of "Visual Art" that are left out in the rough outline, such as engraving, woodcuts, and printmaking generally. 
+
+Has anyone considered the image requirements such a project will really require? Most art books I have read have at least hundreds of images in them, and this one seems to require many thousands. How will so many images be sourced?
+
+I realize that a lot of these questions might seem like splitting hairs, but I think that the scope of the project should be more clearly outlined. Additionally, I think that the present scope of this text is too wide, and might be off-putting to potential authors.
+
+My idea is to split this book into several smaller, more easily managable topics, rather than have the single omnibus of "Art".Some suggestions for splitting the single subject into more manageable chunks would be along these lines:
+*A History of the Visual Arts
+*The Techniques of Fine Art
+*The Techniques of Graphic Art (or Commercial Art)
+*Other refinements as necessary. (e.g. "A History of Fine Art Techniques from the Middle Ages Through the Present")
+
+--[[User:Chuckhoffmann|Chuck Hoffmann]] 17:56, 19 Nov 2004 (UTC)
+
+:It seems to me that what you have here is the foundation for an "Art 101".  Other people are delving in-depth into individual works.  You have the makings of a good introduction to those more in-depth works.
+
+--[[User:203.113.235.149|203.113.235.149]] 11:16, 17 Dec 2004 (UTC)
+
+a couple of thoughts: as an art appreciation teacher, I like the idea of an "Art 101" resource designed to introduce readers to what art is, various art media/methods, a basic overview of art history, etc.  Very useful for art history/art appreciation students & people who just love art & want to expand their knowledge.  Splitting the book as Chuck Hoffman suggests seems reasonable for the purposes of managability, but might not result in a single resource for people who want a very basic intro to the visual arts, art appreciation, etc.  Also, as a writer mentions later, it seems to me that it would be a bit tragic if this turned into just a manual of techniques for artists, though such a manual should certainly exist!  Anyway, I'm not sure what the solution is in terms of whether to split this work into smaller books or keep as a broad overview of the visual arts.  However, in defense of the latter, following is how I organize my art appreciation classes (I've also seen an organization like this in many art appreciation textbooks) -- it is similar to the organization you have so far, but with some key differences & condensations.  Maybe useful...?
+*Introduction (organization of the course(book); what is art; how art is used, enjoyed, and displayed; museums and galleries)
+*The Artist (who makes art; the role of the artist in different cultures; the creative process)
+*Media/Methods (basic overview of media/methods -- similar to the list that already exists, but the stuff in appendix B could easily be incorporated into a media/methods chapter)
+*Elements of art (line, shape, color, texture, etc.; stylistic categories)
+*Methodologies for Examining art (formal analysis, social/cultural analysis, biographical analysis, feminism, psychoanalysis, etc.)
+*Art History (very basic overview -- Paleolithic/Antiquity/Medieval/Renaissance/Modern/Contemporary)
+Anyway, it looks really promising & I'll try to add some material to the sections that already exist as time permits.
+--[[User:robotkultur|robotkultur]] 28 Jan 2005
+
+== re: categorisation of comics ==
+
+As you noted, comics aren't a method of drawing, they're a method of representing the flow of time via static art, and you have drawn comics, painted comics, photo comics etc.  Though AFAIK, noone's ever done it, theoretically  you could probably even have sculpture comics.
+
+Comics are underrepresented in art texts and it would be a shame to leave that section out.  I think probably the best place for the comics section is linked from the representative art section.  I probably wouldn't leave the link on the master contents page though, unless you intend to have a number of subitems under representative art.
+--[[User:203.113.235.149|203.113.235.149]] 08:26, 9 Dec 2004 (UTC)
+
+
+:In a broad but real sense much of the Disney park experience is a comic in sculpture form, as are wax museums and similar displays. :)--[[User:R Hole Jr|R Hole Jr]] 00:03, 17 Dec 2004 (UTC)
+
+::I'm not familiar with Disney park or wax museums in detail, but if the sculptures tell a sequential story then they could probably loosely be called comics, though we'd probably be breaking new ground in doing so...
+--[[User:203.113.235.149|203.113.235.149]] 11:16, 17 Dec 2004 (UTC)
+
+The concept of sculpture that portrays a linear narrative is not new, early babylonian artists worked mainly in this form. It is usually refered to as a 'tableux' in the round or a 'frieze' in relief.
+Not wishing to be too much of a negative contributor I would like to say that there is far more information here if you simply be more precise in the language that you use. Comic means 'funny', most comics that we think of (graphic novels) are drawn as carcature, or as bon desiné in the form of storyboards (a technique also used for film, video, animation and even graphic design). there is a massive area of british art history that revolves around caricature and political satire by artists such as William Hogarth. As for cartoon, it simply means preliminary drawing or sketch, see Leonardo Da Vinci's Cartoon for the madona and child.
+Disney's theme parks are fine examples of theatre design.
+
+[[User:80.0.168.8|80.0.168.8]] 01:09, 28 Feb 2005 (UTC)
+
+The late great Will Eisner tried to retitle the art of "Comics" as Sequential Art. However, comics theorist Scott McCloud in his 1990 graphic novel Understanding Comics defined the art form again as Comics: Juxtaposed pictorial and other images in deliberate sequence, intended to convey information and/or to produce an aesthetic response in the viewer. I tend to disagree with the "deliberate" part as experimental Dada-esque comics such as 5 Card Nancy [http://www.scottmccloud.com/inventions/nancy/nancy.html] (invented by McCloud himself!) show that random sequencing is equally as valid. Also, comics theorist Neil Cohn and others would argue that they would rather bring respect to the word Comics than find a respected word to bring to the artform. I tend to agree. 
+
+As for the history of comics, again I sight McCloud and UC: Comics have a history that can be traced to the pre-Columbian picture manuscript "Ocelot's Claw", the Bayeux Tapestry detailing the Norman Conquest, and even some Egyptian Hieroglyphics such as the one he sights from Menna's tomb. 
+
+As for the future of comics, I myself am building 3D comics in virtual space using the MUVE platform of Second Life. In the classroom my students are working on "Site Specific Comics": installation works that bring a narrative to a place, about that place, while in effect changing it.--Anthony 19:25, 5 February 2007 (UTC)
+
+== re: the scope and general TOC of this text ==
+I would agree that if it's only covering visual arts it should be renamed to reflect that, so that performing or audio arts texts could be added elsewhere. I'm also rather confused from the layout of the TOC whether this is primarily intended as a how-to/method guide (for artists) or a history/introduction guide (for viewers). There's use for both of course. I'm just not sure of the intent of the organizer. Any enlightenment would be appreciated, so I don't head off in an unintended direction. --[[User:R Hole Jr|R Hole Jr]] 00:03, 17 Dec 2004 (UTC)
+
+
+
+Isn't this something we just decide: what we want this book to be?  I agree that we need to make some serious decisions about what this is going to be.  I'd be most interesting in turning what we've got into a manual on techniques (Fine and Commercial are so similar when it comes to ''technique'' I hate to separate them).  Maybe an introduction to developing techniques rather than a dictionary of techniques?  In this context art history could fit in as an artistic discipline.  Then we would only be responsible for laying a groundwork for further investigation instead of actually trying to present any cohesive history of art.
+
+--[[User:Mstults|Matt S]] 11:07, 1 Jan 2005 (UTC)
+
+
+Seems to me that this is already headed in the direction of an overview for an Art Appreciation class and would be best to continue in that direction. Although it certainly needs more sections, keeping them brief, with the addition of a good bib at the end of each section would also be really helpful to both the student as well as the general reader. I plan on doing some writing myself on one or two of the sections, hopefully in the next couple of days. Leigh[[User:Bdswagger|Bdswagger]] 08:28, 6 July 2006 (UTC)
+
+== Fine & Commercial Art? ==
+
+I am really suprised to see people still using the old labels for art school courses '''Fine Art''' and '''Commercial Art'''.
+I thought these were put to bed in the early sixties. Most people refer to them as '''Visual art''' now - it avoids that weird critic driven attempt to add expensive sounding mystique. Visual art by itself is adequate to describe contemporary art, painting, sculpture, and all the usual suspects (fashion, textiles, film, video, animation, ceramics (please dont call it pottery) even performance). 
+all of the above are comercial, how else could you make a living from them? If you really need to make a distinction between the arts that are done for exhibition and those done for some commercial application (which in my experience tend to merge anyway) just call them by their names, design, product design, illustration, typography, calligraphy etc.
+
+sorry to go off on one at my first visit, just seem to spend a lot of my time dealing with this stuff.
+the wikibook is a fantastic idea and the TOC looks like a really good start. remember to try and keep creative yourself while writing it.
+
+Oh yes i am going to change the word Sculpting to sculpture in the TOC, sculpting is a dubious present participal for sculpture and as such it doesn't work as a descriptive for the activity 'Sculpture'. 
+Someone is a sculptor
+they work in the discipline of sculpture
+when they make something they sculpt
+it can then be said to be sculpted
+they could be said to be sculpting at any particular moment - but more likely would use the description that fits the activity i.e. carving or modelling
+
+[[User:80.0.168.8|80.0.168.8]] 01:47, 28 Feb 2005 (UTC)
+
+Maybe we can advertise for help in various art fourms such as conceptart.org, gfxartist.com, deviantart.com and others. I'm sure that conceptart would love to help write an "everything visual arts" book.
+
+
+
+
+I started a book [[Art_Tutorials]] which is trying to be strictly tutorials, tips, techniques, and lessons. Someone posted in my book that it should be merged with this one. After reviewing this book, I don't think it should. This book states that it will eventually have lessons or something of the sort, but with the actual direction of the book, i don't think it should. I don't think a tutorials book needs a section on "What is art" nor an overview of each medium as a main point. The intro also states that this book itself is only an overview book. I think there needs to be something more indepth, which [[Art_Tutorials]] was intended to become. One final arguement... the name of this book is ART. Perhaps if it sticks to its original mission it needs a rename and to be replaced with a book that is in fact an Arts 101 course type book. I'm not seeing any lessons/tutorials yet on this book. Can we just drop that and keep it as a Arts 101 type book?
+
+Like someone stated up above, this book seems like a great Art 101 in the making, and I think having tutorials would just clutter it up. While history is somewhat important while learning skills, the two should be separate from a text book standpoint. Perhaps this book can focus more on introductory topics, and the Art_Tutorials book can stick to tutorials. Anythoughts? Feel free to post in the Art_Tutorials discussion page too.
+--[[User:Blainegarrett|Blainegarrett]] 15:20, 13 September 2005 (UTC)
+
+
+
+A tutorial, as often seen on the internet, is a walk through of sorts. A how-to guide.
+A text like this one has the potential to be a thorough Introduction to Art, like many University or College students receive in their first year (or Foundation level) of classes. It should therefore, include in-depth coverage of methods, elements and principles, critical evaluation, and contemporary issues both formal and conceptual. 
+
+It may make sense to rename it "Introduction to Visual Art" unless audio, performing, film or otherwise will be covered.
+
+I do however think these sections:
+How to Make a Living 
+Practical Approach for the Artist - Legalities Learning copyrights, attribution laws, contractual arrangements. - Finer points for Contemporary Fine Artists – 
+Should be moved to their own chapter and not places soley under 2D.
+
+Also, since there is an Art History Wiki Book started I think it would make more sense to point and add, when necessary, to it rather than write one here. Unless of course it would be an Intro or Survey type section (again like most Universities offer to freshman). --Anthony Fontana 19:26, 5 February 2007 (UTC)

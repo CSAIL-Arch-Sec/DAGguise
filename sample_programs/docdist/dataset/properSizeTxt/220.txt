@@ -1,0 +1,168 @@
+{{Genes Technology and Policy}}
+
+
+== Notes ==
+
+1 J.J. Doyle and G.J. Persley, eds., Enabling the Safe Use of Biotechnology: Principles and Practices (Washington, D.C.: The World Bank, 1996), 5. [hereafter “Doyle”]
+
+2 Cartagena Protocol on Biosafety to the Convention on Biological Diversity, finalized and opened for signature on January 29, 2000; available from http://www.cbd.int; accessed 15 July 2002. [hereafter “Cartagena Protocol”]
+
+3 National Cancer Institute, “Cancer Facts”, National Cancer Institute Online; available from http://cis.nci.nih.gov; Internet; accessed 19 August 2002.
+
+4 A.J.F. Griffiths, J.H. Miller, D.T. Suzuki, R.C. Lewontin, and W.M. Gelbart, An Introduction to Genetic Analysis (New York: W.H. Freeman and Company, 1996), 2. [hereafter “Griffiths”]
+
+5 The Royal Society, “Genetically Modified Plants for Food Use and Human Health – An Update, Policy Document 4/02, The Royal Society Online; available from http://www.royalsoc.ac.uk; accessed 21 July 2002. [hereafter, “Royal Society Update]
+
+6 U.S. Department of Energy Human Genome Program, “Genomics and Its Impact on Medicine and Society: A 2001 Primer”, US Department of Energy Online; available from http://www.ornl.gov, accessed 25 June 2002. [hereafter “U.S. Department of Energy Human Genome Program”]
+
+7 Ibid.
+
+8 In the early years, the terms “genetic engineering”, “genetic manipulation”, “genetic transformation” and “transgenesis” were favored to describe the techniques of genetic modification. R.L. Paarlberg, The Politics of Precaution (Baltimore: The Johns Hopkins University Press, 2001), 2.
+
+9 Griffiths, supra note 4, at 4. The following online dictionaries contain further definitions of terms relevant to modern biotechnology: http://www.fao.org/DOCREP/003/X3910E/X3910E00.htm, http://www.hon.ch/, http://www.sciencekomm.at/advice/dict.html.
+
+10 A formal definition is offered by Mark Gerstein of Yale University: bioinformatics as “conceptualizing biology in terms of molecules and then applying informatics techniques to understand and organize the information associated with these molecules, on a large scale.” M. Gerstein, “Bioinformatics Introduction”; available from http://www.primate.or.kr/bioinformatics/Course/Yale/intro.pdf; accessed on 28 February 2003.
+
+11 U.S. Department of Energy Human Genome Program, supra note 6.
+
+12 Commission of the European Communities (2002), Life Sciences and Biotechnology, COM(2002) 27 final, 3. [hereafter “European Commission”]
+
+13 Ibid, at 4.
+
+14 GMOs can also be used in biomining, or the inexpensive extraction of precious metals from low-grade ores using microbes. Plants are also now being developed to mine precious metals (e.g., Brassica, which is being developed to concentrate gold from the soil in their leaves). Science and Government, No. 1, June 2002, 3.
+
+15 European Commission, at 5-6.
+
+16 U.S. Department of Energy Human Genome Program, supra note 6.
+
+17 Ibid.
+
+18 W. Bains, Genetic Engineering For Almost Everybody: What Does It Do? What Will It Do? (London: Penguin Books, 1987), 99.
+
+19 U.S. Department of State International Information Programs, “Frequently Asked Questions About Biotechnology”, USIS Online; available from http://usinfo.state.gov, accessed 21 March 2002. [hereafter “USIS”]. Cf. C. Feldbaum, “Some History Should Be Repeated”, 295 Science, 8 February 2002, 975.
+
+20 Ibid.
+
+21 Ibid.
+
+22 Ibid.
+
+23 U.S. Department of Energy Human Genome Program, supra note 6.
+
+24 A number of scientists have called for the use the term “nuclear transplantation”, instead of “therapeutic cloning”, to help reduce public confusion. The term “cloning” has become synonymous with “somatic cell nuclear transfer”, a procedure that can be used for a variety of purposes, only one of which involves an intention to create a clone of an organism. They believe that the term “cloning” is best associated with the ultimate outcome or objective of the research and not the mechanism or technique used to achieve that objective. They argue that the goal of creating a nearly identical genetic copy of a human being is consistent with the term “human reproductive cloning”, but the goal of creating stem cells for regenerative medicine is not consistent with the term “therapeutic cloning”. The objective of the latter is to make tissue that is genetically compatible with that of the recipient, not to create a copy of the potential tissue recipient. Hence, “therapeutic cloning” is conceptually inaccurate. B. Vogelstein, B. Alberts, and K. Shine, “Please Don’t Call It Cloning!”, Science (15 February 2002), 1237.
+
+25 D. Cameron, “Stop the Cloning”, Technology Review, 23 May 2002’. Also available from http://www.techreview.com. [hereafter “Cameron”]
+
+26 M.C. Nussbaum and C.R. Sunstein, Clones And Clones: Facts And Fantasies About Human Cloning (New York: W.W. Norton & Co., 1998), 11. However, there is wide disagreement within scientific circles whether human cloning can be successfully carried out. For instance, Dr. Rudolf Jaenisch of Whitehead Institute for Biomedical Research believes that reproductive cloning shortcuts basic biological processes, thus making normal offspring impossible to produce. In normal fertilization, the egg and sperm go through a long process of maturation. Cloning shortcuts this process by trying to reprogram the nucleus of one whole genome in minutes or hours. This results in gross physical malformations to subtle neurological disturbances. Cameron, supra note 30.
+
+27 Ibid.
+
+28 The National Action Plan on Breast Cancer and U.S. National Institutes of Health-Department of Energy Working Group on the Ethical, Legal and Social Implications (ELSI) have issued several recommendations to prevent workplace and insurance discrimination. The highlights of these recommendations, which may be taken into account in developing legislation to prevent genetic discrimination, may be found at http://www.ornl.gov/hgmis/elsi/legislat.html.
+
+29 Eugenics is the study of methods of improving genetic qualities through selective breeding.
+
+30 Asian Development Bank, Agricultural Biotechnology, Poverty Reduction and Food Security (Manila: Asian Development Bank, 2001). Also available from http://www.adb.org. [hereafter, “Asian Development Bank”]
+
+31 D. Bruce and A. Bruce, Engineering Genesis: The Ethics of Genetic Engineering (London: Earthscan Publications, 1999), 22. [hereafter “Bruce”]
+
+32 S. Abdulla. “Drought Stress” Nature: Science Update; available from http://www.nature.com/ nsu; accessed 3 May 2002.
+
+33 National Academy of Sciences. Transgenic Plants and World Agriculture (Washington: National Academy Press, 2001).
+
+34 Bruce, supra note 40, at 23. Early attempts to manipulate growth in animals failed due to severe welfare problems. For example, pigs altered with human growth hormone genes suffered deleterious consequences like gastric ulcer, arthritis, dermatitis and renal disease. Ibid.
+
+35 For an account of the research and development of Flavr Savr® tomato, see B. Martineau, First Fruit: The Creation of the Flavr Savr Tomato and the Birth of Biotech Food (New York: McGraw-Hill, 2001).
+
+36 A.F. Krattiger, An Overview of ISAAA from 1992 to 2000, ISAAA Brief No. 19-2000, 9.
+
+37 L.P. Gianessi, C.S. Silvers, S. Sankula and J.E. Carpenter. Plant Biotechnology: Current and Potential Impact for Improving Pest management in US Agriculture, An Analysis of 40 Case Studies (Washington, D.C.: National Center for Food and Agricultural Policy, 2002), 5-6.
+
+38 C. James, “Global Review of Commercialized Transgenic Crops: 2002”, ISAAA Brief No. 27-2002, at 11-12. [hereafter “James 2002”] Also available from http://www.isaaa.org.
+
+39 Bruce, supra note 37, at 26.
+
+40 W.H.R. Langridge, W.H.R. “Edible Vaccines”, Scientific American, September 2000, 49.
+
+41 S. Halos, “Current Concerns and Emerging Issues on Environmental Biosafety” (manuscript), 2001. [hereafter, “Halos”]
+
+42 R.D. Kryder, S. Kowalski,and A.F. Krattiger. “The Intellectual and Technical Property Components of pro-Vitamin A Rice (GoldenRice™): A Preliminary Freedom-to-Operate Review”, ISAAA Briefs No. 20-2000, 1-2.
+
+43 Ibid.
+
+44 Union of Concerned Scientists, “Genetic Engineering Techniques”, UCS Online; available from http://www.ucsusa.org; accessed 15 June 2002. [hereafter “Union of Concerned Scientists”] There are currently no experiments to produce a purple cow, nor is one likely to be made in the near future. The example given by the Union of Concerned Scientists was adopted only to highlight the possibility of crossing species boundaries.
+
+45 SEARCA, “Frequently Asked Questions on Biotechnology”, SEARCA Online, available from http://www.searca.org; accessed on 15 June 2002.
+
+46 B. M. Chassy, “Food Safety Evaluation of Crops Produced Through Biotechnology”, Journal of the American College of Nutrition 21, no. 3 (2002), 167. [hereafter “Chassy”]
+
+47 James 2002, supra note 47.
+
+48 Chassy, supra note 53, at 167.
+
+49 James 2002, supra note 47.
+
+50 Ibid. at 9-11.
+
+51 L.O. Fresco, “Genetically Modified Crops”, FAO Magazine, November 2001, FAO Online; available from http://www.fao.org/ag/magazine; accessed on 15 June 2002. [hereafter “Fresco”]
+
+52 Union of Concerned Scientists, supra note 53.
+
+53 Halos, supra note 50.
+
+54 K. Eastham, and J. Sweet, Genetically Modified Organisms (GMOs): The Significance of Gene Flow Through Pollen Transfer (Copenhagen: European Environment Agency, 2002), 7-8.
+
+55 This is the so-called “terminator gene”.
+
+56 Halos, supra note 50. For more information on the GURT controversy, please refer to http://www.biodiv.org/doc/meetings/cop/cop-06/information/cop-06-inf-01-rev1-en.pdf.
+
+57 Union of Concerned Scientists, supra note 53.
+
+58 Ibid.
+
+59 For an in-depth discussion of the Monarch butterfly controversy, see Pew Initiative on Food and Biotechnology, “Three Years Later: Genetically Engineered Corn and the Monarch Butterfly Controversy”, Pew Initiative Online; available from http://pewagbiotech.org; accessed 15 June 2002.
+
+60 Society of Toxicology, “The Safety of Foods Produced Through Biotechnology”, US Society of Toxicology Online; available from http://www.toxicology.org; accessed 15 June 2002.
+
+61 Available from http://www.royalsoc.ac.uk. The Royal Society is the national academy of sciences of the United Kingdom. It is the oldest scientific academy in existence, having been founded in 1660. Composed of eminent scientists who have been elected for life by peer review as fellows, the Society counts at least 65 Nobel Laureates among its approximately 1300 Fellows and Foreign Members. It is independent of government by virtue of a royal charter granted in 1663. It produces a series of authoritative statements and reports that provide advice to the UK government and the public on key issues in science and technology. In 1998, it issued the report Genetically Modified Plants for Food Use, which it updated in February 2002 with the issuance of the report Genetically Modified Plants for Food Use and Human Health — An Update.
+
+62 The Royal Society, “Genetically Modified Plants for Food Use and Human Health – An Update”; available from http://www.royalsoc.ac.uk; accessed 15 June 2002, 3. The Royal Society noted, however, that in current screening methods, applicable to both conventional and GM foods, there is no formal assessment of the allergenic risks posed by inhalation of pollen or dusts. It recommended that decision trees be expanded to include inhalant as well as food allergies. Id.
+
+63 Union of Concerned Scientists, supra note 53.
+
+64 M. Schauzu, “The concept of substantial equivalence in safety assessment of foods derived from genetically modified organisms” in AgBiotechNet 2000, Vol. 2 April, ABN 044
+
+65 Danish Protection Agency, “The Precautionary Principle”, DPA Online; available from http://www.mem.dk/faktuelt; accessed 12 May 2002.
+
+66 National Council for Science and the Environment, “Science Behind the Regulation of Food Safety: Risk Assessment and the Precautionary Principle”, NCSE Online (27 August 1999); available from http://www.cnie.org; accessed 14 May 2002.
+
+67 M.A. McLean, et al., “A Conceptual Framework for Implementing Biosafety: Linking Policy, Capacity and Regulation”, International Service for National Agricultural Research Briefing Paper No. 47, March 2002.
+
+68 M.K. Maredia, “The Economics of Biosafety: Implications for Biotechnology in Developing Countries”, Biosafety Journal 3: 1; available from http://www.bdt.org.br; accessed 21 May 2002.
+
+69 J. Plazinski, “Implications of International Agreements on Agricultural Biotechnology Products for Trading Nations” (manuscript).
+
+70 K. Miyagishima, “International Standard Setting in Biotechnology: Role of Codex Alimentarius Commission”, 2001 (manuscript).
+
+71 Centre for International Economic Studies, “GMOs, Trade Policy and Welfare in Rich and Poor Countries” (May 2000), University of Adelaide Online; available from http://www.adelaide.edu.au/cies; accessed 12 May 2002.
+
+72 World investment in public agricultural research grew steadily from the 1950s to the 1980s. This led to the Green Revolution, which spread high-yield seeds to developing countries in the 1960s and 1970s. However, publicly funded research stagnated in the 1990s. This meant that just when modern biotechnology was showing promise in rural agricultural development, the key funders have halted the momentum of investment in agricultural research and extension programs that help train farmers in the latest techniques. Victor, D.G. and Ford Runge, C., Farming the Genetic Frontier, 81 FOREIGN AFFAIRS No. 3 (May/June 2002), 115-116. [hereafter “Victor”]
+
+This has adversely affected public research institutes in countries like Kenya and Zimbabwe, which are funded mainly by donor contributions. The donor share in public research funding in Kenya and Zimbabwe accounted for an average of 67% and 50% of total expenditures, respectively. C.A. Falconi, “Agricultural Biotechnology Research Capacity in Four Developing Countries”, ISNAR Briefing Paper No. 42 (December 1999), 6. [hereafter “Falconi”]
+
+73 Fresco, supra note 60.
+
+74 Asian Development Bank, supra note 39.
+
+75 P. Pinstrup-Andersen and E. Schioler, Seeds of Contention (Baltimore: The Johns Hopkins University Press, 2000), 92 & 97.
+
+76 C. Juma, “Biotechnology and Sustainable Agriculture: Developing Country Perspectives”, 21 January 2000 (manuscript) [hereafter “Juma”].
+
+77 Ibid.
+
+78 Ibid.
+
+79 Victor, supra note 88, at 114.
+
+80 C. Juma, supra note 92.
+
+81 L.O. Fresco, supra note 60.

@@ -1,0 +1,132 @@
+{{FUN-top|AM&C=1
+|p={{TL|Glossary}}
+|2={{TR|x|Notations}}|h={{TL|Notations}}
+|both=1|sort=terminology|TBKR=1}}
+&nbsp;
+==File Types in Trainz==
+<!-- note this section included from the below page --->
+{{:Trainz/file types by extensions }}<!-- redirect link: Trainz/File Types (File Extensions) --->
+
+==Other terminology==
+
+This part of the Notations and terminology page describes some of the more common train-related, content-creation-related, and general {{wp|computing}} terms used in the Trainz environment. Users are encouraged to add their own common terms to this page in a similar fashion. Please keep in mind that this site is dedicated to Trainz content creation, and terms which are meaningless in this context may be removed.
+
+<div style="background:#f9f9a9; border:2px solid green; padding:3px; width:80%; margin: 3px 5% 5px 5%; align:center;">'''New Trainzers''' will find a wealth of general knowledge and terminology in the English language Wikipedia {{wp|Glossary of rail transport terms}}, the {{wp|Train}} and {{wp|Trainz}} articles, and on the {{plain link|http://en.wikibooks.org/wiki/Trainz|Trainz Wikibook}} and it's {{plain link|http://en.wikibooks.org/wiki/Trainz/Glossary|Trainz Wikibook glossary}}.
+</div>{{beginner links}}
+{{TRS-underconstruction|1=&nbsp;this '''Trainz/terminology''' page created by exporting material from another page 2015-0225 with the intent to sort and repark some of the data, then transform the page into a reference about general railroad terminology aimed at the new Trainzers.}}
+
+==General Train Terminology==
+
+A note about general train terminology: even among nations where English is the official language, there are differences in terminology. For example, in England, the part of track known as a "sleeper" is called a "tie" in North America. An English railroader speaking of a "bogey", and an North American railroader speaking of a "truck" are likely talking about the same thing. 
+
+
+* In Advance Of - Signalling term. A signal is said to be 'in advance of' something, if a driver stopped at that signal would have to drive forwards to get there.
+* In Rear Of - Signalling term. A signal is said to be 'in rear of' something, if a driver stopped at that signal would have to drive backwards to get there.
+
+
+
+==Trainz Terms==
+{{TRS-sect-stub}}
+===Abbreviations===
+* {{TR|x|TADDaemon|TAD}} - Trainz Asset Database.
+* {{TA|Content_Manager|CM}} - Content Manager.
+* {{TA|Level_of_Detail|LOD}} - Level-Of-Detail.
+* {{TA|IM_files|IM}} - Indexed Mesh file format.
+* PM file - Progressive Mesh file format; this is an obsolete mesh file format that is no longer supported.
+* LM file - Config file representation of the {{TA|LM.txt_file}} a text file format used by {{TA|Level of Detail}} meshes.
+* TNI - Trainz Native Interface.
+
+===Supported File Formats===
+* {{wp|text file|.TXT files}} like {{TA|config.txt_file}}, used by Trainz as a data {{Wp|INI file}} type.
+* {{TA|.texture.txt_Files|.texture.txt file}}
+* .texture file
+* .pm file [Note: this is an obsolete, and no longer supported format.]
+* {{TA|IM_files|.im file}}
+* {{TA|LM.txt file|.lm file}}
+* .gs file
+* .gse file
+* .cdp file
+* .cmpa file
+
+===Content Creation===
+
+==== Aa to Bz====
+<big>
+* '''Alias''' - An asset which takes it's ''mesh'' from another asset, but replaces one or more of the original ''textures'' with locally provided ones. Commonly used to reskin an asset.
+** <code>'''Note: Trainz 2009 (version 2.9) onwards do not accept aliased assets in Content Manager, though they still work in the game.'''</code>
+* '''{{TL|Alpha blending}}''' - The process of using an opacity setting or texture alpha channel to allow partial transparency. {{wp|Alpha blending}} is a hardware operation, however by itself blending does not combine well with a traditional hardware {{wp|depth-buffer}} technique.
+** The end result is that multiple overlapping layers of alpha blending will not be rendered in the physically correct order without some alternative non-hardware-accelerated techniques. Such techniques should be avoided due to the associated performance losses.
+** In short: use alpha blending sparingly, and do not apply an alpha-blended material to polygons which could do without.
+* '''{{TL|Alpha masking}}''' - The process of using a texture alpha channel to "mask out" parts of the texture, allowing arbitrary see-through areas on the texture. Unlike ''alpha blending'', alpha masking does not allow semi-transparent areas - each resultant texel is either fully textured, or fully transparent. Alpha masking is a fully hardware-accelerated technique, and so acceptable.
+* '''Asset''' - A single item of content in the Trainz environment, consisting of a ''config.txt file'' and any associated resource files.
+** Sometimes, even frequently,... used (incorrectly) interchangeably with ''''content''''; technically, content is an asset included in a route or session&mdash;until then an asset is an potential content item.
+** Each asset is uniquely identified by its ''KUID''. An asset may reference any number of ''dependencies'' which are required for correct operation. 
+* '''[http://www.blender.org Blender]''' - A free {{TC|Modeling}} tool with similar functionality to the commercial ''MAX'' software.
+* '''{{TR|KD|KIND_Bogey|Bogey}}''' - Asset type used to represent wheels and suspension components. Used for anything that needs to rotate as the train moves along the track (e.g. wheels), or move (by rotation or translation) to match the angle and position of the track (e.g. subframe and suspension components). In the US this is normally referred to as a ''truck'', and in the UK as a ''bogie''.
+* '''Bump mapping''' - Another term for ''Normal mapping''.
+</big>
+====Ca to Md====
+<big>
+* '''Cab / Cabin / Interior''' - Asset made to represent the inside of an object, typically a ''Vehicle''.
+* '''{{TA|Content Manager}}''' - Program for querying and editing the ''Trainz Asset Database''.
+** Common tasks performed with Content Manager include downloading, uploading, installing, editing, archiving, error trapping (testing for, generation of) and removing content.
+* '''Dependency''' - An ''asset'' which is required by this asset in order to function properly.
+* '''Dependent''' - An ''asset'' which requires this asset in order to function properly.{{FAB-todo|This is unclear, dependent asset and dependencies are different CM drop down menu choices. Clarify!}}
+* '''Geometry''' - A three-dimensional ''mesh'', without any related textures or material properties.
+* '''{{wp|GMAX}}''' -A 3D modeling tool originally produced by Discreet for use in producing game assets. While still available, the software has not been in active development for some time, and is not considered to be a state of the art tool for Trainz asset creation. See also 3DSMax.
+* '''Indices''' - Each triangle has three indices. Each index is a reference to a vertex. (Vertices can be shared between multiple polygons).
+* '''{{TR|K|p=KUID}}''' - Unique identifier for a specific Trainz ''asset''. Consists of Creator ID, Content ID and Version number fields.
+* '''{{TBS|Kuid-table|KUID Table container}}''' - The {{N3V|Kuid-table_container|kuid-table container}} of an asset's {{TL|config.txt file}}. Used to specify ''dependencies''.
+* {{wp|Level of detail|Level-Of-Detail}} (LOD)''' - A technique where an object (typically a mesh) is built with a number of variations which look as close as possible to identical, but which trade off quality as distance from the viewing point increases and that aids rendering performance to differing degrees. 
+** The{{N3V|Auran_JET}} graphics engine selects between the various levels at runtime based on metrics such as distance from the observer. 
+** For textures, ''mip-mapping'' serves a similar purpose without requiring manual attention.
+** All medium-to-high-detail meshes should supply LOD variants. {{TA|LM.txt_file}}s are used for LOD on moving/animated models.
+* '''{{N3V|Material_Types|Material}}''' - A named object with a specific material type in combination with its necessary parameters and ''textures''.
+* '''MAX / {{wp|3D Studio Max}}''', or obsolescent {{wp|Gmax}} once bundled with early Trainz retail releases - The commercial {{TA|Modeling}} tool used and supported by Auran.
+</big>
+
+====Me to Qz====
+<big>
+* '''{{wp|Polygon mesh|Mesh}}''' - A three-dimensional ''model'' used in the game environment. The word ''mesh'' is often used to refer to a specific game file containing the three-dimensional ''geometry'' without related properties such as the model's textures.
+* '''Mesh Library''' - An asset which other assets use. These assets refer to the mesh library by KUID, using a 'mesh-asset' tag in their mesh table. Nothing special is needed for an asset to be a mesh library, it just has to contain mesh files.
+* '''{{N3V|Mesh stitching}}''' - A runtime optimization process which combines multiple individual mesh instances into a single ''draw call'' for performance reasons. This results in higher performance with no visible changes.
+* '''{{N3V|"mesh-table"_Container|Mesh Table container}}''' - The {{TRC|mesh-table}} of an asset's {{TL|config.txt file}}.
+* '''{{TR|xL|Mip mapping}}''' - Process to reduce texture detail for objects in the distance, or at a sharp angle to the camera. Used to avoid problems with aliasing (flicker), which can occur where the texture is of comparable or higher detail than the display equipment.
+* '''Model''' - A {{wp|three-dimensional}} definition of an {{wp|virtual reality|virtual}} 3D object, built in a special {{TC|modeling}} package such as Blender, Gmax or 3ds Max. The word ''model'' is often used to describe the concept of a three-dimensional object including materials, surface reflectance and opacity properties often combined and implemented as {{TG|attribute}}s of its {{TG|texture}}s.
+* '''{{TC|Normal map|Normal mapping}}''' - A more advanced form of ''texture mapping'' which allows per-pixel control over the lighting conditions on the target geometry. Among other benefits, this technique allows a content creator to define small bumps and grooves in a surface in addition to simple coloration.
+* '''Obsolete''' - An ''asset'' is obsolete if it has been replaced by a newer version with newer technology models and definitions, breaking the asset in part for a new {{TBS|trainz-build|trainz-build tag}} value (version).
+** A container type or tag in a {{TR|K|p=KIND}} is obsolete because the programmers say so&mdash;because they have a real need to change the {{wp|data structure}} in a new Trainz advance, ''normally without warning the user community first.''
+* '''{{TBS|string-table container|String Table}}''' - The {{TBS|string-table container}} of an asset's {{TL|config.txt file}}. Used for localization strings (i.e. anything that will be displayed to the user).
+* '''Pixel''' - One individual point on a ''texture'' image, consisting of red, green, blue and alpha components (e.g. a texture size of 512 pixels by 512 pixels). May also refer to one individual point within a display (e.g. a display size of 1024 pixels by 768 pixels).
+* '''Polygons''' - In modeling terms, a polygon is always a triangle. (Please note, this is different from the 3DSMax definition).
+</big>
+
+====Ra to Tq====
+<big>
+* '''Render call''' / '''Draw call''' - A single hardware rendering operation. This is an important concept when performance is a concern, as there is a substantial performance overhead to each draw call. By minimizing the number of draw calls, the same scene can be rendered at a notably higher frame rate. Each draw call associates one ''material'' with some quantity of ''vertices'' and ''indices''. 
+* {{TR|K|KIND_Map|Route / Layout / Map}} - Asset created in ''Surveyor'', consisting of a textured landscape and one or more ''Layers'' containing ''scenery objects'', ''splines'', ''trackside objects'', ''Vehicles'', etc.
+* '''{{TR|K|KIND_Scenery|Scenery}}''' / '''Map object'''  - A scenery object is an instance of an ''asset'' that is placed in Surveyor at a given location and orientation. 
+* '''{{TR|K|KIND_Profile|Session}}''' - Asset created in surveyor, which extends a ''map'' by placing on it additional layers of objects - commonly ''Vehicles'', but any ''scenery object'', ''spline'', ''trackside object'', etc, can also be added. The Session also contains all the saved script data from any asset in the combination of map and session.
+* '''Specular lighting''' - Lighting effects that vary dependent on the angle of incident light.
+* '''{{TR|K|KIND_Track|Spline}}''' - A continuous linear 3D model such as a hedge, a fence, a road, or a track. Splines are placed in Surveyor as a series of ''spline control points'' and the geometry is built in a smoothed path between the control points.
+* '''Texel''' - One texture pixel, once mapped onto a 3D Model and rendered in a scene. Does not correspond to one screen pixel.
+* '''Texture''' - A two-dimensional image used for [http://en.wikipedia.org/wiki/Texture_mapping texture mapping].
+* '''Texture Sharing''' - When two or more ''{{wp|Polygon mesh|meshes}}'' in the same asset (which may be a ''mesh library'', and thus used by many assets) use the same ''material'' and ''texture''. Trainz can then use ''mesh stitching'' to render them in the same ''draw call'', with corresponding performance improvements.
+</big>
+====Tr to Zz====
+<big>
+* '''{{TR|K|KIND_Scenery-trackside|Trackside object}}''' - A trackside object is a specialisation of a ''{{TC|scenery object}}'' that is placed attached to a spline. When the spline is moved, the trackside object is also moved.
+* '''{{TC|Scripting|TrainzScript}}''' / {{TC|Scripting|GameScript}} - Used interchangeably, these terms refer to the Trainz scripting language.
+* '''Trainz Asset Database''' - Contains all the metadata information about Trainz content. Editable through{{TL|Content_Manager}} and {{TL|TrainzUtil}}.
+* '''TrainzUtil''' - Command line tool to query and edit the ''Trainz Asset Database''.
+* '''Trainz Native Interface''' - TBD
+* '''Triangles''' - Three vertices (or specifically, three indices) form a triangle. The triangle is the basic unit of a ''mesh'' ''geometry''.
+* '''{{TR|KD|KIND_Traincar|Vehicle}}''' - All ''assets'' which can be placed into a train (consist). Includes locomotives. Not to be confused with road cars, which are actually ''Trackside'' objects (as they are attached to roads).
+* '''Vertices''' - The individual three-dimensional (x, y, z) coordinates that form the corner points of ''triangles'' in a ''mesh'' ''geometry''.
+
+==Notes and references ==
+{{notelist}}
+&nbsp;
+{{reflist}}
+[[category:Trainz terms| $]]
+{{FUN-bot|both=1|AM&C=1|TBKR=1|sort=terminology}}

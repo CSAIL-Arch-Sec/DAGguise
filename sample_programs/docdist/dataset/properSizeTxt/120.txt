@@ -1,0 +1,134 @@
+[[Image:Geiger_counter.jpg|right|thumb]]
+
+We have learned in the last two chapters about how radiation interacts with matter and we are now in a position to apply our understanding to the detection of radiation.
+
+One of the major outcomes of the interaction of radiation with matter is the creation of ions as we saw in [[Basic_Physics_of_Nuclear_Medicine/Interaction_of_Radiation_with_Matter|Chapter 5]].  This outcome is exploited in gas-filled detectors as you will see in this chapter.  The detector in this case is essentially a gas, in that it is the atoms of a gas which are ionised by the radiation.  We will see in the [[Basic_Physics_of_Nuclear_Medicine/Scintillation_Detectors|next chapter]] that solids can also be used as radiation detectors but for now we will deal with gases and be introduced to detectors such as the [[W:Ionization_chamber|Ionization Chamber]] and the [[W:Geiger_counter|Geiger Counter]].
+
+Before considering these specific types of gas-filled detectors we will first of all consider the situation from a very general perspective.
+
+== Gas-Filled Detectors ==
+
+As we noted above the radiation interacts with gas atoms in this form of detector and causes ions to be produced.  On the basis of what we covered in [[Basic_Physics_of_Nuclear_Medicine/Interaction_of_Radiation_with_Matter|Chapter 5]] it is easy to appreciate that it is the Photoelectric and Compton Effects that cause the ionisations when the radiation consists of gamma-rays with energies useful for diagnostic purposes.
+
+There are actually two particles generated when an ion is produced - the positive ion itself and an electron.  These two particles are collectively called an '''ion pair'''.  The detection of the production of ion pairs in the gas is the basis upon which gas detectors operate.  The manner in which this is done is by using an electric field to sweep the electrons away to a positively charged electrode and the ions to a negatively charged electrode.  
+
+Let us consider a very simple arrangement as shown in the following figure:
+
+<center>[[Image:NM8_1.gif|320px]]</center>
+
+Here we have two electrodes with the gas between them.  Something like a capacitor with a gas dielectric.
+
+The gas which is used is typically an inert gas, for example [[W:Argon|argon]] or [[W:Xenon|xenon]].  The reason for using an inert gas is so that chemical reactions will not occur within the gas following the ionisations which could change the characteristics of our detector.
+
+A dc voltage is placed between the two electrodes.  As a result when the radiation interacts with a gas atom the electron will move towards the positive electrode and the ion will move towards the negative electrode.  But will these charges reach their respective electrodes?  The answer is obviously dependent on the magnitude of the dc voltage.  For example if at one extreme we had a dc voltage of a microvolt (that is, one millionth of a volt) the resultant electric field may be insufficient to move the ion pair very far and the two particles may recombine to reform the gas atom.  At the other extreme suppose we applied a million volts between the two electrodes.  In this case we are likely to get sparks flying between the two electrodes - a lightning bolt if you like - and our detector might act something like a [[W:Neon_sign|neon sign]].  Somewhere in between these two extremes though we should be able to provide a sufficient attractive force for the ion and electron to move to their respective electrodes without recombination or sparking occurring.
+
+We will look at this subject in more detail below.  Before we do let us see how the concept of the simple detector illustrated above is applied in practice.  The gas-filled chamber is generally cylindrical in shape in real detectors.  This shape has been found to be more efficient than the parallel electrode arrangement shown above.
+
+A cross-sectional view through this cylinder is shown in the following figure:
+
+<center>[[Image:NM8_2.gif|320px]]</center>
+
+The positive electrode consists of a thin wire running through the centre of the cylinder and the negative electrode consists of the wall of the cylinder.  In principle we could make such a detector by getting a section of a metal pipe, mounting a wire through its centre, filling it with an inert gas and sealing the ends of the pipe.  Actual detectors are a little bit more complex however but let us not get side-tracked at this stage.
+
+We apply a dc voltage via a battery or via a dc voltage supply and connect it as shown in the figure using a resistor, R.  Now, assume that a gamma-ray enters the detector.  Ion pairs will be produced in the gas - the ions heading towards the outer wall and the electrons heading towards the centre wire.  Let us think about the electrons for a moment.  When they hit the centre wire we can simply think of them as entering the wire and flowing through the resistor to get to the positive terminal of the dc voltage supply.  These electrons flowing through the resistor constitute an electric current and as a result of [[W:Ohm%27s_law|Ohm's Law]] a voltage is generated across the resistor.  This voltage is amplified by an amplifier and some type of device is used to register the amplified voltage.  A loud-speaker is a fairly simple device to use for this purpose and the generation of a voltage pulse is manifest by a click from the loud-speaker.  Other display devices include a '''ratemeter''' which displays the number of voltage pulses generated per unit time - something like a speedometer in a car - and a pulse counter (or '''scaler''') which counts the number of voltage pulses generated in a set period of time.  A voltage pulse is frequently referred to in practice as a '''count''' and the number of voltage pulses generated per unit time is frequently called the '''count rate'''.
+
+== DC Voltage Dependence ==
+
+If we were to build a detector and electronic circuit as shown in the figure above we could conduct an experiment that would allow us to explore the effect of the dc voltage on the magnitude of the voltage pulses produced across the resistor, R.  Note that the term '''pulse height''' is frequently used in this field to refer to the magnitude of voltage pulses.
+
+Ideally, we could generate a result similar to that illustrated in the following figure:
+
+<center>[[Image:NM8_3.gif|320px]]</center>
+
+The graph illustrates the dependence of the pulse height on the dc voltage.  Note that the vertical axis representing the pulse height is on a logarithmic scale for the sake of compressing a large linear scale onto a reasonably-sized graph.  
+
+The experimental results can be divided into five regions as shown.  We will now consider each region in turn.
+
+* '''Region A''' &nbsp;&nbsp;&nbsp;&nbsp;Here V<sub>dc</sub> is relatively low so that recombination of positive ions and electrons occurs.  As a result not all ion pairs are collected and the voltage pulse height is relatively low. It does increase as the dc voltage increases however as the amount of recombination reduces.
+
+* '''Region B''' &nbsp;&nbsp;&nbsp;&nbsp;V<sub>dc</sub> is sufficiently high in this region so that only a negligible amount of recombination occurs.  This is the region where a type of detector called the '''Ionization Chamber''' operates.
+
+* '''Region C''' &nbsp;&nbsp;&nbsp;&nbsp;V<sub>dc</sub> is sufficiently high in this region so that electrons approaching the centre wire attain sufficient energy between collisions with the electrons of gas atoms to produce new ion pairs.  Thus the number of electrons is increased so that the electric charge passing through the resistor, R, may be up to a thousand times greater than the charge produced initially by the radiation interaction.  This is the region where a type of detector called the [[W:Proportional_counter|Proportional Counter]] operates.
+
+* '''Region D''' &nbsp;&nbsp;&nbsp;&nbsp;V<sub>dc</sub> is so high that even a minimally-ionizing particle will produce a very large voltage pulse.  The initial ionization produced by the radiation triggers a complete gas breakdown as an avalanche of electrons heads towards and spreads along the centre wire.  This region is called the '''Geiger-Müller Region''', and is exploited in the Geiger Counter.
+
+* '''Region E''' &nbsp;&nbsp;&nbsp;&nbsp;Here V<sub>dc</sub>  is high enough for the gas to completely breakdown and it cannot be used to detect radiation.
+
+We will now consider features of the Ionisation Chamber and the Geiger Counter in more detail.
+
+== Ionisation Chamber ==
+
+The ionisation chamber consists of a gas-filled detector energised by a relatively low dc voltage.  We will first of all make an estimate of the voltage pulse height generated by this type of detector.  We will then consider some applications of ionisation chambers.
+
+When a beta-particle interacts with the gas the energy required to produce one ion pair is about 30 eV.  Therefore when a beta-particle of energy 1 MeV is completely absorbed in the gas the number of ion pairs produced is:
+
+<center><math>n = \frac{1\ \text{MeV}}{30\ \text{eV}} = \frac{1 \cdot 10^6}{30} \approx 3 \cdot 10^4\ \text{ion pairs}</math></center>
+
+The electric charge produced in the gas is therefore
+
+<center><math>Q = n \cdot e</math></center>
+
+
+<center><math>\therefore (3 \cdot 10^4\ \text{ion pairs}) \cdot (1.6 \cdot 10^{-19}\ \text{C})</math></center>
+
+
+<center><math>\therefore Q = 5 \cdot 10^{-15}\ \text{C}</math></center>
+
+If the capacitance of the ionisation chamber (remember that we compared a gas-filled detector to a capacitor above) is 100 pF then the amplitude of the voltage pulse generated is:
+
+<center><math>V = \frac{Q}{C} = \frac{5 \cdot 10^{-15}\ \text{C}}{100 \cdot 10^{-12}\ \text{F}} = 5 \cdot 10^{-5}\ \text{V}</math></center>
+
+
+<center><math>\therefore V = 50\ \mu\text{V}</math></center>
+
+Because such a small voltage is generated it is necessary to use a very sensitive amplifier in the electronic circuitry connected to the chamber.
+
+We will now learn about two applications of ionisation chambers.  The first one is for the measurement of radiation exposures.  You will remember from [[../Units_of_Radiation_Measurement|Chapter 4]] that the unit of radiation exposure (be it the SI or the traditional unit) is defined in terms of the amount of electric charge produced in a unit mass of a air.  An ionization chamber filled with air is the natural instrument to use for such measurements.
+
+The second application is the measurement of radioactivity.  The ionisation chamber used here is configured in what is called a '''re-entrant''' arrangement (see figure below) so that the sample of radioactive material can be placed within the detector using a holder and hence most of the emitted radiation can be detected.  The instrument is widely referred to as an '''Isotope Calibrator''' and the trickle of electric current generated by such a detector is calibrated so that a reading in units of radioactivity (for example MBq or mCi) can be obtained.  Most well-run Nuclear Medicine Departments will have at least one of these devices so that doses of radioactivity can be checked prior to administration to patients.
+
+[[Image:NM8_10.gif|320px|center]]
+
+Here are some photographs of ionisation chambers designed for various applications:
+
+{| cellspacing="4" cellpadding="4" style="background:transparent; margin:0px auto;"
+| [[Image:Exposure_Area_Detector.jpg|thumb|center|150px|An exposure-area product detector used in radiography.]]
+| [[Image:Ionisation_Chambers_of_Different_Volumes.jpg|thumb|center|150px|A range of ionisation chambers of different volumes using for measuring radiation exposure.]]
+| [[Image:Exposure_Meter.jpg|thumb|150px|center|An exposure meter used in radiography.]]
+|- 
+| [[Image:Isotope_Calibrator.jpg|thumb|150px|center|An isotope calibrator used in nuclear medicine - the blue cylinder on the left contains the re-entrant chamber.]]
+| [[Image:Exposure_Meter2.jpg|thumb|150px|center|An exposure meter used in radiography.]]
+| [[File:Compteur_Geiger.jpg|thumb|150px|center|A contemporary Geiger counter.]]
+|}
+
+== Geiger Counter ==
+
+We saw earlier that the Geiger Counter operates at relatively high dc voltages (for example 400-900 volts) and that an avalanche of electrons is generated following the absorption of radiation in the gas.  The voltage pulses produced by this detector are relatively large since the gas effectively acts as an amplifier of the electric charge produced.
+
+There are four features of this detector which we will discuss.  The first is that a sensitive amplifier (as was the case with the Ionization Chamber) is not required for this detector because of the gas amplification noted above.
+
+The second feature results from the fact that the generation of the electron avalanche must be stopped in order to reform the detector.  In other words when a radiation particle/photon is absorbed by the gas a complete gas breakdown occurs which implies that the gas is incapable of detecting the next particle/photon which enters the detector.  So in the extreme case one minute we have a radiation detector and the following moment we do not.
+
+A means of stopping the electron avalanche is therefore required - a process called '''Quenching'''.  One means of doing this is by electronically lowering the dc voltage following an avalanche.  A more widely used method of quenching is to add a small amount of a '''quenching gas''' to the inert gas.  For example the gas could be argon with [[W:Ethyl_alcohol|ethyl alcohol]] added.  The ethyl alcohol is in vapour form and since it consists of relatively large molecules energy which would in their absence give rise to sustaining the electron avalanche is absorbed by these molecules.  The large molecules act like a brake in effect.
+
+Irrespective of the type of quenching used the detector is insensitive for a small period of time following absorption of a radiation particle/photon.  This period of time is called the [[W:Dead_time|Dead Time]] and this is the third feature of this detector which we will consider.  Dead times are relatively short but nevertheless significant - being typically of the order of 200-400 µs.  As a result the reading obtained with this detector is less than it should be.  The true count rate, T, can be obtained using the following equation:
+
+<center><math>T = \frac{A}{1 - \tau A}</math></center>
+
+where A is the (actual) reading and &tau; is the dead time.  Some instruments perform this calculation automatically.
+
+The fourth feature to note about this detector is the dependence of its performance on the dc voltage.  The Geiger-Müller Region of our figure above is shown in more detail below:
+
+[[Image:NM8_12.gif|320px|center]]
+
+Notice that it contains a plateau where the count rate obtained is independent of the dc voltage.  The centre of this plateau is where most detectors are operated.  It is clear that the count rate from the detector is not affected if the dc voltage fluctuates about the operating voltage.  This implies that a relatively straight-forward dc voltage supply can be used.  This feature coupled with the fact that a sensitive amplifier is not needed translates in practice to a relatively inexpensive radiation detector.
+
+== External Links ==
+
+* [http://www.howstuffworks.com/inside-smoke.htm Inside a smoke detector] - about the ion chamber used in smoke detectors - from the How Stuff Works website.
+* [http://www.triumf.ca/safety/rpt/rpt_6/node5.html Ionisation Chambers] - a brief description from the Triumf Safety Group.
+* [http://www.umich.edu/~radinfo/introduction/lesson/detector1.htm Radiation and Radioactivity] - a self-paced lesson developed by the University of Michigan's Student Chapter of the Health Physics Society with a section on gas filled detectors.
+* [http://www-istp.gsfc.nasa.gov/Education/wgeiger.html The Geiger Counter] - a brief overview from the NASA Goddard Space Flight Center, USA.
+
+
+{{BookCat}}

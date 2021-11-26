@@ -1,0 +1,181 @@
+Guanaco, [[Wikibooks:Welcome|Welcome]] to wikibooks.  I see you've been making some corrections to the [[cookbook:Table of Contents|cookbook]], and I'd like to thank you!  The more eyes checking things, the better the project will be.  If you made any edits before you created your username, ask an [[Wikibooks:Administrators|admin]], and they'll be able to credit your account with the edit.
+
+If you make a comment in a talk page, and you'd like to sign your name, just use three tildies, like this: <tt><nowiki>~~~</nowiki></tt>.  To add a time stamp, just use four of them.
+
+Again, welcome. [[User:Gentgeen|Gentgeen]] 07:43, 19 Apr 2004 (UTC)
+
+==Admin==
+You are now a [[Wikibooks:Administrators|Wikibooks Admin]].  Congratulations! [[User:TUF-KAT|TUF-KAT]] 21:43, 16 Jun 2004 (UTC)
+
+==Cconceicao==
+What are your guidelines considering removing links and signatures?
+
+All external links are evil? Just Companies? Or not in the first Page?
+
+
+:Signatures and email addresses are not supposed to be used in the main namespace. External links are okay, if they point to a free (at least ''gratis''), useful, informational resource relevant to the topic. There is no reason we should ever have a "<nowiki>[http://www.psd.ro/?coruptie Coruptie]</nowiki>" link on the Wikibooks portal or a link to hukuki.net anywhere. [[User:Guanaco|Guanaco]] 12:19, 22 Jun 2004 (UTC)
+
+::Thanks - --[[User:Cconceicao|PTCalex]] 18:48, 22 Jun 2004 (UTC)
+
+== Deleting articles ==
+
+hi
+
+before you delte articles like [[TeXShop]] which have only one or a few links in it, you should check these links. in this case the linked page [[TeXShop: FAQ: Schriften]] is now linked by no other article. you should start deleting in the last element and not in the toplevel ones. --[[User:Moolsan|Moolsan]] 10:08, 26 Jun 2004 (UTC)
+
+Thank you for the help. Im new to this and I think its a great idea.
+
+== Moved Modules ==
+
+Thanks for renaming it. I guess the name I came up with at first; "A Neutral Look on OS's" doesn't quite make as much sense as "A Neutral Look at Operating Systems". Thanks again for coming up with something better.--[[User:Hyperlink|Hyperlink]] 07:05, 21 Mar 2005 (UTC)
+
+== bot ==
+
+Touching lots of articles is rude. It messes up the history.
+What the heck are you planning to do anyway?
+:The bot was not supposed to actually edit the articles' history. The goal of touching all the articles was to correct problems with "What links here" image information created when Wikibooks was upgraded from v1.2 to v1.3. I noticed that this wasn't working as it used to in v1.3, so I stopped the bot. [[User:Guanaco|Guanaco]] 22:05, 28 Mar 2005 (UTC)
+
+== My interwiki redirect ==
+
+Hi Guanaco,
+
+What was wrong with my interwiki redirect? I know it didn't actually work, but I thought it was a good indicator to other users that I was directing them elsewhere. I'm maintaining only one user page, on Wikipedia, to save the hassle of updating it for every Wikimedia project I'm involved with (mainly Wikibooks, Wikipedia, and Wikimedia Commons). If you have valid concerns about me using a redirect in the way that I did, then I would be happy to replace it with an explicit external link. ''(''<sub>Donovan</sub>|[[w:en:User:Geocachernemesis|Geocachernemesis]]|<sup>[[User_talk:Geocachernemesis|Interact]]</sup>'')'' 03:21, 11 Jun 2005 (UTC)
+:Sorry, my mistake. I thought the link actually worked. Never mind; the link is okay. [[User:Guanaco|Guanaco]] 03:42, 11 Jun 2005 (UTC)
+::That's okay, I needed to write something there anyway. ''(''<sub>Donovan</sub>|[[w:en:User:Geocachernemesis|Geocachernemesis]]|<sup>[[User_talk:Geocachernemesis|Interact]]</sup>'')'' 04:37, 11 Jun 2005 (UTC)
+
+== Adminship ==
+
+BTW, thanks for nominating me for adminship. I don't know if I have a chance yet, but we'll see.;) ''(''<sub>Donovan</sub>|[[w:en:User:Geocachernemesis|Geocachernemesis]]|<sup>[[User_talk:Geocachernemesis|Interact]]</sup>'')'' 03:24, 11 Jun 2005 (UTC)
+
+== Proposal for policy overhaul ==
+
+As a fellow admin who might be interested, it might interest you that I've started to think about changes to existing policy and project scope so that policies are more clearly defined (as suggested by [[User:Aya]], who claims existing policies to be ambiguous) and more open (as suggested by [[User:Robert Horning]] over the biography debacle).  I've made a post on textbook-l ([http://mail.wikipedia.org/pipermail/textbook-l/2005-July/002415.html]) as a result, please reply to my talk page for feedback. [[User:KelvSYC|KelvSYC]] 05:53, 26 July 2005 (UTC)
+
+== Sherlock Holmes ==
+hey guanaco, are you going to be putting sherlock holmes back up soon? I realize that you wikipedia folks are a bunch of pedantic crazies but I didnt really have any problem with the text so hopefully this isnt a permanent deletion
+:It is a permanent deletion. You can repost the Sherlock Holmes text at [http://www.wikisource.org Wikisource]. Wikibooks is for original books and ''annotated'' texts only. [[User:Guanaco|Guanaco]] 00:37, 17 November 2005 (UTC)
+
+== Undeletion ==
+
+The modules that you undeleted (Cookbook:Human and Naturism) were deleted again. If you want to open a discussion on undeleting something, could you please use the [[Wikibooks:Votes for undeletion]] ([[Wikibooks:Votes for undeletion|WB:VFU]]) page, instead of undeleting it? --[[User:Kernigh|Kernigh]] 03:16, 19 November 2005 (UTC)
+:I undeleted Cookbook:Human because it was already on VFU. [[Naturism]] had been speedily deleted improperly, so I speedily undeleted it. [[User:Guanaco|Guanaco]] 07:16, 19 November 2005 (UTC)
+
+== Jokebook ==
+
+I don't think it makes sense to say that if a book on some topic could conceivably be totally rewritten to turn it into a textbook, that makes it valid to keep.  Could we have a valid textbook on humor?  I suppose so, there must be a class somewhere on the subject.  But such a book would not be a jokebook.
+
+There is nothing wrong with jokebooks.  There's no reason to abuse this one by turning it into a textbook.  But there's also no reason for us to keep it here on Wikibooks, since it is not a textbook and never will be.
+
+--[[User:Jimbo Wales|Jimbo Wales]] 17:10, 25 November 2005 (UTC)
+:The Jokebook seems to be mostly original research (if you can call it that). 90%+ of these jokes are unverifiable, being the original creations of the book's authors or the authors' friends. For that reason, I have changed my vote on VfD. [[User:Guanaco|Guanaco]] 22:05, 25 November 2005 (UTC)
+
+Cool.  You've known me for a long time.  If you are in a good position to carry my good wishes to Rob, please do so.  I am not sure why he thinks I'm personally attacking him, but I may have overlooked some stray remark I made which was inappropriate.  Any help you can give in resolving this conflict would be most appreciated.  I have deep respect for Rob and regret anything I may have done to offend him.  --[[User:Jimbo Wales|Jimbo Wales]] 03:16, 26 November 2005 (UTC)
+:I'm not sure I can do much, but I will try to help in any way possible. [[User:Guanaco|Guanaco]] 17:53, 26 November 2005 (UTC)
+
+== Japanese:Videogame ==
+
+I see that you deleted all the Japanese:Videogame pages. Can I please have the text to Japanese:Videogame:General back, as I wish to readd it. There is no copyright problem with this page, add it was created after all the delete votes were passed. [[User:Gmcfoley|Gmcfoley]] 00:55, 26 November 2005 (UTC)
+:I've restored the page. You might want to copy it quickly before someone else deletes it. [[User:Guanaco|Guanaco]] 04:10, 26 November 2005 (UTC)
+
+Thanks, I got the text. You can delete the page again, I will readd the information to a different page. Thanks, [[User:Gmcfoley|Gerard Foley]] 19:52, 26 November 2005 (UTC)
+
+== Crime Textbook ==
+
+I would appreciate a delete vote on this [[Wikibooks:Votes for undeletion#The Manual of Crime|VfUndelete]]. I think that a vote from you would carry weight and provide some added direction to see Wikibooks back to following its mission. I wrote off wikibooks, but the recent comments on foundation-l have made me reconsider that decision. [[User talk:Trödel|Trödel]] 22:18, 29 November 2005 (UTC)
+
+== I'm still here ==
+
+Thank you, in a small way, for taking down my request for de-adminship.  I'm trying to take a break from the politics of what is going on here, in part to cool my own head down a bit.  I think Jimbo was wrong in many things, and I do feel that there were personal attacks by him against myself.  Foundation-l got particularly blistering for a bit.  I need to bury the hatchet and move on though.  I think Jimbo does have his heart in the right place, and I'll be the first to admit that some house cleaning needed to be done here on Wikibooks.
+
+I'm trying to concentrate on more mundane things including for now [[AP Computer Science]] and my perennial Wikibook that I've been working on seemingly forever ([[Serial Programming|Programming:Serial Data Communications]]).  That is why I came to Wikibooks, and these are very non-controvercial so I don't need to get buried into a bunch of debate over them, generally speaking (I did manage to piss off one user over the serial data Wikibook, however).  When I get back into doing more admin duties, I think I'm going to try and concentrate on pushing [[Wikibooks:Card Catalog Office]] and turning it into something worth while.  I also want to clean up the stack of orphaned book modules that have the deadwood of much of Wikibooks that needs to be cleaned up.  Having admin status is not necessary for that strictly, but it will help.  There are close to 200 modules from the days before Wikibooks broke up into multiple languages still here with the majority of that in German.  All of that needs to be deleted eventually.
+
+None of that needs (at least what I've seen so far) any consent from Jimbo nor does it impact his plans for what he has done other than his orphaning a bunch of modules due to how he deleted [[Jokebook]] and [[How to get a date]].  Even that would not really be controvercial other than some admin would have to remember that all Jokebook material would have to be researched and found to make sure it all was deleted.  Wikibooks is particularly awful if the admin doesn't get it all cleaned up on some random page deletion, or even when the "title" page gets modified and a module is accidentally unlinked.
+
+Thank you as well for being active as an admin and in general a good editor/user during this period.  I hope everything settles down a bit and the policies get reworked into something that everybody can agree upon.  It is this issue in particular that I feel needs the support of Jimbo and not arbitraryness for particular content.  If policies can be clarified and worked out completely, things like [[Jokebook]] will be automatically deleted without contention within this community.  The side issue of the relationship between Wikicities and Wikimedia projects is something that is going to come to a head, but I'm not at the moment ready to take on that issue.
+
+BTW, you may want to look at this [http://mail.wikimedia.org/pipermail/foundation-l/2005-November/005243.html e-mail message that was just posted on Foundation-l].  I don't understand the implications, but it does affect you and what I've been talking about as well.  --[[User:Robert Horning|Rob Horning]] 07:51, 30 November 2005 (UTC)
+
+== SORBS ==
+
+After discussion with Craig Spurrier I found more reliable tool than SORBS and I will be more careful when blocking IP's. --[[User:Derbeth|Derbeth]] [[User talk:Derbeth|<sup>talk</sup>]] 23:09, 7 January 2006 (UTC)
+
+==Policy review==
+
+Policy is not the most exciting subject at Wikibooks but we do have some major unresolved issues.
+
+The most important issue, in my opinion, is [http://en.wikibooks.org/wiki/Wikibooks:Dispute_resolution Dispute resolution] which starts by declaring that:
+
+'''"Currently there is no official organized process to resolve disputes between users"'''
+
+The suggested remedy for this is: [[Wikibooks:Ad hoc administration committee]] which puts into place the absolute minimum in terms of an enforcement apparatus.
+
+The second most important is [[Wikibooks:No personal attacks]] where a vote has recommended the policy be enforced but it still languishes as "proposed".
+
+The third policy that is needed and which will prevent edit disputes from getting out of hand is [[Wikibooks:Editing disputes policy]].
+
+Other policies that need consideration are at: [http://en.wikibooks.org/wiki/Wikibooks:Policies_and_guidelines Policies and guidelines].
+
+Please spare a minute or two to peruse these issues and add a comment and/or a vote. [[User:RobinH|RobinH]] 12:20, 28 April 2006 (UTC)
+
+== New pages ==
+
+Huh? Please link me to where I've created pages with <nowiki>{{stub}}</nowiki>, because I never recall doing that. I think you made the mistake of posting on the wrong user's page. Since you haven't edited in a while, maybe your account has just been hijacked and you gave me a random message. Respond on my talk page if you actually wrote that on purpose. Thanks. -[[User:Withinfocus|Matt]] 02:09, 27 July 2006 (UTC)
+
+== [[Wikibooks:General voting rules/Proposal]] ==
+
+I want to call the attention of all wikibookians, especially active admins to the discussion about the new voting policy. Wikibooks currently does not have a concrete voting policy in effect, so the adaptation of this policy will potentially create immediate differences in the way business is conducted here. Due to large amounts of discussion, changes, and dissention, there are several versions of this policy being considered:
+
+*[[Wikibooks:General voting rules/Proposal/Version 1|Version 1]] Written by [[User:Whiteknight]]
+*[[Wikibooks:General voting rules/Proposal/Version 2|Version 2]] Written by [[User:Jguk]]
+*[[Wikibooks:General voting rules/Proposal/Version 3|Version 3]] [[User:RobinH]]'s revision of Jguk's version
+*[[Wikibooks:General voting rules/Proposal/Version 4|Version 4]] Written by [[User:Kellen]]
+*[[Wikibooks:Decision making|Version 5]] Whiteknight's Revision of Kellen's Version.
+
+Also, there are additional issues being discussed, such as the inclusion of a "minimum contributions" clause, that will limit users with less then 20 votes from editing. Also, there is a proposed clause that would allow this 20 vote minimum to be raised in response to abuse.
+
+I am sending this same message to all currently active admins. I hope you are able to come in and give your opinions on this matter. --[[User:Whiteknight|Whiteknight]] <small>([[User talk:Whiteknight|talk]]) ([[user:Whiteknight/Book Foundry|projects]])</small> 20:47, 11 August 2006 (UTC)
+
+== Massive Reverts ==
+
+I noticed you massively reverted pages I tagged for speedy deletion that were either broken redirects due to contents being moved to a different project or were unused redirects that don't follow [[Wikibooks:Naming policy|WB:NP]], were unlikely to be used, could only result in false positives when doing a search and seemed to be within the rules for speedy deletion. So why the massive reverts? --[[User:Darklama|darklama]] 00:29, 16 October 2006 (UTC)
+:I didn't realize I reverted to any broken redirects, but I'll delete those as soon as the [[Special:BrokenRedirects]] cache updates. As for the others, I believe it would be best to keep them, because it's possible there are links to them from external sites, such as other Wikibooks projects. There shouldn't be any problem with false positives as long as we delete the broken ones; users who find the redirects in a search will be directed to the target page. [[User:Guanaco|Guanaco]] 03:49, 17 October 2006 (UTC)
+::Careful! Some of those really ''did'' need to be deleted, because they're redirects to a video game guide that has since migrated to one of the VG wikis. 
+::Nice to see you back, but you should really go over some of the recent policy discussions, as things have evolved a bit over the past year or so.--[[user:SB Johnny|<font color="green">'''SB_Johnny'''</font>]] | <sup>[[user talk:SB Johnny|<font color="green">talk</font>]]</sup> 10:11, 18 October 2006 (UTC)
+:::The ones that really need to be deleted will show up on [[Special:BrokenRedirects]] and in the next XML dump, and I'll take care of them. [[User:Guanaco|Guanaco]] 20:10, 18 October 2006 (UTC)
+
+== Wikimanual of Gardening pages ==
+
+...generally should just keep all the transwikied information, since isolating a tidbit just makes them into itty-bitty stubs. The /sowing version was actually a lot better than the /seeds section. Please don't delete materials from the pages of a book that you are not familiar with. 
+
+OTOH, your thoughts would be appreciated on [[Help talk:Transwiki|Wikibooks talk:Transwiki Rules]]. --[[user:SB Johnny|<font color="green">'''SB_Johnny'''</font>]] | <sup>[[user talk:SB Johnny|<font color="green">talk</font>]]</sup> 21:27, 19 October 2006 (UTC)
+
+== deleting pages moved to other domains ==
+
+Hello Guanaco, I just saw you deleted Spanish Wikiversity pages. They had been moved to a Spanish domain, without the Import option (because then it didn't existed). In order to respect the GFDL, a link to its history page in this domain had been created. Now, with the page deleted, we are violating the GFDL. :O( Be careful with that next times, --[[User:Javier Carro|Javier Carro]] 17:00, 20 October 2006 (UTC)
+:If you can link to these pages, I can undelete them and have a Spanish Wikiversity admin import them properly. [[User:Guanaco|Guanaco]] 20:57, 20 October 2006 (UTC)
+
+::[[User:Javier Carro/es.wikiversity pages to be undeleted]]. I am admin in es.wikiversity. But, at the moment, we only can import from es.wikibooks and meta. If you can recover these pages, I'll request that the import is activated for this domain also. Thank you, --[[User:Javier Carro|Javier Carro]] 08:12, 22 October 2006 (UTC)
+
+== table syntax mangled ==
+
+I'm afraid your bot messed up this page
+
+http://en.wikibooks.org/w/index.php?title=Spanish/Lesson_4
+- [[User:Ulph|Ulph]] 22:12, 20 October 2006 (UTC)
+:I've fixed it. Whoever originally made the table was using newlines in formatting the table where spaces would be appropriate. [[User:Guanaco|Guanaco]] 22:15, 21 October 2006 (UTC)
+
+== Happy New Year John! ==
+
+Happy Holidays! [[User:Mike Garcia|Mike Garcia]] 23:55, 5 January 2007 (UTC)
+
+== Issue Guide VfD ==
+The work Issue Guide was [http://en.wikibooks.org/wiki/Wikibooks:Votes_for_deletion#Issue_Guide tagged for deletion on Wikibooks], your input would be welcomed.  --[[User:Panic2k4|Panic]] 17:47, 11 October 2007 (UTC)
+
+== Nomination for de-adminship ==
+
+You have been inactive for a year, and as such you've been [[WB:RFA#Guanaco.C2.A0.28_talk.C2.A0.7C.C2.A0_email.C2.A0.7C.C2.A0_contribs.C2.A0.7C.C2.A0logs.29|nominated for de-adminship]]. If you wish to contest your de-adminship you can do so on the included linked page. You do not have email enabled, so this is the only way to contact you that I know of. --<span style="font: bold 10pt 'courier new', comic, sans, ms;">[[User:Darklama|<font color="midnightblue">dark</font>]][[User_talk:Darklama|<font color="green">lama</font>]]</span> 18:34, 20 October 2007 (UTC)
+
+==Import huggle info==
+I have imported speedy deletion criteria onto Huggle, but the templates don't work, so don't use them yet. There are 4 levels of warn, but the eort does not work. RfD does not work. That is all. <span style="font-variant: small-caps" class="vcard"><span class="fn n nickname">[[User:PokestarFan|PokestarFan]]{{*}}[[User talk:PokestarFan|Talk]]{{*}}[[Special:Contributions/PokestarFan|Contributions]]</span></span> 11:33, 13 June 2017 (UTC)
+
+Also, please use the undo and warn function. Makes warnomg them so much easier. <span style="font-variant: small-caps" class="vcard"><span class="fn n nickname">[[User:PokestarFan|PokestarFan]]{{*}}[[User talk:PokestarFan|Talk]]{{*}}[[Special:Contributions/PokestarFan|Contributions]]</span></span> 19:08, 13 June 2017 (UTC)

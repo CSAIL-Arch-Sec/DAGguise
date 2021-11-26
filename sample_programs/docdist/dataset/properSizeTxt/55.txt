@@ -1,0 +1,206 @@
+'''Software development efforts estimation''' is the process of predicting the most realistic use of effort required to develop or maintain software based on incomplete, uncertain and/or noisy input. Effort estimates may be used as input to project plans, iteration plans, budgets, investment analyses, pricing processes and bidding rounds.
+
+== State-of-practice ==
+
+Published surveys on estimation practice suggest that expert estimation is the dominant strategy when estimating software development effort<ref>{{cite web 
+  | author = Jørgensen, M.
+  | title = A Review of Studies on Expert Estimation of Software Development Effort
+  | url = http://simula.no/research/engineering/publications/SE.4.Joergensen.2004.c
+ }}</ref>.
+
+Typically, effort estimates are over-optimistic and there is a strong over-confidence in their accuracy. The mean effort overrun seems to be about 30% and not decreasing over time. For a review of effort estimation error surveys, see <ref>{{cite web 
+  | author = Molokken, K.	Jorgensen, M.
+  | title = A review of software surveys on software effort estimation
+  | url = http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1237981
+   }}</ref>. However, the measurement of estimation error is not unproblematic, see Assessing and interpreting the accuracy of effort estimates.
+The strong over-confidence in the accuracy of the effort estimates is illustrated by the finding that, on average, if a software professional is 90% confident or “almost sure” to include the actual effort in a minimum-maximum interval, the observed frequency of including the actual effort is only 60-70% <ref>{{cite web 
+  | author = Jørgensen, M.	Teigen, K.H.	Ribu, K.	
+  | title =  Better sure than safe? Over-confidence in judgement based software development effort prediction intervals
+  | url = http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V0N-49N06GS-5&_user=674998&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000036598&_version=1&_urlVersion=0&_userid=674998&md5=36c6383445cf481447d06cb30c1ccb63 }}</ref>. 
+
+Currently the term “effort estimate” is used to denote as different concepts as most likely use of effort (modal value), the effort that corresponds to a probability of 50% of not exceeding (median), the planned effort, the budgeted effort or the effort used to propose a bid or price to the client. This is believed to be unfortunate, because communication problems may occur and because the concepts serve different goals 
+<ref>Edwards, J.S. Moores, T.T.	(1994), "A conflict between the use of estimating and planning tools in the management of information systems.". European Journal of Information Systems 3(2): 139-147.</ref>
+<ref>Goodwin, P. (1998). Enhancing judgmental sales forecasting: The role of laboratory research. Forecasting with judgment. G. Wright and P. Goodwin. New York, John Wiley & Sons: 91-112.</ref>.
+
+== History ==
+
+Software researchers and practitioners have been addressing the problems of effort estimation for software development projects since at least the 1960s; see, e.g., work by Farr <ref>{{cite web 
+  | author = Farr, L.	Nanus, B.
+  | title = Factors that affect the cost of computer programming
+  | url = http://stinet.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=AD0603707
+ }}</ref> and Nelson <ref>Nelson, E. A. (1966). Management Handbook for the Estimation of Computer Programming Costs. AD-A648750, Systems Development Corp.</ref>.
+
+Most of the research has focused on the construction of formal software effort estimation models. The early models were typically based on regression analysis or mathematically derived from theories from other domains. Since then a high number of model building approaches have been evaluated, such as approaches founded on case-based reasoning, classification and regression trees, simulation, neural networks, Bayesian statistics, lexical analysis of requirement specifications, genetic programming, linear programming, economic production models, soft computing, fuzzy logic modeling, statistical bootstrapping, and combinations of two or more of these models. The perhaps most common estimation products today, e.g., the formal estimation models COCOMO and SLIM have their basis in estimation research conducted in the 1970s and 1980s. The estimation approaches based on functionality-based size measures, e.g., function points, is also based on research conducted in the 1970s and 1980s, but are re-appearing with modified size measures under different labels, such as “use case points” <ref>{{cite web 
+  | author = Anda, B.	Angelvik, E.	Ribu, K.	
+  | title =  Improving Estimation Practices by Applying Use Case Models
+  | url = http://www.springerlink.com/content/7lpyel912m5cr654/
+  }}</ref> in the 1990s and [http://www.cosmicon.com COSMIC] in the 2000s.
+
+== Estimation approaches ==
+
+There are many ways of categorizing estimation approaches, see for example <ref>Briand, L. C. and I. Wieczorek (2002). Resource estimation in software engineering. Encyclopedia of software engineering. J. J. Marcinak. New York, John Wiley & Sons: 1160-1196.</ref><ref>{{cite web 
+  | author = Jørgensen, M.	Shepperd, M.			
+  | title =  A Systematic Review of Software Development Cost Estimation Studies
+  | url = http://simula.no/research/engineering/publications/Jorgensen.2007.1 }}</ref>. The top level categories are the following:
+
+* Expert estimation: The quantification step, i.e., the step where the estimate is produced based on judgmental processes.
+* Formal estimation model: The quantification step is based on mechanical processes, e.g., the use of a formula derived from historical data.
+* Combination-based estimation: The quantification step is based on a judgmental or mechanical combination of estimates from different sources.
+
+Below are examples of estimation approaches within each category.
+
+{| class="wikitable"
+|-
+! Estimation approach
+! Category
+! Examples of support of implementation of estimation approach
+|-
+| Analogy-based estimation
+| Formal estimation model
+| ANGEL, Weighted Micro Function Points
+|-
+| WBS-based (bottom up) estimation
+| Expert estimation
+| Project management software, company specific activity templates
+|-
+| Parametric models
+| Formal estimation model
+| COCOMO, SLIM, SEER-SEM
+|-
+| Size-based estimation models<ref>Hill Peter (ISBSG) - Estimation Workbook 2 - published by International Software Benchmarking Standards Group [http://www.isbsg.org/ISBSGnew.nsf/WebPages/~GBL~Practical%20Project%20Estimation%202nd%20Edition ISBSG - Estimation and Benchmarking Resource Centre]</ref>
+| Formal estimation model
+| Function Point Analysis<ref>Morris Pam - Overview of Function Point Analysis [http://www.totalmetrics.com/function-point-resources/what-are-function-points Total Metrics - Function Point Resource Centre]</ref>, Use Case Analysis, Story points-based estimation in Agile software development
+|-
+| Group estimation
+| Expert estimation
+| Planning poker, Wideband Delphi
+|-
+| Mechanical combination
+| Combination-based estimation
+| Average of an analogy-based and a Work breakdown structure-based effort estimate
+|-
+| Judgmental combination
+| Combination-based estimation
+| Expert judgment based on estimates from a parametric model and group estimation
+|}
+
+== Selection of estimation approach ==
+
+The evidence on differences in estimation accuracy of different estimation approaches and models suggest that there is no “best approach” and that the relative accuracy of one approach or model in comparison to another depends strongly on the context 
+<ref>{{cite web 
+  | author = Shepperd, M.	Kadoda, G.			
+  | title =   Comparing software prediction techniques using simulation
+  | url = http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/32/20846/00965341.pdf?arnumber=965341 }}
+</ref>. This implies that different organizations benefit from different estimation approaches. Findings, summarized in <ref>{{cite web 
+  | author = Jørgensen, M.			
+  | title =   Estimation of Software Development Work Effort:Evidence on Expert Judgment and Formal Models
+  | url = http://simula.no/research/engineering/publications/Jorgensen.2007.2 }}
+</ref>, that may support the selection of estimation approach based on the expected accuracy of an approach include:
+
+* Expert estimation is on average at least as accurate as model-based effort estimation. In particular, situations with unstable relationships and information of high importance not included in the model may suggest use of expert estimation. This assumes, of course, that experts with relevant experience are available. 
+* Formal estimation models not tailored to a particular organization’s own context, may be very inaccurate. Use of own historical data is consequently crucial if one cannot be sure that the estimation model’s core relationships (e.g., formula parameters) are based on similar project contexts.
+* Formal estimation models may be particularly useful in situations where the model is tailored to the organization’s context (either through use of own historical data or that the model is derived from similar projects and contexts), and/or it is likely that the experts’ estimates will be subject to a strong degree of wishful thinking.
+
+The most robust finding, in many forecasting domains, is that combination of estimates from independent sources, preferable applying different approaches, will on average improve the estimation accuracy <ref>{{cite web 
+  | author = Winkler, R.L.			
+  | title =   Combining forecasts: A philosophical basis and some current issues Manager
+  | url = http://www.sciencedirect.com/science/article/B6V92-45P4G7H-2B/2/d05dc6c369ab173c5792a05ea1be21d9 }}
+</ref>
+<ref>{{cite web 
+  | author = Blattberg, R.C.	Hoch, S.J.			
+  | title =   Database Models and Managerial Intuition: 50% Model + 50% Manager
+  | url = http://www.jstor.org/pss/2632364 }}
+</ref>
+<ref>{{cite web 
+  | author = Jørgensen, M.			
+  | title =   Estimation of Software Development Work Effort:Evidence on Expert Judgment and Formal Models
+  | url = http://simula.no/research/engineering/publications/Jorgensen.2007.2 }}
+</ref>.
+
+In addition, other factors such as ease of understanding and communicating the results of an approach, ease of use of an approach, cost of introduction of an approach should be considered in a selection process.
+
+== Uncertainty assessment approaches ==
+
+The uncertainty of an effort estimate can be described through a prediction interval (PI). An effort PI is based on a stated certainty level and contains a minimum and a maximum effort value. For example, a project leader may estimate that the most likely effort of a project is 1000 work-hours and that it is 90% certain that the actual effort will be between 500 and 2000 work-hours. Then, the interval [500, 2000] work-hours is the 90% PI of the effort estimate of 1000 work-hours. Frequently, other terms are used instead of PI, e.g., prediction bounds, prediction limits, interval prediction, prediction region and, unfortunately, confidence interval. An important difference between confidence interval and PI is that PI refers to the uncertainty of an estimate, while confidence interval usually refers to the uncertainty associated with the parameters of an estimation model or distribution, e.g., the uncertainty of the mean value of a distribution of effort values. The confidence level of a PI refers to the expected (or subjective) probability that the real value is within the predicted interval<ref>{{cite web 
+  | author = Armstrong, J. S.			
+  | title =  Principles of forecasting: A handbook for researchers and practitioners
+  | url = http://www.forecastingprinciples.com }}</ref>.
+
+There are several possible approaches to calculate effort PIs, e.g., formal approaches based on regression or bootstrapping <ref>{{cite web 
+  | author = Angelis, L.	Stamelos, I.			
+  | title =  A simulation tool for efficient analogy based cost estimation
+  | url = http://portal.acm.org/citation.cfm?id=594467&dl=ACM&coll=portal }}</ref>, formal or judgmental approaches based on the distribution of previous estimation error
+<ref>{{cite web 
+  | author = Jørgensen, M.	Sjøberg, D.I.K.			
+  | title =  An effort prediction interval approach based on the empirical distribution of previous estimation accuracy
+  | url = http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V0B-47HC6S5-1&_user=674998&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000036598&_version=1&_urlVersion=0&_userid=674998&md5=6cb917a379855c79eebe9f18ca9ac424 }}</ref>, and pure expert judgment of minimum-maximum effort for a given level of confidence. Expert judgments based on the distribution of previous estimation error has been found to systematically lead to more realistic uncertainty assessment than the traditional minimum-maximum effort intervals in several studies, see for example <ref>{{cite web 
+  | author = Jørgensen, M.	
+  | title =  Realism in assessment of effort estimation uncertainty: It matters how you ask
+  | url = http://simula.no/research/engineering/publications/SE.4.Joergensen.2004.e }}</ref>.
+
+== Assessing and interpreting the accuracy of effort estimates ==
+
+The most common measures of the average estimation accuracy is the MMRE (Mean Magnitude of Relative Error), where MRE is defined as: 
+
+''MRE'' = |actual effort − estimated effort| / |actual effort|
+
+This measure has been criticized <ref>{{cite web 
+  | author = Shepperd, M.	Cartwright, M.	Kadoda, G.			
+  | title =   On Building Prediction Systems for Software Engineers
+  | url = http://www.ingentaconnect.com/content/klu/emse/2000/00000005/00000003/00278191 }}
+</ref>
+<ref>{{cite web 
+  | author = Kitchenham, B.	Pickard, L.M.	MacDonell, S.G.	Shepperd, 		
+  | title =   What accuracy statistics really measure
+  | url = http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=IPSEFU000148000003000081000001&idtype=cvips&gifs=yes }}
+</ref>
+<ref>{{cite web 
+  | author = Foss, T.	Stensrud, E.	Kitchenham, B.      Myrtveit, I. 		
+  | title =   A Simulation Study of the Model Evaluation Criterion MMRE
+  | publisher = IEEE
+  | url = http://portal.acm.org/citation.cfm?id=951936 }}
+</ref> and there are several alternative measures, such as more symmetric measures <ref>{{cite web 
+  | author = Miyazaki, Y.	Terakado, M.	Ozaki, K.	Nozaki, H. 		
+  | title =   Robust regression for developing software estimation models
+  | url = http://portal.acm.org/citation.cfm?id=198684 }}
+</ref>
+, Weighted Mean of Quartiles of relative errors (WMQ) 
+<ref>{{cite web 
+  | author = Lo, B.	Gao, X.		
+  | title =   Assessing Software Cost Estimation Models: criteria for accuracy, consistency and regression
+  | url = http://dl.acs.org.au/index.php/ajis/article/view/348 }}</ref> and Mean Variation from Estimate (MVFE) <ref>{{cite web 
+  | author = Hughes, R.T.	Cunliffe, A.	Young-Martos, F.		
+  | title =    Evaluating software development effort model-building techniquesfor application in a real-time telecommunications environment
+  | url = http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=689296 }}</ref>.
+
+A high estimation error cannot automatically be interpreted as an indicator of low estimation ability. Alternative, competing or complementing, reasons include low cost control of project, high complexity of development work, and more delivered functionality than originally estimated. A framework for improved use and interpretation of estimation error measurement is included in <ref>{{cite web 
+  | author = Grimstad, S.	Jørgensen, M.		
+  | title =    A Framework for the Analysis of Software Cost Estimation Accuracy
+  | url = http://simula.no/research/engineering/publications/Grimstad.2006.2/simula_pdf_file }}</ref>.
+
+== Psychological issues related to effort estimation ==
+
+There are many psychological factors potentially explaining the strong tendency towards over-optimistic effort estimates that need to be dealt with to increase accuracy of effort estimates. These factors are essential even when using formal estimation models, because much of the input to these models is judgment-based. Factors that have been demonstrated to be important are: Wishful thinking, anchoring, planning fallacy and cognitive dissonance. A discussion on these and other factors can be found in work by Jørgensen and Grimstad <ref>{{cite web 
+  | author = Jørgensen, M.	Grimstad, S.			
+  | title =   How to Avoid Impact from Irrelevant and Misleading Information When Estimating Software Development Effort
+  | url = http://simula.no/research/engineering/publications/Simula.SE.112 }}
+</ref>.
+* It's easy to estimate what you know.
+* It's hard to estimate what you know you don't know.
+* It's very hard to estimate things that you don't know you don't know.
+
+== References ==
+{{reflist}}
+
+== External links ==
+* Industry Productivity data for Input into Software Development Estimates and guidance and tools for Estimation - International Software Benchmarking Standards Group: http://www.isbsg.org
+* Free first-order benchmarking utility from Software Benchmarking Organization: http://www.sw-benchmarking.org/report.php
+* Special Interest Group on Software Effort Estimation: http://www.forecastingprinciples.com/Software_Estimation/index.html
+* General forecasting principles: http://www.forecastingprinciples.com
+* Project estimation tools: http://www.projectmanagementguides.com/TOOLS/project_estimation_tools.html
+* Downloadable research papers on effort estimation: http://simula.no/research/engineering/projects/best
+* Mike Cohn's Estimating With Use Case Points from article from Methods & Tools: http://www.methodsandtools.com/archive/archive.php?id=25
+* Resources on Software Estimation from Steve McConnell: http://www.construx.com/Page.aspx?nid=297
+* Resources on Software Estimation from Dan Galorath: http://www.galorath.com/wp/
+
+{{BookCat}}

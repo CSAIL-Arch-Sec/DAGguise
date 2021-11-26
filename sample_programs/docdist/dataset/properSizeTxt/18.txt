@@ -1,0 +1,123 @@
+{{history of Hong Kong|about=123}}
+The first thing you will see when you walk into the Hong Kong Museum of History is a few old rocks. They look neat, sure, but they are not our focus here. This book is about the history of Hong Kong, from the earliest time that Hong Kong ape-people were known to exist – which is about 4000BC. Those people wore made houses, tools and even the odd earring.
+
+When does the book end? Um, no. It ''never'' ends. The moment you began reading the first word of this page is already 'history'. This book attempts to cover every last moment of history that is noteworthy enough. If the current Chief Executive suddenly survives an assassination attempt, yes, we ''will'' include it here, although maybe not as fast as our sister projects, ''Wikinews'' and ''Wikipedia'', do.
+
+Yet, this book, at the same time, aims to be as brief as possible. This is because if we allow this book to grow, and grow, and grow, eventually it will be so big that even a supercomputer cannot load its print version.
+
+Before we embark on our journey to explore (briefly) the history of this city, let us make sure we know what this book is about, its scope and, most importantly, how to contribute to it.
+
+== The wiki ==
+First, it must be noted that this book is hosted on ''Wikibooks'', a collection of non-fiction books, mostly textbooks, that is written by the community. For the convenience of those who are reading this in a printed copy, the URL of this book is at <code><nowiki>http://en.wikibooks.org/wiki/History_of_Hong_Kong</nowiki></code>. ''Wikibooks'' consists of two terms: ''wiki'', and ''books''. The latter, as we have seen just now, means that it is a collection of books. But what about the former?
+
+A wiki is a website that allows anyone to add, remove or edit its contents. Such includes the famous ''Wikipedia'', which is our sister project as well as the largest wiki in the Internet, so large that it is sometimes mistaken for the soul wiki. As the 'sum of all human knowledge', Wikipedia can work as a reference tool for the readers. For this reason, readers are advised to look up Wikipedia while reading this book, and this book will also provide links to Wikipedia for further information where necessary.
+
+Since this is a wiki, it means that you can contribute to it. A common guideline in wikis is that users must be bold. That means if you find a fault with the book, you should correct it yourself, rather than contacting the 'authors' and asking them to do it for you. In fact, you can become an 'author' yourself, simply by clicking on the 'edit' tab on top of this page and making a constructive edit to it. For those who are unfamiliar with wikis, try it now. If you are reading this offline, go online to the URL on provided earlier, and click on 'Introduction'. On the left-hand side of 'The wiki', there is a button which reads, [<font color = "blue">edit</font>]. Click on it, and edit this section.
+<!-- Add something below this line.
+
+Add something above this line.-->
+
+That's it. You have edited this page. It's that easy.
+
+Before you get too excited though, remember that you are also bound by a set of restrictions, or guidelines, while editing. Mind you, this book, like any other part of the ''Wikibooks'' project, is '''not a bureaucracy'''. You are always welcome to contribute to the book without adhering to the guidelines so long as you think it will improve the book. This is not to say that your fellow contributors will not find it unconstructive and undo your edit!
+
+== Guidelines ==
+First off, all contents of this book follow the requirements stated at [[WB:PAG|this page]]. (For those reading it offline, the URL is at <code><nowiki>http://en.wikibooks.org/wiki/Wikibooks:Policies_and_guidelines</nowiki></code>. Remember to observe those rules at all times. However, such rules are subject to change at any time. If you feel that a rule is not constructive to the project, you may ask for it to be modified in our [[WB:RR|reading room]] (<code><nowiki>http://en.wikibooks.org/wiki/Wikibooks:Reading room</nowiki></code>.
+
+In addition to the ''Wikibooks'' general rules, there are several other guidelines that should be observed where possible. Such guidelines are limited to this book only and may not apply to other books.
+
+=== Content guidelines ===
+All content added to the ''History of Hong Kong'' must be verifiable. That means it has to be published in reliable sources before. If it is something you discovered, then chances are it is not suitable for this book, because that constitutes ''original research''. Instead, publish your discovery on some reliable source first. Then you may add it here, although this is still discouraged as you have a conflict of interest.
+
+In order to prove that you did not breach the above guideline, we ask that you provide a reference for every fact you add. Sources that we do not, in general, accept include:
+#Internet TV channels or radio stations without a reputation for accuracy;
+#Primary sources;
+#Sources published by the person or organisation in question, as it is likely biased (government sources generally do NOT count);
+#Gossip magazines.
+
+A '''primary source''' is a source that is the actual thing we are trying to study. For example, if we want to study the Qin Dynasty, the institutions set by Qin Shihuangdi is a primary source. The book written by Sima Qian during the Han Dynasty, ''Records of the Grand Historian'' or ''Shiji'', is a '''secondary source''', which is encouraged. Multiple sources are encouraged in order to ensure a neutral point of view.
+
+Another point to note while contributing to this book is that what you add must be notable.Ask yourself, before adding a fact: will anyone who wants to start their studies on the history of Hong Kong and not explore the trivial, no matter how interesting, bother to read it? If the answer is no, then it probably won't be suitable for this book. If in doubt, try to drop a note at the page's talk page, which is accessible by clicking on the 'discussion' tab on the very top of the page. Or, boldly add it. If an experienced contributor thinks it is not acceptable, he or she will undo that edit and put a note on your user talk page. (If you are reading this as an ebook, you can find your user talk page by clicking [[Special:MyTalk|here]].)
+
+Exercises are encouraged. You can add an exercise at the bottom of any page. First, click on the 'edit this page' tab on top of the page. Next, add the following code right above the line which reads <code><nowiki>{{BookCat}}</nowiki></code>:
+
+ <nowiki><quiz display="simple"></nowiki>
+ <nowiki>{Question 1</nowiki>
+ <nowiki>|type="[]"}</nowiki>
+ <nowiki>+ Choice 1 (correct choice)</nowiki>
+ <nowiki>||<span style="color:green">Explanation for Choice 1</span></nowiki>
+ <nowiki>- Choice 2</nowiki>
+ <nowiki>||<span style="color:red">Explanation for Choice 2</span></nowiki>
+ <nowiki>- Choice 3</nowiki>
+ <nowiki>||<span style="color:red">Explanation for Choice 3</span></nowiki>
+ <nowiki>- Choice 4</nowiki>
+ <nowiki>||<span style="color:red">Explanation for Choice 4</span></nowiki>
+ <nowiki></quiz></nowiki>
+
+Which produces:
+
+{{hiddenh2|Exercise}}
+<quiz display="simple">
+{Question 1
+|type="[]"}
++ Choice 1 (correct choice)
+||<span style="color:green">Explanation for Choice 1</span>
+- Choice 2
+||<span style="color:red">Explanation for Choice 2</span>
+- Choice 3
+||<span style="color:red">Explanation for Choice 3</span>
+- Choice 4
+||<span style="color:red">Explanation for Choice 4</span>
+</quiz>
+
+
+An extra piece of advice before we go on. Write more on recent events than on ancient ones. This is the way most books are formatted, after all.
+
+=== Style guidelines ===
+Note that these guidelines only reflect common practice, which may shift over time.
+
+Endashes (like this: —) should be used instead of hyphens (like this: -) when used to add information. When citing dates, format the date as follows: {{CURRENTDAY}} {{CURRENTMONTHNAME}}, {{CURRENTYEAR}}. When in doubt, consult Wikipedia's general [[w:WP:MOS|manual of style]], although some Wikipedia-specific guidelines may not be suitable for this book. Use common sense and don't be afraid to make mistakes; they will be corrected soon enough.
+
+Important keywords, persons, events, etc., must be in boldface (such as '''Chris Patten''', the '''Opium War''' and '''Legislative Council''') and must be included in [[../Index|the index]]. Guidelines on the index will be provided on that page. If you come across a word that is Chinese (such as ''Dai Pai Dong'') or a word that may be difficult for the general audience, then the word must be in italics and added to [[../Glossary|the glossary]]. A word can be both boldface and italics, and added to both the glossary and the index.
+
+Footnotes are appended to the end of each chapter, under the 'notes' section. They are added to the end of each phrase or sentence within <code><nowiki><ref></ref></nowiki></code> tags. Put the code <code><nowiki>{{reflist}}</nowiki></code> in the 'notes' section for it to show. They should be avoided where the use of round or square brackets will not affect the flow of the passage. Reign-names should be in footnotes. Ref groups should be avoided.
+
+{{Wikipedia|Page for further information}}
+Avoid inline citations where necessary, as may create unnecessary trouble for those who are unfamiliar with it. Instead, list out all the references in[[../Bibliography| the Bibliography]]. All references are to be cited using the citation templates. The most commonly used ones are {{tl|cite news}}, {{tl|cite web}} and {{tl|cite book}}. External links or further reading lists not used as references should be avoided where possible. However, links to Wikipedia for further information is encouraged and can be added with the following code: <code><nowiki>{{Wikipedia|</nowiki>''<nowiki>Page for further information</nowiki>''<nowiki>}}</nowiki></code>. This produces the box on the right.
+
+All pages of this book are to be included in [[:{{BOOKCATEGORY}}|our category]], which can be done by adding {{tl|BookCat}} at the end of each page.
+
+As a general rule, add the Chinese translation of words that are included in the index, although sometimes words do not need to be translated (e.g. Cantonese, whose meaning the reader probably knows already.)
+
+Before writing, it is advised that if you are unfamiliar with MediaWiki, take the [[w:Wikipedia:Tutorial|Wikipedia tutorial]] on Wiki markup in order to learn code that will help you format your writing. Remember to be bold nonetheless; mistakes will be corrected at the blink of an eye!
+
+Please use the most common romanisation. For instance, Tsim Sha Tsui should be used instead of Tsimshatsui. Where no English source exists or can be found about a proper noun, you can either romanise it in pinyin, jyutping or other means. For example, if someone's called 陳小明, and there's someone called 陳大文 and 王小明, whose romanisations are Chan Tai Man and Wong Siu Ming, you can conclude that 陳小明's romanisation is Chan Siu Ming). If you cannot find such 'equivalents', see where he's from - if he's from the city, you can call him Chan Siu Ming; if he's from the mainland before the age of pinyin but after the Chinese Revolution, you can use Wade-Giles; if he's from the mainland before the Revolution or after pinyin was invented, you can use pinyin.
+
+=== Consensus ===
+If another editor disagrees with an edit you make, try not to revert it back unless it is blatantly unproductive, such as vandalism, bias, or spam. Instead, leave a note at the page's talk page and also inform the user on his or her user talk page. That way, you can discuss and reach a compromise. If you and the other editor have a dispute you would like to solve, you can seek mediation at our [[WB:PROJECTS|projects reading room]].
+
+Remember that although collaboration is needed, boldness should not be overlooked. If you think something is wrong, just correct it yourself. If that change is really big, you may optionally leave a message on the discussion page explaining the change. Remember to sign your posts with four tildes (<nowiki>~~~~</nowiki>) at the end which produces your signature at the GMT time when it was posted.
+
+If you feel that content guideline on this page is faulty, feel free to leave a note on the main talk page of this book at [[Talk:History of Hong Kong]]. If there is no reasonable opposition within 7 days, then you can change it yourself. If it is a style issue that you have noticed the book is no longer adhering to, simply remove it yourself. If another editor disagrees with you, however, he or she ''may'' change it back.
+
+=== Using this book ===
+The most obvious way of using this book is reading it! Online or printed, you are free to read it anytime. But what if you think it's cool and want to print it out for your friends? You are most free to do so, although it is encouraged that you download and print the PDF version, since the print version doesn't look as good and takes long to load. Both versions are currently unavailable, though.
+
+Can you use it for commercial purposes? Yes, you can! This book is licensed under the Creative Commons Attribution Share-Alike Unported Licence, or CC-BY-SA for short. That means you can distribute and modify it in any way you want as long as you attribute the book to ''Wikibooks'' and share it under the same licence, CC-BY-SA.
+
+== Definitions ==
+Defining the scope of a book is very important. If you go about writing a book without a clear direction, you will end up heading in all directions, and the book will become a collection of miscellaneous facts, a hundred-thousand-whys kind of book. In order to define the scope of a book, we have to first define its title.
+
+The title of this book, as you should know by now, is ''History of Hong Kong''. What is history? History is the past. Even what happened a moment ago is history, because it is the past. Everything from the big bang, right up until this moment, we call history. But it is impossible to start recording history from the beginning of the universe, right? That's how the second part of the title comes in handy. We are writing about the history of Hong Kong, which couldn't have existed during the Big Bang. The definition of Hong Kong is the piece of land that the British colonists took away from China due to the Opium Wars. This includes '''Hong Kong Island''', '''Kowloon Peninsula''' and the '''New Territories''', including the outlying islands.
+
+Now that we've narrowed it down both in time and location, we need to narrow it further. After all, Hong Kong was made from bits of land from that giant piece of land that started off at the beginning, when Earth was born. No way do we know of history then, for humanity was yet to exist. Therefore, we shall narrow down our topic further: the human history, not the natural history, of Hong Kong.
+
+Now, what aspects of Hong Kong history shall we focus on? Look in any good bookshop in Hong Kong and you'll probably be surprised at the number of books on the shelves about the declared monuments, traditional culture and clan histories of Hong Kong. These are part of Hong Kong's history, but as they're already covered by a number of other sources, let's not put too much effort into those. Instead, let's focus on actual events that happened in Hong Kong. Now, every history book should have more information on recent than prehistoric events, since that's how sources work – ever seen a book about world history that says more about the Battle of Mingtiao than the Second World War? – so we won't be rebellious and go with the tradition.
+
+[[File:Hestia tapestry.jpg|thumb|The Hestia tapestry.]]
+Aha! There we are. The topic is still broad, but at least we can manage to write a book on it. So how will we arrange this book? History is often compared to tapestry, a kind of art in which threads are woven together and produce a fine picture. The threads are woven together in a very complicated manner, and it is often difficult to find how exactly the manage to stick together. Therefore, it will be very difficult to cover every thread in history, yet we can try to weave together the main threads, and look at it at a distance in order to perceive the big picture. This is also the reason why it is impossible to arrange the book in chronological order: because events cross so much.
+
+== And now... ==
+You have read through the introduction of this book. This means you already know quite a bit about what this book is about. So, read on for a brief overview of Hong Kong's history...
+
+{{BookCat}}

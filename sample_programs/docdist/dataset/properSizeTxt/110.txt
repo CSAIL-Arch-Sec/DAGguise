@@ -1,0 +1,93 @@
+This fact sheet is an analysis of the journal article "Leisure time physical activity at midlife and subsequent development of dementia and Alzheimer's disease" by Rovio, et al. (2005).<ref name="report">Rovio, Suvi et al. "Leisure-Time Physical Activity At Midlife And The Risk Of Dementia And Alzheimer's Disease". The Lancet Neurology 4.11 (2005): 705-711. Web.</ref>
+
+==What is the background to this research?==
+The aim of this study was to investigate whether leisure time physical activity at mid-life is associated with a decreased risk of dementia and Alzheimer's disease (AD) in later life.
+Dementia is an increasingly common disease and was the cause of '''6% of all deaths in Australia in 2010'''.<ref name="aihw">"Dementia In Australia (AIHW)". Aihw.gov.au. N.p., 2012. Web.</ref> Alzheimer's disease is the most common form of dementia.<ref name="aihw"/> Dementia describes a group of symptoms that are caused by disorders affecting the brain that will result in a progressive decline in a person's function. These symptoms can be debilitating for sufferers and distressing for family and friends.
+
+====These symptoms can include====
+
+* Memory loss 
+* Difficulty finding familiar words 
+* Difficulty maintaining attention or keeping focus
+* Changes in reason and judgement
+* Difficulty with visual perception 
+* Difficulty with previously familiar tasks 
+* Problems with basic core activities eg. eating, and bathing<ref>"Dementia – Signs, Symptoms, Causes, Tests, Treatment, Care | Alz.Org". Alz.org. N.p., 2016. Web.</ref><ref>"About Alzheimer's Disease: Symptoms". National Institute on Aging. N.p., 2016. Web.</ref>
+
+This can become stressful for sufferers and their families and usually justifies a need for constant care and observation. These symptoms and the likelihood of any cognitive impairment are enhanced by various risk factors.<ref>"Alzheimer's & Dementia Risk Factors | Alzheimer's Association". Alz.org. N.p., 2016. Web.</ref>
+
+Risk factors for dementia include:
+* High blood pressure
+* High cholesterol
+* Type 2 diabetes 
+* Being overweight or obese
+* Lifestyle factors including smoking and drinking
+* Genetic risk factors including APOE genotype
+
+The APOE gene instructs the body how to make a type of protein that is responsible for carrying fats and cholesterol around the body. Each person has two copies of this gene, and it is referred to as an APOE genotype. There are several different combinations of APOE genotype, and it can act as a determinant of one's risk of developing dementia. As highlighted in the table below, the 'e4' genotype significantly increases an individuals risk.<ref>Table 1 adapted from: "What APOE Means For Your Health | Alzheimer’S Drug Discovery Foundation". Alzdiscovery.org. N.p., 2016. Web.</ref><ref>Liu, Chia-Chan et al. "Apolipoprotein E And Alzheimer Disease: Risk, Mechanisms And Therapy". Nature Reviews Neurology 9.2 (2013): 106-118. Web.</ref>
+
+{| class="wikitable"
+|-
+! Genotype !! e2/e2 !! e2/e3 !! e2/e4 !! e3/e3 !! e3/e4 !! e4/e4
+|-
+| '''Disease Risk''' || 40% less likely || 40% less likely || 2.6 times more likely  || average risk || 3.2 times more likely || 14.9 times more likely 
+|}
+
+Dementia has a large burden which is growing rapidly every year.<ref>"The Burden Of Dementia". National Institute on Aging. N.p., 2016. Web.</ref> In 2009-10 the cost of this care was estimated around '''$4.9 billion'''.<ref name="access economics">Access Economics (2009) Keeping Dementia Front of Mind: Incidence and prevalence 2009-2050. Report for Alzheimer’s Australia.</ref> This figure is expected to rise to '''$83 billion''' by 2060.<ref name="access economics"/> Given Australia's aging population is important that possible interventions are fully investigated.
+
+While there is currently no cure for dementia, there is a growing body of evidence that physical activity can slow the cognitive decline of dementia and promote brain health.
+
+== Where is the research from? ==
+This research was conducted in the following departments of these institutions:<ref name="report"/>
+
+* Karolinska Institute, Stockholm, Sweden:
+**Ageing research centre, Division of Geriatric Epidemiology,
+* Kuopio University, Finland:
+** Department of Public Health and General Practice
+** Department of Neuroscience and Neurology,
+**Department of Neurology,
+* National Public Health Institute, Helsinki, Finland: 
+**Department of Epidemiology and Health Promotion,
+* Department of Public Health, University of Helsinki, 
+* South Ostrobothnia Central Hospital, Seinäjoki, Finland
+
+== What kind of research was this?==
+This study was a longitudinal population based cohort study carried out from 1972 to 1998. Longitudinal studies are observational, meaning that the researchers do not interfere with their subjects. In a longitudinal study researchers conduct several observations of the same subjects over a period of time, in this case 20 years. The benefit of longitudinal studies is that they help identify patterns and, as they are over the long term, may provide more concise results.
+
+== What did the research involve? ==
+This study involved the re-examination of participants from two previous longitudinal studies. The research involved the random selection of 1449 individuals from previous studies conducted in Finland and Sweden, with an average follow-up period of 21 years.
+
+The first study measured the change created by a government-designed intervention aiming to reduce the prevalence of Chronic Heart Disease (CHD), for which Finland was number one in the world at the time.<ref>Vartiainen, E et al. "Twenty-Year Trends In Coronary Risk Factors In North Karelia And In Other Areas Of Finland.  - Pubmed - NCBI". Ncbi.nlm.nih.gov. N.p., 1994. Web.</ref> This study took various health measures including anthropomorphic and physical activity information.
+
+The second study used the participants of the first to evaluate the impact of midlife elevated serum cholesterol levels and blood pressure on the subsequent development of mild cognitive impairment (MCI).<ref>Kivipelto, M et al. "Midlife Vascular Risk Factors And Late-Life Mild Cognitive Impairment: A Population-Based Study.  - Pubmed - NCBI". Ncbi.nlm.nih.gov. N.p., 2001. Web.</ref> MCI is a strong indicator for Alzheimer's disease. This study indicated the elevated midlife serum cholesterol levels were a significant risk factor for MCI.
+
+All the participants in the first 2 studies had been observed once at midlife when the initial studies were completed. At that time these participants completed surveys on health behavior, medical history, and leisure time physical activity.
+
+On re-examination participants were subjected to identical survey methods, as well as having their cognitive status determined. If a participant was deemed to have a lower cognitive status further examination was conducted to determine the presence of dementia. The researchers also studied the participant's APOE genotypes, a factor that can increase or decrease the risk of Alzheimer's Disease.
+
+== What were the basic results?==
+
+The results indicated that individuals that participated in midlife leisure time physical activity at least twice a week had a lower risk of dementia when compared to sedentary individuals. This association remained significant after adjusting for factors including APOE genotypes, vascular risk factors, smoking, and drinking. In all models physical activity at mid-life decreased the risk of dementia. Interestingly, while dementia saw a 50% decrease in risk, Alzheimer's saw an even greater decrease in risk, by 60%. 
+This article also supports previous research which indicates that carriers of the APOE e4 genotype are at an increased risk of developing dementia.
+
+== What conclusions can we take from this research? ==
+The researchers conclude that participants with Alzheimer's disease were less active in midlife when compared to non-demented individuals. They state that physical activity may be associated with better cognitive function or protect against cognitive decline. Finally, the research indicated that despite all previously mentioned risk factors leisure time physical activity decreases the risk of dementia.
+
+== What else should we consider? ==
+While these findings are interesting and act as a good base for further investigation we must consider that this research was conducted in two European countries and therefore is less reliable on a global scale. Similarly the original studies on leisure time physical activity were conducted between 1971 and 1987. We can assume there would be significant differences between the amount and type of physical activity that was undertaken then, to that undertaken now, and this could be due to any number of reasons such as personal technology prevalence or greater access to public and private transport.<ref>"3 Long-Term Trends Affecting Physical Activity Levels | Does The Built Environment Influence Physical Activity? Examining The Evidence -- Special Report 282 | The National Academies Press". Nap.edu. N.p., 2016. Web.</ref>
+
+== Practical advice ==
+The research has indicated that exercising twice per week is beneficial in decreasing the risk of dementia and AD. Physical activity is important in many stages of life but it is especially important to encourage activity at midlife, and even more so in those who have increased genetic susceptibility. Encouraging incidental physical activity in individuals during midlife is a good way to increase activity without inhibiting day to day life too much.
+
+== Further information/resources ==
+* [https://www.fightdementia.org.au/about-dementia/types-of-dementia/alzheimers-disease Alzheimer's Disease]
+* [http://www.yourbrainmatters.org.au/sites/default/files/YBM%20Paper%2036_webfinal_0.pdf Physical Activity for Brain Health and Fighting Dementia]
+* [https://www.fightdementia.org.au/national/about-dementia/how-can-i-find-out-more/warning-signs-of-dementia Early signs of Dementia]
+* [http://www.helpguide.org/articles/alzheimers-dementia/alzheimers-and-dementia-prevention.htm Alzheimer's and Dementia Prevention]
+
+== Future research ==
+Future research into type and intensity of exercise would be beneficial, as well as the optimal number of sessions per week, as this was not identified in this article. Additionally, it would be advantageous to understand why exercise decreases risk of AD more so than it does dementia.
+
+== References==
+{{Reflist}}
+{{BookCat}}

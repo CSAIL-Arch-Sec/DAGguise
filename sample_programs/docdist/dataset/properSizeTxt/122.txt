@@ -1,0 +1,526 @@
+This tutorial contains a set of examples demonstrating the features of competitive [[w:Electricity_market|electricity markets]] used for market-based dispatch. Although the [[w:National_Electricity_Market|Australian National Electricity Market]] (NEM) is used as the reference for these examples, this market shares many characteristics with other competitive electricity markets and can offer useful insights into marked-based dispatch more generally.
+
+Single-period electricity dispatch may be framed as a [[w:Flow_network|flow network]] problem &mdash; with each region (and later, each transmission line) represented by a node and each loss-free link represented by a bi-directional arc. The examples presented here are ''instead'' constructed as [[w:Linear_programming|linear programs]]. The two formulations are mathematically equivalent (although the preferred algorithms normally differ). Nonetheless, it is useful to retain a network view in mind as you study these examples.
+
+== Simple single unit dispatch ==
+
+The purpose of this example is to demonstrate the dispatch of a single generation unit for a defined regional price over a series of time periods, taking account of fuel costs and ramp rates, and maximising the total profit for the unit.
+
+<pre>
+/*
+
+ Simple single unit dispatch
+
+ Dr. H J Mackenzie
+ 2010-03-24
+
+*/
+
+# set of dispatch intervals
+
+set I;
+
+# dispatch price is $
+
+param regionalprice {I};
+
+# unit characteristics
+
+param unit_max_capacity >= 0;
+param fuel_cost >= 0;
+param max_ramp_rate >= 0;
+param start_dispatch >= 0;
+
+# dispatch variables
+
+var dispatch {I} >= 0;
+var ramp {I}, >= - max_ramp_rate, <= max_ramp_rate;
+var profit {I};
+
+# objective function
+
+maximize totalprofit: sum {i in I} profit[i];
+
+# constraints
+
+s.t. initial_dispatch: dispatch[0] = start_dispatch;
+s.t. dispatch_profit {i in I}: profit[i] = 
+ dispatch[i] * (regionalprice[i] - fuel_cost);
+s.t. dispatch_ramp {i in I}: ramp[i] = 
+ dispatch[i] - dispatch[if i > 0 then i-1 else 0];
+s.t. unit_capacity {i in I}: dispatch[i] <= 
+ unit_max_capacity;
+
+# solve the problem
+
+solve;
+
+# output input and determined values
+
+printf {i in I} "%d regionalprice = %.1f; dispatch = %.1f; ramp = %.1f; profit = %.1f\n", 
+i, regionalprice[i], dispatch[i], ramp[i], profit[i];
+
+data;
+
+param unit_max_capacity := 100; /* MW */
+param fuel_cost := 30;      /* $/MWh */
+param max_ramp_rate := 20;    /* max MW up or down */
+param start_dispatch := 0;    /* present dispatch point MW */
+
+param : I :  regionalprice :=
+     0   15
+     1   17
+     2   18
+     3   22
+     4   55
+     5   40
+     6   65
+     7   10
+     8   12
+     9   4
+;
+
+end;
+</pre>
+
+The solution is found in about 10 iterations and shows the dispatch of the unit prior to profitable running to maximise the total profit of $2680 for the entire set of time periods. Unfortunately in the real world, the regional price is not known prior to the dispatch interval and so the approach is only useful for the analysis of optimal dispatch after the dispatch has occurred or, in the case of pre-dispatch pricing, with the implicit assumption that the dispatch of the unit is insignificant with respect to the regional price.
+
+<pre>
+*  10: obj = 2.680000000e+003 infeas = 0.000e+000 (0)
+OPTIMAL SOLUTION FOUND
+Time used:  0.0 secs
+Memory used: 0.1 Mb (135015 bytes)
+0 regionalprice = 15.0; dispatch = 0.0; ramp = 0.0; profit = 0.0
+1 regionalprice = 17.0; dispatch = 0.0; ramp = 0.0; profit = 0.0
+2 regionalprice = 18.0; dispatch = 20.0; ramp = 20.0; profit = -240.0
+3 regionalprice = 22.0; dispatch = 40.0; ramp = 20.0; profit = -320.0
+4 regionalprice = 55.0; dispatch = 60.0; ramp = 20.0; profit = 1500.0
+5 regionalprice = 40.0; dispatch = 80.0; ramp = 20.0; profit = 800.0
+6 regionalprice = 65.0; dispatch = 60.0; ramp = -20.0; profit = 2100.0
+7 regionalprice = 10.0; dispatch = 40.0; ramp = -20.0; profit = -800.0
+8 regionalprice = 12.0; dispatch = 20.0; ramp = -20.0; profit = -360.0
+9 regionalprice = 4.0; dispatch = 0.0; ramp = -20.0; profit = 0.0
+</pre>
+
+== Single region energy dispatch with regulation ==
+
+This example is similar to the previous example but introduces the complication of a market dispatched ancillary service for system regulation. In the real Australian NEM, there are six market dispatched services for raises of 6 seconds (R6SEC), 60 seconds (R60SEC), 5 minutes (R5MIN) and regulation (RREG) and for lowers of 6 seconds (L6SEC), 60 seconds (L60SEC), 5 minutes (L5MIN) and regulation (LREG). In this example, only the RREG service is considered for a single region where the market cost for the region is minimised. The example does not consider real world constraints regarding the dispatch of ancillary services where varying amounts of service are available at different output levels, implemented in the Australian market as a defined trapezium for each ancillary service and the physical characteristics of each unit.
+
+<pre>
+/*
+
+ Least cost unit dispatch for energy with regulation
+
+ Dr. H J Mackenzie
+ 2010-03-24
+
+*/
+
+# set of units
+
+set U;
+
+# maximum capacity of the units in MW
+
+param capacity {U};
+
+# offer price of the energy in $/MWh
+
+param offerprice {U};
+
+# maximum regulation capacity of the units in MW
+
+param regcapacity {U};
+
+# regulation offer price of the regulation energy in $/MWh
+
+param regofferprice {U};
+
+# market parameters
+
+param dispatch_demand >= 0;
+param regdispatch_demand >= 0;
+
+# dispatch variables
+
+var dispatch {U} >= 0;
+var cost {U};
+var regdispatch {U} >= 0;
+var regcost {U};
+
+# objective function
+
+minimize market_cost: sum {u in U} (cost[u] + regcost[u]);
+
+# constraints
+
+s.t. dispatch_cost {u in U}: cost[u] = dispatch[u] * offerprice[u];
+s.t. regdispatch_cost {u in U}: regcost[u] = regdispatch[u] * regofferprice[u];
+s.t. feasible_dispatch {u in U}: dispatch[u] + regdispatch[u] <= capacity[u];
+s.t. feasible_regdispatch {u in U}: regdispatch[u] <= regcapacity[u];
+s.t. dispatch_matches_demand: sum {u in U} dispatch[u] = dispatch_demand;
+s.t. regdispatch_matches_demand: sum {u in U} regdispatch[u] = regdispatch_demand;
+
+# solve the problem
+
+solve;
+
+# output input and determined values
+
+printf {u in U} "%d capacity = %.1f; offerprice = %.1f; regcapacity = %.1f; regofferprice = %.1f\n", 
+ u, capacity[u], offerprice[u], regcapacity[u], regofferprice[u];
+printf {u in U} "%d dispatch = %.1f; cost = %.1f; regdispatch = %.1f; regcost = %.1f;\n", 
+ u, dispatch[u], cost[u], regdispatch[u], regcost[u];
+
+data;
+
+param dispatch_demand := 45;   /* MW */
+param regdispatch_demand := 10; /* MW */
+
+param : U :  capacity  offerprice  regcapacity  regofferprice:=
+     1   10     10      5       1
+     2   10     15      5       7
+     3   10     20      5      13
+     4   10     25      5      19
+     5   10     30      5      25
+     6   10     35      5      31
+     7   10     40      5      37
+     8   10     45      5      43
+     9   10     50      5      49
+    10   10     55      5      55
+;
+
+end;
+</pre>
+
+The results show that the (electrical) energy dispatch for the region is influenced by the provision of the ancillary service therefore leads to a higher total market cost than if just energy were considered. Note that the additional of the regulation service has lead to a dispatch that is not obvious if only examining the energy dispatch.
+
+<pre>
+*  13: obj = 1.090000000e+003 infeas = 0.000e+000 (0)
+OPTIMAL SOLUTION FOUND
+Time used:  0.0 secs
+Memory used: 0.1 Mb (137757 bytes)
+1 capacity = 10.0; offerprice = 10.0; regcapacity = 5.0; regofferprice = 1.0
+2 capacity = 10.0; offerprice = 15.0; regcapacity = 5.0; regofferprice = 7.0
+3 capacity = 10.0; offerprice = 20.0; regcapacity = 5.0; regofferprice = 13.0
+4 capacity = 10.0; offerprice = 25.0; regcapacity = 5.0; regofferprice = 19.0
+5 capacity = 10.0; offerprice = 30.0; regcapacity = 5.0; regofferprice = 25.0
+6 capacity = 10.0; offerprice = 35.0; regcapacity = 5.0; regofferprice = 31.0
+7 capacity = 10.0; offerprice = 40.0; regcapacity = 5.0; regofferprice = 37.0
+8 capacity = 10.0; offerprice = 45.0; regcapacity = 5.0; regofferprice = 43.0
+9 capacity = 10.0; offerprice = 50.0; regcapacity = 5.0; regofferprice = 49.0
+10 capacity = 10.0; offerprice = 55.0; regcapacity = 5.0; regofferprice = 55.0
+1 dispatch = 5.0; cost = 50.0; regdispatch = 5.0; regcost = 5.0;
+2 dispatch = 5.0; cost = 75.0; regdispatch = 5.0; regcost = 35.0;
+3 dispatch = 10.0; cost = 200.0; regdispatch = 0.0; regcost = 0.0;
+4 dispatch = 10.0; cost = 250.0; regdispatch = 0.0; regcost = 0.0;
+5 dispatch = 10.0; cost = 300.0; regdispatch = 0.0; regcost = 0.0;
+6 dispatch = 5.0; cost = 175.0; regdispatch = 0.0; regcost = 0.0;
+7 dispatch = 0.0; cost = 0.0; regdispatch = 0.0; regcost = 0.0;
+8 dispatch = 0.0; cost = 0.0; regdispatch = 0.0; regcost = 0.0;
+9 dispatch = 0.0; cost = 0.0; regdispatch = 0.0; regcost = 0.0;
+10 dispatch = 0.0; cost = 0.0; regdispatch = 0.0; regcost = 0.0;
+</pre>
+
+== Two region energy dispatch ==
+
+In this example we look at the dispatch of two regions given varying capacity at different price bands in each region and different regional demand for a single time period. The objective function seeks to find the lowest cost solution for both regions. For this example it is assumed that there are no link losses between each region. Energy in this context refers to electrical energy. 
+
+<pre>
+/*
+
+ Least cost unit dispatch for energy with two regions
+ 
+ Dr. H J Mackenzie
+ HARD software
+ hjm@hardsoftware.com
+
+ 2010-03-25
+
+*/
+
+# set of units
+
+set U;
+
+# maximum capacity of the units in MW for each region a and b
+
+param regiona_capacity {U};
+param regionb_capacity {U};
+
+# offer price of the energy in $/MWh
+
+param offerprice {U};
+
+# market parameters
+
+param regiona_dispatch_demand >= 0;
+param regionb_dispatch_demand >= 0;
+param ab_link_capacity >= 0;
+
+# dispatch variables
+
+var regiona_dispatch {U} >= 0;
+var regionb_dispatch {U} >= 0;
+var unit_dispatch {U} >= 0;
+var ab_link_dispatch; /* positive flow is defined as flow from region a to region b */
+var cost {U};
+
+# objective function
+
+minimize market_cost: sum {u in U} cost[u];
+
+# constraints
+
+s.t. dispatch_cost {u in U}: cost[u] = ((regiona_dispatch[u] + ab_link_dispatch) 
+ * offerprice[u]) + ((regionb_dispatch[u] - ab_link_dispatch) * offerprice[u]);
+s.t. feasible_regiona_dispatch {u in U}: regiona_dispatch[u] <= regiona_capacity[u];
+s.t. feasible_regionb_dispatch {u in U}: regionb_dispatch[u] <= regionb_capacity[u];
+s.t. total_unit_dispatch {u in U}: unit_dispatch[u] = regiona_dispatch[u] + regionb_dispatch[u];
+s.t. feasible_ab_link_dispatch: ab_link_dispatch <= ab_link_capacity;
+s.t. feasible_ba_link_dispatch: -ab_link_dispatch <= ab_link_capacity;
+s.t. regiona_dispatch_matches_demand: sum {u in U} regiona_dispatch[u] 
+ - ab_link_dispatch = regiona_dispatch_demand;
+s.t. regionb_dispatch_matches_demand: sum {u in U} regionb_dispatch[u] 
+ + ab_link_dispatch = regionb_dispatch_demand;
+
+# solve the problem
+
+solve;
+
+# output input and determined values
+
+printf {u in U} "%d regiona_capacity = %.1f; regionb_capacity = %.1f; offerprice = %.1f\n", 
+ u, regiona_capacity[u], regionb_capacity[u], offerprice[u];
+
+
+printf {u in U} "%d dispatch = %.1f; ab link dispatch = %.1f; cost = %.1f\n", 
+ u, unit_dispatch[u], ab_link_dispatch, cost[u];
+
+data;
+
+param ab_link_capacity := 10;     /* MW */
+
+param regiona_dispatch_demand := 9;  /* MW */
+param regionb_dispatch_demand := 22; /* MW */
+
+param : U :  regiona_capacity  regionb_capacity  offerprice:=
+     1   10         0         10
+     2   10         0         20
+     3   10         0         30
+     4   0        10         15
+     5   0        10         25
+     6   0        10         35
+;
+
+end;
+</pre>
+
+The solution shows the dispatch in each region, with the link running at full capacity due to the lower demand and lower cost of generation in region A.
+
+<pre>
+*   5: obj = 4.800000000e+002 infeas = 0.000e+000 (0)
+OPTIMAL SOLUTION FOUND
+Time used:  0.0 secs
+Memory used: 0.1 Mb (140601 bytes)
+1 regiona_capacity = 10.0; regionb_capacity = 0.0; offerprice = 10.0
+2 regiona_capacity = 10.0; regionb_capacity = 0.0; offerprice = 20.0
+3 regiona_capacity = 10.0; regionb_capacity = 0.0; offerprice = 30.0
+4 regiona_capacity = 0.0; regionb_capacity = 10.0; offerprice = 15.0
+5 regiona_capacity = 0.0; regionb_capacity = 10.0; offerprice = 25.0
+6 regiona_capacity = 0.0; regionb_capacity = 10.0; offerprice = 35.0
+1 dispatch = 10.0; ab link dispatch = 10.0; cost = 100.0
+2 dispatch = 9.0; ab link dispatch = 10.0; cost = 180.0
+3 dispatch = 0.0; ab link dispatch = 10.0; cost = 0.0
+4 dispatch = 10.0; ab link dispatch = 10.0; cost = 150.0
+5 dispatch = 2.0; ab link dispatch = 10.0; cost = 50.0
+6 dispatch = 0.0; ab link dispatch = 10.0; cost = 0.0
+</pre>
+
+== Modeling of quadratic line losses ==
+
+Losses in transmission lines are quadratic of the form <math>f(x)</math> <math>=</math> <math>k</math> <math>x</math> <math>flow</math><sup><math>2</math></sup> and therefore need to be approximated with a linear form for solving with an LP formulation. The way to approach the problem is to approximate the function <math>f(x)</math> <math>=</math> <math>k</math> <math>x</math> <math>flow</math><sup><math>2</math></sup> with the formulation: <math>\sum_N a_i z_i</math> subject to <math>\sum_N z_i = flow</math> This is an example of separable programming being used to approximate a convex non-linear function (see HP Williams ‘Model Building in Mathematical Programming’<ref >{{cite book|last1=Williams|first1=H. Paul|title = Model Building in Mathematical Programming|publisher = Wiley|year = 1999|isbn = 978-0-471-99788-7|ref=Wil99}}</ref> – Chapter on non-linear models). Separable functions are functions which can be broken down into single variable functions, and these in turn can be approximated by piecewise linear functions. 
+
+{{TODO|• upload graph image file of losses and linear approximation}}
+
+For the GLPK formulation, I have modeled both positive and negative flows over the link to check that it works correctly for flow in both directions. It is very easy to confuse the signs and to get this wrong, so checking both flows is a good check for the technique. This technique will be required for all of the inter-connector flows between regions and so will need to be correct for later more sophisticated models.
+
+<pre>
+/*
+
+ Linearised loss model
+
+ Dr. H J Mackenzie
+ 2010-04-13
+ 
+ Problem description
+ 
+  Losses on the link are loss = 0.01 x flow^2 modeled 
+  as a 10 step linear approximation [-10, 10]
+  
+  Modeling of loss for loss = k x flow^2
+  
+  k =     0.01
+  steps =   10
+  min flow = -10
+  max flow = 10
+  
+  interval  flow  losses  slope  midpoint  mp losses
+        10   1  
+  1      -8   0.64   -0.18  -9     0.81
+  2      -6   0.36   -0.14  -7     0.49
+  3      -4   0.16   -0.1   -5     0.25
+  4      -2   0.04   -0.06  -3     0.09
+  5      0   0     -0.02  -1     0.01
+  6      2   0.04    0.02   1     0.01
+  7      4   0.16    0.06   3     0.09
+  8      6   0.36    0.1   5     0.25
+  9      8   0.64    0.14   7     0.49
+  10     10   1     0.18   9     0.81
+*/
+
+# set of regions
+
+set REGIONS;
+
+# set of transmission lines
+
+set LINES;
+
+param line_start {LINES} symbolic in REGIONS;
+param line_end {LINES} symbolic in REGIONS;
+param max_flow {LINES} >= 0;
+param min_flow {LINES} <= 0;
+
+param no_loss_segments;
+set LOSS_SEGMENTS := 1.. no_loss_segments;
+
+param loss_segment_length {LINES, LOSS_SEGMENTS} >= 0;
+param loss_at_minimum_flow {LINES} >= 0;
+param loss_coefficient {LINES, LOSS_SEGMENTS}; # can be positive or negative
+
+# dispatch variables
+
+param midline_flow {l in LINES} >= min_flow[l], <= max_flow[l];
+
+var line_loss {LINES};
+var loss_segment_dispatch {l in LINES, s in LOSS_SEGMENTS} >= 0 , <= loss_segment_length[l, s];
+var line_start_flows {LINES};
+var line_end_flows {LINES};
+
+# objective function
+
+minimize line_losses: sum {l in LINES} line_loss[l];
+
+# constraints
+
+s.t. transmission_line_flow {l in LINES}: sum {s in LOSS_SEGMENTS} loss_segment_dispatch[l, s] 
+ + min_flow[l] = midline_flow[l];
+s.t. transmission_line_loss {l in LINES}: sum {s in LOSS_SEGMENTS} loss_segment_dispatch[l, s] 
+ * loss_coefficient[l, s] + loss_at_minimum_flow[l] = line_loss[l];
+s.t. transmission_line_start_flows {l in LINES}: midline_flow[l] 
+ + 0.5 * line_loss[l] = line_start_flows[l];
+s.t. transmission_line_end_flows {l in LINES}: midline_flow[l] 
+ - 0.5 * line_loss[l] = line_end_flows[l];
+
+# solve the problem
+
+solve;
+
+# output input and determined values
+
+printf "\n\nLine losses\n\n%-10s %-10s %10s %10s %10s\n", 'Line', 'Segment', 'Length', 'Coeff', 'Dispatch';
+printf {l in LINES, s in LOSS_SEGMENTS} "%-10s %-10d %10d %10.2f %10.2f\n", 
+ l, s, loss_segment_length[l, s], loss_coefficient[l, s], loss_segment_dispatch[l, s];
+
+printf "\n\nLine dispatch\n\n%-10s %-10s %-10s %10s %10s %12s %10s %10s %10s %10s\n", 
+ 'Line', 'Line start', 'Line end', 'Max flow', 'Min flow', 'Minflow loss', 'Line flow', 
+ 'Line start', 'Line end', 'Line loss';
+printf {l in LINES} "%-10s %-10s %-10s %10.2f %10.2f %12.2f %10.2f %10.2f %10.2f %10.2f\n", 
+ l, line_start[l], line_end[l], max_flow[l], min_flow[l], loss_at_minimum_flow[l], 
+ midline_flow[l], line_start_flows[l], line_end_flows[l], line_loss[l];
+
+printf "\n";
+
+data;
+
+set REGIONS := 'REGION_A', 'REGION_B';
+
+param : LINES : line_start line_end  max_flow min_flow loss_at_minimum_flow midline_flow :=
+'AtoBneg'    'REGION_A' 'REGION_B' 10    -10    1.0          -6
+'AtoBpos'    'REGION_A' 'REGION_B' 10    -10    1.0          6
+;
+
+param no_loss_segments := 10;
+
+param   : loss_segment_length loss_coefficient :=
+'AtoBneg' 1   2          -0.18
+'AtoBneg' 2   2          -0.14
+'AtoBneg' 3   2          -0.1
+'AtoBneg' 4   2          -0.06
+'AtoBneg' 5   2          -0.02
+'AtoBneg' 6   2           0.02
+'AtoBneg' 7   2           0.06
+'AtoBneg' 8   2           0.1
+'AtoBneg' 9   2           0.14
+'AtoBneg' 10  2           0.18
+'AtoBpos' 1   2          -0.18
+'AtoBpos' 2   2          -0.14
+'AtoBpos' 3   2          -0.1
+'AtoBpos' 4   2          -0.06
+'AtoBpos' 5   2          -0.02
+'AtoBpos' 6   2           0.02
+'AtoBpos' 7   2           0.06
+'AtoBpos' 8   2           0.1
+'AtoBpos' 9   2           0.14
+'AtoBpos' 10  2           0.18
+;
+end;
+</pre>
+
+The solution works consistently for both flow directions and gives reasonable results for a nominal flow measured at the midpoint of the line.
+
+<pre>
+*  10: obj = 7.200000000e-001 infeas = 0.000e+000 (0)
+OPTIMAL SOLUTION FOUND
+Time used:  0.0 secs
+Memory used: 0.1 Mb (141776 bytes)
+
+
+Line losses
+
+Line    Segment    Length   Coeff  Dispatch
+AtoBneg  1          2   -0.18    2.00
+AtoBneg  2          2   -0.14    2.00
+AtoBneg  3          2   -0.10    0.00
+AtoBneg  4          2   -0.06    0.00
+AtoBneg  5          2   -0.02    0.00
+AtoBneg  6          2    0.02    0.00
+AtoBneg  7          2    0.06    0.00
+AtoBneg  8          2    0.10    0.00
+AtoBneg  9          2    0.14    0.00
+AtoBneg  10         2    0.18    0.00
+AtoBpos  1          2   -0.18    2.00
+AtoBpos  2          2   -0.14    2.00
+AtoBpos  3          2   -0.10    2.00
+AtoBpos  4          2   -0.06    2.00
+AtoBpos  5          2   -0.02    2.00
+AtoBpos  6          2    0.02    2.00
+AtoBpos  7          2    0.06    2.00
+AtoBpos  8          2    0.10    2.00
+AtoBpos  9          2    0.14    0.00
+AtoBpos  10         2    0.18    0.00
+
+
+Line dispatch
+
+Line    Line start Line end   Max flow  Min flow Minflow loss Line flow Line start  Line end Line loss
+AtoBneg  REGION_A  REGION_B    10.00   -10.00     1.00   -6.00   -5.82   -6.18    0.36
+AtoBpos  REGION_A  REGION_B    10.00   -10.00     1.00    6.00    6.18    5.82    0.36
+</pre>
+
+==References==
+
+{{reflist}}
+
+{{BookCat}}

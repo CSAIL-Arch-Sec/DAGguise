@@ -1,0 +1,123 @@
+==Wikipedia -> wikibooks ?==
+Hello,
+
+Isn't there much information on Wikipedia about Cryptography?  And couldn't some of it be brought into this WikiBook?
+
+:Perhaps it would be better just to link to the wikipedia article rather then duplicating text, this would make it easier for editing. A text book about cryptograpy should probably be more about how these relate to eachother. Wikipedia could be more about the descriptions of types of cryptography. --[[User:RobKohr|RobKohr]] 17:14, 22 Nov 2004 (UTC)
+
+::I agree, there is no point in creating as many articles as there are in Wikipedia, then just copy text from it (which will miss all the subsequent updates). I think we should ''link'' to Wikipedia articles ''all the time'', '''''except''''' when we are sure an article will soon have more material in the wikibooks article: indeed, some content, like precise and/or long guides or tutorials, are better off wikipedia, but would fit well here as I understood. Duplicating everything would not be only impossible in terms of manpower, it's also a pure waste of time. --[[User:ClementSeveillac|ClementSeveillac]] 04:14, 2 Dec 2004 (UTC)
+
+:Is there a mechanism to link to Wikipedia articles? --[[User:216.8.14.88|216.8.14.88]] 17:58, 29 Dec 2004 (UTC)
+
+::[[Wikipedia:How_to_edit_a_page#Links_and_URLs]]. think this should cover it. --[[User:Peterw|Peterw]] 18:59, 30 Dec 2004 (UTC)
+
+:: Also [[Help:How_does_one_edit_a_page#What_is_the_best_way_to_link_from_Wikibooks_to_another_wiki.2C_such_as_Wikipedia.3F]] has another, perhaps superior way of linking from Wikibooks to Wikipedia. --[[User:DavidCary|DavidCary]] 02:25, 26 October 2006 (UTC)
+
+I think one thing that should be added to this book that is not on wikipedia is lots of examples going through  the processes of making and breaking encryptions. [[User:Lonjers|Lonjers]] 01:01, 15 March 2007 (UTC)
+
+I think copy+pastaing the wikipedia articles is the best compromise because we can get good starting material without the downside of linking as linking would make it hard for someone to add detailed book-like entries. Does anyone have any objections to me doing that? If not I'll start copying the wikipedia entries later tonight.
+[[User:E0|E0]] ([[User talk:E0|talk]]) 21:39, 11 March 2010 (UTC)
+
+:You shouldn't do this. If you want to bring the text of a WP article in here you should request the import here [[WB:RFI]] so the edit history can be maintained. Please don't copy and paste. <font color="#E66C2C">[[User:QuiteUnusual|'''QU''']]</font> <sup><font color="#306754">[[User talk:QuiteUnusual|TalkQu]]</font></sup> 21:41, 11 March 2010 (UTC)
+
+::Oh! That is an execellent idea. I will do that. [[User:E0|E0]] ([[User talk:E0|talk]]) 21:46, 11 March 2010 (UTC)
+
+:::I imported Diff and linear cryptanalysis here [[Transwiki:Differential cryptanalysis]] and [[Transwiki:Linear cryptanalysis]]
+
+:Shouldn't the purpose of Wikipedia be to document cryptography, with all its complexity, while this Wikibooks to be more of an introduction?--[[User:Charlesisbozo|Charlesisbozo]] ([[User talk:Charlesisbozo|discuss]] • [[Special:Contributions/Charlesisbozo|contribs]]) 13:46, 3 May 2014 (UTC)
+
+== Dictionary attack ==
+
+In addition to the brute force attack, isn't there also a method called dictionary attack, where you use a set of keys (in most cases, common words, from dictionaries) to test against the ciphertext? --[[User:DarkPhoenix|DarkPhoenix]] 19:56, 21 Jun 2004 (UTC)
+:Yes.
+
+== Linking to HAC ==
+It's not freeware, but the excellent _Handbook of Applied Cryptography_ is available online in PDF format.  Would it make sense to link to that book from here?  --John Kelsey
+
+: I don't see pages really needing such links at the moment (much of them are simply lesser versions of Wikipedia articles, but that's another problem ;-) . And it's already cited in important articles in Wikipedia such as [[wikipedia:Cryptography#External links|cryptography]], where I think people interested in cryptography will end up anyway :-) -- [[User:ClementSeveillac|ClementSeveillac]] 04:20, 2 Dec 2004 (UTC)
+
+== On MD5 Hash ==
+
+I was just looking into wikibooks for references/actualization on the MD5 problem and found none...
+
+From /.
+
+MD5 To Be Considered Harmful Someday
+http://developers.slashdot.org/developers/04/12/07/2019244.shtml?tid=93&tid=172&tid=8
+"demonstrates the use of colliding datasets to create two executable packages with wildly different behavior but the same MD5 hash. The faults discovered are problematic but not yet fatal; developers (particularly of P2P software) who claim they'd like advance notice that their systems will fail should take note." 
+
+--[[User:Panic2k4|Panic]] 07:04, 8 Dec 2004 (UTC)
+
+:Fixed. Added a link to [http://www.win.tue.nl/hashclash/rogue-ca/ MD5 considered harmful today] --[[User:MarioS|MarioS]] ([[User talk:MarioS|talk]]) 20:08, 6 October 2010 (UTC)
+
+::Txs --[[User:Panic2k4|Panic]] ([[User talk:Panic2k4|talk]]) 20:54, 6 October 2010 (UTC)
+
+== WikiReader:Cryptography; improvements for existing chapters here==
+There is an active project to produce a WikiReader on Cryptography from articles on the Wikipedia. While it will not be, quite, a textbook, it may be that the articles proposed for it will be suitable for parts of this project. 
+
+In addition, several of the existing chapters/sections here would be improved by importation of more content from the parallel articles on the Wikipedia. Since those articles are GPL'd, they are freely available for use here. 
+
+Best wishes on the project. I'll try to look in from time to time and may be able to help with the occasional chapter. ww (from en.Wikipedia.org)
+
+== tools ==
+It'd be nice to find some links to free tools one might need / want to use, incl. a short description of the security level (known weaknesses), license, encryption types etc.
+
+== steganography (?) ==
+I'm not sure how it's written, but I mean hiding encrypted information inside other documents without influencing the usability of the host documents. IMHO this type shall be part of a crypto book, as it shows users how to make information even more difficult to get. One nice thing is [http://www.darkside.com.au/ice/] which hides info in plain text and is open source, so ideal for learning.
+
+''[[Wikipedia:steganography]]''
+
+* I agree, Steganography is a very valuable part of classical ciphers, aswell as current, since it can lead to plausible deniability. [[User:Tinned Tuna|Tinned Tuna]] ([[User talk:Tinned Tuna|talk]]) 21:53, 8 January 2009 (UTC)
+
+== "simple" secure ciphers ==
+
+* http://c2.com/cgi/wiki?CipherJedi
+* http://metaweb.com/wiki/wiki.phtml?title=Pontifex
+
+Is the "Pontifex" cipher important enough to be added to the [[Cryptography/Timeline of Notable Events]] ?
+Perhaps something like:
+* 1999: Bruce Schneier develops a way to allow field agents to communicate securely without having to rely on electronics or having to carry incriminating tools. Unlike all previous manual encryption techniques, this one is resistant to machine cryptanalysis. It becomes published in Neal Stephenson's Cryptonomicon (2000).
+
+: Probably not. People have found weaknesses with Pontifex/Solitaire [http://www.ciphergoth.org/crypto/solitaire/]. Moreover, I'm sure Schneier isn't the first to come up with a strong hand cipher; the spooks must have researched this heavily). And, of course, the one-time pad is a manual encryption technique that is resistant to machine cryptanalysis. [[User:Matt Crypto|Matt Crypto]] 12:54, 11 Mar 2005 (UTC)
+
+:: ''People have found weaknesses''. So? People have found weaknesses in the [[Wikipedia:Data Encryption Standard]] (DES); are you going to take it off the timeline? As far as I can tell, Pontifex is *still* more resistant to cryptanalysis than any other manual encryption technique that I've ever heard of (except the one-time pad).
+
+:: ''I'm sure Schneier isn't the first to come up with a strong hand cipher'' Nope. Schneier's method is the first ''to be published''. (As far as I know -- I would be surprised and delighted to see an earlier method. Schneier and others seem to think it's never been done before). (I agree that it is ''likely'' that someone has developed some kind of manual cipher earlier and kept it secret. But such speculation is, well, speculation).
+
+:: ''And, of course, the one-time pad is a manual encryption technique that is resistant to machine cryptanalysis.'' It's not merely "resistant". The one-time pad is completely impervious to machine cryptanalysis. However, Schneier developed Pontifex in response to a different kind of flaw in the one-time pad system. It's ''better than the one-time pad'' in some ways, worse in other ways. I hope the timeline entry makes that clear. (Any suggestions on how to make that timeline entry clear, yet brief ?)
+
+== Moving documents from Wikisource ==
+
+Hi,
+
+There is now a [[s:Wikisource:Proposed deletions|discussion]] about [[s:Wikisource:Cryptography|cryptography documents]] in Wikisource, which, I think, should be moved here. [[User:Yann|Yann]] 09:55, 25 September 2005 (UTC)
+* [[Cryptography/Prime Curve/Affine Coordinates]]
+* [[Cryptography/Prime Curve/Standard Projective Coordinates]]
+* [[Cryptography/Prime Curve/Jacobian Coordinates]]
+* [[Cryptography/Prime Curve/Chudnovsky Coordinates]]
+* [[Cryptography/Prime Curve/Modified Jacobian Coordinates]]
+* etc.
+
+: A short explanation of the pages refered to above: An elliptic curve over a finite field consists of a set of points, derived from a set of coefficients. For these points there exists an addition law. Due to this addition law the points of such a curve form an abelian group. There are several ways to represent the points of an elliptic curve and there are as many ways to perform the point addition efficiently. Months ago I compiled a collection of these representations together with the optimal addition routines and put them into wikisource. Because the semantic of "What does Wikisource host?" changed in the last week the Wikisource maintainers began to move the pages here, to the wikibook:cryptography.
+: To the wikibook:cryptography maintainers: how and where can these addition formulas best be included in your book? The following material is for disposition:
+: # 8 pages with different point representations / addition formulas
+: # 3 pages with coefficient sets
+: # 15 pages with test vectors (these pages are already lost, the maintainers deleteted them without discussion; but they can recreated, I still have got the original material)
+: Perhaps at least the test vector pages and the coefficient sets should be moved to an annex of this wikibook. I also see the 8 pages of formulas as some kind of "reference material". Where could it be put?
+: Any thoughts? --dm
+
+== Cool! ==
+
+Nice looking book you got here.  I'd like to see more done with it! -[[User:witerhawk|witerhawk]] [[User:Witerhawk|writerhawk]] 15:55, 29 May 2006 (UTC)
+
+== Scope? ==
+
+This currently covers only symmetric-key encryption, but misses out on a whole slew of other topics central to cryptography (public-key encryption and digital signatures, to name two). Perhaps the title should be changed?
+
+:Why don't you add the missing content ? The title "defines" the scope, missing content only demonstrates that there is still work to be bone...  --[[User:Panic2k4|Panic]] ([[User talk:Panic2k4|talk]]) 08:55, 9 January 2009 (UTC)
+
+== Pontifex cipher ==
+Hey.
+I saw that there's link named "Pontifex cipher" - if that page is gonna be about cipher described in "Cryptonomicon" by Neal Stephenson, then in my opinion it sould be called "Solitaire". Take a look at [[w:Solitaire (cipher)|Solitaire (cipher)]] and [http://www.schneier.com/solitaire.html Bruce Schneier's webpage about Solitaire]. [[User:Sq7obj|Sq7obj]] ([[User talk:Sq7obj|talk]]) 19:02, 11 March 2010 (UTC)
+
+: {{done}}. Cryptography has enough difficult-to-understand concepts already. No need to be deliberately obscure in this book. --[[User:DavidCary|DavidCary]] ([[User talk:DavidCary|discuss]] • [[Special:Contributions/DavidCary|contribs]]) 14:36, 29 January 2013 (UTC)

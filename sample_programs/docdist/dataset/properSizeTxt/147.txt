@@ -1,0 +1,60 @@
+{{BookCat}}
+This report is a critical appraisal of the article ‘Resistance versus Balance Training to Improve Postural Control in Parkinson's Disease: A Randomized Rater Blinded Controlled Study<ref>Schlenstedt C, Paschen S, Kruse A, Raethjen J, Weisser B, Deuschl G. Resistance versus Balance Training to Improve Postural Control in Parkinson's Disease: A Randomized Rater Blinded Controlled Study. PLoS One. 2015 Oct 26; 10(10)</ref>’
+
+== What is the background to this research? ==
+Parkinson’s Disease is a neurological condition resulting in the loss of dopaminergic neurons in the Substansia Nigra. This is responsible for motor function such as gait and balance and results in shaking, slowing of movements and rigid muscles with postural instability occurring in the later stages of Parkinson’s Disease <ref>Kouli A, Torsney KM, Kuan W. Parkinson’s Disease: Etiology, Neuropathology, and Pathogenesis. Brisbane: Condon publications; 2018 Dec; 1. </ref>. Individuals suffering from Parkinson’s Disease have a high risk of falling due to postural instability from reduced muscle strength. Consequences associated with falls include fractures, head traumas and even death<ref>Contreras A, Grandas F. Risk of Falls in Parkinson’s Disease: A Cross-Sectional Study of 160 Patients. Parkinson’s Dis; 2012 Jan. </ref>. There is evidence to suggest that exercise is very effective in improving postural instability which will subsequently reduce the risk of falls <ref>Dibble LE, Addison O, Papa E. The effect of exercise on balance in persons with Parkinson’s Disease: a systemic review across the disability spectrum. J Neurol Phys The;. 2009 Mar; 33(1):14-26</ref>. However, the best exercise program to improve postural instability for people with Parkinson’s Disease is a widely discussed topic, with evidence showing either balance training<ref>Smania N, Corato E, TInazzi M, Stanzani C, Fiaschi A, Girardi P, Gandolfi M. Effect of balance training on postural instability in patients with idiopathic Parkinson’s Disease. Sage; 2010; 24(9):826-834. </ref> or resistance training can improve postural control<ref name="Corcos DM">Corcos DM, Robichaud JA, David FJ, Leurgans SE, Vaillancourt DE, Poon C, Rafferty MR, Kohrt WM, Comella CL. A two-year randomized controlled trial of progressive resistance exercise for Parkinson's Disease. Mov Disord; 2013 Aug;28(9):1230-40. </ref>. As a result, the authors of the study created a program that compared the effects of balance training and resistance training to determine which exercise program leads to improved postural instability.
+
+== Where is the research from? ==
+The study was conducted in Kiel, Germany at the Christian-Ablrechts-University and was approved by the local ethics community. Christian-Ablrechts-University is one of the biggest and most highly regarded universities in the area with seven Nobel peace prize winners having worked there <ref>Kiel University. Kiel University’s Research. Online. Kiel University Christian-Ablrechts-University.https://www.uni-kiel.de/en/research/research-profile   </ref>. The main author of the study is Dr Christian Schlenstedt who is from the Department of Neurology and Sports Science at the Christian-Ablrechts-University. He has received awards recognising his work in neuro-rehabilitation <ref>Kiel University. Dr Christian Schlenstedt, PhD. Online. Kiel University. 2020 May.https://www.neurologie.uni-kiel.de/en/neuromechanics-neurorehabilitation/team/dr-christian-schlenstedt-phd </ref>. 
+
+The funding for the study came from the Coppenrath-Stiftung, Geeste/Groß-Hesepe, Niedersachsen and the Krumme-Stiftung, Eckernförde and Schleswig-Holstein. The funders had no influence on how the authors conducted the study. 
+
+== What kind of research was this? ==
+The study is a randomised rater blinded control trial and is effective in minimising the risk of bias and enhancing the validity of the results<ref>Karanicolas PJ, Farrokhyar F, Bhandari M. Practical tips for surgical research: blinding: who, what, when, why, how?. Can J Surg; 2010;53(5):345-348</ref>. In comparison to other studies regarding the effect of resistance training on postural control the results are contradicting, with some studies saying that it reduces the risk of falls<ref name="Corcos DM"></ref> while others state it has no significant effect on balance and gait<ref>Tillman A, Muthalib M, Hendy AM, Johnson LG, Rantalainen T, Kidgell DJ, Enticott PG, Teo WP. Lower limb progressive resistance training improves leg strength but not gait speed or balance in Parkinson's Disease: a systematic review and meta-analysis. Front Aging Neurosci. 2015 Mar 24;7:40. </ref>. However, both studies suggest resistance training used in conjunction with balance training improves functional ability. There are limited studies that compare balance training and resistance training in regards to improving postural control.
+
+== What did the research involve? ==
+40 idiopathic Parkinson’s Disease participants completed a baseline analysis, they were then randomly assigned to small resistance training or balance training intervention subgroups of 4-5 participants each. The intervention was conducted twice a week for 7 consecutive weeks and each session had a 10 minute warm up and 50 minutes of resistance training or balance training. The sessions were conducted by an experienced sport scientist with a neurological rehabilitation background. The resistance training focused on strengthening the hip flexors, extensors and abductors, knee flexors and extensors, ankle dorsiflexors and plantar flexors. The balance training consisted of stance and gait exercises that were done for 45 seconds, 3 times each, with a 2 minute rest period in between sets. 
+
+Limitations within this methodology were the low frequency of training per week; which made it hard to differentiate any significant differences between the two training programs. A recent study suggests that Parkinson’s Disease patients that exercise at a higher frequency displayed better improvements than those exercising at lower frequencies<ref>Caciula MC, Horvat M. Nocjera J. Exercise frequency and physical function in Parkinson’s Disease. Sci of Human Kinetics; 2016; 9(58). </ref>. The study also had a 20% drop out rate, which reduced the sample size and therefore decreased the validity and reliability of the results. There also wasn’t a control group included in the study, which would have enhanced the analysis of the comparative effects in each training program and further increased the validity of the study.
+
+== What were the basic results? ==
+Data was collected at baseline before the intervention and at 8 and 12 week follow-ups after the intervention. At the collection of baseline data no significant differences were reported between the groups, 8 participants dropped out during the intervention. 
+
+=== 8 week follow up ===
+{| class="wikitable"
+|-
+!  !! Baseline !! Resistance Training !! Baseline !! Balance Training 
+|-
+| Fullerton Advanced Balance Scale || 22.2 ± 5.3 || 24.4 ± 5.7 || 24.8 ± 4.2 ||25.3 ± 4.4
+|-
+| Timed Up and Go test (sec) || 11.4 ± 3.6 || 9.4 ± 2.5 || 9.2 ± 3.8 || 9.0 ± 2.4
+|-
+| Unified Parkinson's Disease Rating Scale total score || 40.7 ± 15.0 || 40.7 ± 13.1 || 38.8 ± 14.7 || 32.8 ± 13.5 
+|}
+
+The resistance training group improved an average of 2.4 points on the Fullerton Advanced Balance Scale compared to the balance training group’s results who only increased by 0.3 points. The resistance training group performed the timed up and go test slightly faster at the follow up, but the difference between groups wasn’t significant. The balance training group showed improvements in the Unified Parkinson’s Disease Rating Scale total score. However, there was no significant difference between the groups. 65% of resistance training participants showed clinical global improvement compared to the balance training group’s improvement of 40%, although the difference between the groups was not high enough to be considered significant.  There was no significant difference from baseline to week 12 follow up between the two groups.
+
+== What conclusion can we take from this research? ==
+Overall the results of the study were not significant and showed no differences in the effects on postural instability in people with Parkinson’s Disease. However, the study did consider the limitations faced within the intervention, which can be beneficial to implement in future research. A low training frequency of twice a week was chosen to meet the demands of the participants; however using a higher training frequency of 3 times a week would have improved the results. To strengthen the validity and reliability of the study a larger sample size could have been recruited and the intervention conducted over a longer period of time. Further research is required to understand which exercise program leads to greater improvements in postural stability. Considerations for future studies could also include researching the effects of a combination of balance and resistance training on postural instability.
+
+== Practical advice ==
+Overall there were some improvements in the participant’s postural stability but it was not clear whether this was due to one type of training over the other as there was no significant difference in the results between resistance and balance training. Therefore, the best practical advice for patients with Parkinson’s Disease is not to rely on one type of exercise alone, but to undertake a combination of both balance and resistance training to achieve the best results. For patients with severe Parkinson’s Disease it is very important to engage in physical activity to prevent the progression of the disease. If the individual is interested in engaging in new exercises it is strongly advised they contact their treating specialist.
+
+== Further Information/Resources ==
+If you are suffering from Parkinson’s Disease and looking for support or further information on this topic additional resources are provided below.
+
+Support group
+https://www.parkinsons.org.au 
+
+Effects of combining balance and resistance training on Parkinson’s Disease
+https://pubmed.ncbi.nlm.nih.gov/12917847/
+
+Tips for exercising with Parkinson’s Disease
+https://www.michaeljfox.org/news/exercise-and-parkinsons-frequently-asked-questions 
+
+Exercises for Parkinson’s Disease
+https://www.parkinsons.va.gov/NorthWest/Documents/Pt_ed_handouts/Exercise_for_PD_1-20-12.pdf
+
+== Reference List ==
+
+<references/>

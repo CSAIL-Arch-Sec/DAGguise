@@ -1,0 +1,7 @@
+== Project standards ==
+
+The [[Muggles' Guide to Harry Potter]] is meant to provide an extensive detailing of all things in the [[Wikipedia:Harry Potter|Harry Potter]] universe. An important goal of the project is to make this book a useful standalone guide not only for adults but for children and young adults of similar age to the Harry Potter characters. Therefore, several standards have been put in place to ensure proper quality of articles and the overall structure of pages in the book:
+
+*Follow the present structure of the site:
+**There are six main sections to the book: [[Muggles' Guide to Harry Potter/Books|Books]], [[Muggles' Guide to Harry Potter/Characters|Characters]], [[Muggles' Guide to Harry Potter/Places|Places]], [[Muggles' Guide to Harry Potter/Major Events|Major Events]], the [[Muggles' Guide to Harry Potter/Timeline|Timeline]], and [[Muggles' Guide to Harry Potter/Magic|Magic]]. Place your content in one of these.
+**Sections and articles are normally very distinct entities within the book. A chapter in a Harry Potter book goes on its own page (i.e. Chapter 6 of ''Harry Potter and the Half-Blood Prince'' goes in [[Muggles' Guide to Harry Potter/Books/Half-Blood Prince/Chapter 6|like this]]). There is a hierarchical system stemming from the five main sections listed above.

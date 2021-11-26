@@ -1,0 +1,157 @@
+{{WikiProject Languages}} 
+
+Hey all -- I've just expanded out the main page a little, since I thought that more topics should be discussed beyond simple greetings.  I have set out a tentative structure for a wider treatment of chinese which is probably most useful for a beginner to learn. The idea of the "Exercises" which I added to Chapter One is to set out a few questions for students to work through according possibly to a corresponding lesson, with example solutions given at the end or on a separate page, although possibly this is more in the domain of Wikiversity. --[[User:ConfusedGremlin|Gremlin]] 29 December 2006
+
+:I moved all the new lesson ideas to the [[Chinese/Planning#Subjects_Areas_to_Cover|Chinese/Planning]] page for now. They're good ideas, but need to be more smoothly integrated with the book I think. Instead of making new headings for each chapter, I think it would be best to enter them all under the Lessons heading in the format already used. I think it's time for some of the later chapters listed to be renamed to subjects areas like the ones you added, but the old content should be moved first, maybe to a subpage of the Planning page. That's why I didn't do all that just now. Sometime soon. --[[User:Everlong|Everlong]] 05:44, 5 January 2007 (UTC)
+
+::Sorry for the very late response. Thanks for the positive feedback. It was a good idea to move my ideas to the planning page, since afterall they were only intended as a sketch of what could be done.  I might return and help out again when I can find the time. --[[User:ConfusedGremlin|Gremlin]] 4 February 2007
+
+A new [[Cantonese: Contents|Cantonese]] book has just started up.  If there are any Cantonese-speaking contributors in this crowd, we'd appreciate your help on the Cantonese book as well.  Thanks!
+--[[User:Xingmu|Alissa]] 07:45, 22 May 2005 (UTC)
+
+You may also want to check out [[Spanish]] which I have just organized, simplified and improved. Hope you don't mind I changed the splash image into a link to the contents page. --[[User:Karl Wick|Karl Wick]]
+
+Not at all -- this is a collective effort, so any and all help to further improve upon what is existent would be appreciated. -[[User:Taoster|Taoster]]
+
+Does anyone else plan on adding more to this Wikibook? I would like some collaboration on this, as one person's work will ultimately yield errors at some point or another. Yacht/Gboy? -[[User:Taoster|Taoster]]
+
+:Hey, Taoster! u guys r so cool! when I came back here, I found out a lot of contents have already been added. :) About the textbook, I would like to help, but I know little about what other Chinese textbooks for English speakers are like, I want to check out some examples first. BTW, r u mandarin speaker?
+:And, here is my opinion: I don't think it's good to introduce the grammar at the very begining lessons, which would make learners boring. What do u think? --[[User:Yacht|Yacht]] ([[User talk:Yacht|talk]])[[Queer|Q]] 02:31, 29 Jan 2004 (UTC)
+
+::BTW, shall we make a note that this textbook is in Simplified Chinese? --[[User:Yacht|Yacht]] ([[User talk:Yacht|talk]])[[Queer|Q]] 02:45, 29 Jan 2004 (UTC)
+
+This is a very good textbook on chinese! Keep up the good work guys, it's good to be able to have access to comprehensive texts like these for people with little money :)
+
+I suggest writing the pinyin using the tone markings on the letters instead of with numbers.  It would look a little cleaner and be easier to read.
+
+It is great that someone does this stuff!  I learned how cool Chinese can be.  Keep up the good work.  The only thing is that I would like to see section 5, and 6 done.
+== couple of things ==
+
+Couple of things I'd like to say after writing a bit on pronunciation and lesson 1:
+
+* What's the purpose of "Fundamentals"? As far as I can see, it duplicates content that belongs elsewhere.
+* The current material introduces things too fast, too much... I've tried to cut this down by reducing the dialogue in Lesson 1 to just a few sentence structures. The result is a rather idiotic conversation but I don't think that can be helped.
+* Pinyin: currently we're using Unicode for pinyin. Does anyone think we should switch to using numbers for the tones?
+: I feel that using numbers for tones is not a good idea because it looks clunky and to me seems more difficult to read.  Think of the tone marks like the special letter marks in French.
+
+That's about it for now. -- [[User:Ran|Ran]] 05:23, 29 Oct 2004 (UTC)
+
+== Simplified and Traditional Chinese mixed up! ==
+I am not doing this to the tradition Chinese, but the mixed-up is really ugly, and confusing. i don't think it's good for the learners. We need separate textbook for the needs of different learners. Mixing up is not a good option. Maybe we need to set up a [[Simplified Mandarin Chinese]] and [[Traditional Mandarin Chinese]] respectively. --[[User:Yacht|Yacht]] 18:39, 18 Dec 2004 (UTC)
+
+They're parallel to eachother, but I wouldn't say it's harder to learn. I think that people can just disregard the one that they don't plan on learning. As well, they're just simplifications of chars, you could probably run a script to convert a text from trad to simplified or vice versa.
+: TC > SC is problematic. eg ?? vs. ??. [[User:Nateji77|Nateji77]] 23:29, 25 September 2005 (UTC)
+
+I like having both, since it is nice for learners that learn how to write one system, but perhaps only learn charater recognition of the other system.
+
+i also like having both. on the mainland TC is often used in business/school names. [[User:Nateji77|Nateji77]] 23:29, 25 September 2005 (UTC)
+
+:I've thought on this quite a bit. I've seen books that:
+::#have the traditional for lesson texts only, as an insert or in the back of the book
+::#acknowledge the traditional, but just in the vocab section
+::#have simplified/traditional/pinyin/english for everything
+::#have traditional on the left page--simplified for the right, all the way through the book
+::#or totally ignore the other character set
+:In my opinion, #2 would be the best trade-off with making the book less cluttered but still friendly to familiarization with the alternate character set. However, since it is a Wikibook, I think it's inevitable that people will volunteer the translations (as in fact happened), converting us to the #3 type. This makes me want to lean towards the #4 type with parallel texts. Especially after having tried using traditional while using an exclusively simplified book, I think having the two is necessary. 
+
+:I think the best way to implement it would be making subpages with traditional in the form of Chinese/Lesson_1/traditional and just keeping the content all the same, which is easy enough. We can make a traditional Table of Contents template to make the traditional easy to navigate, and, being subpages, there's the automatic linking back to the simplified pages all the time. What does everyone think? --[[User:Everlong|Everlong]] 09:13, 16 November 2005 (UTC)
+::I finally made the subpages change a few days ago. I think things look much neater without a simplified/traditional translation of ''everything''. However I did leave the alternatives in for the dialogues and for the vocab lists so that readers can get to where they recognize the other set, but don't have it cluttering up every example sentence.
+:::--[[User:Everlong|Everlong]] 17:05, 22 March 2006 (UTC)
+
+== a proposed new outline ==
+is [[Chinese: Contents/Temp|here]], check that out. --[[User:Yacht|Yacht]] 08:08, 26 Jan 2005 (UTC)
+
+== Chinese Writing ==
+Shouldn't the writing system be a wikibook of its own? If it's combined with Mandarin it is hard to reference to here for other Chinese languages (eg. Cantonese) which uses the same system?
+:I definitely think this wikibook needs to contain sections on how to write the characters learned in the dialogue.  That means means some text gets duplicated between the two, but in my opinion a language textbook needs to have a holistic approach to its subject matter.[[User:Rycanada|Rycanada]] 21:08, 10 May 2006 (UTC)
+
+== Pronounciation ==
+
+It would be nice to add audio recordings of the texts. It is very hard to understand the pronounciation just from the transscript.
+:Completely agree—for Chinese, I feel that audio is a must.  [[User:Jade Knight|Jade Knight]] 22:53, 19 March 2006 (UTC)
+::I'm working on including audio, linking the vocab lists to all the Wikicommons recordings available (current total: 3). I've put in a request with one of the recorders to do more to fill out our lessons, though I haven't heard back from him. When I find time I'll try to record them myself if need be, though they'll just be standins until a native speaker takes on the task. Eventually, whole dialogues could be recorded, even the grammar could be recorded as in the [[w:Wikipedia:WikiProject_Spoken_Wikipedia|Spoken Wikipedia]].
+:::--[[User:Everlong|Everlong]] 18:25, 22 March 2006 (UTC)
+:::Update: The guy I asked, [[commons:user:Peter Isotalo|Peter Isotalo]], of Wikicommons, contributed some more audio samples specifically for use in this book. We're now up to 19 vocab pronunciations now. See our [[Chinese/Contributor's Guide|Contributor's Guide]] to find out how to contribute your own sound samples.
+:::--[[User:Everlong|Everlong]] 16:25, 19 April 2006 (UTC)
+
+== why not in languages category? ==
+
+can't find this book at http://en.wikibooks.org/wiki/Category:Languages (i don't know how to fix this, maybe somebody else does) --[[User:Tjalling|Tjalling]] 10:35, 20 July 2005 (UTC)
+:You just need to add the tag <nowiki>[[Category:Languages]]</nowiki> to a page for it to be added to the category. I'll add us to the list. --[[User:Everlong|Everlong]] 02:54, 22 July 2005 (UTC)
+
+== Naming Policy ==
+
+I'm going to start converting the Chinese textbook to conform with the new "slash convention" recommended for new wikibooks in [[WB:NP|Wikibooks Naming Policy]] as opposed to the now obsolete [[WB:NC|Wikibooks Naming Conventions]] we're currently using. The MediaWiki software will make automatic links back to main page from all subpages (i.e. - [[Chinese|<&nbsp;Chinese]]), simplifying organization. Additionally, the slash convention could be used to easily expand in a logical heirarchy, as shown below. --[[User:Everlong|Everlong]] 03:43, 17 August 2005 (UTC)
+
+*Chinese
+**Chinese/Pronunciation
+**Chinese/Lesson 1
+***Chinese/Lesson 1/Stroke Order
+***Chinese/Lesson 1/Exercises
+***Chinese/Lesson 1/Solutions
+etc.
+
+== Copyright for main image: [[:Image:China splash.jpg]] ==
+
+This is just a note that the main China splash image is something that needs formal copyright attribution.  If anybody who is working on this Wikibook knows of either what copyright license this image has been uploaded under, it would be greatly appreciated.  --[[User:Robert Horning|Rob Horning]] 02:45, 3 February 2006 (UTC)
+
+== More useful media! ==
+
+The podcast, [http://www.chinesepod.com/ chinesepod] has lessons in audio, and they are CC-by, which is completely wikimedia-compatible.  Should we try to integrate them into the wikibook somehow?  We'll need to convert them to .ogg of course.  -- [[User:Kowey|Kowey]] 00:35, 23 February 2006 (UTC)
+
+== Disentangling Traditional and Simplified ==
+
+Thanks for everyone's hard work!  This is a fantastic resource.
+
+I was just wondering, if there is a separate Traditional wikiproject, why do the lessons have both Simplified and Traditional characters in them?  
+
+I've taken a short (4 month, 3 hours a week) course on Mandarin Chinese, so I've covered a lot of the same material that this has... but I find my textbook much easier to follow simply because my eyes wander over to the traditional version of the dialogue.  [[User:Rycanada|Rycanada]] 21:00, 10 May 2006 (UTC)
+
+:(Oh, there is one exception to the Simplified-only rule in my textbook: There is a guide to writing characters at the end of each section, and that section contains traditional versions as well as simplified). [[User:Rycanada|Rycanada]] 21:00, 10 May 2006 (UTC)
+
+== Traditional / Simplified split is not working ==
+
+The Traditional and Simplified versions should '''not have been split up'''! Now we have two parallel wikibooks teaching precisely the same topics except for a split in orthography, which '''doubles our workload'''. Changes and corrections made to one wikibook has to be made to the other one as well, which also '''doubles our workload'''. Moreover, it's inevitable that people will make changes or additions to one wikibook but neglect / forget to do it to the other, which '''splits our efforts''' and results in '''forking'''. Considering how stalled this wikibook already is, it is not helpful to split up what little we already have.
+
+Moreover, it is '''not hard''' to teach two systems at the same time. In fact, I think it is a '''disservice''' to potential students if we don't show them both systems: many Chinese programs in fact do teach both systems simultaneously, with the expectation that students will learn to write one and read the other. Teaching two systems simultaneously '''does not take up that much space''' even, so why have we stopped doing it?
+
+In short, I see huge problems and little advantage with this current split into Traditional and Simplified. If there are no objections, I will re-merge them together.
+
+-- [[User:Ran|Ran]] 18:07, 28 May 2006 (UTC)
+
+==More reading passages?==
+This textbook is so far very elementary. I'm wondering if there should be more offered... maybe reading passages for slightly more advanced students? harder vocabulary lists from those reading passages? All of the chinese language textbooks (from china) that I've ever seen are structured that way. 
+I would offer to write the passages but I am not a very good writer and my writing in chinese is even worse. However, I will volunteer to read and record passages. I am fluent in speaking and chinese is my first language.
+[[User:Blacksheepmails|Blacksheepmails]] 04:24, 7 December 2006 (UTC)
+
+:The text may be elementary, but I don't think a new student would find anything about it too easy, what with studying grammar, pronunciation and writing simultaneously. It's a real struggle making everything gradual enough. We need to introduce useful vocab slowly so as to not overwhelm students with too many words a lesson. I've used books where the new vocab would vary from 40&ndash;90 per lesson, and it was not fun.
+
+:I'm wary too about adding reading passages with a lot of "supplemental" vocab words that won't be properly reinforced. Nevertheless, I think some extra passages could be good every few lessons. Most textbooks I've seen do that and it could be good for an occasional challenge and review without being intimidating. --&nbsp;[[User:Everlong|Everlong]] 11:10, 24 December 2006 (UTC)
+
+::Yes, the reading passages should be occasional. But also, not everyone using wikibooks will be a complete beginner. I came here first to learn spanish, which I have been learning for a while now.[[User:Blacksheepmails|Blacksheepmails]] 01:41, 7 January 2007 (UTC)
+
+== Orphans ==
+
+你好! I found some orphaned pages belonging to this book:
+* [[Chinese/Pronunciation]]
+* [[Chinese/Elementary Chinese]] + [[Elementary Chinese Lesson 1]]
+* [[Chinese/Appendix CE-B]] - [[Chinese/Appendix CE-C]] - [[Chinese/Appendix CE-D]] - [[Chinese/Appendix CE-K]] - [[Chinese/Appendix CE-M]] - [[Chinese/Appendix CE-N]] - [[Chinese/Appendix CE-P]] - [[Chinese/Appendix CE-W]] - [[Chinese/Appendix CE-Z]]
+Please link to these pages in this book or mark them for deletion with {{tl|delete}}. 谢谢, [[User:Hagindaz|hagindaz]] 02:15, 14 July 2006 (UTC)
+
+==Adding lang attributes?==
+The display of Chinese in this book isn't too great in my browser because there are no "lang" attributes on the Chinese portions, so the fonts firefox chooses aren't correct. Does anyone know of a way we can implement the adding of "lang" attributes to the appropriate sections? --[[User:Echalon|Echalon]] 05:13, 15 December 2006 (UTC)
+:I looked up ''lang'''s uses, and it seems it might be a good idea, both for specifying a font and for making the Chinese text a larger font than the English for readability. Looks even better since bold and italics don't work too well on Chinese, so this would allow alternative emphasizers to be specified.
+
+:I haven't used ''lang'' and don't know if it is allowed by the wiki software, but what font would you choose for best display? (In Firefox and Opera, since IE doesn't recognize ''lang''.)
+:&mdash;&nbsp;[[User:Everlong|Everlong]] 23:28, 15 December 2006 (UTC)
+
+::Personally I use AR PL ZenKai Uni, but really that should be up to every user. The idea is with the correct lang tags, I can set my preferences in the browser and everything should work out. All the tags really do is help the browser to decide what is English text versus Chinese text, and then the browser can make font choices based on that information. If everything was under a different character encoding it would be far easier, but with UTF-8 and kin we have to add that information ourselves. --[[User:Echalon|Echalon]] 00:05, 17 December 2006 (UTC)
+
+== A bit too basic? ==
+
+I feel like there are a lot of really basic "What is your name?" type lessons in here.  I've had to learn a lot of Chinese in my time, and by the end of the first year of Chinese study, we were already on to more advanced topics of conversation.  Fundamentally, I feel like this textbook should be structured around subjects of conversation, rather than around grammar.  Each lesson should introduce new grammar and vocabulary, of course, but each should have its own unique subject of conversation.  Just my 2 cents, gleaned from four years of Chinese study.--[[User:Danaman5|Danaman5]] ([[User talk:Danaman5|talk]]) 12:13, 30 July 2008 (UTC)
+:I agree, I think really the "perfect" textbook will have a dialogue at the beginning that introduces a topic and a new grammatical concept. The next section of that lesson will introduce and explain the vocabulary used in the dialogue.  The next section explains the grammatical concept introduced.  Following are drills/exercises that give the student an opportunity to apply what was learned.  This would allow for us to give students more vocabulary and topics will still addressing the fundamentals of the language.[[User:Shivasprogeny|Shivasprogeny]] ([[User talk:Shivasprogeny|talk]]) 06:21, 7 November 2008 (UTC)
+
+== WTF with the License？ ==
+
+According to the printable version header,this,textbooks is shared under CC-BY-SA 3.0.But the License at the end of the text says it is GFDL 1.3.Shall I change CCBYSA to GFDL?--[[User:Arthur200000|Arthur200000]] ([[User talk:Arthur200000|discuss]] • [[Special:Contributions/Arthur200000|contribs]]) 18:56, 3 October 2013 (UTC)

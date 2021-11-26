@@ -1,0 +1,189 @@
+{|style="width: 80%"
+|-
+|'''Group''' →
+|'''1'''
+|'''2'''
+|'''3'''
+|'''4'''
+|'''5'''
+|'''6'''
+|'''7'''
+|'''8'''
+|'''9'''
+|'''10'''
+|'''11'''
+|'''12'''
+|'''13'''
+|'''14'''
+|'''15'''
+|'''16'''
+|'''17'''
+|'''18'''
+|-
+|'''Period''' ↓
+|colspan="20"|<br />
+|-
+|'''1'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|1<br />[[A-level Chemistry/OCR (Salters)/Hydrogen|'''H''']]
+|colspan="16"|<br />
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|2<br />'''He'''
+|-
+|'''2'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|3<br />'''Li'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|4<br />'''Be'''
+|colspan="10"|<br />
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|5<br />'''B'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|6<br />'''C'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|7<br />'''N'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|8<br />'''O'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|9<br />'''F'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|10<br />'''Ne'''
+|-
+|'''3'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|11<br />'''Na'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|12<br />'''Mg'''
+|colspan="10"|<br />
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|13<br />'''Al'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|14<br />'''Si'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|15<br />[[A-level Chemistry/OCR (Salters)/Phosphorus|'''P''']]
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|16<br />[[A-level Chemistry/OCR (Salters)/Sulfur|'''S''']]
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|17<br />'''Cl'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|18<br />'''Ar'''
+|-
+|'''4'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|19<br />'''K'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|20<br />'''Ca'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|21<br />'''Sc
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|22<br />'''Ti'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|23<br />'''V'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|24<br />'''Cr'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|25<br />'''Mn'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|26<br />'''Fe'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|27<br />'''Co'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|28<br />'''Ni'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|29<br />'''Cu'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|30<br />'''Zn'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|31<br />'''Ga'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|32<br />'''Ge'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|33<br />'''As'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|34<br />'''Se'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|35<br />'''Br'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|36<br />'''Kr'''
+|-
+|'''5'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|37<br />'''Rb'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|38<br />'''Sr'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|39<br />'''Y'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|40<br />'''Zr'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|41<br />'''Nb'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|42<br />'''Mo'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dashed black;"|43<br />'''Tc'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|44<br />'''Ru'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|45<br />'''Rh'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|46<br />'''Pd'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|47<br />'''Ag'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|48<br />'''Cd'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|49<br />'''In'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|50<br />'''Sn'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|51<br />'''Sb'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|52<br />'''Te'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|53<br />'''I'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|54<br />'''Xe'''
+|-
+|'''6'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|55<br />'''Cs
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px solid black;"|56<br />'''Ba
+|style="vertical-align: top; text-align:center;background-color:#a0ffa0;1px;"|*<br />
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|72<br />'''Hf'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|73<br />'''Ta'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|74<br />'''W'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|75<br />'''Re'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|76<br />'''Os'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|77<br />'''Ir'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|78<br />'''Pt'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|79<br />'''Au'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px solid black;"|80<br />'''Hg'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|81<br />'''Tl'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px solid black;"|82<br />'''Pb'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dashed black;"|83<br />'''Bi'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dashed black;"|84<br />'''Po'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dashed black;"|85<br />'''At'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dashed black;"|86<br />'''Rn'''
+|-
+|'''7'''
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px dashed black;"|87<br />'''Fr
+|style="text-align:center;background-color:#ffc0c0;color:black;border:1px dashed black;"|88<br />'''Ra
+|style="vertical-align: top; text-align:center;background-color:#a0ffa0;1px;"|**<br />
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|104<br />'''Rf
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|105<br />'''Db
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|106<br />'''Sg
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|107<br />'''Bh
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|108<br />'''Hs
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|109<br />'''Mt
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|110<br />'''Ds
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|111<br />'''Rg'''
+|style="text-align:center;background-color:#ffff99;color:black;border:1px dotted black;"|112<br />'''Uub'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dotted black;"|113<br />'''Uut'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dotted black;"|114<br />'''Uuq'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dotted black;"|115<br />'''Uup'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dotted black;"|116<br />'''Uuh'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dotted black;"|117<br />'''Uus'''
+|style="text-align:center;background-color:#FFA07A;color:black;border:1px dotted black;"|118<br />'''Uuo'''
+|-
+|colspan="21"|<br />
+|-
+|colspan="4" style="text-align:right"|* '''Lanthanides'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|57<br />'''La'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|58<br />'''Ce'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|59<br />'''Pr'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|60<br />'''Nd'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|61<br />'''Pm'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|62<br />'''Sm'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|63<br />'''Eu'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|64<br />'''Gd'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|65<br />'''Tb'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|66<br />'''Dy'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|67<br />'''Ho'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|68<br />'''Er'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|69<br />'''Tm'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|70<br />'''Yb'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px solid black;"|71<br />'''Lu'''
+|-
+|colspan="4" style="text-align:right"|** '''Actinides'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|89<br />'''Ac'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|90<br />'''Th'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|91<br />'''Pa'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|92<br />'''U'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|93<br />'''Np'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dashed black;"|94<br />'''Pu'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|95<br />'''Am'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|96<br />'''Cm'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|97<br />'''Bk'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|98<br />'''Cf'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|99<br />'''Es'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|100<br />'''Fm'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|101<br />'''Md'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|102<br />'''No'''
+|style="text-align:center;background-color:#a0ffa0;color:black;border:1px dotted black;"|103<br />'''Lr'''
+|}
+
+{| class="wikitable" style="margin: 1em auto 1em auto"
+|-
+| '''Block''' || '''Background'''
+|-
+| s block || bgcolor="#ffc0c0"| red
+|-
+| p block || bgcolor="#FFA07A"| orange
+|-
+| d block || bgcolor="#ffff99"| yellow
+|-
+| f block ||  bgcolor="#a0ffa0"| green
+|}
+
+'''Radioactivity'''
+* <div style="border:solid 1px black;padding:1px;">elements with solid borders have stable isotopes</div>
+* <div style="border:dashed 1px black;padding:1px;">elements with dashed borders have only radioactive naturally occurring isotopes</div>
+* <div style="border:dotted 1px black;padding:1px;">elements with dotted borders do not occur naturally</div>
+* <div style="border:none;padding:1px;">elements without borders are too radioactive to have been discovered yet</div>
+
+{{BookCat}}

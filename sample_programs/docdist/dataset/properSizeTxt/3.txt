@@ -1,0 +1,186 @@
+{{navigate|Prev=Arrays|Next=Date and Time}}
+
+<!--Type in the following to add an example:
+{{ASTrace|<syntaxhighlight lang="actionscript">
+Your code here
+</syntaxhighlight>
+|2=Your result here}}
+-->
+{{sidebox|Key concepts:|
+}}
+ActionScript 2.0 revolves around movie clips. (They have decreased in importance in AS3, but they remain an important part of Flash applications.) In this long chapter, we will go through the nitty-gritty details of movie clips.
+
+== What are some basic movie clips concepts to know? ==
+
+=== What is the stage? ===
+The ''stage'' is the area where all the action happens. The Stage class is a class containing static functions, static properties and event handlers related to the stage.
+
+==== How can I get the stage dimensions? ====
+The first properties we need to know are Stage.width and Stage.height. These are ''read-only properties'', which means we can retrieve their values, but cannot change them during runtime. They are set in the Flash IDE itself through the Modify > Document window. The following code retrieves the coordinates of the centre point of the stage:
+
+{{ASTrace|1=<syntaxhighlight lang="actionscript">
+var centrePoint:Object = {x:Stage.width/2, y:Stage.height/2};
+trace(centrePoint.x);
+trace(centrePoint.y);</syntaxhighlight>|2=''Depends on application settings.''}}
+
+Note how we created an object with the properties x and y. This will come in handy later in this chapter and in the second section.
+
+==== How can I set the application to full-screen mode? ====
+Sometimes, we want the stage to, well 'jump out of the box' of the player or browser and occupy the whole screen. This is called ''full-screen'' mode. The Stage class has functions for doing so. Note that full-screen mode must be initiated by user input, and the application is not allowed to do it itself. It is also worth noting that keyboard input is disabled in full-screen mode. Furthermore, full-screen mode can only be used when the application is embedded in a webpage. This is because of security reasons. The HTML code also needs to be slightly altered to support the full-screen mode.
+
+The Stage.displayState should be altered in order to toggle in and out of full-screen mode.
+
+=== What exactly is a timeline? ===
+By now, you should be quite familiar with Flash timelines, but how exactly do they work?
+
+When a Flash application without ActionScript runs, a ''playhead'' runs through the frames of the main timeline and plays them one by one. When there are MovieClip symbols on the stage, they each have a playhead and a timeline, too. The speed at which the playhead moves is called the ''frame rate'', which is measured in ''frames per second'' (fps). For example, an application with 10 fps moves ten times a second.
+
+Now, this is a bit different when ActionScript comes in. The first thing to remember is that the code in each frame is executed before the frame is displayed. For instance, if you put <code>gotoAndStop(3);</code> in the first frame of a movie clip, it will jump directly to the third frame without displaying the first frame. There are several functions which move the playhead, and we've learnt them in the first section, so here's a quick refresher:
+
+* <code>play()</code> and <code>stop()</code> will play and stop playing the frames in order respectively.
+* <code>gotoAndPlay(''frame'')</code> and <code>gotoAndStop(''frame'')</code> will go to the specified frame, then play and stop the Flash respectively.
+* <code>prevFrame()</code> and <code>nextFrame()</code> go to the previous and next frame respectively. Unless there is a <code>stop()</code> statement on the target frame, they will play.
+
+You might think that once the playhead is stopped, e.g. with <code>gotoAndStop</code> or <code>stop</code>, the frame rate is no longer significant. That cannot be further from the truth. Remember events? When events are triggered, the screen does not change immediately. Instead, it waits till the next time the frame is 'entered', which happens at the frame rate. There are two exceptions to this rule, both involving a special function; we'll discuss one later in this chapter, and another in the next chapter.
+
+The <code>onEnterFrame</code> event of the MovieClip class allows code to be executed constantly, at the frame rate. The following example shows how to make a box fall:
+
+{{ASTrace|1=<syntaxhighlight lang="actionscript">
+//Assume that 'box' is a MovieClip instance on the stage.
+onEnterFrame = function(){
+     box._y++;
+     trace("The box moved!");
+}</syntaxhighlight>|2=The box moved!<br/>(x infinite times)}}
+
+Now suppose we want the bottom edge of the application to act as the ground. How should be change the code?
+
+{{ASTrace|1=<syntaxhighlight lang="actionscript">
+//Assume that 'box' is a MovieClip instance on the stage.
+onEnterFrame = function(){
+     if(box._y != Stage.height - box._height){
+          box._y++;
+          trace("The box moved!");
+          if(box._y > Stage.height - box._height){
+               box._y = Stage.height - box._height;
+          }
+     }
+}</syntaxhighlight>|2=The box moved!<br/>(x number of times the box moves before hitting the ground)}}
+
+=== What are scenes? ===
+The Main Timeline has a limited number of frames. If you wanted to create a Flash application involving a lot of frames, such as a detective game, it may not be sufficient. In addition, in an application with lots of frames, it may be irritating if you keep all the frames in the same timeline. Fortunately, there is one solution to this problem: scenes. A Flash application may have lots of scenes. Click on the Window menu in the Flash IDE to create, delete and rename scenes. There are four functions that allow you to change scenes:
+
+* prevScene(''scene'');
+* nextScene(''scene'');
+* gotoAndPlay(''scene'', frame);
+* gotoAndStop(''scene'', frame);
+
+You might be wondering why gotoAndPlay popped up again! Well, this gotoAndPlay is not the same as the MovieClip method gotoAndPlay(). Firstly, ''MovieClip''.gotoAndPlay(''frame'') and ''MovieClip''.gotoAndStop(''frame'') don't require the first scene parameter. All four functions are global functions, and it doesn't matter where you call them; they always, without exception, move the main timeline. Here's an example with three scenes (firstScene, secondScene, lastScene):
+
+{{ASTrace|1=
+''On the first frame of the first scene:''
+<syntaxhighlight lang="actionscript">
+stop();
+trace("Welcome to firstScene!");
+Mouse.addListener(this);
+this.onMouseDown = function(){
+     if(Scene.currentScene != "lastScene"){
+          nextScene();
+     } else {
+          gotoAndPlay("firstScene", 1);
+     }
+}</syntaxhighlight><br/>''On the first frame of the second scene:''
+<syntaxhighlight lang="actionscript">trace("Welcome to secondScene!")</syntaxhighlight><br/>''On the first frame of the third scene:''
+<syntaxhighlight lang="actionscript">trace("Welcome to lastScene!")</syntaxhighlight>|2=Welcome to firstScene!<br/>''When the mouse is clicked for the first time:''<br/>Welcome to secondScene!<br/>''When the mouse is clicked for the second time:''<br/>Welcome to lastScene!<br/>''When the mouse is clicked for the third time:''<br/>Welcome to firstScene!<br/>}}
+
+Unfortunately, Scene.currentScene is not available for older Macromedia versions of Flash. Therefore, you may need to devise some clever technique to work around this problem. For example, you could put a movie clip with a weird name off the stage of the last scene. If that movie clip is defined, then the mouse click should result in a move to the first scene.
+
+===Can I name frames?===
+Frame numbers are usually quite difficult to remember. It is often a good idea to name your most important frames. Frame names are called ''frame labels''. To label a frame, type in the name in the properties panel. The label can then replace the frame number in the gotoAndPlay function (both MovieClip and global).
+
+{{ASTrace|<syntaxhighlight lang="actionscript">
+//Assume that the fps is 20 and someImportantFrame is frame 5.
+var timePassed:Number = 0;
+onEnterFrame = function(){
+     if(_currentframe == 1){
+          timePassed++;
+          if(timePassed >= 20){
+               gotoAndPlay("someImportantFrame");
+          }
+     } else if(_currentframe == 5){
+          trace("Welcome to Frame 5!");
+     }
+}</syntaxhighlight>
+|2=''After a second:''<br/>Welcome to Frame 5!}}
+
+== How can I change the appearance and position of a MovieClip? ==
+=== Movie clips and coordinates ===
+As we've already discussed, _x and _y are the x- and y-coordinates of (the top-left corner of) a movie clip in its parent. That's all good, but how can we find the coordinates of a movie clip on the stage when it is two levels above the main timeline? How about the opposite? Can we find the coordinates of a movie clip on the stage in terms of another movie clip on the stage?
+
+''Local coordinates'' are the coordinates of a point inside another movie clip, while ''global coordiantes'' (also known as ''stage coordinates'') are the coordinates of a point on the stage. The ''MovieClip''.localToGlobal() and ''MovieClip''.globalToLocal() funtions convert between local and local coordinates. Let's try them one by one.Put an apple movie clip instance on the stage, then place a worm movie clip instance inside it. Our job is to find the coordinates of the worm, relative to the stage. Put the following code on the first frame of the main timeline:
+
+{{ASTrace|1=<syntaxhighlight lang="actionscript">
+var someCoordinates:Object = {x:apple.worm._x, y:apple.worm._y};
+apple.worm.localToGlobal(someCoordinates);
+trace("Global coordinates: (" + someCoordinates.x + ", " + someCoordintes.y));</syntaxhighlight>
+|2=Depends.}}
+
+=== _xscale and _yscale ===
+_xscale is the ratio of a movie clip's original width in the library and its current width after scaling. _yscale is the ratio of a movie clip's original height in the library and its current height after scaling. They are not related to the _x and _y properties! If _xscale and _yscale are equal, then the ''aspect ratio'' of the movie clip is unchanged.
+
+{{ASTrace|1=<syntaxhighlight lang="actionscript">
+apple._width = 10;
+apple._height = 10;
+if(apple._xscale == apple._yscale){
+ trace("Same aspect ratio!");
+} else {
+ trace("Different aspect ratio!");
+}
+trace("Global coordinates: (" + someCoordinates.x + ", " + someCoordintes.y));</syntaxhighlight>
+|2=Depends.}}
+
+=== Opacity ===
+_alpha is a measure (from 0 to 100) of a movie clip's opacity. If a movie clip has an _alpha value of 0, it is completely transparent; if its _alpha is 100, it is completely opaque. Try playing around with _alpha!
+
+{{ASTrace|1=<syntaxhighlight lang="actionscript">
+apple._alpha = 0;</syntaxhighlight>
+|2= }}
+
+== What is focus? ==
+Have you ever had two windows on your screen at the same time? When you, say, type, the text would affect only one of the windows. The affected window has ''focus'' and the other window does not.
+
+Movie clips also have focus.
+
+== How do movie clips respond to mouse actions? ==
+
+=== What are the events associated with the mouse? ===
+
+=== How can the user drag movie clips? ===
+
+== How can I use detect collisions? ==
+
+== How can I create movie clips dynamically? ==
+
+=== What is depth? ===
+
+=== How can I use movie clips from the library? ===
+
+=== How can I create empty movie clips? ===
+
+=== How can I duplicate movie clips? ===
+
+=== How can I destroy movie clips? ===
+
+=== How can I change a movie clip's depth? ===
+
+=== What is the drawing API? ===
+
+== Is there anything else to learnt about movie clips? ==
+* _quality
+* getSWFVersion
+
+== Conclusion ==
+
+== Notes ==
+<references/>
+
+{{bookCat}}

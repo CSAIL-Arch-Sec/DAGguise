@@ -1,0 +1,436 @@
+This is the DESCRIPTION of this manual(coming soon :))
+
+
+==Chapter 1 System Introduction==
+:This chapter introduces how to startup the system and describes the system interface, and also introduces the system tool bar in detail.
+===System Startup===
+:You can startup the system using any of the following methods:
+:1.	Double click the InteriCAD T5 shortcut on the WINDOWS desktop.
+:2.	Select Program from start menu, and then YFCAD Software/InteriCAD T5.
+
+===System Interface===
+:The system startup window looks as follows:
+
+[[File:My pci1.JPG|thumb|none|my pci1 disc1]]
+:
+<br/>
+::[[File:My pci1.JPG|640px|gggg]]
+=====2D Design Interface=====
+:
+:
+:
+:*'''Menu Bar''': Where software commands are placed, you can use them by clicking the left mouse button.
+:*'''Tool Bar''': Where most common commands are placed, you can use them by clicking the left mouse button.
+:*'''Workplace''': The specific area to construct drawing.
+
+=====Introduction to Yuan Fang VR Interface=====
+:
+:*'''Menu Bar''': Where software commands are placed, you can use them by clicking the left mouse button.
+:*'''Tool Bar''': Where most common commands are placed, you can use them by clicking the left mouse button.
+:*'''Workplace''': The specific area to construct drawing.
+:*'''Command Window''': Where you can input commands.
+:*'''Status Bar''': Display cursor, coordinate and mode status.
+=====Modeling Design Interface=====
+:
+:*'''Menu Bar''': Where software commands are placed, you can use them by clicking the left mouse button.
+:*'''Tool Bar''': Where most common commands are placed, you can use them by clicking the left mouse button.
+:*'''Drawing Window''': The area you construct drawing. The system defaults into four-view form. The one in the left upper corner is front view, in the left lower corner is top view, in the right upper corner is side view, and in the right lower corner is isometric view.
+:*'''Command Window''': Where you can input command.
+:*'''Status Bar''': Display cursor coordinate and mode status.
+:*'''Construction Graph Screen Menu''': Most common Construction Graph commands.
+
+==Chapter 2 2D Design==
+===Interface===
+:The interface of 2D design is shown as below: 
+:
+:The interface includes:
+:'''Menu''': All commands can be found in menu
+:'''Toolbar''': Shortcut icons of main commands can be found
+:'''Design Wizard''': Showing the steps of design 
+:'''Drawing space''': Where you can draw the floor plan 
+:'''Furniture library''': includes Yuan Fang system library and manufacturer’s customized library. Left click to unfold each category and call certain piece of furniture
+
+===Common Operation===
+:*Usage of the Mouse
+::'''Left click''': Most commands are accomplished by left click. For example: selecting pull-down menu, clicking icon on toolbar and etc. 
+::'''Right click''': Some commands are ended by right click. For any existing object, right click it and the edit command will be shown.
+::Note: No matter what command is being executed, right click and the command will exit.  
+:*Two Operation Rules
+::Rule No.1: Select command first. Then follow the prompt to execute further operation. 
+::Rule No.2: Select object first. Then right click, and the exclusive edit menu towards the selected object will be shown. Note: every object has its unique edit menu. This menu cannot be found in the tool bar.
+
+===File Menu===
+:*New File
+::Create a new drawing file.
+::'''Basic operations''':Click '''''File / New''''' in menu bar.
+::'''Note''': If any changes have been made to the current file, the system will ask you whether to save it. Click Yes, the system will save the file. If it is a new file, the file will be saved as a new file.Click No, the system will open a new file without saving the current file.If Cancel, the system will not open a new file.
+
+:*Open
+:*Save
+:*Save as
+:*Export Image
+:*Print
+:*Print Setting
+:*Shortcut Setting
+:*Exit
+
+===Object Edit Function===
+:*Select Object
+:*Undo
+:*Redo
+:*Move
+:*Rotate
+:*Copy
+:*Mirror
+:*Erase
+===View===
+:*Full Screen
+:*Zoom Window
+:*Zoom
+:*Pan
+:*Zoom In
+:*Zoom Out
+:*Hide/Show Image
+===Drawing Tool===
+:*Line
+:*Arc
+:*Circle
+:*Polyline
+:*Text
+:*Horizontal Dimension
+:*Aligned Dimension
+:*Angular Dimension
+:*Insert Image
+:*Insert Image Frame
+:*Insert File..
+:*Free Region
+:*Search Region
+===Room Structure===
+:*Design Wizard
+:*Wall
+:*Insert Door, Window and Column
+:*Edit door and window
+:*Furniture List
+===Ceiling===
+:*Search Ceiling Frame
+:*Manual Ceiling
+:*Ceiling Block
+:*Ceiling Lights
+:*Linear Ceiling Lights
+:*Show Ceiling/Hide Ceiling
+===Layout Furniture===
+:*Edit the Furniture
+:*Furniture Set
+===Setting Menu===
+:*Display Mode
+:*Image Quality
+:*Unit……..
+:*Snap on…..
+:*Setting of Snap
+:*Image Insert Point Setting
+:*Size Dimension and Style
+:*Default Text Color
+:*Default Wall Thickness
+:*Highlight Wall
+===Enter 3D (From 2D to Virtual Reality)===
+:*How to Import from 2D to Virtual Reality
+
+==Chapter 3 Ceramic Module==
+* [[/3.1 Ceramic Module Startup/]]
+* [[/3.2 Interface/]]
+* [[/3.3 Paving Region/]]
+** [[/3.3.1 Rectangular Region/]]
+** [[/3.3.2 Draw Region/]]
+** [[/3.3.3 Door Region/]]
+** [[/3.3.4 Search Region/]]
+** [[/3.3.5 Modify Paving Region/]]
+* [[/3.4 Paving in a Region/]]
+** [[/3.4.1 Worktable/]]
+** [[/3.4.2 Query Tiles/]]
+** [[/3.4.3 Place Tiles in the Region/]]
+** [[/3.4.4 Replace Tile in the Region/]]
+** [[/3.4.5 Region Tiling Begins from Tiles/]]
+* [[/3.5 Border Line/]]
+* [[/3.6 Tiles Plan/]]
+** [[/3.6.1 Select a Plan/]]
+** [[/3.6.2 Tiles Plan Management/]]
+* [[/3.7 Assistant Function/]]
+** [[/3.7.1 Anchor/]]
+** [[/3.7.2 Hide All Anchors/]]
+** [[/3.7.3 Show All Anchors/]]
+** [[/3.7.4 Tiles Cut Style/]]
+** [[/3.7.5 Tiles Create Method/]]
+* [[/3.8 Tiles Quotation/]]
+* [[/3.9 Ceramic Database Management/]]
+** [[/3.9.1 Function Buttons/]]
+** [[/3.9.2 Add Ceramic to Database/]]
+** [[/3.9.3 Modify Ceramic Information in Database/]]
+** [[/3.9.4 Delete Ceramic Record from Database/]]
+** [[/3.9.5 Query Ceramic Record/]]
+** [[/3.9.6 Set Display Status of Ceramic Properties/]]
+** [[/3.9.7 Sort and Column Replace/]]
+==Chapter 4 Basic Structures==
+* [[/4.1 Modeling Interface/]]
+* [[/4.2 Grid on Axis/]]
+** [[/4.2.1 Grid on Axis/]]
+** [[/4.2.2 Grid on Center/]]
+** [[/4.2.3 Display Control of Grid on Axis/]]
+* [[/4.3 Wall/]]
+** [[/4.3.1 Build a Wall/]]
+** [[/4.3.2 Wall Editing/]]
+* [[/4.4 Perimeter & Skirting/]]
+** [[/4.4.1 Perimeter Offset/]]
+** [[/4.4.2 Skirting/]]
+* [[/4.5 Column/]]
+** [[/4.5.1 Square Column on Axis/]]
+** [[/4.5.2 Round Column on Axis/]]
+** [[/4.5.3 Freestanding Square Column/]]
+** [[/4.5.4 Freestanding Round Column/]]
+** [[/4.5.5 Delete Column/]]
+* [[/4.6 Doors and Windows/]]
+** [[/4.6.1 Insert Doors and Windows/]]
+** [[/4.6.2 User Define Window/]]
+** [[/4.6.3 Parameterized Window/]]
+** [[/4.6.4 The Cover of the Doors and Windows/]]
+** [[/4.6.5 Edit the Doors and Windows/]]
+** [[/4.6.6 Add the Door and Windows into the Library/]]
+* [[/4.7 Elevation Decoration/]]
+** [[/4.7.1 Elevation Setup/]]
+** [[/4.7.2 Niche on a Wall/]]
+** [[/4.7.3 Decoration/]]
+** [[/4.7.4 Tiling/]]
+** [[/4.7.5 Curve Wall Decoration/]]
+** [[/4.7.6 Move on Elevation/]]
+** [[/4.7.7 Display Control of Elevation Objects/]]
+* [[/4.8 Ceiling Board/]]
+** [[/4.8.1 Build the Ceiling Board/]]
+** [[/4.8.2 Arrange the Recess Down Light/]]
+** [[/4.8.3 Display Control of the Objects on the Ceiling Board/]]
+* [[/4.9 Floor/]]
+** [[/4.9.1 Construct the Floor/]]
+** [[/4.9.2 Floor Pattern/]]
+** [[/4.9.3 Curve Step/]]
+** [[/4.9.4 Move on Elevation/]]
+** [[/4.9.5 Display Control of the Floor Objects/]]
+==Chapter 5 3D Modeling==
+* [[/5.1 Modeling Function Based on Library/]]
+** [[/5.1.1 Handrail/]]
+** [[/5.1.2 Fence/]]
+** [[/5.1.3 Wood Line/]]
+* [[/5.2 Modeling Along the Path/]]
+* [[/5.3 3D Text/]]
+** [[/5.3.1 Text Along Path/]]
+** [[/5.3.2 Transform 2D Text to 3D Text/]]
+* [[/5.4 Staircase/]]
+** [[/5.4.1 Combine Staircases/]]
+** [[/5.4.2 Staircase Base on Two Lines/]]
+** [[/5.4.3 Staircase Base on Center Line/]]
+** [[/5.4.4 Spiral Stair/]]
+* [[/5.5 Visual Library Management Based on Database Management/]]
+** [[/5.5.1 Startup Library Management/]]
+** [[/5.5.2 Library Management/]]
+** [[/5.5.3 How to Use Library/]]
+** [[/5.5.4 System Manage Mode/]]
+** [[/5.5.5 User Management Mode/]]
+==Chapter 6 Dimension==
+* [[/6.1 Dimension/]]
+** [[/6.1.1 Dimension on Linear Axis/]]
+** [[/6.1.2 Dimension on Arc Axis/]]
+** [[/6.1.3 Walls with Windows Dimension/]]
+** [[/6.1.4 Door and Windows Dimension/]]
+** [[/6.1.5 Modify Axis Number/]]
+** [[/6.1.6 The Area of a Room/]]
+** [[/6.1.7 Dimension Types/]]
+** [[/6.1.8 Common Dimension Types/]]
+==Chapter 7 Virtual Reality Commands in Modeling==
+* [[/7.1 Set Light/]]
+* [[/7.2 Advanced Lighting/]]
+* [[/7.3 Edit Light/]]
+* [[/7.4 Export/]]
+* [[/7.5 Export Merge/]]
+* [[/7.6 Advanced Export/]]
+* [[/7.7 Advanced Export Merge/]]
+* [[/7.8 Import and Export DWG, DXF Files/]]
+** [[/7.8.1 Import 3DS File/]]
+* [[/7.9 Import 2D Design Files/]]
+==Chapter 8 Window, Edit Attribute and Other Functions==
+* [[/8.1 Window/]]
+** [[/8.1.1 New Window/]]
+** [[/8.1.2 Close/]]
+** [[/8.1.3 Close All/]]
+** [[/8.1.4 Cascade/]]
+** [[/8.1.5 Tile Horizontally/]]
+** [[/8.1.6 Tile Vertically/]]
+** [[/8.1.7 Arrange Icons/]]
+* [[/8.2 Others/]]
+** [[/8.2.1 Yuan Fang Toolbar/]]
+** [[/8.2.2 BtoCAD Menu/]]
+** [[/8.2.3 General Setting/]]
+** [[/8.2.4 Display of Objects/]]
+* [[/8.3 Summary of Edit Attribute/]]
+** [[/8.3.1 Start the Edit Attribute/]]
+** [[/8.3.2 Dialog Box of Edit Attribute/]]
+** [[/8.3.3 Attribute Edit & Common Operation/]]
+** [[/8.3.4 Common Attributes/]]
+** [[/8.3.5 Wall Attribute Edit/]]
+** [[/8.3.6 Doors & Windows Attribute Edit/]]
+** [[/8.3.7 Wood Line Attribute Edit/]]
+** [[/8.3.8 Wall Hole Attribute Edit/]]
+* [[/8.4 Other Functions/]]
+** [[/8.4.1 System Optimizing/]]
+** [[/8.4.2 Camera/]]
+==Chapter 9 Virtual Reality==
+* [[/9.1 Overview/]]
+* [[/9.2 InteriCAD VR Interface and Command Function/]]
+* [[/9.3 File Menu/]]
+** [[/9.3.1 Open/]]
+** [[/9.3.2 Save/]]
+** [[/9.3.3 New/]]
+** [[/9.3.4 Import from Modeling/]]
+** [[/9.3.5 Merge from Modeling/]]
+** [[/9.3.6 Import 3DMax Model/]]
+** [[/9.3.7 Merge 3dMax Model/]]
+** [[/9.3.8 Import 3ds Sketchup Model/]]
+** [[/9.3.9 Import 2D File/]]
+** [[/9.3.10 Template Setting/]]
+** [[/9.3.11 Save Mvr…/]]
+** [[/9.3.12 Slope Ceiling/]]
+** [[/9.3.13 Setting……./]]
+** [[/9.3.14 Toolbar Manager/]]
+** [[/9.3.15 Exit………/]]
+* [[/9.4 View/]]
+** [[/9.4.1 Display Mode/]]
+** [[/9.4.2 View/]]
+** [[/9.4.3 Walk Mode/]]
+** [[/9.4.4 Elevate/]]
+** [[/9.4.5 Spin/]]
+** [[/9.4.6 Pan/]]
+** [[/9.4.7 Look at/]]
+** [[/9.4.8 Zoom Mode/]]
+** [[/9.4.9 UCS/]]
+** [[/9.4.10 Camera……./]]
+** [[/9.4.11 Show Camera List/]]
+* [[/9.5 Products Library/]]
+** [[/9.5.1 Show Library/]]
+** [[/9.5.2 Hide Library/]]
+** [[/9.5.3 Library Manager/]]
+** [[/9.5.4 Library Backup/]]
+** [[/9.5.5 Import VR Block/]]
+** [[/9.5.6 Export Surface/]]
+** [[/9.5.7 Export Object/]]
+** [[/9.5.8 Renew VR Block/]]
+** [[/9.5.9 Export Whole Scene/]]
+** [[/9.5.10 Create Entity/]]
+** [[/9.5.11 Explode Entity/]]
+** [[/9.5.12 Clone Object/]]
+** [[/9.5.13 Export Clone Object/]]
+** [[/9.5.14 Furniture List/]]
+* [[/9.6 Kitchen Design/]]
+** [[/9.6.1 Show Library/]]
+** [[/9.6.2 Close Library/]]
+** [[/9.6.3 Unit Redrop/]]
+** [[/9.6.4 Change Size/]]
+** [[/9.6.5 Create Worktop/]]
+** [[/9.6.6 Create Worktop Manually/]]
+** [[/9.6.7 Create Plinth/]]
+** [[/9.6.8 Create Pelmet/]]
+** [[/9.6.9 Create Cornice/]]
+** [[/9.6.10 Change Handle/]]
+** [[/9.6.11 General Panel/]]
+** [[/9.6.12 Shelves Panel/]]
+** [[/9.6.13 Dividing Panel/]]
+** [[/9.6.14 Parameter Settings/]]
+** [[/9.6.15 Set Current Room/]]
+* [[/9.7 Object/]]
+** [[/9.7.1 Single Selection/]]
+** [[/9.7.2 Box Selection/]]
+** [[/9.7.3 Surface Repair/]]
+** [[/9.7.4 Align Object/]]
+** [[/9.7.5 Snap On/]]
+** [[/9.7.6 Edit Object/]]
+** [[/9.7.7 Edit Surface/]]
+** [[/9.7.8 Detach/]]
+** [[/9.7.9 Measure Distance/]]
+** [[/9.7.10 Distance from Object to Wall/]]
+** [[/9.7.11 Distance between Object/]]
+** [[/9.7.12 Nearest Distance/]]
+** [[/9.7.13 Accurate Edit/]]
+** [[/9.7.14 Clear Selection/]]
+** [[/9.7.15 Object Display/]]
+** [[/9.7.16 Hide Unselected/]]
+** [[/9.7.17 Hide Object/]]
+** [[/9.7.18 Hide Surface/]]
+** [[/9.7.19 Show All../]]
+* [[/9.8 Material/]]
+** [[/9.8.1 Material Editor/]]
+** [[/9.8.2 Material Library/]]
+** [[/9.8.3 Fit Map/]]
+** [[/9.8.4 Edit Map/]]
+** [[/9.8.5 Reset Map/]]
+** [[/9.8.6 Random Material/]]
+* [[/9.9 Tiling/]]
+** [[/9.9.1 Tiling Design/]]
+** [[/9.9.2 Clear Tiling/]]
+** [[/9.9.3 Apply Tiling Plan/]]
+** [[/9.9.4 Replace Tile/]]
+** [[/9.9.5 Split Surface/]]
+** [[/9.9.6 Extrude Surface/]]
+** [[/9.9.7 Quotation/]]
+* [[/9.10 Light Setting/]]
+** [[/9.10.1 New Light/]]
+** [[/9.10.2 Clear Light Property/]]
+** [[/9.10.3 Edit Light./]]
+** [[/9.10.4 Sunlight Setting/]]
+** [[/9.10.5 Lighting List/]]
+** [[/9.10.6 Smart Light/]]
+** [[/9.10.7 Smart Light Setting/]]
+** [[/9.10.8 Special Light 1/]]
+** [[/9.10.9 Special Light 2/]]
+** [[/9.10.10Delete Special Light/]]
+* [[/9.11 Render/]]
+** [[/9.11.1 Start Radiosity/]]
+** [[/9.11.2 Raytrace & Partial Raytrace/]]
+** [[/9.11.3 Stop……../]]
+** [[/9.11.4 Instant Render On/Off/]]
+** [[/9.11.5 Instant Render Refresh/]]
+** [[/9.11.6 Set Background/]]
+** [[/9.11.7 Light Adjustment/]]
+** [[/9.11.8 Light Adjustment without Radiosity/]]
+** [[/9.11.9 Environment Setting/]]
+** [[/9.11.10 Reset Radiosity/]]
+** [[/9.11.11 Plot Area Preview/]]
+** [[/9.11.12 Save Image/]]
+** [[/9.11.13 Additional Scan/]]
+** [[/9.11.14 Batch Render/]]
+** [[/9.11.15 Channel Picture/]]
+** [[/9.11.16 Hand Drawing/]]
+** [[/9.11.17 Export Dxf/]]
+** [[/9.11.18 Net Render/]]
+* [[/9.12 Animation/]]
+** [[/9.12.1 Record…../]]
+** [[/9.12.2 Select Path/]]
+** [[/9.12.3 Set Path…/]]
+** [[/9.12.4 Load Path../]]
+** [[/9.12.5 Save Path./]]
+** [[/9.12.6 Preview Animation/]]
+** [[/9.12.7 Make Animation/]]
+* [[/9.13 Optimize/]]
+** [[/9.13.1 Optimize Surface/]]
+** [[/9.13.2 Optimize Option/]]
+** [[/9.13.3 Optimize Model/]]
+** [[/9.13.4 Optimize Display/]]
+** [[/9.13.5 Surface Radiosity Setting/]]
+==Chapter 10 Online Cloud Library==
+Online Cloud Library is a brand new system developped by YFCAD, aiming to provide more efficient customized modeling service to individual users. <br/>
+Online Modeling Service contains 3 parts: Make Model, Check Model, and Recharge.
+:•	Make Model. This is for submitting model information. 
+:•	Check Model. This is for checking the progress of modeling. Users can also send their feedbacks about the model to YFCAD.
+:•	Recharge. This is for the basic cost of the service.
+===Basic Operations:===
+=====Part1: Make Model=====
+=====Part2: Check Model=====
+=====Part3: Recharge=====
+
+{{shelves|Business software}}
+{{alphabetical|I}}
+{{status|0%}}

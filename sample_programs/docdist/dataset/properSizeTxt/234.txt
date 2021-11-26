@@ -1,0 +1,945 @@
+== Solutions ==
+{{Linear Algebra/Book 2/Recommended}}
+{{TextBox|1=
+;Problem 1:
+Repeat [[Linear Algebra/Diagonalizability#ex:DiagUpperTrian|Example 2.5]]<!--\ref{ex:DiagUpperTrian}--> for the matrix from
+[[Linear Algebra/Diagonalizability#ex:DiagTwoByTwo|Example 2.2]]<!--\ref{ex:DiagTwoByTwo}-->.
+;Answer:
+
+Because the basis vectors are chosen arbitrarily, many different answers
+are possible.
+However, here is one way to go;
+to diagonalize
+
+:<math>
+T=\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+</math>
+
+take it as the representation of a transformation with respect to the
+standard basis <math>T={\rm Rep}_{\mathcal{E}_2,\mathcal{E}_2}(t)</math> and look for
+<math> B=\langle \vec{\beta}_1,\vec{\beta}_2 \rangle  </math> such that
+
+:<math>
+{\rm Rep}_{B,B}(t)
+=
+\begin{pmatrix}
+\lambda_1  &0          \\
+0          &\lambda_2
+\end{pmatrix}
+</math>
+
+that is, such that
+<math>t(\vec{\beta}_1)=\lambda_1</math> and <math>t(\vec{\beta}_2)=\lambda_2</math>.
+
+:<math>
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+\vec{\beta}_1=\lambda_1\cdot\vec{\beta}_1
+\qquad
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+\vec{\beta}_2=\lambda_2\cdot\vec{\beta}_2
+</math>
+
+We are looking for scalars <math> x </math> such that this equation
+
+:<math>
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+\begin{pmatrix} b_1 \\ b_2 \end{pmatrix}=x\cdot\begin{pmatrix} b_1 \\ b_2 \end{pmatrix}
+</math>
+
+has solutions <math>b_1</math> and <math>b_2</math>, which are not both zero.
+Rewrite that as a linear system
+
+:<math>
+\begin{array}{*{2}{rc}r}
+(4-x)\cdot b_1  &+  &-2\cdot b_2       &=  &0  \\
+1\cdot b_1      &+   &(1-x)\cdot b_2   &=  &0
+\end{array}
+</math>
+
+If <math>x=4</math> then the first equation gives that <math>b_2=0</math>, and then
+the second equation gives that <math>b_1=0</math>.
+The case where both <math>b</math>'s are zero is disallowed
+so we can assume that <math>x\neq 4</math>.
+
+:<math>
+\xrightarrow[]{(-1/(4-x))\rho_1+\rho_2}\;
+\begin{array}{*{2}{rc}r}
+(4-x)\cdot b_1  &+   &-2\cdot b_2                   &=  &0  \\
+&    &((x^2-5x+6)/(4-x))\cdot b_2   &=  &0
+\end{array}
+</math>
+
+Consider the bottom equation.
+If <math> b_2=0 </math> then the first equation gives <math>b_1=0</math> or <math>x=4</math>.
+The <math>b_1=b_2=0</math> case is disallowed.
+The other possibility for the bottom equation is that the numerator
+of the fraction <math>x^2-5x+6=(x-2)(x-3)</math> is zero.
+The <math>x=2</math> case gives a first equation of <math>2b_1-2b_2=0</math>, and so
+associated with <math>x=2</math> we have
+vectors whose first and second components are equal:
+
+:<math>
+\vec{\beta}_1=\begin{pmatrix} 1 \\ 1 \end{pmatrix}
+\qquad\text{(so }
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+\begin{pmatrix} 1 \\ 1 \end{pmatrix}=2\cdot\begin{pmatrix} 1 \\ 1 \end{pmatrix}\text{, and }\lambda_1=2\text{).}
+</math>
+
+If <math> x=3 </math> then the first equation is
+<math>b_1-2b_2=0</math> and so the associated vectors
+are those whose first component is
+twice their second:
+
+:<math>
+\vec{\beta}_2=\begin{pmatrix} 2 \\ 1 \end{pmatrix}
+\qquad\text{(so }
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+\begin{pmatrix} 2 \\ 1 \end{pmatrix}=3\cdot\begin{pmatrix} 2 \\ 1 \end{pmatrix} \text{, and so }\lambda_2=3\text{).}
+</math>
+
+This picture
+
+:[[Image:Linalg_matrix_equivalent_cd_3.png|x150px]]
+
+shows how to get the diagonalization.
+
+:<math>
+\begin{pmatrix}
+2  &0  \\
+0  &3
+\end{pmatrix}
+=
+\begin{pmatrix}
+1  &2  \\
+1  &1
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+\begin{pmatrix}
+1  &2  \\
+1  &1
+\end{pmatrix}
+</math>
+
+''Comment''.
+This equation matches the <math>T=PSP^{-1}</math> definition under this renaming.
+
+:<math>
+T=
+\begin{pmatrix}
+2  &0  \\
+0  &3
+\end{pmatrix}
+\quad
+P=
+\begin{pmatrix}
+1  &2  \\
+1  &1
+\end{pmatrix}^{-1}
+\quad
+P^{-1}=
+\begin{pmatrix}
+1  &2  \\
+1  &1
+\end{pmatrix}
+\quad
+S=
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+</math>
+}}
+{{TextBox|1=
+;Problem 2:
+Diagonalize these upper triangular matrices.
+<ol type=1 start=1>
+<li>
+<math>\begin{pmatrix}
+-2  &1  \\
+0  &2
+\end{pmatrix}</math>
+<li>
+<math>\begin{pmatrix}
+5  &4  \\
+0  &1
+\end{pmatrix}</math>
+</ol>
+;Answer:
+
+<ol type=1 start=1>
+<li>
+Setting up
+
+:<math>
+\begin{pmatrix}
+-2  &1  \\
+0  &2
+\end{pmatrix}
+\begin{pmatrix} b_1 \\ b_2 \end{pmatrix}
+=x\cdot\begin{pmatrix} b_1 \\ b_2 \end{pmatrix}
+\qquad\Longrightarrow\qquad
+\begin{array}{*{2}{rc}r}
+(-2-x)\cdot b_1  &+  &b_2            &=  &0  \\
+&   &(2-x)\cdot b_2 &= &0
+\end{array}
+</math>
+
+gives the two possibilities that <math>b_2=0</math> and <math>x=2</math>.
+Following the <math>b_2=0</math> possibility leads to the first equation
+<math>(-2-x)b_1=0</math> with the two cases that <math>b_1=0</math> and that
+<math>x=-2</math>.
+Thus, under this first possibility, we find <math>x=-2</math> and the
+associated vectors whose second component is zero, and whose
+first component is free.
+
+:<math>
+\begin{pmatrix}
+-2  &1  \\
+0  &2
+\end{pmatrix}
+\begin{pmatrix} b_1 \\ 0 \end{pmatrix}
+=-2\cdot\begin{pmatrix} b_1 \\ 0 \end{pmatrix}
+\qquad
+\vec{\beta}_1=\begin{pmatrix} 1 \\ 0 \end{pmatrix}
+</math>
+
+Following the other possibility leads to a first equation of
+<math>-4b_1+b_2=0</math> and so the vectors associated with this
+solution have a second component that is four times their first
+component.
+
+:<math>
+\begin{pmatrix}
+-2  &1  \\
+0  &2
+\end{pmatrix}
+\begin{pmatrix} b_1 \\ 4b_1 \end{pmatrix}
+=2\cdot\begin{pmatrix} b_1 \\ 4b_1 \end{pmatrix}
+\qquad
+\vec{\beta}_2=\begin{pmatrix} 1 \\ 4 \end{pmatrix}
+</math>
+
+The diagonalization is this.
+
+:<math>
+\begin{pmatrix}
+1  &1  \\
+0  &4
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+-2  &1  \\
+0  &2
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &4
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+-2  &0  \\
+0  &2
+\end{pmatrix}
+</math>
+
+<li> The calculations are like those in the prior part.
+
+:<math>
+\begin{pmatrix}
+5  &4  \\
+0  &1
+\end{pmatrix}
+\begin{pmatrix} b_1 \\ b_2 \end{pmatrix}
+=x\cdot\begin{pmatrix} b_1 \\ b_2 \end{pmatrix}
+\qquad\Longrightarrow\qquad
+\begin{array}{*{2}{rc}r}
+(5-x)\cdot b_1  &+  &4\cdot b_2     &=  &0  \\
+&   &(1-x)\cdot b_2 &=  &0
+\end{array}
+</math>
+
+The bottom equation
+gives the two possibilities that <math>b_2=0</math> and <math>x=1</math>.
+Following the <math>b_2=0</math> possibility, and discarding the
+case where both <math>b_2</math> and <math>b_1</math> are zero, gives
+that <math>x=5</math>, associated with vectors whose second component
+is zero and whose first component is free.
+
+:<math>
+\vec{\beta}_1=\begin{pmatrix} 1 \\ 0 \end{pmatrix}
+</math>
+
+The <math>x=1</math> possibility gives a first equation of
+<math>4b_1+4b_2=0</math> and so the associated vectors have a
+second component that is the negative of their first component.
+
+:<math>
+\vec{\beta}_1=\begin{pmatrix} 1 \\ -1 \end{pmatrix}
+</math>
+
+We thus have this diagonalization.
+
+:<math>
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+5  &4  \\
+0  &1
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}
+=
+\begin{pmatrix}
+5  &0  \\
+0  &1
+\end{pmatrix}
+</math>
+</ol>
+}}
+{{Linear Algebra/Book 2/Recommended}}
+{{TextBox|1=
+;Problem 3{{anchor|exer:PowersOfDiags}}: <!--\label{exer:PowersOfDiags}-->
+What form do the powers of a diagonal matrix have?
+;Answer:
+
+For any integer <math> p </math>,
+
+:<math>
+\begin{pmatrix}
+d_1  &0      &   \\
+0    &\ddots &   \\
+&       &d_n
+\end{pmatrix}^p=
+\begin{pmatrix}
+d_1^p  &0      &   \\
+0      &\ddots &   \\
+&       &d_n^p
+\end{pmatrix}.
+</math>
+
+}}
+{{TextBox|1=
+;Problem 4:
+Give two same-sized diagonal matrices that are not similar.
+Must any two different diagonal matrices come from different similarity
+classes?
+;Answer:
+
+These two are not similar
+
+:<math>
+\begin{pmatrix}
+0  &0  \\
+0  &0
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+1  &0  \\
+0  &1
+\end{pmatrix}
+</math>
+
+because each is alone in its similarity class.
+
+For the second half, these
+
+:<math>
+\begin{pmatrix}
+2  &0  \\
+0  &3
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+3  &0  \\
+0  &2
+\end{pmatrix}
+</math>
+
+are similar via the matrix that changes bases from
+<math> \langle \vec{\beta}_1,\vec{\beta}_2 \rangle  </math> to
+<math> \langle \vec{\beta}_2,\vec{\beta}_1 \rangle  </math>.
+(''Question.''
+Are two diagonal matrices similar if and only if their diagonal
+entries are permutations of each other's?)
+}}
+{{TextBox|1=
+;Problem 5:
+Give a nonsingular diagonal matrix.
+Can a diagonal matrix ever be singular?
+;Answer:
+
+Contrast these two.
+
+:<math>
+\begin{pmatrix}
+2  &0  \\
+0  &1
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+2  &0  \\
+0  &0
+\end{pmatrix}
+</math>
+
+The first is nonsingular, the second is singular.
+}}
+{{Linear Algebra/Book 2/Recommended}}
+{{TextBox|1=
+;Problem 6:
+Show that the inverse of a diagonal matrix is the diagonal of 
+the inverses, if no element on that diagonal is zero.
+What happens when a diagonal entry is zero?
+;Answer:
+
+To check that the inverse of a diagonal matrix is the diagonal
+matrix of the inverses, just multiply.
+
+:<math>
+\begin{pmatrix}
+a_{1,1}  &0                \\
+0        &a_{2,2}          \\
+&       &\ddots    \\
+&       &      &a_{n,n}
+\end{pmatrix}
+\begin{pmatrix}
+1/a_{1,1}  &0                \\
+0        &1/a_{2,2}          \\
+&       &\ddots    \\
+&       &      &1/a_{n,n}
+\end{pmatrix}
+</math>
+
+(Showing that it is a left inverse is just as easy.)
+
+If a diagonal entry is zero then the diagonal matrix is singular; it has a zero determinant.
+}}
+{{TextBox|1=
+;Problem 7:
+The equation ending [[Linear Algebra/Diagonalizability#ex:DiagUpperTrian|Example 2.5]]<!--\ref{ex:DiagUpperTrian}-->
+
+:<math>
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+3  &2  \\
+0  &1
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}
+=
+\begin{pmatrix}
+3  &0  \\
+0  &1
+\end{pmatrix}
+</math>
+
+is a bit jarring because for <math>P</math> we must take the first matrix,
+which is shown as an inverse, and for <math>P^{-1}</math> we take the inverse of the
+first matrix, so that the two <math>-1</math> powers cancel and this matrix is
+shown without a superscript <math>-1</math>.
+<ol type=1 start=1>
+<li> Check that this nicer-appearing equation holds.
+
+:<math>
+\begin{pmatrix}
+3  &0  \\
+0  &1
+\end{pmatrix}
+=
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}
+\begin{pmatrix}
+3  &2  \\
+0  &1
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}^{-1}
+</math>
+
+<li> Is the previous item a coincidence?
+Or can we always switch the <math>P</math> and the <math>P^{-1}</math>?
+</ol>
+;Answer:
+
+<ol type=1 start=1>
+<li> The check is easy.
+
+:<math>
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}
+\begin{pmatrix}
+3  &2  \\
+0  &1
+\end{pmatrix}
+=
+\begin{pmatrix}
+3  &3  \\
+0  &-1
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+3  &3  \\
+0  &-1
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}^{-1}
+=
+\begin{pmatrix}
+3  &0  \\
+0  &1
+\end{pmatrix}
+</math>
+
+<li> It is a coincidence, in the sense that if <math>T=PSP^{-1}</math>
+then <math>T</math> need not equal <math>P^{-1}SP</math>.
+Even in the case of a diagonal matrix <math>D</math>, the condition that
+<math>D=PTP^{-1}</math> does not imply that <math>D</math> equals <math>P^{-1}TP</math>.
+The matrices from [[Linear Algebra/Diagonalizability#ex:DiagTwoByTwo|Example 2.2]]<!--\ref{ex:DiagTwoByTwo}--> show this.
+
+:<math>
+\begin{pmatrix}
+1  &2  \\
+1  &1
+\end{pmatrix}
+\begin{pmatrix}
+4  &-2  \\
+1  &1
+\end{pmatrix}
+=
+\begin{pmatrix}
+6  &0  \\
+5  &-1
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+6  &0  \\
+5  &-1
+\end{pmatrix}
+\begin{pmatrix}
+1  &2  \\
+1  &1
+\end{pmatrix}^{-1}
+=
+\begin{pmatrix}
+-6  &12  \\
+-6  &11
+\end{pmatrix}
+</math>
+</ol>
+}}
+{{TextBox|1=
+;Problem 8:
+Show that the <math>P</math> used to diagonalize in
+[[Linear Algebra/Diagonalizability#ex:DiagUpperTrian|Example 2.5]]<!--\ref{ex:DiagUpperTrian}--> is not unique.
+;Answer:
+
+The columns of the matrix are chosen as the vectors associated with the <math>x</math>'s. The exact choice, and the order of the choice was arbitrary. We could, for instance, get a different matrix by swapping the two columns.
+}}
+{{TextBox|1=
+;Problem 9:
+Find a formula for the powers of this matrix
+''Hint'': see [[Linear Algebra/Diagonalizability#exer:PowersOfDiags|Problem 3]]<!--\ref{exer:PowersOfDiags}-->.
+
+:<math>
+\begin{pmatrix}
+-3  &1  \\
+-4  &2
+\end{pmatrix}
+</math>
+
+;Answer:
+
+Diagonalizing and then taking powers of the diagonal matrix shows that
+
+:<math>
+\begin{pmatrix}
+-3  &1  \\
+-4  &2
+\end{pmatrix}^k
+=
+\frac{1}{3}
+\begin{pmatrix}
+-1  &1  \\
+-4  &4
+\end{pmatrix}
++(\frac{-2}{3})^k
+\begin{pmatrix}
+4  &-1 \\
+4  &-1
+\end{pmatrix}.
+</math>
+}}
+{{Linear Algebra/Book 2/Recommended}}
+{{TextBox|1=
+;Problem 10{{anchor|exer:DiagThese}}: <!--\label{exer:DiagThese}-->
+Diagonalize these.
+<ol type=1 start=1>
+<li> <math> \begin{pmatrix}
+1  &1  \\
+0  &0
+\end{pmatrix} </math>
+<li> <math> \begin{pmatrix}
+0  &1  \\
+1  &0
+\end{pmatrix} </math>
+</ol>
+;Answer:
+
+<ol type=1 start=1>
+<li> <math> \begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+1  &1  \\
+0  &0
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}
+=\begin{pmatrix}
+1  &0  \\
+0  &0
+\end{pmatrix} </math>
+<li> <math> \begin{pmatrix}
+1  &1  \\
+1  &-1
+\end{pmatrix}^{-1}
+\begin{pmatrix}
+0  &1  \\
+1  &0
+\end{pmatrix}
+\begin{pmatrix}
+1  &1  \\
+0  &-1
+\end{pmatrix}
+=\begin{pmatrix}
+1  &0  \\
+0  &-1
+\end{pmatrix} </math>
+</ol>
+}}
+{{TextBox|1=
+;Problem 11:
+We can ask how diagonalization interacts with the matrix operations.
+Assume that <math> t,s:V\to V </math> are each diagonalizable.
+Is <math> ct </math> diagonalizable for all scalars <math> c </math>?
+What about <math> t+s </math>?
+<math> t\circ s </math>?
+;Answer:
+
+Yes, <math> ct </math> is diagonalizable by the final theorem of this
+subsection.
+
+No, <math> t+s </math> need not be diagonalizable.
+Intuitively, the problem arises when the two maps diagonalize with
+respect to different bases (that is, when they are not
+'''simultaneously diagonalizable''').
+Specifically, these two are diagonalizable but their sum is not:
+
+:<math>
+\begin{pmatrix}
+1  &1  \\
+0  &0
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+-1  &0  \\
+0  &0
+\end{pmatrix}
+</math>
+
+(the second is already diagonal; for the first, see
+[[Linear Algebra/Diagonalizability#exer:DiagThese|Problem 10]]<!--\ref{exer:DiagThese}-->).
+The sum is not diagonalizable because its square is the zero matrix.
+
+The same intuition suggests that <math> t\circ s </math> is not
+be diagonalizable.
+These two are diagonalizable but their product is not:
+
+:<math>
+\begin{pmatrix}
+1  &0  \\
+0  &0
+\end{pmatrix}
+\qquad
+\begin{pmatrix}
+0  &1  \\
+1  &0
+\end{pmatrix}
+</math>
+
+(for the second, see [[Linear Algebra/Diagonalizability#exer:DiagThese|Problem 10]]<!--\ref{exer:DiagThese}-->).
+}}
+{{Linear Algebra/Book 2/Recommended}}
+{{TextBox|1=
+;Problem 12:
+Show that matrices of this form are not diagonalizable.
+
+:<math>
+\begin{pmatrix}
+1  &c  \\
+0  &1
+\end{pmatrix}
+\qquad c\neq 0
+</math>
+
+;Answer:
+
+If
+
+:<math>
+P
+\begin{pmatrix}
+1  &c  \\
+0  &1
+\end{pmatrix}
+P^{-1}
+=
+\begin{pmatrix}
+a  &0  \\
+0  &b
+\end{pmatrix}
+</math>
+
+then
+
+:<math>
+P
+\begin{pmatrix}
+1  &c  \\
+0  &1
+\end{pmatrix}
+=
+\begin{pmatrix}
+a  &0  \\
+0  &b
+\end{pmatrix}
+P
+</math>
+
+so
+
+:<math>\begin{array}{rl}
+\begin{pmatrix}
+p  &q  \\
+r  &s
+\end{pmatrix}
+\begin{pmatrix}
+1  &c  \\
+0  &1
+\end{pmatrix}
+&=
+\begin{pmatrix}
+a  &0  \\
+0  &b
+\end{pmatrix}
+\begin{pmatrix}
+p  &q  \\
+r  &s
+\end{pmatrix}        \\
+\begin{pmatrix}
+p  &cp+q  \\
+r  &cr+s
+\end{pmatrix}
+&=
+\begin{pmatrix}
+ap  &aq  \\
+br  &bs
+\end{pmatrix}
+\end{array}</math>
+
+The <math> 1,1 </math> entries show that <math> a=1 </math> and the <math> 1,2 </math> entries then show that <math> pc=0 </math>. Since <math> c\neq 0 </math> this means that <math> p=0 </math>. The <math> 2,1 </math> entries show that <math> b=1 </math> and the <math> 2,2 </math> entries then show that <math> rc=0 </math>. Since <math> c\neq 0 </math> this means that <math> r=0 </math>. But if both <math> p </math> and <math> r </math> are <math> 0 </math> then <math> P </math> is not invertible.
+}}
+{{TextBox|1=
+;Problem 13:
+Show that each of these is diagonalizable.
+<ol type=1 start=1>
+<li>
+<math> \begin{pmatrix}
+1  &2  \\
+2  &1
+\end{pmatrix}  </math>
+<li>
+<math> \begin{pmatrix}
+x  &y  \\
+y  &z
+\end{pmatrix}
+\qquad x,y,z\text{ scalars}  </math>
+</ol>
+;Answer:
+
+<ol type=1 start=1>
+<li> Using the formula for the inverse of a <math>2 \! \times \! 2</math>
+matrix gives this.
+
+:<math>\begin{array}{rl}
+\begin{pmatrix}
+a  &b  \\
+c  &d
+\end{pmatrix}
+\begin{pmatrix}
+1  &2  \\
+2  &1
+\end{pmatrix}
+\cdot\frac{1}{ad-bc}\cdot
+\begin{pmatrix}
+d  &-b \\
+-c  &a
+\end{pmatrix}
+&=\frac{1}{ad-bc}
+\begin{pmatrix}
+ad+2bd-2ac-bc    &-ab-2b^2+2a^2+ab \\
+cd+2d^2-2c^2-cd  &-bc-2bd+2ac+ad
+\end{pmatrix}
+\end{array}</math>
+
+Now pick scalars <math> a,\ldots,d </math> so that
+<math> ad-bc\neq 0 </math> and <math> 2d^2-2c^2=0 </math> and <math> 2a^2-2b^2=0 </math>.
+For example, these will do.
+
+:<math>
+\begin{pmatrix}
+1  &1  \\
+1  &-1
+\end{pmatrix}
+\begin{pmatrix}
+1  &2  \\
+2  &1
+\end{pmatrix}
+\cdot\frac{1}{-2}\cdot
+\begin{pmatrix}
+-1  &-1  \\
+-1  &1
+\end{pmatrix}
+=
+\frac{1}{-2}
+\begin{pmatrix}
+-6  &0   \\
+0  &2
+\end{pmatrix}
+</math>
+
+<li> As above,
+
+:<math>\begin{array}{rl}
+\begin{pmatrix}
+a  &b  \\
+c  &d
+\end{pmatrix}
+\begin{pmatrix}
+x  &y  \\
+y  &z
+\end{pmatrix}
+\cdot\frac{1}{ad-bc}\cdot
+\begin{pmatrix}
+d  &-b \\
+-c  &a
+\end{pmatrix}
+&=\frac{1}{ad-bc}
+\begin{pmatrix}
+adx+bdy-acy-bcz    &-abx-b^2y+a^2y+abz \\
+cdx+d^2y-c^2y-cdz  &-bcx-bdy+acy+adz
+\end{pmatrix}
+\end{array}</math>
+
+we are looking for scalars <math> a,\ldots,d </math> so that
+<math> ad-bc\neq 0 </math> and
+<math> -abx-b^2y+a^2y+abz=0 </math>
+and <math> cdx+d^2y-c^2y-cdz=0 </math>, no matter what values
+<math> x </math>, <math> y </math>, and <math> z </math> have.
+
+For starters, we assume that <math> y\neq 0 </math>, else the given matrix is
+already diagonal.
+We shall use that assumption because if we (arbitrarily) let
+<math> a=1 </math> then we get
+
+:<math>\begin{array}{rl}
+-bx-b^2y+y+bz
+&=0              \\
+(-y)b^2+(z-x)b+y
+&=0
+\end{array}</math>
+
+and the quadratic formula gives
+
+:<math>
+b=\frac{-(z-x)\pm\sqrt{(z-x)^2-4(-y)(y)} }{-2y}
+\qquad
+y\neq 0
+</math>
+
+(note that if <math> x </math>, <math> y </math>, and <math> z </math> are real then these two
+<math> b </math>'s are real as the discriminant is positive).
+By the same token, if we (arbitrarily) let <math> c=1 </math> then
+
+:<math>\begin{array}{rl}
+dx+d^2y-y-dz
+&=0              \\
+(y)d^2+(x-z)d-y
+&=0
+\end{array}</math>
+
+and we get here
+
+:<math>
+d=\frac{-(x-z)\pm\sqrt{(x-z)^2-4(y)(-y)} }{2y}
+\qquad
+y\neq 0
+</math>
+
+(as above, if <math> x,y,z\in\mathbb{R} </math> then this discriminant is positive
+so a symmetric, real, <math> 2 \! \times \! 2 </math> matrix is similar to a real
+diagonal matrix).
+
+For a check we try <math> x=1 </math>, <math> y=2 </math>, <math> z=1 </math>.
+
+:<math>
+b=\frac{0\pm\sqrt{0+16} }{-4}=\mp 1
+\qquad
+d=\frac{0\pm\sqrt{0+16} }{4}=\pm 1
+</math>
+
+Note that not all four choices <math> (b,d)=(+1,+1),\dots,(-1,-1) </math>
+satisfy <math> ad-bc\neq 0 </math>.
+</ol>
+}}
+
+{{BookCat}}

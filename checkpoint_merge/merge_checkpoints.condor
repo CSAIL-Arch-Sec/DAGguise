@@ -1,0 +1,25 @@
+######################################################## 
+#						       # 
+# Example Vanilla Universe Job			       #
+# Simple HTCondor submit description file	       #
+# 	 	  	 	     		       #
+########################################################
+
+universe         = vanilla
+getenv           = true
+executable       = $ENV(PWD)/merge_ckpt/generateMerge.sh
+arguments        = merged_checkpoint $(filename) checkpoints/docdist_print_reg/cpt.1379571884454/ 
+log              = /data/scratch/$ENV(USER)/logs/chkmergereg.$Fn(filename).$(Process).log
+output           = /data/scratch/$ENV(USER)/logs/chkmergereg.$Fn(filename).$(Process).out
+error            = /data/scratch/$ENV(USER)/logs/chkmergereg.$Fn(filename).$(Process).error
+request_cpus     = 1
+request_memory   = 128M
+request_disk     = 10M
+notification     = Always
+Rank             = cpus
+
+##  Do not edit  ##
+accounting_group = $ENV(CONDOR_GROUP)
+########################################################
+#queue filename matching dirs ckpt/*/cpt.None.SIMP-*/
+queue filename matching dirs $SPEC_ROOT/ckpt/*/cpt.None.SIMP-*/

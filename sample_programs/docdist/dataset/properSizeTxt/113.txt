@@ -1,0 +1,259 @@
+== Security ==
+
+Please, remember that the internet has been created by persons who don't want us to have any sort of secrets. Also remember that a lot of people are payd to learn our secrets and register them somewhere.
+
+Paranoia is a from of intelligence.
+
+=== Connection parameters ===
+
+Sometimes, connection parameters (including username and password) are stored in a plain text file, for example a .ini file. This is insecure: if a user guesses how it is called, he can read it. If it's located outside the web server's WWW directory it's more secure, but it's a better practice to store it as a constant in a program file.
+
+It's always possible that a user manages to get your FTP password or other passwords. So the username and the password you use to connect to MySQL should be different from other usernames / passwords.
+
+MySQL passwords must be secure. You don't need to remember them. They should contain lowercase letters, uppercase letters, numbers and symbols (like '_'); they should not contain existing words or your birth date; they should never be sent via email (if they are, there must be some way to modify them); they should not be stored where it is not absolutely necessary to store them.
+
+=== SQL Injections ===
+
+==== What are SQL Injections? ====
+
+In a perfect world, you would know that values contained in $_POST are values that you can insert into a SQL statement. But in a perfect world there are no poverty or proprietary softwares, so this is not the case. Those values may contain attacks called "SQL Injections". When you expect values like "'42'", you may find values like "'42' OR 1". So, when you try to make a statements like this:
+
+ DELETE FROM `articles` WHERE `id`=42
+
+you may create statements like this instead:
+
+ DELETE FROM `articles` WHERE `id`=42 OR 1
+
+which DELETEs all records.
+
+Also in some cases, you try to make a query like this:
+
+ SELECT * FROM `my_nice_table` WHERE title='bla bla'
+
+And a user may turn it to something like this:
+
+ SELECT * FROM `my_nice_table` WHERE title='bla bla'; TRUNCATE TABLE `my_nice_table`
+
+These are just examples. 
+It's easy to realize if all records are disappeared from your tables. 
+If the tables are properly backed up, you can repopulate them. 
+But there are worst cases. 
+If a user learns how to manipulate your database, he can create an administration account for himself, or he can make modifications to your site's contents that you'll never see, or he can even register payments he has not made.
+
+==== How to prevent that ====
+
+Simply, inputs that must represent a value, should not be accepted if they contain something more.
+
+* String values
+They are enclosed by 'quotes'. 
+Every quote present in them should be converted into <nowiki>''</nowiki> or <nowiki>\'</nowiki>. 
+PHP recommends using <code>mysql_real_escape_string</code> to substitute these special characters.
+
+* Numbers (integer, float)
+They must be numeric input. 
+If they contain something like OR or spaces, they are not numeric.
+
+* Dates
+Enclose them within 'quotes' and manage them as if they were strings.
+
+* NULL / UNKNOWN / TRUE /FALSE
+These values should never be entered by the user, but should created programmatically.
+
+* SQL names
+In some cases, SQL names could be contained in user input. 
+A common case are column names to be used in the ORDER BY clause, which may come from $_GET. 
+Enclose them within `backquotes` and replace every occurrences of ` with ``. 
+Of course, generally speaking, this is a very bad practice if the SQL names are not used ONLY in the ORDER BY clause.
+
+* Comments
+User input should never be inserted in SQL comments.
+
+=== Passwords ===
+
+When passwords are stored in a database, they are usually encrypted. 
+The encryption should be done by the script and not by MySQL. 
+If it is done via SQL, the passwords are written by the statements as plain text. 
+This means that they are visible through:
+
+* possibly, some system logs, if the communications with the db are done through a network and is not encrypted
+* MySQL logs
+* SHOW PROCESSLIST
+
+So, one should never send a query like this:
+
+ SELECT 1 FROM `users` WHERE `password`=MD5('abraxas')
+
+But, in PHP, you should write:
+
+ $sql = "SELECT 1 FROM `users` WHERE `password`=MD5('".md5('abraxas')."')";
+
+You should never use insecure encryption functions like PASSWORD(). 
+Also, you should not use 2-way encryption. 
+Only cryptographic hashs, such as SHA256 are secure, and don't use older hash algorithms like MD5.
+
+Passwords, even if they are safely encrypted, should never be retrieved by a SELECT. 
+It's insecure and 1-way encryption does not require that.
+
+=== SSL ===
+
+If all contents of your databases are public, there is no reason to use encryption for communications. 
+But generally, this is not the case.  
+Even so, there may be a restricted set of people authorized to submit new content to the site, 
+and this will require the use of passwords.
+
+So often it's a good idea to use SSL encryption. 
+See your driver's documentation to see how to do this (it's always a simple connection option).
+
+Not only will SSL encrypt the network traffic containing the users password, 
+but it can also validates to the user the site as being the correct one using a certificate. 
+One possible attack has a site created to look like the victim site, attempting to get you to submit your username and password.
+
+== Optimization ==
+
+=== API Calls ===
+
+==== Persistent connections ====
+
+By using persistent connections, we keep the connection with the server open, so that several queries can be executed without the overhead of closing and reopening a connection each time a script is run.
+
+Note that this is not always a good optimization. Try to imagine how many persistent connections a server's RAM should store with a shared hosting setup, if every hosted sites use only persistent connections: there will be too many at once.
+
+Persistent connections are available through many languages.
+
+==== Free memory ====
+
+When you execute a query, you get a recordset and put it into a variable. 
+To keep it in memory when you don't need it anymore is a waste of ram. 
+That's why, generally, you should free the memory as soon as possible. 
+If it is possible only few lines before the end of the script, this makes no sense. 
+But in some cases, it is good.
+
+==== Fetch rows ====
+
+Many APIs support two ways for fetching the rows: you can put them into a normal array, into an object, or into an associative array. 
+Putting the rows into an object is the slowest way, while putting them into a normal array is the fastest. 
+If you are retrieving a single value per row, putting it into an array may be a good idea.
+
+==== API vs SQL ====
+
+Usually, the APIs support some methods which create an SQL statement and send it to the MySQL server. 
+You may obtain the same effects by creating the statement by hand, but it's a slowest way. 
+APIs' methods are generally more optimized.
+
+=== Reduce client/server communications ===
+
+* Some scripts use two queries to extract a Pivot table. 
+Client/server communications are often a bottleneck, so you should try to use only one JOIN instead.
+
+* If you need to use more than one query, you should use only one connection, if possible.
+
+* Only retrieve the fields you really need.
+
+* Try to not include in the SQL command too many meaningless characters (spaces, tabs, comments...).
+
+==== CREATE ... SELECT, INSERT ... SELECT ====
+
+When you create a new table from an existing table, you should using CREATE ... SELECT. 
+When you want to populate an existing table from a query, 
+you should use INSERT ... SELECT or a REPLACE ... SELECT. 
+This way, you will tell the server to perform all the needed operations by sending only one SQL statement.
+
+==== INSERT DELAYED ====
+
+Many scripts don't check if the INSERTs are successful. 
+If this is the case, you should use INSERT DELAYED instead. 
+So, the client won't wait a confirm from the server before proceeding.
+
+==== REPLACE ====
+
+If you run a DELETE and then an INSERT, you need to communicate two SQL commands to the server. 
+Maybe you may want to use REPLACE instead. 
+Possibly, use REPLACE DELAYED.
+
+=== Other Techniques ===
+
+==== Storing data in cookies ====
+
+Sometimes, session data are stored into a database. 
+This requires at least one UPDATE and one SELECT every time a user loads a page. 
+This can be avoided by storing session data into cookies.
+
+Browsers allow users to not accept cookies, but if they don't accept them, they can't visit many important modern sites.
+
+The only data that can't be securely stored into cookie are passwords. 
+You may set a brief lifetime for cookies though, so the user's privacy is hardly compromised by your cookies. 
+Or you can do the following:
+* when a user successfully logs in your site, create a record with CURRENT_TIMESTAMP() and a random ID;
+* set a cookie with the ID;
+* when the user tries to do something, check if he's logged in:
+ SELECT FROM `access` WHERE `id`=id_from_cookie AND `tstamp`>=CURRENT_TIMESTAMP() - login_lifetime
+* UPDATE the tstamp
+
+==== Creating static contents ====
+
+When a user browses an article or other dynamic contents (which means, contents stored into a database), a HTML document needs to be generated. 
+Often, the page has not variable contents, but just contents which are INSERTed once, and rarely (or never) updated. 
+An article or a list of links are a good example.
+
+So, it may be a good idea creating a program which generates a static HTML page when an article is INSERTed into the database. 
+The page may be deleted and re-generated if the article is UPDATEd. 
+This saves a lot of SQL statements and work for the DBMS.
+
+Of course this requires some privileges which you may not have. 
+If you are using a hosting service, you may need to talk to technical support team about this.
+
+== PHP ==
+
+=== Drivers ===
+
+PHP has the following official drivers for MySQL:
+
+* mysql - Older, so it's still used by many web applications; it's a procedural PHP module
+* mysqli - faster; can be used as a set of classes or as a normal procedural library
+* PDO (PHP Data Objects) - uses PDO,  an abstraction layer for interaction with databases which has drivers for MySQL and ODBC.
+* PDO_MYSQL support some advanced MySQL features and emulates them if not present.
+
+The functions in the above drivers the extensions recall the methods in the C API. 
+They can use the MySQL Client Library or mysqlnd, a Native Driver for PHP.
+
+Sometimes, enabling both mysql and mysqli may cause some problems; so, if you use only one of them, you should disable the other one.
+
+Also, PHP has a ODBC extension which may be used with MySQL.
+
+[[PHP Programming/PEAR|PEAR]] is an important set of PHP classes which supports MySQL.
+
+=== register_globals and $_REQUEST ===
+
+PHP has an environment variables called register_globals. Since PHP 4.2 it's set to false by default, and you shouldn't set it. 
+In PHP 5.3 this variable is also deprecated and in PHP 6 has been removed.
+
+However, if your version of PHP supports register_globals, you can verify if it's set to true by calling the function ini_get(). 
+If it's true, thought, you can't modify it with ini_set(). There are two ways to set it off:
+
+* editing php.ini
+(impossible if you're using a hosting service)
+
+* adding one line to .htaccess:
+ php_flag register_globals off
+(sometimes possible in hosting)
+
+The reason is that if register_globals is true, a user can arbitrary add variables to your script by calling them like this:
+
+ your_script.php?new_variable=new_value
+
+You should never user the $_REQUEST superglobal array. It can be used to retrieve variables from:
+
+* $_ENV
+* $_GET
+* $_POST
+* $_COOKIE
+* $_SERVER
+
+This is the order followed by PHP (may be modified by the variables_order environment variable). 
+This means that if your script set a server variable called "userid" and you try to read it via $_REQUEST, the user can prevent that by adding a variable to the query string.
+
+Also, you should never blindly trust the validity of HTTP variables.
+
+{{BookCat}}
+
+[[fr:MySQL/API]]

@@ -1,0 +1,83 @@
+<sub></sub>[[{{BOOKNAME}}|Go back to Intro/Table of Contents]]
+
+== Rhetoric ==
+
+<br/>'''Rhetoric''' is defined as the "art of effective or persuasive speaking or writing, especially the exploitation of figures of speech and other compositional techniques" <ref>Oxford Living Dictionaries. 2018. ''Rhetoric.'' <nowiki>https://en.oxforddictionaries.com/definition/rhetoric</nowiki>.</ref>. It is the art of functional, public communication through words and symbols, making it a discursive practice <ref name=":0">Foss, Karen A. 2009. "Rhetorical Theory." ''Encyclopedia of Communication Theory'' (SAGE Publications) 854-858.</ref>. It can be mode of language or speech, the effective use of speech (oxford), or even have the negative connotation of empty words <ref name=":0" />. The classical view of rhetoric (most embodied by [[wikipedia:Aristotle|Aristotle]] and later [[wikipedia:Lloyd_Bitzer|Lloyd Bitzer]]) works on the assumptions that the audience is stable and identifiable, that the orator is successful if the audience agrees with the proposed opinion, and that the rhetoric itself can explain why a discourse is successful or not <ref name=":1">Croucher, Stephen. 2015. ''Understanding Communication Theory.'' Taylor & Francis.    </ref>. Aristotle utilized logical and emotional arguments as well speaker credibility to create a persuasive argument within the classical view of rhetoric. This definition allowed orators to philosophically think through the '''five canons of rhetoric''': invention, organization, style, delivery, and memory<ref name=":0" />.
+[[File:Rhetoric.tif|left|thumb|'''Rhetorica''' 
+Public Doman License 
+]]
+== History ==
+
+Rhetorical theory was thought to have originated in Sicily after a dictator was overthrown. Landowners were fighting in court as to who had legal claim on property, but they had to represent themselves. This necessitated the development of rhetorical skills. '''[[wikipedia:Corax_of_Syracuse|Corax of Syracuse]]''' is credited as the first writer of a formal treatise called "The Art of Rhetoric." It was used by the landowners to learn how to argue from probabilities when facts couldn't be established. It was Corax's student, [[wikipedia:Tisias|Tisias]], who brought the study to mainland Greece. The group of teachers who showed great interest in the subject became known as sophists - they marketed their knowledge as a service to the people, taking rhetoric from a perceived innate trait to one that could be learned. Both Aristotle and [[wikipedia:Plato|Plato]] wrote several treatises, with Plato contrasting the sophist's rhetoric with an ideal rhetoric and Aristotle writing in a more systematic and comprehensive manner on the subject <ref name=":0" />. 
+[[File:Aristotle Altemps Inv8575.jpg|thumb|226x226px|
+'''Aristotle'''
+
+Public Doman License 
+]]
+The Romans borrowed much of the Greek writing on rhetoric, adapting it to their own needs <ref name=":0" />. [[wikipedia:Cicero|Cicero]] was a highly successful orator who embodied the canon of style more completely than any writer had before, but as dictators took control of Rome the art of rhetoric in civic affairs was largely lost. It wasn't until the Renaissance that rhetoric was again looked at for more than stylistic value <ref name=":0" />. The [[wikipedia:Renaissance_humanism|'''Italian Humanists''']] during this period believed that language was at the center of the human world - it is how humans make sense of the world around them. Rationalism also emerged during this time period, with Rene Descartes at the helm. By separating reason from feeling and emotion, and focusing on objectivity and empirical approach, the rational argument dominated rhetorical theory. It wasn't until propaganda efforts in Europe and the United States started during World War II that rhetorical theory began to become more contemporary and expand studies to letter writing, elocution, and literature, focusing on understanding, passion, and influencing will. Scholars throughout these countries studied language at a micro-level, developing arguments for particular audiences, to dispel rumors or to perpetuate misconceptions based on the needs of their people<ref name=":0" />.
+
+This contemporary rhetorical theory has evolved into rhetoric as we know it today. It is no longer solely in the public domain. It is found in intra- and inter-personal communication, public discourse, mediated discourse, social movements, etc. Visual and non-verbal elements are now also an essential part of rhetoric; the entirety of the human experience can be analyzed through a rhetorical perspective.  
+
+== Notable Figures and Theories == 
+
+·     [[wikipedia:Lloyd_Bitzer|Lloyd Bitzer]] developed the [[wikipedia:Rhetorical_situation#Lloyd_Bitzer|rhetorical situation]] in 1968. He emphasized rhetoric as a contextual practice, making it reactive instead of active. The three parts of the rhetorical situation are (rhetorical) exigence, the audience (both passive in listening and active in change), and constraints (the values, opinions, and motives of the audience that may limit the persuasiveness of the orator) <ref name=":1" />.
+
+·     [[wikipedia:Edwin_Black|Edwin Black]] (1970) developed the second persona, or the author's implied audience. It is a counter to the first persona, which is the implied author. The basis of this theory is that rhetoric can reach an audience without directly addressing said audience <ref name=":1" />. 
+
+·     [[wikipedia:Michael_Calvin_McGee|Michael Calvin McGee]] contributed to the concept of an imagined audience in 1975 when he discussed the phrase "the people." He believed that "the people" was an entity that only includes individuals that serve the needs of the message being conveyed, allowing the audience to change as the rhetoric changes <ref name=":1" />. 
+
+·     [[wikipedia:Aristotle|Aristotle]] wrote about 3 genres of rhetorical theory. [[wikipedia:Forensic_rhetoric|Forensic rhetoric]] was used in the judicial process and focused on the past to establish innocence or guilt. [[wikipedia:Deliberative_rhetoric|Deliberative rhetoric]] focuses on the future and is primarily found in legislative speeches. [[wikipedia:Epideictic|Epideictic rhetoric]] is found in ceremonial speeches and can be used to blame or praise someone or something <ref name=":1" />.
+
+·     [[wikipedia:Cicero|Cicero]] worked to develop a powerful speech. He mandated three main components in his work. An orator should instruct the audience ('''docere'''), move the audience towards a specific belief ('''movere'''), and simultaneous entertain the audience ('''delectare''') <ref name=":1" />.
+
+·     [[wikipedia:Walter_Fisher_(professor)|Walter R. Fisher]] wrote about the motives of speakers in 1970. He identified 4 main categories: <ref name=":1" />
+* Affirmation: the creation of a specific mental image for the audience
+* Reaffirmation: the revitalization of the image for the audience
+* Purification: the modification and refinement of a previously established image for the audience
+* Subversion: the attack of an image
+·     [[wikipedia:Kenneth_Burke|Kenneth Burke]] coined the term dramatism, arguing that language can be seen as action. He developed the [[wikipedia:Dramatistic_pentad|dramatistic pentad]], comprised of act, scene, agent, agency, and purpose. It can be used to assess how a rhetorician articulates the motive in a speech. He also worked on identification, as he believed it was fundamental to successful persuasion <ref name=":1" />.
+
+== Contemporary Rhetoric and Digital Technology ==
+
+Contemporary rhetoric has been necessitated by the development of communication technology and social media. The traditional concept of an ''imagined'' audience flourished, allowing an orator to view an audience as something that be created through their discourse rather than as merely recipients of their discourse <ref name=":1" />. In the modern era, the concept of an ''actual'' audience--one in which developers  <blockquote>In a technological age, rhetoric emerges as a conditional method for humanizing the effect of machines and helping humans to direct them. . . . Rhetoric thinks beyond disciplines and “interdisciplinarity”—itself a product of a culture of specialization—by arranging and connecting diverse elements in the pursuit of theoretical questions and practical applications. Rhetoric is a syncretic and generative practice that creates new knowledge by posing questions differently and uncovering connections that have gone unseen. Its creativity does not exclude or bracket history but often comes from recasting traditional forms and commonplaces in new contexts and questions<ref>Davis, Robert L., and Mark F. Shadle. 2007. Teaching Multiwriting: Researching and Composing with Multiple Genres, Media, Disciplines, and Cultures. Carbondale: Southern Illinois University Press.</ref>. </blockquote>It is important to critically examine the modern methods for how new media is constructed from a rhetorical standpoint because it directly informs the ways in which digital content is represented and consumed across the public sphere. According to Langdon Winner, Chair of Humanities and Social Sciences in the Department of Science and Technology Studies at Rensselaer Polytechnic Institute, "''there is no idea more provocative than than the notion that technical things have political qualities...since ideas of this kind have a persistent and troubling presence in discussions about the meaning of technology, they deserve explicit attention''.<ref name=":3">Winner, Langdon. 1980. "Do Artifacts Have Politics?" Daedalus (The MIT Press) 109 (1): 121-136.</ref> . 
+
+As the field of digital technology continues to expand, so do the areas in which we can apply rhetorical analyses. Douglas Eyman, Associate Professor and Director of the PhD in Writing and Rhetoric at George Mason University, argues that we must consider the history of the ways digitally networked technologies inhabit and shape traditional rhetorical practices as well as considering new rhetorics made possible by current technologies <ref name=":2">Eyman, D. (2015). Defining and locating digital rhetoric. In Digital Rhetoric: Theory, Method, Practice. University of Michigan Press, 12-60.</ref>. 
+
+James P. Zappen's and Douglas Eyman's list of the primary activities within the field of digital rhetoric include:
+* the use of rhetorical strategies in production and analysis of digital text
+* identifying characteristics, affordances, and constraints of new media
+* formation of digital identities
+* potential for building social communities <ref>Zappen, James P. 2005. "Digital Rhetoric: Toward an Integrated Theory." Technical Communication Quarterly 14 (3): 319-325.    </ref>. 
+- Eyman added:
+* inquiry and development of rhetorics ''of'' technology
+* the use of rhetorical methods for uncovering and interrogating ideologies and cultural formation in digital work
+* an examination of the rhetorical function of networks
+* theorization of agency when interlocutors are as likely to be software agents (or “spimes”) as they are human actors <ref name=":2" />
+
+== Rhetoric For Better Behavior ==
+
+Rhetoric is a tool to convey values and persuade audiences towards those value sets. Given the fact that we know our digital artifacts have embedded politics based on our own ideologies<ref name=":3" />, it is imperative that we design our digital media to be socially and ethically responsible by continuing to expand and inform our digital literacy to encourage better human behavior. Just as it is in traditional texts, rhetoric is interwoven into the architecture and algorithms of our digital technology, creating pathways towards intrinsic arguments that are typically implicit. Often times, these biases are exclusive and can create potential barriers for divergent audiences with unequal access to the internet and digital technologies, typically those who may be disproportionately marginalized due to race, class, gender or orientation; a phenomenon known as the digital divide <ref>Nakamura, Lisa, and Peter Chow-White. 2012. ''Race After the Internet.'' New York, NY: Routledge.</ref>. Utilizing technology and internet-based applications to encourage better human behavior without sacrificing autonomy is vital to solving the issues we are currently facing with web-based technologies. Higher learning programs such as Human-Centered Design (HCD) and Human-Centered Interaction (HCI) which largely focus on the user experience of digital technology are addressing some of these concerns. University of Washington's Sean Munson and Gary Hsiesh are two professors within the field of study who are doing extensive work on how developing technologies such as fitness tracking that meet the needs of the user can encourage more responsible and productive behavior. In a recent study, they "explored the creation of personalized plans by strangers and friends to support diet, exercise and financial changes in behavior. The results found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends <ref>Agapie, Elena, Lucas Colusso, Sean Munson, and Gary Hsieh. 2016. "PlanSourcing: Generating Behavior Change Plans with Friends and Crowds." ''CSCW '16 Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing'' 119-133.</ref>". These professors are also involved in organizations that are attempting to bring awareness to personal health and wellness within digitally mediated technology. Intelligent user interfaces, health and sustainability technologies are just some of the initiatives that the [[wikipedia:Community_Health_Initiative_(CHI)|CHI]] organization, a unique effort that focuses directly on communities that face public health disparities and other socio-economic issues, has spearheaded in an effort to ameliorate technologies towards positive outcomes <ref>University of Minnesota . n.d. ''Driven to Discover .'' Accessed February 23, 2018. <nowiki>https://diversity.umn.edu/bced/chi</nowiki>.</ref>.    
+
+= References =
+Agapie, Elena, Lucas Colusso, Sean Munson, and Gary Hsieh. 2016. "PlanSourcing: Generating Behavior Change Plans with Friends and Crowds." ''CSCW '16 Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing'' 119-133.
+
+Croucher, Stephen. 2015. ''Understanding Communication Theory.'' Taylor & Francis.
+
+Davis, Robert L., and Mark F. Shadle. 2007. Teaching Multiwriting: Researching and Composing with Multiple Genres, Media, Disciplines, and Cultures. Carbondale: Southern Illinois University Press.
+
+Eyman, Douglas. 2015. ''Digital Rhetoric: Theory, Method, Practice.'' Ann Arbor: University of Michigan Press.
+
+Littlejohn, Stephen W. and Foss, Karen A. 2009. Encyclopedia of Communication Theory, Volume 1. Thousand Oaks: SAGE Publications, Inc.
+
+Nakamura, Lisa, and Peter Chow-White. 2012. ''Race After the Internet.'' New York, NY: Routledge.
+
+Rhetoric. (2018). [online] Available at: <nowiki>https://oxforddictionairies.com/definition/rhetoric</nowiki> [Accessed 23 Feb. 2018].
+
+University of Minnesota. n.d. 2018. "Community Health Initiative''".'' Accessed February 23, 2018. <nowiki>https://diversity.umn.edu/bced/chi</nowiki>.
+
+Winner, Langdon. 1980. "Do Artifacts Have Politics?" Daedalus 109 (1): 121-136.
+
+Zappen, James P. 2005. "Digital Rhetoric: Toward an Integrated Theory." Technical Communication Quarterly 14 (3): 319-325.   
+
+__FORCETOC__
+{{BookCat}}

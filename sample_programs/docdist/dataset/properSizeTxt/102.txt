@@ -1,0 +1,177 @@
+{{userpage}}
+<div class="messagebox" style="width: 28em; background: #b4e3ff;">
+'''A Registered Wikipedia Editor''' 
+</div>
+
+{{Userboxtop |Barnstars/Awards stats|left}}
+
+{{userbox
+  | border-c = red
+  | id       = [[File:Editor - bronze star.jpg|46px|link=Wikipedia:Service awards#Veteran Editor II (or Grand Tutnum)]]
+  | id-c     = #B67B43
+  | info     = {{{caption|This editor is a '''[[Wikipedia:Service awards#Veteran Editor II (or Grand Tutnum)|Veteran Editor II]]''' and is entitled to display this '''[[Bronze]] Editor Star'''.}}}
+  | info-c   = #B67B43
+}}
+{{Userbox
+  | border-c = red
+  | id       = [[File:XboxBarnstar.png|46px]]
+  | id-c     = #fdffe7
+  | info     = This user has been awarded the '''Xbox Barnstar'''
+  | info-c   = #fdffe7
+}}
+{{Userbox
+  | border-c = red
+  | id       = [[File:Halfstar.png|x46px]]
+  | id-c     = #fdffe7
+  | info     = This user has been awarded the '''Half Barnstar'''
+  | info-c   = #fdffe7
+}}
+{{Userbox
+  | border-c = red
+  | id       = [[File:European Merit Barnstar of the EU.svg|x46px]]
+  | id-c     = #fdffe7
+  | info     = This user has been awarded the '''Barnstar of European Merit'''
+  | info-c   = #fdffe7
+}}
+{{Userbox
+  | border-c = red
+  | id       = [[File:Editors Barnstar.png|46px]]
+  | id-c     = #fdffe7
+  | info     = This user has been awarded the '''Editor's Barnstar'''
+  | info-c   = #fdffe7
+}}
+{{Userbox
+  | border-c = red
+  | id       = [[File:Hmmbarnstar.PNG|46px]]
+  | id-c     = #fdffe7
+  | info     = This user has been awarded the '''Heavy Metal Music Barnstar'''
+  | info-c   = #fdffe7
+}}
+{{Userbox
+  | border-c = red
+  | id       = [[File:Team Barnstar Hires.png|46px]]
+  | id-c     = #fdffe7
+  | info     = This user has been awarded the '''Teamwork Barnstar'''
+  | info-c   = #fdffe7
+}}
+{{Userboxbottom}}
+{{Userboxtop |Things About Me|right}}
+
+{{userbox
+| border-c = red
+| id       = [[Image:Flag of the United Kingdom.svg|44px]]
+| info-fc    = white
+| id-c     = #00247d
+| info     = This user lives in the '''[[United Kingdom|<font color="white">United Kingdom</font>]]'''.
+| info-c   = #00247d
+| usercategory  = Wikipedians in the United Kingdom
+| id = [[Image:Flag of the United Kingdom.svg|45px]]
+}}
+
+{{Userbox
+  |border-c = red
+  |border-s = 1
+  |id-c     = #62beff
+  |id-s     = 10
+  |id-fc    = white
+  |info-c   = #daf0ff
+  |info-s   = 8
+  |info-fc  = black
+  |id       = en-GB
+  |info     = This user is a speaker of REAL English [read:[[British English]]].
+}}
+{{Userbox
+  |border-c = red
+  |border-s = 1
+  |id-c     = #600000
+  |id-s     = 10
+  |id-fc    = black
+  |info-c   = black
+  |info-s   = 8
+  |info-fc  = #ffaa00
+  |id       = [[File:Flag of Germany.svg|40px]]
+  |info     = '''Dieser Benutzer lernt die deutsche Sprache'''{{clear}}<small>(This user is learning the German language)</small>
+}}
+
+{{Userbox
+  |border-c = red
+  |border-s = 1
+  |id-c     = #eee
+  |id-s     = 10
+  |id-fc    = white
+  |info-c   = white
+  |info-s   = 8
+  |info-fc  = black
+  |id       = [[File:FSM Logo.svg|45px]]
+  |info     = This user has been touched by [[Flying Spaghetti Monster|his noodily appendage]].
+}}
+
+{{Userbox
+  |border-c = red
+  |border-s = 1
+  |id-c     = black
+  |id-s     = 13
+  |id-fc    = white
+  |info-c   = #300000
+  |info-s   = 8
+  |info-fc  = red
+  |id       = [[Image:Metal_hand.png|45px]]
+  |info     = This user is a Metalhead ] .
+}}
+
+{{Userboxbottom}}
+
+<!-- STARTS TEXT SPACE -->
+==  About Me: ==
+I'm mainly active in many parts of Wikipedia, although I also have some interest in the the computing, biology, languages, European/ancient history and techonolgy pages. Read my full profile below.
+
+Wherever possible I add information to pages (with citations of course), but the vast majority of my edits are either:
+• spelling corrections, basic copyedits, corrections of manual of style errors and fixing of layout errors (usually image stacking).
+
+    • the addition/replacement of pictures .
+    • vandalism reversions.Adding appropriate web sources
+
+==  Personal/Bio: See me on [https://meta.wikimedia.org/wiki/User:Robertpattinsons wikimedia] == 
+<p class="profile-hdr"><span style="font-size:xx-large;">☞ </span><span style="font-size:xx-large;">'''O'''</span>ver 3 years of commercial research experience in  interactive entertainment and gaming industries.apart from this. For over a decade i have specialized in technology in education and her professional skills focus on creating rich and engaging [student centered] 21st Century Learning Environments that integrate innovative teaching strategies designed for today's digital learners. with [http://works.bepress.com/lissacoffey/ contributions] from my wife [https://www.researchgate.net/profile/Lissa_Coffey Lissa.C]</p> My studies have helped to develop my interests in people, pop culture and social media. I love to travel and see what people all over the world find exciting and interesting. I try to practice yoga and do my own personal, creative writing in my spare time.
+
+<span style="font-size:xx-large;"><span style="font-size:xx-large;">☞ </span>I</span>I'm a graduate of the Harvard.University in English Literature, Sociology and Diversity Studies. My studies have helped to develop my interests in people, pop culture
+and social media. I love to travel and see what people all over the world find exciting and interesting. I try to practice yoga and do my own personal, creative writing in my spare time. 
+
+<span style="font-size:xx-large;"><span style="font-size:xx-large;">☞ </span>M</span>y wife is a doctorate from Columbia University. She has been writing How-to Articles, Tutorials, & Much More on [http://www.fixithere.net/ fixithere]about technology since decades by focussing upon the functional capabilities of Tech 2.0.- Editor of [https://www.ibm.com/developerworks/community/groups/community/blog IBM:Tech 2.0 Education & Knowledge Resources Group:] founded for students/teachers to share their tech knowledge & useful resources on technology 2.0. You can make the best of the group .
+
+<br />
+<span style="font-size:xx-large;"><span style="font-size:xx-large;">☞</span>I</span> nterests:    
+M-Commerce, Web 2.0, Business, Philosophy, Women's Studies, Environmental Sustainability, E-Commerce, Food Science, Agriculture, Tourısm, Marketing, Web Design, Semantic Web, Web Programming, Web Applications, Web Technologies, Web Services, Web 3.0, Technology, Educational Technology, Information Communication Technology, Media and Cultural Studies, Computer-Mediated Communication, Media Education, Education, Teacher Education, Higher Education, Educación, E-learning, Learning and Teaching, Online Learning, Learning And Teaching In Higher Education, Digital Media & Learning, Learning, Knowledge Management, Knowledge, Academic Writing, Creative Writing, Research Writing, Writing, Non-Governmental Organizations (NGOs)
+
+<span style="font-size:xx-large;"><span style="font-size:xx-large;">☞</span>W</span>rite for<span style="color:#0000ff;"> </span>[https://dietkart.academia.edu/DietKart academia.edu], CNN.com, wikihow, howstuffworks, mashable & PC Magazine among the most prestigious magazines.
+
+<span style="font-size:xx-large;">☞ </span><span style="font-size:xx-large;">M</span>y Achievements:
+I loved the studying and learning, and I had nothing to lost and everything to gain, so I applied. At first, I thought it would take about four or five years. In the end, it took me eight years to complete my thesis. This was due to many reasons, including changing universities, applying for funding and the length of time it took to actually do my study.  But it was great fun and certainly stimulating, challenging at times, and very satisfying. With any big achievement you have in life, it is part of you for life - no one can take it away. 
+
+"My PhD thesis is one of my biggest achievements. Having completed it, many doors and opportunities have opened for me. But initially i was reluctant even if i had to [https://sites.google.com/site/payforresearchpaper/ Pay someone to write my research paper], but finally i made it on my own. I'm still working at Ashford & St Peter’s Hospital NHS Foundation Trust, but the diversity of work has changed, my opportunities have increased and my choices and horizons expanded. I love being able to say, ‘I am a nurse with a PhD, a real doctor.’ A PhD takes time, it takes commitment, but if you are lucky to choose your own area of study, as most nurses are, the opportunities available to you are limitless." 
+
+<span style="font-size:xx-large;">☞ </span><span style="font-size:xx-large;">D</span> uring the past two years, I have exposed myself to various research topics on data mining and machine learning under the supervision of Professor Ee-Peng Lim. I have also acquired a lot of important knowledge about research methodologies and methods. Under Professor Lim's guidance, I have worked on several projects on behaviour mining in online social networks. In these projects, I learn not only to identify important research problems that require new solutions, but also to evaluate the proposed solutions using carefully designed experiments. Some of these projects have even drawn upon knowledge from other disciplines including social science, psychology and political science. Through my diligent efforts and active collaboration with others, I have made some early achievements which have given me great satisfaction.
+
+<span style="font-size:xx-large;">☞ </span>'''<span style="font-size:xx-large;">P</span>ublications
+
+    Journal Article (1)
+        mit.edu (2015) Freebase: Then & Now, 5. In mit.edu 1 (1).
+        http://projects.csail.mit.edu/datapress/demosite/?p=983
+    
+    Web library (2)
+        adsabs.harvard.edu (2015) Community-based complex cloud data center, 5. In adsabs.harvard.edu.
+        http://labs.adsabs.harvard.edu/adsabs/adsgut/postable/8eb0fe3a-0c61-4679-854a-cd1c12845eb3/library:REFS/filter/html
+...
+        
+<span style="font-size:xx-large;">☞ </span>'''<span style="font-size:xx-large;">C</span>itations
+
+Lissa Coffey. 20 THINGS YOU CAN DO TO CONSERVE ENERGY IN 2015" , 2014.
+    "Environmental Education Commons"
+Lissa Coffey. "Customer Assistance and Satisfaction - Customer Support Service" contacttelephonenumbers.com 1.1 (2014): 1-1.
+    "Communication Technology and New Media Commons"
+"Vector competence of Aedes aegypti populations from Kilifi and Nairobi for dengue 2 virus and the influence of temperature."
+    Authors: Edith Chepkorir, Joel Lutomiah, James Mutisya, Francis Mulwa, Konongoi Limbaso,
+"Susceptibility of Florida Aedes aegypti and Aedes albopictus to dengue viruses from Puerto Rico."
+    Authors: Barry W Alto, Chelsea T Smartt, Dongyoung Shin, David Bettinardi,
+"Vector Competence in West African Aedes aegypti Is Flavivirus Species and Genotype Dependent."
+    Authors: Laura B Dickson, Irma Sanchez-Vargas, Massamba Sylla, Karen Fleming, Willia

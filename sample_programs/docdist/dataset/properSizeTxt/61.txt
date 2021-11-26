@@ -1,0 +1,100 @@
+{{dewikify}}
+
+'''Ion mobility spectrometry''' ('''IMS''') is an analytical technique used to separate and identify ionized molecules in the gas phase based on their ion mobility in a carrier buffer gas.  Though heavily employed for military or security purposes, such as detecting drugs and explosives, the technique also has many laboratory analytical applications, recently being coupled with [[mass spectrometry]] and [[high performance liquid chromatography]]. IMS devices come in a wide range of sizes (often tailored for a specific application) and are capable of operating under a broad range of conditions.  Systems operated at higher pressure (i.e. atmospheric conditions, 1 atm or 1013 mbar) are also accompanied by elevated temperature (above 100°C), while lower pressure systems (1-20 mbar) do not require heating.  
+
+==History==
+IMS was first developed primarily by [[Earl W. McDaniel]] of [[Georgia Institute of Technology]] in the 1950s and 1960s when he used drift cells with low applied electric fields to study gas phase ion mobilities and reactions.<ref name="pmid18200615">{{cite journal |author=Kanu AB, Dwivedi P, Tam M, Matz L, Hill HH |title=Ion mobility-mass spectrometry |journal=[[J Mass Spectrom]] |volume=43 |issue=1 |pages=1–22 |year=2008 |month=January |pmid=18200615 |doi=10.1002/jms.1383 |url=}}</ref>  In the following decades, he coupled his new technique with a magnetic-sector mass spectrometer, with others also utilizing his techniques in new ways.  IMS cells have since been attached to many other mass spectrometers and high-performance liquid chromatography setups.  Currently IMS is a widely-used technique implemented by many, and improvements and other uses are continually being developed.
+
+Outside of laboratory purposes, IMS has found great usage as a detection tool.  More than 10,000 IMS devices are in use worldwide in airports, and the US Army has more than 50,000 IMS devices.<ref>Zolotov, Yu. A. (2006). “Ion Mobility Spectrometry.” ''Journal of Analytical Chemistry'', '''61''' (6): 519.</ref>  In industrial settings, uses of IMS include checking equipment cleanliness and detecting emission contents, such as determining the amount of hydrochloric and hydrofluoric acid in a stack gas from a process.<ref>Particle Measuring Systems, Inc. “Ion Mobility Spectrometry (IMS) Theory and Applications”</ref>
+
+==Ion Mobility==
+{{main|Electrical mobility}}
+
+In the traditional method of drift-time IMS, commonly referred to as just IMS, produced ions travel through a drift tube which has an applied electric field and a carrier buffer gas that opposes the ion motion.  At the end of the tube is a detector.  Based on an ion’s mass, charge, size and shape (the ion mobility), the migration time through the tube is characteristic of different ions, leading to the ability to distinguish different analyte species.  The area of an ion that gas molecules strike is an ion’s collision cross-section, related to the ion size and shape.  The greater this collision cross-section is, meaning the larger the ion size, the more area available for buffer gas to collide and impede the ion’s drift – the ion then requires a longer time to migrate through the drift tube.
+
+The [[physical quantity]] ''' ion mobility''' ''K'' is defined as the proportionality factor of an ion's drift velocity ''v<sub>d</sub>'' in a gas and an electric field of strength ''E'',
+
+::: <math>v_d=KE</math>
+ 
+Ion mobilities are commonly reported as a ''reduced mobilities'', correcting to standard gas density ''n<sub>0</sub>'', which can be expressed in standard temperature ''T<sub>0</sub>'' = 273 K and standard pressure ''p<sub>0</sub>'' = 1013 mbar:
+
+::: <math>K_0 = K \frac{n}{n_0} = K \ \frac{T_0}{T} \ \frac{p}{p_0}</math>
+
+The ion mobility ''K'' can be experimentally determined by measuring the drift time ''t<sub>D</sub>'' of an ion traversing within a homogeneous electric field the potential difference ''U'' in the drift length ''L'': 
+
+::: <math>K = \frac{L^2}{t_D U}</math>
+
+The ion mobility ''K'' can also be calculated by the Mason equation:
+
+::: <math>K = \frac{3}{16} \sqrt{\frac{2\pi}{\mu kT}} \frac{Q}{n\sigma}</math>
+
+where ''Q'' is the ion [[charge (physics)|charge]], ''n'' is the drift gas [[number density]], ''μ'' is the [[reduced mass]] of the ion and the drift gas molecules, ''k'' is [[Boltzmann constant]], ''T'' is the drift gas [[temperature]], and ''σ'' is the ion’s [[cross section (physics)|collision cross section]] with the drift gas.  This relation holds approximately  at a low electric field limit, where the ratio of E/n is small, at ≤ 2 x 10<sup>-17</sup> C•cm<sup>2</sup>.
+
+A drift tube’s resolving power ''R'' can be calculated as
+
+::: <math>R= \frac{t}{\Delta t}= \sqrt{\frac{LEQ}{16kT\ln2}}</math>
+
+where L is the tube length, E is the electric field strength, Q is the ion charge, k is Boltzmann’s constant, and T is the drift gas temperature.
+
+With a low electric field applied, the thermal energy of the ions is greater than the energy gained from the electric field between collisions.  With these ions having similar energies as the buffer gas molecules, diffusion forces dominate ion motion.
+
+== Instrumentation ==
+=== Ionization ===
+The molecules of the sample need to be [[ionization|ionized]], usually by [[corona discharge]], atmospheric pressure [[photoionization]] (APPI), [[electrospray ionization]] (ESI), or a [[radioactive]] source, e.g. a small piece of <sup>63</sup>[[Nickel|Ni]] or <sup>241</sup>[[Americium|Am]], similar to the one used in ionization [[smoke detector]]s. ESI and MALDI techniques are commonly used when IMS is paired with mass spec.  
+
+Doping materials are sometimes added to the drift gas for ionization selectivity.  For example, acetone can be added for chemical warfare agent detection, chlorinated solvents added for explosives, and nicotinamide added for drugs detection.<ref>Creaser, Colin; Thomas, Paul; et al. (2004). “Ion mobility spectrometry: a review. Part 1. Structural analysis by mobility measurement.” ''The Analyst'', '''129''': 984-994. </ref>
+
+===Analyzer ===
+==== TOFIMS====
+In its simplest form an IMS system measures how fast a given ion moves in a uniform [[electric field]] through a given atmosphere. 
+[[image:Ion mobility spectrometry diagram.svg|thumb|500px|An ion mobility spectrometer separates ions by shape and charge.]]
+In specified intervals, a sample of the ions is let into the drift chamber; the gating mechanism is based on a charged electrode working in a similar way as the [[control grid]] in [[triode]]s works for electrons. For precise control of the ion pulse width admitted to the drift tube, more complex gating systems such as a [[Bradbury-Nielsen shutter|Bradbury-Nielsen]] design are employed.  Once in the drift tube, ions are subjected to a homogeneous electric field ranging from a few volts per centimeter up to many hundreds of volts per centimeter.  This electric field then drives the ions through the drift tube where they interact with the neutral drift molecules contained within the system.
+
+In the drift tube, chemical species separate based on the [[ion mobility]], arriving at the detector for measurement.  Ions are recorded at the detector in order from the fastest to the slowest, generating a response signal characteristic for the chemical composition of the measured sample. 
+
+For drift-time IMS, two main methods are used – either reduced pressure or ambient pressure.  A reduced pressure is where the applied pressure gas is at a few torr, commonly used to measure ion collision cross-sections.  Ambient pressure is what is used for stand-alone detector devices, as well as detection for gas, liquid, and supercriticial fluid chromatographies.  The higher pressures of ambient pressure methods allow for higher resolving power and greater separation selectivity due to a higher rate of ion-molecule interactions.  Reduced pressure IMS allows for ion-focusing and an easier interface with mass spec.<ref name="pmid18200615" />
+Though drift electric fields are normally uniform, non-uniform drift fields are also used.  These non-uniform field IMS results are often calibrated to uniform field instrumentation.  Non-uniform field usage is still in a relatively early developing stage.<ref>Clemmer, David E. et al. (2008).  “Biomolecule Analysis by Ion Mobility Spectrometry.” ''Annual Review of Analytical Chemistry'', '''1''': 293-397.</ref>
+
+==== DMS ====
+DMS ([[differential mobility spectrometer]]) make use of the dependence of ion mobility ''K'' on electric field strength ''E'' at high electric fields. Ions are subjected to different field strengths for different amounts of time. Thereby only ions with certain mobility dependence survive. These types of IMS work as a scanable filter. They are also called [[High-field asymmetric waveform ion mobility spectrometry|FAIMS]]
+
+==== DMA ====
+DMA [[differential mobility analyzer]] make use of a fast gas stream perpendicular to the electric field. Thereby ions of different mobilities undergo different trajectories. This type of IMS corresponds to the [[sector instruments]] in [[mass spectrometry]]. They also work as a scanable filter.
+
+=== Drift Gas ===
+The drift gas pressure is an important parameter for the IMS instrument design and resolution. Most drift gases have a greater potential to break down at pressures higher than a few mbar, with the potential to break down increasing as the pressure increases.  As an example, high drift voltages of about 10-30 kV can be used with tubes of 1 m length and high gas pressures of 100-1000 mbar to obtain high resolutions.  At higher pressures than 10 mbar, ions become more difficult to store.  At lower pressures, ions can be stored more easily to obtain an accumulated continuous signal, with the trade-off of lower electric fields (around 10-30 V/cm).
+Elevated gas temperature assists in removing ion clusters that may distort experimental measurements.<ref name="Methods in Modern Biophysics">Bengt Nolting, ''Methods in Modern Biophysics'', Springer Verlag, 2005, {{ISBN|3-540-27703-X}} </ref><ref name="Ion Mobility Spectrometry">Gary Eiceman & Zeev Karpas, ''Ion Mobility Spectrometry'', CRC Press, 2005, {{ISBN|0-8493-2247-2}} </ref> 
+
+=== Detector ===
+Often the detector is a simple [[Faraday plate]], however, more advanced ion mobility instruments are [[Ion mobility spectrometry-mass spectrometry|coupled]] with [[mass spectrometer]]s where both size and mass information may be obtained simultaneously.
+
+===Ion traps ===
+Ion trap mobility spectrometry is an instrumental analytical method for detection and analysis of chemical substances, able to detect very low concentrations of chemicals based upon the differential migration of [[ion]]s through homogeneous [[electric field]]. It is a version of [[ion mobility spectrometry]]. ITMS provides a substantial performance improvement over IMS, as the shutter grid is eliminated together with the associated loss of sensitivity.
+
+
+
+== Hyphenated IMS ==
+IMS can be combined with other separation techniques. 
+
+===GC-IMS : Gas Chromatography - Ion Mobility Spectrometry===
+When IMS is coupled with gas chromatography, common sample introduction is with the GC capillary column directly connected to the IMS setup, with molecules ionized as they elute from GC.<ref>Creaser, Colin; Thomas, Paul; et al. (2004). “Ion mobility spectrometry: a review. Part 1. Structural analysis by mobility measurement.” ''The Analyst'', '''129''': 984-994. </ref>  A similar technique is commonly used for HPLC.
+
+===IMS-MS : Ion Mobility Spectrometry - Mass Spectrometry===
+{{main|Ion mobility spectrometry-mass spectrometry}}
+When IMS is used with mass spectrometry, ion mobility spectrometry-mass spectrometry offers many advantages, including better signal to noise, isomer separation, and charge state identification.<ref name="pmid18200615" /><ref name="pmid18320175">{{cite journal |author=Fenn LS, McLean JA |title=Biomolecular structural separations by ion mobility-mass spectrometry |journal=[[Anal Bioanal Chem]] |volume=391 |issue=3 |pages=905–9 |year=2008 |month=June |pmid=18320175 |doi=10.1007/s00216-008-1951-x |url=}}</ref>  IMS has commonly been attached to several mass spec analyzers, including quadropole, time-of-flight, and Fourier transform cyclotron resonance.
+
+===LC-IMS : Liquid Chromatography - Ion Mobility Spectrometry===
+
+===LC-IMS-MS : Liquid Chromatography - Ion Mobility Spectrometry - Mass spectrometry===
+Coupled with LC and MS, IMS has become widely-used to analyze biomolecules, a practice heavily developed by David E. Clemmer, now at [[Indiana University (Bloomington)]]. <ref>Clemmer, David E. et al. (2008).  “Biomolecule Analysis by Ion Mobility Spectrometry.” ''Annual Review of Analytical Chemistry'', '''1''': 293-397.</ref>
+
+
+==Applications==
+Perhaps ion mobility spectrometry's greatest strength is the speed at which separations occur—typically on the order of tens of milliseconds.  This feature combined with its ease of use, relatively high sensitivity, and highly compact design have allowed IMS as a commercial product to be used as a routine tool for the field detection of [[explosive]]s, [[illegal drug trade|drugs]], and [[chemical weapons]]. A major manufacturer of IMS screening devices used in airports is [[Smiths Group|Smiths Detection]].
+
+In the pharmaceutical industry IMS is used in [[cleaning validation]]s, demonstrating that reaction vessels are sufficiently clean to proceed with the next batch of pharmaceutical product. IMS is much faster and more accurate than HPLC and total organic carbon methods previously used.  IMS is also used for analyzing the composition of drugs produced, thereby finding a place in quality assurance and control.<ref>O’Donnell, Ryan M.; Sun, Xiaobo; de B. Harrington, Peter. (2008). “Pharmaceutical applications of ion mobility spectrometry.” '' Trends in Analytical Chemistry'', '''27''' (1): 44-53.</ref>   As a research tool ion mobility is becoming more widely-used in the analysis of biological materials, specifically, [[proteomics]] and [[metabolomics]].  For example, IMS-MS using MALDI as the ionization method has helped make advances in proteomics, providing faster high-resolution separations of protein pieces in analysis.<ref>McLean, J.A. . et al. (2005). “Ion mobility–mass spectrometry: a new paradigm for proteomics.” ''International Journal of Mass Spectrometry'', '''240''': 301-315.</ref>
+
+== References ==
+{{reflist}}
+
+{{BookCat}}

@@ -1,0 +1,1056 @@
+Java implementation of a basic persistent database index using the linear hash algorithm
+
+<syntaxhighlight lang="java">
+package linearhashmap;
+ 
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+ 
+/**
+ * 
+ * @author S.Tan
+ * 
+ * @param <K>
+ *            key type , must implement equals() and hashCode()
+ * @param <V>
+ *            value type
+ * 
+ * 
+ */
+public class LHMap2<K, V> implements Map<K, V>, Serializable {
+ 
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 3095071852466632996L;
+ 
+	/**
+	 *
+	 */
+ 
+	public static interface BlockListener<K, V> {
+		public void blockRequested(int block, LHMap2<K, V> map);
+	}
+ 
+	List<BlockListener<K, V>> listeners = new ArrayList<BlockListener<K, V>>();
+ 
+	// int savedBlocks;
+	int N;
+	int level = 0;
+	int split = 0;
+	int blockSize;
+	long totalWrites = 0;
+ 
+	List<Block<K, V>> blockList = new ArrayList<Block<K, V>>();
+ 
+	public void addBlockListener(BlockListener<K, V> listener) {
+		listeners.add(listener);
+	}
+ 
+	void notifyBlockRequested(int block) {
+		for (BlockListener<K, V> l : listeners) {
+			l.blockRequested(block, this);
+		}
+	}
+ 
+	public LHMap2(int blockSize, int nStartingBlocks) {
+		this.blockSize = blockSize;
+		this.N = nStartingBlocks;
+		for (int i = 0; i < nStartingBlocks; ++i) {
+			addBlock();
+		}
+ 
+		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
+ 
+			@Override
+			public void run() {
+				showStructure();
+ 
+			}
+		}));
+	}
+ 
+	public static class Block<K, V> implements Externalizable {
+		/**
+		 *
+		 */
+ 
+		int j = 0;
+ 
+		Block<K, V> overflow = null;
+		LinkedList<K> keyList = new LinkedList<K>();
+		LinkedList<V> valueList = new LinkedList<V>();
+		transient private LHMap2<K, V> owner;
+		transient private Map<K, V> shadow = new TreeMap<K, V>();
+ 
+		private boolean changed = false;
+ 
+		private int size = 0;
+ 
+		public LHMap2<K, V> getOwner() {
+			return owner;
+		}
+ 
+		public void setOwner(LHMap2<K, V> owner) {
+			this.owner = owner;
+			Block<K, V> ov = overflow;
+			while (ov != null) {
+				overflow.setOwner(owner);
+				ov = ov.overflow;
+			}
+		}
+ 
+		public Block() {
+			super();
+		}
+ 
+		public Block(LHMap2<K, V> map) {
+			setOwner(map);
+		}
+ 
+		public V put(K k, V v) {
+			setChanged(true);
+ 
+			V v2 = replace(k, v);
+			if (v2 == null) {
+				++size;
+				if (keyList.size() == getOwner().blockSize) {
+ 
+					if (overflow == null) {
+						getOwner().blockOverflowed(this, k, v);
+					} else {
+						overflow.put(k, v);
+					}
+ 
+				} else {
+					keyList.addFirst(k);
+					valueList.addFirst(v);
+				}
+ 
+			}
+ 
+			return v2;
+		}
+ 
+		void setChanged(boolean b) {
+			changed = b;
+		}
+ 
+		public Map<K, V> drainToMap(Map<K, V> map) {
+ 
+			while (!keyList.isEmpty()) {
+				K k = keyList.removeLast();
+				V v = valueList.removeLast();
+				map.put(k, v);
+ 
+			}
+ 
+			if (overflow != null)
+ 
+				map = overflow.drainToMap(map);
+ 
+			garbageCollectionOverflow();
+ 
+			return map;
+		}
+ 
+		public void updateMap(Map<K, V> map) {
+			Iterator<K> ik = keyList.descendingIterator();
+			Iterator<V> iv = valueList.descendingIterator();
+			while (ik.hasNext() && iv.hasNext()) {
+				map.put(ik.next(), iv.next());
+			}
+ 
+			if (overflow != null)
+				overflow.updateMap(map);
+ 
+		}
+ 
+		private void garbageCollectionOverflow() {
+			if (overflow != null) {
+				overflow.garbageCollectionOverflow();
+				overflow = null;
+ 
+			}
+		}
+ 
+		public void addOverflowBucket() {
+ 
+			// assert overflow is needed
+			if (keyList.size() < getOwner().blockSize)
+				return;
+ 
+			if (overflow == null) {
+				overflow = new Block<K, V>(getOwner());
+			} else {
+				overflow.addOverflowBucket();
+			}
+		}
+ 
+		public V replace(K key, V v2) {
+ 
+			if (overflow != null) {
+				V v = (V) overflow.replace(key, v2);
+				if (v != null)
+					return v;
+			}
+ 
+			Iterator<K> i = keyList.listIterator();
+ 
+			int j = 0;
+ 
+			while (i.hasNext()) {
+ 
+				if (key.equals(i.next())) {
+ 
+					V v = valueList.get(j);
+ 
+					if (v2 != null) {
+ 
+						valueList.set(j, v2);
+ 
+					}
+ 
+					return v;
+				}
+				++j;
+			}
+ 
+			return null;
+		}
+ 
+		public boolean isChanged() {
+			return changed;
+		}
+ 
+		@Override
+		public void readExternal(ObjectInput arg0) throws IOException,
+				ClassNotFoundException {
+			int sz = arg0.readInt();
+			for (int i = 0; i < sz; ++i) {
+				K k = (K) arg0.readObject();
+				V v = (V) arg0.readObject();
+				shadow.put(k, v);
+			}
+		}
+ 
+		public void loadFromShadow(LHMap2<K, V> owner) {
+			setOwner(owner);
+			Block<K, V> b = this;
+			for (K k : shadow.keySet()) {
+				if (b.keyList.size() == owner.blockSize) {
+					Block<K, V> overflow = new Block<K, V>(owner);
+					b.overflow = overflow;
+					b = overflow;
+				}
+				b.keyList.add(k);
+				b.valueList.add(shadow.get(k));
+ 
+			}
+			shadow.clear();
+		}
+ 
+		@Override
+		public void writeExternal(ObjectOutput arg0) throws IOException {
+			if (!changed)
+				return;
+			Map<K, V> map = new TreeMap<K, V>();
+ 
+			// this is destructive of the block
+			updateMap(map);
+			int sz = map.size();
+			arg0.writeInt(sz);
+			for (K k : map.keySet()) {
+				arg0.writeObject(k);
+				arg0.writeObject(map.get(k));
+			}
+			setChanged(false);
+ 
+		}
+ 
+	}
+ 
+	void init() {
+ 
+		for (int i = 0; i < N; ++i) {
+			addBlock();
+		}
+	}
+ 
+	/**
+	 * @param hashValue
+	 * @return a bucket number.
+	 */
+	int getDynamicHash(int hashValue) {
+ 
+		long unsignedHash = (long) ((long) hashValue << 32) >>> 32;
+		// ^^ this long cast needed
+		int h = (int) (unsignedHash % (N << level));
+		// System.err.println("h = " + h);
+		if (h < split) {
+ 
+			h = (int) (unsignedHash % (N << (level + 1)));
+			// System.err.println("h < split, new h = " + h);
+		}
+		return h;
+ 
+	}
+ 
+	public V put(K k, V v) {
+		++totalWrites;
+		int h = getDynamicHash(k.hashCode());
+		Block<K, V> b = getBlock(h);
+ 
+		b.put(k, v);
+ 
+		return v;
+ 
+	}
+ 
+	public long getTotalWrites() {
+		return totalWrites;
+	}
+ 
+	private Block<K, V> getBlock(int h) {
+		notifyBlockRequested(h);
+		return blockList.get(h);
+	}
+ 
+	void blockOverflowed(Block<K, V> b, K k, V v) {
+ 
+		splitNextBucket();
+ 
+		b.addOverflowBucket();
+		b.put(k, v);
+	}
+ 
+	private void splitNextBucket() {
+		Block<K, V> b = getBlock(split);
+		TreeMap<K, V> map = new TreeMap<K, V>();
+		b.drainToMap(map);
+		addBlock();
+		System.err.printf("split N LEVEL %d %d %d \n", split, N, level);
+		if (++split >= (N << level)) {
+			++level;
+ 
+			split = 0;
+		}
+ 
+		for (K k : map.keySet()) {
+			V v = map.get(k);
+			int h = getDynamicHash(k.hashCode());
+			System.err.println(h + " ");
+			Block<K, V> b2 = getBlock(h);
+			b2.put(k, v);
+		}
+	}
+ 
+	private Block<K, V> addBlock() {
+		Block<K, V> b = new Block<K, V>(this);
+		blockList.add(b);
+ 
+		return b;
+	}
+ 
+	@Override
+	public void clear() {
+		blockList = new ArrayList<Block<K, V>>();
+		split = 0;
+		level = 0;
+		totalWrites = 0;// savedBlocks = 0;
+ 
+	}
+ 
+	@Override
+	public boolean containsKey(Object key) {
+		return get(key) != null;
+	}
+ 
+	@Override
+	public boolean containsValue(Object value) {
+		return values().contains(value);
+	}
+ 
+	@Override
+	public Set<java.util.Map.Entry<K, V>> entrySet() {
+		TreeSet<Map.Entry<K, V>> set = new TreeSet<Map.Entry<K, V>>();
+		Set<K> kk = keySet();
+		for (K k : kk) {
+			final K k2 = k;
+			set.add(new Entry<K, V>() {
+ 
+				@Override
+				public K getKey() {
+					return k2;
+				}
+ 
+				@Override
+				public V getValue() {
+					return get(k2);
+				}
+ 
+				@Override
+				public V setValue(V value) {
+					return put(k2, value);
+				}
+			});
+		}
+		return set;
+	}
+ 
+	@Override
+	public V get(Object key) {
+		int h = getDynamicHash(key.hashCode());
+		Block<K, V> b = getBlock(h);
+		return b.replace((K) key, null);
+	}
+ 
+	@Override
+	public boolean isEmpty() {
+		return size() == 0;
+	}
+ 
+	@Override
+	public Set<K> keySet() {
+		TreeSet<K> kk = new TreeSet<K>();
+		for (int i = 0; i < blockList.size(); ++i) {
+			Block<K, V> b = getBlock(i);
+			kk.addAll(b.keyList);
+			Block<K, V> ov = b.overflow;
+			while (ov != null) {
+				kk.addAll(ov.keyList);
+				ov = ov.overflow;
+			}
+		}
+		return kk;
+	}
+ 
+	@Override
+	public void putAll(Map<? extends K, ? extends V> m) {
+		for (K k : m.keySet()) {
+			put(k, m.get(k));
+		}
+	}
+ 
+	@Override
+	public V remove(Object key) {
+		return null;
+	}
+ 
+	@Override
+	public int size() {
+		long sz = longSize();
+		return (int) ((long) sz > (long) Integer.MAX_VALUE ? Integer.MAX_VALUE
+				: sz);
+	}
+ 
+	public long longSize() {
+		long sz = 0;
+		for (Block<K, V> b : blockList) {
+			Block<K, V> b1 = b;
+			while (b1 != null) {
+				sz += b1.size;
+				b1 = b.overflow;
+			}
+		}
+		return sz;
+	}
+ 
+	@Override
+	public Collection<V> values() {
+		ArrayList<V> list = new ArrayList<V>();
+		Set<K> kk = keySet();
+		for (K k : kk) {
+			list.add(get(k));
+		}
+		return list;
+	}
+ 
+	private void showStructure() {
+		for (int i = 0; i < blockList.size(); ++i) {
+ 
+			Block<K, V> b = getBlock(i);
+			Block<K, V> ov = b.overflow;
+			int k = 0;
+			while (ov != null) {
+				ov = ov.overflow;
+				++k;
+			}
+ 
+			System.out.println("Block " + i + " size " + b.keyList.size()
+					+ " overflow blocks = " + k);
+ 
+		}
+	}
+ 
+}
+ 
+ 
+ 
+package linearhashmap;
+ 
+import java.io.File;
+import java.io.Serializable;
+import java.util.List;
+import java.util.Random;
+ 
+public class LHMap2BlockFileManagerData implements Serializable{
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
+	public byte[] buf;
+	public Random r;
+	public File baseDir;
+	public File home;
+	public int maxBlocks;
+	public int retired;
+	public double unloadRatio;
+	public List<Integer> retirees;
+	public int avgBlockSize;
+	public long avgCount;
+ 
+	public LHMap2BlockFileManagerData(byte[] buf, Random r, int retired,
+			List<Integer> retirees, long avgCount) {
+		this.buf = buf;
+		this.r = r;
+		this.retired = retired;
+		this.retirees = retirees;
+		this.avgCount = avgCount;
+	}
+ 
+ 
+}
+ 
+package linearhashmap;
+ 
+ 
+ 
+import java.io.ByteArrayInputStream;
+ 
+import java.io.ByteArrayOutputStream;
+ 
+import java.io.File;
+ 
+import java.io.FileInputStream;
+ 
+import java.io.FileNotFoundException;
+ 
+import java.io.FileOutputStream;
+ 
+import java.io.IOException;
+ 
+import java.io.ObjectInputStream;
+ 
+import java.io.ObjectOutputStream;
+ 
+import java.io.Serializable;
+ 
+import java.util.ArrayList;
+ 
+import java.util.Random;
+ 
+ 
+ 
+/**
+ 
+ * This class manages the LHMap2 class block disk swapping, and saves and load
+ 
+ * an instance of the LHMap2 class. It has been used to externally index a
+ 
+ * legacy file based database of 100,000 record master table, and 1,000,000
+ 
+ * record sized child tables, and accounts for heap space available in the java
+ 
+ * virtual machine, so that OutOfMemory errors are avoided when the heap space
+ 
+ * is low by putting blocks back on files, and garbage collecting them. The main
+ 
+ * performance bottleneck appeared when loading a million record table for an
+ 
+ * index , on initial creation of the index.
+ 
+ * 
+ 
+ * @author doctor
+ 
+ * 
+ 
+ * @param <K>
+ 
+ * @param <V>
+ 
+ */
+ 
+public class LHMap2BlockFileManager<K, V> implements
+ 
+		LHMap2.BlockListener<K, V>, Serializable {
+ 
+ 
+ 
+	/**
+ 
+	 *
+ 
+	 */
+ 
+	private static final long serialVersionUID = 2615265603397988894L;
+ 
+	LHMap2BlockFileManagerData data = new LHMap2BlockFileManagerData(
+ 
+			new byte[10000], new Random(), 0, new ArrayList<Integer>(), 0);
+ 
+ 
+ 
+	public LHMap2BlockFileManager(File baseDir, String name, int maxBlocks,
+ 
+			double unloadRatio) {
+ 
+		data.home = new File(baseDir, name);
+ 
+		if (!data.home.exists())
+ 
+			data.home.mkdir();
+ 
+		this.data.maxBlocks = maxBlocks;
+ 
+		this.data.unloadRatio = unloadRatio;
+ 
+	}
+ 
+ 
+ 
+	@Override
+ 
+	public void blockRequested(int block, LHMap2<K, V> map) {
+ 
+		LHMap2.Block<K, V> b = map.blockList.get(block);
+ 
+ 
+ 
+		if (b == null) {
+ 
+			int tries = 3; // for some reason, the File constructor can be
+ 
+							// asynchronous occasionally, so need to try again
+ 
+							// after delay
+ 
+			File f = new File(data.home, Integer.toString(block));
+ 
+			do {
+ 
+ 
+ 
+				if (f.exists())
+ 
+					break;
+ 
+ 
+ 
+				if (!f.exists()) {
+ 
+					if (--tries >= 0)
+ 
+						fatal(block);
+ 
+					try {
+ 
+ 
+ 
+						Thread.sleep(100);
+ 
+					} catch (InterruptedException e) {
+ 
+						e.printStackTrace();
+ 
+					}
+ 
+ 
+ 
+				}
+ 
+ 
+ 
+			} while (true);
+ 
+			try {
+ 
+				ByteArrayInputStream bis = new ByteArrayInputStream(data.buf);
+ 
+				FileInputStream fis = new FileInputStream(f);
+ 
+				int sz = fis.read(data.buf);
+ 
+				fis.close();
+ 
+				addByteStats(sz);
+ 
+				ObjectInputStream ois = new ObjectInputStream(bis);
+ 
+				b = new LHMap2.Block<K, V>();
+ 
+ 
+ 
+				b.readExternal(ois);
+ 
+				ois.close();
+ 
+				b.loadFromShadow(map);
+ 
+ 
+ 
+				map.blockList.set(block, b);
+ 
+				--data.retired;
+ 
+ 
+ 
+			} catch (FileNotFoundException e) {
+ 
+				e.printStackTrace();
+ 
+				fatal(block);
+ 
+			} catch (IOException e) {
+ 
+				e.printStackTrace();
+ 
+				fatal(block);
+ 
+			} catch (ClassNotFoundException e) {
+ 
+				e.printStackTrace();
+ 
+				fatal(block);
+ 
+			}
+ 
+ 
+ 
+		}
+ 
+		int size = map.blockList.size();
+ 
+ 
+ 
+		try {
+ 
+			long freeMemory = Runtime.getRuntime().freeMemory();
+ 
+ 
+ 
+			long limitMemory = (long) (data.avgBlockSize * data.unloadRatio * size);
+ 
+ 
+ 
+			if (block % 30 == 0)
+ 
+				System.err.println("free memory =" + freeMemory + " limit "
+ 
+						+ limitMemory);
+ 
+ 
+ 
+			if (map.split % 20 == 19) {
+ 
+				// this is just to add statistics before really needing to
+ 
+				// retire
+ 
+				retireActiveBlock(map, block);
+ 
+				++data.retired;
+ 
+ 
+ 
+			} else if (freeMemory < limitMemory) {
+ 
+				for (int i = 0; i < map.blockList.size() / 4; ++i) {
+ 
+					retireActiveBlock(map, block);
+ 
+					++data.retired;
+ 
+				}
+ 
+				System.runFinalization();
+ 
+				System.gc();
+ 
+			}
+ 
+ 
+ 
+		} catch (FileNotFoundException e) {
+ 
+			e.printStackTrace();
+ 
+		} catch (IOException e) {
+ 
+			e.printStackTrace();
+ 
+		}
+ 
+ 
+ 
+	}
+ 
+ 
+ 
+	private void addByteStats(int sz) {
+ 
+		++data.avgCount;
+ 
+		data.avgBlockSize = (int) ((data.avgBlockSize * (data.avgCount - 1) + sz) / data.avgCount);
+ 
+	}
+ 
+ 
+ 
+	public void retireActiveBlock(LHMap2<K, V> map, int notThisOne)
+ 
+			throws FileNotFoundException, IOException {
+ 
+		int pick = 0;
+ 
+		int size = map.blockList.size();
+ 
+ 
+ 
+		for (pick = 0; pick < size
+ 
+				&& (pick == notThisOne || (map.blockList.get(pick)) == null); ++pick)
+ 
+			;
+ 
+		if (pick < size)
+ 
+			retireBlock(map, pick);
+ 
+ 
+ 
+	}
+ 
+ 
+ 
+	private void retireBlock(LHMap2<K, V> map, int pick) throws IOException,
+ 
+			FileNotFoundException {
+ 
+		LHMap2.Block<K, V> b = map.blockList.get(pick);
+ 
+		if (b == null)
+ 
+			return;
+ 
+ 
+ 
+		if (b.isChanged()) {
+ 
+			File f = new File(data.home, Integer.toString(pick));
+ 
+			ByteArrayOutputStream bos = new ByteArrayOutputStream();
+ 
+ 
+ 
+			ObjectOutputStream oos = new ObjectOutputStream(bos);
+ 
+			b.writeExternal(oos);
+ 
+			oos.flush();
+ 
+			oos.close();
+ 
+			FileOutputStream fos = new FileOutputStream(f);
+ 
+			byte[] bb = bos.toByteArray();
+ 
+ 
+ 
+			fos.write(bb);
+ 
+			fos.flush();
+ 
+			fos.close();
+ 
+			if (bb.length > data.buf.length) {
+ 
+				data.buf = bb;
+ 
+			}
+ 
+		}
+ 
+		map.blockList.set(pick, null);
+ 
+ 
+ 
+	}
+ 
+ 
+ 
+	private void fatal(int block) {
+ 
+		Exception e = new Exception();
+ 
+		try {
+ 
+			throw e;
+ 
+		} catch (Exception e2) {
+ 
+			e2.printStackTrace();
+ 
+		}
+ 
+		System.err.println("block " + block
+ 
+				+ " requested and it is not in blocklist and not a file");
+ 
+		for (int i : data.retirees) {
+ 
+			System.err.print(i + " ");
+ 
+		}
+ 
+		System.err.println(" were retired");
+ 
+		System.exit(-2);
+ 
+	}
+ 
+ 
+ 
+	public static boolean metaExists(File indexDir, String name) {
+ 
+		File home = new File(indexDir, name);
+ 
+		return new File(home, "LinearMap2").exists();
+ 
+	}
+ 
+ 
+ 
+	public static <K, V> LHMap2<K, V> load(File baseDir, String name)
+ 
+			throws FileNotFoundException, IOException, ClassNotFoundException {
+ 
+		File home = new File(baseDir, name);
+ 
+ 
+ 
+		File f2 = new File(home, "LinearMap2");
+ 
+		ObjectInputStream ois = new ObjectInputStream(new FileInputStream(f2));
+ 
+		LHMap2<K, V> map = (LHMap2<K, V>) ois.readObject();
+ 
+		ois.close();
+ 
+		loadBlocks(map);
+ 
+ 
+ 
+		return map;
+ 
+	}
+ 
+ 
+ 
+	private static <K, V> void loadBlocks(LHMap2<K, V> map) {
+ 
+		LHMap2BlockFileManager<K, V> mgr = getBlockManagerListener(map);
+ 
+		int size = map.blockList.size();
+ 
+		for (int i = 0; i < size; ++i) {
+ 
+			mgr.blockRequested(i, map);
+ 
+		}
+ 
+	}
+ 
+ 
+ 
+	public static <K, V> LHMap2BlockFileManager<K, V> getBlockManagerListener(
+ 
+			LHMap2<K, V> map) {
+ 
+		LHMap2BlockFileManager<K, V> mgr = (LHMap2BlockFileManager<K, V>) map.listeners
+ 
+				.get(0);
+ 
+		return mgr;
+ 
+	}
+ 
+ 
+ 
+	public static void save(File indexDir, String name,
+ 
+			LHMap2<?, ?> offsetMap) throws FileNotFoundException, IOException {
+ 
+		retireAllBlocks(offsetMap);
+ 
+ 
+ 
+		File home = new File(indexDir, name);
+ 
+		File f2 = new File(home, "LinearMap2");
+ 
+		ObjectOutputStream oos = new ObjectOutputStream(
+ 
+				new FileOutputStream(f2));
+ 
+		oos.writeObject(offsetMap);
+ 
+		oos.close();
+ 
+	}
+ 
+ 
+ 
+	private static <K, V> void retireAllBlocks(LHMap2<K, V> offsetMap)
+ 
+			throws FileNotFoundException, IOException {
+ 
+		LHMap2BlockFileManager<K, V> mgr = getBlockManagerListener(offsetMap);
+ 
+		int sz = offsetMap.blockList.size();
+ 
+		for (int i = 0; i < sz; ++i) {
+ 
+			LHMap2.Block<K, V> b = offsetMap.blockList.get(i);
+ 
+ 
+ 
+			if (b != null) {
+ 
+				mgr.retireBlock(offsetMap, i);
+ 
+			}
+ 
+ 
+ 
+		}
+ 
+	}
+ 
+}
+</syntaxhighlight>
+
+{{BookCat}}

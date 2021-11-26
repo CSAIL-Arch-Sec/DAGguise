@@ -1,0 +1,123 @@
+<noinclude>
+<!-- Generated for the page, UK Constitution and Government/Judiciary, by Wikiversal version 1.12.72 on 7/11/2012. -->
+__NOEDITSECTION__ __NOTOC__
+
+=== <font size=1 color=dimgray>Presentation</font> ===
+<table height=1 border=1 style="border-collapse:collapse; border-color:LightSkyBlue; background-color:AliceBlue;" width="100%"><tr>
+<td align=left><table width="100%" align=left><tr><td>[[File:1leftarrow.png|frameless|none|x40px|link=http://en.wikibooks.org/wiki/UK_Constitution_and_Government/Government#Presentation|Government]]</td>
+<td>[[File:Gohome.png|frameless|none|x40px|link=http://en.wikibooks.org/wiki/UK_Constitution_and_Government#Presentation]]</td>
+<td nowrap><font size=6 color=teal>{{SUBPAGENAME}}</font></td>
+<td>[[File:1rightarrow.png|frameless|none|x40px|link=http://en.wikibooks.org/wiki/UK_Constitution_and_Government/Devolved_Administrations#Presentation|Devolved Administrations]]</td>
+<td>[[File:2rightarrow.png|frameless|none|x40px|link=http://en.wikibooks.org/wiki/UK_Constitution_and_Government/Topic_List#Presentation|List of Topics]]</td>
+<td width="99%"> &nbsp; </td>
+<td><td>[[File:1rightarrow.png|frameless|none|x40px|link=http://en.wikibooks.org/wiki/UK_Constitution_and_Government/Devolved_Administrations#Presentation|Devolved Administrations]]</td>
+</td>
+</tr></table></td>
+</tr></table>
+<!-- -- -- -- -- -- -- -- -- -- -- -->
+<p>&nbsp;</p>
+<big><big>The Judiciary</big></big>
+
+[[UK Constitution and Government/Government|Previous Chapter]] | [[UK Constitution and Government/Devolved Administrations|Next Chapter]]
+------
+</noinclude>
+== Structure ==
+
+The United Kingdom is made up of three separate legal jurisdictions, each with a separate laws and hierarchy of courts: ''England and Wales'', ''Scotland'', and ''Northern Ireland''.
+
+
+== England and Wales ==
+
+England and Wales is a ''common law'' jurisdiction.
+
+=== Lower courts ===
+
+The lowest court in England and Wales is the ''Magistrates' Court''. Magistrates, also known as Justices of the Peace, are laypersons appointed by the Sovereign. The court hears "summary" offences (punishable by six months or less in prison). When hearing such cases, three magistrates sit together as a panel without a jury. In some metropolitan areas, such as London, there are no magistrates; instead, summary cases are tried by a single District Judge who is trained in law.
+
+Serious criminal cases are tried before a ''Crown Court'' with a judge and a jury of twelve. The accused may also choose to have certain summary offences referred from the magistrates' court to the Crown Court, in order for their case to be tried before a jury; the Crown Court also hears appeals from magistrates' courts. Though the Crown Court is constituted as a single body for the whole of England and Wales, it sits permanently at multiple places throughout its area of jurisdiction.
+
+The counterpart to the Crown and Magistrates' Courts in the civil justice system is the ''County Court''. There are over 200 County Courts throughout England and Wales.
+
+=== High Court ===
+
+The ''High Court of England and Wales'' takes appeals from the County Court, and also has an original jurisdiction in certain matters.
+
+The High Court is constituted into three ''divisions'': the ''Family Division'', the ''Chancery Division'', and the ''Queen's Bench Division''.
+
+The Family Division is presided over by the ''President of the Family Division'', and hears cases involving family matters such as matrimonial breakdown, child custody and welfare, and adoption.
+
+The Chancery Division is presided over by the ''Chancellor of the High Court'' (formerly known as the ''Vice-Chancellor''), and hears cases involving land, companies, bankruptcy, and probate.
+
+The Queen's Bench Division is presided over by the ''President of the Queen's Bench Division'', and hears cases involving torts (civil wrongs).  The Queen's Bench Division also includes four subordinate courts: the ''Admiralty Court'' (dealing with shipping), the ''Commercial Court'' (dealing with insurance, banking, and commerce), the ''Technology and Construction Court'' (dealing with complex technological matters), and the ''Administrative Court'' (exercising judicial review over the actions of local government).  The Queen's Bench Division also has oversight of the lower courts.
+
+
+== Court of Appeal ==
+
+Above the High Court in civil cases, and the Crown Court in criminal cases, is the Court of Appeal, headed by the ''Master of the Rolls'', and including 35 ''Lords Justices of Appeal'' as well as other judges.
+
+The Court of Appeal is divided into a ''Civil Division'' (presided over by the Master of the Rolls) and a ''Criminal Division'' (presided over by the Lord Chief Justice). Generally speaking, appeals may only be heard "by leave"; that is, with the permission of the either the Court of Appeal or the judge whose decision is being contested. In some cases, it is possible to "leapfrog" the High Court and bring a case directly from a County Court.
+
+Together, the Crown Court, the High Court, and Court of Appeal constitute the ''Senior Courts'' (formerly known as the ''Supreme Court of Judicature''). Thus, since they are theoretically one body, it is possible for judges of one court to sit in other courts. Appeals from the Senior Courts go to the Supreme Court; it is also possible to leapfrog from the High Court, but not from the Crown Court. Normally, leave to appeal to the Supreme Court is not granted unless the case is of great legal or constitutional importance.
+
+== Northern Ireland ==
+
+Northern Ireland's system is based on that used in England and Wales, with a similar hierarchy of magistrates' court, the Crown Court (for criminal trials), county courts (for civil trials), the High Court, and the Court of Appeal.
+
+Appeals from Northern Ireland lie to the Supreme Court.
+
+== Scotland ==
+
+In contrast with the rest of the United Kingdom, Scotland uses a mixture of common law and civil law.  Its court system was developed independently of that in England. The ''Act of Union'' (1707) guarantees the continuance of Scotland's different legal system.
+
+=== Lower courts ===
+
+Summary jurisdiction is exercised by ''Justice of the Peace Courts'', held either by three ''Justices of the Peace'' (lay magistrates) sitting together, or by a Justice of the Peace sitting with a legally qualified clerk.  As in England and Wales, professional judges may sit in certain metropolitan areas.
+
+Above the Justice of the Peace Courts are the ''Sheriff Courts'', of which there are around 50.  Sheriff Courts hear both criminal and civil cases, and are held before a judge known as a Sheriff, and have a jury of fifteen people.  Sheriff Courts are grouped into six different Sheriffdoms, headed by a Sheriff Principal who hears appeals from cases not decided by a jury.
+
+=== High Court of Justiciary ===
+
+The highest criminal court in Scotland is the ''High Court of Justiciary''.  The judges of the court are also the judges of the Court of Session (see below); as High Court judges they are known as ''Lords Commissioners of Justiciary''. The head of the court is the ''Lord Justice-General'' (also the Lord President of the Court of Session), with a deputy known as the ''Lord Justice Clerk'' (who holds the same office in the Court of Session).  Altogether the High Court has up to 32 individual judges.
+
+The High Court has exclusive jurisdiction in serious crimes, such as murder or drug trafficking, in which case a single judge sits with a jury of fifteen.  The High Court also hears appeals from Justice of the Peace Courts, and hears appeals in criminal cases from Sheriff Courts.
+
+Appeals against decisions by a High Court judge in criminal cases are heard by either two (in appeals against sentences) or three (in appeals against conviction) High Court judges.  No appeal lies beyond the High Court.
+
+=== Court of Session ===
+
+The highest civil court in Scotland is the ''Court of Session''.  Its judges also sit as judges of the High Court of Justiciary (see above); as Court of Session judges they are known as ''Lords and Ladies of Council and Session'', or ''Senators of the College of Justice''. The Court is headed by the ''Lord President'', with a ''Lord Justice Clerk'' as deputy.  Altogether the Court of Session has up to 32 individual judges.
+
+The Court of Session is divided into the ''Outer House'' (made up of nineteen judges), and the ''Inner House'' (made up of the remaining judges). The Outer House has original jurisdiction, while the Inner House has appellate jurisdiction. The Inner House is further divided into the First and Second Divisions, headed by the Lord President and Lord Justice Clerk respectively. Sometimes, when many cases are before the court, an Extra Division may be appointed. Each Division may sit as a panel hearing an appeal from the Sheriff Court or from the Outer House.
+
+Appeals from the Court of Session lie to the Supreme Court.
+
+== Supreme Court ==
+
+The ''Supreme Court of the United Kingdom'' is the ultimate court of appeal in all civil matters, as well as in criminal cases (other than from Scotland), and also has original jurisdiction in devolution cases.
+
+The Supreme Court has replaced the jurisdiction previously exercised by the House of Lords in the latter's now-abolished judicial capacity.  The Supreme Court of the United Kingdom is not to be confused with the Supreme Court of Judicature, the name formerly held by (a) the Senior Courts, in England and Wales, and (b) the Court of Judicature, in Northern Ireland.
+
+The Supreme Court is headed by a President, who has a Deputy President.  There are a further ten ''puisne'' judges.
+
+
+== Judicial Committee of the Privy Council ==
+
+The ''Judicial Committee of the Privy Council'' formerly held original jurisdiction in the United Kingdom in devolution cases, and continues to hold appellate jurisdiction over the ecclesiastical courts of the Church of England.  Appeals to the Privy Council as a court of last resort also lie from the Crown dependencies, the British overseas territories, and from certain Commonwealth countries.
+
+Membership of the Judicial Committee is made up of Justices of the Supreme Court, Privy Counsellors who are or were Lord Justices of Appeal in either England and Wales or Northern Ireland, members of the Inner House of Scotland's Court of Session, and selected senior judges from certain other Commonwealth countries.  Members retire at the age of 75.
+
+Appeals to ''Her Majesty in Council'' are referred to the Judicial Committee, which formally reports to the Queen in Council, who in turn formally confirms the report.  By agreement, appeals from certain Commonwealth countries lie directly to the Judicial Committee itself.
+
+The Queen-in-Council also considers appeals from the disciplinary committees of certain medical bodies such as the Royal College of Surgeons. Also, cases against the Church Commissioners (who administer the Church of England's property estates) may be considered. Appeals may be heard from certain ecclesiastic courts (the Court of Arches in Canterbury, and the Chancery Court in York) in cases that do not involve Church doctrine. Appeals may also be heard from certain dormant courts, including Prize Courts (which hear cases relating to the capture of enemy ships at sea, and the ownership of property seized from captured ships) and the Court of Admiralty of the Cinque Ports. Finally, the Queen-in-Council determines if an individual is qualified to be elected to the House of Commons under the House of Commons Disqualification Act.
+
+== ECHR and ECJ ==
+
+In addition to the above domestic courts, there are two further courts which can be said to exercise a jurisdiction over the United Kingdom.
+
+The ''European Court of Human Rights'' deals with cases concerning alleged infringements of the ''European Convention on Human Rights''.
+
+The ''European Court of Justice'' deals with cases concerning alleged infringements of European Union law.
+
+
+
+{{BookCat}}

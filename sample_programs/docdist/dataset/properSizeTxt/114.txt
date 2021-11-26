@@ -1,0 +1,244 @@
+{{Technology Planning/Contents}}
+{{TOCright}}
+
+===Implementation Plan===
+
+According to the wiki Directing Technology "Technology implementation starts at the inception of the planning development strategy. There are two distinct types of technology implementation: implementing developed technology and implementing developing technology projects. They are very similar in that the projects need a plan that has a schedule with clear GO/NO-GO decision points and a project team that has well laid out responsibilities. The technology department will be implementing developed technology(2006)".
+
+Implementation of your technology plan will be the most complicated and time consuming part of the process. It is important to allow yourself at least one year before the actual implementation starting day to make all the necessary arrangements. Your plans will depend on many things including the size of your district, status of your existing technology program, skill set of your teachers and administrators and size of your technology staff. Your plan may need to be implemented all at once or over the course of several years, phasing in different stages.
+
+Your technology plan has been accepted by the district. Its time to plan the implementation. At least six months to a year prior to beginning the implementation, several elements of the plan will be carried out simultaneously by several different groups. 
+
+The progress of the project should be documented in writing and communicated to all persons involved.  A good checklist should be developed to organize the associated details.
+
+A sample checklist:
+:*	Describe goals & objectives (as outlined in the Technology Plan)
+:*      Identify participant’s roles and responsibilities
+:*	Identify impacts
+:*	Design methods to deal with impacts
+:*	Identify resources needed and available
+:*	Identify the completion date desired
+:*	Identify the constraints
+:*	Break the implementation into steps
+:*	Identify milestones / decision points
+:*	Design project paths
+:*	Design tracking methods
+:*	Schedule team meetings
+:*	Design communication methods
+:*	Design technical support
+:*	Design professional development
+
+The technical staff implementing developed technology must not only manage the deployment of the hardware and software, but they must also cope with the daily activities of the school district while they prepare for the transition to the new technology. Project management skills are necessary to provide as smooth a job as possible for all involved. Further information on project management: [[/a sample list of project management organizational tools| Sample list of project management organizational tools]]; 
+[[/Project Management Template|Project Management Template]]
+
+At the same time, the administrative team will have researched and decided exactly which laptops will be purchased and from which vendor. They will have determined necessary units and submitted purchase orders. They will include in their orders sufficient quantities of peripheral items like graphic tablets, mouses, headphones with mics, tables, chairs and extension cords.
+
+====Laptops for Students====
+
+The implementation is so important that students will be asked to return to school two days early to be introduced to the laptops. During these two days, students will be involved in induction classes that will take them through the essential concerns of using the new laptops in school. The students will complete two days of formal training with technology specialists and their presence is mandatory. At the end of the induction session, a test will be taken to identify students that can possibly receive further assistance during the start of the year.
+
+The students will be assigned their laptops at before the start of the school year and will be asked to sign an acceptable user policy agreement form and encouraged to personalize their new laptops in case they get assigned laptops for the year. The administrative and professional development teams will assist teachers in introducing the students in understanding how the program will be run and what their responsibilities for using laptops will be.
+
+In addition, parents will also be sent an policy agreement that covers all the necessary information about the consequences of mistreatment of the equipment. This document will also have insurance information. Parents are required to sign this docuemtn and send it back to school.
+
+====Laptop care====
+
+The schools will provide specific features for the school bags that students will use for carrying computer equipment. Those students in the elementary and middle school will be required to use smaller backpacks in comparison to the students in high school. The laptops that students will be using in high school are fully-equipped laptops that need more care that the other robust models used in the lower sections of the school.
+
+In addition, staff and administrators will reinforce the rules of laptop carrying around campus. No computers in high school will be moved without the use of a suitable laptop bag that can safely strap the equipment inside the bag.
+
+====Staff Development====
+
+Teachers and administrators will be the first ones to have a chance to get familiarized with the equipment that will be introduced in their classrooms. It will be necessary to prepare comprehensive tutorials or manuals to allow a quick switch into using the new technology. The professional development group will have finalized their plans for training sessions and will have begun designing the instruction. This instruction will include specific information about the change of school structure as a well as content and grade specific methods for conducting student-centered classes. Teacher responsibilities and technology integration strategies for student-centered project-based units of study will be included.
+
+The administrative team and the professional development team will be carrying out intensive, paid, summer training sessions to prepare teachers for the changes to come in the fall. Teachers will then be given time to restructure their lessons and will have support available when they have problems.
+
+Numerous schools have found ways to adjust schedules and provide one hour of planning and inservice for teachers while maintaining state requirements for students contact time. In some schools teachers have agreed to start earlier and end later each day as well as give up some recess or duty time in order to develop a one-hour block of time per week for inservice and planning. A key is to make sure that at least one early-out per month is devoted to a technology inservice activity.
+
+It is crucial that consideration be given to teacher learning well in advance of the arrival of computers in the classroom. The list that follows is a brief synopsis of beneficial staff development suggestions:
+
+:*	Formulate detailed plans for staff development and implementation.
+:*	Decide who will lead staff development programs and evaluate each stage of implementation.
+:*	Develop a working schedule for the staff  development program.
+:*	Determine appropriate staff development activities for special services and support staff.
+:*	Identify who will lead and evaluate staff development for auxiliary staff members.
+:*	Identify in-house technical consultants who will help teachers deal quickly with problems that might arise.
+
+====Technical Support====
+
+Maintaining and servicing networked equipment continues to be a challenge for schools' effective use of technology. More states are now requiring that districts and schools have a technology specialist or coordinator who supports teachers in integrating instruction and technology before that district can receive state funding. Schools could also have in-house technical support to deal with all the technical problems that could arise. You should foresee a great number of incident reports that deal with student damaging display screen or damaging equipment because of negligence in carrying them.
+
+The summer before the implementation, the same groups will be working to get things ready for the students in the fall. The goals are to have the technology in place to facilitate as smooth a transition as possible. The technology team will receive the laptops, inventory them and load them with the chosen operating systems and software. They will also check connectivity at each school and important points around the district to ensure that the laptops can work from the first day of school. Finally, they will create a yearly maintenance plan for cleaning and preventative care.
+
+If staff or students need to use equipment like projectors, digital cameras or even cables, they can request the media center to facilitate the equipment and provide operational guidance.
+
+====Flexible Scheduling====
+
+They will also conduct public relations meetings for members of the community to inform them about the specifics of the program, including the change from a seven period isolated subject schedule to a more integrated block schedule that includes math-science-art blocks, history-literature-reading-writing-music blocks, world language-history-art music blocks and physical education-art-music-history blocks. They will explain the benefits of changing the school structure to a more constructivist, student- centered one by explaining the theory of how students learn best and demonstrating some proposed class exercises.
+
+Flexible scheduling provides quality time either in the lounge or in the classroom for specific staff members to get together and share ideas about technology. A bonding often occurs between the mentor-teacher and the staff member needing encouragement. This new-found relationship helps solve technical problems and misunderstandings and opens the way for future inservice opportunities.
+
+====Local Intranet====
+
+Data intranets are becoming commonplace in schools. Intranets give schools an unprecedented ability to manage their budgets, buy supplies, and analyze student data. For example, districts are using the data intranet to provide information on student records, test scores, attendance, and health information, to create student profiles.
+
+===Additional Key Points===
+
+The key to success with technology is allowing teachers to develop a sense of ownership of the school's technology. Once teachers develop a sense of ownership, they will be ready to move on to higher levels of technology use. When all is said and done, it will be teachers who determine the success or failure of a technology plan. They are the people who connect technology with curricular practice in a way that will enhance student achievement. In every class, teachers must contend with a variety of learners, such as the fast-paced learner, the less-motivated learner, students with learning difficulties, and the list could go on. With computers in the classroom, teachers have access to tools that have potential for providing learning experiences relevant to each of these unique learners.
+
+====Infrastructure====
+
+When speaking of infrastructure, one is generally referring to the basic facilities and mechanical and electrical installations found in a school. These facilities and installations form the foundation for proposed technology upgrades. The following points provide a brief outline of things to consider when reviewing infrastructure:
+
+:*	Decide how existing equipment and infrastructure can be integrated into the project.
+:*	Visit other schools to evaluate successful programs for structural adaptations that could be copied and, in particular, look for unique ideas to solve local problems.
+:*	Make sure that the network wiring satisfies the needs of the teachers.
+:*	Make sure to count with the necessary expertise to ready the infrastructure for implementation.
+:*	Make sure professionals are brought in order to handle remodeling and other infrastructure needs.
+:*	The technology staff will run diagnostics on the district to check for adequate connectivity and electrical resources and take action to fix any inadequacies or to bolster the already existing systems.
+
+====Teaching and Learning====
+
+When considering how technology will be brought into the classroom, both teaching and learning should be considered. Several points to remember when considering the effects of technology on teaching and learning are:
+
+:*	Evaluate hardware purchases and coordinate them to student needs. Consider features like user-friendliness, dependability, and speed.
+:*	Evaluate projected software purchases to determine which programs will best complement, support, and expand classroom teaching and learning.
+:*	Evaluate planned software purchases for comprehensiveness and user-friendliness. Comprehensiveness is important because ease of use flattens the learning curve and helps ensure that the programs will be used. When checking the software programs, all updates to versions and site licenses will also be completed.
+:*	Determine the simplest approach that will effectively bring computers into the teaching and learning environment. Simplicity aids understanding and allows stakeholders to support the process more readily.
+:*	Establish dialogues with teachers to evaluate classroom space and decide on computer locations withing each classroom.
+:*	Determine the amount of use teachers will make of the new technology.
+:*	Regardless of the size of the technology project, standardizing hardware and software are essential to maintaining control of the technology. Having a single configuration for all computers helps simplify maintenance. More time can be spent using the technology.
+
+====Leadership====
+
+Quality leadership must prevail at all stages of the project. Below is a list of important factors to consider when a technology project is being led:
+
+:*	Keep students' and teachers' needs at the forefront during the various stages of the technology planning process.
+:*	Consider how students and staff members will be affected by the technology changes and develop appropriate support structures like training, changes in classroom layout, and inclusion into curricula.
+:*	Review school programs to determine how course subjects may be adjusted to make use of technologies in the classroom.
+:*	Consider the possibility of having to modify school practices or upgrade regulations.
+:*	Envision what the completed project will look like and what it will do for teaching and learning.
+
+====Financial Management====
+
+Most determinations about finance, generally dealt with at middle and upper management positions, will have a critical impact to the success of the larger groups. Several points are listed below to provide a general overview of the financial management process:
+
+:*	Itemize equipment resources owned by the school. The goal is to look to reduce unnecessary duplication in new purchases. Create an inventory of all technology related items including desktops, laptops, printers and other peripherals, accessories such as mice, power cords, keyboards, all software programs and furniture used for tech purposes.
+:*	Determine if the proposed equipment will be purchased locally or from a national distribution company. Decide who will be responsible for handling the [[recommended]] purchases.
+:*	Review all costs to make sure the technology project is affordable in all its phases.
+
+====Community Awareness and Support====
+
+Community support is necessary during the planning stages of the technology initiative. It is also true that many parents want to be informed about the development of the project in their children's education. Take into account the following factors in order to provide general information to the parents:
+
+:*	Consider how you will be able to show community members how teachers are adopting this technological direction onto their curriculum.
+:*	Address parents' and community members' concerns over how technology in the classroom will enhance student learning and achievement.
+:*	Show parents and members of the community how they and their children can benefit from the process of networking technologies in district classrooms.
+:*	Develop guidelines for presenting information to the public. Be sure all news releases are verified with the public relations director before they go public.
+
+====Sample Calendar====
+
+Please see the calendar below for specifics.
+{|border="1" cellspacing="0" cellpadding="3" align="left"
+|-
+|'''Month'''	
+|'''Task''' 
+|- 
+|-
+|-
+|September	
+|<small>Determine initial commitment to project; Form technology advisory committee; Form project steering committee</small>
+|-
+|-
+|-
+|October	
+|<small>Develop project philosophy and mission statement; Create calendars for specific committee work; Develop project benchmarks and indicators</small>
+|-
+|-
+|-
+|November
+|<small>Finalize goals and targets for project; Carry out needs assessment</small>
+|-
+|-
+|-
+|December	                           
+|<small> Review relevant literature</small>
+|-
+|-
+|-
+|January 	                              
+|<small>Analyze needs assessment data; Disseminate information from literature review;
+Consider possible options available to planners; (Look for such elements as hardware, software programs, implementation strategies, financing, staff development strategies, student needs)</small>
+|-
+|-
+|-
+|February	                          
+|<small>Determine course of action based on available options and needs assessment data;
+List needed materials and resources; Confirm and formalize school board commitment; Establish leadership roles for implementation phase; Fix calendar for implementation phase; Plan public relations program</small>
+|-
+|-
+|-
+|March	                                   
+|<small>Meet with committees to discuss implementation strategies;Purchase hardware, software, and supplementary materials</small>
+|-
+|-
+|-
+|April	                                   
+|<small>Initiate staff development programs; Continue public relations program</small>
+|-
+|-
+|-
+|May	                                   
+|<small>Network installation begins</small>
+|-
+|-
+|-
+|Summer (June to August)                    
+|<small> Begin program; Complete installation and troubleshooting of system; Carry out as much teacher in service as possible before classes begin.</small>
+|-
+|-
+|-
+|September	                           
+|<small>Continue with staff development activities; Use of new technology in instructional program begins; Administrative monitoring of equipment and program begins.</small>
+|-
+|-
+|-
+|October and November	                   
+|<small>Public relations program continues; Ongoing help to teachers provided in various forms.</small>
+|-
+|-
+|-
+|December                          
+|<small>Continue administrative monitoring of equipment and programs</small>
+|-
+|-
+|-
+|January	                      
+|<small>Begin formal project evaluation, which should include: Reports from administrative monitoring from September to December; Continuing administrative monitoring; Feedback to teachers; Feedback to students; Feedback from in-house technology experts</small>
+|-
+|-
+|-
+|February	                           
+|<small>Continue monitoring and gathering information</small>
+|-
+|-
+|-
+|March through May	                        
+|<small>Complete formal evaluations; Make revisions according to information gathered during
+evaluation phase.</small>
+|}
+
+
+
+
+
+
+
+===References===
+http://en.wikibooks.org/wiki/Directing_Technology/Plan
+
+http://www.ics.trieste.it/TP_TechnologyManagement/module4/mod4_3.htm
+
+http://www.ics.trieste.it/TP_TechnologyManagement/module4/mod4_3.htm
+
+Whitehead, B. et al (2003), Planning for Technology : A guide for school administrators, technology coordinators, and curriculum leaders, Corwin Press, Thousand Oaks, CA.

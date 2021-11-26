@@ -1,0 +1,239 @@
+==U.S. GAAP and IFRS==
+
+
+The transition from US GAAP to [[w:International Financial Reporting Standards]] (IFRS) affects the way one reports and accounts for information on financial statementsis. IFRS is already impacting business decisions.  Switching to IFRS will help eliminate the differences between companies financial statements which ultimately is a huge thing allowing better camparabilitiy among companies.  IFRS is principle based accounting, which simply means instead of a having a lot of rules to follow it is more broad with its concepts to guide the accountants.  The goal of a principle based system is to avoid numerous rules.  This makes it easier to go about your business more freely.  Comparing your company to another has always been important.  To see what you have to do to stay on top, and to actually know you are, through comparing is an important motivation.  IFRS will help make this more feasible, and hopefully encourage companies and motivate them along with their competitors now having a better understanding of where they stand.
+
+==Some of the differences between U.S. GAAP and IFRS==
+
+Accounting for contingent losses is very similar between the two however IFRS is "more likely than not" as well as "probable".  IFRS requires reporting present values of estimated cash flows when the effect of time value of money is material whereas U.S. GAAP allows this when the timing of cash flows is fixed or reliably determinable.
+
+Question 1: Under IFRS, if every amount in a range of contingent losses is equally likely the amount accrued is the?
+
+Under, IFRS, not like U.S. GAAP, convertible debt is divided into its liability and equity elements.
+
+Question 2:  Cost incurred in connection with the issuance of bond's and other debt, such as legal costs printing costs, and underwriting fees, are referred to as debt issuance costs.  Using IFRS:
+
+a. transaction costs are recorded separately as an asset
+b. we increase the recorded amount of the debt by the transaction costs
+c. the increase i nthe effective interest rate is reflected in the interest expense
+d. the decrease in the effective interest rate is reflected in the interest expense.
+
+Under IFRS the rate used for leases is usually the rate implicit to discount the minimum lease payments.  However, under U.S. GAAP the lessor uses oen rate, the implicit rate, and the lessees use another, the incremental borrowing rate unless the other rate is lower.
+
+Question 3:
+
+When recording a capital lease Blue Company is aware that the implicit interest rate used by the Greay Company, the lessor, to calculate lease payments is 7%.  Blue's incremental borrowing rate is 6%.  Blue should record the leased asset and lease liability at the present value of the lease payments discounted at:
+
+Question 4:  A lease is a capital lease if substantially all risks and rewards of ownership are transferred whether using U.S. GAAP or IFRS.  When making this determination less judgement, more specificity is applied using?
+
+Question 5:  When the leaseback in a Sale-leaseback transaction is an operating lease, a company that prepares it's financial statements using IFRS:
+
+
+As shown there are still similarities between U.S. GAAP and IFRS but as more and more companies transform over to IFRS it is important to know the differences in the way they account for things!
+
+:All of the questions can be found in the Study Guide Volume 2 for Chapters 13-21, there also are more IFRS question for self-study within this book:
+
+
+
+
+
+Answers:
+
+1.  Midpoint of the range
+2. C
+3. 7%, if using IFRS
+4.  U.S. GAAP
+5.  Immediately recognizes the gain on the sale
+
+((A.Cunningham))
+
+
+
+:''See [http://en.wikibooks.org/wiki/Intermediate_Accounting Intermediate Accounting wikibook overview]''
+
+The three major financial statements are: the Balance Sheet, the Income Statement, and the Statement of Cash Flows.
+
+==Balance Sheet==
+The balance sheet presented in the financial statements published by a firm provides summary information of the assets, liabilities, and shareholder equities of the firm.  There is much detail in subaccounts of the firm's accounting system which is not reported.  What is provided is summary in major account areas, and includes classification of short-term vs. long-term assets and liabilities.
+
+==Income Statement==
+The income statement presented in published financial statement is also summary.
+Income Statement is the statement of operations or statement of earnings is used to summarize the profit generating activities that occurred during a particular period of time. The income statement consist of revenues and expenses.The income statement describes a company's revenue and expenses along with the resulting net income or loss over a period of time due to earning activities. 
+   There are two ways in preparing an income statement. Single step income statement which is an easier approach. Using the simple step method, you total revenues and total expenses, then subtract the total revenue from the total expenses to arrive at the net income. The multi-step income statement is more complex than the single step. The multi-step method takes several steps to arrive at the net income.
+
+Question 1
+Prepare an income statement based on the following information: Service Revenue, 38000; Supplies Expenses,16000; Salaries Expense,12000; Miscellaneous Expenses, 7000.
+                              Income Staement
+Service Revenue           38000
+Supplies Expenses        (16000)
+Salaries Expenses        (12000)
+Miscellaneous Expenses   (7000)
+Net Income                3000
+
+==Statement of Cash Flows==
+The statement of cash flows provides a reconciliation between beginning vs. end balances of cash and cash equivalents of a firm, for the period of the income statement.  A categorization of cash flows by Operating vs. Investing vs. Financing cash flows has been adopted and is now part of required U.S. GAAP reporting.
+
+SFAS #95
+230-10-45-1
+
+A statement of cash flows shall report the cash effects during a period of an entity's operations, its investing transactions, and its financing transactions.
+
+The statement of cash flows lists all cash inflow and cash outflow during a reporting period.
+It has three primary categories:
+
+1.	Cash flows from operating activities
+
+2.	Cash flows from investing activities
+
+3.	Cash flows from financing activities
+
+There are also two other categories
+
+4.	The reconciliation of the net increase or decrease in cash with the change in the balance of the cash account.
+
+5.	Noncash investing and financing activities.
+
+'''Cash Flows from Operating Activities:'''
+
+Includes inflows and outflows of cash that are from activities reported on the income statement. So, they are elements of the net income.
+The cash outflows are when operational assets are acquired.
+The cash inflows are when the assets are sold.
+But, resale of the assets are reported as investing activities except the purchase and sale of inventory are reported as operating activities.
+There are two different methods that can be used to report the cash flows of operating activities. There is the direct method and the indirect method.
+
+''Direct Method'' is when each cash effect is reported directly.
+
+''Indirect Method'' is when the cash effects are reported indirectly by beginning with reported net income and working backwards to convert the amount to cash basis.
+
+In order to identify the inflows and outflows for operating activities you need to analyze the components of the income statement.
+
+For example, in order to find out the cash inflow from customer we need to know the sales revenue, but the sales revenue is also affected by the account receivable account. So, if the sales revenue is 300 and the Accounts Receivable increases by 20 then the cash received from customers would be 280.
+
+In order to determine the cash paid to suppliers you need to look at two accounts: inventory and accounts payable and then determine their effect on the cost of goods sold. For example, if the cost of goods sold was 220 and inventory increased by 7 and accounts payable decreased by 15 the cash paid to suppliers would be 242. You add 7 because the inventory increased and you add 15 because the accounts payable decreased, which means more money was paid.
+
+The cash paid for interest is determined by the bond interest expense and discount on the bonds payable. For example, if the interest expense is $10 and the unamortized discount decreases by $3 then the cash paid for interest is $7.
+
+'''Cash flows from investing activities:'''
+
+SFAS #95
+230-10-45-11
+
+ Cash flows from purchases, sales, and maturities of available-for-sale securities shall be classified as cash flows from investing activities and reported gross in the statement of cash flows.
+Payments to acquire property, plant, and equipment, investment in securities (except trade securities), and non-trade receivable are reported as investing activities.
+
+A gain or loss on sale of land is reported as an investing activity. Whether it is a gain or loss is determined by the difference between the amount of cash received from the sale and the book value.
+For example, if the book value was $120,000 and you sold it for $150,000 that would be a gain of $30,000.
+
+'''Cash flows from financing activities:'''
+
+The cash flows from financing activities are the inflows and outflows of cash resulting from external financing of a business.
+Activities that considered financing activities are sale of common and preferred stock, issuance of bonds and other debt securities, buyback of stock, payment of debt, and payment of cash dividends to shareholders.
+
+'''Reconciliation with change in cash balance:'''
+
+The financial statements must report a reconciliation of net income to net cash flows from operating activities.
+
+'''Noncash investing and financing activities:'''
+
+1.	Acquiring an asset by incurring a debt payable to seller.
+
+2.	Acquiring an asset by entering into a capital lease.
+
+3.	Converting debt into common stock or other equity securities.
+
+4.	Exchanging noncash assets or liabilities for other noncash assets or liabilities.
+
+Found on p. 1116 of Intermediate Accounting textbook, Spiceland.
+
+'''Questions'''
+
+'''1)''' State whether the following transactions are considered an operating, financing, or investing activity, or if they are not reported.
+
+'''a.''' Payment of cash dividends
+
+'''b.''' Purchase of land
+
+'''c'''. Issuance of common stock for land
+
+'''d'''. Purchase of inventory
+
+'''e'''. Issuance of a bond
+
+'''2)''' Which method is being used, the direct or indirect method
+
+Statement of Cash Flows:
+
+Operating Activities:
+
+Cash inflows:
+
+From customers                         105
+
+From Investment Revenue            7
+
+Cash outflows:
+
+To Suppliers for goods             (50)
+
+To employees                             (10)
+
+Income taxes                             <u>  (8)</u>
+
+Net cash flows                                                      44
+
+'''3)'''  Given the sales revenue and the account receivable determine the cash inflow from customers.
+
+'''a'''. Sales Revenue: 150
+
+Accounts Receivable Increase: 5
+
+'''b'''. Sales Revenue: 450
+
+Accounts Receivable decrease: (30)
+
+'''4)''' Given the cost of goods sold, inventory, and accounts payable determine the cash outflow to supplier.
+
+'''a'''. Cost of goods sold: 400
+
+Inventory decrease: (25)
+
+Accounts Payable increase: 30
+
+'''b'''. Cost of goods sold: 500
+
+Inventory increase: 20
+
+Accounts payable increase: 10
+
+'''5)''' Determine the cash paid for interest given the bond interest expense and unamortized discount
+
+Bond Interest expense: 30
+
+Unamortized Discount: (7)
+
+'''Answers:'''
+
+1) a'''. Financing Activity
+
+'''b.''' Investing Activity
+
+'''c.'''Not reported
+
+'''d.''' Operating Activity
+
+'''e.'''Financing Activity
+
+'''2)''' Direct Method
+
+'''3) a.''' Cash received from customers: $145
+
+'''b.''' Cash received from customers: $420
+
+'''4) a.''' Cash paid to suppliers: $345
+
+'''b.''' Cash paid to suppliers: $510
+
+'''5)''' Cash paid for interest: $23
+
+
+{{BookCat}}

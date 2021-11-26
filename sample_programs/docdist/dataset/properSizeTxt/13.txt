@@ -1,0 +1,75 @@
+[[File:USCG Marine Casualty Report on Ocean Ranger.pdf|thumb|USCG Marine Casualty Report on Ocean Ranger]]
+On February 15, 1982, the [[:w:Ocean Ranger|Ocean Ranger]], a mobile offshore drilling platform, sank off the coast of Newfoundland Canada. All 84 lives aboard were lost.  It remains the biggest accident in the Canada’s offshore petroleum industry.  Post-accident studies showed that it was not a catastrophic technological failure; rather, a result of a combination of a failure of the Ocean Drilling & Exploration Company (ODECO) training policy, the lax safety training of the crew, and the lacking seaworthiness of the lifeboats on board. Due to the sinking of the Ocean Ranger, improvements in safety regulations for offshore drilling companies, technological innovations in survivability, continued escape evacuation and rescue (EER) research, and improved safety training procedure have helped decrease the number of offshore drilling incidents. The Ocean Ranger sinking showed that technological improvements are only as effective as the training and management structures of its users.
+
+==Ocean Ranger Background==
+The Ocean ranger was designed by ODECO engineers incorporated for ODECO International of New Orleans, Louisiana, and the Norwegian firm of Fearnley & Eger A/S. It was built at the Hiroshima yard of Mitsubishi Heavy Industries <ref name="a">Royal Commission on the Ocean Ranger Marine Disaster (Canada), & Hickman, T. A. (1984). Report One, the Loss of the Semisubmersible Drill Rig Ocean Ranger and Its Crew. The Commission.</ref>.
+
+===Structure===
+The Ocean Ranger rig consisted of two pontoons, eight vertical columns, an upper hull with two decks, and a supporting framework of braces and trusses.  The two pontoons each contained 16 tanks that served as storage for ballast water, fuel oil, and drill water.  The pontoons were connected to the upper hull by eight watertight vertical columns.   Each of the four corner columns contained three chain lockers for storing the anchor chains.  There were two upper deck openings that led to each chain locker.  Although the American Bureau of Shipping (ABS) designated these openings as the first point of down-flooding, there were no coverings provided for these openings, no drainage system in the chain lockers, no means installed for pumping out water, and no alarm system to indicate flooding.  The Ballast control room was considered a dry area, but it was not protected from sea water. There was no protection provided for the console in case of a port light break, and the console was not designed to be watertight. <ref name="a" />
+
+===Manual===
+The Ocean Ranger's safety manual described how to keep the rig level and stable, how to operate it safely during transit, mooring, drilling and storms, and how to handle severe damage. On January 21, 1977, the manual received final ABS approval but ABS disclaimed any responsibility for the adequacy of the instructions contained in the operating manual.  The ABS certified only the Ocean Ranger's construction but not its safety design or operation. However, ABS’s official stamp could have led third parties to conclude that the approval applied to the manual as a whole. As a result, the Ocean Ranger’s operating procedures were never thoroughly reviewed.     
+The manual was deficient in several respects <ref name="a" />:
+*Lack of direction for the prevention of down flooding into the chain lockers
+*The closure of deadlights in the ballast control room during storm conditions
+*Manual control of the ballast system in the event of serious damage to the ballast control console.
+*No information concerning the limitations of the ballast system
+
+===Manning and Operation===
+Post-accident research showed that the command structure of the Ocean Ranger was deficient. The electrical and mechanical systems on the Ocean Ranger were maintained by two electricians, an electronics technician, two motormen and two mechanics <ref name="a" />.  They shared responsibility for the maintenance of the system, but no single person fully understood the function and operation of the entire system. Thus, no one was able to detect and remedy the situation during a severe accident. The crew structure of the Ocean Ranger reflected a predominant interest in an efficient industrial endeavor. The marine operations which ensured the stability and safety of the rig were relegated to a subordinate role, comparable to that of any other support group.  Evidence shows that at the time of the loss, the Ocean ranger was undermanned by a minimum of 3 certificated lifeboatmen and 2 able-bodied seamen <ref name="a" />.  Additionally, in practice, the crew training on the Ocean Ranger was not consistent with ODECO’s stated training program.  Three formal employees testified on the public hearing that 80 weeks of training were required. In reality, less than 40 weeks of training were practiced <ref name="a" />.
+
+==February 15th 1982==
+
+===Weather===
+A series of weather forecasts issued by Newfoundland Oceans Research and Development Corporation (NORDCO) indicated that the weather conditions at the drill site would deteriorate during the early hours of Sunday, February 14th, as a deep low centre approached the area. At 1:30 a.m. on Saturday February 13th, NORDCO forecast that wind speeds of 60 knots and maximum sea heights of 22 feet could be expected at the drill site by mid-afternoon on Sunday <ref name="a" />. By 7:30 p.m. on Saturday, the forecast was changed to maximum wind speeds of 70 knots and maximum sea heights of 24 feet. Then, at 7:30 a.m. on Sunday, NORDCO revised its forecast predicting potential wind speeds of 90 knots and maximum sea heights of 40 feet by 2:30 p.m, and warned against continued drilling during the storm <ref name="a" />.
+
+===Cause of the Incident===
+The actual sinking of the Ocean Ranger was caused by winds of 68 knots and seas of approximately 50 feet <ref name="a" />. With the greater sea heights, the large waves and strong winds caused failure to the portlights of the ballast control room. The rough weather caused the windows to break, and this failure allowed seawater to enter the ballast control room <ref> "Mobile Offshore Drilling Unit (MODU) Ocean Ranger." Marine Casualty Report 1 (1983): 1-171. Print. </ref>. 
+
+The Ocean Ranger’s ballast control console and communications equipment malfunctioned due to the water entering the room. This control room was used to control the pumps and valves that kept the rig balanced and stable. The susceptibility of this console to water damage was a serious design deficiency for a craft working in a marine environment. 
+
+====Control Room Malfunction====
+Because of the malfunction of the control panel, employees onboard the Ocean Ranger took matters into their own hands. A rod and bushing, part of the ballast control system, was used to control valves manually in the event of a failure of the automatic controls <ref> Babaian, Sharon. "The Ocean Ranger." Evidence from a Disaster 61 (2005): 1. Print.</ref>. Due to the limited knowledge about the operations of the vessel during an emergency, operators wrongly believed that inserting the rod closed the valves to the stability rigs where seawater from the storm was flooding. In fact, this opened the valves, allowing the seawater to flood in.
+
+===Capsizing of the Ocean Ranger===
+At approximately 1 a.m. on Monday February 15th, 1982, the Ocean Ranger started emitting distress calls, indicating that they were abandoning the rig <ref name="a" />. Rescue teams were sent out to aid the MODU, but were not able to get to the rig in time. At 3:00 a.m., the Ocean Ranger capsized and sank into the Atlantic Ocean approximately 166 miles east of St. John’s Newfoundland in about 260 ft of water. 
+
+All 84 people aboard the Ocean Ranger died. 22 bodies were recovered between February 15th and February 24th 1982, and had died as a result of hypothermia. The remaining 62 bodies of crew-members remain missing. Out of the 84 people, 46 of were Mobil employees, and 38 were contractors from various other service companies.<ref> Heising, Carolyn D., and William S. Grenzebach. "The Ocean Ranger Oil Rig Disaster: A Risk Analysis." Risk Analysis 9.1 (1989): 55-62. Print. </ref>
+
+==Effect of The Ocean Ranger==
+
+===Lawsuits and ODECO's Fate===
+In October of 1983, the families of The Ocean Ranger crew reached settlement with the ODECO Company and its partners. Individual settlements from $25,000 to $270,000 were awarded. The total settlement was approximately $20 million <ref>"Settlement reached ranger lawsuits." ''The Montreal Gazette'' [Montreal] 13 October 1983. B4. Google News Web. 1 April 2014 </ref>. In 1993 11 years after the loss of the Ocean Ranger, the Diamond M Corporation purchased all outstanding ODECO company stock from Murphy Oil, ODECO’s parent company <ref> Krenek, G. (2001, December 3). ''CEO Interview'' (TWST, Interviewer) [online]. Retrieved from https://www.twst.com/interview/11182 </ref>.
+
+===Following the Ocean Ranger and EER Research===
+[[File:Events Flowchart.jpg|thumb|Flowchart of events since ocean ranger.]]
+The flowchart above shows the events that occurred directly following the sinking of the ocean ranger. In 1983, the East Coast Petroleum Operators Association published a report on offshore safety which analyzed the current state of affairs. The Royal Commission on the Ocean Ranger Marine Disaster (RCOMD) [http://www.archivescanada.ca/english/search/ItemDisplay.asp?sessionKey=1143412449030_206_191_57_196&itm=257713] published parts I and II of their report on the ocean ranger; this report identified the primary causes of the ocean ranger disaster and the primary action items to prevent such an event from being repeated. In 1985 and 1987 respectively a federal government investigation into the Ocean Ranger disaster occurred and a five year update report on regulatory improvements since the Ocean Ranger was published.
+Parts I and II of the RCOMD report identified three primary groups involved in the Ocean Ranger sinking: government, industry, and researchers.
+[[File:RCOMD Recommendations.jpg|thumb|RCOMD recommendations]]
+At the time of the Ocean Ranger sinking, the majority of research into EER was focused on technology. Following the Ocean Ranger sinking, there was a noticeable increase in EER research <ref name="Transport Canada Report">Transport Development Centre of Transport Canada. 2006. ''Survey of Offshore Escape, Evacuation & Rescue  Safety Systems  (Post Ocean Ranger Recommendations)''. TP 14554E. Retrieved from http://www.safetyfirst.ca/sfmedia/Articles/TP14554e.pdf</ref>.
+
+===Piper Alpha===
+[[File:Piper Alpha Incident Memorial.jpg|thumb|Piper Alpha Incident Memorial]]
+In July of 1988 the Piper Alpha [https://en.wikipedia.org/wiki/Piper_Alpha], an offshore oil drilling platform in the North Sea burned down. This resulted in the deaths of 167 of the 228 crew members onboard. Prior to the fire the Piper Alpha was responsible for 10% of the oil and gas production in the North Sea. The Cullen Report [https://en.wikipedia.org/wiki/Cullen_Report] published in 1990 conlculded that there was no technological faul onboard the Piper Alpha platform. The fire was due to the failure of the safety management systems and of the command and control structure responsible for preventing and managing emergencies. This resulted in a shift in focus in EER research, from a mostly technological focus to a combination of technology and systems. <ref>Oil and Gas UK. (2008). ''Piper Alpha: Lessons Learnt, 2008''. Retrieved from http://www.oilandgasuk.co.uk/cmsfiles/modules/publications/pdfs/HS048.pdf</ref>.
+
+===Improvements Since Ocean Ranger===
+
+====Technology====
+Individual survivability has been improved through new immersion suits. Evacuation methods from the platforms have been renovated through life boat launch system enhancements and the seaworthiness of evacuation vehicles has also been improved. The reliability and effectiveness of search rescue and recovery has been increased through improved capabilities of the search and rescue aircrafts. Despite these advances, some manufactures of immersion suits and lifeboats refuse to interrupt current production lines to design and develop new equipment for offshore energy industry systems because in maritime, offshore oil drilling companies make up a small percentage of revenue compared to world shipping fleets<ref name="Transport Canada Report" />.
+
+====Research====
+Petroleum Research Atlantic Canada (PRAC) was created and has led to the creation of "Communities of Interested" which create specific research areas and prevent redundancies in research. However, due to the "cyclical nature" of the offshore industry some research is lost in the complexity of the operations resulting in inefficiencies and duplication of research. In addition escape, evacuation, and rescue (EER) research follows a "pattern of disaster", it focuses on fixing the element of technological capability found lacking in the last disaster. As a result relatively little EER research breaks new ground<ref name="Transport Canada Report" />. 
+
+====Regulation====
+New safety regulations in offshore drilling platforms require more frequent equipment checks and safety drills. The survival equation was changed.[[File:New and Old Survival Equations.jpg|thumb|New and Old Survival Equations for offshore drilling safety]] Safety regulations enacted to respond to specific disasters are appropriate when the regulation is enacted but the regulation quickly becomes irrelevant due to technological advancements. Safety regulations in mobile offshore drilling must add consideration for future advancements in technology<ref name="Transport Canada Report" />.
+
+====EER Standards & Procedures====
+Advances in safety equipments and standards address EER problems that existed in the 1990's. However, due to international nature of offshore drilling, some countries refuse to implement EER standards created without their influence. This leads to delay in modernization of certain offshore technological standards<ref name="Transport Canada Report" />.
+
+====Training====
+New safety training procedures incorporate recent updates to EER standards. In addition, personnel onboard offshore platforms are required to participate in safety training prior to deployment onboard platforms. Despite these improvements, changes in adult learning theory have not been efficiently applied to employee training. Current training requirements may not fully reflect the needs of a modern learner, making EER training less effective<ref name="Transport Canada Report" />.
+
+==References==
+{{reflist}}
+
+{{BookCat|sort=Loss of Ocean Ranger}}

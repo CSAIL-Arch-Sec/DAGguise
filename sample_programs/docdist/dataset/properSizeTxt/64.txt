@@ -1,0 +1,112 @@
+{{BookCat}}
+
+{{Navigate
+ |Book=Business Intelligence
+ |Curr=Clarify strategy
+ |Prev=Understand strategy
+ |Next=Framing the strategy}}
+
+
+==Introduction== 
+
+ *Purpose: Understand the decision maker's frame of reference
+ *Input: List of BI system users and administrators
+ *Activities: Interview users
+ *Outputs: Users needs and requirements
+ *Documents: Statement of user requirements
+
+"A key point to keep in mind throughout the project is that users will always ask questions of the decision support system from their frame of reference. If you do not understand that frame of reference, you could deliver a system that may theoretically be fabulous, but end users will have trouble using it, or the performance will be incredible poor since you have design a completely different set of parameters." (Poe et al. 1997)  To understand the decision maker's frame of reference involves eliciting a wide range of knowledge from the users. A further problem is that interviewer may need to gather requirements from users with little or no BI knowledge or experience. This requires an open-minded approach (Morgan et al. 2007).
+
+The keys to successful interviews is preparation, providing advanced notice and making sure that the end-user understands the importance of the interview (Poe et al. 1997).  This requires first studying the by looking at the competitive marketplace.  After studying the firm's environment it is then necessary to study the decision makers and strategists.  Finally, the analyst must then study the company ''from the point of view of the frame owner.''  
+Note that the approach taken in this book is that the analyst does not work for the company.  The analyst therefore begins with a blank slate regarding the company.
+
+==Organizational chart==
+
+A very useful tool for identifying interviewees is an [http://en.wikipedia.org/wiki/Organizational_chart organizational chart].  This is a diagram that shows the structure of an organization and the relationships and relative ranks of its parts and positions/jobs.  The chart shows the executives, managers and sub-workers who make up an organization.  The important features are the names of employees, role/position and the links between employees using the identification of superior and subordinate.
+
+A hierarchical chart is most appropriate because it shows the structure of an organization [http://en.wikipedia.org/wiki/Hierarchical_organization hierarchical organization].  This type of chart shows each entity in the organization, except one, as subordinate to a single other entity. Hierarchies denote a singular/group of power at the top, a number of assistants underneath and hundreds of servants beneath them.  The chart allows the analyst to deduce the roles of all the employess and identify important decision makers.
+
+
+==Interviewees==
+
+All the interviewees will fall into specific roles.  You need to identify people in the following roles in order to interview all the responsible parties.
+
+:* Sponsors
+:* Executives
+:* Managers
+:* Analysts
+:* Data warehouse and database administrators
+:* Project managers
+
+===Sponsors===
+
+::"If you ask people what the number one enabler for a successful BI deployment is, most will respond "executive support." It's an easy answer as executive support is key to the success for almost any companywide initiative—change in business strategy, new product launch, or reorganization. However, getting that executive support may not be easy, particularly if senior executives don't believe in or understand the value of business intelligence."  (Howson 2007)
+
+Sponsors are the people, regardless of role in the company, whose backing will increase the chance of project success by backing the project.  They are therefore the first group to identify and interview.  One IT professional was quote as saying that the BI initiation was not successful because of the lack of vision, sponsorship and leadership from the executive level (Howson 2007).  Since executive support is important, gaining one or more supporters at the executive level will significantly increase the chance of success.
+
+These individuals can be in IT, the business unit, in the C-suite, members of the board, or possibly even outside the organization.  Where they come from is not important.  Rather, their influence on the company is important.
+ 
+
+===Executives===
+
+''C-Suite''
+
+The highest level executives reside in the C-Suite.  These individuals are in the group of executives that have word "chief" in their titles.  They are the highest level executive officers.  For example, Microsoft has the following C-suite personnel as of June 2009 (this is not an endorsement of Microsoft):
+
+Craig Mundie- Chief Research and Strategy Officer was quoted as saying
+“We're really trying to change the nature of software...to move it beyond the point and click model of computing to something where people will have a much more natural way of interacting with the machines...I think increasingly we'll be able to talk to our computer and it will talk back...it may even be possible for it to anticipate some of the things we want to do and just do them for us.” [http://www.microsoft.com/presspass/exec/leadership/default.aspx]
+-"Looking Back, Moving Forward" video, June, 2008
+
+It is important to gain a better understanding of the reference frame of all decision makers in the C-Suite.
+
+''Presidents and Vice presidents''
+
+A president or vice president usually reports to a president (VP) or member of the C-suite (president or VP).  VP rankings starts with the Executive VP, with the Senior VP next, VP usually as the lowest ranking and Assistant/Second/Staff Vice President used as a subordinate rank to Vice President.
+
+Presidents can be as important in shaping vision and strategy as vice presidents.  Regardless of the specific title any Vice President is always an important decision maker for the organization but may not be as important as the president.  One way to think of the VP is as a subject area specialist below the level of the C-suite and president.  For example, Microsoft has the following President and Vice Presidents as of June 2009:
+
+Dr. Qi Lu - president of Microsoft's Online Services Division (OSD), leads the company's search and online advertising efforts and also oversees all of its online information and communications services. Dr. Lu oversees the OSD Research & Development team which has responsibility for the evolution of Microsoft's search, portal and advertising services; the Online Audience Business Group; and the Advertiser and Publisher Solutions Business Group. Dr. Lu reports to Microsoft chief executive officer Steve Ballmer.
+
+Mich Mathews - As the senior vice president for Microsoft's Central Marketing Group, oversees the company's global marketing function, spanning a diverse set of businesses and audiences.  Mathews reports to the chief operating officer, Kevin Turner.
+
+Lisa Brummel is the senior vice president for Human Resources at Microsoft, a position she has held since May 2005.
+
+Brad Smith -  Senior Vice President, General Counsel and Corporate Secretary. He leads the company's Department of Legal and Corporate Affairs, which is responsible for all legal work and for government, industry and community affairs activities.
+
+The connection between reference frame and role is important.  A president or vice president has a specific reference frame and in the case of a vice president it is usually part of their title. 
+
+===Director/Manager===
+
+"[http://www.ensynch.com/sp_operational_efficiency.aspx Operational Efficiency] is what occurs when the right combination of people, process, and technology come together to enhance the productivity and value of any business operation, while driving down the cost of routine operations to a desired level. The end result is that resources previously needed to manage operational tasks can be redirected to new, high value initiatives that bring additional capabilities to the organization."
+
+Executives develop strategy.  Directors and managers execute strategy by leading departments or groups that engage in activates designed to achieve a specific outcome for the customer or facilitate the outcome.  They do this by focusing on strategic goals.  These groups must have the people, process and technology needed to engage in activities required to achieve their assigned goals.  Directors and managers are responsible for executing strategy by allocating resources towards improving people, process or technology.  
+
+Dividing the company into departments that can effectively and efficiently engage in the activities is critical for executing the strategy.  Companies are divided into departments through the process of [http://en.wikipedia.org/wiki/Departmentalization Departmentalization], meaning referring to the process of grouping people, processes/activities and technologies into departments.  These departments have efficient groups of specialists that perform a few functions efficiently and effectively.  By [http://en.wikipedia.org/wiki/Division_of_labour Specialization/Division of labor] the firm achieves the organization of cooperative labor in specific, circumscribed tasks and roles, intended to increase the productivity of labor. 
+
+[http://en.wikipedia.org/wiki/Management Business management] consist of six separate branches:
+
+*Human resource management
+*Operations management or production management
+*Strategic management
+*Marketing management
+*Financial management
+*Information technology management responsible for management information systems
+
+===Analysts===
+The analysts perform the day-to-day [http://en.wikipedia.org/wiki/Business_analytics analytics] for a company and is the main business intelligence worker.  Analytics includes quantitative and qualitative analysis, explanatory data analysis, predictive modeling, querying, reporting, OLAP, and "alerts" needed for decision making.  Businesses analytics represent a subset of business intelligence (see [http://en.wikipedia.org/wiki/Thomas_H._Davenport Davenport]).  The analyst can answer such questions as 
+*What happened?
+*How many?
+*How often?
+*Where?
+*Where exactly is the problem?
+*What actions are needed?
+*Why is this happening?
+*What if these trends continue?
+*What will happen next?
+*What is the best that can happen?
+
+The goal is to understand how they use the system and how the system can help them deliver the intelligence needed for making decisions.  
+
+===Data warehouse and database administrators===
+
+===Project managers===

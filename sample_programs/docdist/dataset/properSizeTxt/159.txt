@@ -1,0 +1,196 @@
+== Notation ==
+
+=== Points ===
+
+''A'', ''B'', ''C'' ... will be used to denote points. In addition to denoting points in space, uppercase Roman letters can also denote the vertices and their respective angles.
+
+=== Lines ===
+
+For two arbitrary points ''A'' and ''B'':
+* [{{overline|AB}}) denotes a ray that begins at ''A'' and passes through ''B''.
+* ({{overline|AB}}) denotes a line through the two points.
+* [{{overline|AB}}] or {{overline|AB}} denotes a line segment beginning at ''A'' and ending at ''B''.
+
+Besides typographical convenience, this kind of notation is designed to reflect interval notation used to represent the real number line.
+
+=== Polygons ===
+
+==== Angles in Polygons ====
+
+For angles, given two terminal points ''A'' and ''C'' with a vertex of  ''B'', the angle will be denoted by ∠''ABC''.
+
+==== General Polygons ====
+
+For a polygon, the letters ''a, b, c''... will denote the sides of a polygon. The sides of a polygon will always be denoted with lowercase, italicized Roman letters. In the case of a triangle, the sides ''a, b, c...'' will denote the sides opposite of vertices  ''A, B, C''....
+
+==== Triangles ====
+
+The perimeter of a triangle is ''2p''. We use this notation so that we may denote the semiperimeter as simply ''p''.
+
+''h<sub>a</sub>, h<sub>b</sub>'', and ''h<sub>c</sub>'' denote the altitudes and ''m<sub>a</sub>, m<sub>b</sub>,'' and ''m<sub>c</sub>'' the medians of a triangle ''ABC'', corresponding to sides ''a, b, c''.
+
+''t<sub>a</sub>'' is the internal bisector of ∠''A''. ''T<sub>a</sub>'' is the external bisector of ∠''A''.
+
+=== Circles ===
+
+<math> R </math> and <math> r </math> are the radii of the circumscribed circle and inscribed circle, respectively.
+
+<math> [A, r] </math> denotes the circle having point <math> A </math> for its center and the length of segment <math> r </math> for its radius. <math> r </math> doesn't have to be the literal segment-- merely its length.
+
+=== Intersections ===
+
+<math> M = \langle AB, CD \rangle </math> denotes the point of intersection of two lines <math> AB </math> and <math> CD </math>. Alternatively, if <math> a </math> and <math> b </math> are defined, the intersection may be denoted by <math> M = \langle a, b \rangle </math>. If circles are being used for intersection and there is ambiguity, a direction will be specified after so the reader may choose the appropriate intersection.
+
+== Constructing Parallel Lines ==
+
+[[File:Parallel Line Construction.gif|thumb|Animation of the construction to problem 1.]]
+
+'''Problem:''' Given an existing line <math> a </math> and a point <math> P </math> not on that line, construct a line parallel to <math> a </math> through the given point.
+
+'''Solution:''' Construct an arbitrary line <math> b </math> so that it passes through point <math> P </math> and intersects <math> a </math>. Let <math> Q = \langle a, b \rangle </math>. Construct a circle with an arbitrary radius and with <math> Q </math> as its center. Let <math> R </math> be the northern intersection between the circle at <math> Q </math> and line <math> b </math>. Construct circle <math> [P, QR] </math>. Let <math> S = \langle [P, QR], b \rangle </math> north. Let <math> T = \langle [Q, QR], a \rangle </math> east. Construct <math> [T, TR] </math> and <math> [S, TR] </math>. Let <math> U = \langle [P, QR], [S, TR] \rangle </math> southeast. Create a line that goes through <math> P </math> and <math> U </math>. This new line will be parallel to <math> a </math>.
+
+'''Proof:''' This proof relies on the following theorem: if <math> \angle SPU </math> and <math> \angle RQT </math> are congruent, then <math> \overleftrightarrow{PU} </math> is parallel to <math> \overleftrightarrow{QT} </math>. Let us assume that the previous statement is false, and having <math> \angle SPU = \angle RQT </math> results in nonparallel lines. Because of this, there must be some point <math> Z </math> where <math> \overleftrightarrow{PU} </math> and <math> \overleftrightarrow{QT} </math> meet. Because of that, triangle QPZ is  formed. Because <math> \angle SPU = \angle RQT </math>, it follows that <math> \angle UPR </math> is supplementary to <math> \angle RQT </math>. That being said, because <math> \angle UPR </math> is supplementary to <math> \angle RQT </math>, <math> \angle PZQ </math> must equal zero degrees, which is impossible, therefore,<math> \overleftrightarrow{PU} </math> is parallel to <math> \overleftrightarrow{QT} </math>.
+
+Notice that this proof works only for the right hand side. Proving it for the left-hand side uses mostly the same reasoning, except with different symbols, so it is left as an exercise for the reader.
+
+== Dividing a Segment into N parts ==
+
+[[File:Constructing a Divided Line.gif|thumb|Animation of the construction to problem 2.]]
+
+'''Problem:''' Divide a given segment into n equal parts, where n is an integer greater than two.
+
+'''Solution:''' We'll let n = 3 for this example, but the method used should make it easy for the reader to generalize it to greater values of n. Let us call the given segment <math> \overline{AB} </math> for convenience. 
+
+Construct a circle of arbitrary length at point <math> A </math>. Create an arbitrary point <math> C </math> so that it lies on the circle we just made. Construct the line <math> \overleftrightarrow{AC} </math>. Construct <math> [C, AC] </math>. Let <math> D =  \langle [C, AC], \overleftrightarrow{AC} \rangle </math>  north. Construct <math> [D, AC] </math>. For convenience's sake, let's call <math> \overleftrightarrow{AC} </math>, line <math> a </math>. Let <math> E = \langle [D, AC], a \rangle </math> north. Construct <math> \overleftrightarrow{EB} </math>. Let's call <math> \overleftrightarrow{EB} </math>, line <math> b </math>. To complete this, construct parallel lines through <math> D </math> and <math> C </math>, and make both lines parallel to <math> b </math>. Let us call the parallel line through <math> C </math>, line <math> c </math>, and let us call the parallel line through <math> D </math>, line <math> d </math>. Let <math> F = \langle \overline{AB}, d \rangle </math> and let <math> G = \langle \overline{AB}, c \rangle </math>. These two points shall divide <math> \overline{AB} </math> into three.
+
+If we want to generalize this to higher values of n, just construct (n-3) more circles on <math> a </math>, and follow the rest of the procedure.
+
+'''Proof:'''If we look back at our construction, one should notice that we also constructed three triangles: triangle ACG, triangle ADF, and triangle AEB. All of these triangles share <math> \angle CAG </math> in common. In addition, because <math> b </math>, <math> c </math>, and <math> d </math> are all parallel to each other, <math> \angle CGA \, , \angle DFA \, ,</math> and <math> \angle EBA </math> are all congruent to each other. Because of angle-angle congruence, it follows that triangles ACG, ADF, and AEB are all similar to each other.
+
+Because of how we constructed the circles earlier, <math> \overline{AC} </math> is one third of <math> \overline{AE} </math>. Because triangle ACG is similar to triangle AEB, it follows that <math> \overline{AG} </math> is one third of <math> \overline{AB} </math>.  Likewise, <math> \overline{AD} </math> is two-thirds of <math> \overline{AE} </math>, making <math> \overline{AF} </math> two-thirds of <math> \overline{AB} </math>. However, since we established that <math> \overline{AG} </math> is one-third of <math> \overline{AB} </math>, it follows by subtraction that <math> \overline{GF} </math> is one-third of <math> \overline{AB} </math>. Lastly, since <math> \overline{AF} </math> is two-thirds of <math> \overline{AB} </math>, <math> \overline{FB} </math> must be one-third by subtraction.
+
+Because each segment is one third of the whole length, it follows that <math> \overline{AB} </math> was divided into 3 equal parts.
+
+It is also possible to see how the congruence relationship can work for all integral values of n greater than 2, but it is both tedious and non-essential to prove this.
+
+== Perpendicular Bisector ==
+
+'''Problem:''' Given a line segment, construct it's perpendicular bisector.
+
+'''Solution:''' Set your compass so that its radius is larger than half of the line segment. Construct two circles having this radius, with the centers at the endpoint of the line. There should be two points of intersection with the circles. Connect them. This line will be both perpendicular and a bisector of the segment.
+
+'''Proof:''' This is a direct consequence of the equidistance theorems, more or less.
+
+== Perpendicular Line to a Point ==
+
+[[File:Perpendicular.gif|thumb|Perpendicular line to a point construction animated.]]
+
+'''Problem:''' Given a line and a point not on that line, construct a line through the given point so that it is perpendicular to the given line.
+
+'''Solution:''' Let's call the line <math> d </math> and let's call the point <math> P </math>. Set the radius of your compass large enough so that it intersects <math> d </math> at two points with a center of <math> P </math>. Once the circle is constructed, let's call the two intersection points <math> A </math> and <math> B </math>. Construct two equiradii circles on <math> A </math> and <math> B </math>, and we'll call the intersection of these two circles <math> C </math> and <math> D </math>. Construct a line through <math> C </math> and <math> D </math>; it will both go through the given point and will be perpendicular to the given line.
+
+'''Proof:''' The initial two points of intersection are equidistant from <math> p </math>, and by constructing two more circles, an additional equidistant point from <math> A </math> and <math> B </math>. By the equidistance theorems, the newly constructed line is the perpendicular bisector of segment <math> \overline{AB} </math>, which makes it perpendicular to the given line.
+
+== Constructing Proportional Lines ==
+
+[[File:Proportional Triangles.gif|thumb|Proportional lines construction animated.]]
+
+'''Problem:''' Suppose you are given three line segments: line <math> a </math>, line <math> b </math>, and line <math> c </math>. They are not put together in a polygon or anything; just three plain old line segments. Construct another line segment called <math> d </math> so that <math> \frac{a}{b} = \frac{c}{d} </math>.
+
+'''Solution:''' Construct a random line (that we shall call <math> d </math>). Construct an arbitrary point so that it lies on <math> d </math> called <math> A </math>. Construct <math> [A, a] </math>. Let <math> B = \langle [A, a], d \rangle </math> west. Construct <math> [B, a] </math>. Let <math> C = \langle [B, a], d \rangle </math> west. Construct the perpendicular bisector of <math> \overline{AC} </math> that we shall call <math> w </math>.
+
+We're now going to do something similar, except for segment <math> b </math>. Construct <math> [A, b] </math>. Let <math> E = \langle [A, b], d\rangle </math> east. Construct <math> [E, b] </math> Let <math> F = \langle [E, b], d \rangle </math> east. Construct the perpendicular bisector of segment <math> \overline{AF} </math> that we shall call <math> x </math>.
+
+Construct <math> [B, c] </math>. Let <math> G = \langle [B, c], w \rangle </math>. Construct the line <math> \overleftrightarrow{GA} </math> and let it intersect line <math> x </math> at H. Segment <math> \overline{HE} </math> will satisfy the property.
+
+'''Proof:''' Triangle ABG and triangle AEH are both right triangles. In addition, they have a vertical angle, which is congruent. Therefore by definition of similarity,<math> \frac{a}{b} = \frac{c}{d} </math>
+
+== Finding the Geometric Mean ==
+
+[[File:Geometric Mean Construction.gif|thumb|Geometric Mean Construction]]
+[[File:Right Triangle Similarities.png|thumb|left|Fig. 1]]
+
+'''Problem:''' Given two segments <math> a </math> and <math> b</math>, find the geometric mean of the two segments.
+
+'''Solution:''' Create a point <math> A </math> and construct <math> [A, a] </math>. Construct a point on the newly-created circle called <math> B </math>. Construct circle <math> [B, b] </math>. Construct the line <math> \overleftrightarrow{AB} </math> which shall be denoted as <math> c </math>. Let <math> C = \langle a, [B, b] \rangle </math>. Construct a line through <math> B </math> which is perpendicular to <math> c </math>; this line shall be called <math> d </math>. Bisect line segment <math> \overline{AC} </math>. Let <math> D </math> be this point of bisection. Construct circle <math> [D, \overline{AD}] </math>. Let <math> E = \langle [D, \overline{AD}], d \rangle </math>. The line segment <math> \overline{BE} </math> shall satisfy the condition.
+
+'''Proof:''' The proof of this construction relies on two steps: the first one is showing that for any right triangle, <math> f^2 = ab </math> (see Fig. 1). After that, we must show that we constructed such a right triangle.
+
+To prove the first part, we must take note of a few properties. By definition, the altitude <math> f </math> is perpendicular to the hypotenuse. This means that both <math> \angle ADB </math> and <math> \angle BDC </math> are right angles. Now, notice how <math> \angle CBD + \angle DBA = 90^{\circ} </math>. In addition, <math> \angle DAB + \angle DBA = 90^{\circ} </math>. Setting both of these equations equal to each other leads to <math> \angle DAB + \angle DBA = \angle CBD + \angle DBA </math>. Therefore, by subtraction, <math> \angle DAB = \angle CBD </math>. Because we have shown that two angles in two different triangles are the same, it follows that triangle ABD is similar to triangle BCD. By definition of similarity, this means that <math> \frac{f}{a} = \frac{b}{f} </math>. By cross multiplication, <math> ff = ab </math>. This can be rewritten as <math> f^2 = ab </math>. By solving for f, this becomes <math> f = \sqrt{a}{b} </math>.
+
+To show that we constructed such a triangle, notice that in our construction, we made the hypotenuse equal <math> a + b </math> and constructed a circle with the hypotenuse being the diameter. By Thales' Theorem, any point on the circle connected to the endpoints of the diameter forms a right angle, thus constructing a right triangle satisfying the properties.
+
+== Squaring ==
+
+A large segment of constructions are trying to construct a square that has the same area as a given geometric figure. Some of these are impossible, such as constructing equal-area circles and squares, but many of them are possible, such as rectangles and triangles.
+
+=== Squaring the Rectangle ===
+
+[[File:Equivalent Square Rectangle.gif|thumb|Animation of how to square the rectangle.]]
+
+'''Problem:''' Given a rectangle, construct a square with equal areas.
+
+'''Solution:''' For convenience, let's denote the rectangle as ABCD, with <math> \overline{BC} \text{and} \overline{AD} </math> being the longer sides while <math> \overline{AB} \text{and} \overline{CD} </math> are the shorter sides. 
+
+Construct <math> [D, CD] </math>. Let <math> E = \langle AD, [D, CD] \rangle </math> east. Construct the midpoint of <math> \overline{AE} </math> and call it F. Construct <math> [F, AE] </math>. Extend <math> \overline{CD} </math> to intersect <math> [F, AE] </math> at point <math> G </math>. The segment <math> \overline{CG} </math> is the sidelength for an equivalent square.
+
+To construct the equivalent square, just create a circle with said radius, and construct two radii which are perpendicular to each other. Once that is done, construct two tangent lines to those radii. A square will form.
+
+=== Squaring the Triangle ===
+
+This is basically the same procedure, only with half of the height and the base being the constituent parts of the rectangle.
+
+
+== Tangents to a Circle ==
+
+[[File:Secant Theorem.png|thumb|Figure 2]]
+
+'''Problem:''' Given a circle and a point not on that circle, construct two tangent lines.
+
+'''Solution:''' Let the circle have a center of <math> O </math>. Let <math> A </math> be the point that lies outside of it. Construct the line <math> \overleftrightarrow{AO} </math>, and name the two intersection points within the circle <math> C </math> and <math> D </math>. Construct <math> [A, AC] </math>. Let <math> E = \langle [A, AC], \overleftrightarrow{AO} \rangle </math>. Now, construct a line through <math> A </math> called <math> a </math> so that it is perpendiculars to <math> \overleftrightarrow{AO} </math>. Let F be the midpoint of <math> \overline{AD} </math>. Construct <math> [F, FD] </math> Let <math> G = \langle [F, FD],  a \rangle </math>.
+
+If you let the circle <math> [A, AG] </math> intersect the given circle, the two points of intersection will be the two points of tangency.
+
+'''Proof:''' This proof relies on the secant-tangent theorem, which is actually a special case of the secant-secant theorem. The theorem states that for any point which lies outside a circle, such as in Figure 2, <math> (AB)(AC) = (AD)(AE) </math>. When the chord <math> \overline{BC} </math> gets progressively smaller, such as the case of a tangent, the differences between <math> AB </math> and <math> AC </math> start to vanish, and <math> AB </math> and <math> AC </math> become more of the same. When this happens, where the secant line becomes the tangent line, the theorem becomes <math> (AP)^2 = (AD)(AE) </math>.
+
+If you observe the construction, you should notice that the same method is used to construct the geometric mean, only for <math> \overline{AB} </math> and <math> \overline{AC} </math>. Because of the secant-tangent theorem, a line segment with that length ''will'' touch the circle at exactly where the tangent lies.
+
+== Exercises ==
+
+Solutions may be found [[Advanced Geometry/Solutions | here ]].
+
+=== Low Difficulty ===
+
+'''Problem 1:''' Construct a triangle given three line segments.
+
+'''Problem 2:''' Construct a triangle given two line segments and an angle in between.
+
+'''Problem 3:''' Construct a triangle given one line segment and two angles.
+
+'''Problem 4:''' Given two squares, construct a third square whose area is equal to the sum of the two squares.
+
+'''Problem 5:''' Given a point on a line and a radius, construct a circle with the given radius that is tangent to said point.
+
+=== Medium Difficulty ===
+
+'''Problem 6:''' Given an angle between a leg and a hypotenuse, construct a right triangle.
+
+'''Problem 7:''' Given two squares, construct a third square whose area is equal to the difference of the two.
+
+'''Problem 8:''' Let say you want to construct a parallelogram ABCD. You are given AB, BC, and AC. Construct a parallelogram using the given segments.
+
+'''Problem 9:''' Prove that if the altitude to the hypotenuse of a right triangle divides the hypotenuse into a ratio, that ratio is equal to the square of the legs.
+
+'''Problem 10:''' Divide a given segment into the ratio of the squares of two given segments.
+
+'''Problem 11:''' Construct a right triangle given the ratio of the legs squared.
+
+=== High Difficulty ===
+
+'''Problem 12:''' Construct the internal tangents of two circles and prove that the construction is valid.
+
+'''Problem 13:''' Construct the external tangents of two circles and prove that the construction is valid.
+
+'''Problem 14:''' Given a triangle, construct an equilateral triangle with the same area as the given triangle.
+
+{{BookCat}}

@@ -1,0 +1,431 @@
+<noinclude>{{LaTeX/Top}}</noinclude>
+
+Documents produced with the commands you have learned up to this point will look acceptable to a large audience. While they are not fancy-looking, they obey all the established rules of good typesetting, which will make them easy to read and pleasant to look at. However, there are situations where LaTeX does not provide a command or environment that matches your needs, or the output produced by some existing command may not meet your requirements.
+
+In this chapter, we will try to give some hints on how to teach LaTeX new tricks and how to make it produce output that looks different from what is provided by default.
+
+LaTeX is a fairly high-level language compared to Plain TeX and thus is more limited. The next [[LaTeX/Plain TeX|chapter]] will focus on Plain TeX and will explain advanced techniques for programming.
+
+==New commands==
+
+To add your own commands, use the
+{{LaTeX/Usage|code=
+\newcommand{\name}[num]{definition}
+}}
+command. Basically, the command requires two arguments: the ''name'' of the command you want to create (preceded by a backslash), and the ''definition'' of the command. Note that the command ''name'' can but need not be enclosed in braces, as you like. The ''num'' argument in square brackets is optional and specifies the number of arguments the new command takes (up to 9 are possible). If missing it defaults to 0, i.e. no argument allowed.
+
+The following two examples should help you to get the idea. The first example defines a new command called <tt>\wbal</tt> that will print “The Wikibook about LaTeX”. Such a command could come in handy if you had to write the title of this book over and over again.
+
+{{LaTeX/Example|code=
+\newcommand{\wbal}{The Wikibook about \LaTeX}
+This is ‘‘\wbal'' \ldots{} ‘‘\wbal''
+|render=
+This is “The Wikibook about LaTeX” … “The Wikibook about LaTeX”
+}}
+
+The next example illustrates how to define a new command that takes one argument. The {{LaTeX/LaTeX|code=#1<!---->}} tag gets replaced by the argument you specify. If you wanted to use more than one argument, use {{LaTeX/LaTeX|code=#2<!---->}} and so on, these arguments are added in an extra set of brackets.
+
+{{LaTeX/Example|code=
+\newcommand{\wbalsup}[1] {
+  This is the Wikibook about LaTeX 
+  supported by #1}
+\newcommand{\wbalTwo}[2] {
+  This is the Wikibook about LaTeX
+  supported by #1 and #2}
+% in the document body:
+\begin{itemize}
+\item \wbalsup{Wikimedia}
+\item \wbalsup{lots of users!}
+\item \wbalTwo{John Doe}{Anthea Smith}
+\end{itemize}
+|render=
+*This is the Wikibook about LaTeX supported by Wikimedia
+*This is the Wikibook about LaTeX supported by lots of users!
+*This is the Wikibook about LaTeX supported by John Doe and Anthea Smith
+}}
+
+Name your new command {{LaTeX/LaTeX|code=\wbalTwo<!---->}} and not {{LaTeX/LaTeX|code=\wbal2<!---->}} as digits cannot be used to name macros &mdash; invalid characters will error out at compile-time.
+
+LaTeX will not allow you to create a new command that would overwrite an existing one. But there is a special command in case you explicitly want this: {{LaTeX/LaTeX|code=\renewcommand<!---->}}. It uses the same syntax as the {{LaTeX/LaTeX|code=\newcommand<!---->}} command.
+
+In certain cases you might also want to use the {{LaTeX/LaTeX|code=\providecommand<!---->}} command. It works like {{LaTeX/LaTeX|code=\newcommand<!---->}}, but if the command is already defined, LaTeX will silently ignore the new command.
+
+With LaTex2e, it is also possible to add a default parameter to a command with the following syntax:
+
+{{LaTeX/Usage|code=
+\newcommand{name}[num][default]{definition}
+}}
+
+If the default parameter of {{LaTeX/LaTeX|code=\newcommand<!---->}} is present, then the first of the number of arguments specified by {{LaTeX/Parameter|num}} is optional with a default value of {{LaTeX/Parameter|default}}; if absent, then all of the arguments are required.
+
+{{LaTeX/Example|code=
+\newcommand{\wbalTwo}[2][Wikimedia]{
+  This is the Wikibook about LaTeX
+  supported by {#1} and {#2}!}
+% in the document body:
+\begin{itemize}
+\item \wbalTwo{John Doe}
+\item \wbalTwo[lots of users]{John Doe}
+\end{itemize}
+|render=
+*This is the Wikibook about LaTeX supported by Wikimedia and John Doe!
+*This is the Wikibook about LaTeX supported by lots of users and John Doe!
+}}
+
+;Note: When the command is used with an explicit first parameter it is given enclosed with brackets (here "{{LaTeX/Parameter|[lots of users]}}").
+
+Here is a common example: if you are writing a book about Mathematics and you have to use vectors, you have to decide how they will look. There are several different standards, used in many books. If ''a'' is a vector, some people like to add an arrow over it (<math>\vec{a}</math>), other people write it underlined (''<u>a</u>''); another common version is to write it bold ('''a'''). Let us assume you want to write your vectors with an arrow over them; then add the following line in your <tt>mystyle.sty</tt>.
+
+{{LaTeX/Usage|code=
+\newcommand{\myvec}[1]{\vec{#1}<!---->}
+}}
+
+and write your vectors inside the new {{LaTeX/LaTeX|code=\myvec{...}<!---->}} command. You can call it as you wish, but you'd better choose a short name because you will probably write it very often. Then, if you change your mind and you want your vectors to look differently you just have to change the definition of your {{LaTeX/LaTeX|code=\myvec{...}<!---->}}. Use this approach whenever you can: this will save you a lot of time and increase the consistency of your document.
+
+===DeclareRobustCommand===
+Some commands are ''fragile'', that is they fail in some environments.  If a macro works in body text but not in (for example) a figure caption, it's worth trying to replace the {{LaTeX/LaTeX|code=\newcommand{\MyCommand}...}} declaration with {{LaTeX/LaTeX|code=\DeclareRobustCommand{\MyCommand}...}} in the preamble.  This is especially true for macros which, when expanded, produce text that is written to a <tt>.aux</tt> file.
+
+==New environments==
+
+Just as with the {{LaTeX/LaTeX|code=\newcommand<!---->}} command, there is a command to create your own environments. The {{LaTeX/LaTeX|code=\newenvironment<!---->}} command uses the following syntax:
+
+{{LaTeX/Usage|code=
+\newenvironment{name}[num][default]{before}{after}
+}}
+
+Again {{LaTeX/LaTeX|code=\newenvironment<!---->}} can have an optional argument. When the {{LaTeX/LaTeX|code=\begin{name}<!---->}} command (which starts the environment) is encountered, the material specified in the {{LaTeX/Parameter|before}} argument is processed before the text in the environment gets processed. The material in the {{LaTeX/Parameter|after}} argument gets processed when the {{LaTeX/LaTeX|code=\end{name}<!---->}} command (which ends the environment) is encountered.
+
+The optional {{LaTeX/Parameter|num}} and {{LaTeX/Parameter|default}} arguments are used the same way as in the {{LaTeX/LaTeX|code=\newcommand<!---->}} command. LaTeX makes sure that you do not define an environment that already exists. If you ever want to change an existing environment, you can use the {{LaTeX/LaTeX|code=\renewenvironment<!---->}} command. It uses the same syntax as the {{LaTeX/LaTeX|code=\newenvironment<!---->}} command.
+
+The example below illustrates the usage of the {{LaTeX/LaTeX|code=\newenvironment<!---->}} command:
+
+{{LaTeX/Example|code=
+\newenvironment{king}
+{ \rule{1ex}{1ex}\hspace{\stretch{1}<!---->} }
+{ \hspace{\stretch{1}<!---->}\rule{1ex}{1ex} }
+
+\begin{king}
+My humble subjects \ldots
+\end{king}
+|render=
+[[Image:Latex example newenvironment.png|300px]]
+}}
+
+===Extra space===
+
+When creating a new environment you may easily get bitten by extra spaces
+creeping in, which can potentially have fatal effects. One example is when you
+want to create a title environment which suppresses its own indentation as well
+as the one on the following paragraph. The {{LaTeX/LaTeX|code=\ignorespaces<!---->}} command in the
+begin block of the environment will make it ignore any space after executing
+the begin block. The end block is a bit more tricky as special processing
+occurs at the end of an environment. With the {{LaTeX/LaTeX|code=\ignorespacesafterend<!---->}}
+LaTeX will issue an {{LaTeX/LaTeX|code=\ignorespaces<!---->}} after the special ‘end’ processing has
+occurred.
+
+{{LaTeX/Example|code=
+\newenvironment{simple}%
+{\noindent}%
+{\par\noindent}
+
+\begin{simple}
+See the space\\to the left.
+\end{simple}
+Same\\here.
+|render=
+<pre>
+  See the space
+to the left.
+
+  Same
+here.
+</pre>
+}}
+
+
+{{LaTeX/Example|code=
+\newenvironment{correct}%
+{\noindent\ignorespaces}%
+{\par\noindent%
+\ignorespacesafterend}
+
+\begin{correct}
+No space\\to the left.
+\end{correct}
+Same\\here.
+|render=
+<pre>
+No space
+to the left.
+
+Same
+here.
+</pre>
+}}
+
+Also, if you're still having problems with extra space being appended at the end of your environment when using the <tt>\input</tt> for external source, make sure there is no space between the beginning, sourcing, and end of the environment, such as:
+
+{{LaTeX/Usage|code=
+\begin{correct}\input{somefile.tex}\end{correct}
+}}
+
+or
+
+{{LaTeX/Usage|code=
+\begin{correct}%
+\input{somefile.tex}%
+\end{correct}
+}}
+
+==Declare commands within new environment==
+New commands can be declared within newenvironment.  
+Commands declared within the newenvironment refer to their arguments by doubling the # character.
+In the following example, a new environment is declared along with a nested command:
+
+{{LaTeX/Usage|code=
+\newenvironment{topics}{
+\newcommand{\topic}[2]{ \item{##1 / ##2} }
+Topics:
+\begin{itemize}
+}
+{
+\end{itemize}
+}
+}}
+
+If, by mistake, the arguments passed to the \topics macro are defined with a single # character, the following error message will be thrown:
+
+    ! Illegal parameter number in definition of \topics.
+
+== Extending the number of arguments ==
+
+The {{LaTeX/Package|xkeyval}} packages will let you define key/value options for commands.
+{{LaTeX/Usage|code=
+\mycommand[key1=value1, key3=value3]{some text}
+}}
+
+The package is quite complete and documentation is exhaustive. We recommend that package developers read it. [http://www.ctan.org/pkg/xkeyval]
+
+Let's provide a simple example<ref>[http://tex.stackexchange.com/questions/13270/a-package-template-using-xkeyval tex.stackexchange.com]</ref>:
+
+{{LaTeX/Usage|code=
+\usepackage{xkeyval}
+% ...
+
+\makeatletter
+\def\my@emphstyle#1{\csname my@style@#1\endcsname}
+%% Predefined styles
+\providecommand\my@style@default{\em}
+\providecommand\my@style@bold{\bfseries}
+
+\define@key{myemph}{code}{%
+  \def\my@emphstyle{#1}
+}
+\define@key{myemph}{style}{%
+  \def\my@emphstyle{\csname my@style@#1\endcsname}
+}
+\newcommand\setemph[1]{%
+  \setkeys{myemph}{#1}
+}
+
+\renewcommand\emph[1]{%
+  {\my@emphstyle #1}
+}
+
+\makeatother
+
+Something \emph{important}
+
+\setemph{style=bold}
+Something \emph{important}
+
+\setemph{code=\Large\sffamily}
+Something \emph{important}
+}}
+
+==Arithmetic==
+
+{{Expand}}
+
+LaTeX can manipulate numbers.
+
+The {{LaTeX/Package|calc}} package provides the common infix notation.
+
+{{LaTeX/Usage|code=
+\usepackage{calc}
+% ...
+\newcounter{mine}
+\setcounter{mine}{2*17}
+\themine
+}}
+
+For high-precision computations, you can use the {{LaTeX/Package|fp}}<ref>[http://ctan.mackichan.com/macros/latex/contrib/fp/README ctan.mackichan.com]</ref> package.
+
+{{LaTeX/Usage|code=
+\usepackage{fp}
+
+% Clip
+\[
+\FPmul\result{2}{7}
+\FPclip\result\result
+2*7 = \result
+\]
+
+% Infix
+\[
+\newcommand\result{11}
+\sqrt{\sin(2+\result)} \approx
+\FPeval\result{round(root(2,sin(result + 2.5)),2)}
+\result
+\]
+
+% Postfix
+\[
+\FPupn\result{17 2.5 + 17.5 swap - 2 1 + * 2 swap /} % or \FPupn\result{2 17.5 17 2.5 + - 2 1 + * /}
+\FPclip\result\result
+(17+2.5 - 17.5) * (2+1) / 2  = \result
+\]
+
+% High precision
+\[
+\FPdiv\result{17}{7}
+\frac{17}{7} \approx \FPtrunc\result\result{3}
+\result
+\]
+}}
+
+==Conditionals==
+
+LaTeX can use conditionals thanks to the {{LaTeX/Package|ifthen}} package.
+
+{{LaTeX/Usage|code=
+\usepackage{ifthen}
+% ...
+
+\ifthenelse{ \equal{\myvar}{true} }{
+  This is true.
+}{
+  This is false.
+}
+}}
+FYI: For newer projects e-TeX is recommended<ref>https://tex.stackexchange.com/questions/13866/why-is-the-ifthen-package-obsolete</ref>, available in LaTeX from [http://www.ctan.org/pkg/etoolbox etoolbox]. See section 3.6 of their manual.
+
+
+Following a short example, a bool that switches its state every time it is used.<ref>https://tex.stackexchange.com/a/232059/37907</ref>
+
+{{LaTeX/Usage|code=
+\documentclass{article}
+\usepackage{etoolbox}
+\usepackage{parskip}
+\usepackage{tikz}
+\newbool{volt}
+\newcommand{\onoff}{%
+    \ifbool{volt}{%
+\boolfalse{volt}\candleOn\space ON}{%
+    \booltrue{volt}\candleOff\space OFF}%
+}
+\newcommand{\candleOff}{\tikz \draw (0,0) rectangle
+(.2,.8);}
+\newcommand{\candleOn}{\begin{tikzpicture}\draw (0,0) rectangle
+(.2,.8);\draw [fill=orange] (.1,.9) circle
+[radius=.1];\end{tikzpicture}
+}
+\begin{document}
+\onoff\par
+\onoff\par
+\onoff\par
+\onoff\par
+\end{document}|
+render=[[File:Conditionals in use.png|thumb|Simple use of conditionals]]
+}}
+
+== Loops ==
+
+The {{LaTeX/Package|PGF/TikZ}} extension provides the {{LaTeX/LaTeX|code=\foreach<!---->}} command.
+
+{{LaTeX/Usage|code=
+\usepackage{tikz}
+% ...
+
+\foreach \i/\q in {wheat/50g, water/1L, yeast/2g}{
+  \noindent\i\dotfill\q\\
+}
+}}
+
+If you are only using  {{LaTeX/LaTeX|code=\foreach<!---->}} and not drawing graphics, you may instead use the <code>pgffor</code> package directly.
+
+Alternatively you can check out the {{LaTeX/Package|multido}} package.
+
+== Strings ==
+
+{{LaTeX/Package|xstring}} provides a lot of features. From CTAN:
+* testing a string’s contents
+* extracting substrings
+* substitution of substrings
+* string length
+* position of a substring
+* number of recurrences of a substring
+
+Examples:
+{{LaTeX/Usage|code=
+\usepackage{xstring}
+% ...
+
+\newcommand\mystr{Hello World!}
+
+The string ``\mystr'' has \StrLen{\mystr}{} characters.
+
+Predicate ``\mystr{} contains the word Hello'' is \IfSubStr{\mystr}{Hello}{true}{false}.
+}}
+
+== LaTeX Hooks ==
+
+LaTeX provide two hooks:
+* {{LaTeX/LaTeX|code=\AtBeginDocument<!---->}} will let you specify a set of commands that will be executed when {{LaTeX/LaTeX|code=\begin{document}<!---->}} is met.
+* {{LaTeX/LaTeX|code=\AtEndDocument<!---->}} does the same for {{LaTeX/LaTeX|code=\end{document}<!---->}}.
+
+This gives you some more flexiblity for macros. It can be useful to override settings that get executed after the preamble. These hooks can be called several times. The commands will be executed in the order they were set.
+
+For instance, let's replace the page numbers with oldstylenums:
+{{LaTeX/Usage|code=
+\usepackage{textcomp}
+
+\AtBeginDocument{%
+  % Make the page numbers in text figures
+  \let\myThePage\thepage
+  \renewcommand{\thepage}{ \oldstylenums{\myThePage} }
+}
+}}
+
+There are also hooks for classes and packages. See [[LaTeX/Creating Packages|Creating Packages]].
+
+==Command-line LaTeX==
+
+If you work on a Unix-like OS, you might be using Makefiles or any kind of script to build your LaTeX projects. In that connection it might be interesting to produce different versions of the same document by calling LaTeX with command-line parameters. If you add the following structure to your document:
+
+{{LaTeX/Usage|code=
+\usepackage{ifthen}
+%...
+
+% default value.
+\providecommand\blackandwhite{false}
+%...
+
+\ifthenelse{ \equal{\blackandwhite}{true} }{
+% "black and white" mode; do something..
+}{
+% "color" mode; do something different..
+}
+}}
+
+Now you can call LaTeX like this:
+ latex '\providecommand{\blackandwhite}{true}\input{test.tex}'
+
+First the command {{LaTeX/LaTeX|code=\blackandwhite<!---->}} gets defined and then the actual file is read with input. By setting {{LaTeX/LaTeX|code=\blackandwhite<!---->}} to false the color version of the document would be produced.
+
+==Notes and References==
+{{reflist}}
+
+<noinclude>
+{{LaTeX/Bottom|Creating 3D graphics|Plain TeX}}
+</noinclude>

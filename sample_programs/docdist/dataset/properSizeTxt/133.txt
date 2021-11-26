@@ -1,0 +1,632 @@
+'''Arabic''' 
+
+ 
+
+== The arabic alphabet ==
+
+:Wikipedia: [[:w:Arabic alphabet|Arabic alphabet]]
+
+ 
+
+{| class="wikitable"
+|- style="background-color:#CAE1FF;font-weight:bold;"
+! Nr. !! Name !! DMG !! Aussprache !!   Isoliert  !! IPA
+|-
+| 1. || Alif || a, ā, i, u || long a or at the end of the word bearing the Hamza without a own sound ||     <span style="font-size:30px">ﺍ</span> ||  a, aː, ɒ, ɒː, i, ɨ, u 
+|-
+| 2. || Bā || b || b ||  <span style="font-size:30px">ﺏ</span> ||   b
+|-
+| 3. || Tā || t || t ||   <span style="font-size:30px">ﺕ</span>   ||   t
+|-
+| 4. || Thā || ṯ || like "th" in "think" ||  <span style="font-size:30px">ﺙ</span>    || θ 
+|-
+| 5. || Dschīm || ǧ || dg ||  <span style="font-size:30px">ﺝ</span>  ||  ʤ 
+|-
+| 6. || Ḥā || ḥ || sharp h ||  <span style="font-size:30px">ﺡ</span>  ||   ħ 
+|-
+| 7. || Chā || ḫ || like "ch" in german "ach" ||   <span style="font-size:30px">ﺥ</span>   ||  χ 
+|-
+| 8. || Dāl || d || d   ||     <span style="font-size:30px">ﺩ</span>  ||  d
+|-
+| 9. || Dhāl || ḏ || like "th" in "this" (dh) || <span style="font-size:30px">ﺫ  </span> || ð 
+|-
+| 10. || Rā || r || tongue-r ||   <span style="font-size:30px">ﺭ  </span> || r
+|-
+| 11. || Zāy || z || sharp s ||  <span style="font-size:30px">ﺯ   </span>   || z
+|-
+| 12. || Sīn || s || s ||  <span style="font-size:30px">ﺱ  </span>  || s
+|-
+| 13. || Schīn || š || sh ||  <span style="font-size:30px">ﺵ  </span>  ||   ʃ 
+|-
+|14. || Sād || ṣ || emphatic s || <span style="font-size:30px">ﺹ</span>  ||    sˁ 
+|-
+|15. || Dād || ḍ || emphatic d  ||  <span style="font-size:30px">ﺽ </span> ||    dˁ 
+|-
+|16. || Ṭā || ṭ || emphatic t ||   <span style="font-size:30px">ﻁ </span> ||    tˁ 
+|-
+|17. || Zā || ẓ || emphatic dh or z ||   <span style="font-size:30px"> ﻅ  </span>  ||  ðˁ oder zˁ 
+|-
+|18. || ʿAin || ʿ || &nbsp; ||   <span style="font-size:30px"> ﻉ </span>   ||  ʕ 
+|-
+|19. || Ghain || ġ || palatal-r | ʁ ɢ  ||  <span style="font-size:30px">ﻍ </span>   ||  ʁ 
+|-
+|20. || Fā || f || f ||  <span style="font-size:30px">ﻑ  </span> ||   f
+|-
+|21. || Qāf || q ||  emphatic k ||  <span style="font-size:30px"> ﻕ  </span>   ||q
+|-
+|22. || Kāf || k || k ||  <span style="font-size:30px">ﻙ  </span>   || k
+|-
+|23. || Lām || l || l ||  <span style="font-size:30px">ﻝ </span> ||  l
+|-
+|24. || Mīm || m || m ||  <span style="font-size:30px"> ﻡ </span> ||   m
+|-
+|25. || Nūn || n || n ||   <span style="font-size:30px"> ﻥ </span> ||   n
+|-
+|26. || Hā || h || h ||  <span style="font-size:30px"> ﻩ </span> ||    h 
+|-
+|27. || Wāw || w, ū, u || w, long u  ||   <span style="font-size:30px"> ﻭ </span> ||    w, u, uː 
+|-
+|28. || Yā || y, ī, i || long i  ||  <span style="font-size:30px">  ي </span> ||   j, i, iː, ɨ, ɨː 
+|-
+| colspan="2" |<small> Ta marbuta</small> || -t,-a,(-h) || (doen't belong to the alphabet) ||   <span style="font-size:30px">ة </span> ||    t, aː 
+|}
+
+== Letters - Test ==
+
+<span style="font-size:50px">
+
+<div dir=rtl>
+
+
+01
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 01 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#  ث  ت ب  ا
+#       خ    ح   ج
+#    ز  ر   ذ  د
+#     ظ   ط   ض   ص  ش  س
+#    ق    ف  غ   ع
+#   ن  م  ل   ك‎
+#     ي    و   ه
+
+
+02
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 02 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+ا ب ت ث ج ح خ د ذ ر‎ ز س‎ ش‎ ص ض ط ظ ع غ ف ق‎ ك‎ ل م ن ه و ي
+
+
+03
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 03 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+ 
+
+#ه   ك‎   ز   د   ر‎   ب   ش‎   ع   ت   ه   ت   ل   ز   د   ظ 
+#س‎   ز   ك‎   ح   ن   ف   ف   س‎   ل   ض   م   ط   غ   ب 
+#ق‎   ظ   ج   و   ص   ح   ه   ن   ت   ح   و   ص   ف 
+#ج   ض   ع   ط   ا   و   ل   ق‎   ش‎   ز   ب   ا
+
+
+
+04
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 04 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+
+#ف   ض   ك‎   ك‎   غ   ل   ث   ح   ظ   ك‎   ث 
+#ه   س‎   م   ف   ح   خ   س‎   ح   ح   ز   ل   ز   ض   ض
+#ا   ص   غ   ذ   ش‎   ش‎   ي   ل   ق‎   ع 
+#ص   ث   ق‎   ب   غ   ج   ش‎   ع   ر‎   ه   ح   ر‎   و   م   ح   ش
+
+
+
+05
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 05 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ظ   ب   ن   ذ   خ   ي   ك‎   ب   س‎   س‎   ا   و   و
+#ج   ر‎   ع   س‎   ا   ي   ص   ص   ق‎   ط
+#يا   ح   ذ   ف   ر‎   ز   خ   ذ   م   ق‎   ذ   ب   ض   ن   ح   ذ
+#ض   ت   و   ر‎   ث   ي   ق‎   ك‎   م   ي   ل   ي   ش‎   ق‎   ز   غ   ط   ع   ز   ذ   س‎   ر
+
+
+
+06
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 06 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#ح   ي   ذ   ظ   ز   م   ع   ص   ف   ر‎   ب   ض 
+#ن   د   ظ   س‎   ب   ض   ص   د   د   ح   خ   ك‎   ن
+#خ   ق‎   س‎   ط   ج   خ   ح   ف   ض   ظ   و   ف   م   ر‎   ع   د   ض   ش‎   ر‎   ج
+#ا   ق‎   ر‎   ن   ط   غ   س‎   خ   د   ك‎   ط   ظ   ي   ش‎   ه   ث   ج   ز   ز
+#س‎   ض   ذ   ث   ص   ث   ز   ت   غ
+
+
+07
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 07 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#ذ   ت   ت   ه   ح   ط   ج   ل   ل   ا   ع   ن   ه   ز   ك‎   خ   ي   ط   ص   ك
+#ي   س‎   ك‎   م   خ   ز   ث   ض   ظ   ت   د   غ 
+#و   ج   ع   ف   م   ه   خ   ث   ث   يا   ك‎   ب   ت   غ   ف   ص   ج   ل   ط   ج   ط   غ
+#ز   ض   ق‎   ه   ا   ث   ب   ظ   و   ا   ب   ل   ذ   ظ 
+
+
+08
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 08 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ي   ح   ذ   خ   د   ت   ه   ص   خ   ع   ك‎   ف 
+#م   ز   ب   ك‎   ص   ث   ن   م   ق‎   ل   ظ   د   ح  
+#ب   ث   و   ا   غ   س‎   ع   ح   م   ض   ن   ز   ن   ش‎   ك‎   
+#ع   ث   ج   و   ع   ث   ت   ت   غ   ش‎   ض   ن   ع   ت
+
+
+09
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 09 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#د   ا   ه   غ   ه   ق‎   ع   ه   ع   ذ   ض   ر‎   ح   ص   س‎   
+#خ   ن   د   ط   ه   ن   و   ح   ش‎   ي   ت   س‎   ص   ل   ن   ر‎
+#ر‎   ح   ه   ي   ج   ل   ف   خ   ي   ز   ز   د   ي   م   ك‎   ذ   ه   د   ص   ذ   د   ا   ض
+#ر‎   خ   غ   ع   م   د   ع   ط   ك‎   و   ا   ن   ج   ذ 
+
+
+10
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 10 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ب   و   د   ذ   ظ   و   ر‎   ف   ك‎   ط   م   ح   د   ش‎   ر‎   د   غ   غ   
+#ق‎   ج   ق‎   ب   ف   خ   ه   ج   ق‎   س‎   ج   ع   ظ   ظ   و   ث   ب   ط   ي   ا   ل  
+# ل   ظ   ص   ي   س‎   ز   د   ب   و   ج   ش‎   ت   ا   ل   ل   ن   ا   ظ   غ   ج
+#د   ا   ي   ا   ر‎   ا   ص   ز   ش‎   ظ   ب   ر‎   م   ش‎   ق‎   ص   
+
+11
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 11 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ق‎   و   ذ   ض   ف   م   ش‎   ص   ش‎   ه   س‎   غ   
+#ع   خ   ذ   و   ر‎   ن   ظ   غ   ذ   د   ل   ه   ف   ش‎   خ   ش‎   ك‎ 
+#ث   ض   ذ   ز   ش‎   ب   ف   ي   ط   ع   خ   ش‎   ن   ر‎   د   ك‎ 
+#ق‎   ش‎   ط   ي   ي   ط   ب   خ   خ   ع   ش‎   غ   ذ   ن   خ    
+
+12
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 12 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ت   خ   ي   ق‎   ع   ح   ض   غ   ب   ب   ف   غ   ج   ث   ل  
+#ل   ض   ه   ط   ط   ظ   ص   م   ع   ف   س‎   ت   ث   ق‎  
+#ظ   خ   ج   غ   ه   ض   ظ   ل   ا   ض   ن  
+#ق‎   س‎   ج   س‎   س‎   د   و   ع   غ   د   ض   ط   س‎   ص   ط   ث   ع 
+
+13
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 13 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ط   ق‎   غ   ذ   ر‎   ك‎   و   ض   ث   ش‎   و   ح   ك‎   ظ   ص   
+#ه   ر‎   س‎   ك‎   ض   ك‎   س‎   ذ   خ   م   ف   ذ   ق‎   ش‎   ظ   ل   ل   ح   
+#ش‎   د   غ   ا   ت   ق‎   س‎   ب   و   ر‎   ز   و   ث   س‎   ض   ص 
+#ر‎   ط   م   ج   ط   ف   ص   ص   ج   ص   ن    م 
+
+14
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 14 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ز   غ   ت   ه   ت   ث   ظ   ص   ف   ن   غ   ش‎   ن   ظ   ن   ل   ذ   ي   ف   ا    ج   ر‎   ا  
+#ا   و   و   د   ت   ب   ف   ض   ت   س‎   ح   ث   ل   ي   ص   ح   ل   ج   ب   د   ن    ت
+#ن   خ   ث     ط   ه   ل   ج   ت   و 
+#ز   ل   ح   ت   ت   ظ   ع   ب   ز   ف   م   غ   ز   ر‎   خ   ث   ق 
+
+15
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 15 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#ك‎   ط   ا   ص   ز   خ   س‎   ش‎   ق‎   ج   ذ   م   ك‎   ت   ه   م   ب   ح 
+#ق‎   خ   ل   ن   م   ق‎   و   ه   ق‎   ذ 
+#ز   ن   ج   ع   ف   ك‎   ن 
+#ه   خ   ذ   ر‎   ب   ط   ف   ذ   م   ط   ج   ت   ي   ح   ث   ي   
+
+16
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 16 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#و   يا   ع   د 
+#م   ض   ا   ف
+#ه   ه   ت   ر‎   ك‎   م   ف   ث   ك‎   ظ   ب   ظ 
+#ت   ط   د   غ   يا   ر‎   ث   ث   م   ش‎   ظ 
+
+</div>
+
+</span>
+
+== Die ersten Wörter  ==
+
+
+<span style="font-size:50px">
+
+ 
+
+17
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 17 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#أسد - asad - lion - letter ﺍ - A
+#بطة - bata - dug - letter ﺏ - B
+#تفاحة - tafaha - apple - letter ﺕ‎ - T
+#ثعلب - zaleb  - fox - letter ﺙ‎ - C ("th")
+#جمل    - djamal [dʒamal] - camel - letter ﺝ‎ -   G (like in "gentleman")
+#حصان     - jisan  [ħiˈsɑ:n] - horse - letter ﺡ‎ - ḥāʾ
+#خروف - jaruf  [xaˈruːf]    - sheep - letter ﺥ  - J (like in spanish "Javier")
+#ديك - dic [di:k] - poppy - letter ﺩ‎ - D
+#ذرة  - [ðura]  - corn - letter ﺫ‎ -  ḏ [ð]
+#ريشة - [riːʃa]         - feather - letter ﺭ‎ - R
+#زرافة    -  [zaˈraːfa]   -   giraffe - letter ﺯ - D [ð]
+#سمكة    -  samaka  -   fish - letter ﺱ‎ - S
+#شمس   -  [ʃams] - sun - letter ﺵ‎ - š  [ʃ]
+#صقر   - [sɑqr]  -  falcon - letter ﺹ‎ - S ṣ  [sˁ] 
+#ضفدع   - [đifdiʕ]  - frog -  letter ﺽ  - D  ḍ  [dˁ]
+#طاووس    -  [tɒːˈwuːs] -  peacock -  letter ﻁ‎ - T  ṭ [tˁ]
+#ظرف - [ðɒrf]  -   envelope - letter tabe ﻅ‎ - ẓ   [ðˁ] / [zˁ] 
+
+18
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 18 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#عنب -  [ʕinab] - grape - letter ﻉ‎ - [ʕ] (Ain)
+#غزالة - ɣaˈzaːla] (rozela) - roe deer - letter ﻍ ‎ -  ġayn  ġ (also gh) [ɣ]
+#فيل  - [fi:l] - elefant - letter ﻑ‎ - F
+#قطة - quitba - tom-cat- letter ﻕ‎ - Q qāf
+#كلب - kalb - dog - letter ﻙ‎ - K
+#ليمون - laimun - lemmon - letter ﻝ‎‎ - L
+#موز - mauz - banana - letter ﻡ‎ - M
+#نجمة - najma - star - letter ﻥ‎ - N
+#هلال - hilal - half moon - letter ﻩ‎ - H ha 
+#وردة - warda - rose - letter و - w (ou)
+#يد - yad - hand- letter ي‎ - y / ī
+
+
+</span>
+
+== Vowels ==
+
+<span style="font-size:50px">
+
+ 
+
+19
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 19 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+:Harakat - حركات
+:Taschkil - تشكيل
+:Hamza - همزة
+:Fatha - فَتْحَة‎
+:Kasra - كَسْرَة‎
+:Damma - ضَمَّة
+:Sukun - سُكُون 
+:Schadda - شدة‎
+
+
+</span>
+
+
+<gallery>
+File:00-Fatha.png|A - fatha - فَتْحَة‎
+File:00-Kasra.png|I - kasra - كَسْرَة‎
+File:00-Damma.png|U - damma - ضَمَّة
+
+File:00-Fathatan.png|"-an" - Fathatan - two Fatha   
+File:00-Kasratan.png|"-in" - Kasratan  - two Kasra
+File:00-Dammatan.png|"-un" - Dammatān - indeterminated - two Damma
+
+File:00-Sukun.png|Sukun - سُكُون - indicates that the consonant has no vowels   - that there doesn'f follow a consonant after the vowel
+
+File:00-Taschdid.png|Schadda - شدة‎ - double consonant = Taschid - تشديد‎
+File:29-Hamza.png|Hamza - همزة - vocal stop
+
+
+</gallery>
+
+:If after a Tashid follows a vowel sign (Fatha, Kasra, Damma, Sukun), then this sign is written onto the Tashid, not immediately on or under the vowel. In the case of Kasra - under the sign.
+:Hamza has almost always a carrier letter (Alif, Waw or Ya).
+
+ 
+<span style="font-size:50px">
+
+ 
+
+20
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 20 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+#أسد  -   the lion - أَسَد 
+#بطة      - the dug - بَطَّة
+#تفاحة -    the apple- ???
+#تفاح - the apple - تُفٌَ
+#ثعلب  -    the fox - ثَعْلَب
+#جمل  -    the camel - جَمَلَ - ??? - جَمَل
+#حصان  -    the horse - حَصَان
+#خروف  -    the sheep - ???
+#ديك -    the hen - ???
+#ذرة  -    the corn - ذَرَّة - ??? - زُرَة
+#ريشة -    the feather - ???
+#زرافة -    the giraffe - ???
+#سمكة -    the Fisch - ???
+#شمس   - the sun - شَمْس
+#صقر  -  the falcon - صَقَرَ - ??? - صَقَر
+
+
+21
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 21 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#ضفدع  - the frog - ضِفْدَع
+#طاووس    -    the peacock - ???
+#ظرف   -   the envelope - ظَرْف
+#عنب -   the grape - ???
+#غزالة -  the roe deer - ??? 
+#فيل  -  the elefant - فِيل
+#قطة - the tom-cat - قِطَّة 
+#كلب - the dog - كَلْب 
+#ليمون -  the lemon - ???
+#موز - the banana - مَوْز 
+#نجمة - the star - نَجْمَة - ??? - نَجْم
+#هلال -  the half moon (crescent) - هِلال
+#وردة - the rose - وَرْدَة
+#يد -  the hand - يَد
+
+
+</span>
+
+== More words ==
+
+<span style="font-size:50px">
+
+
+
+22
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 22 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+
+#كتب - boock - كِتَاب - ???
+#أنا -  I (me) - ???
+#أنت - you (sg.) - أَنْتَ
+#هو - he - هُوَ
+#هي - she  - هِي
+#نحن - we - نَحْنُ
+#لها - you (pl.) - ???
+#هم - they (pl. m.)- هِمْ
+#كل - all - ???
+#جميع -  all - ???
+#جواب - to answer - ???
+#الرد - to answer - ???
+#تطلب - to ask - ???
+#سؤال - the question - ???
+#أيضا - also - أَيْضًا
+#أرجوك - to ask - ???
+
+23
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 23 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#حاجة - necessitiy - ???
+#اِحْتَاجَ - to need - ???
+#هناك - there  - ???
+#هنا - here - ???
+#نافذة - window - نَافِذَة 
+#كيف - how - ???
+#امتلك - to have - ???
+#دفتر - notebook - ???
+#سمع - to hear - سَمِعَ 
+#نعم - yes - نَعَم 
+#لا -- no - ???
+#خريطة - geographical map - خَرِيْطَة
+#جاء - to come - ???
+#مصباح -  the lamp - مِصْبَاح
+#مدرس - teacher - ???
+#تعلم - to leran - ???
+#مسطرة - the ruler  - ???
+#كتب - to write - كُتُب - كَتَبَ - ???
+
+24
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 24 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#يوم - day - يَوْم
+#طاولة - table  - طَاوِلَة
+#ترجم - translate - ???
+#تمرين - exercise - ???
+#و - and - ???
+#أو - or - ???
+#كلمة - word  - كَلِمَة
+#استمر - continue! - ???
+#كرر - repeat! - ???
+#أين - where; whereto - أَيْنَ
+#من - who - مَنْ
+#حب    - love - حُبّ
+#عائلة    - family - عَائِلَة
+#مصير   - destiny - ???
+#سعادة - luck - ???
+#حرف - letter - حَرْقٌ
+#بيت - house - بَيْت
+#ثوم - garlic - ثَوْم
+
+25
+{|
+|&nbsp; 
+| style="background: red; color: white" | [[File:Arabisch 25 SK.ogg|noicon|40px]]
+|&nbsp; 
+|}
+
+
+#حجر   - stone - حَجَر
+#خبز - bread - خُبْز
+#دجاجة - hen - دَجَاجَة
+#رجل - man - رَجُل
+#زيتون‎ - olive - زَيْتُون
+#سيارة - car - سَيٌَارَة
+#شجرة - tree - شَجَرَة
+#ضوء - light - ضَوْء
+#طفل - child - طِفْل
+#ظهر - back (spine) - ظَهْر
+#عين - eye - عَيْن
+#غزالة - deer - غَزَالَة
+#قهوة - coffe - قَهْوَة
+#كرسي - chair - كُرْسِيٌ
+#لحم - meat - لَحْم
+#مسجد - mosque - مَسْجِد
+#طالب - student - ???
+#ليلى - Laila - ??? - ى
+#???  - milk - عَرَبِيَّة
+#سَلَام‎ - peace
+#إِسْلاَم‎ -Islam (religion: the Islam) 
+# الزهرة             - Venus (planet) أَلزُّهَرَة‎ az-zuhara
+#الله‎  Allah   أَلْلّٰه‎
+#أَلْإِلٰه‎ God
+#ثابت Tabit (male neme)  ثَابِت
+#اهلا وسهلا‎ welcome أَهْلاً وسَهْلاً‎ welcome أَهْلاً وَسَهْلاً   ahlạn wa-sahlạn, ahlạn ū-sahlạn
+#مع السلامة   maʿa as-salāma  good bye! مَعَ آلسَّلامَة!‎
+#ثم thean, afterwards ثُمَّ‎  tumma
+#و and وَ‎  wa
+#لا no la
+#نعم  yes  نَعَمْ   na'am
+#اي which أَيُّ‎  'ayyu
+#من  who  مَن  [man]
+#انا - I (me)  أنَا  ana
+#انت - you (sg. m.; de: du) أنْتَ  'anta
+#نحن  we   نَحْنُ   naḥnu
+#هو  he  هُوَ‎   huwa
+#هي  they  هِيَ  hi:a
+
+
+
+
+26
+* Numbers 
+
+* zero صفر sifr  صِفْر
+* one واحد  wahid  وَاحِد
+* two اثنان  itna:n   اِثْنَان
+* three  ثلاثة  tala:ta   ثَلَاثَة 
+* four  أربعة  arˈbaˤa  أَرْبَعَة ʾarbaʿa
+* five  خمسة   khmasa   خَمْسَة
+* six  ستة   sitta  سِتَّة 
+* seven   سبعة   saba  سَبْعَة 
+* eight   ثمانية   tama:nya  ثَمَانِيَة 
+* nine  تسعة   tisa  تِسْعَة 
+* ten   عشرة   'ashara   عَشَرَة
+* eleven   أحد عشر   ahada ashara  أَحَدَ عَشَرَ
+* twelve   اثنا عشر   itna ashara   اِثْنَا عَشَرَ 
+* thirteen   ثلاثة عشر   ṯalāṯata ʿašara   ثَلَاثَةَ عَشَرَ 
+* fourteen   أربعة عشرة   ʾarbaʿata ʿašara   أَرْبَعَةَ عَشَرَ 
+* fifteen   خمسة عشر   ḵamsata ʿašara   خَمْسَةَ عَشَرَ 
+* sixteen   ست عشرة   sittata ʿašara   سِتَّةَ عَشَرَ 
+* seventeen   سبعة عشر   sabʿata ʿašara   سَبْعَةَ عَشَرَ
+* eighteen   ثمانية عشر   ṯamāniyata ʿašara    ثَمَانِيَةَ عَشَرَ 
+* nineteen   تسعة عشر   tisʿata ʿašara    سْعَةَ عَشَرَ ‎
+* twenty   عشرون   eshrwn عشرين ʿišrūn  عِشْرُون
+* twenty one       wāḥid wa-ʿišrūn   وَاحِد وَعِشْرُون
+
+* one hundere  مئة   miʾa   مِئَة or مِائَة   
+* two hundred   مِئَتَان   miʾatān
+* three hundred   ثَلَاث مِئَة    ṯalāṯ miʾa
+* three hundred (classical)  ṯalāṯu miʾatin  ثَلَاثُ مِئَةٍ
+
+
+
+
+
+
+</span>
+
+== Links ==
+
+*Diccionaries
+*[http://www.lessan.org/de/ www.lessan.org]
+*[http://de.langenscheidt.com/deutsch-arabisch/ME Langenscheidt-Wörterbuch german-arabic] (BUT without arabic keyboard)
+*[http://www.arabdict.com/en/spanish-arabic/libro www.arabdict.com]
+*[https://ar.wiktionary.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9 Wiktionary arabisch] (without translation - but with vocalisation)

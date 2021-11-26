@@ -1,0 +1,122 @@
+{{Python Programming/Navigation|Reflection|Tips and Tricks}}
+
+A basic issue in programming is [[w:Resource management (computing)|resource management]]: a [[w:Resource (computing)|resource]] is anything in limited supply, notably file handles, {{wp|network socket}}s, locks, etc., and a key problem is making sure these are ''released'' after they are ''acquired.'' If they are not released, you have a {{wp|resource leak}}, and the system may slow down or crash. More generally, you may want cleanup actions to always be done, other than simply releasing resources.
+
+Python provides special syntax for this in [https://docs.python.org/3/reference/compound_stmts.html#the-with-statement the <code>with</code> statement], which automatically manages resources encapsulated within [http://docs.python.org/3/library/stdtypes.html#typecontextmanager context manager types], or more generally performs startup and cleanup actions around a block of code. You should  '''always''' use a <code>with</code> statement for resource management. There are many built-in context manager types, including the basic example of <code>File</code>, and it is easy to write your own. The code is not hard, but the concepts are slightly subtle, and it is easy to make mistakes.
+
+==Basic resource management==
+Basic resource management uses an explicit pair of <code>open()...close()</code> functions, as in basic file opening and closing. '''''Don’t do this,''''' for the reasons we are about to explain:
+<syntaxhighlight lang=python>
+f = open(filename)
+# ...
+f.close()
+</syntaxhighlight>
+The key problem with this simple code is that it fails if there is an early return, either due to a <code>return</code> statement or an exception, possibly raised by called code. To fix this, ensuring that the cleanup code is called when the block is exited, one uses a <code>try...finally</code> clause:
+<syntaxhighlight lang=python>
+f = open(filename)
+try:
+    # ...
+finally:
+    f.close()
+</syntaxhighlight>
+However, this still requires manually releasing the resource, which might be forgotten, and the release code is distant from the acquisition code. The release can be done automatically by instead using <code>with</code>, which works because <code>File</code> is a context manager type:
+<syntaxhighlight lang=python>
+with open(filename) as f:
+    # ...
+</syntaxhighlight>
+This assigns the value of <code>open(filename)</code> to <code>f</code> (this point is subtle and varies between context managers), and then automatically releases the resource, in this case calling <code>f.close()</code>, when the block exits.
+
+==Technical details==
+Newer objects are ''context managers'' (formally [http://docs.python.org/3/library/stdtypes.html#typecontextmanager context manager types]: subtypes, as they implement the context manager interface, which consists of <code>__enter__()</code>, <code>__exit__()</code>), and thus can be used in <code>with</code> statements easily (see [http://docs.python.org/3/reference/datamodel.html#with-statement-context-managers With Statement Context Managers]).
+
+For older file-like objects that have a <code>close</code> method but not <code>__exit__()</code>, you can use the <code>[http://docs.python.org/3/library/contextlib.html#contextlib.closing @contextlib.closing]</code> decorator. If you need to roll your own, this is very easy, particularly using the <code>[http://docs.python.org/3/library/contextlib.html#contextlib.contextmanager @contextlib.contextmanager]</code> decorator.<ref>[http://stackoverflow.com/questions/6884991/how-to-delete-dir-created-by-python-tempfile-mkdtemp/22726782#22726782 Nils von Barth’s] answer to “[http://stackoverflow.com/questions/6884991/how-to-delete-dir-created-by-python-tempfile-mkdtemp how to delete dir created by python tempfile.mkdtemp]”, ''StackOverflow''</ref>
+
+Context managers work by calling <code>__enter__()</code> when the <code>with</code> context is entered, binding the return value to the target of <code>as</code>, and calling <code>__exit__()</code> when the context is exited. There’s some subtlety about handling exceptions during exit, but you can ignore it for simple use.
+
+More subtly, <code>__init__()</code> is called when an object is created, but <code>__enter__()</code> is called when a <code>with</code> context is entered.
+
+The <code>__init__()</code>/<code>__enter__()</code> distinction is important to distinguish between [http://docs.python.org/3/library/contextlib.html#single-use-reusable-and-reentrant-context-managers single use, reusable and reentrant context managers]. It’s not a meaningful distinction for the common use case of instantiating an object in the <code>with</code> clause, as follows:
+<syntaxhighlight lang=python>
+with A() as a:
+    ...
+</syntaxhighlight>
+…in which case any single use context manager is fine.
+
+However, in general it is a difference, notably when distinguishing a reusable context manager from the resource it is managing, as in here:
+<syntaxhighlight lang=python>
+a_cm = A()
+with a_cm as a:
+   ...
+</syntaxhighlight>
+Putting resource acquisition in <code>__enter__()</code> instead of <code>__init__()</code> gives a [http://docs.python.org/3/library/contextlib.html#reusable-context-managers  reusable context manager].
+
+Notably, <code>File()</code> objects do the initialization in <code>__init__()</code> and then just returns itself when entering a context, as in <code>def __enter__(): return self</code>. This is fine if you want the target of the <code>as</code> to be bound to an ''object'' (and allows you to use factories like <code>open</code> as the source of the <code>with</code> clause), but if you want it to be bound to something else, notably a ''handle'' (file name or file handle/file descriptor), you want to wrap the actual object in a separate context manager. For example:
+<syntaxhighlight lang=python>
+@contextmanager
+def FileName(*args, **kwargs):
+   with File(*args, **kwargs) as f:
+       yield f.name
+</syntaxhighlight>
+
+For simple uses you don’t need to do any <code>__init__()</code> code, and only need to pair <code>__enter__()</code>/<code>__exit__()</code>. For more complicated uses you can have [http://docs.python.org/3/library/contextlib.html#reentrant-context-managers reentrant context managers], but that’s not necessary for simple use.
+
+==Caveats==
+===<code>try...finally</code>===
+Note that a <code>try...finally</code> clause ''is'' necessary with <code>@contextlib.contextmanager</code>, as this does not catch any exceptions raised after the <code>yield</code>, but is ''not'' necessary in <code>__exit__()</code>, which is called even if an exception is raised.
+
+===Context, not scope===
+The term ''context'' manager is carefully chosen, particularly in contrast to “scope”. Local variables in Python have function scope, and thus the target of a <code>with</code> statement, if any, is still visible after the block has exited, though <code>__exit__()</code> has already been called on the context manager (the argument of the <code>with</code> statement), and thus is often not useful or valid. This is a technical point, but it’s worth distinguishing the <code>with</code> statement context from the overall function scope.
+
+===Generators===
+Generators that hold or use resources are a bit tricky.
+
+Beware that creating generators within a <code>with</code> statement and then using them outside the block does ''not'' work, because generators have deferred evaluation, and thus when they are evaluated, the resource has already been released. This is most easily seen using a file, as in this generator expression to convert a file to a list of lines, stripping the end-of-line character:
+<syntaxhighlight lang=python>
+with open(filename) as f:
+    lines = (line.rstrip('\n') for line in f)
+</syntaxhighlight>
+When <code>lines</code> is then used – evaluation can be forced with <code>list(lines)</code> – this fails with <samp>ValueError: I/O operation on closed file.</samp> This is because the file is closed at the end of the <code>with</code> statement, but the lines are not read until the generator is evaluated.
+
+The simplest solution is to avoid generators, and instead use lists, such as list comprehensions. This is generally appropriate in this case (reading a file) since one wishes to minimize system calls and just read the file all at once (unless the file is very large):
+<syntaxhighlight lang=python>
+with open(filename) as f:
+    lines = [line.rstrip('\n') for line in f]
+</syntaxhighlight>
+
+In case that one does wish to use a resource in a generator, the resource must be held within the generator, as in this generator function:
+<syntaxhighlight lang=python>
+def stripped_lines(filename):
+    with open(filename) as f:
+        for line in f:
+            yield line.rstrip('\n')
+</syntaxhighlight>
+As the nesting makes clear, the file is kept open while iterating through it.
+
+To release the resource, the generator must be explicitly closed, using <code>[https://docs.python.org/3/reference/expressions.html#generator.close generator.close()],</code> just as with other objects that hold resources (this is the [[w:dispose pattern|dispose pattern]]). This can in turn be automated by making the generator into a context manager, using <code>@contextlib.closing,</code> as:
+<syntaxhighlight lang=python>
+from contextlib import closing
+
+with closing(stripped_lines(filename)) as lines:
+    # ...
+</syntaxhighlight>
+
+===Not RAII===
+{{wp|Resource Acquisition Is Initialization}} is an alternative form of resource management, particularly used in C++. In RAII, resources are acquired during object construction, and released during object destruction. In Python the analogous functions are <code>__init__()</code> and <code>[http://docs.python.org/2/reference/datamodel.html#object.__del__ __del__()]</code> (finalizer), but RAII does ''not'' work in Python, and releasing resources in <code>__del__()</code> does ''not'' work. This is because there is no guarantee that <code>__del__()</code> will be called: it’s just for memory manager use, not for resource handling.
+
+In more detail, Python object construction is two-phase, consisting of (memory) allocation in <code>__new__()</code> and (attribute) initialization in <code>__init__()</code>. Python is garbage-collected via reference counting, with objects being finalized (not destructed) by <code>__del__()</code>. However, finalization is non-deterministic (objects have non-deterministic lifetimes), and the finalizer may be called much later or not at all, particularly if the program crashes. Thus using <code>__del__()</code> for resource management will generally leak resources.
+
+It is possible to use finalizers for resource management, but the resulting code is implementation-dependent (generally working in CPython but not other implementations, such as PyPy) and fragile to version changes. Even if this is done, it requires great care to ensure references drop to zero in all circumstances, including: exceptions, which contain references in tracebacks if caught or if running interactively; and references in global variables, which last until program termination. Prior to Python 3.4, finalizers on objects in cycles were also a serious problem, but this is no longer a problem; however, finalization of objects in cycles is not done in a deterministic order.
+
+== References ==
+{{reflist}}
+{{refbegin}}
+* [http://docs.python.org/3/library/stdtypes.html#typecontextmanager Context Manager Types]
+* [http://docs.python.org/3/reference/datamodel.html#with-statement-context-managers With Statement Context Managers]
+{{refend}}
+
+== External links ==
+* [http://jessenoller.com/blog/2009/02/03/get-with-the-program-as-contextmanager-completely-different Get With the Program as Contextmanager]
+* PyMOTW (Module of the Week): [http://pymotw.com/2/contextlib/ contextlib]
+* Markus Gattol: [http://www.markus-gattol.name/ws/python.html#context_manager Context Manager]
+
+{{Python Programming/Navigation|Reflection|Tips and Tricks}}

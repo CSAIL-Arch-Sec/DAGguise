@@ -1,0 +1,277 @@
+{{prognav|Active Server Pages|Functions and Subroutines|Server-Side Includes}}
+
+= Objectives =
+
+This describes database '''connectivity''' with ADO (ActiveX Data Objects) and how you can use this to communicate and manage a database server.  You will learn how to open a connection to a database, run '''INSERT''', '''UPDATE''', '''DELETE''', and '''SELECT''' statements as well as execute a stored procedure.
+
+= Content =
+
+Active Server Pages, being a scripted language, is a stateless language.  By this, we mean that it doesn't preserve the state of the application between page loads.  Nearly all ASP hosting solutions will include some sort of database hosting.  Most common is MySQL, followed by Microsoft SQL Server.  No matter what database you are using, ADO will allow you to manage the database through Active Server Pages.
+
+While it's true that you can store persistant data in the <code>Application</code> object.  This is basically just stored in a memory cache that will be flushed whenever IIS or the server is restarted.  It also causes problems when trying to create an application which will be used in a server cluster (where each cluster has its own version of the Application cache.)
+
+== Connecting to a Database ==
+
+Here is a sample showing how to open a connection to a database.  To do this, we call the '''Server.CreateObject''' to create an instance of the built-in ADODB Connection object.  Not only is this used to create the initial connection to the database, it will also be used to create the '''Recordset''' and '''Command Objects''' later.
+
+You will need to replace the text '''mysqluser''', '''mysqlpass''', and '''mysqldbname''' with the correct values for your database.  Note that this is accessing a MySQL server on the local server ('''localhost''') using ODBC.
+
+<syntaxhighlight lang="asp">
+' create a connection object
+Set oConnection = Server.CreateObject("ADODB.Connection")
+
+' open a connection to a data source
+oConnection.Open "Driver={MySQL ODBC 3.51 Driver};server=localhost;port=3306;uid=mysqluser;pwd=mysqlpass;database=mysqldbname;Option=16384"
+</syntaxhighlight>
+
+Note that you could wrap this statement with an '''On Error''' block to trap any exceptions that may occur.
+
+== INSERT, UPDATE, and DELETE ==
+
+The following will use the '''ADODB.Connection''' object to run an '''INSERT''' query on the database.  The code is the same whether you are doing '''INSERT''', '''UPDATE''', or '''DELETE'''.  You only need to change the ''sQuery'' variable with your modified query.
+
+<syntaxhighlight lang="asp">
+' build the query to run
+sQuery ="INSERT INTO Company VALUES ("Microsoft")"
+
+' execute the insert statement
+oConnection.Execute sQuery, nRecordsAffected, adCmdText + adExecuteNoRecords
+
+Response.Write "Records Affected: " & nRecordsAffected
+</syntaxhighlight>
+
+The constants '''adCmdText''' and '''adExecuteNoRecords''' are described in the section '''ADO Constants'''.
+
+== SELECT ==
+
+The following code can be used to run a '''SELECT''' statement against a database. You must first open a connection to a database using the code described in the section '''Connecting to a Database'''.
+
+<syntaxhighlight lang="asp">
+sQuery = "SELECT companyid, companyname FROM tblCompany"
+
+' create the recordset object to hold the result sets
+Set rs = Server.CreateObject("ADODB.Recordset")
+
+' set the number of records to fetch into memory at once (performance)
+rs.CacheSize = 256
+
+' execute the query and populate the recordset 
+rs.Open sQuery, oConnection, adOpenKeySet, adLockReadOnly, adCmdText
+
+'More examples of SELECT (based on criteria) are:
+'*example 1.
+sQuery = "SELECT companyid, companyname FROM tblCompany WHERE companyid = 1" '1. See details below
+</syntaxhighlight>
+*1. When sQuery in above code snippet is set as example 1. it will fetch records with companyid having value 1, in this SQL statement WHERE clause is used to define that criteria.
+
+The constants '''adOpenKeySet''', '''adLockReadOnly''', and '''adCmdText''' are described in the section '''ADO Constants'''.  Now that you have opened a recordset, what can you do with it?
+
+=== Retrieving the Recordset ===
+
+The following code will show you how to use the recordset object ('''rs''') described in the '''SELECT''' section to retrieve values from your database query.
+
+<syntaxhighlight lang="asp">
+' EOF checks for the end of a recordset
+If Not rs.EOF Then
+	' The Fields collection accesses fields from a single record
+	sFirstName = rs.Fields("firstname").Value
+	
+	' You can enumerate all fields in the record
+	For Each oFld In rs.fields
+		Response.Write "Field = " & oFld.Name & "<br>"
+		Response.Write "Value = " & oFld.Value & "<br>"
+	Next
+End If
+		
+' You can also loop through all records
+Do Until rs.EOF
+	Response.Write "Name = " & rs.Fields("firstname").Value & "<br>"
+	' make sure you don't forget this next step
+	' MoveNext will move to the next record in the resultset
+	rs.MoveNext
+Loop
+
+' following is always a good idea to clean up resources ASAP
+rs.Close : rs = 0
+</syntaxhighlight>
+
+== Closing a Database Connection ==
+
+You should always close your database connection when you are done accessing the database.  It is not required, but it is always a good idea.
+
+<syntaxhighlight lang="asp">
+' it's a good idea to close your recordset first (if necessary)
+rs.Close : rs = 0
+
+' this will close the database connection 
+oConnection.Close
+</syntaxhighlight>
+
+== ADO Constants ==
+
+{| border="1" cellpadding="2" cellspacing="0"
+|-
+! Variable
+! Purpose
+|-
+| ''''adOpenKeySet'''
+| Open a keyset
+
+<syntaxhighlight lang="asp">
+Const adOpenKeySet = 1
+</syntaxhighlight>
+|-
+| '''adLockReadOnly'''
+| Create a database lock for read only access to a table.  This is a forward-only cursor which provides the most efficient method for retrieving results.
+
+<syntaxhighlight lang="asp">
+Const adLockReadOnly = 1
+</syntaxhighlight>
+|-
+| '''adLockPessimistic'''
+| This locking method will lock a database record as soon as edits have been made to the database. (Not really used in Active Server Pages)
+
+<syntaxhighlight lang="asp">
+Const adLockPessimistic = 2
+</syntaxhighlight>
+|-
+| '''adLockOptimistic'''
+| Use optimistic record locking on the database records.  Meaning a record will only be locked when records have been modified and ''edits'' are committed back to the database. (Not really used in Active Server Pages)
+
+<syntaxhighlight lang="asp">
+Const adLockOptimistic = 3
+</syntaxhighlight>
+|-
+| '''adCmdText'''
+| Indicates the SQL command being passed is text (an SQL statement)
+
+<syntaxhighlight lang="asp">
+Const adCmdText = 1
+</syntaxhighlight>
+|-
+| '''adCmdTable'''
+| Indicates the SQL command being passed is the name of a database table to open (all rows and fields)
+
+<syntaxhighlight lang="asp">
+Const adCmdTable = 2
+</syntaxhighlight>
+|-
+| '''adCmdStoredProc'''
+| Indicates the SQL command being passed is the name of a stored procedure to execute.  When using this call, the parameters must be defined separately.
+
+<syntaxhighlight lang="asp">
+Const adCmdStoredProc = 4
+</syntaxhighlight>
+|-
+| '''adCmdUnknown'''
+| Indicates the SQL command being passed is unknown - the ADO library will do it's best to interpret what type of command was intended.
+
+<syntaxhighlight lang="asp">
+Const adCmdUnknown = 8
+</syntaxhighlight>
+|-
+| '''adStateOpen'''
+| Indicates the current state of the result set.  This indicates the recordset is open and data retrieval operations can be performed.
+
+<syntaxhighlight lang="asp">
+Const adStateOpen = 1
+</syntaxhighlight>
+|-
+| '''adStateClosed'''
+| Indicates the current state of the result set.  This indicates the recordset is closed and data retrieval are forbidden.
+
+<syntaxhighlight lang="asp">
+Const adStateClosed = 0
+</syntaxhighlight>
+|-
+| '''adExecuteNoRecords'''
+| Indicate that no recordset is returned.  SQL command is stored procedure call, ''INSERT'', ''UPDATE'', or ''DELETE'' statement.
+
+<syntaxhighlight lang="asp">
+Const adExecuteNoRecords = 128
+</syntaxhighlight>
+|-
+| '''adParamInput'''
+| Stored procedure parameter is an input (this is the default) meaning we are just passing data into the procedure.
+
+<syntaxhighlight lang="asp">
+Const adParamInput = 1
+</syntaxhighlight>
+|-
+| '''adParamOutput'''
+| Stored procedure parameter is an output meaning that data will be returned by the procedure.
+
+<syntaxhighlight lang="asp">
+Const adParamOutput = 2
+</syntaxhighlight>
+|-
+| '''adParamInputOutput'''
+| Stored procedure parameter is both an input and an output.  Data is passed into the procedure and then returned after execution is complete.
+
+<syntaxhighlight lang="asp">
+Const adParamInputOutput = 3
+</syntaxhighlight>
+|-
+| '''adParamReturnValue'''
+| Indicates that the variable holds the return value from a procedure
+
+<syntaxhighlight lang="asp">
+Const adParamReturnValue = 4
+</syntaxhighlight>
+|-
+| '''adVarChar'''
+| Variable character (string) SQL data type
+
+<syntaxhighlight lang="asp">
+Const adVarChar = 200
+</syntaxhighlight>
+|-
+| '''adChar'''
+| Fixed length character SQL data type
+
+<syntaxhighlight lang="asp">
+Const adChar = 129
+</syntaxhighlight>
+|-
+| '''adInteger'''
+| Integer SQL data type
+
+<syntaxhighlight lang="asp">
+Const adInteger = 3
+</syntaxhighlight>
+|-
+| '''adCurrency'''
+| Currency SQL data type
+
+<syntaxhighlight lang="asp">
+Const adCurrency = 6
+</syntaxhighlight>
+|}
+
+= Summary =
+
+Using ADODB is the ideal way to connect to a database through Active Server Pages.  ADODB utilizes '''ODBC''' or '''OLE DB''' technologies to connect to a database depending on the connection string you use when using the '''ADODB.Connection::Open''' method.  The most efficient method of access is '''OLE DB'''.
+
+You may choose to create a database library code to simplify the task of working with a database.  You can create a database class which manages all the tasks of communicating with a database.  Combine this with database configuration settings stored in a '''global.asa''' file, and you will have a quick yet powerful way of executing database queries.
+
+Make sure to make use of the ADO Constants to make the most efficient use of the ADO methods and your database server.  The examples above should give you everything you need to work with a database.
+
+= Review Questions =
+
+* What does ADO stand for?
+* Which object is used to connect to a database?
+* What method do you use to connect to a database?
+* Which object do you need to retrieve results from '''SELECT'''?
+* How do you retrieve the value of a field from the current record?
+* How do you enumerate all fields from a record
+* How do you close a connection to a database
+
+= Exercises =
+
+* Write the code to run an '''INSERT''', '''UPDATE''', or '''DELETE''' query
+* Write the code to execute a stored procedure?
+* Write the code to execute a '''SELECT''' statement and read its results
+
+{{prognav|Active Server Pages|Functions and Subroutines|Server-Side Includes}}
+
+{{BookCat}}

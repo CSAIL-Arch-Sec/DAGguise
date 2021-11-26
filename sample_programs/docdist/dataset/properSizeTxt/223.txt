@@ -1,0 +1,93 @@
+{{definition|Grothendieck topology|Let <math>C</math> be a category. Then a '''Grothendieck topology''' on <math>C</math> is a class <math>G</math>, whose elements are sets of maps <math>\{\pi_i: U_i \to U\}</math> in <math>C</math>, that satisfies the following three axioms:
+#For each object <math>U \in C</math>, the singleton set <math>\{\operatorname{Id}_U: U \to U\}</math> is contained within <math>G</math>
+#If <math>\{\pi_i: U_i \to U\}</math> is in <math>G</math> and <math>\iota: V \to U</math> is a morphism of <math>C</math>, then <math>\{\rho_i: U_i \times_U V \to V\}</math> is in <math>G</math> (here, we assume that all the required fibered products exist, and that <math>\rho_i: U_i \times_U V \to V</math> is the morphism implied by the definition of a fibered product)
+#If <math>\{\pi_i: U_i \to U\}</math> is in <math>G</math> and for each <math>i</math>, the set <math>\{\pi_{i,j}: U_{i,j} \to U_i\}</math> is in <math>G</math>, then the set <math>\{\pi_i \circ \pi_{i,j}: U_{i,j} \to U\}</math> is in <math>G</math>}}
+
+{{example|model example of a Grothendieck topology|For a topological space <math>X</math>, we construct a category <math>\text{Ouv}(X)</math> as follows: The objects are precisely the open subsets of <math>X</math>, and for each inclusion <math>V \subseteq U</math> of open sets, there is a morphism <math>\iota: V \to U</math> given by the inclusion, and these are all morphisms of <math>\text{Ouv}(X)</math>.}}
+
+{{definition|site|A '''site''' is a category <math>C</math> together with a Grothendieck topology on it.}}
+
+Many of the statements below hold true for general functor categories. We loose no generality by imposing the existence of a Grothendieck topology, since we may equip each category with the trivial Grothendieck topology consisting of the trivial covers <math>U \to U</math> (<math>U \in \text{Obj}(C)</math>) only.
+
+{{definition|category of open subsets|Let <math>X</math> be a topological space. The '''category of open subsets''' of <math>X</math>, denoted by <math>\text{Ouv}(X)</math>, is the category whose objects are precisely the open subsets of <math>X</math>, and whose morphisms are precisely the inclusions of open sets, that is,
+:<math>\operatorname{Mor}(\text{Ouv}(X)) = \{\iota: V \to U| V \subseteq U\}</math>.}}
+
+{{definition|presheaf|Let <math>C</math> be a category, and let <math>S</math> be a site. A '''presheaf''' on <math>S</math> with values in <math>C</math> is a contravariant functor <math>S \to C</math>.}}
+
+{{definition|section|Let <math>C</math> be a concrete category (with functor <math>L: C \to \text{Set}</math>), <math>S</math> a site, <math>U \in X</math> and <math>\mathcal F: S \to C</math> a presheaf. A '''section''' of <math>\mathcal F</math> on <math>U</math> is an element of <math>L(\mathcal F(U))</math>.}}
+
+{{definition|morphism of presheaves|Let <math>C</math> be a category, and let <math>S</math> be a site. Let <math>\mathcal F, \mathcal G: S \to C</math> be two presheaves on <math>S</math>. Then a '''morphism of presheaves''' is a natural transformation <math>\phi: \mathcal F \to \mathcal G</math>.}}
+
+{{definition|category of presheaves|Let <math>C</math> be a category, and let <math>S</math> be a site. Then the '''category of presheaves''' on <math>S</math> with values in <math>C</math> shall be the category whose objcts are presheaves on <math>S</math> with valus in <math>C</math> and whose morphisms are morphisms of presheaves. That is, the category of presheaves on <math>S</math> with values in <math>C</math> is the functor category from <math>S</math> to <math>C</math>.}}
+
+{{example|constant presheaf|Let <math>C</math> be a category possessing a terminal object, <math>A \in \operatorname{Obj}(C)</math> and <math>X</math> a topological space. The '''constant presheaf''' associated to <math>A</math>, denoted <math>A^\text{pre}</math>, is the functor that associates to every nonempty open subset of <math>X</math> the object <math>A</math>, to the empty set the terminal object of <math>C</math>, and to every inclusion the identity, lest it is the inclusion of the empty set, in which case we associate to it the unique morphism to the terminal object.}}
+
+{{definition|point|Let <math>C</math> be a category, <math>S</math> a site, and <math>\mathcal F: S \to C</math> a presheaf. We order the inverse systems in <math>S</math> as follows: One inverse system is less than or equal to the other if and only if there exists an injective natural transformation from the supposedly smaller one to the supposedly larger one. Then a '''point''' in <math>S</math> is a maximal directed system with respect to that order.}}
+
+ this definition does not yet capture all points; improvement is under way.
+
+{{definition|stalk|Let <math>C</math> be a category, <math>S</math> a site, <math>x = ((U_\lambda)_{\lambda \in \Lambda}, f_{\lambda, \mu})_{\lambda \le \mu})</math> a point in <math>S</math>, and <math>\mathcal F: S \to C</math> a presheaf. Then the '''stalk''' of <math>\mathcal F</math> at <math>x</math> is defined as
+:<math>\mathcal F_x := \varinjlim_{\lambda \in \Lambda} \mathcal F(U_\lambda)</math>,
+where the morphisms implied in the direct limit are given by <math>\mathcal F(f_{\lambda, \mu})</math> (<math>\lambda \le \mu</math>).}}
+
+{{remark|points exist in small sites|If the underlying category of <math>S</math> is small, then it is easily seen that the inverse systems on <math>S</math> form a set, so that Zorn's lemma implies the existence of points.}}
+
+{{proposition|morphism of presheaves induces morphisms of stalks|Let <math>\mathcal F, \mathcal G</math> be two presheaves on a site <math>S</math> with values in a category <math>C</math>. If <math>f: \mathcal F \to \mathcal G</math> is a morphism of presheaves and <math>x = ((U_\lambda)_{\lambda \in \Lambda}, f_{\lambda, \mu})_{\lambda \le \mu})</math> a point in <math>S</math>, then there is a functor
+:<math>\mathbf{Sh}(S, C) \to C</math>
+which on objects is given by
+:<math>\mathcal F \mapsto \mathcal F_x</math>.}}
+
+{{proof|If <math>f: \mathcal F \to \mathcal G</math> is a morphism of presheaves, then the cocone implied in the definition of <math>\mathcal G_x</math> may be precomposed with <math>f</math>, which yields a cocone over the same diagram that is used in the definition of <math>\mathcal F_x</math>. Thus, the universal property of <math>\mathcal F_x</math> yields a morphism <math>f_x: \mathcal F_x \to \mathcal G_x</math>, and we use this assignment as the definition of the desired functor on morphisms. The uniqueness of this assignment ensures that <math>(g \circ f)_x = g_x \circ f_x</math> whenever <math>g: \mathcal G \to \mathcal H</math> and <math>f: \mathcal F \to \mathcal G</math> are morphisms of presheaves. Also, the functor thus constructed maps all identities of <math>\text{PreSh}(S, C)</math> to identities of <math>C</math>.}}
+
+{{definition|stalk functor|The functor <math>\mathcal F \mapsto \mathcal F_x</math>, <math>f \mapsto f_x</math> described in the [[above proposition]] shall be called '''stalk functor''' at <math>x</math>.}}
+
+{{proposition|existence of limits and colimits in a category of presheaves|Let <math>S</math> be a site, and suppose that <math>C</math> is a category that admits any limit. Then <math>\text{PreSh}(S,C)</math> admits that limit. The same statement for colimits is true as well.}}
+
+{{proof|This follows since <math>\text{PreSh}(S,C)</math> is nothing but a functor category, and [[for functor categories that statement is true]].}}
+
+{{proposition|image and kernel of presheaf morphisms commute with the stalk functor|Let <math>\mathcal F, \mathcal G</math> be two presheaves on a site <math>S</math> with values in a category <math>C</math>. If <math>f: \mathcal F \to \mathcal G</math> is a morphism of presheaves, then
+:<math>(\ker f)_x = \ker f_x</math> and <math>(\operatorname{im} f)_x = \operatorname{im} f_x</math>.}}
+
+{{proof|Since the stalk functor maps the zero map to the zero map (as is readily seen from the universal property defining this functor), <math>(\ker f)_x</math> factors over <math>\ker f_x</math>.}}
+
+{{definition|continuous functor|Let <math>S</math> and <math>T</math> be sites. A '''continuous functor''' from <math>S</math> to <math>T</math> is a covariant functor in the other direction <math>F: T \to S</math> such that the following three conditions are satisfied:
+#The final object of <math>T</math> is mapped to the final object of <math>S</math>
+#<math>F</math> preserves fibered products
+#The image of a covering under <math>F</math> is again a covering}}
+
+{{definition|pushforward presheaf|Let <math>F: T \to S</math> be a continuous functor from the site <math>S</math> to the site <math>T</math>, and let <math>\mathcal F: S \to C</math> be a presheaf on <math>S</math>. Then the '''pushforward presheaf''' <math>F_*\mathcal F</math> is defined to equal <math>\mathcal F \circ F</math>.}}
+
+{{definition|pullback presheaf|Let <math>F: T \to S</math> be a continuous functor from the site <math>S</math> to the site <math>T</math>, and let <math>\mathcal G: T \to C</math> be a presheaf on <math>T</math>. Then the '''pullback presheaf''' is defined by
+:<math>F^*\mathcal G(U) := \varprojlim_{U \to F(V)} \mathcal G(V)</math>,
+where the morphisms are given by the universal property of the inverse limit, which is supposed to range over all maps from <math>U</math> to any object in the image of <math>F</math>.}}
+
+{{proposition|pullback and pushforward of presheaves are adjoint functors|Let <math>F: T \to S</math> be a functor (which may, for instance, be a continuous functor from <math>S</math> to <math>T</math>). Then there exists an isomorphism
+:<math>\operatorname{Hom}_{\text{PreSh}(S,C)}(\mathcal F, F^*\mathcal G) \cong \operatorname{Hom}_{\text{PreSh}(T,C)}(F_*\mathcal F, \mathcal G)</math>
+that is natural in <math>\mathcal F</math> and <math>\mathcal G</math>; that is, <math>F_*</math> and <math>F^*</math> are adjoint functors.}}
+
+{{proof|On an object <math>U \in S</math>, a morphism <math>\mathcal F \to F^*\mathcal G</math> will yield a morphism
+:<math>\mathcal F(U) \to \varprojlim_{F(W) \to U} \mathcal G(W)</math>.
+Let now <math>V \in T</math> and suppose that <math>U = F(V)</math>. Then from the above, we obtain a morphism
+:<math>F_*\mathcal F(V) \to \mathcal G(V)</math>,
+since then the direct limit on the right hand side of the first morphism is simply <math>\mathcal G(V)</math>, as this will be a maximal element. From the functoriality of <math>F</math> and the fact that the morphism <math>\mathcal F \to F^*\mathcal G</math> was a morphism of presheaves, one easily sees that one may use that the restriction maps of the pullback are simply the ones of <math>\mathcal G</math> on the image of <math>F</math> in order to prove that a morphism of presheaves is thus defined.
+
+Conversely, on an object <math>V \in T</math>, a morphism <math>F_*\mathcal F \to \mathcal G</math> will yield a morphism
+:<math>\mathcal F(F(V)) \to \mathcal G(V)</math>.
+If now <math>U \in S</math> is given, we obtain from this a morphism
+:<math>\mathcal F(U) \to \mathcal F(F(V)) \to \mathcal G(V)</math>
+for every morphism <math>U \to F(V)</math> in <math>S</math>. The universal property of the inverse limit turns this into a morphism
+:<math>\mathcal F(U) \to F^*\mathcal G(U)</math>.
+This is a morphism of presheaves, as is seen from applying the universal property of <math>F^*\mathcal G(U')</math> to the cone with tip <math>\mathcal F(U)</math> for a morphism <math>U \to U'</math> in <math>S</math>.
+
+Since by uniqueness a morphism
+:<math>\mathcal F(U) \to \varprojlim_{F(W) \to U} \mathcal G(W)</math>
+may just as well arise from the universal property of the latter inverse limit and morphisms
+:<math>\mathcal F(F(W)) \to \mathcal G(W)</math> (there is a morphism in <math>S</math> from <math>F(W)</math> to <math>U</math>)
+and for <math>U = F(V)</math>, the map from presheaf morphisms on <math>T</math> to presheaf morphisms on <math>S</math> does not change the morphism at all, the two maps are inverses of each other. Thus, we have shown
+:<math>\operatorname{Hom}_{\text{PreSh}(S,C)}(\mathcal F, F^*\mathcal G) \cong \operatorname{Hom}_{\text{PreSh}(T,C)}(F_*\mathcal F, \mathcal G)</math>.
+
+Naturality in <math>\mathcal F</math> follows from the commutativity of the triangl
+:triangle.svg (F'(F(V)) to F(F(V)) to G(V))
+and naturality in <math>\mathcal G</math>}}
+
+{{BookCat}}

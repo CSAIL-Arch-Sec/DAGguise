@@ -1,0 +1,227 @@
+{{Control Systems/Page|Introduction|Digital and Analog}}
+
+== Systems ==
+
+Systems, in one sense, are devices that take input and produce an output. A system can be thought to '''operate''' on the input to produce the output. The output is related to the input by a certain relationship known as the '''system response'''.  The system response usually can be modeled with a mathematical relationship between the system input and the system output.
+
+== System Properties ==
+
+Physical systems can be divided up into a number of different categories, depending on particular properties that the system exhibits. Some of these system classifications are very easy to work with and have a large theory base for analysis. Some system classifications are very complex and have still not been investigated with any degree of success. By properly identifying the properties of a system, certain analysis and design tools can be selected for use with the system.
+
+The early sections of this book will focus primarily on '''linear time-invariant''' (LTI) systems. LTI systems are the easiest class of system to work with, and have a number of properties that make them ideal to study. This chapter discusses some properties of systems.
+
+Later chapters in this book will look at time variant systems and nonlinear systems. Both time variant and nonlinear systems are very complex areas of current research, and both can be difficult to analyze properly. Unfortunately, most physical real-world systems are time-variant, nonlinear, or both.
+
+An introduction to system identification and least squares techniques can be found [https://web.archive.org/web/20160325222811/http://wikis.controltheorypro.com/index.php?title=Introduction_to_System_Identification here].  An introduction to parameter identification techniques can be found [https://web.archive.org/web/20160325165445/http://wikis.controltheorypro.com/index.php?title=Introduction_to_Parameter_Identification here].
+
+== Initial Time ==
+
+The '''initial time''' of a system is the time before which there is no input. Typically, the initial time of a system is defined to be zero, which will simplify the analysis significantly. Some techniques, such as the '''Laplace Transform''' require that the initial time of the system be zero. The initial time of a system is typically denoted by t<sub>0</sub>.
+
+The value of any variable at the initial time t<sub>0</sub> will be denoted with a 0 subscript. For instance, the value of variable x at time t<sub>0</sub> is given by:
+
+:<math>x(t_0) = x_0</math>
+
+Likewise, any time t with a positive subscript are points in time ''after t<sub>0</sub>'', in ascending order:
+
+:<math>t_0 \le t_1 \le t_2 \le \cdots \le t_n</math>
+
+So t<sub>1</sub> occurs after t<sub>0</sub>, and t<sub>2</sub> occurs after both points. In a similar fashion above, a variable with a positive subscript (unless specifying an index into a vector) also occurs at that point in time:
+
+:<math>x(t_1) = x_1</math>
+:<math>x(t_2) = x_2</math>
+
+This is valid for all points in time t.
+
+== Additivity ==
+
+A system satisfies the property of '''additivity''' if a sum of inputs results in a sum of outputs. By definition: an input of <math>x_3(t) = x_1(t) + x_2(t)</math> results in an output of  <math>y_3(t) = y_1(t) + y_2(t)</math>. To determine whether a system is additive, use the following test:
+
+Given a system f that takes an input x and outputs a value y, assume two inputs (x<sub>1</sub> and x<sub>2</sub>) produce two outputs:
+:<math>y_1 = f(x_1)</math>
+:<math>y_2 = f(x_2)</math>
+
+Now, create a composite input that is the sum of the previous inputs:
+:<math>x_3 = x_1 + x_2</math>
+Then the system is additive if the following equation is true:
+
+:<math>y_3 = f(x_3) = f(x_1 + x_2) = f(x_1) + f(x_2) = y_1 + y_2</math>
+
+Systems that satisfy this property are called '''additive'''. Additive systems are useful because a sum of simple inputs can be used to analyze the system response to a more complex input.
+
+=== Example: Sinusoids ===
+
+{{TextBox|1=Given the following equation:
+
+:<math>y(t) = \sin(3x(t))</math>
+
+Create a sum of inputs as:
+
+:<math>x(t) = x_1(t) + x_2(t)</math>
+
+and construct the expected sum of outputs:
+
+:<math>y(t) = y_1(t) + y_2(t)</math>
+
+Now, substituting these values into our equation, test for equality:
+
+:<math>y_1(t) + y_2(t) = \sin(3[x_1(t) + x_2(t)])</math>
+
+The equality is not satisfied, and therefore the sine operation is not additive.}}
+
+== Homogeneity ==
+
+A system satisfies the condition of '''homogeneity''' if an input scaled by a certain factor produces an output scaled by that same factor. By definition: an input of <math>ax_1</math> results in an output of <math>ay_1</math>. In other words, to see if function ''f()'' is '''homogeneous''', perform the following test:
+
+Stimulate the system ''f'' with an arbitrary input ''x'' to produce an output ''y'':
+:<math>y = f(x)</math>
+
+Now, create a second input ''x<sub>1</sub>'', scale it by a multiplicative factor ''C'' (''C'' is an arbitrary constant value), and produce a corresponding output ''y<sub>1</sub>'':
+
+:<math>y_1 = f(Cx_1)</math>
+
+Now, assign x to be equal to ''x<sub>1</sub>'':
+:<math>x_1 = x</math>
+
+Then, for the system to be homogeneous, the following equation must be true:
+:<math>y_1 = f(Cx) = Cf(x) = Cy</math>
+
+Systems that are homogeneous are useful in many applications, especially applications with gain or amplification.
+
+=== Example: Straight-Line ===
+
+{{TextBox|1=Given the equation for a straight line:
+
+:<math>y = f(x) = 2x + 3</math>
+
+:<math>y_1 = f(Cx_1) = 2(Cx_1) + 3 = C2x_1 + 3</math>
+
+:<math>x_1 = x</math>
+
+Comparing the two results, it is easy to see they are not equal:
+
+:<math>y_1 = C2x + 3 \ne Cy = C(2x + 3) = C2x + C3</math>
+
+Therefore, the equation is not homogeneous.}}
+
+{{TextBox|1='''Exercise:'''
+
+Prove that additivity implies homogeneity, but that homogeneity does not imply additivity. }}
+
+== Linearity ==
+
+A system is considered '''linear''' if it satisfies the conditions of Additivity and Homogeneity. In short, a system is linear if the following is true:
+
+Take two arbitrary inputs, and produce two arbitrary outputs:
+:<math>y_1 = f(x_1)</math>
+:<math>y_2 = f(x_2)</math>
+
+Now, a linear combination of the inputs should produce a linear combination of the outputs:
+:<math>f(Ax_1 + Bx_2) = f(Ax_1) + f(Bx_2) = Af(x_1) + Bf(x_2) = Ay_1 + By_2</math>
+
+This condition of additivity and homogeneity is called '''superposition'''. A system is linear if it satisfies the condition of superposition.
+
+=== Example: Linear Differential Equations ===
+
+{{TextBox|1=Is the following equation linear:
+
+:<math>\frac{dy(t)}{dt} + y(t) = x(t)</math>
+
+To determine whether this system is linear, construct a new composite input:
+
+:<math>x(t) = Ax_1(t) + Bx_2(t)</math>
+
+Now, create the expected composite output:
+
+:<math>y(t) = Ay_1(t) + By_2(t)</math>
+
+Substituting the two into our original equation:
+
+:<math>\frac{d[Ay_1(t) + By_2(t)]}{dt} + [Ay_1(t) + By_2(t)] = Ax_1(t) + Bx_2(t)</math>
+
+Factor out the derivative operator, as such:
+
+:<math>\frac{d}{dt}[Ay_1(t) + By_2(t)] + [Ay_1(t) + By_2(t)] = Ax_1(t) + Bx_2(t)</math>
+
+Finally, convert the various composite terms into the respective variables, to prove that this system is linear:
+
+:<math>\frac{dy(t)}{dt} + y(t) = x(t)</math>
+
+For the record, derivatives and integrals are linear operators, and ordinary differential equations typically are linear equations.}}
+
+== Memory ==
+
+A system is said to have '''memory''' if the output from the system is dependent on past inputs (or future inputs!) to the system. A system is called '''memoryless''' if the output is only dependent on the current input. Memoryless systems are easier to work with, but systems with memory are more common in digital signal processing applications.
+
+Systems that have memory are called '''dynamic''' systems, and systems that do not have memory are '''static''' systems.
+
+== Causality ==
+
+Causality is a property that is very similar to memory. A system is called '''causal''' if it is only dependent on past and/or current inputs. A system is called '''anti-causal''' if the output of the system is dependent only on future inputs.
+A system is called '''non-causal''' if the output depends on past and/or current and future inputs.
+
+{{info|A system design that is not causal cannot be physically implemented (to operate in a real-time). If the system can't be built, the design is generally worthless. However, there are applications of non-causal systems, e.g. when a system does not need to operate in a real-time and already has signals stored in its memory (sound and image compression).}}
+
+== Time-Invariance ==
+
+A system is called '''time-invariant''' if the system relationship between the input and output signals is not dependent on the passage of time. If the input signal <math>x(t)</math> produces an output <math>y(t)</math> then any time shifted input, <math>x(t + \delta)</math>, results in a time-shifted output <math>y(t + \delta)</math> This property can be satisfied if the transfer function of the system is not a function of time except expressed by the input and output.
+If a system is time-invariant then the system block is commutative with an arbitrary delay. This facet of time-invariant systems will be discussed later.
+
+To determine if a system f is time-invariant, perform the following test:
+
+Apply an arbitrary input x to a system and produce an arbitrary output y:
+:<math>y(t) = f(x(t))</math>
+
+Apply a second input x<sub>1</sub> to the system, and produce a second output:
+:<math>y_1(t) = f(x_1(t))</math>
+
+Now, assign x<sub>1</sub> to be equal to the first input x, time-shifted by a given constant value &delta;:
+:<math>x_1(t) = x(t - \delta)</math>
+
+Finally, a system is time-invariant if y<sub>1</sub> is equal to y shifted by the same value &delta;:
+:<math>y_1(t) = y(t - \delta)</math>
+
+== LTI Systems ==
+
+A system is considered to be a '''Linear Time-Invariant''' (LTI) system if it satisfies the requirements of time-invariance and linearity. LTI systems are one of the most important types of systems, and they will be considered almost exclusively in the beginning chapters of this book.
+
+Systems which are not LTI are more common in practice, but are much more difficult to analyze.
+
+== Lumpedness ==
+
+A system is said to be '''lumped''' if one of the two following conditions are satisfied:
+#There are a finite number of states that the system can be in.
+#There are a finite number of state variables.
+
+The concept of "states" and "state variables" are relatively advanced, and they will be discussed in more detail in the discussion about '''modern controls'''.
+
+Systems which are not lumped are called '''distributed'''. A simple example of a distributed system is a system with delay, that is, <math>A(s)y(t)=B(s)u(t-\tau)</math>, which has an infinite number of state variables (Here we use <math>s</math> to denote the Laplace variable). However, although distributed systems are quite common, they are very difficult to analyze in practice, and there are few tools available to work with such systems. Fortunately, in most cases, a delay can be sufficiently modeled with the Pade approximation. This book will not discuss distributed systems much.
+
+== Relaxed ==
+
+A system is said to be '''relaxed''' if the system is causal and at the initial time t<sub>0
+</sub> the output of the system is zero, i.e., there is no stored energy in the system. The output is excited solely and uniquely by input applied thereafter.
+
+:<math>y(t_0) = f(x(t_0)) = 0</math>
+
+In terms of differential equations, a relaxed system is said to have "zero initial states". Systems without an initial state are easier to work with, but systems that are not relaxed can frequently be modified to approximate relaxed systems.
+
+== Stability ==
+
+{{SideBox|Control Systems engineers will frequently say that an unstable system has "exploded". Some physical systems actually can rupture or explode when they go unstable.}}
+
+'''Stability''' is a very important concept in systems, but it is also one of the hardest function properties to prove. There are several different criteria for system stability, but the most common requirement is that the system must produce a finite output when subjected to a finite input. For instance, if 5 volts is applied to the input terminals of a given circuit, it would be best if the circuit output didn't approach infinity, and the circuit itself didn't melt or explode. This type of stability is often known as "'''Bounded Input, Bounded Output'''" stability, or '''BIBO'''.
+
+There are a number of other types of stability, most of which are based on the concept of BIBO stability. Because stability is such an important and complicated topic, an entire section of this text is devoted to its study.
+
+== Inputs and Outputs ==
+
+Systems can also be categorized by the number of inputs and the number of outputs the system has. Consider a television as a system, for instance. The system has two inputs: the power wire and the signal cable. It has one output: the video display. A system with one input and one output is called '''single-input, single output''', or SISO. a system with multiple inputs and multiple outputs is called '''multi-input, multi-output''', or MIMO.
+
+These systems will be discussed in more detail later.
+
+{{TextBox|1='''Exercise:'''
+
+Based on the definitions of SISO and MIMO, above, determine what the acronyms SIMO and MISO mean.}}
+
+{{Control Systems/Nav|Introduction|Digital and Analog}}

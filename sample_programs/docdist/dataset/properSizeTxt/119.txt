@@ -1,0 +1,256 @@
+{{Radiation Oncology:TOC}}
+
+The purpose of this page is to provide a quick comparison of the stages that are used for various malignancies.  It is not meant to go into detail of what constitutes each stage.  For that information, see the article on each specific malignancy.
+
+This page uses the latest AJCC 6th edition from 2002.
+
+''Note: should move this information into table form''
+
+Notes: M-stage not listed unless it is different than the commonly used M0 or M1.
+<br>For simplicity, N(1-3) means N-stage can be N0 or N1-3. However, N(0-1) means N-stage is N0 or N1. These schemes are different but easier to remember.
+<br>All sites also contain T0 (no tumor) but this isn't listed below. Many sites contain Tis and Stage 0 but these aren't listed below.
+
+The headings below are per the AJCC Cancer Staging Handbook and do not necessarily follow the Table of Contents organization of this wikibook.
+
+:''See also:'' [http://cancerstaging.blogspot.com TNM by organ categories] - excellent web-based staging guide
+
+==AJCC Staging Editions==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+Current edition: 7th edition, 2009
+
+*Listing of editions: First date is the date of release; date range in parentheses is the date of use. Usually the edition is referred to by the year of release rather than the first year of use—e.g. 5th edition (1997)
+*1st edition: 1977 (1978–83), ''Cancer Staging Manual'' by the AJC
+*2nd edition: 1983 (1984–88), ''Manual for Staging of Cancer''
+*3rd edition: 1988 (1989–1992) - [http://seer.cancer.gov/manuals/historic/comp_stage1.1.pdf PDF of AJCC 3rd ed]
+*4th edition: 1992 (1993–1997)
+*5th edition: 1997 (1998–2002) 
+*6th edition: 2002 (2003–2009) - [http://www.sh.lsuhsc.edu/Tumor_registry/Homepage.pdf PDF of AJCC 6th ed] (staging forms only)
+*7th edition: 2009 (2010–2017)
+**N.B. See [https://cancerstaging.org/references-tools/deskreferences/Pages/default.aspx], including 7th Edition Staging Manual ERRATA
+*8th edition: 2017 (2018-)
+**See [https://cancerstaging.org/references-tools/deskreferences/Pages/default.aspx] for errata
+
+Full text (PDF) of past editions (1st-5th) [http://www.cancerstaging.org/products/pasteditions.html]
+
+See also:
+*[http://www.springer.com/cda/content/document/cda_downloaddocument/cancer_staging_comparison_guide.pdf 5th/6th Edition Comparison Guide (PDF)] - by the AJCC 
+*[http://www.vpathology.org/comparison_guide/index.html Comparison of 5th and 6th ed.] (HTML)
+
+The AJCC was organized in 1959 as the American Joint Committee for Cancer Staging and End-Results Reporting (AJC).  Its name was changed to American Joint Committee on Cancer (AJCC) in 1980.
+
+==Head and Neck==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+Note: Overall staging the same for all except nasopharynx and thyroid.
+<br>N-stage is the same for all (except the above 2). T-stage is similar for all subsites, with only minor differences.
+*Overall staging: '''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T3 N0, T1-3 N1) - '''IVA''' (T4a, N2) '''IVB''' (T4b, N3) '''IVC''' (M1)
+*'''Lip and [[Radiation Oncology/Head & Neck/Oral cavity|Oral Cavity]]''' - '''I - II - III - IVA IVB IVC'''
+*:T(T1-4 and T4a, T4b), N(N1, N2a N2b N2c, N3)
+*'''[[Radiation Oncology/Head & Neck/Oropharynx#Staging|Oropharynx]]''' - '''I - II - III - IVA IVB IVC'''
+*:T(T1-4 and T4a, T4b), N(N1, N2a N2b N2c, N3)
+*'''[[Radiation Oncology/Head & Neck/Hypopharynx#Staging|Hypopharynx]]''' - '''I - II - III - IVA IVB IVC'''
+*:T(T1-4 and T4a, T4b), N(N1, N2a N2b N2c, N3)
+*'''[[Radiation Oncology/Head & Neck/Nasopharynx/Staging|Nasopharynx]]''' - '''I - II - III - IVA IVB IVC'''
+*:T(T1, T2a T2b, T3, T4), N(N1, N2, N3a N3b)
+*'''[[Radiation Oncology/Head & Neck/Larynx/Staging|Larynx]]''' - '''I - II - III - IVA IVB IVC'''
+*:''supraglottis and subglottis:'' T(T1, T2, T3, T4a T4b)
+*:''glottis:'' T(T1a T1b, T2, T3, T4a T4b)
+*:''for all:'' N(N1, N2a N2b N2c, N3)
+*'''[[Radiation Oncology/Head & Neck/Sinonasal/Staging|Nasal cavity and paranasal sinuses]]''' - '''I - II - III - IVA IVB IVC'''
+*:T(T1-4 and T4a, T4b), N(N1, N2a N2b N2c, N3)
+*'''[[Radiation Oncology/Head & Neck/Salivary gland|Salivary glands]]''' - '''I - II - III - IVA IVB IVC'''
+*:T(T1-4 and T4a, T4b), N(N1, N2a N2b N2c, N3)
+*:'''I''' (T1 N0) - '''IIA''' (T2a N0) '''IIB''' (T1-2 N1, T2b N0) - '''III''' (T3 N0-2, T1-3 N2) - '''IVA''' (T4 N0-2) '''IVB''' (N3) '''IVC''' (M1)
+*'''[[Radiation Oncology/Thyroid|Thyroid]]''' 
+*:Overall stage: ''papillary or follicular:'' (Under 45 years) '''I - II'''. (45 yrs+) '''I - II - III - IVA IVB IVC'''
+*:Overall stage: ''medullary:'' '''I - II - III - IVA IVB IVC'''
+*:Overall stage: ''anaplastic:'' '''IVA IVB IVC'''
+*:T(T1-4 and T4a, T4b), N(N1a and N1b). Anaplastic is T4a or T4b only.
+
+==Gastrointestinal==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+*'''Note:''' These sites (the next 6) are all different with no pattern.
+*'''[[Radiation Oncology/Esophagus/Staging|Esophagus]]''' - '''I - IIA IIB - III - IVA IVB'''
+*:T(1-4), N(0-1), M(0, 1a 1b) - M1a not applicable for midthoracic primary tumors
+*:'''I''' (T1 N0) - '''IIA''' (T2-3 N0) '''IIB''' (T1-2 N1) - '''III''' (T3N1 or T4) - '''IVA''' (M1a) '''IVB''' (M1b)
+*'''[[Radiation Oncology/Stomach/Staging|Stomach]]''' - '''IA IB - II - IIIA IIIB - IV'''
+*:T(T1, T2a T2b, T3, T4), N(1-3)
+*:'''IA''' (T1N0) '''IB''' (T1N1, T2N0) - '''II''' (T1N2, T2N1, T3N0) - '''IIIA''' (T2N2, T3N1, T4N0) '''IIIB''' (T3N2) - '''IV''' (T4N1-3, N3, M1)
+*:Mnemonic - IA add to 1, IB add to 2, II - 3, IIIA - 4, IIIB - 5
+*'''[[Radiation Oncology/Small intestine#Staging|Small intestine]]''' - '''I - II - III - IV'''
+*:T(1-4), N(0-1)
+*:'''I''' (T1-2 N0) - '''II''' (T3-4 N0) - '''III''' (N1) - '''IV''' (M1)
+*'''[[Radiation Oncology/Appendix-carcinoma#Staging|Appendix (carcinoma)]]''' - '''I - IIA IIB IIC - IIIA IIIB IIIC - IVA IVB IVC'''
+*:T(1-4,4ab), N(0-2), M(0,1a/b)
+*:'''I''' (T1-2 N0) - '''IIA''' (T3 N0) '''IIB''' (T4a N0) '''IIC''' (T4b N0) - '''IIIA''' (T1-2 N1) '''IIIB''' (T3-4 N1) '''IIIC''' (N2) - '''IVA''' (N0 M1a G1) '''IVB''' (N0 M1a G2-3,N+ M1a) '''IVC''' (M1b)
+*'''[[Radiation Oncology/Carcinoid/Appendix|Appendix carcinoid]]''' - '''I - II - III - IV'''
+*:T(1-4,1ab), N(0-1)
+*:'''I''' (T1 N0) - '''II''' (T2-3 N0) - '''III''' (T4 or N1) - '''IV''' (M1)
+*'''[[Radiation Oncology/Carcinoid/GI Carcinoid|Carcinoid]] ''(non-appendiceal)''''' - '''I - IIA IIB - IIIA IIIB - IV'''
+*:T(1-4),N(0-1)
+*:'''I''' (T1 N0) - '''IIA''' (T2 N0) '''IIB''' (T3 N0) - '''IIIA''' (T4 N0) '''IIIB''' (N1) - '''IV''' (M1)
+*'''[[Radiation Oncology/Colon|Colon]] and [[Radiation Oncology/Rectum/Staging|rectum]]''' - '''I - IIA IIB - IIIA IIIB IIIC - IV'''
+*:T(1-4), N(1-2)
+*:'''I''' (T1-2 N0) - '''IIA''' (T3 N0) '''IIB''' (T4 N0) - '''IIIA''' (T1-2 N1) '''IIIB''' (T3-4 N1) '''IIIC''' (N2) - '''IV''' (M1)
+*'''[[Radiation Oncology/Anal canal#Staging|Anal canal]]''' - '''I - II - IIIA IIIB - IV'''
+*:T(1-4), N(1-3)
+*:'''I''' (T1 N0) - '''II''' (T2-3 N0) - '''IIIA''' (T1-3 N1, T4 N0) '''IIIB''' (T4 N1, N2-3) - '''IV''' (M1)
+*'''[[Radiation Oncology/GIST#Staging|Gastrointestinal Stromal Tumor (GIST)]]'''
+*:T(1-4), N(0-1). Mitotic rate: Low or High
+*:''Gastric GIST:'' '''IA IB - II - IIIA IIIB - IV'''
+*:''Gastric GIST:'' '''IA''' (T1-2 N0, low mit.) '''IB''' (T3 N0, low mit.) - '''II''' (T1-2 N0, high mit.; T4 N0, low mit.) - '''IIIA''' (T3 N0, high mit.) '''IIIB''' (T4 N0, high mit.) - '''IV''' (N1 or M1)
+*:''Small Intestinal GIST:'' '''I - II - IIIA IIIB - IV'''
+*:''Small Intestinal GIST:'' '''I''' (T1-2 N0, low mit.) - '''II''' (T3 N0, low mit.) - '''IIIA''' (T1 N0, high mit; T4 N0, low mit) '''IIIB''' (T2-T4 N0, high mit.) - '''IV''' (N1 or M1)
+*'''[[Radiation Oncology/Liver/HCC#Staging|Liver]]''' - '''I - II - IIIA IIIB IIIC - IVA IVB'''
+*:T(1-4), N(0-1)
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''IIIA''' (T3a N0) '''IIIB''' (T3b N0) '''IIIC''' (T4 N0) - '''IVA''' (N1) '''IVB''' (M1)
+*'''[[Radiation Oncology/Gall bladder#Staging|Gallbladder]]''' - '''I - III - IIIA IIIB - IVA IVB'''
+*:T(1a 1b, 2, 3, 4), N(0-2)
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''IIIA''' (T3 N0) '''IIIB''' (T1-3 N1) - '''IVA''' (T4 N0-1) '''IVB''' (N2 or M1)
+*'''[[Radiation Oncology/Bile duct/Staging#Extrahepatic bile ducts|Extrahepatic bile ducts]]''' 
+**'''[[Radiation Oncology/Bile duct/Staging#Extrahepatic bile ducts|Perihilar bile ducts]]''' - '''I - II - IIIA IIIB - IVA IVB'''
+**:T(1,2a/b,3,4), N(0-2)
+**:'''I''' (T1 N0) - '''II''' (T2a-b N0) - '''IIIA''' (T3 N0) '''IIIB''' (T1-3 N1) - '''IVA''' (T4 N0-1) '''IVB''' (N2 or M1)
+**'''[[Radiation Oncology/Bile duct/Staging#Extrahepatic bile ducts|Distal bile duct]]''' - '''IA IB - IIA IIB - III - IV'''
+**:T(1-4), N(0-1)
+**:'''IA''' (T1 N0) '''IB''' (T2 N0) - '''IIA''' (T3 N0) '''IIB''' (T1-3 N1) - '''III''' (T4) - '''IV''' (M1)
+*'''[[Radiation Oncology/Bile duct/Staging#Intrahepatic bile ducts|Intrahepatic bile ducts]]''' - '''I - II - III - IVA IVB'''
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T3 N0) - '''IVA''' (T4 N0, Any N1) '''IVB''' (M1)
+*'''[[Radiation Oncology/Ampulla#Staging|Ampulla of Vater]]''' - '''IA IB - IIA IIB - III - IV'''
+*:T(1-4), N(0-1)
+*:'''IA''' (T1 N0) '''IB''' (T2 N0) - '''IIA''' (T3 N0) '''IIB''' (T1-3 N1) - '''III''' (T4) - '''IV''' (M1)
+*'''[[Radiation Oncology/Pancreas/Staging|Pancreas]]''' - '''IA IB - IIA IIB - III - IV'''
+*:T(1-4), N(0-1)
+*:'''IA''' (T1 N0) '''IB''' (T2 N0) - '''IIA''' (T3 N0) '''IIB''' (T1-3 N1) - '''III''' (T4) - '''IV''' (M1)
+
+==Lung==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+*'''[[Radiation Oncology/Lung/NSCLC/Staging|Lung]]''' - '''IA IB - IIA IIB - IIIA IIIB - IV'''
+*:T(1a,1b,2a,2b,3-4), N(1-3)
+*:'''IA''' (T1 N0) '''IB''' (T2 N0) - '''IIA''' (T1 N1) '''IIB''' (T2 N1, T3 N0) - '''IIIA''' (T3 N1-2, T1-3 N2) '''IIIB''' (T4, N3) - '''IV''' (M1)
+*'''[[Radiation Oncology/Lung/Mesothelioma/Staging|Pleural mesothelioma]]''' - '''IA IB - II - III - IV'''
+*:T(T1a T1b, T2, T3, T4), N(1-3)
+*:'''IA''' (T1a N0) '''IB''' (T1b N0) - '''II''' (T2 N0) - '''III''' (T1-2 N1-2, T3 N0-2) - '''IV''' (T4, N3, M1)
+
+==Musculoskeletal==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+*'''[[Radiation Oncology/Bone/Background#Staging|Bone]]''' - '''IA IB - IIA IIB - III - IVA IVB'''
+*:T(1-3), N(0-1), M(1a, 1b). Grade is also used to determine stage. 
+*:'''IA''' (T1 N0, Low grade) '''IB''' (T2 N0, Low grade) - '''IIA''' (T1 N0, High grade) '''IIB''' (T2 N0, High grade) - '''III''' (T3 N0) - '''IVA''' (M1a) '''IVB''' (N1, M1b)
+*'''[[Radiation Oncology/Sarcoma/Staging|Soft tissue sarcoma]]''' - '''I - II - III - IV'''
+*:T(1a 1b, 2a 2b), N(0-1). Grade is also used to determine stage.
+*:'''I''' (Low grade N0) - '''II''' (High grade T1a/b-T2a N0) - '''III''' (High grade T2b N0) - '''IV''' (N1, M1)
+
+==Skin==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+*'''[[Radiation Oncology/Skin/Nonmelanoma#Staging|Carcinoma of the skin]]''' - '''I - II - III - IV'''
+*:T(1-4), N(1,2a/b/c,3)
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T3 N0, T1-3 N1) - '''IV''' (N2-N3 or T4 or M1)
+*'''[[Radiation Oncology/Merkel#Staging|Merkel cell carcinoma]]''' - '''IA IB - IIA IIB IIC - IIIA IIIB - IV'''
+*:T(1-4), N(0,1a/b,2)
+*:'''IA''' (T1 pN0) '''IB''' (T1 cN0) - '''IIA''' (T2-3 pN0) '''IIB''' (T2-3 cN0) '''IIC''' (T4 N0) - '''IIIA''' (N1a) '''IIIB''' (N1b/N2) - '''IV''' (M1)
+*'''[[Radiation Oncology/Melanoma/Staging|Melanoma]]''' - Clinical node staging: '''IA IB - IIA IIB - III - IV''' - Pathologic node staging: '''IIIA IIIB IIIC'''
+*:T(1a 1b, 2a 2b, 3a 3b, 4a 4b), N(1a 1b, 2a 2b 2c, 3), M(1a 1b 1c). Note: all M1 are the same overall stage.
+*:''Clinical'' - '''IA''' (T1a N0) '''IB''' (T2a, T1b N0) - '''IIA''' (T3a, T2b N0) '''IIB''' (T4a, T3b N0) '''IIC''' (T4b N0) - '''III''' (N+) - '''IV''' (M1)
+*:''Pathologic'' - '''IIIA''' (N1a or N2a with no ulceration T1-4a) '''IIIB''' (N1b or N2b or N2c with no ulceration T1-4a, '''''or''''' N1a or N2a with ulceration T1-4b) '''IIIC''' (N1b or N2b or N2c with ulceration T1-4b,'''''or''''' any N3)
+*:''Hint:'' ulceration always upstages by one
+
+==Breast==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+*'''[[Radiation Oncology/Breast/Staging|Breast]]''' - '''IA IB - IIA IIB - IIIA IIIB IIIC - IV'''
+*:T(1mic 1a 1b 1c, 2, 3, 4a 4b 4c 4d), N(1&nbsp;mi 1a 1b 1c, 2a 2b, 3a 3b 3c), M(0,cM0(i+),1). Note: all subtypes of a stage are the same overall stage.
+*:'''IA''' (T1 N0) '''IB''' (T0-1 N1mi) - '''IIA''' (T1 N1, T2 N0) '''IIB''' (T2 N1, T3 N0) - '''IIIA''' (N2, T3 N1) '''IIIB''' (T4) '''IIIC''' (N3) - '''IV''' (M1)
+
+==Gynecologic==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+In all, T-stage parallels the FIGO stage, except there is no T4b (Stage IVB is M1), and in cases where the FIGO stage includes node-positive disease as a distinct stage (e.g. uterine corpus Stage IIIC). Except for vulvar, N+ makes the overall stage the highest Stage III stage. There is no T4 (and thus no IVA) for ovary and fallopian tube.
+<br>N-stage changes the FIGO stage in most, but only in vulvar cancer is there N1 vs N2.
+*'''[[Radiation Oncology/Vulva#Staging|Vulva]]''' - '''IA IB - II - IIIA IIIB IIIC - IVA IVB''' (FIGO staging)
+*:T(1a 1b, 2, 3), N(1a 1b, 2a 2b 2c, 3)
+*:'''IA''' (T1a N0) '''IB''' (T1b N0) - '''II''' (T2 N0) - '''IIIA''' (T1-2 N1) '''IIIB''' (T1-2 N2a-b) '''IIIC''' (T1-2 N2c) - '''IVA''' (T3 or N3) '''IVB''' (M1)
+*'''[[Radiation Oncology/Vagina|Vagina]]''' - '''I - II - III - IVA IVB''' (FIGO staging)
+*:T(1-4), N(0-1). N+ is Stage III.
+*'''[[Radiation Oncology/Cervix/Staging|Cervix]]''' - '''IA1 IA2 IB1 IB2 - IIA1 IIA2 IIB - IIIA IIIB - IVA IVB''' (FIGO staging)
+*:T(1a1 1a2 1b1 1b2, 2a1 2a2 2b, 3a 3b, 4), N(0-1). N+ is Stage IIIB in AJCC only, not used in FIGO stage.
+*'''[[Radiation Oncology/Endometrium/Staging|Endometrial carcinoma]]''' - '''IA IB - II - IIIA IIIB IIIC1 IIIC2 - IVA IVB''' (FIGO staging)
+*:T(1a 1b, 2, 3a 3b, 4), N(0-2)
+*:'''IA''' (T1a N0) '''IB''' (T1b N0) - '''II''' (T2 N0) - '''IIIA''' (T3a N0) '''IIIB''' (T3b N0) '''IIIC1''' (T1-3 N1) '''IIIC2''' (T1-3 N2) - '''IVA''' (T4) '''IVB''' (M1)
+*'''[[Radiation Oncology/Uterine Sarcoma/Staging|Uterine sarcoma]]''' - '''IA IB IC - II - IIIA IIIB IIIC - IVA IVB'''
+*:T(1a 1b 1c, 2, 3a 3b, 4), N(0-1)
+*:'''IA''' (T1a N0) '''IB''' (T1b N0) '''IC''' (T1c N0) - '''II''' (T2 N0) - '''IIIA''' (T3a N0) '''IIIB''' (T3b N0) '''IIIC''' (T1-3 N1) - '''IVA''' (T4) '''IVB''' (M1)
+*'''[[Radiation Oncology/Ovary#Staging|Ovary]]''' - '''IA IB IC - IIA IIB IIC - IIIA IIIB IIIC - IV''' (FIGO staging)
+*:T(1a 1b 1c, 2a 2b 2c, 3a 3b 3c), N(0-1). N+ is IIIC. 
+*'''[[Radiation Oncology/Fallopian tube#Staging|Fallopian tube]]''' - '''IA IB IC - IIA IIB IIC - IIIA IIIB IIIC - IV''' (FIGO staging)
+*:T(1a 1b 1c, 2a 2b 2c, 3a 3b 3c), N(0-1). N+ is IIIC. 
+*'''Gestational trophoblastic tumors''' - '''IA IB - IIA IIB - IIIA IIIB - IVA IVB''' (FIGO staging)
+*:T(1-2), N stage is not used, M(1a 1b). Risk group (high or low or unknown) is also used in staging.
+
+===FIGO Staging===
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+Links about FIGO staging.
+
+Latest revision: 2009
+:''See also:'' individual GYN chapters for FIGO staging references
+*'''2009''' PMID 19367689 -- "Revised FIGO staging for carcinoma of the vulva, cervix, and endometrium." (Pecorelli S, Int J Gynaecol Obstet. 2009 May;105(2):103-4.)
+
+'''''Guidelines:'''''
+*'''2000''' [http://www.figo.org/files/figo-corp/docs/staging_booklet.pdf PDF] "Staging Classifications and Clinical Practice
+Guidelines for Gynaecological Cancers"
+
+==Genitourinary==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+*'''[[Radiation Oncology/Penis#Staging|Penis]]''' - '''I - II - IIIA IIIB - IV'''
+*:T(Ta, 1a 1b, 2-4), N(1-3)
+*:'''I''' (T1a N0) - '''II''' (T1b-T3 N0) - '''IIIA''' (T1-3 N1) '''IIIB''' (T1-3 N2) - '''IV''' (T4, N3, M1)
+*'''[[Radiation Oncology/Prostate/Staging|Prostate]]''' - '''I - IIA IIB - III - IV'''
+*:T(1a 1b 1c, 2a 2b 2c, 3a 3b, 4), N(0-1), M1(1a 1b 1c). Now incorporates PSA + Gleason score.
+*:'''I''' (T1-T2a N0 M0 PSA<10 G≤6) - '''IIA''' (T1-2 up to PSA<20 and G7) '''IIB''' (T1-2 PSA≥20 or G≥8 or T2c) - '''III''' (T3 N0) - '''IV''' (T4, N1, M1)
+*'''[[Radiation Oncology/Testis/Staging|Testis]]''' - '''IA IB IS - IIA IIB IIC - IIIA IIIB IIIC''' (there is no Stage IV)
+*:T(1-4), N(1-3), M(1a 1b—affects stage), S(1-3)
+*:'''IA''' (T1 N0 M0 S0) '''IB''' (T2-4 N0 M0 S0) '''IS''' (Any T N0 M0 S1-3) - '''IIA''' (Any T N1 M0 S0-1) '''IIB''' (Any T N2 M0 S0-1) '''IIC''' (Any T N3 M0 S0-1) - '''IIIA''' (Any T Any N M1a S0-1) '''IIIB''' (S2 and N1-3 or M1a) '''IIIC''' (S3 and N1-3 or M1a, or M1b)
+*'''[[Radiation Oncology/Kidney#Staging|Kidney]]''' - '''I - II - III - IV'''
+*:T(1a 1b, 2, 3a 3b 3c, 4), N(1-2). Substage does not change overall stage.
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T3, N1) - '''IV''' (T4, N2, M1)
+*'''[[Radiation Oncology/Ureter#Staging|Renal pelvis and ureter]]''' - '''I - II - III - IV'''
+*:T(1-4), N(1-3). Note: all N+ are the same overall stage.
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T3 N0) - '''IV''' (T4, N+, M1)
+*'''[[Radiation Oncology/Bladder#Staging|Bladder]]''' - '''0a 0is - I - II - III - IV'''
+*:T(Ta Tis T1, 2a 2b, 3a 3b, 4a 4b), N(1-3). Substages 4a and 4b change overall stage but T2 and T3 substages do not. All N+ (N1-3) is the same overall stage.
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T3 N0, T4a N0) - '''IV''' (T4b, N+, M1)
+*'''[[Radiation Oncology/Urethra#Staging|Urethra]]''' - '''0a 0is - I - II - III - IV'''
+*:T(Ta Tis, 1-4), N(1-2)
+*:'''I''' (T1 N0) - '''II''' (T2 N0) - '''III''' (T1-3 N1, T3 N0) - '''IV''' (T4, N2, M1)
+
+==Ophthalmic sites==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+Note: Rarely used
+
+*'''[[Radiation Oncology/Retinoblastoma|Retinoblastoma]]''' - No AJCC stage grouping
+*:Clinical: T(1a 1b, 2a 2b 2c, 3, 4), N(1-2), M(1a 1b)
+*:Pathologic: T(1, 2a 2b 2c, 3a 3b 3c, 4), N(0-1)
+
+==Central nervous system==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+No AJCC staging system
+
+For more information on CNS tumors, see the [http://en.wikibooks.org/wiki/Radiation_Oncology/CNS CNS page]
+
+==Lymphoid malignancies==
+[http://en.wikibooks.org/wiki/Radiation_Oncology/Staging Return to Top]
+
+TNM does not apply.
+*'''[[Radiation Oncology/Hodgkin#Staging|Lymphoma]]''' - Ann Arbor Stage: '''I - II - III - IV''' with modifiers. 
+*'''[[Radiation Oncology/Multiple myeloma|Multiple myeloma]]''' - Durie-Salmon staging: '''IA IB - IIA IIB - IIIA IIIB'''.
+
+{{BookCat}}

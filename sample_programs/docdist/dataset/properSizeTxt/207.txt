@@ -1,0 +1,228 @@
+==Cell Anatomy==
+Cells differ tremendously in morphology, but the following illustration shows the main features of a typical mammalian cell:
+
+
+[[Image:Cell structure.png|432px|Cell Structure]]
+
+The following table summarizes the various parts and their functions. We will then look at the various parts in more detail.
+
+<table cellpadding='10' border='1'>
+<tr><th>Structure</th><th>Characteristics</th><th>Function</th></tr>
+<tr valign='top'>
+<td>Microvilli (not shown)</td>
+<td>Extensive folding of the cell membrane found in certain cells with an absorptive capacity</td>
+<td>Increase surface area for absorption.</td>
+</tr>
+
+<tr valign='top'>
+<td>Cell Membrane</td>
+<td>Double layer of Phospholipid molecules studded with Proteins</td>
+<td>Acts as barrier to cell. Proteins serve many functions including transportation of ions and other molecules.</td>
+</tr>
+
+<tr valign='top'>
+<td>Centrioles</td>
+<td>Bundles of microtubules</td>
+<td>Important in Cell Division</td>
+</tr>
+
+<tr valign='top'>
+<td>Lyosomes, peroxyosomes, secretory vesicles</td>
+<td>Vesicles with Bilayer Phospholipid membrane</td>
+<td>Lyosomes contain digestive enzymes; Peroxyiosomes contain enzymes essential for cell function; Secretory vesicles store enzymes etc. for secretion to exterior of cell</td>
+</tr>
+
+<tr valign='top'>
+<td>Mitochondria</td>
+<td>Double walled organule with a central matrix</td>
+<td>Produces most of the cells ATP</td>
+</tr>
+
+<tr valign='top'>
+<td>Ribosomes</td>
+<td>Specialized protein that translates mRNA into polypeptides</td>
+<td>Protein Synthesis</td>
+</tr>
+<tr valign='top'>
+<td>Rough and Smooth Endoplastic Reticulum</td>
+<td>Bi-phospholipid membrane continuous with nuclear membrane, and studded with ribosomes</td>
+<td>Rough ER modifies proteins; smooth ER synthesizes fatty acids, steroids and lipids</td>
+</tr>
+
+
+
+<tr valign='top'>
+<td>Golgi Apparatus</td>
+<td>Modifies and packages proteins, especially those for excretion.</td>
+<td></td>
+</tr>
+
+<tr valign='top'>
+<td>Microtubules and Microfillaments</td>
+<td>Protein fibers (actin) and protein tubules.</td>
+<td> Cell skeleton. Also important in transport of substances within cell</td>
+</tr>
+
+<tr valign='top'>
+<td>Nucleus and Nucleolus</td>
+<td>Two layer outer membrane with numerous pores, encloses cells DNA.</td>
+<td>Directs all functions of Cell. Nucleolus is a collection of proteins and RNA stored for ribosome production.</td>
+</tr>
+</table> 
+===Cell Membrane===
+The cell membrane is composed of almost entirely proteins and lipids. It is about '''55% protein''' by weight, '''25% phospholipids''', '''17% cholesterol and other lipids''', and '''3% carbohydrate'''. Phospholipids have a '''phosphate hydrophillic''' end, and a '''fatty acid hydrophobic end'''. 
+
+              |G|
+              |L|
+              |Y|---Fatty Acid
+ Phosphate----|C|
+              |E|
+              |R|---Fatty Acid
+              |O|
+              |L|
+ Hydrophilic        Hydrophobic
+
+The hydrophopic parts oppose one another, and the hydrophillic parts are exposed to the intra- and the extracellular fluid. The membrane itself is water insolouble and is only permeable to fat soluble substances. However numerous channels allow passage of water and other substances into the cell. 
+
+[[File:Cell membrane3.png]]
+
+The proteins are anatomically classified into '''integral''' and '''peripheral''' proteins.
+Difference between integral & peripheral proteins:
+Integral proteins penetrate the membrane, and peripheral proteins are just attached to one side. Integral proteins can act as channels or pores and others act as carriers and transporters of various substances. Peripheral proteins serve a number of functions, and in many cases serve to activate the integral proteins. Some of the proteins are enzymes, others serve as '''second messengers'''. This will be looked at in some detail in the chapter on membrane dynamics. 
+
+Cholesterol is found in varying amounts in the membrane. It tends to be found between the triglyceride 'stalks' of the phospholipids, and serves to make the membrane less porous.
+
+Most proteins and many lipids are '''glycoprotins''' or '''glycolipids''', and the -ve carbohydrate end of the molecule is presented to the extracellular fluid. This carbohydrate layer is sreferred to as the '''Glycocalyx''' of the cell. These carbohydrates serve several important functions"
+*Many have a negative electrical charge which repels other negatively charged ions.
+*They serve to attach cells to one another, and to the basement membrane
+*Many act as receptor sites for hormones such as Insulin
+*They enter into immune reactions
+
+====Cell Membrane Proteins====
+Cell membrane proteins may be functionally classified into four groups:
+*'''Structural Proteins''': On the interior of the cell these serve as anchors for the actin and tubulin microfibrils. (''see below''). On the exterior they serve to bind cells together into tissues (see  ''Cell Junctions and Tissues'')
+*'''Enzymes''': In the small intestine, many of the digestive enzymes are embedded in the cell wall.  ''(see Digestion'')
+*'''Receptors''': These act as receptors for the messenger system of the cell. For example Insulin exerts its effects on the cell by binding onto a special receptor (see ''Membrane Dynamics'').
+*'''Transporters''': these serve to transport molecules in and out of the cell. They may be either channels, or carriers. This is discussed further in ''Membrane Dynamics''.
+
+===Cell Cytoplasm===
+The cytoplasm is filled with dispersed particles and organules. The liquid portion of the cytoplasm is called cytosol, and contains dissolved ions, proteins and glucose. Also found are neutral fat globules and glycogen.
+
+It also contains the important organules: '''endoplasmic reticulum''' and '''ribosomes'''; '''golgi apparatus'''; '''lysosomes'''; '''proxiosomes'''; and '''secretory granules'''.
+
+===Ribosomes===
+These are the sites of the manufacture of proteins from a mRNA template. They are complex structures made up of '''ribosomal RNA''' and proteins. The are composed of a large and a small subunit which 'clamp' onto the messanger RNA that they 'translate'. Most ribosomes can be found lining the endoplasmic reticulum, but the cytoplasm also contains many free ribosomes.It plays a vital role in protein synthesis.
+
+This will be discussed in further detail under the "Protein Manufacture" section.
+
+===Endoplasmic reticulum===
+This membranous sac is a complex series of tubules, continuous with the nuclear membrane. It is sub-classified as a rough, or granular ER, and a smooth or agranular ER. The rough Endoplasmic reticulum is lined with ribosomes and modifies and packages proteins that have been produced by the ribosome. In skeletal and cardiac muscle it is known as the '''sarcoplasmic reticulum'''. The smooth ER synthesize fatty substances and is the site of detoxification processes.
+
+===Golgi apparatus===
+The Golgi apparatus is a series of stacked membrane enclosed sacs, usually six or more.  It is a polarized structure with a '''cis''' and a '''trans''' side. The cis side faces the endoplasmic reticulum and the trans side the cell membrane. Its job is to process and package substances, both protein and non-protein, from the endoplasmic reticulum. The Golgi apparatus modifies the oligo-saccharide attachments of the glyco-proteins that have been initially prepared in the ER.
+
+Membranous protein containing vesicles pinch off from the endoplasmic reticulum and are transported across to the cis Golgi apparatus. Substances are exchanged between one layer of the Golgi apparatus and another by a similar process. The vesicles that pinch off from the trans side shuttle to lyosomes or to the cell exterior. Those destined for the cell exterior are follow either '''consitutive''' or '''non-constitutive''' (also known as '''regulated''') pathways. Those following consitutive pathways are immediately secreted; those following a non-constitutive pathway either form an '''excretory vesicle''', or are shunted to an existing vesicle, where further processing may be carried out.
+
+[[File:Golgi secretions.png]]
+
+The destination of Golgi vesicles, indeed the destination of all vesicles is under the control of special proteins attached to the vesicle called '''SNARES''' (for '''S'''oluble '''N'''-ethylmalemite-sensitive factor '''A'''ttachment '''RE'''ceptors). These SNARES are either v-SNARES (for vesicle) or t-SNARES (for target), and they interact in a lock-and-key fashion. 35 different SNARE proteins have been identified in humans.
+
+The process involved in protein synthesis is extremely complex, with plenty of places where errors can creep in. The quality control process starts with the DNA where damaged DNA is either repaired or bypassed; the mRNAs are checked during the translation process; and the ER and GA are particularly important in quality control, weeding out substandard or damaged proteins.
+
+===Lyosomes===
+Lyosomes are large somewhat irregular membrane surrounded structures found in the cytoplasm.The contents of the Lyosome are acidic in nature, and contain numerous enzymes for breaking down substrates. The act as the digestive system of the cell. The following enzymes are present in most lyosomes.
+
+<table cellpadding='10' border='1' rules='rows'>
+<caption><b>Lyosomal Enzymes</b></caption>
+<tr><th>Enzyme</th><th>Substrate</th></tr>
+<tr><td>Deoxyribonucleases</td><td>DNA</td></tr>
+<tr><td>Ribonucleases</td><td>RNA</td></tr>
+<tr><td>Phosphatases</td><td>Phosphates</td></tr>
+<tr><td>Glycosidases</td><td>Carbohydrates, polysaccharides, andglycosides</td></tr>
+<tr><td>Arylsulfatases</td><td>Sulphate Esters</td></tr>
+<tr><td>Collagenase</td><td>Proteins</td></tr>
+<tr><td>Cathepsins</td><td>Proteins</td></tr>
+</table>
+
+'''Clinical Note:''' If an enzyme is congenitally absent, then the lyosome will become engorged on the substrate particular to the missing enzyme. These result in the rare '''Lyosomal Storage Diseases'''. An example of a Lyosomal Storage Disease is '''Tay-Sachs'''. In Tay-Sachs disease an enzyme that breaks down '''gangliosides''', a lipoprotein found in neural tissue, is missing, and gangliosides accumulate in the cells of the brain resulting in mental retardation and blindness. About 1 in 30 American Jews carry the gene for Tay-Sachs.
+
+===Peroxiosomes===
+Peroxiosomes are membrane surrounded vesicles with a matrix that contains numerous enzymes which catalyse a variety of anabolic and catabolic reactions. The membrane of the peroxiosome have numerous protein carriers that are concerned with transport of substrates in and out of the matrix of the peroxiosome.
+
+===Secretory Vesicles===
+The Golgi apparatus will also package enzymes or hormones for later release. These are stored in the cell as secretory vesicles, awaiting a suitable trigger for release. These comprise a non-constitutive secretion, and in many cases the Golgi apparatus provides the vesicle with a '''pro-hormone''' or '''pro-enzyme''' that is further processed in the secretory vesicle.  
+
+[[File:Lipid vesicles.svg|thumb|Schematic of lipid vesicles. The vesicles enclose a cargo (represented by green dots) that could be neurotransmitters, dye, drugs, nanoparticles, etc.]]
+
+<br clear='all'>
+
+===Microfilaments and Microtubules===
+
+Cells contain an extensive network of microtubules and microfilaments which act as both a '''cyto-skeleton''' and a means for transport of substances. 
+====microfilaments====
+Right under the cell membrane and attached to it is a framework of '''microfilaments''' made up of actin strands. Actin easily polymerizes and de-polymerizes into longer or shorter strands. It is a very common molecule and is usually found in a double stranded helical form.
+
+[[File:Actin strand.png]]
+
+Numerous proteins embedded in the cell wall which attach actin to the cell membrane have been identified.
+
+====Microtubules====
+'''Microtubles''' are made up of α-tubulin and β-tubulin molecules. These arrange themselves in strands, and usually 13 strands complete the tubule. Microtubules usually function for transport in cells. They are particullarly numerous in the long axons of nerve cells.
+
+[[File:Microtubules.png|300px]]
+
+====Molecular Motors====
+'''Mollecular motors''' move 'cargo' around within cells. They are ATPases. They attach their cargo to their 'tail', and their 'head' will 'walk' down the actin strand or the microtubule. The ATPase that walks on Actin is from the '''myosin''' group, and those that walk down microtubules is from the '''kinesin''' group. Muscle is a special, highly developed example of actin-myosin molecular motors.
+
+The following illustration shows a myosin molecule, with cargo attached walking down an actin strand. Power is supplied by converting ATP to ADP.
+[[File:Actin kinesin walking.png]]
+====cilia====
+A highly specialized example of a molecular motor is the cilia which is found in the repiratory system, where it wafts mucous to the exterior, and in the fallopian tubes, where they waft along the ova to the uterus. The cilia is anchored in the cell membrane and sends its finger like projection upwards. Thes contain nine paired microtubules, with a central pair as shown in the accompanying electron microscope image. They beat backwards and forwards. The 'efficient' stroke is made with a stiff flagellum, the inefficient stroke with a relaxed flagellum.
+[[File:Bronchiolar area cilia cross-sections 2.jpg|thumb|Cross section of Cilia from bronchus]]
+
+[[File:Cillia1.png|500px]]
+
+[[File:Cilia Flow.jpg|200px]]
+
+
+
+
+
+<br clear='all' />
+
+===Nucleus===
+The Nucleus of the cell directs all the activities of the cell. It contains the cells DNA made up into various genes, and is the site of manufacture of mRNA. We will look at all this in further detail when we look at: 
+*Gene Expression
+*Protein Manufacture
+*Cell replication
+
+The membrane of the nucleus is in fact a double layer of phospholipid membrane with numerous pores. Each pore is guarded by numerous protein complexes which  makes it functionally smaller than it apears on EM. Even so the pores can let through molecules of a molecular weight of up to 45,000. The interior of the cell membrane is also continuous with the endoplasmic reticulum.
+[[File:Nucleus&Nucleolus.gif|thumb|showing large nucleolus made up of ribosomal proteins and ribosomal DNA. The cell pores are clearly visible as well as the endoplasmic reticulum.]]
+
+[[File:Nuclear membrane.png|400px]]
+<br clear='all' />
+
+===Mitochondria===
+[[File:Mitochondria, mammalian lung - TEM.jpg|thumb|mitochondria from the human lung showing christae and granules]]
+'''Mitochondria''' (sing. mitochondrion) are known as the powerhouses of the cell, producing the majority - about 95% - of the ATP that is used in cell metabolism. We will look at this in greater detail in the section on ATP and Oxidative Phosphorylation.
+
+Mitochondria come in various shapes and sizes -from round or spheroid to sausage or obloid in shape. The more active a cell is the more mitochondria they have. 
+
+They have a double bilayer membrane, an outer and in inner membrane. The inner membrane is is folded into '''cristae''', and the walls of these cristae are studded with enzyme rich proteins which are involved in the production of ATP. Between the two membranes is the gel of the outer matrix - rich in enzymes for the processing of high energy hydrogen to ATP. In the inner space is the inner matrix which contains numerous enzymes involved in the breakdown of Glucose, fats and proteins for energy.
+
+Mitochondria have several anomolies. They are self replicating and in fact have their own unique DNA.  When a mitochondria replicates, a new one buds off from an old one, similar in fashion to the way a bacteria replicates. This process is under the control of the mitochondria's own DNA. Most of the proteins and enzymes of mitochondria - over 98% - are in fact manufactured by the cells DNA, but many of the enzymes and proteins involved in oxidation and phosphorylation are manufactured by the mitochondria's DNA.
+
+The mitochondrial DNA is not stored in a nucleus, but is in the form of a double circular molecule containing 16,569 base pairs (compared with over a billion base pairs in the cells nucleus). This is similar to the way DNA is stored in bacteria. There are other features similar to bacteria which has led to the postulation that  mitochondria evolved from an '''aerobic bacterium''' that got ingested by a '''eukaryotic''' cell and then learned to live in '''symbiosis''' with it.
+
+[[File:Animal mitochondrion diagram en.svg|400px]]
+
+====Mitochondrial DNA signature====
+Sperm contain four mitochondria which are carried with the sperms tail. These are shed when the sperms head fuses with the ovum. This means that all mitochondrial DNA is descended from the female line. Mitochondrial DNA also has few of the reparative mechanisms of eukaryotic DNA, which means that the mutation rate is much faster than inn eukaryotic cells. This has allowed paleo-geneticists to trace the ancestry of humans, and show that we had a common female ancestor about 60 million years ago. In passing it should be noted that a similar analysis of the Y chromosome shows we have a common male ancestor about 60,000 years ago.
+
+===Centrioles===
+[[File:Spindle centriole - embryonic brain mouse - TEM.jpg|thumb|Transmission electron microscope image of a thin section cut through the developing brain tissue (telencephalic hemisphere) of an 11.5 day mouse embryo. This high magnification image of "Embryonic brain 80445" show a spindle centriole and some spindle microtubules visible in the cytoplasm of a mitotic cell at the luminal surface of the telencephalon.]]
+Near the nucleus are found the centrioles, two structures usually at right angles to each other made up of microtubules. These are important in cell-division. They will be studied further when we look at cell replication. 
+
+<br clear='all' />
+
+{{BookCat}}

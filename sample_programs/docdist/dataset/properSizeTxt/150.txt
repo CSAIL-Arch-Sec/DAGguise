@@ -1,0 +1,113 @@
+{{Astronomy/Header
+|Book=General Astronomy
+|Prev=The Scientific Method
+|Curr=The Celestial Sphere
+|Next=Coordinate Systems
+|Context={{{Context|inplace}}}
+}}
+
+[[Image:Old Planetarium - 1.JPG|thumb|left]]
+
+If you look out from an empty field into a dark sky, you will get the impression that you are standing on a flat plate, enclosed by a giant dome. Depth perception fails us for the distant objects we see in the sky. This creates the appearance that all of the stars have the same distance.
+
+The stars appear to move together across the sky during the night, rising in the east and setting in the west, as if they are affixed to the inside of a dome. Because of this, many ancient civilizations believed that a dome really did enclose the Earth. Only a few centuries ago astronomers came to realize that the stars are actually very far away, scattered throughout the Milky Way Galaxy, rather than attached to the inside of a vast sphere.
+
+The old idea remains useful, however. The concept of the '''celestial sphere''' provides a simple way of thinking about the appearance of the stars from Earth without the complication of a more realistic model of the universe. Working with the celestial sphere offers a convenient way of describing what we see from Earth. When we refer to the celestial sphere, we are imagining that everything we see on the sky is set on the inside of a huge spherical shell that surrounds the Earth. We will use the reference points of the celestial sphere as the basis for several coordinate systems used to place celestial locations with respect to one another and to us.
+
+The celestial sphere is an imaginary hollow globe that encloses the Earth. The sphere has no defined size. It can be taken to be infinite (or at least really big), with an infinitesimal Earth at the center. The observer is always taken to be at the center of the celestial sphere, even though the observer isn't at the center of the Earth. Our particular position among the stars gives us a particular view. Brighter stars appear closer; stars in nearly the same direction appear nearby each other, even if they are separated by great distances. Our first and most basic look out into the universe is completely stripped of any depth perception.
+
+The celestial sphere can be seen from either of two perspectives. In one perspective, the celestial sphere itself remains still while the Earth turns inside it. In the other perspective, the Earth stands still and the celestial sphere rotates once per day. To an observer on Earth, these two perspectives appear the same. As we think about how we would expect to perceive the rotation of the Earth, we can use this second perspective to guide us.
+
+Everything we see in the sky, we see as though projected onto the celestial sphere. The stars in the constellation Orion, for example, are at a variety of distances, but the differences are imperceptible to us on Earth. Orion's pattern would disappear if we could view it from any other angle or if we could perceive the depth, because the stars would project differently.
+
+Because depth perception is lost, measurements of size are much more difficult. The Sun and the Moon look about the same size in the sky, even though the Sun is really much larger. The Sun appears to be the same size as the moon because the Sun is much farther away simply because the Sun is both 400 times larger in diameter and 400 times farther away than the Moon.
+
+[[Image:Hand Angles.svg|thumb|170px|left|To gauge angles of distant objects, hold your hand at arms length and compare the appearance of the distant object to the size of your hand. If you can just cover the object with your index finger, then you know that the object subtends about one degree.]]
+
+Although we can't easily measure the ''physical'' sizes of celestial objects, we can measure their ''apparent'' sizes. We do this by measuring the angle an object subtends in the sky. The Sun and the Moon, for example, subtend an angular diameter of half a degree. Most objects in the sky are smaller than this, so it is often convenient to use a smaller measure of angle. For this purpose, astronomers use '''arc minutes''' and '''arc seconds'''. There are sixty arc minutes in a degree, and sixty arc seconds in an arc minute. Angles this small are near or beyond the limits of ordinary human vision, but they become useful when using a telescope to make observations.
+
+For casual stargazing, observers think about much larger angles. You can easily measure these angles when stargazing by using your hand as your ruler. From arm's length, your index finger has a width of about one degree, your palm measures about ten degrees across, and your full finger-span, including your thumb, is about 25°. This can be useful for estimating the position of a star in the sky, or for gauging the angular separation of two stars.
+
+While the apparent movement of a star across the sky each night, with the celestial sphere, is great, the measurement of an object's movement across the Celestial Sphere as the object drifts through space, is called '''proper motion''', and is measured in arc seconds per year.
+
+To begin thinking about the view of the sky from Earth, we will identify a few points of reference that are fixed to the ground and of importance to astronomers. Some of these are widely known from common experience.
+
+[[Image:Great Circle.svg|right|thumb|213px|The circle drawn at the top is not an example of a great circle because it is not centered on the center of Earth. The upper circle is called a "small circle." The circle at bottom is a great circle because its center is the same as the center of Earth.]]
+
+*A '''great circle''' is a circle drawn on the celestial sphere (or any sphere) which has the center of the Earth as its center. On the Earth, the equator is an example of a great circle. Other lines of latitude are not great circles because their center is not at the center of Earth. Lines of longitude are all great circles because they are always centered on Earth's center. A great circle is the largest possible circle that can be drawn on a sphere.
+*The '''horizon''' is where earth and sky meet. It is the boundary between the portion of the sky that is blocked by the Earth and the portion that is visible. There is a distinction between the ''local horizon'', which is defined by real objects specific to the observer's location such as trees or buildings, and the ''idealized horizon'', which is what the local horizon would be if the ground were completely flat and there were no obstructions. For hypothetical or idealized cases, astronomers use the idealized horizon.
+*A star's '''altitude''' is the angle between it and the horizon.
+*The '''cardinal points''' are points on the celestial sphere that are on the horizon and due north, south, east and west. The North point, for example, is the point due north on the horizon.
+*The '''zenith''' is the point in the sky directly overhead. It is necessarily true that any point on the horizon is 90° from the zenith.
+*The '''meridian''' is the great circle that passes through the North point, the South point, and the zenith and lies on the celestial sphere.
+
+[[image:Celestial Sphere.bjb.svg|thumb|438px|The celestial sphere for an observer at mid-northern latitudes.]]
+
+To any observer, regardless of location, these markers stay in the same positions relative to the observer. The zenith is always directly overhead, the horizon is always level, and so on. Observers standing at different places on Earth will have a different view of the sky. An observer in Singapore might see the Sun at the zenith while another observer in New York would not see the Sun at all. These reference points change with the location of the observer.
+
+There are also reference points that are fixed in the sky.  These fixed reference points don't move with respect to the stars, but different observers see them in different positions. They are the basis for the fixed coordinate systems that we discuss later. For now, we will identify only the two most useful of these &mdash; the '''celestial poles''' and the '''celestial equator'''.
+
+The celestial equator is an extension of the Earth's equator onto the celestial sphere. If you stand on Earth's equator, the celestial equator will always be directly overhead and pass through the zenith. It will run from the East point up to the zenith and down again to the West point. Anywhere you stand on Earth, the celestial equator will intersect the East and West points on the horizon. The nearer you are to the equator, the nearer the celestial equator come to the zenith. At the North Pole or the South Pole, the celestial equator lines up with the horizon.
+
+Like the celestial equator, the celestial poles are an extension of the Earth's pole onto the celestial sphere. The North Pole extends out into space to create the North Celestial Pole. Likewise the South Pole creates the South Celestial Pole. In the Northern Hemisphere, only the North Celestial Pole is visible because the South Celestial Pole is below the horizon. In the Southern Hemisphere, only the South Celestial Pole is visible. At the equator, the North Celestial and South Celestial Poles would lie on the horizon where the meridian intersects the horizon.
+
+Polaris is called the "North Star." It can be found at the last star on the "handle" of the Small Dipper. The last two stars of the "cup" of the Big Dipper are called the Guardians (or "Pointers"), and point to Polaris in the sky. Polaris is special because the Earth's North Pole points almost exactly towards it. This means that Polaris will always appear to be due north to any observer, and it will always stay in the same position on the sky.
+
+Often, beginning stargazers assume that Polaris must be a very bright or prominent star. This is not really the case. Polaris is only remarkable because it is almost exactly in line with Earth's axis of rotation. Because of this, Polaris always remains at nearly the same place in the sky. For example, Shakespeare made reference to Polaris in the play ''Julius Caesar'':
+
+:I am constant as the northern star,
+:Of whose true fixed and resting quality
+:There is no fellow in the firmament.
+::Julius Caesar, William Shakespeare's ''Julius Caesar'', III.1.65-68
+
+Though it must be pointed out that Shakespeare actually got it wrong. At the time Shakespeare wrote Julius Caesar Polaris was indeed the pole star but in Julius Ceasar's time Polaris was not the pole star.
+
+[[Image:Polaris Altitude.svg|left|thumb|200px|This diagram shows that the altitude of Polaris above the horizon is the same as the observer's latitude. Note that the lines drawn to Polaris are parallel because Polaris is very far away. The direction to Polaris from the center of Earth is very nearly the same as from the observer's position.]]
+
+The fact that Polaris always stays in the same position due north has given it much fame. It also makes Polaris a useful reference point for navigation &mdash; Using geometry, it is easy to show that the angle Polaris or the celestial pole makes with the horizon is equal to the observer's latitude. In the diagram, the angle <math>\angle d</math> is the observer's latitude. The pole and the equator are at right angles, so
+:<math>\angle d + \angle a = 90^\circ.</math>
+or <math>\angle a = 90^\circ - \angle d.</math> Since the angles in a triangle add to 180°, we know that
+:<math>\angle a + \angle b + 90^\circ = 180^\circ.</math>
+When we combine these two equations, we have <math>\angle b = \angle d</math>. The angles <math>\angle b</math> and <math>\angle c</math> are alternate interior angles, so
+:<math>\angle b = \angle c</math>
+and
+:<math>\angle d = \angle c,</math>
+which means that the angle between the pole and the horizon is the same as the observer's latitude. This fact was once used by navigators at sea, who could easily find their latitude by measuring the position of Polaris.
+
+Like many things in astronomy, the celestial sphere can be very difficult to visualize because of its three dimensional geometry. A visit to a planetarium or a session under the night sky can be very helpful to you in developing a conceptual understanding of the celestial sphere. In the absence of the opportunity for these, it can be helpful to try to draw diagrams such as the one at the beginning of this section for yourself.
+
+To begin drawing a celestial sphere such as the one above, you only need to know the latitude of the observer. Then imagine that the spot where the observer is standing is the "top of the world"; draw circle for the earth, and draw an observer standing at the top. Now draw a much larger circle around that; this represents the celestial sphere.
+
+Since our observer is always on top of the Earth, the features on the celestial sphere that are defined relative to the ground will always be in the same position on the sphere. The zenith is the point directly above the observer's head, at the top of the celestial sphere.
+
+The next important reference is the horizon. The horizon will be horizontal on the diagram. Remember that the celestial sphere has no specific size relative to the Earth, regardless of how you've drawn it. Draw the horizon across the middle of the celestial sphere, so that it's center is the same as the center of Earth. Markers such as the horizon are always idealized, so it doesn't matter whether your observer's view of the sky is actually cut off at the position marked by the horizon.
+
+The next reference points we'd like to place are the North Celestial Pole and the South Celestial Pole. Think about what the orientation of the pole should be given the observer's latitude. If the observer is at the equator, the pole should go horizontally through the Earth. If the observer is at one of the poles, the pole should go through the Earth vertically. Extend the Earth's poles out to the celestial sphere and mark the intersections as the North Celestial Pole and the South Celestial Pole.
+
+If we're in the northern hemisphere, the North Celestial Pole will be above the northernmost point on the horizon, and the South Celestial Pole will be on the opposite side of the celestial sphere, below the horizon. If we're in the southern hemisphere, the situation is reversed. Remember to check that the angle the horizon makes with the pole is about the same as the observer's latitude.
+
+For any given latitude, one can build an appropriate celestial sphere. First, consider the sky in relation to the earth. Take the north and south poles and extend them into the sky; these become the north and south celestial poles. The Earth's equator can be projected outward to form the celestial equator. We'll get something that looks like the picture above.
+
+[[File:Observers Horizon.svg]]
+
+[[image:Draw Celestial Sphere.bjb.svg]]
+
+When you're done, you should have a celestial sphere very like the one at the top of this section.
+
+A celestial sphere forms the basis for the application of many coordinate systems.  For example, the horizon and the celestial meridian together form the reference circles for giving the position of stars in terms of altitude and azimuth, making it easier for one to find them on the night sky. The celestial sphere is also a natural system for describing the motion of the sun. In order to explore these concepts, however, it is necessary to understand just how the celestial sphere changes for an observer at a given latitude. As we consider the daily rotation of the Earth, we'll see that your perception of the daily motion depends very much on your latitude.
+
+As you look at the sky, your mind will naturally identify obvious patterns. The Big Dipper and Orion are two very prominent groupings of stars, and others stand out all over the celestial sphere. These '''asterisms''' are guideposts to the night sky. You can use them to keep your bearings when you look at the sky. The appearance of the night sky has remained much the same for millennia. Many of the ancient civilizations across the globe invented stories about the sky.
+
+Often, the groups of stars are called '''constellations'''. Constellations have a very long history in astronomy, dating back thousands of years. Early in the twentieth century, a list of constellations was formally established by the International Astronomical Union, a widely recognized body of astronomers. The IAU identified constellations that would be used in astronomy and defined specific boundaries to unambiguously establish which constellations each star belonged to. It's easy to learn a few of the most prominent constellations so that you can find your way around the night sky. Beginning with a few easy-to-find landmarks you can find the rest by using familiar stars as guideposts.
+
+Another useful guide in the sky is the '''ecliptic'''. The ecliptic is an imaginary line in the sky that the sun draws. The ecliptic is even with the plane of the Earth's orbit around the sun; thus, all of the main planets and the moon should be found relatively close or on the ecliptic, because the solar system is mostly flat. Also, along the ecliptic are the 12 constellations of the zodiac. Thus, by finding some of the main zodiac constellations in the night sky, one can determine if certain objects they see may or may not be planets by whether or not they lie on the ecliptic.
+
+{{Astronomy/Footer
+|Book=General Astronomy
+|Prev=The Scientific Method
+|Curr=The Celestial Sphere
+|Next=Coordinate Systems
+|Context={{{Context|inplace}}}
+}}
+
+{{BookCat}}

@@ -1,0 +1,94 @@
+{{{{BOOKTEMPLATE}}/TOC}}
+
+'''Sociolinguistics''' is the descriptive study of the effect of any and all aspects of society, including cultural norms, expectations, and context, on the way language is used, and the effects of language use on society.
+
+Sociolinguistics studies the correlation between the '''social variable''', e.g., ethnicity, religion, status, gender, level of education or class, and the '''linguistic variable''', or linguistic differences. As the usage of a language varies from place to place, language usage also varies among social classes, and it is these '''sociolects''' that sociolinguistics studies.
+
+Central to the discussion of sociolinguistics is '''style'''. It is a set of linguistic variables that correspond to a certain value of a social variable.
+
+== Speech Communities ==
+Speech communities can be members of a profession with a specialized jargon, distinct social groups like high school students or hip hop fans, or even tight-knit groups like families and friends. 
+
+A '''social network''' is another way of describing a particular speech community in terms of relations between individual members in a community. A social network may apply to the macro level of a country or a city, but also to the inter-personal level of neighborhoods or a single family. Recently, social networks have been formed by the Internet, through chat rooms, MySpace groups, organizations, and online dating services.
+
+A network could be '''loose''' or '''tight''' depending on how members interact with each other. For instance, an office or factory may be considered a tight community because all members interact with each other. A large course with 100+ students would be a looser community because students may only interact with the instructor and maybe one to two other students. A '''multiplex''' community is one in which members have multiple relationships with each other. For instance, in some neighborhoods, members may live on the same street, work for the same employer and even intermarry. The looseness or tightness of a social network may affect speech patterns adopted by a speaker. For instance, linguists Sylvie Dubois and Barbara Horvath found that speakers in one Cajun Louisiana community were more likely to pronounce English "th" [θ] as [t] (or [ð] as [d]) if they participated in a relatively dense social network (i.e. had strong local ties and interacted with many other speakers in the community), and less likely if their networks were looser (i.e. fewer local ties).
+
+Closely related to the concept of speech communities is '''register'''. It is a particular style of language used in a specific context, such as in a field of study like linguistic, a profession like medicine, or a situation like ceremonies. Members of speech communities will often develop specific vocabulary to serve the group's special purposes and priorities:
+*'''Jargon''': It is a type of specialised language used inside an established social group, like the legal profession, e.g. ''tort'', ''novation''. It is often a means of excluding outsiders, which is why legal jargon has been termed '''legalese'''.
+*'''Slang''': It is a type of colloquial language used ''outside'' those established social groups.
+**'''Taboo term''' (i.e. profanity): It is a type of language that is usually avoided out of politeness. Note that these are not necessarily used to offend, e.g. ''that's one hell of a game''. However, this type of language is avoided and frowned upon by established groups.
+
+== Prestige ==
+Crucial to sociolinguistic analysis is the concept of '''prestige'''. Certain speech habits are assigned a positive or a negative value which is then applied to the speaker. This can operate on many levels:
+* It can be realised on the level of the individual phoneme. The post-vocalic /r/ is used among the upper class and avoided by the lower class in the USA, but the situation is reversed in England.
+* It can be realised on the macro scale of language choice, as realised in the various '''diglossias''' that exist throughout the world, where Swiss-German/High German is perhaps most well known.
+
+An important implication of sociolinguistic theory is that speakers 'choose' a variety when making a speech act, whether consciously or subconsciously.
+
+There are actually two types of prestige:
+* '''Overt prestige''': Prestige assigned to language features associated with the upper class.
+* '''Covert prestige''': Prestige assigned to language features associated with the lower class.
+
+'''Class aspirations''' affect the choice of style. Lower-class people who wish to move upwards in the social ladder will likely adjust their speech habits to resemble speech with high overt prestige. '''Hypercorrection''' sometimes occurs; for example, middle-class citizens hoping to move upward have been known to assign the post-vocalic /r/ even when it is not called for. Conversely, a lower-class person who, rather than hoping to move upwards, values group solidarity among the lower class will likely use speech of low overt prestige but high covert prestige, the language of their class.
+
+=== Bernstein's Code Theory ===
+====Social language codes====
+Basil Bernstein, a well-known British sociolinguist, devised in his book ''Elaborated and restricted codes: their social origins and some consequences'' a social code system which he used to classify the various speech patterns for different social classes. There were two codes:
+
+*'''Restricted code'''
+
+====Restricted code====
+In Basil Bernstein's theory, the restricted code was an example of the speech patterns used by the working-class. He stated that this type of code allows strong bonds between group members, who tend to behave largely on the basis of distinctions such as 'male', 'female', 'older', and 'younger'. This social group also uses language in a way which brings unity between people, and members often do not need to be explicit about meaning, as their shared knowledge and common understanding often bring them together in a way which other social language groups do not experience. The difference with the restricted code is the emphasis on 'we' as a social group, which fosters greater solidarity than an emphasis on 'I'.
+
+The time when "restricted-code" matters is the day when children start school where the standard variety of language is used. Moreover, the written form of a language is already very different from the everyday form. Children with restricted-code, therefore, struggle at school more than those who speak an "elaborated-code".
+
+The type of communication used by the working class reminds Paivio's dual code theory. According to Paivio, there are two types of codes; verbal and non-verbal.The dual coding theory proposed by Paivio attempts to give equal weight to verbal and non-verbal processing. Paivio (1986) states: "Human cognition is unique in that it has become specialized for dealing simultaneously with language and with nonverbal objects and events. Moreover, the language system is peculiar in that it deals directly with linguistic input and output (in the form of speech or writing) while at the same time serving a symbolic function with respect to nonverbal objects, events, and behaviors. Any representational theory must accommodate this dual functionality." (p 53). The use of context by members of working class to imply what they mean, therefore, may be a "non-verbal code". However, this type of communicative skills may not be understood by other children who belong to other classes. What's more, children with restricted-code may have difficulty in understanding the teacher, the only source of information for them at school. Therefore, it is suggested that working-class children should have pre-school training within their early childhood period. Early schooling may provide them with opportunities to acquire the way of speaking valid at school.
+
+====Elaborated code====
+Basil Bernstein also studied what he named the 'elaborated code' explaining that in this type of speech pattern the middle and upper classes use this language style to gain access to education and career advancement. Bonds within this social group are not as well defined and people achieve their social identity largely on the basis of individual disposition and temperament. There is no obvious division of tasks according to sex or age and generally, within this social formation members negotiate and achieve their roles, rather than have them there ready-made in advance. Due to the lack of solidarity the elaborated social language code requires individual intentions and viewpoints to be made explicit as the 'I' has a greater emphasis with this social group than the working class.
+
+===Deviation from standard language varieties===
+[[Image:Sociolinguistics dialect variation.svg|thumb|300px|right|A diagram showing variation in the English language by region (the bottom axis) and by social class (the side axis). The higher the social class, the less variation.]]
+The existence of differences in language between social classes can be illustrated by the following table:
+
+{|class=toccolors;align=center
+| '''Bristolian Dialect''' (lower class)
+| ...
+| '''Standard English''' (higher class)
+|-
+| I ain't done nothing
+| ...
+| I haven't done anything
+|-
+| I done it yesterday
+| ...
+| I did it yesterday
+|-
+| It weren't me that done it
+| ...
+| I didn't do it
+|}
+
+Any native speaker of English would immediately be able to guess that ''speaker 1'' was likely of a different social class than ''speaker 2'', namely from a lower social class, probably from a working class pedigree. The differences in grammar between the two examples of speech is referred to as differences between social class dialects or sociolects.
+
+It is also notable that, at least in England and Australia, the closer to standard English a dialect gets, the less the lexicon varies by region, and vice-versa.
+
+===Covert prestige===
+
+It is generally assumed that non-standard language is low-prestige language. However, in certain groups, such as traditional working-class neighborhoods, standard language may be considered undesirable in many contexts. This is because the working class dialect is a powerful in-group marker, and especially for non-mobile individuals, the use of non-standard varieties (even exaggeratedly so) expresses neighborhood pride and group and class solidarity. There will thus be a considerable difference in use of non-standard varieties when going to the pub or having a neighborhood barbecue (high), and going to the bank (lower) for the same individual.
+
+== Style Shifting ==
+
+=== Speech Accommodation ===
+
+
+=== Internal vs. external language ===
+In Chomskian linguistics, a distinction is drawn between I-language (internal language) and E-language (external language). In this context, internal language applies to the study of syntax and semantics in language on the abstract level; as mentally represented knowledge in a native speaker. External language applies to language in social contexts, i.e. behavioral habits shared by a community. Internal language analyses operate on the assumption that all native speakers of a language are quite homogeneous in how they process and perceive language. {{Citation needed|date=April 2009}} External language fields, such as sociolinguistics, attempt to explain why this is in fact not the case. Many sociolinguists reject the distinction between I- and E-language on the grounds that it is based on a mentalist view of language. On this view, grammar is first and foremost an interactional (social) phenomenon (e.g. Elinor Ochs, Emanuel Schegloff, Sandra Thompson).
+
+==Sociolinguistic interview ==
+'''Sociolinguistic interviews''' are an integral part of collecting data for sociolinguistic studies.There is an interviewer, who is conducting the study, and a subject, or informant, who is the interviewee. In order to get a grasp on a specific linguistic form and how it is used in the dialect of the subject, a variety of methods are used to elicit certain registers of speech. There are five different styles, ranging from formal to casual:
+*'''Minimal pairs''' (MP): The most formal style would be elicited by having the subject read a list of minimal pairs.
+*'''Word list''' (WL): Having the subject read a  will elicit a formal register, but generally not as formal as MP.
+*'''Reading passage''' (RP): The style is next down on the formal register
+*'''Interview style''' (IS): This is when an interviewer can finally get into eliciting a more casual speech from the subject. During the IS the interviewer can converse with the subject and try to draw out of them an even more casual sort of speech by asking him to recall childhood memories or maybe a near death experience, in which case the subject will get deeply involved with the story since strong emotions are often attached to these memories.
+*'''Casual style''' (CS): This is the most sought-after type of speech. This type of speech is difficult if not impossible to elicit because of the '''Observer's Paradox'''. This means that the subject will adjust his or her speech because of the presence of the linguist, and will switch to a more formal style. The closest one might come to CS in an interview is when the subject is interrupted by a close friend or family member, or perhaps must answer the phone. CS is used in a completely unmonitored environment where the subject feels most comfortable and will use their natural vernacular without overtly thinking about it.

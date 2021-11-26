@@ -1,0 +1,189 @@
+==Informations and Indictments==
+Criminal charges are set out in written form, either through an Indictment or an Information. An Indictment is the form of a charge typically handled in superior court while an information is the form used in provincial court.
+
+An '''information''' is a accusation sworn by a peace officer. (s. 507, 508, 788, 789 and Form 2) The '''indictment''' is an unsworn accusation.(s.566,580, 591 and Form 4)
+
+The purpose of an information was described as;<ref>R. v. Akey, [1990] O.J. No. 2205 (Gen. Div.) at para. 6</ref>
+#to commence the proceedings until the accused is arraigned or the charges dismissed;
+#to inform the accused of the allegations against him or her;
+#to indicate that an allegation has been made under oath before a justice of the peace; and
+#for a summary conviction offence, to indicate to the accused that the information was sworn within six months after the time when the subject-matter of the proceedings arose: s. 786(2) of the Criminal Code.
+
+{{reflist|2}}
+
+==Laying of an Information and Issuing Process==
+
+Once an accused is arrested he is given an appearance notice. The peace officer will then create the charge by laying of an information. It typically involves the officer, who has formed reasonable grounds to believe that a criminal offence has occurred, draft an information that will be presented to a justice of the peace along with a sworn summary of the evidence. Under s. 507 or 508 the justice of the peace will determine whether there is sufficient grounds to go forward with laying the sworn information and have the accused attend court. If there is sufficient grounds the justice will either issue a summons or a warrant, or simply confirm the appearance notice already served on the accused. This step is known as "issuing process". Once completed the accused will be required to attend court on the first appearance date. If not satisfied, the justice may cancel the appearance notice, promise to appear or recognizance. 
+
+The format for an information is taken from [http://canlii.ca/t/7vf2#sec849 Form 2 of the Code].
+
+==Validity of the Information==
+Chief Justice Dickson, in R. v. Sault Ste. Marie (1978), 40 C.C.C.(2d), [http://canlii.ca/t/1mkbt 1978 CanLII 11] (SCC), at 353, considered the evolution of the validity of informations, where in modern times substances rules over formality.
+
+The date "is relevant and material only when the issue of limitation periods arises"<ref>R. v. Dean, (1985), 36 Alta. L.R. (2d) 8 (Q.B.)</ref> Where the date is in error, it may be that the proper date can be inferred. 
+
+Where the date of the information has been amended without any indication of the circumstances creates a nullity. <ref>R. v. Howell [http://canlii.ca/t/27p4d 1978 CanLII 692] (AB QB), (1978), 14 A.R. 299</ref>
+
+There is a rebuttable presumption that a justice of the peace will only operate within their authority.<ref>R. v. Justice of the Peace;  Ex Parte Robertson, [1971] 1 O.R. 12 (CA)</ref>
+
+It is often said that an information that contains on its face contained a contradiction that was an impossibility is a nullity. <ref>R. v. George, [http://canlii.ca/t/1qlcm 1993 CanLII 4609] (NS SC)</ref>
+
+{{reflist|2}}
+===Motion to Quash the Information===
+Where the process required by s. 504 to 508 is not complied with and it results in a loss of jurisdiction allows the accused to apply to quash the information.
+
+{{reflist|2}}
+== Amendments to Information ==
+An information and indictment may be amended under [http://canlii.ca/t/7vf2#sec601 s. 601].<ref>section 601 specifically deals with indictable offences, but s. 795 allows it to equally apply to summary offences</ref>
+
+Under s. 601(3)(b) and (c), the court may amend the form or substance of an information at any stage of the proceeding.<ref>
+e.g. see R. v. McConnell, [http://canlii.ca/t/1k871 2005 CanLII 13781] (ONCA)</ref>
+
+Amendments prior to the defendant electing to call evidence will often be permitted.<ref>
+R. v. M. (E.A.D.), [http://canlii.ca/t/gc7ph 2008 MBCA 78] (MBCA)</ref>
+
+Amendments to an information is a question of law (s. 601(6)).
+
+{{reflist|2}}
+
+===Conforming to the Evidence at Trial or Preliminary Inquiry===
+Where a trial or preliminary inquiry has commenced, the crown or judge may amend the information under s. 601(2) to conform to the evidence as it comes out.
+
+See also s. 601(b)(i)
+
+Under s.601(4.4), variations between the evidence and the time or jurisdiction set out in the information are not materials where the indictment was preferred within the limitation period or where the matter arose in the geographical jurisdiction of the court.
+
+{{reflist|2}}
+
+===Factors to Consider===
+
+Section 601(4) sets out factors the court should consider:
+{{quotation|
+601.<P>...<P>
+'''Matters to be considered by the court'''<br>
+(4) The court shall, in considering whether or not an amendment should be made to the indictment or a count in it, consider
+:(a) the matters disclosed by the evidence taken on the preliminary inquiry;
+:(b) the evidence taken on the trial, if any;
+:(c) the circumstances of the case;
+:(d) whether the accused has been misled or prejudiced in his defence by any variance, error or omission mentioned in subsection (2) or (3); and
+:(e) whether, having regard to the merits of the case, the proposed amendment can be made without injustice being done.
+|[http://canlii.ca/t/7vf2#sec601 CCC]
+}}
+
+===Prejudice===
+An amendment will not be granted where the defence is prejudiced by the amendment. To be "prejudiced", the amendment must be create an offence the accused was unaware of or alter the manner in which the defence is conducted.<ref>
+R. v. Ali, [http://canlii.ca/t/219w9 2008 ABCA 361]</ref>
+
+An amendment may not substitute completely separate charges or otherwise "fundamentally" change the case against the accused.<Ref>
+R. v. Charlton and Ostere (1976), 30 C.C.C. (2d) 372 (B.C.C.A.)
+</ref>
+
+However, a correction in the section number alone is permissible at any point prior to the conclusion of trial.<ref>
+R. v. Hubek, [http://canlii.ca/t/fn3sp 2011 ABCA 254] at para. 14</ref>
+
+
+Under s. 601(5), where an accused is prejudiced by "a variance, error or omission" the court may adjourn the proceedings.
+
+{{reflist|2}}
+
+==Preferred and Direct Indictments==
+Sections 574 and 577 under Part XX of the Criminal Code address the ability to prefer indictments.
+
+{{quotation|
+'''Prosecutor may prefer indictment'''<br>
+574. (1) Subject to subsection (3), the prosecutor may, whether the charges were included in one information or not, prefer an indictment against any person who has been ordered to stand trial in respect of
+:(a) any charge on which that person was ordered to stand trial; or
+:(b) any charge founded on the facts disclosed by the evidence taken on the preliminary inquiry, in addition to or in substitution for any charge on which that person was ordered to stand trial.
+<P>
+'''Preferring indictment when no preliminary inquiry requested'''<br>
+(1.1) If a person has not requested a preliminary inquiry under subsection 536(4) or 536.1(3) into the charge, the prosecutor may, subject to subsection (3), prefer an indictment against a person in respect of a charge set out in an information or informations, or any included charge, at any time after the person has made an election, re-election or deemed election on the information or informations.
+<P>
+'''Preferring single indictment'''<br>
+(1.2) If indictments may be preferred under both subsections (1) and (1.1), the prosecutor may prefer a single indictment in respect of one or more charges referred to in subsection (1) combined with one or more charges or included charges referred to in subsection (1.1).
+<P>
+'''Consent to inclusion of other charges'''<br>
+(2) An indictment preferred under any of subsections (1) to (1.2) may, if the accused consents, include a charge that is not referred to in those subsections, and the offence charged may be dealt with, tried and determined and punished in all respects as if it were an offence in respect of which the accused had been ordered to stand trial. However, if the offence was committed wholly in a province other than that in which the accused is before the court, subsection 478(3) applies.
+<P>
+...<P>
+R.S., 1985, c. C-46, s. 574; R.S., 1985, c. 27 (1st Supp.), s. 113; 2002, c. 13, s. 45.
+|[http://canlii.ca/t/7vf2#sec574 CCC]
+}}
+
+The preferring of an indictment occurs when it is when the indictment is "lodged" with the superior court at the opening of trial.<ref>
+R. v. Chabot [http://canlii.ca/t/1txc3 1980 CanLII 54] (SCC), [1980] 2 SCR 985<br>
+R v Tippett 2010 NLCA 49</ref>
+
+Once an indictment has been preferred, any defect arising from the arrest, summoning, or preliminary inquiry will not invalidate the indictment.<ref>
+R. v. Chabot [http://canlii.ca/t/1txc3 1980 CanLII 54] (SCC), [1980] 2 SCR 985<br> 
+R. v. Dowson (1983), [1983] 2 S.C.R. 144 (S.C.C.)</ref>
+
+{{reflist|2}}
+===Direct Indictment===
+A "direct indictment" is an indictment that has been put before a Superior Court Justice without there having been an information from which the accused would have had an option of a preliminary inquiry.
+
+{{quotation|
+'''Direct indictments'''<br>
+577. Despite section 574, an indictment may be preferred even if the accused has not been given the opportunity to request a preliminary inquiry, a preliminary inquiry has been commenced but not concluded or a preliminary inquiry has been held and the accused has been discharged, if
+:(a) in the case of a prosecution conducted by the Attorney General or one in which the Attorney General intervenes, the personal consent in writing of the Attorney General or Deputy Attorney General is filed in court; or
+:(b) in any other case, a judge of the court so orders.
+<P>
+R.S., 1985, c. C-46, s. 577; R.S., 1985, c. 27 (1st Supp.), s. 115, c. 1 (4th Supp.), s. 18(F); 2002, c. 13, s. 46.
+|[http://canlii.ca/t/7vf2#sec577 CCC]
+}}
+
+Section 577 was found to be constitutional despite its effect of removing the right to a preliminary inquiry.<ref>
+R. v. Ertel (1987) 35 CCC (3d) 398<br>
+Re Regina and Arviv 1985 CanLII 161 (ON CA), (1985), 19 C.C.C. (3d) 395<br>
+see also R. v. Charlie1998 CanLII 4145 (BC CA), (1998), 126 C.C.C. (3d) 513 (BCCA)
+</ref> However, where the preferring of a direct indictment is combined with inadequate disclosure on the new charge(s), then it could result in a breach of the right to full answer and defence under s. 7 of the Charter.<ref>
+Arviv at para. 26</ref>
+
+Where a direct indictment has been preferred the accused is deemed to have waived the preliminary inquiry and has made an election of trial by judge and jury.(565)
+
+Direct indictments can be used even where there was already an election to provincial court.<ref>
+Sher v. The Queen, 2012 ONSC 4783 at para. 14 <br>
+R v Poloni, 2009 BCSC 629 (“[the case law] all unequivocally state that the Attorney General has jurisdiction to directly indict an accused person who previously elected trial in provincial court.”)</ref> It can also be used where the offence is one of absolute jurisdiction under s. 553<ref>
+R. v. Beaudry, [1967] 1 C.C.C. 272 (BCCA)</ref>
+
+Direct Indictments are most frequently used where:<ref>R. v. S.J.L., [http://canlii.ca/t/22wn9 2009 SCC 14] (CanLII), [2009] 1 SCR 426 at para. 38</ref>
+#delays in the trial could deprive the accused of the right to be tried within a reasonable time;
+#the physical or psychological health of witnesses, their age, their safety or that of their relatives, and the difficulties involved in having witnesses testify more than once;
+#preservation of the integrity of the Crown’s evidence by, for example, protecting informants and ongoing police investigations;
+#a risk that evidence could be destroyed;
+#public safety reasons;
+#the need to avoid multiple proceedings caused, for example, by delays in making arrests;
+#the accused was wrongly discharged following the preliminary inquiry because of errors, or new evidence has been discovered;
+#a preliminary inquiry would be unreasonably costly, complex or long, or would be inappropriate because of the nature of the issues or the evidence;
+#the alleged offence is so controversial that it is in the public interest to try the case as quickly as possible; and
+#certain guidelines set out additional, broader criteria, such as the need to maintain public confidence in the administration of justice, the public interest, or the fact that the case is notorious or of particular importance to the public, that the direct indictment is the most appropriate procedure in the circumstances, or that there is a special need to expedite proceedings.
+
+The Attorney General does not need to give reasons for deciding to prefer a direct indictment.<ref>
+Sher v .The Queen, 2012 ONSC 4783 at para. 27, 29</ref>
+
+The power under s. 577 is a discretionary power of the Crown.<Ref>R. v. Ertel (1987) 35 CCC (3d) 398</ref> However, it is reviewable for violations of the Charter.
+<ref>R. v. Dallas, Hinchcliffe & Terezakis, 2001 BCSC 77 (CanLII) at para. 21</ref>
+
+The defence may be able to have the court order evidence be taken from the justice system participants involved in the decision and the documents related to the decision to direct the indictment.<Ref>
+R v Durette, 1992 CanLII 2779 (ON CA), (1992), 72 C.C.C. (3d) 421 - judge declined to order statements from prosecutors but ordered sealed copies of relevant documents<br>
+</ref>
+There is a high standard to warrant such disclosure requiring evidence of ''mala fides'' or "flagrant impropriety".<ref>
+R. v. Chan, 2003 ABQB 169 - application for disclosure denied</ref> Further, the applicant must show that the documents fall under an exception to solicitor-client privilege.<ref>
+R. v. Trang, 2002 ABQB 744 (CanLII) at para. 419 </ref>
+
+The exercise of power under s. 577 can be reviewed as an abuse of process.<ref>
+e.g. R. v. Trang, 2002 ABQB 744 at para. 369 
+</ref>
+
+To warrant a remedy, it must be shown "that a discretion was exercise for improper or arbitrary motives".<ref>
+R. v. Beare 1988 CanLII 126 (SCC)</ref> There must be "clear and convincing evidence supporting the allegations before the Court."<ref>
+R. v. Dallas, Hinchcliffe & Terezakis, 2001 BCSC 77 at para. 21</ref>
+
+The consent of the Attorney General should generally be found on the direct indictment with a signature. However, may still be valid by attaching a letter from the Attorney-General consenting to the indictment.<ref>
+See R. v. L'Henaff, [http://canlii.ca/t/1ldk5 1999 SKQB 259] for form of indictment</ref>
+
+{{reflist|2}}
+
+==See Topics==
+* [[Canadian Criminal Procedure and Practice/Charges]]
+
+{{BookCat}}

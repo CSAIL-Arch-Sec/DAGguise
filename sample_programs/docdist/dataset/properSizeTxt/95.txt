@@ -1,0 +1,57 @@
+'''Stanley Dunn''' holds a PhD in Computer Science from the University of Maryland and a PhD in Medicine from the Vrije Universiteit te Amsterdam, the Netherlands.  He is currently the Vice Provost and Dean of Graduate Education at Rensselaer Polytechnic Institute in Troy, NY.  If he is not in the office, you can find him on one of his motorcycles cruising the Northeast, fly fishing or woodworking.
+
+'''Benjamin B.''' is a current undergraduate senior majoring in Industrial Management Engineering. He was involved in research relating to data analysis and data processing and supply chain management. On campus, he guides international students and helps teach Calculus as a part of the I-PERSIST mentor program. He is from Seoul, South Korea and enjoys to walk around various cities.
+
+'''Kristen C.''' is an undergraduate in her final semester pursuing a bachelors in Industrial & Management Engineering. She worked as an IT Business Analyst this past summer for The Procter and Gamble Company, and will be returning there fulltime in February. During her free time, Kristen enjoys playing volleyball, reading, backpacking in New Hampshire, and baking.
+
+'''Lu C.''' is a current PhD student in the department of Industrial & Systems Engineering. She holds a B.E in Logistic & Systems Engineering from Huazhong University of Sci & Technology. Her research interests are in Design of Experiments and Data Science. In her free time, she enjoys doing exercise in the gym and having delicious food with friends.
+
+'''Trevor C.''' is pursuing a co-terminal degree consisting of a B.S. in Industrial & Management Engineering coupled with a M.S. in Quantitative Finance & Risk Analytics. Trevor has held two consecutive internships at Procter & Gamble working as a Manufacturing Process Engineer. In the summer of 2017, he will be a Cyber Security intern at Deloitte. In his free time, Trevor enjoys fishing, shooting, working on cars, and following the New York Jets. He resides on Long Island with his parents, sister, and three cats.
+
+'''Clare D.''' is a Coast Guard Officer and holds a B.S. in Operations Research from the United States Coast Guard Academy. She is a current M.S. student in the department of Industrial & Systems Engineering and will teach in the Mathematics department of the Coast Guard Academy upon completion of her degree. In her free time, she enjoys rugby, puzzles, and hiking.
+
+'''Dede D.''' is an undergraduate in her final semester pursuing a bachelors in Industrial & Management Engineering. She worked as a Supply Chain Analyst this past spring semester for Kimberly Clark Corporation and a Project Management Intern this past summer for Newport News Shipbuilding. In her free time, she enjoys traveling, hiking, and singing. She will start her first backpacking trip around Europe this January.
+
+'''Michael D.''' is a PhD student in the Materials Science & Engineering at RPI and holds a B.S. in Materials Engineering from California Polytechnic State University, San Luis Obispo. Following a few internships in the LED lighting industry, he joined RPI's Smart Lighting Engineering Research Center in the labs of Chaitanya Ullal and Linda Schadler. His hobbies include reading, cooking, and acoustic guitar.
+
+'''Rajani D.''' is an undergraduate in her senior year pursuing a dual degree in Industrial & Management Engineering and Mathematics of Operations Research with a minor in Economics. She completed an internship with Goldman Sachs this past summer in the Securities division, and will be returning full time after graduation. In her free time, she competes on the RPI Women's Cross Country and Track & Field teams and enjoys visiting museums, drinking tea, and reading.
+
+'''Yage D.''' is a graduate student majoring in Biomedical Engineering with a concentration in Materials. She has been researching on vascular makers' influence on cell differentiation. In her free time, she enjoys drawing, swimming, and movies.
+
+'''Carlos G.''' is a Research Associate at the Rensselaer Polytechnic Institute in Troy, NY. He received his BS in Civil Engineering and MS in Transportation Engineering from Universidad Nacional de Colombia at Medellín, Colombia; and his ME and Ph.D. in Transportation Engineering from RPI. His research focus includes freight transportation, freight modeling and economics, sustainable transportation systems, and transportation planning.
+
+'''Kathleen K.''' is an undergraduate student at Rensselaer Polytechnic Institute studying Design, Innovation, and Society and Industrial Management Engineering. She has worked for Schick, Pitney Bowes, and International Electronic Machines Corporation. Kathleen likes to bake, swim, and enjoying the company of her friends.
+
+'''Felipe O.''' Is a masters student at Rensselaer Polytechnic Institute in the Systems Engineering and Technology Management program.  He holds B.S. degrees in Electrical Engineering and Industrial & Management engineering from Rensselaer Polytechnic Institute.  He is from Medellin, Colombia and his hobbies include cooking, reading, and playing music.
+
+'''Diana R.''' is currently a PhD student in Transportation Engineering and Research Assistant at Rensselaer Polytechnic Institute in Troy, NY. She obtained a BS-MS in Industrial Engineering at Universidad del Norte in Barranquilla, Colombia. Her research interests are in Urban Freight Transportation and Disaster Response Logistics. In her free time she enjoys riding bicycle, playing racketball and watching Netflix.
+
+'''Molly R.''' holds a B.S. in Textile Engineering from North Carolina State University in Raleigh, NC, and is currently working on a PhD in Decision Sciences and Engineering Systems from Rensselaer Polytechnic Institute in Troy, NY. Her research focuses on team behavioral processes and patterns using large-scale data sets like MMORPGS (massively multiplayer online role-playing games), e.g. League of Legends. When not in class or doing research, she enjoys quilting and spending time with her family.
+
+'''Munira S.''' holds a B.S in Mathematics from the University of Maryland, Baltimore County and is currently a PhD student in the department of Industrial and System Engineering at RPI. Her area of research is currently undecided. In her free time, Munira enjoys reading, Tae Kwan Do, knitting and Netflix.
+
+'''Fabiana T.''' is a PhD student in the Innovation Engineering department at the University of Salento in Italy. She's currently a visiting scholar in the department of Industrial and Systems Engineering at Rensselaer Polytechnic Institute. Her main research interests are related to the implementation of circular economy strategies in the industrial and service sectors. She lives in her hometown, loves reading, animals and good friends.
+
+'''Kaan U.''' holds a B.S. in Industrial Engineering and M.S. in Quality Management from 9 September University in Izmir, Turkey and after 16 years of professional experience in supply chain and quality roles he is now a new PhD student in Decision Sciences and Engineering Systems at RPI. His research interests are mainly in Personalized Logistics. In his free time, he enjoys swimming, running and playing with his daughter.
+
+'''Michael W.''' is a 5th year coterminal BS/M.Eng student in the Biomedical engineering department.  For the past two years he has done research on wireless passive sensors for measurement of force and pressure in the human body.  In his free time, you can find him watching football, at the gym or catching up on sleep.
+
+'''Shamus W.''' is a is a 5th year coterminal BS/M.Eng student at Rensselaer Polytechnic Institute studying Systems Engineering and Technology Management. He has interned at S&P Capital IQ, Ernst&Young, and Deloitte in a variety of technology roles. He enjoys spending his time whitewater rafting, dogsled mushing, and skiing.
+
+'''Alexis Z.''' is a PhD student in Biomedical Engineering and holds a B.A. in neuroscience from Smith College. After a few years of exploration, she returned to school to combine her interest in chemistry, neuroscience, and engineering to do research in Ryan Gilbert's lab. She enjoys biking and tap dancing and is a Boston sports fan.
+
+'''Liang Z.''' is currently a PhD student in Information Systems in Lally School at Rensselaer Polytechnic Institute. His research interests are in the effects of information systems on organization & economics. During his free time, he likes music, reading, and playing pool.
+
+'''Joonhyuk B.''' is a currently PhD student in Management at Lally school. His research interests are Operations and Supply Chain Management. In his free time he enjoys listening to musics
+
+'''Sameer S.''' is a 1st year PhD Student at Rensselaer Polytechnic Institute for Biomedical Engineering, currently holding a Bachelors degree in the same discipline from the same university as well. Sameer will be studying imaging techniques as well as damage soft tissue mechanics and regeneration. In his free time, he enjoys playing video games, mountain biking, photography and trying new foods.
+
+'''Andreas Vought''' is a 5th year coterminal student pursuing a M.Eng in Industrial Management Engineering, following a BS in Mechanical Engineering earned as an undergraduate. Previous experience includes project management at an energy services company (Ameresco, Inc.), product management at the Timken Company, and manufacturing operations with General Electric. Andreas is an avid skier, lover of cars and mechanics, and is passionate about weightlifting/fitness.
+
+'''Prasanna D.''' (Pras) is pursuing his PhD in Computer Science at RPI. His research interests are in Neuromorphic Computing and Deep Learning. His hobbies are playing various music instruments (guitar, drums, bass, vocals etc.) and playing various sports (Cricket, Soccer, Basketball, Swimming, Chess etc.).
+
+'''Trilce E.''' is pursuing a PhD in Transportation Engineering and is a Researcher at the Center for Infrastructure, Transportation, and the Environment (CITE). Her research interests are in the areas of Urban Freight Transportation and Humanitarian Logistics. She is the proud mother of two boys ages 6 and 7 years old, and an avid swimmer.
+
+'''Bjarke H.''' holds a B.Sc. in Mathematics and Technology from the Technical University of Denmark and is currently pursuing a M.Sc. in Mathematical Modelling and Computation. He enjoys long walks on the beach, italian food and watching Formula 1.
+
+{{BookCat}}

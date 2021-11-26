@@ -1,0 +1,303 @@
+IBM code page 23 ([[CCSID]] 23) is an [[EBCDIC]] [[code page]] used in IBM [[Mainframe computer|mainframe]]s in the [[United Kingdom]] to support the [[English language]].
+
+==Codepage layout==
+
+Characters are shown with their equivalent [[Unicode]] codes.
+
+{|{{chset-tableformat}}
+{{chset-table-header|EBCDIC 023<ref>{{cite web|title=Code Page 23|url=https://www-03.ibm.com/systems/resources/systems_i_software_globalization_pdf_cp00023z.pdf|archive-url=https://web.archive.org/web/20130121103812/http://www-03.ibm.com/systems/resources/systems_i_software_globalization_pdf_cp00023z.pdf|archive-date=2013-01-21}}</ref>}}
+|-
+!{{chset-left|0}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0000|[[Null character|NUL]]|0}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0001|[[Start of heading|SOH]]|1}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0002|[[Start of text|STX]]|2}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0003|[[End of text|ETX]]|3}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |SEL|4}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0009|[[Horizontal tab|HT]]|5}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |RNL|6}}
+|{{chset-color-ctrl}}|{{chset-ctrl|007F|[[Delete character|DEL]]|7}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |GE|8}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |SPS|9}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |RPT|10}}
+|{{chset-color-ctrl}}|{{chset-ctrl|000B|[[Vertical tab|VT]]|11}}
+|{{chset-color-ctrl}}|{{chset-ctrl|000C|[[Form feed|FF]]|12}}
+|{{chset-color-ctrl}}|{{chset-ctrl|000D|[[Carriage return|CR]]|13}}
+|{{chset-color-ctrl}}|{{chset-ctrl|000E|[[Shift out|SO]]|14}}
+|{{chset-color-ctrl}}|{{chset-ctrl|000F|[[Shift in|SI]]|15}}
+|-
+!{{chset-left|1}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0010|[[Data Link Escape|DLE]]|16}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0011|[[Device Control 1|DC1]]|17}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0012|[[Device Control 2|DC2]]|18}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0013|[[Device Control 3|DC3]]|19}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |res/enp|20}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0085|[[Newline|NL]]|21}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0008|[[Backspace|BS]]|22}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |POC|23}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0018|[[Cancel character|CAN]]|24}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0019|[[End of medium|EM]]|25}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |UBS|26}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |CU1|27}}
+|{{chset-color-ctrl}}|{{chset-ctrl|001C|[[Field separator|IFS]]|28}}
+|{{chset-color-ctrl}}|{{chset-ctrl|001D|[[Group separator|IGS]]|29}}
+|{{chset-color-ctrl}}|{{chset-ctrl|001E|[[Record separator|IRS]]|30}}
+|{{chset-color-ctrl}}|{{chset-ctrl|001F|[[Unit separator|ius]]/itb|31}}
+|-
+!{{chset-left|2}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |DS|32}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |SOS|33}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |[[File separator|FS]]|34}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |WUS|35}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |byp/inp|36}}
+|{{chset-color-ctrl}}|{{chset-ctrl|000A|[[Line feed|LF]]|37}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0017|[[End transmission block|ETB]]|38}}
+|{{chset-color-ctrl}}|{{chset-ctrl|001B|[[Escape character|ESC]]|39}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |SA|40}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |SFE|41}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |sm/sw|42}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |CSP|43}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |MFA|44}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0005|[[Enquire character|ENQ]]|45}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0006|[[Acknowledge character|ACK]]|46}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0007|[[Bell character|BEL]]|47}}
+|-
+!{{chset-left|3}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-ctrl}}|{{chset-ctrl|0016|[[Synchronous idle|SYN]]|50}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |IR|51}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |PP|52}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |TRN|53}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |NBS|54}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0004|[[End-of-transmission character|EOT]]|55}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |SBS|56}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |IT|57}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |RFF|58}}
+|{{chset-color-ctrl}}|{{chset-ctrl|    |CU3|59}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0014|[[Device control 4|DC4]]|60}}
+|{{chset-color-ctrl}}|{{chset-ctrl|0015|[[Negative-acknowledge character|NAK]]|61}}
+|{{chset-color-undef}}|
+|{{chset-color-ctrl}}|{{chset-ctrl|001A|[[Substitute character|SUB]]|63}}
+|-
+!{{chset-left|4}}
+|{{chset-color-misc}}|{{chset-ctrl|0020|[[Space character|SP]]|64}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-digit-box}}|{{chset-cell|00BC|[[Fraction (mathematics)|¼]]|74}}
+|{{chset-color-punct}}|{{chset-cell|002E|[[full stop|.]]|75}}
+|{{chset-color-undef}}|
+|{{chset-color-punct}}|{{chset-cell|0028|[[parenthesis|(]]|77}}
+|{{chset-color-graph}}|{{chset-cell|002B|[[+]]|78}}
+|{{chset-color-punct}}|{{chset-cell|0021|[[!]]|79}}
+|-
+!{{chset-left|5}}
+|{{chset-color-punct}}|{{chset-cell|0026|[[ampersand|&]]|80}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-digit-box}}|{{chset-cell|00BE|[[Fraction (mathematics)|¾]]|90}}
+|{{chset-color-graph}}|{{chset-cell|0024|[[$]]|91}}
+|{{chset-color-punct}}|{{chset-cell|002A|[[Asterisk|*]]|92}}
+|{{chset-color-punct}}|{{chset-cell|0029|[[parenthesis|)]]|93}}
+|{{chset-color-punct}}|{{chset-cell|003B|[[;]]|94}}
+|{{chset-color-undef}}|
+|-
+!{{chset-left|6}}
+|{{chset-color-punct}}|{{chset-cell|002D|[[Hyphen-minus|-]]|96}}
+|{{chset-color-punct}}|{{chset-cell|002F|[[/]]|97}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-punct}}|{{chset-cell|002C|[[,]]|107}}
+|{{chset-color-punct}}|{{chset-cell|0025|[[%]]|108}}
+|{{chset-color-punct}}|{{chset-cell|005F|[[underscore|_]]|109}}
+|{{chset-color-undef}}|
+|{{chset-color-punct}}|{{chset-cell|003F|[[?]]|111}}
+|-
+!{{chset-left|7}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-punct}}|{{chset-cell|003A|[[colon (punctuation)|&#x3A;]]|122}}
+|{{chset-color-graph-box}}|{{chset-cell|00A3|[[£]]|123}}
+|{{chset-color-punct}}|{{chset-cell|0040|[[@]]|124}}
+|{{chset-color-punct}}|{{chset-cell|0027|[[apostrophe|&#x27;]]|125}}
+|{{chset-color-graph}}|{{chset-cell|003D|[[equals sign|&#x3D;]]|126}}
+|{{chset-color-punct}}|{{chset-cell|0022|[[&#x22;]]|127}}
+|-
+!{{chset-left|8}}
+|{{chset-color-undef}}|
+|{{chset-color-letter}}|{{chset-cell|0061|[[a]]|129}}
+|{{chset-color-letter}}|{{chset-cell|0062|[[b]]|130}}
+|{{chset-color-letter}}|{{chset-cell|0063|[[c]]|131}}
+|{{chset-color-letter}}|{{chset-cell|0064|[[d]]|132}}
+|{{chset-color-letter}}|{{chset-cell|0065|[[e]]|133}}
+|{{chset-color-letter}}|{{chset-cell|0066|[[f]]|134}}
+|{{chset-color-letter}}|{{chset-cell|0067|[[g]]|135}}
+|{{chset-color-letter}}|{{chset-cell|0068|[[h]]|136}}
+|{{chset-color-letter}}|{{chset-cell|0069|[[i]]|137}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|9}}
+|{{chset-color-undef}}|
+|{{chset-color-letter}}|{{chset-cell|006A|[[j]]|145}}
+|{{chset-color-letter}}|{{chset-cell|006B|[[k]]|146}}
+|{{chset-color-letter}}|{{chset-cell|006C|[[l]]|147}}
+|{{chset-color-letter}}|{{chset-cell|006D|[[m]]|148}}
+|{{chset-color-letter}}|{{chset-cell|006E|[[n]]|149}}
+|{{chset-color-letter}}|{{chset-cell|006F|[[o]]|150}}
+|{{chset-color-letter}}|{{chset-cell|0070|[[p]]|151}}
+|{{chset-color-letter}}|{{chset-cell|0071|[[q]]|152}}
+|{{chset-color-letter}}|{{chset-cell|0072|[[r]]|153}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|A}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-letter}}|{{chset-cell|0073|[[s]]|162}}
+|{{chset-color-letter}}|{{chset-cell|0074|[[t]]|163}}
+|{{chset-color-letter}}|{{chset-cell|0075|[[u]]|164}}
+|{{chset-color-letter}}|{{chset-cell|0076|[[v]]|165}}
+|{{chset-color-letter}}|{{chset-cell|0077|[[w]]|166}}
+|{{chset-color-letter}}|{{chset-cell|0078|[[x]]|167}}
+|{{chset-color-letter}}|{{chset-cell|0079|[[y]]|168}}
+|{{chset-color-letter}}|{{chset-cell|007A|[[z]]|169}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|B}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|C}}
+|{{chset-color-undef}}|
+|{{chset-color-letter}}|{{chset-cell|0041|[[A]]|193}}
+|{{chset-color-letter}}|{{chset-cell|0042|[[B]]|194}}
+|{{chset-color-letter}}|{{chset-cell|0043|[[C]]|195}}
+|{{chset-color-letter}}|{{chset-cell|0044|[[D]]|196}}
+|{{chset-color-letter}}|{{chset-cell|0045|[[E]]|197}}
+|{{chset-color-letter}}|{{chset-cell|0046|[[F]]|198}}
+|{{chset-color-letter}}|{{chset-cell|0047|[[G]]|199}}
+|{{chset-color-letter}}|{{chset-cell|0048|[[H]]|200}}
+|{{chset-color-letter}}|{{chset-cell|0049|[[I]]|201}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|D}}
+|{{chset-color-undef}}|
+|{{chset-color-letter}}|{{chset-cell|004A|[[J]]|209}}
+|{{chset-color-letter}}|{{chset-cell|004B|[[K]]|210}}
+|{{chset-color-letter}}|{{chset-cell|004C|[[L]]|211}}
+|{{chset-color-letter}}|{{chset-cell|004D|[[M]]|212}}
+|{{chset-color-letter}}|{{chset-cell|004E|[[N]]|213}}
+|{{chset-color-letter}}|{{chset-cell|004F|[[O]]|214}}
+|{{chset-color-letter}}|{{chset-cell|0050|[[P]]|215}}
+|{{chset-color-letter}}|{{chset-cell|0051|[[Q]]|216}}
+|{{chset-color-letter}}|{{chset-cell|0052|[[R]]|217}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|E}}
+|{{chset-color-digit-box}}|{{chset-cell|00BD|[[½]]|224}}
+|{{chset-color-undef}}|
+|{{chset-color-letter}}|{{chset-cell|0053|[[S]]|226}}
+|{{chset-color-letter}}|{{chset-cell|0054|[[T]]|227}}
+|{{chset-color-letter}}|{{chset-cell|0055|[[U]]|228}}
+|{{chset-color-letter}}|{{chset-cell|0056|[[V]]|229}}
+|{{chset-color-letter}}|{{chset-cell|0057|[[W]]|230}}
+|{{chset-color-letter}}|{{chset-cell|0058|[[X]]|231}}
+|{{chset-color-letter}}|{{chset-cell|0059|[[Y]]|232}}
+|{{chset-color-letter}}|{{chset-cell|005A|[[Z]]|233}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|-
+!{{chset-left|F}}
+|{{chset-color-digit}}|{{chset-cell|0030|[[0]]|240}}
+|{{chset-color-digit}}|{{chset-cell|0031|[[1]]|241}}
+|{{chset-color-digit}}|{{chset-cell|0032|[[2]]|242}}
+|{{chset-color-digit}}|{{chset-cell|0033|[[3]]|243}}
+|{{chset-color-digit}}|{{chset-cell|0034|[[4]]|244}}
+|{{chset-color-digit}}|{{chset-cell|0035|[[5]]|245}}
+|{{chset-color-digit}}|{{chset-cell|0036|[[6]]|246}}
+|{{chset-color-digit}}|{{chset-cell|0037|[[7]]|247}}
+|{{chset-color-digit}}|{{chset-cell|0038|[[8]]|248}}
+|{{chset-color-digit}}|{{chset-cell|0039|[[9]]|249}}
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-undef}}|
+|{{chset-color-ctrl}}|{{chset-ctrl|    |[[Eight Ones|EO]]|255}}
+|}
+{{chset-legend|graybox=Differences from [[EBCDIC 500]]}}
+
+==References==
+{{reflist}}
+
+{{character encoding}}

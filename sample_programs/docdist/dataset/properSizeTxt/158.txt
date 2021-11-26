@@ -1,0 +1,202 @@
+== Digital Filters ==
+
+Digital filters are by essence sampled systems.
+The input and output signals are represented by samples with equal time distance.
+
+== FIR Filters ==
+
+''Finite Impulse Response'' (FIR) filters are characterized by a time response depending only on a given number of the last samples of the input signal.
+In other terms: once the input signal has fallen to zero, the filter output will do the same after a given number of sampling periods.
+
+The output <math>y(k)</math> is given by a linear combination of the last input samples <math>x(k-i)</math>.
+:: <math>y(k) = \sum_{i = 0}^{N-1} b(i) \cdot x(k-i)</math>
+The coefficients <math>b(i)</math> give the weight for the combination.
+They also correspond to the coefficients of the numerator of the z-domain filter transfer function.
+
+The following figure shows an FIR filter of order <math>N</math>:
+: [[File:FIR Filter.svg|750px]]
+For linear phase filters, the coefficient values are symmetric around the middle one and the delay line can be folded back around this middle point in order to reduce the number of multiplications.
+
+The transfer function of FIR filters only pocesses a numerator.
+This corresponds to an all-zero filter. 
+
+FIR filters typically require high orders, in the magnitude of several hundreds.
+Thus the choice of this kind of filters will need a great amount of hardware or CPU.
+Despite of this, one reason to choose a FIR filter implementation is the ability to achieve a linear phase response, which can be a requirement in some cases.
+Nevertheless, the filter designer has the possibility to choose [[Digital_Signal_Processing/Infinite_Input_Filtering|IIR filters]] with a good phase linearity in the passband, such as [[Signals_and_Systems/Filter_Implementations#Bessel_Filters|Bessel filters]],
+or to design an allpass filter to correct the phase response of a standard IIR filter.
+
+=== Moving Average Filters (MA) ===
+
+'''Moving Average''' (MA) models are process models in the form:
+:<math>u(n) = \sum_{m = 0}^M a^*(m)x(n-m)</math>
+MA processes is an alternate representation of FIR filters.
+
+=== Average Filters ===
+A filter calculating the average of the <math>N</math> last samples of a signal 
+:: <math>y(k) = \frac{1}{N} \cdot \sum_{i = 0}^{N-1} x(k-i)</math>
+It is the simplest form of an FIR filter, with all coefficients being equal.
+
+The transfer function of an average filter is given by:
+:: <math>
+\begin{align}
+  H(z) &= \frac{1}{N} \cdot \sum_{i=0}^{N-1}z^{-i} \\
+       &= \frac{1}{N} \cdot \left ( \frac{1-z^{-N}}{1-z^{-1}} \right ) 
+\end{align}
+</math>
+The transfer function of an average filter has <math>N</math> equally spaced zeroes along the frequency axis.
+However, the zero at DC is masked by the pole of the filter.
+Hence, there is a larger lobe a DC which accounts for the filter passband.
+
+=== Cascaded Integrator-Comb (CIC) Filters ===
+
+A [http://en.wikipedia.org/wiki/CIC_filter Cascaded integrator-comb filter] (CIC) is a special technique for implementing average filters placed in series.
+The series placement of the average filters enhances the first lobe at DC compared to all other lobes.
+
+A CIC filter implements the transfer function of <math>N</math> average filters, each calculating the average of <math>R M</math> samples.
+Its transfer function is thus given by:
+:: <math>H(z) = \left ( \frac{1-z^{-R \cdot M}}{1-z^{-1}} \right )^N</math>
+
+CIC filters are used for decimating the number of samples of a signal by a factor of <math>R</math>
+or, in others terms, to resample a signal at a lower frequency, throwing away <math>R-1</math> samples out of <math>R</math>.
+The factor <math>M</math> indicates how much of the first lobe is used by the signal.
+The number of average filter stages, <math>N</math>, indicates how well other frequency bands are damped, at the expense of a less flat transfer function around DC.
+
+The CIC structure allows to implement the whole system with only adders and registers, not using any multipliers which are greedy in terms of hardware.
+
+Downsampling by a factor of <math>R</math> allows to increase the signal resolution by <math>\log_{2}(R)</math> bits.
+
+== IIR Filters ==
+
+=== Canonical filters ===
+
+Canonical filters implement a filter transfer function with a number of delay elements equal to the filter order, one multiplier per numerator coefficient, one multiplier per denominator coefficient and a series of adders.
+Similarily to active filters canonical structures, this kind of circuits showed to be very sensitive to element values: a small change in a coefficients had a large effect on the transfer function.
+
+Here too, the design of active filters has shifted from canonical filters to other structures such as ''chains of second order sections'' or ''leapfrog filters''.
+
+=== Chain of Second Order Sections ===
+
+A ''second order section'', often referred as ''biquad'', implements a second order transfer function.
+The transfer function of a filter can be split into a product of transfer functions each associated to a pair of poles and possibly a pair of zeroes.
+If the transfer function's order is odd, then a first order section has to be added to the chain.
+This section is associated to the real pole and to the real zero if there is one.
+
+The most known [http://en.wikipedia.org/wiki/Digital_biquad_filter biquad structures] are
+* direct-form 1
+* direct-form 2
+* direct-form 1 transposed
+* direct-form 2 transposed
+
+The direct-form 2 transposed of the following figure is especially interesting in terms of required hardware as well as signal and coefficient quantization.
+: [[File:Biquad_direct_form_2_transposed.svg|300 px]]
+
+=== Digital Leapfrog Filters ===
+
+==== Filter Structure ====
+
+''Digital leapfrog filters'' base on the simulation of [[Signal_Processing/Analog_Filters#Leapfrog_Filters|analog active leapfrog filters]].
+The incentive for this choice is to inherit from the excellent passband sensitivity properties of the original [[Signal_Processing/Analog_Filters#Ladder_filters|ladder circuit]].
+
+The following 4<sup>th</sup> order all-pole lowpass leapfrog filter
+
+: [[File:Leapfrog filter order 4.svg]]
+
+can be implemented as a digital circuit by replacing the analog integrators with accumulators.
+
+: [[File:Digital_leapfrog_filter_order_4.svg]]
+
+Replacing the analog integrators with accumulators corresponds to simplify the Z-transform to <math>z = 1 + sT</math>, which are the two first terms of the [http://en.wikipedia.org/wiki/Taylor_series Taylor series] of <math>z = exp(sT)</math>.
+This approximation is good enough for filters where the sampling frequency is much higher than the signal bandwidth.
+
+==== Transfer Function ====
+
+The [[Signal Processing/Filter Design#State Space Representation|state space representation]] of the preceeding filtre can be written as:
+
+: <math>\begin{array}{ccrcccccc}
+ z \cdot \begin{bmatrix}w_1\\w_2\\w_3\\w_4\end{bmatrix} &
+ = &
+ \begin{bmatrix}1-\frac{T}{t_1} & -\frac{T}{t_1} & 0 & 0\\\frac{T}{t_2} & 1 & -\frac{T}{t_2} & 0\\0 & \frac{T}{t_3} & 1 & -\frac{T}{t_3}\\0 & 0 & \frac{T}{t_4} & 1-\frac{T}{t_4}\end{bmatrix} &
+ \cdot &
+ \begin{bmatrix}w_1\\w_2\\w_3\\w_4\end{bmatrix} &
+ + &
+ \begin{bmatrix}\frac{T}{t_1}\\0\\0\\0\end{bmatrix} &
+ \cdot &
+ U_{in} \\
+ U_{out} &
+ = &
+ \begin{bmatrix}0 & 0 & 0 & 1\end{bmatrix} &
+ \cdot &
+ \begin{bmatrix}w_1\\w_2\\w_3\\w_4\end{bmatrix} &
+ + &
+ \begin{bmatrix}0\end{bmatrix} &
+ \cdot &
+ U_{in}
+\end{array}</math>
+
+
+From this equation set, one can write the A, B, C, D matrices as:
+
+: <math>A = \begin{bmatrix}1-\frac{T}{t_1} & -\frac{T}{t_1} & 0 & 0\\\frac{T}{t_2} & 1 & -\frac{T}{t_2} & 0\\0 & \frac{T}{t_3} & 1 & -\frac{T}{t_3}\\0 & 0 & \frac{T}{t_4} & 1-\frac{T}{t_4}\end{bmatrix}</math>
+
+: <math>B = \begin{bmatrix}\frac{T}{t_1}\\0\\0\\0\end{bmatrix}</math>
+
+: <math>C = \begin{bmatrix}0 & 0 & 0 & 1\end{bmatrix}</math>
+
+: <math>D = \begin{bmatrix}0\end{bmatrix}</math>
+
+From this representation, signal processing tools such as [[Octave_Programming_Tutorial|Octave]] or [[MATLAB Programming|Matlab]] allow to plot the filter's [[Signals and Systems/Frequency Response|frequency response]] or to examine its [[Signal Processing/Filter Design#Zeroes, Poles and Gain|zeroes and poles]].
+
+In the digital leapfrog filter, the relative values of the coefficients set the shape of the transfer function ([[Signals_and_Systems/Filter_Implementations#Butterworth_Filters|Butterworth]], [[Signals_and_Systems/Filter_Implementations#Chebyshev_Filters|Chebyshev]], …), whereas their amplitudes set the cutoff frequency.
+Dividing all coefficients by a factor of two shifts the cutoff frequency down by one octave (also a factor of two).
+
+A special case is the Buterworth 3<sup>rd</sup> order filter which has time constants with relative values of 1, 1/2 and 1.
+Due to that, this filter can be implemented in hardware without any multiplier, but using shifts instead.
+
+=== Autoregressive Filters (AR) ===
+
+'''Autoregressive''' (AR) models are process models in the form:
+
+:<math>u(n) = \sum_{m = 1}^M a^*(m)u(n-m) + x(n)</math>
+
+Where ''u(n)'' is the output of the model, ''x(n)'' is the input of the model, and ''u(n - m)'' are previous samples of the model output value. These filters are called "autoregressive" because output values are calculated based on regressions of the previous output values. AR processes can be represented by an all-pole filter.
+
+=== ARMA Filters ===
+
+'''Autoregressive Moving-Average''' (ARMA) filters are combinations of AR and [[Signal_Processing/Types_of_Filters#Moving_Average_Filters_.28MA.29|MA]] filters. The output of the filter is given as a linear combination of both the weighted input and weighted output samples:
+
+:<math>y(n) = \sum_{m = 0}^M a^*(m)x(n-m) + \sum_{k = 1}^K b^*(k)y(n-k)</math>
+
+ARMA processes can be considered as a digital IIR filter, with both poles and zeros.
+
+== Yule-Walker Equations ==
+
+AR filters are preferred in many instances because they can be analyzed using the '''Yule-Walker equations'''. MA and ARMA processes, on the other hand, can be analyzed by complicated nonlinear equations which are difficult to study and model. 
+
+If we have an AR process with tap-weight coefficients '''a''' (a vector of ''a(n), a(n - 1), ...'') an input of ''x(n)'', and an output of ''y(n)'', we can use the yule-walker equations. We say that &sigma;<sub>x</sub><sup>2</sup> is the variance of the input signal. We treat the input data signal as a random signal, even if it is a deterministic signal, because we do not know what the value will be until we receive it. We can express the Yule-Walker equations as:
+
+{{eqn|Yule-Walker Equations}}
+:<Math>\mathbf{R}\mathbf{a} = \mathbf{r}</math>
+
+Where '''R''' is the cross-correlation matrix of the process output
+
+:<math>\mathbf{R} = E[y(n)y^H(n)]</math>
+
+And '''r''' is the autocorrelation matrix of the process output:
+
+:<math>\mathbf{r} = E[y(n)y^*(n)]</math>
+
+=== Variance ===
+
+We can show that:
+
+:<math>r(0) = \sigma_y^2</math>
+
+We can express the input signal variance as:
+
+:<math>\sigma_x^2 = \sum_{k = 0}^M a(k) r(k)</math>
+
+Or, expanding and substituting in for ''r(0)'', we can relate the output variance of the process to the input variance:
+
+:<math>\sigma_x^2 = \sigma_y^2 + \sum_{k = 1}^M a(k) r(k)</math>
+{{BookCat}}

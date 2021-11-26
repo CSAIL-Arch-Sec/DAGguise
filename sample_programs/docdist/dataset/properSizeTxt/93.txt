@@ -1,0 +1,84 @@
+<small><< [[../Species_Richness_and_Diversity|Chapter 7]] | </small>Chapter 8<small>  | [[../Species_and_Populations|Chapter 9]] >></small> 
+----
+<center>
+<big><big>Chapter 8. Island Biogeography and Habitat Fragmentation</big></big>  
+</center>
+----
+
+==Island Biogeography==
+Biogeography is the study of the geographic location of a species.  Island biogeography is the study of the species composition and species richness on islands.
+Island biogeography is a study aimed at establishing and explaining the factors that affect species diversity of a specific community.  An island in this context, is not just a segment of land surrounded by water.  It is any area of habitat surrounded by areas unsuitable for the species on the island. Other examples of ''"islands"'' include dung piles, game preserves, mountain tops, and lakes. [[File: Kitcarsonmtn.jpg|right|thumb|Mountain tops are considered islands.]]
+
+In 1967, ecologists Robert MacArthur and E.O. Wilson, coined the '''Theory of Island Biogeography'''.  This theory attempted to predict the number of species that would exist on a newly created island.  It also explained how distance and area combine to regulate the balance between immigration and extinction in an island population.  Immigration is the appearance of a new species in a community.  Extinction is then the disappearance of a species from a community. This relationship is known as "species turnover", states that the equilibrium value for the island is proportional to the number of immigrants that come to the island, and the loss of individuals due to emigration and extinction. 
+
+E.O. Wilson and R. MacArthur did several experiments and made several predictions about the Theory of Island Biogeography.  Some of their predictions included (1)species richness tends toward an equilibrium value and (2) the equilibrium value is the result of immigration, but emigration and extinction may also occur.
+
+The equilibrium value (equilibrium diversity value) of an island depends on the area of the island- the larger the area the more resources there are on the island.  Smaller islands support smaller populations, and smaller populations are more likely to become extinct.  Here is where the '''Target Effect''' comes in play.  The Target Effect says that larger islands have higher immigration rates because they are a bigger target.
+
+Three basic types of species-area relationships have been well defined and demonstrated through various experiments within the field of ecology: "type-1" investigates species richness vs. sample area in nested samples (within a defined habitat or region), "type-2" is defined by examining the total species richness vs. total area among habitats or regions differing in area, and "type-3" examines local species richness in a sample of defined size among habitats or regions differing in area {{ref|Holt1999}}.
+
+Another factor that determines the equilibrium diversity value is the distance from the source as discussed below.  For example, the immigration rate is higher at closer islands than on islands that are further away from the mainland.  Here is where the '''Rescue Effect''' comes in mind. The rescue effect decreases the rate of extinction due to recolonization and immigration. Immigration is a major contributor due to increasing population size and the size of the genetic pool. These two factors can reduce the probability that any particular species will become extinct {{ref|Brown1977}}. Recolonization happens through two occurrences: Immigration and invasion; immigration is the arrival of a new species to an area, while invasion is the arrival of a species that already inhabits an area {{ref|Simberloff1968}}.
+
+The last factor that contributes and/or determines the equilibrium diversity value is the species richness of the source.  Species richness is the number of species in a community.  Although islands are considered relatively new land, they can still have a great deal of diversity on them over a few years.  This concept comes from the '''Time/Stability Hypothesis''' and to the '''Species-Area Effect''' which both say that the older the land is/the longer the land has been around, the more diversity and the more stable that land will contain.  For example, islands may not be diverse right away because they have not been around long enough for species to migrate onto that particular land mass. The Species-Area Effect states that increased area results in increase species equilibrium. However, this relationship is not linear. The following equation describes this relationship: S=cA<sup>z</sup>, where S is the number of species, c is a constant, A is the area, and z is the slope of the line (varies).
+
+Islands may be colonized several different ways:(1) by hitchhiking on other species, (2)flying, (3) rafting, (4) swimming, (5) wind, (6) and speciation.  It takes time for the new islands to gain several different species of animals due to several different aspects, but given enough time the islands will obtain life on them and become more and more diverse.  
+
+===Theory of Island Biogeography===
+
+The Theory of Island Biogeography is determined by two factors.  The first is the effect of distance from the '''mainland'''.  The mainland is where new immigrant species originally inhabited.  The second is the effect of island size. 
+
+These two factors establish how many species an island can hold at equilibrium.  '''The equilibrium species number''' is the species richness of an island at which immigration balances extinction and which remains roughly constant. [[File:Species Equilibrium.gif|right|800px]]
+
+For some examples of island biogeography visit:[http://www.okstate.edu/artsci/botany/bisc3034/lnotes/islands.htm Island Biogeography]
+
+In previous chapters numerous hypotheses have been explored concerning biodiversity. Productivity hypothesis and Rapoport's Rule are major players in the world of ecological biodiversity. These hypotheses have been measured on a continental scale and oceanic scale but how well can they explore the biodiversity of islands? Earlier in this chapter colonization of islands was explained with the effect of size and distance from the mainland. How is diversity affected by the species richness gradient for island geography? Do the same patterns, or lack of, follow islands as they extend from lower latitudes to higher latitudes?
+
+In this section three sets of islands in varying latitudes will be examined. The tropical islands of Kiribata are situated 1<sup>o</sup>33<sup>'</sup> north of the equator. The Canary Islands in the North Atlantic are located 28<sup>o</sup>06<sup>'</sup> north of the equator and the Falkland Islands in the South Atlantic at 51<sup>o</sup>40<sup>'</sup> south of the equator. The biodiversity explored included fauna and flora.
+
+The islands of Kiribata are Gilbert Islands, Phoenix Islands and the Line Islands. Phoenix Islands will be used for this survey. The biodiversity of the islands include numerous fish, birds and wildlife. The Phoenix Islands are the third largest marine biodiversity in the world and in 2006 were protected by the Kiribata government. The island's land biodiversity is not  equivalent to the biodiversity of a tropical forest but the diversity in the surrounding water is expansive. Coral Reefs and the distance from any populous country leave Phoenix Islands undisturbed by tourists. The Phoenix Islands are susceptible to periods of drought which affect the biodiversity of plants and animals. These islands sitting almost directly on the equator support Productivity hypothesis in the water but on land it is not supported due to erratic rainfall. The Canary Islands biodiversity are one of the most expansive in the temperate regions of the world. Scientists studying Canary Islands over the past decades have been discovering a new species or subspecies about every six days. The discovery of new species at this rate makes the Canary Islands an extraordinary example of biodiversity. Twenty-Eight degrees above the equator seems like the ideal place for biomass. The European Union removed internal border checkpoints about ten years ago. Invasive species (chapter 6) have started to take control since the removal of internal borders and have decreased native plant populations by an estimated fifty percent.
+
+The Falkland Islands are the furthest away from the equator at fifty-one degrees south of the equator. The flora on the Falkland Islands are very limited and no trees grow naturally on the islands. The fauna is more diverse than the flora with over sixty types of birds breeding on the islands. Mammals on the island are also limited with three types of seals and smaller mammals and dolphins offshore. The Falkland Islands support the Productivity hypothesis. Moving farther away from the equator diversity is limited. Biodiversity seems to be the greatest not at the equator but approximately thirty degrees north and south of the equator.
+
+==Endemism==
+[[File:Fynbos.jpg|250px|right|thumb|The [[Wikipedia:en:Fynbos|Fynbos]] of South Africa are a great example of Endemism.]]
+
+[[Wikipedia:en:Endemism|Endemism]] comes from the word endemic which means it is unique to its own place or region and not found naturally anywhere else.  The place must be a discrete geographical unit, often an island or island group, but sometimes a country, habitat type, or other defined area or zone.  Endemic regions often include large bodies of water, or mountain ranges but mostly islands due to their isolation. Older islands usually have a higher degree of endemism.
+
+Endemic Species can often become endangered or extinct due to their limited habitats and vulnerability to the actions of humans, such as large scale logging and slash and burn techniques.  Some ecosystems with high endimism include, the Hawaiian forests, the [[Wikipedia:en:Fynbos|Fynbos]] in South Africa, and many other rainforests and dry forests.
+
+Endemic species are also affected greatly by invasive or alien species. Such is the case for the Hawaiian tree snail. The Hawaiian tree snail's existence is being threatened by the loss of habitat via deforestation (an anthropogenic impact) and by the grazing of ungulates, predation by rats, and an intentionally introduced snail, ''Euglandina rosea'' {{ref|Holland2004}}.
+
+==Habitat Fragmentation==
+
+“[Habitat] fragmentation ''per se'' is a landscape-level phenomenon in which species that survive in habitat remnants are confronted with a modified environment of reduced area, increased isolation and novel ecological boundaries {{ref|Ewers2005}}.” '''Habitat Fragmentation''' is one of the largest causes of species extinctions, along with invasive species. We know that an ecosystem requires land and resources to maintain its diversity, but how much is enough? And when an ecosystem becomes isolated, will the edges of that isolated area remain the same kind of ecosystem as the center?
+
+These questions are studied and answers are inferred through the study of truly isolated habitats: islands.
+[[File:Coyote.jpg|250px|right|thumb|The coyote is a predator that increases with fragmented landscapes.]]
+Islands have less diverse populations than large continents, especially those far from mainlands. Such islands have less opportunity for colonization. In order to apply what we know about islands to fragmented habitats, we must recognize colonization and extinction as constantly occurring within populations.
+
+
+Anthropogenic or human-derived habitat modification is the largest cause of fragmentation. However, naturally fragmented systems are found all over the world {{ref|Ewers2005}}. Habitat fragmentation often results in lack of food and other resources for species that need them. It also eliminates habitat for species that need large unbroken blocks of habitat, examples of species that have this problem as a result of fragmentation are bobcats and upland sandpipers. This results in a increased risk of death by predation because the animal might be forced to venture outside it's patch to find food in order to avoid starvation. Certain predators like raccoons, foxes, coyotes, house cats, and crows tend to increase in fragmented landscapes. This is due to them being highly adaptable and being able to take advantage of the resources available to them. high predation in small patches makes death by predation more common for certain species. This is one of the factors that is contributing to the decline of neotropic songbirds in eastern temperate forest.
+
+==Metapopulation Theory==
+
+'''Metapopulation Theory''' states that several distinct “Patches” are stabilized by their proximity to other patches. A '''Patch''' is an area inhabited or potentially inhabited by a member of a metapopulation. Patches are usually small areas of land that consist of small populations. The probability of species occurrence in patches is related to the following two factors: habitat destruction and fragmentation{{ref|Prugh2008}}. Because the number of individuals in these patches is small, they can very easily become extinct. This results in '''demographic stochasticity''', which are fluctuations in population size due to random demographic events. [[Image:View from the top of Sulphur Mountain 03.jpg|250px|right|thumb|Mountain tops are an example of a patch in a metapopulation.]] The rate at which re-colonization can occur is proportional to the distance between the patches. The further the distance between two patches, the longer it will take for the patch to become colonized again. When one patch has a jump in the number of individuals that inhabit it, the surrounding patches will also be stabilized by the immigration from the species rich patch. The change in a patches inhabitants can be determined by the equation '''(dp/dt) =mp (1-p)-µp'''; where '''P''' is fraction of colonized patches, '''M''' is the average recolonization rate, '''µ''' is the extinction rate, and '''1-p''' is the uncolonized patches. The metapopulation is stable when the rate at which recolonization is equal the rate of extinction. 
+
+Read [[http://www.wikipedia.org/wiki/Metapopulation Metapopulation]]
+
+Links to research:
+[[http://www.eeb.princeton.edu/~dpurves/metapop_ecol.htm Eichhornia paniculata]]
+[[http://faculty.plattsburgh.edu/thomas.wolosz/metapop.htm Maculina arion (the Large Blue Butterfly)]]
+
+The classic concept of metapopulation was first mathematically formulated by [[Wikipedia:Richard_Levins|R. Levin]] in 1969, but received minute attention until the 1990s when ecologists realized fragmentation of continuous populations into discrete subpopulations was occurring at a high rate.
+
+==References==
+# {{note|Holt1999}} Holt R., Lawton J., Polis G., & Martinez N.1999. Trophic rank and the species-area relationship. "Ecology."80:1495-1504
+# {{note|Brown1977}} Brown,J.& Kodric-Brown,A.1977.Turnover rates in insular Biogeography: Effect if immigration on extinction. ''Ecology.''58:445-449.
+# {{note|Simberloff1968}} Simberloff,D.& Wilson,E. 1968. Experimental zoogeography of islands: the colonization of emprty islands. "Ecology."50:278-296.
+# {{note|Holland2004}} Holland B., & Hadfield M.2004. Origin and diversification of the endemic Hawaiian tree snails (Achatinellidae:Achatinellinae) based on molecular evidence. "Molecular Phylogenetics and Evolution."32:588-600.
+# {{note|Ewers2005}} Ewers,R.& Didham,R. 2005. Confounding factors in the detection of species responses to habitat fragmentation. ''Biol. Rev.'''''81''':117-142.
+# {{note|Prugh2008}} Prugh L., Hodges K., Sinclair A., & Brachares J.2008. Effect of habitat area and isolation on fragmented animal populations. "PNAS."105:20770-20775.
+# {{note|7}}[http://www.mass.gov/dfwele/dfw/bdi/habfrag.htm]
+# {{note|8}}[http://en.wikipedia.org/wiki/Habitat_fragmentation
+
+{{BookCat}}

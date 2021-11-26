@@ -1,0 +1,107 @@
+I found lots of words on this page. I am removing them to upload the cover image.
+I will upload it as soon as I can figure out where cover images belong.
+[[User:Rozzychan|Rozzychan]] ([[User talk:Rozzychan|talk]]) 18:36, 18 June 2009 (UTC)
+
+I did not write the text listed in the cover section.
+It looks like a failed attempt to merge two books.
+I will put the text found on the cover page here in the discussion section and delete it on the main page.
+The cover should be an image.
+[[User:Rozzychan|Rozzychan]] ([[User talk:Rozzychan|talk]]) 18:40, 18 June 2009 (UTC)
+
+
+====ODD TEXT FOUND ON COVER PAGE====
+Cell Biology/Introduction/What is a cell
+From Wikibooks, the open-content textbooks collection
+< Cell Biology | Introduction 
+There are no reviewed revisions of this page, so it may not have been checked for quality.
+Jump to: navigation, search
+File:Biological cefundamental building blocks of life. Cells vary to form individual "single-cell" organisms (bacteria) to "multi-cellular" structures (tissue,ll.svg 
+Schematic of typical animal cell, showing subcellular components. Organelles: (1) nucleolus (2) nucleus (3) ribosome (4) vesicle (5) rough endoplasmic reticulum (ER) (6) Golgi apparatus (7) Cytoskeleton (8) smooth ER (9) mitochondria (10) vacuole (11) cytoplasm (12) lysosome (13) centrioles
+Cells are structural units that make up plants and animals; also, there are many single celled organisms. What all living cells have in common is that they are small 'sacks' composed mostly of water. The 'sacks' are made from a phospholipid bilayer membrane. This membrane is semi-permeable (allowing some things to pass in or out of the cell while blocking others). There exist other methods of transport across this membrane that we will get into later.
+So what is in a cell? Cells are 90% fluid (called cytoplasm) which consists of free amino acids, proteins, carbohydrates, fats, and numerous other molecules. The cell environment (i.e., the contents of the cytoplasm and the nucleus, as well as the way the DNA is packed) affect gene expression/regulation, and thus are VERY important aspects of inheritance. Below are approximations of other components (each component will be discussed in more detail later):
+
+[edit] Elements
+•	59% Hydrogen (H) 
+•	24% Oxygen (O) 
+•	11% Carbon (C) 
+•	4% Nitrogen (N) 
+•	2% Others - Phosphorus (P), Sulphur (S), etc. 
+[edit] Molecules
+•	50% protein 
+•	15% nucleic acid 
+•	15% carbohydrates 
+•	10% lipids 
+•	10% Other 
+[edit] Components of cytoplasm
+•	Cytosol - contains mainly water and numerous molecules floating in it- all except the organelles. 
+•	Organelles (which also have membranes) in 'higher' eukaryote organisms: 
+o	Nucleus (in eukaryotes) - where genetic material (DNA) is located, RNA is transcribed. 
+o	Endoplasmic Reticulum (ER) - Important for protein synthesis. It is a transport network for molecules destined for specific modifications and locations. There are two types: 
+	Rough ER - Has ribosomes, and tends to be more in 'sheets'. 
+	Smooth ER - Does not have ribosomes and tends to be more of a tubular network. 
+o	Ribosomes - half are on the Endoplasmic Reticulum, the other half are 'free' in the cytosol, this is where the RNA goes for translation into proteins. 
+o	Golgi Apparatus - important for glycosylation, secretion. The Golgi Apparatus is the "UPS" of the cell. Here, proteins and other molecules are prepared for shipping outside of the cell. 
+o	Lysosomes - Digestive sacks found only in animal cells; the main point of digestion. 
+o	Peroxisomes - Use oxygen to carry out catabolic reactions, in both plant and animals. In this organelle, an enzyme called catalase is used to break down hydrogen peroxide into water and oxygen gas. 
+o	Microtubules - made from tubulin, and make up centrioles,cilia,etc. 
+o	Cytoskeleton - Microtubules, actin and intermediate filaments. 
+o	Mitochondria - convert foods into usable energy. (ATP production) A mitochondrion does this through aerobic respiration. They have 2 membranes, the inner membranes shapes differ between different types of cells, but they form projections called cristae. The mitochondrion is about the size of a bacteria, and it carries its own genetic material and ribosomes. 
+o	Vacuoles - More commonly associated with plants. Plants commonly have large vacuoles. 
+•	Organelles found in plant cells and not in animal cells: 
+o	Plastids - membrane bound organelles used in storage and food production. These are similar to entire prokaryotic cells - for example, like mitochondria they contain their own DNA and self-replicate. They include: 
+	Chloroplasts - convert light/food into usable energy. (ATP production) 
+	Leucoplasts - store starch, proteins and lipids. 
+	Chromoplasts - contain pigments. (E.g. providing colors to flowers) 
+o	Cell Wall - found in prokaryotic and plant cells; provides structural support and protection.
+Cell biology | Parts of the cell
+ 
+ 
+Plasma membrane bilayer
+The phospholipid bilayer which the cell membrane is an example of, is composed of various cholesterol, phospholipids, glycolipids, blagoscony and proteins. Below is an example of a simple phospholipid bilayer.
+ 
+The smaller molecules shown between the phospholipids are Cholesterol molecules. They help to provide rigidity or stability to the membrane. The two main components of phospholipids are shown in these figures by blue circles representing the hydrophilic head groups and by long thin lines representing the hydrophobic fatty acid tails.
+Both the interior of the cell and the area surrounding the cell is made up of water or similar aqueous solution. Consequently, phospholipids orient themsleves with respect to the water and with each other so that the hydrophilic ("water loving") head groups are grouped together and face the water, and the hydrophobic ("water fearing") tails turn away from the water and toward each other. This self-organization of phospholipids results in one of just a few easily recognizable structures. Cell membranes are constructed of a phospholipid bilayer as shown above.
+Smaller structures can also form, known as 'micelles' in which there is no inner layer of of phospholipid. Instead, the interior of a micell is wholly hydrophobic, filled with the fatty acid chains of the phospholipids and any other hydrophobic molecule they enclose. Micelles are not so important for the understanding of cellular structure, but are useful for demonstrating the principles of hydrophilicity and hydrophobicity, and for contrasting with lipid bilayers.
+At least 10 different types of lipids are commonly found in cell membranes. Each type of cell or organelle will have a different percentage of each lipid, protein and carbohydrate. The main types of lipids are:
+•	Cholesterol 
+•	Glycolipids 
+•	Phosphatidylcholine 
+•	Sphingomyelin 
+•	Phosphatidylethnolamine 
+•	Phosphatydilinositol 
+•	Phosphatidylserine 
+•	Phosphatidylglycerol 
+•	Diphosphatidylglycerol (Cardiolipin) 
+•	Phosphatidic acid 
+Nucleus
+The nucleus contains genetic material or DNA in the form of chromatin. It is a double membraned structure, with pores on it. These pores act as a "gateway" to help the nucleoplasm to maintain continuity with the cytoplasm.
+[edit] Mitochondria
+A mitochondrian is the organelle responsible for a cell's metabolism. It synthetizes ATP through a protein called ATP synthase. Mitochondria have a double membrane. An outer membrane and a folded inner membrane. The internal membrane, called the 'cristaeAWDQS' is invaginated (folded or creased), to maximize surface area enabling it to hold more ATP synthases.
+[edit] Chloroplasts
+ 
+ 
+The inside of a chloroplast with the granum circled.
+Chloroplasts are found only in photosynthesizing cells; e.g. plant cells. Chloroplasts carry out photosynthesis by using several photosystem proteins. Chloroplasts also give a cell its green colour and are widely believed to have evolved from symbiotic prokaryotes that adapted to live inside eukaryotic cells. Physiologically, chloroplasts are flat discs usually 2-10 micrometer in diameter and 1 micrometer thick. The chloroplast has a two membrane envelope termed the Inner & Outer membrane respectively. Between these two layers is the intermembrane space.
+[edit] Ribosomes
+Ribosomes are responsible for protein synthesis; they are composed of two subunits that to elongate an aminoacid sequence. And they were dicovered by 'Chris Jennings'.
+[edit] Endoplasmic Reticulum
+The Endoplasmic Reticulum (ER) acts as a transport from the nucleus and ribosomes to the Golgi apparatus. There are two types of endoplasmic reticulum:
+[edit] Smooth ER
+Smooth ER act as transport for various things, mainly the RNA from the nucleus to the ribosomes (RNA is a small piece of the DNA code specifically designed to tell the ribosomes what to make). Smooth ER appears smooth in texture, hence the name.
+[edit] Rough ER
+Rough ER are "rough" because of the ribosomes embedded in them. The rough ER take the protein to the Golgi apparatus to be packaged into vacuoles
+[edit] Golgi Complex
+The Golgi Complex bonds functional groups to different biomolecules to direct them to their respective destinations. It basically "packages" the stuff into vacuoles. The Golgi Complex looks like pieces of pita bread stacked on top of each other.They are the ones that have their origin from the ER.They basically function as the delivery system of the cell.
+[edit] Vacuole
+Vacuoles are storage places. They store water, food or cell waste products.
+[edit] Central Vacuole
+The central vacuole is found only in plant cells. It is filled with water and is pressurised, like a balloon. This forces all the other organelles within the cell out toward the cell wall. This pressure is called turgor pressure and is what gives plants their "crisp" and firm structure.
+[edit] Peroxisomes
+Peroxisomes perform a variety of metabolic processes and as a by-product, produce hydrogen peroxide. Peroxisomes use peroxase enzyme to break down this hydrogen peroxide into water and oxygen.
+[edit] Lysosomes
+Lysosomes are vacuoles containing digestive and destructive membranes. In white blood cells, these are used to kill the bacteria or virus, while in tadpole-tail cells they kill the cell by separating the tail from the main body.
+They also do much of the cellular digestion involved in apoptosis, the process of programmed cell death.
+[edit] A day in the life of a cell
+The nucleus has transcribed a piece of its DNA, called RNA, and sent it to the ribosomes embedded in the rough endoplasmic reticulum. These ribosomes then translate the RNA into valuable protein, which is then transported to the Golgi Apparatus. The Golgi Apparatus "packages" the protein into a secretory vesicle where it eventually reaches the cell membrane ready for secretion out of the cell and into the external environment.
+
+====END ODD TEXT====

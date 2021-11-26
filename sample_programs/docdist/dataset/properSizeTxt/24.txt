@@ -1,0 +1,148 @@
+{{TOC right}}
+[[File:Jellyfish in pale orange with blue background.jpg|300px|thumb|left|A semitransparent jellyfish. Note the increased opaqueness at the silhouettes.]]
+This tutorial covers the '''transformation of surface normal vectors'''. It assumes that you are familiar with alpha blending as discussed in {{GLSL Programming Unity SectionRef|Transparency}} and with shader properties as discussed in {{GLSL Programming Unity SectionRef|Shading in World Space}}.
+
+The objective of this tutorial is to achieve an effect that is visible in the photo {{Hide in print|to the left}}{{Only in print|below}}: the silhouettes of semitransparent objects tend to be more opaque than the rest of the object. This adds to the impression of a three-dimensional shape even without lighting. It turns out that transformed normals are crucial to obtain this effect.
+
+[[File:Surface normal.png|300px|thumb|left|Surface normal vectors (for short: normals) on a surface patch.]]
+===Silhouettes of Smooth Surfaces===
+In the case of smooth surfaces, points on the surface at silhouettes are characterized by normal vectors that are parallel to the viewing plane and therefore orthogonal to the direction to the viewer. In the figure {{Hide in print|to the left}}{{Only in print|below}}, the blue normal vectors at the silhouette at the top of the figure are parallel to the viewing plane while the other normal vectors point more in the direction to the viewer (or camera). By calculating the direction to the viewer and the normal vector and testing whether they are (almost) orthogonal to each other, we can therefore test whether a point is (almost) on the silhouette.
+
+More specifically, if '''V''' is the normalized (i.e. of length 1) direction to the viewer and '''N''' is the normalized surface normal vector, then the two vectors are orthogonal if the dot product is 0: '''V'''·'''N''' = 0. In practice, this will rarely be the case. However, if the dot product '''V'''·'''N''' is close to 0, we can assume that the point is close to a silhouette.
+
+===Increasing the Opacity at Silhouettes===
+For our effect, we should therefore increase the opacity <math>\alpha</math> if the dot product '''V'''·'''N''' is close to 0. There are various ways to increase the opacity for small dot products between the direction to the viewer and the normal vector. Here is one of them (which actually has a physical model behind it, which is described in Section 5.1 of [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.125.1928 this publication]) to compute the increased opacity <math>\alpha'</math> from the regular opacity <math>\alpha</math> of the material:
+
+<math>\alpha'=\min\left(1, \frac{\alpha}{\left\vert\mathbf{V}\cdot\mathbf{N}\right\vert}\right)</math>
+
+It always makes sense to check the extreme cases of an equation like this. Consider the case of a point close to the silhouette: '''V'''·'''N''' ≈ 0. In this case, the regular opacity <math>\alpha</math> will be divided by a small, positive number. (Note that GLSL guarantees to handle the case of division by zero gracefully; thus, we don't have to worry about it.) Therefore, whatever <math>\alpha</math> is, the ratio of <math>\alpha</math> and a small positive number, will be larger. The <math>\min</math> function will take care that the resulting opacity <math>\alpha'</math> is never larger than 1.
+
+On the other hand, for points far away from the silhouette we have '''V'''·'''N''' ≈ 1. In this case, α' ≈ min(1, α) ≈ α; i.e., the opacity of those points will not change much. This is exactly what we want. Thus, we have just checked that the equation is at least plausible. 
+
+===Implementing an Equation in a Shader===
+In order to implement an equation like the one for <math>\alpha</math> in a shader, the first question should be: Should it be implemented in the vertex shader or in the fragment shader? In some cases, the answer is clear because the implementation requires texture mapping, which is often only available in the fragment shader. In many cases, however, there is no general answer. Implementations in vertex shaders tend to be faster (because there are usually fewer vertices than fragments) but of lower image quality (because normal vectors and other vertex attributes can change abruptly between vertices). Thus, if you are most concerned about performance, an implementation in a vertex shader is probably a better choice. On the other hand, if you are most concerned about image quality, an implementation in a pixel shader might be a better choice. The same trade-off exists between per-vertex lighting (i.e. Gouraud shading, which is discussed in {{GLSL Programming Unity SectionRef|Specular Highlights}}) and per-fragment lighting (i.e. Phong shading, which is discussed in {{GLSL Programming Unity SectionRef|Smooth Specular Highlights}}).
+
+The next question is: in which coordinate system should the equation be implemented? (See {{GLSL Programming Unity SectionRef|Vertex Transformations}} for a description of the standard coordinate systems.) Again, there is no general answer. However, an implementation in world coordinates is often a good choice in Unity because many uniform variables are specified in world coordinates. (In other environments implementations in view coordinates are very common.)
+
+The final question before implementing an equation is: where do we get the parameters of the equation from? The regular opacity <math>\alpha</math> is specified (within a RGBA color) by a shader property (see {{GLSL Programming Unity SectionRef|Shading in World Space}}). The normal vector <code>gl_Normal</code> is a standard vertex attribute (see {{GLSL Programming Unity SectionRef|Debugging of Shaders}}). The direction to the viewer can be computed in the vertex shader as the vector from the vertex position in world space to the camera position in world space <code>_WorldSpaceCameraPos</code>, which is provided by Unity.
+
+Thus, we only have to transform the vertex position and the normal vector into world space before implementing the equation. The transformation matrix <code>_Object2World</code> from object space to world space and its inverse <code>_World2Object</code> are provided by Unity as discussed in {{GLSL Programming Unity SectionRef|Shading in World Space}}. The application of transformation matrices to points and normal vectors is discussed in detail in {{GLSL Programming Unity SectionRef|Applying Matrix Transformations}}. The basic result is that points and directions are transformed just by multiplying them with the transformation matrix, e.g.:
+<syntaxhighlight lang="GLSL">
+uniform mat4 _Object2World;
+...
+vec4 positionInWorldSpace = _Object2World * gl_Vertex;
+vec3 viewDirection = _WorldSpaceCameraPos - vec3(positionInWorldSpace);
+</syntaxhighlight>
+On the other hand '''normal vectors are transformed by multiplying them with the transposed inverse transformation matrix'''. Since Unity provides us with the inverse transformation matrix (which is <code>_World2Object * unity_Scale.w</code> apart from the bottom-right elemen), a better alternative is to multiply the normal vector '''from the left''' to the inverse matrix, which is equivalent to multiplying it from the right to the transposed inverse matrix as discussed in {{GLSL Programming Unity SectionRef|Applying Matrix Transformations}}:
+<syntaxhighlight lang="GLSL">
+uniform mat4 _World2Object; // the inverse of _Object2World 
+   // (after multiplication with unity_Scale.w)
+uniform vec4 unity_Scale;
+...
+vec3 normalInWorldSpace = vec3(vec4(gl_Normal, 0.0) * _World2Object 
+   * unity_Scale.w); // corresponds to a multiplication of the 
+   // transposed inverse of _Object2World with gl_Normal
+</syntaxhighlight>
+Note that the incorrect bottom-right matrix element is no problem because it is always multiplied with 0. Moreover, the multiplication with <code>unity_Scale.w</code> is unnecessary if the scaling doesn't matter; for example, if we normalize all transformed vectors.
+
+Now we have all the pieces that we need to write the shader.
+
+===Shader Code===
+
+<syntaxhighlight lang="GLSL">
+Shader "GLSL silhouette enhancement" {
+   Properties {
+      _Color ("Color", Color) = (1, 1, 1, 0.5) 
+         // user-specified RGBA color including opacity
+   }
+   SubShader {
+      Tags { "Queue" = "Transparent" } 
+         // draw after all opaque geometry has been drawn
+      Pass { 
+         ZWrite Off // don't occlude other objects
+         Blend SrcAlpha OneMinusSrcAlpha // standard alpha blending
+
+         GLSLPROGRAM
+
+         uniform vec4 _Color; // define shader property for shaders
+
+         // The following built-in uniforms are also defined in 
+         // "UnityCG.glslinc", which could be #included 
+         uniform vec3 _WorldSpaceCameraPos; 
+            // camera position in world space
+         uniform mat4 _Object2World; // model matrix
+         uniform mat4 _World2Object; // inverse model matrix 
+            // (apart from the factor unity_Scale.w)
+                  
+         varying vec3 varyingNormalDirection; 
+            // normalized surface normal vector
+         varying vec3 varyingViewDirection; 
+            // normalized view direction 
+                  
+         #ifdef VERTEX
+         
+         void main()
+         {				
+            mat4 modelMatrix = _Object2World;
+            mat4 modelMatrixInverse = _World2Object; 
+               // multiplication with unity_Scale.w is unnecessary 
+               // because we normalize transformed vectors
+
+            varyingNormalDirection = normalize(
+               vec3(vec4(gl_Normal, 0.0) * modelMatrixInverse));
+            varyingViewDirection = normalize(_WorldSpaceCameraPos 
+               - vec3(modelMatrix * gl_Vertex));
+
+            gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+         }
+         
+         #endif
+
+         #ifdef FRAGMENT
+         
+         void main()
+         {
+            vec3 normalDirection = normalize(varyingNormalDirection);
+            vec3 viewDirection = normalize(varyingViewDirection);
+            
+            float newOpacity = min(1.0, _Color.a 
+               / abs(dot(viewDirection, normalDirection)));
+            gl_FragColor = vec4(vec3(_Color), newOpacity);
+         }
+         
+         #endif
+
+         ENDGLSL
+      }
+   }
+}
+</syntaxhighlight>
+
+The assignment to <code>newOpacity</code> is an almost literal translation of the equation
+
+<math>\alpha'=\min\left(1, {\alpha} / {\left\vert\mathbf{V}\cdot\mathbf{N}\right\vert}\right)</math>
+
+Note that we normalize the varyings <code>varyingNormalDirection</code> and <code>varyingViewDirection</code> in the vertex shader (because we want to interpolate between directions without putting more nor less weight on any of them) and at the begin of the fragment shader (because the interpolation can distort our normalization to a certain degree). However, in many cases the normalization of <code>varyingNormalDirection</code> in the vertex shader is not necessary. Similarly, the normalization of <code>varyingViewDirection</code> in the fragment shader is in most cases unnecessary. 
+
+===More Artistic Control===
+While the described silhouette enhancement is based on a physical model, it lacks artistic control; i.e., a CG artist cannot easily create a thinner or thicker silhouette than the physical model suggests. To allow for more artistic control, you could introduce another (positive) floating-point number property and take the dot product |'''V'''·'''N'''| to the power of this number (using the built-in GLSL function <code>pow(float x, float y)</code>) before using it in the equation above. This will allow CG artists to create thinner or thicker silhouettes independently of the opacity of the base color.
+
+===Summary===
+Congratulations, you have finished this tutorial. We have discussed:
+* How to find silhouettes of smooth surfaces (using the dot product of the normal vector and the view direction).
+* How to enhance the opacity at those silhouettes.
+* How to implement equations in shaders.
+* How to transform points and normal vectors from object space to world space (using the transposed inverse model matrix for normal vectors).
+* How to compute the viewing direction (as the difference from the camera position to the vertex position).
+* How to interpolate normalized directions (i.e. normalize twice: in the vertex shader and the fragment shader).
+* How to provide more artistic control over the thickness of silhouettes .
+
+===Further Reading===
+If you still want to know more 
+* about object space and world space, you should read the description in {{GLSL Programming Unity SectionRef|Vertex Transformations}}.
+* about how to apply transformation matrices to points, directions and normal vectors, you should read {{GLSL Programming Unity SectionRef|Applying Matrix Transformations}}.
+* about the basics of rendering transparent objects, you should read {{GLSL Programming Unity SectionRef|Transparency}}.
+* about uniform variables provided by Unity and shader properties, you should read {{GLSL Programming Unity SectionRef|Shading in World Space}}.
+* about the mathematics of silhouette enhancement, you could read Section 5.1 of the paper “Scale-Invariant Volume Rendering” by Martin Kraus, published at IEEE Visualization 2005, which is available [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.125.1928 online].
+
+{{GLSL Programming BottomNav}}

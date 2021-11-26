@@ -1,0 +1,20 @@
+{{Digital Circuits Page}}
+
+In the previous chapter we learned what digital information is. Digital information is represented as bits, which can take on values of either 1 or 0. In this chapter we begin to explore how to perform calculations and do other work using digital information.
+
+Much of what we will be discussing was formalized by [[:w:George Boole|George Boole]] (1815–1864) in his paper ''An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities'', published in 1854. It had few applications at the time, but eventually scientists and engineers realized that his system could be used to create efficient computer logic. The branch of mathematics involving digital logic is aptly named Boolean Algebra.
+
+== Basic Operators ==
+
+Digital logic has three basic operators, the AND, the OR and the NOT. These three operators form the basis for everything in digital logic. In fact, almost everything your computer does can be described in terms of these three operations. Fortunately, these operations are not difficult to understand, as their meanings resemble the meanings of the words as used in every day language.
+
+=== AND ===
+
+The symbol for an AND operator is a single dot. A mathematical expression using AND looks like this.
+
+<math>A \cdot B</math>
+
+The value of an AND expression is 1 only if both input values are 1. Otherwise, the value is 0. That is, the above expression equals 1 if and only if A '''and''' B are 1. The AND operator
+ can be described with the following truth table.
+
+{{Truthtable2|<math>A</math>|<math>B</math>|<math>A \cdot B</math>|0|0|0|1}}

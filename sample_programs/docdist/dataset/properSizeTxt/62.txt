@@ -1,0 +1,170 @@
+{{Infobox galaxy
+| name = [[w:Messier object|Messier]] 74
+| image = [[file:Messier 74 by HST.jpg|350px]]
+|caption = Messier 74.  Credit: NASA/HST.
+| epoch = [[w:J2000]]
+| constellation name = [[w:Pisces (constellation)|Pisces]]<ref name="sinnott1988">{{cite book 
+  | author=R. W. Sinnott, editor
+  | title= The Complete New General Catalogue and Index Catalogue of Nebulae and Star Clusters by J. L. E. Dreyer
+  | year=1988
+  | publisher=Sky Publishing Corporation and Cambridge University Press
+  | isbn=0-933-34651-4}}</ref>
+| type = SA(s)c<ref name="ned" />
+| ra = {{RA|01|36|41.8}}<ref name="ned" />
+| dec = {{DEC|+15|47|01}}<ref name="ned" />
+| dist_ly = 30 ± 6 [[w:light-year|Mly]]<ref name="hendryetal2005" />
+| z = 657 [[w:kilometer|km]]/[[w:second|s]]<ref name="ned" />
+| appmag_v = 10.0<ref name="ned" />
+| size_v = 10&prime;.5 &times; 9&prime;.5<ref name="ned" />
+| names = [[w:New General Catalogue|NGC]] 628, [[w:Uppsala General Catalogue|UGC]] 1149, [[w:Principal Galaxies Catalogue|PGC]] 5974<ref name="ned" />
+}}
+
+'''Messier 74''' (also known as NGC 628) is a face-on [[w:spiral galaxy]] in the [[w:constellation]] [[w:Pisces (constellation)|Pisces]].  The galaxy contains two clearly-defined [[w:spiral arm]]s and is therefore used as an archetypal example of a [[w:Grand Design Spiral Galaxy]].<ref name="carnegieatlas">{{cite book 
+  | author=A. Sandage, J. Bedke
+  | year=1994
+  | title=Carnegie Atlas of Galaxies
+  | edition= 
+  | publisher=Carnegie Institution of Washington
+  | location=Washington, D.C.
+  | isbn=0-87279-667-1 }}</ref>  The galaxy's low surface brightness makes it the most difficult [[w:Messier Catalogue|Messier object]] for amateur astronomers to observe.<ref name="omeara1998">{{cite book 
+  | author=S. J. O'Meara
+  | year=1998
+  | title=The Messier Objects
+  | edition= 
+  | publisher=Cambridge University
+  | location=Cambridge
+  | isbn=0-521-55332-6}}</ref><ref name="jones1991">{{cite book 
+  | author=K. G. Jones
+  | year=1991
+  | title=Messier's Nebulae and Star Clusters
+  | edition= 2nd
+  | publisher=Cambridge University Press
+  | location=Cambridge
+  | isbn=0-521-37079-5 }}</ref>  However, the relatively large angular size of the galaxy and the galaxy's face-on orientation make it an ideal object for professional astronomers who want to study [[w:spiral arm]] structure and [[w:Density wave theory|spiral density wave]]s.
+
+==History==
+M74 was discovered by [[w:Pierre Méchain]] in [[w:1780]].  Méchain then communicated his discovery to [[w:Charles Messier]], who listed the galaxy in his [[w:Messier Catalogue|catalog]].<ref name="jones1991" />
+
+==Supernovae==
+Two [[w:supernovae]] have been identified in M74:<ref name="ned">{{cite web
+  | title=NASA/IPAC Extragalactic Database
+  | work=Results for NGC 628
+  | url=http://nedwww.ipac.caltech.edu/
+  | accessdate=2006-08-12
+  | accessdate=2006-08-12}}</ref> [[w:SN 2002ap]]<ref name="iauc7810">{{cite journal
+  | author=S. Nakano, R. Kushida, Y. Kushida, W. Li
+  | title=Supernova 2002ap in M74
+  | journal=IAU Circular
+  | year=2002
+  | volume=7810
+  | url=http://adsabs.harvard.edu/abs/2002IAUC.7810....1N}}</ref> and [[w:SN 2003gd]].<ref name="iauc8150">{{cite journal
+  | author=R. Evans, R. H. McNaught
+  | title=Supernova 2003gd in M74
+  | journal=IAU Circular
+  | year=2003
+  | volume=8150
+  | url=http://adsabs.harvard.edu/abs/2003IAUC.8150....2E}}</ref>  
+
+SN 2002ap has attracted considerable attention because it is one of the few Type Ic supernovae (or [[w:hypernova]]e) observed within 10 [[w:parsec|Mpc]] in recent years.<ref name="mazzalietal2002">{{cite journal
+  | author=P. A. Mazzali, J. Deng, K. Maeda, K. Nomoto, H. Umeda, K. hatano, K. Iwamoto, Y. Yoshii, Y. Kobayashi, T. Minezaki, M. Doi, K. Enya, H. Tomita, S. J. Smartt, K. Kinugasa, H. Kawakita, K. Ayani, T. Kawabata, H. Yamaoka, Y. L. Qiu, K. Motohara, C. L. Gerardy, R. Fesen, K. S. Kawabata, M. Iye, N. Kashikawa, G. Kosugi, Y. Ohyama, M. Takada-Hidai, G. Zhao, R. Chornock, A. V. Filippenko, S. Benetti, M. Turatto
+  | title=The Type Ic Hypernova SN 2002ap
+  | journal=Astrophysical Journal
+  | year=2002
+  | volume=572
+  | pages=L61–L65
+  | url=http://adsabs.harvard.edu/abs/2002ApJ...572L..61M  | doi=10.1086/341504
+}}</ref><ref name="smarttetal2002">{{cite journal
+  | author=S. J. Smartt, P. M. Vreeswijk, E. Ramirez-Ruiz, G. F. Gilmore, W. P. S. Meikle, A. M. N. Ferguson, J. H. Knapen
+  | title=On the Progenitor of the Type Ic Supernova 2002ap
+  | journal=Astrophysical Journal
+  | year=2002
+  | volume=572
+  | pages=L147–L151
+  | url=http://adsabs.harvard.edu/abs/2002ApJ...572L.147S  | doi=10.1086/341747
+}}</ref><ref name="galyametal2002">{{cite journal
+  | author=A. Gal-Yam, E. O. Ofek, O. Shemmer
+  | title=Supernova 2002ap: the first month
+  | journal=Monthly Notices of the Royal Astronomical Society
+  | year=2002
+  | volume=332
+  | pages=L73–L77
+  | url=http://adsabs.harvard.edu/abs/2002MNRAS.332L..73G  | doi=10.1046/j.1365-8711.2002.05535.x
+}}</ref>  This supernovae has been used to test theories on the origins of similar Type Ic supernovae at higher distances<ref name="smarttetal2002" /> and theories on the connection between supernovae and [[w:gamma ray burst]]s.<ref name="galyametal2002" />  
+
+SN 2003gd is a Type II-P supernova.<ref name="vandyketal2003">{{cite journal
+  | author=S. D. Van Dyk, W. Li, A. V. Filippenko
+  | title=On the Progenitor of the Type II-Plateau Supernova 2003gd in M74
+  | journal=Publications of the Astronomical Society of the Pacific
+  | year=2003
+  | volume=115
+  | pages=1289–1295
+  | url=http://adsabs.harvard.edu/abs/2003PASP..115.1289V
+  | doi=10.1086/378308}}</ref>  Type II supernovae have known luminosities, so they can be used to accurately measure distances.  The distance measured to M74 using SN 2003gd is 9.6 ± 2.8 [[w:parsec|Mpc]], or 31 ± 9 million [[w:light-year|ly]].<ref name="hendryetal2005">{{cite journal
+  | author=M. A. Hendry, S. J. Smartt, J. R. Maund, A. Pastorello, L. Zampieri, S. Benetti, M. Turatto, E. Cappellaro, W. P. S. Meikle, R. Kotak, M. J. Irwin, P. G. Jonker, L. Vermaas, R. F. Peletier, H. van Woerden, K. M. Exter, D. L. Pollacco, S. Leon, S. Verley, C. R. Benn, G. Pignata
+  | title=A study of the Type II-P supernova 2003gd in M74
+  | journal=Monthly Notices of the Royal Astronomical Society
+  | year=2005
+  | volume=359
+  | pages=906–926
+  | url=http://adsabs.harvard.edu/abs/2005MNRAS.359..906H  | doi=10.1111/j.1365-2966.2005.08928.x
+}}</ref>  For comparison, distances measured using the brightest supergiants are 7.7 ± 1.7  [[w:parsec|Mpc]] and 9.6 ± 2.2 [[w:parsec|Mpc]].<ref name="hendryetal2005" />  Ben E. K. Sugerman found a "light echo" - a reflection of supernova explosion that appeared after the explosion itself - associated with SN 2003gd.<ref name="sugerman2005">{{cite journal
+  | author=B. E. K. Sugerman
+  | title=Discovery of a Light Echo from SN 2003gd
+  | journal=Astrophysical Journal
+  | year=2005
+  | volume=632
+  | pages=L17–L20
+  | url=http://adsabs.harvard.edu/abs/2005ApJ...632L..17S  | doi=10.1086/497578
+}}</ref>  This is one of the few supernovae in which such a reflection has been found.  This reflection appears to be from dust in a sheet-like cloud that lies in front of the supernova, and it can be used to determine the composition of the interstellar dust.<ref name="sugerman2005" /><ref name="vandyketal2006">{{cite journal
+  | author=S. D. Van Dyk, W. Li, A. V. Filippenko
+  | title=The Light Echo around Supernova 2003gd in Messier 74
+  | journal=Publications of the Astronomical Society of the Pacific
+  | year=2006
+  | volume=118
+  | pages=351–357
+  | url=http://adsabs.harvard.edu/abs/2006PASP..118..351V
+  | doi=10.1086/500225}}</ref>
+
+==Galaxy group information==
+M74 is the brightest member of the [[w:M74 Group]], a group of 5-7 galaxies that also includes the [[w:peculiar galaxy|peculiar]] [[w:spiral galaxy]] [[w:NGC 660]] and a few [[w:irregular galaxies]].<ref name="nbg">{{cite book 
+  | author=R. B. Tully
+  | year=1988
+  | title=Nearby Galaxies Catalog
+  | edition= 
+  | publisher=Cambridge University Press
+  | location=Cambridge
+  | isbn=0-521-35299-1}}</ref><ref name="garcia1993">{{cite journal
+  | author=A. Garcia
+  | title=General study of group membership. II - Determination of nearby groups
+  | journal=Astronomy and Astrophysics Supplement
+  | year=1993
+  | volume=100
+  | pages=47–90
+  | url=http://adsabs.harvard.edu/abs/1993A&AS..100...47G}}</ref><ref name="giuricinetal2002">{{cite journal
+  | author=G. Giuricin, C. Marinoni, L. Ceriani, A. Pisani
+  | title=Nearby Optical Galaxies: Selection of the Sample and Identification of Groups
+  | journal=Astrophysical Journal
+  | year=2000
+  | volume=543
+  | pages=178–194
+  | url=http://adsabs.harvard.edu/abs/2000ApJ...543..178G  | doi=10.1086/317070
+}}</ref>  Although different group identification methods may consistently identify many of the same member galaxies in this group,<ref name="giuricinetal2002" /> the exact group membership is still uncertain.
+
+==Star formation==
+{|
+| [[image:M74 3.6 5.8 8.0 microns spitzer.png|thumb|250px|M74 as observed with the [[w:Spitzer Space Telescope]] as part of the [[w:Spitzer Infrared Nearby Galaxy Survey]]. The blue colors represent the 3.6 micrometre emission from stars. The green and red colors represent the 5.8 and 8.0 micrometre emission from [[w:polycyclic aromatic hydrocarbon]]s and possibly dust.]]
+|}
+
+==Suspected black hole==
+In [[w:March 22]], [[w:2005]], it was announced <ref name="chandra2005">[http://chandra.harvard.edu/photo/2005/m74/index.html Chandra :: Photo Album :: M74 :: 22 Mar 05<!-- Bot generated title -->]</ref> that the [[w:Chandra X-ray Observatory]] had observed an [[w:ultraluminous X-ray source]] (ULX) in M74, radiating more X-ray power than a [[w:neutron star]] in periodic intervals of around two hours. It has an estimated mass of around 10,000 [[w:Sun]]s. This is an indicator of an [[w:intermediate-mass black hole]]. This would be a rather uncommon class of black holes, somewhere in between in size of stellar black holes and the massive black holes theorized to reside in the center of many galaxies. Because of this, they are believed to form not from single supernovae, but possibly from a number of lesser stellar black holes in a star cluster. The X-ray source is identified as CXOU J013651.1+154547.
+
+==Amateur astronomy observation information==
+Messier 74 is located 1.5° east-northeast of [[w:Eta Piscium]].<ref name="jones1991" /><ref name="omeara1998" />  As stated above, the galaxy has the lowest surface brightness of all the Messier objects.  It may be very difficult to see unless the sky is dark and clear,<ref name="jones1991" /> and it may be difficult to see in locations affected by [[w:light pollution]].<ref name="omeara1998" />  The galaxy may be best viewed under low magnification; when highly magnified, the diffuse emission becomes more extended and appears too faint to be seen by many people.<ref name="jones1991" />  Additionally, the galaxy may be more easily seen when using [[w:averted vision]] when the eyes are fully [[w:dark adaptation|dark adapted]].<ref name="jones1991" /><ref name="omeara1998" />
+{{commons|Messier 74}}
+==External links==
+* [http://www.seds.org/messier/m/m074.html Spiral Galaxy M74 @ SEDS Messier pages]
+
+==References==
+{{reflist}}
+
+{{Messier Index}}

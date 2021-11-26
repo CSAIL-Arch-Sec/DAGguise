@@ -1,0 +1,113 @@
+=Organisation=
+
+The nervous system of mammals has two major cells - neurones and glial cells. The neurones transmit action potentials whilst the glial cells help nutrients from the blood into the neurones and maintain the correct balance of ions in the tissue fluid surrounding them. Schwann cells are glial cells.  The nervous system has two major components - central and peripheral.
+
+===Central===
+
+The central nervous system comprises the brain and spinal cord - it has mostly intermediate neurone (short dendrited) and many synpases, with further neighbouring neurones. These neurones receive and integrate information arriving via the synapses and then pass off the information via an action potential to other neurones.
+
+The spinal cord extends from the base of the brain, down to the first lumbar vertebra. It comprises a canal in the centre containing cerebrospinal fluid, and at the centre of the cord there is unmyelinated neurones which appear grey, and the rest appears white. The brain is simply an extension of the spinal cord.
+
+===Peripheral===
+
+Peripheral nervous system includes all the neurones that are outside of the brain and spinal cord - sensory and motor neurones. Sensory neurones are situated just outside the spinal cord, in the dorsal root and pickup information at receptors and transmit action potential from the receptor toward their cell bodies. The action potential then goes to the central nervous system. Motor neurones carry action potentials from the central nervous system to effectors, and the cell bodies of them are usually in the spinal cord - their long axons pass from the spinal cord to the effectors.
+
+Cell bodies of sensory neurones are situated in the dorsal root ganglia just outside the spinal cord. A ganglion is a group of nerve cell bodies.
+
+The cell bodies of motor neurones are in the spinal cord  and their axons pass out of the spinal cord and towards effectors.
+
+Axons and dendrons are arranged in bundles known as nerves. They leave and enter the spinal cord in spinal nerves, each with a dorsal root, which carrys impulses towards the spinal cord and a ventral root, which carries the impulses towards effectors.
+
+The peripheral nervous system has two further subsections - the somatic and the autonomic nervous system - the somatic is all sensory neurones, and motor neurones that take information to skeletal muscles, for example a typical reflex arc involvement is only somatic. The autonomic will be discussed in the next section.
+
+=Autonomic=
+
+The autonomic nervous system is all the motor neurones that supply the internal organs - autonomic means self-adjusting and this is because we do not usually voluntarily control it. It controls the activity of all smooth muscle in the body e.g. walls of arterioles and alimentary canal, the rate of beating in the cardiac muscle in the heart and activities of exocrine glands e.g. salivary glands. It is further divided into sympathetic and parasympathetic.
+
+===Sympathetic===
+
+The sympathetic nervous system can be summarised as the fight or flight system. The motor neurone cell bodies lie in the ganglia outside the spinal cord - their axons pass out through the ventral roo, synapsing with the motor neurone cell bodies in these ganglia, where they pass to all organs within the body. Synapses to the heart muscle, smooth muscles are formed, and the transmitter across most of these substances is noradrenaline, stimulating them.
+
+Its effects are;
+
+*Heart - increases rate and force of contraction.
+*Digestive system - contracts sphincter, releases glucose into blood.
+*Eye - dilates, relaxs ciliary muscles for distant vision.
+*Skin - increases sweating, vasoconstriction.
+
+===Parasympathetic===
+
+The parasympathetic nervous system's nerve pathways all begin in the brain, and the neurone which carries the impulse of the brain keeps going until it is inside the organ that it will stimulate the effector neurone of. The parasympathetic nervous system usually utilises acetylcholine, which often as an inhibitory effect on organs.
+
+Its effects are;
+
+*Heart - reduces rate and force.
+*Digestive system - stimulates gland secretion, relaxes sphincter muscles, glycogen production increased.
+*Eye - constricts, ciliary muscles contract for near vision.
+*Skin - slight increase in palm sweat.
+
+=Brain=
+[[Image:Brainlobes.png|right|framed|The lobes of the brain. *Red: Frontal lobe
+*Orange: Parietal lobe
+*Yellow: Occpital lobe
+*Green: Temporal lobe
+*Blue: Cerebellum
+*Black: Medoullea oblongata + brain stem]]
+
+The brain is studied in a variety of ways - CAT, PET, MRI scans, and studying people who have brain damage. For example, Pierre Broca studied people who could not speak or write intelligibly, dissecting their brains and he found a small area near the front of the left side that was damaged - now know as the Broca's area, the section of the brain responsible for the production of language.
+
+===Structure===
+
+The brain is an extended spinal cord, and his highly specialised. It contains ventricles filled with cerebro -spinal fluid and is made up of neurones. The largest section of the brain is the ''cerebrum'', divided into right and left ''hemispheres'', connected by the ''corpus callosum''. The surface of each hemisphere is covered by a highly folded layer of tissue known as the ''cerebral cortex''. The parts of ceberal cortex have been given different names (see picture to the right). Within the cereberum, there are several areas with their own names, such as the ''hippocampus'' and the ''amygdala''.
+
+Inside the brain itself is the ''diencephalon'', containing the ''thalmus'' and the ''hypothalmus'' (closely associated with the ''pituitary gland''). Behind the thalamus is the midbrain, and above this is the ''cerebellum'', like the cerebrum has a folded surface and is divided into several lobes. Below the cerebellum is the ''medulla oblongata'' which merges into the ''spinal cord''.
+
+This diagram is highly recommended: [http://www.brainhealthandpuzzles.com/images/labeled_diagram_human_brain_sagittal.jpg]
+
+==Function==
+===Cerebrum Function===
+
+The cerebrum is responsible for all higher-level processes, thinking, language and emotions for example. It is much larger in humans than other animals. The cerebral cortex of both hemispheres receives sensory impulses from many different sources. The part of the cerebral cortex that first receive this information are known as primary sensory areas. Association areas integrate the information for the primnary sensory areas, or receive information from them.
+
+===Cerebellum Function===
+
+The cerebellum is the control center for movement and posture, and receives inputs from all other parts of the central nervous system to do this, and some directly from sensory neurones. Impulses are then sent to other parts of the brain, such as the motor centre.
+
+===Medulla Oblongata Function===
+The medulla oblongata is a small section at the base of the brain. It controls breathing, heart rate and blood pressure. The medulla oblongata's groups of neurone produce rhythmic patterns of impulses which pass to the muscles of the diaphragm and intercostal muscles, and this pattern can be changed by CO<sub>2</sub> concentration in the blood, and the breathing rate will be increased.
+
+A different section controls heart rate and blood pressure by receiving information from baroreceptors (pressure) - connected to the autonomic nervous system going to the SAN in the heart and can increase or decrease the heart beat. High CO<sub>2</sub> concentrations, or low blood pressure increases the rate and the reverse has the reverse effect.
+
+===Hypothalmus Function===
+
+The hypothalamus receives information in the form of nerve impulses from many parts of the brain. This information is about the body, and the hypothalamus integrates it and the brings about responses either through the autonomic nervous systems or pituitary gland secretions. An example of this is in homeostasis - the hypothalamus receives information about skin temperature from sensory neurones, and receptors inside the hypothalamus itself, which measures blood temperature. It can then send impulses which bring about appropriate responses.
+
+The hypothalamus helps to control the secretion of hormones from endocrine glands, and is directly connected to the pituitary gland.
+
+====Pituitary gland====
+
+The posterior pituitary gland are controlled by neurones running straight from the hypothalamus, the role of which is to secrete the hormones (very unusual for a neurone). These hormones are carried to their endings and released similar to a neurotransmitter. ADH and oxtocin are produced in this way.
+
+The anterior pituitary gland uses neurones in the hypothalamus to produce several hromones and secrete these into the surrounding blood vessels. The hormones are then carried through those blood vessels into the anterior pituitary gland where they affect the production (stimulation: releasing hormones, inhibition: inhibiting hormones) and release a variety of other hormones.
+
+==Alzheimer's==
+
+Alzheimer's disease is a form of dementia, a general loss and reduction in mental abilities.
+
+===Symptoms===
+
+Physiological symptoms in the brain include neurones which had bundles of fibres in them, called tangles, and dark-staining deposits between the neurones known as plaques, but these are only visible post-mortem. CAT or MRI scans show a reduction in brain size.
+
+However, generic symptoms are increasing loss of memory, anxiety, hallucinations, personality changes.
+
+===Causes===
+
+The tangles in the neurones are made of a protein known as tau, and that the plaques contain a peptide known as beta amyloid. This peptide is made from a large protein molecule called beta amyloid precursor protein (APP), an enzyme of which the function is not known. The plaques form because far too much beta amyloid is secreted, and this abnormal metabolism could be the cause of Alzheimers. Inherited Alzheimers often shows different allele of the gene that codes for APP. However, genetics cannot explain it purely, but there is another gene that codes for a protein that is suspect. Over half of all people with ALzheimers have a particular allele of the gene that codes for APOe, and evidence shows that this may increase the rate at which beta amyloid is deposited into plaques.
+
+Ageing is also a risk factor, as is severe blows to the head especially for the elderly.
+
+===Treatment===
+
+There is as of yet no cure for alzheimers, or effective treatment.
+
+{{BookCat}}

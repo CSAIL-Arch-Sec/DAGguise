@@ -1,0 +1,61 @@
+== Welcome message ==
+
+Hello, and '''[[Wikibooks:Welcome, newcomers|welcome]]''' to [[Wikibooks]]!
+
+Here are some tips to [[Help|help]] you get started:
+* To learn the wiki-markup-language syntax, see [[Help:Editing]].
+* Make sure to sign your posts and comments with four tildes, like this: &#126;&#126;&#126;&#126; 
+**There is a box at the top of the edit window (if javascript is enabled on your browser) that will insert it too (looks like part of a signature). This will let others know who left it, and make it easy to reply back to you.
+* Remember to conduct any editing experiments in the [[Wikibooks:Sandbox|sandbox]].
+* You can tell the community something about yourself in your userpage.
+** You can get to this page by clicking the tab at the top of the page labeled with your registered username.
+* Wikibooks is a collection of open-source textbooks. ([[WB:WIW|What is Wikibooks]]).
+* If you are a '''Wikipedian''', see [[Wikibooks:Wikibooks for Wikipedians]] for a primer on how things work here (it's a little different).
+** If you want to base your work here on materials from Wikipedia, please use [[WB:RFI]].
+* If you're an '''instructor''' and plan on using Wikibooks for a class project, see [[Wikibooks:Guidelines for class projects]]
+* Please say hello at the [[Wikibooks:Reading room|Reading Room]] with any questions or ideas.
+* Eventually, you might want to read the [[Wikibooks:Manual of Style|Manual of Style]] and [[Wikibooks:Policies and guidelines|Policies and Guidelines]].
+** Help us by participating in policy and guideline creation.
+** Please take a look at [[Wikibooks:Naming policy]] before starting a new book.
+* Remember to maintain a [[Wikibooks:Neutral point of view|Neutral point of view]].
+* Explore, [[Wikibooks:Be bold in updating pages|be bold in editing pages]], and have fun!
+
+You will find more resources in [[Wikibooks:Community Portal|Community Portal]]. If you want to ask a question, visit the [[Wikibooks:Study help desk|Study help desk]], the [[Wikibooks:Reading room|Reading Room]], [[Wikibooks:IRC channels|IRC channel]] or [[User_talk:Panic2k4|ask me personally on my talk page]]. For site news, see the [[WB:BB|Bulletin board]]. It might be a good idea to add that page to your "[[Special:Watchlist|watchlist]]" so that you can see when any new information is posted there. You can do that by clicking the tab labeled "watch" at the top of the page.
+
+Good luck!  --[[User:Panic2k4|Panic]] ([[User talk:Panic2k4|talk]]) 04:41, 14 September 2009 (UTC)
+Thanks for the welcome. [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 06:01, 14 September 2009 (UTC)
+
+Thank you for your contributions...<br>
+Good work.<br>
+PS: I've also noticed that you are adding images to your work, take a look into [http://en.wikibooks.org/wiki/Wikibooks:Reading_room/General#Restriction_of_image_uploads this proposal discussion], moving images into Commons would benefit a greater community and the reduce duplication of effort.  --[[User:Panic2k4|Panic]] ([[User talk:Panic2k4|talk]]) 06:22, 14 September 2009 (UTC)
+The images contained in these articles have all been uploaded into WikiCommons.  I will read the discussion. [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 12:51, 14 September 2009 (UTC)
+
+==[[:Failed Back Syndrome]] and [[:Spinal Stenosis]]==
+Hello, I was curious about these two pages.  The seem to be copies of the corresponding pages from wikipedia and has not gone through any transwiki process.  Technically this is a copyright violation, but one it isn't difficult to fix. 
+
+More to the point, I was wondering if these were meant to be two pages in a single book, or meant to be developed into books on their own, etc.  What is the goal of these two pages? [[User:Thenub314|Thenub314]] ([[User talk:Thenub314|talk]]) 09:45, 14 September 2009 (UTC)
+
+These articles were placed by me in Wikipedia in December 2008 and January 2009.  Some editors over there suggested they were too comprehensive for Wikipedia and started reducing the amount of information.  One point of contention was the "case examples."  These are not allowed on Wikipedia and had been deleted.  All the Wiki editors suggested these articles would be better placed in WikiBooks.  Both these articles could be combined into a single book. [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 12:55, 14 September 2009 (UTC)
+
+:Ok. Anything you can do to place them in a book format would be great, and anyway I can think to help I will.  I think that many wikipedians don't really understand what wikibooks is about, and hence try to put things here that don't really belong.   As our goal is textbooks, things usually require a lot of work to be converted from wikipedia articles into wikibooks modules.  I leave it to your better judgement whether these two pages can be textbooks on their own, or if they should be combined into one book.
+
+:For future reference, the GFDL requires we preserve edit histories, and for this reason when an article is copied from wikipedia it has to go through a formal transwiki process to copy that information over.  The new Creative commons license is supposed to cure some of these problems.  From my rather vague understanding of this license, you would need to provide a link to the original articles somewhere (most likely the discussion page for each.)  I don't think this works in the cases the original article is being deleted from wikipedia, but I could be wrong.  [[User:Thenub314|Thenub314]] ([[User talk:Thenub314|talk]]) 07:15, 15 September 2009 (UTC)
+
+Thianks for the information.  The complaint over on Wikipedia was that these articles were "too good" or "too thorough", which seemed to be missing the point.  There is a group of editors reviewing medical articles who want to keep things very simplistic on Wiki - so that a ten year old can understand them.  I don't agree with that philosophy - but there isn't much to be done about it, since they just delete anything that doesn't agree with their opinions.  Anyway, I look forward to working with you.  By the way, I am an old editor from a medical legal journal and I think these articles are "textbook ready."  It is funny - I have written many legal articles on Wikipedia, and no one bothers them very much.  It is just the medical subjects which get scrutinized to death. It is so bad, I have vowed to never write anything medical on Wikipedia again.  [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 12:39, 15 September 2009 (UTC)
+
+: It is nice to have you aboard.  Interestingly I severely cut back on editing math articles because the majority of editors had sort of the opposite opinion about how indepth the articles go.  I felt wikipedia articles should fall just short of proving statements, but should mainly explain them in to non-experts but people disagreed with me.  I will mention the ground they used for their arguments was the sentence from [[w:Wikipideia:Five Pillars]] that states that "Wikipedia is an encyclopedia incorporating elements of general and specialized encyclopedias, almanacs, and gazetteers."  It was easy to point to specialized mathematics encyclopedias that have information about as in depth as research papers.  My replies about the phrase "elements of" fell on deaf ears because it is far from clear which elements are allowed.  In case your ever in an argument over there gain, you can use this approach.  And never be afraid to revert someone who you disagree with on a wiki, just try not to let it go on for ever.
+
+: I can believe you that these articles are perhaps textbook ready for the right group of people, but it would be good to put them into some textbook.  Even if that means creating a page "Ailments of the Back" the includes a brief description of what sort of audience this textbook is for. Then we can go about making sure it ends up in the appropriate subject pages, etc. so people can find them, contribute to them, and learn from them.  (PS I put no thought into my suggestion of a book title, I do not an endorsement that title, just something that occurred to me on the spot.) [[User:Thenub314|Thenub314]] ([[User talk:Thenub314|talk]]) 07:13, 16 September 2009 (UTC)
+
+This all started when another article I wrote on Wikipedia got completely deleted.  The editors thought it was "too good for Wikipedia" - if you can believe that.  After a lot of consternation, one of the editors rescued it and put it on WikiBooks- under Neurology and Neurosurgery.  It is "Brown Sequard syndrome".  Perhaps Failed Back and Spinal Stenosis should go into that category.  That would be appropriate.  I am also willing to write a short explanatory page for the non-expert on these articles.  I was in grad school for quantum mechanics and computational chemistry in the 1990s.  I did a lot of work with B-spaces (Banach spaces) and Hilbert spaces - so I have an inkling of what you are talking about with mathematical proofs.  A great set for this is a multi-volume group of encyclopedias "Linear Operators and Spectral Analysis" - the title was something like that, although I can't recall it now.  
+
+Concerning editing - I refuse to get into a fight with them.  I have found many editors make a little cabal, interpret the rules as they wish, and there is no fighting with them.  They are going to have their way.  I would guess about 90% of the people who edit on Wikipedia are doing so in good faith - but about 10% have severe personality disorders - and just can't compromise, or consider anything but their own ideas.  That makes it miserable.  There are only a limited number of people who have the knowledge, can write about it and are willing to donate it to Wiki - to me this is the biggest problem with Wiki - discouraging the people who can write.  I have written over 25 articles on legal topics on Wiki, and these have had only minor edits, revision of clunky language, fact errors corrected, etc.  But no one has claimed they were "too good for Wiki."  No one has thought they were too complicated.  [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 13:08, 16 September 2009 (UTC)
+
+: Well, we are happy to have your edits here.  I don't think we set an upper limit on quality, I just occasionally try to impose some lower limit.  With your permission, I would like to add these pages to the [[Neurology and Neurosurgery]] book as you suggested. This would involve moving the pages to (something like) [[Neurology and Neurosurgery/Failed Back Syndrome]] and [[Neurology and Neurosurgery/Spinal Stenosis]] to fit our [[WB:NP|naming policy]].  Then I would add links from the table of contents of [[Neurology and Neurosurgery]].  I was thinking of putting them under the [[Neurology and Neurosurgery#Trauma|Trauma chapter]] in the Spinal Cord Injuries section (and under the Incomplete Spinal Cord injuries subsection).  How does this strike you? Overall I think it would be a good addition to the book which has a rather sever lack of pages.
+
+Moving these to Neurology/Neurosurgery would be fine. [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 12:25, 17 September 2009 (UTC)
+Failed back and spinal stenosis represent pathologic situations  which are probably best classified uner "degenerative spinal conditions."  This would probably be more accurate than "trauma" - although trauma would be OK.  I was going to write some articles on brain tumors and other brain and spinal conditions, but gave these projects up because of the Wikipedia editorial policies.  I will look over the neurosurgery section, and see if any of these will fit in. I am still writing legal articles for Wikipedia.  [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 13:47, 17 September 2009 (UTC)
+
+: Ok, I have moved these pages to [[Neurology and Neurosurgery/Incomplete Spinal Cord Injuries/Failed Back Syndrome]] and [[Neurology and Neurosurgery/Incomplete Spinal Cord Injuries/Spinal Stenosis]], added the links to the table of contents and put in the appropriate categorization tags. [[User:Thenub314|Thenub314]] ([[User talk:Thenub314|talk]]) 18:21, 17 September 2009 (UTC)
+
+OK... looks good. [[User:A E Francis|A E Francis]] ([[User talk:A E Francis|talk]]) 20:18, 17 September 2009 (UTC)

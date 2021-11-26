@@ -1,0 +1,500 @@
+{{SAASTE Science}}
+
+==Driver observance of road markings at stop street intersections, in the South Metropole==
+
+===INTRODUCTION=== 
+This project involved ten committed educators from the EMDC, South Metropole (Mitchell's Plain and surrounding areas). The objective of the project was to engage their learners in science process skills and empowering them in facilitating investigative skills in their classrooms. Educators from different schools were at different stages within their learning programmes. In order to choose a common topic to advance the project it was decided to select a topic that could easily be done in the different classes, without undue disruption of the learning programmes in progress. 
+
+Another reason was to focus on skills, values and attitudes in the broader society and that in using science skills, everyday issues within our communities could be highlighted. The assumption was that learners would take to the topic because it has direct bearing on their own attitude in getting safely to school and back. 
+
+In choosing the topic in terms of mentioned reasons, it was also realised that road safety was a major concern with government, nationally and provincially. We are reminded daily about road safety with projects like "ARRIVE ALIVE" that was instituted by the ministry of transport. In an address to mourners at a memorial service of victims who lost their lives on South African roads, the Minister of Transport said the following: 
+
+"I urge you to make road safety an issue within your communities. Identify places where accidents 
+happened and the causes of the accidents and bring them to the attention of your local authorities. 
+Give your children the tools to be safe on the roads by teaching them how to behave as pedestrians 
+and cyclists. Buckle up on front and back seat of cars. We can reduce our risks on the road by 
+obeying traffic rules and regulations. Let us all undertake to be law abiding road users-life is 
+too valuable not to". (10 October 2003) 
+
+Media reports on "road accidents" also show a keen awareness by members of the public as reported in the CAPE ARGUS, 19 April 2004, when a reader reacted to the comments made by the MEC for Transport. The reader commented that "most deaths on our roads are not `accidents', a term which should be avoided. In collisions, crashes or smashes are a result of negligence and non-compliance with traffic regulation and normal civilised behaviour". 
+
+Literature also shows that the issue of road safety is being addressed at various levels of town planning. Ribbens (1996) states that the accident rate amongst children in Mitchell's Plain, a less spacious town, is higher compared to older, more spacious towns. 
+
+A vast majority of South Africans, urban and rural, are pedestrians (Ribbens,1996). In "ROAD TRAFFIC", the recommendation is made that "road user knowledge, skills and attitudes" should be enhanced through formal and non-formal education. 
+
+==METHODS AND MATERIALS== 
+===Choosing the site=== 
+The sites were restricted to the South Metropole, easily accessible by members of the individual schools. The road markings initially included the solid stop line, directional arrows and the channelling lines at both robotic intersections and stop streets.
+
+===Designing the instrument=== 
+The initial discussion around designing the instrument included the type of road surface markings as mentioned above, the gender of driver/road-user, and the vehicle type (commercial, private, government and public). We also considered the time allowed for gathering data, using the instrument at a specific time and date. The instrument was to be used by the learners and needed to be of a simple format. The number of learners used to collect data was not specified. Participants felt that they would adopt a system to suit their situation. Pilot projects were conducted at robotic intersections and stop streets. Table 1 shows the proposed data collection instrument. 
+
+'''Table 1:''' Proposed initial template for data collection.
+
+{| cellpadding="4" cellspacing="3" border="1" style="page-break-before: always"
+|- 
+! 
+
+Vehicle #
+! 
+
+Stop
+! 
+
+Driver
+! 
+
+Stop
+! 
+
+Cross
+! colspan="2" | 
+
+Driver
+! colspan="3" | 
+
+Ownership
+! 
+
+Notes
+|- 
+| 
+
+<br />
+| 
+
+'''RTM1 '''
+| 
+
+'''RTM1'''
+| 
+
+'''RTM3 '''
+| 
+
+'''RTM3 '''
+| 
+
+'''M'''
+| 
+
+'''F'''
+| 
+
+'''G'''
+| 
+
+'''P'''
+| 
+
+'''T C'''
+| 
+
+<br />
+|- 
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+|- 
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+|- 
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+| 
+
+<br />
+|}
+
+===Refining the instrument/ limiting the variables=== 
+We considered all the recommendations made by the learners and ourselves after conducting pilot investigations. It was decided that observers needed to be inconspicuous so as to allow road users to respond as normally as possible. 
+
+K53 considers "stopping" in relation to the surface marking as "bringing your vehicle to a complete stop, with the front before the white stop line" (Gibson, et al, 1999). However for the purpose of this investigation and for the sake of simplicity, stopping was considered to be bringing the vehicle to a complete halt with the wheels before the stop line (RTM1 &iuml &iquest &frac12  see addendum). A further recommendation was that the stop line be an extension of the observer. Due consideration was given to the complexity of the different sites, which includes safety aspects and effective recording of data. The sample size per site was limited to 50 cars irrespective of the time taken to collect the data. The investigation was further limited to stop streets only, making data collection and recording easier. 
+
+===RESULTS=== 
+The sample contained a cross section of vehicle types used in townships. Mitchell's Plain was created in the apartheid era as a residential area, away from big business and industrial areas. Table 2 shows that the private vehicle count overshadows the other vehicle types. The number of public transport vehicles indicates that a large percentage of residents are dependent on public transport and therefore there is a large amount of pedestrians on Mitchell's Plain roads. 
+
+'''Table 2:''' Vehicle type in sample based on use/ownership
+
+{| cellpadding="4" cellspacing="3" border="1" style="page-break-before: always"
+|- 
+| 
+
+'''Type of vehicle'''
+| 
+
+'''Frequency'''
+! 
+
+'''Percentage'''
+|- 
+| 
+
+Private
+| 
+
+287
+| 
+
+79.9
+|- 
+| 
+
+Taxi
+| 
+
+31
+| 
+
+8.6
+|- 
+| 
+
+Bus
+| 
+
+2
+| 
+
+0.6
+|- 
+| 
+
+Commercial
+| 
+
+28
+| 
+
+7.8
+|- 
+| 
+
+Government
+| 
+
+10
+| 
+
+2.8
+|- 
+| 
+
+Motorbike
+| 
+
+1
+| 
+
+0.3
+|- 
+| 
+
+Total
+| 
+
+359
+| 
+
+100
+|}
+
+The gender composition is somewhat expected, 291 male drivers and only 68 female drivers. The K53 booklet, used by learner drivers defines the broad white line (RTM ) as the stop line mark 1 and the other two lines (RTM3) as the pedestrian crossing lines. These being regulatory traffic signs at a crossing, it is expected to be religiously observed by all drivers. 
+
+'''Figure 1:''' Driver Observance of Stop street regulatory traffic road markings
+
+<center>[[Image:SA_NC_Saaste_science_2.png]]</center>
+
+In figure 1 above it is clear that a majority of drivers in this sample do not observe road markings at stop streets. Gender Male Female Stopped 37 15 Stopped on line 6 4 Stopped over line 60 12 No Stopping 188 37
+
+'''Table 3:''' Breakdown of gender observance of road markings at stop streets
+
+{| cellpadding="4" cellspacing="3" border="1" style="page-break-before: always"
+|- 
+| 
+
+'''Gender'''
+| 
+
+'''Stopped'''
+| 
+
+'''Stopped on line '''
+| 
+
+'''Stopped over line'''
+| 
+
+'''No Stopping'''
+|- 
+| 
+
+Male
+| 
+
+37
+| 
+
+6
+| 
+
+60
+| 
+
+188
+|- 
+| 
+
+Female
+| 
+
+15
+| 
+
+4
+| 
+
+12
+| 
+
+37
+|}
+
+The patterns in Table 4 show an alarming tendency amongst both male and female drivers not to stop at stop streets and/or not to observe RTM3 lines. Only a small number, both genders, do observe the road markings. 
+
+Another important pattern show n in this study is that a large number of commercial and government vehicle drivers do not observe stop street road markings as seen from Table 5 below. 
+
+'''Table 5:''' Observance shown across the vehicle type in sample.
+
+{| cellpadding="4" cellspacing="3" border="1" style="page-break-before: always"
+|- 
+| rowspan="2" | 
+
+'''Vehicle type'''
+| colspan="5" | 
+
+'''Observance '''
+|- 
+| 
+
+'''Stopped'''
+| 
+
+'''Stop on line '''
+| 
+
+'''Stop over line'''
+| 
+
+'''Did not Stop'''
+| 
+
+'''Total '''
+|- 
+| 
+
+Private
+| 
+
+41
+| 
+
+8
+| 
+
+56
+| 
+
+182
+| 
+
+287
+|- 
+| 
+
+Taxi
+| 
+
+1
+| 
+
+0
+| 
+
+7
+| 
+
+23
+| 
+
+31
+|- 
+| 
+
+Bus
+| 
+
+0
+| 
+
+0
+| 
+
+0
+| 
+
+2
+| 
+
+2
+|- 
+| 
+
+Commercial
+| 
+
+7
+| 
+
+0
+| 
+
+7
+| 
+
+13
+| 
+
+28
+|- 
+| 
+
+Government
+| 
+
+3
+| 
+
+0
+| 
+
+2
+| 
+
+5
+| 
+
+10
+|}
+
+===Discussion=== 
+Due to the nature and objectives of this limited study no definitive conclusions could be made. However, patterns observed with this small sample may serve as a basis for further investigation. The safety of learners, on their way to and from school, is influenced by driver observance of traffic signs and signals, and an extension of such a study in the area may just arouse community interest. Results of such a study might serve as interesting discussions at SGB meetings. 
+
+===Concluding remarks=== 
+The project had twofold objective namely empowering participants in investigative skills and to involve learners as far as possible. The success rate of the project will only surface once participants initiate new projects within their respective classrooms. The input from learners during the pilot was essential in refining the data collecting instrument. This once again underlines the fact that learners do bring `something' to the education table and that educators should not underestimate the abilities of their learners.
+
+===REFERENCES=== 
+1. Speech for the Minister of Transport at a Memorial Service to be held October 10, 2003. Hyperlink [http://transport.gov.za/commcentre/sp/2003/sp1010a.html/ transport.gov.za/commcentre/sp/2003/sp1010a.html]
+
+2. ROAD TRAFFIC. Hyperlink [http://transport.gov.za/library/docs/greenp3e.html/ transport.gov.za/library/docs/greenp3e.html]
+
+3. Letters to the Editor. 2004. The Cape Argus , April 19. 
+
+4. Ribbens J.1996. Transportation Research Record 1538 
+
+5. Gibson, C., Hoole, G., Passchier, B. 1999. Pass your Learner's Easily. Cape Town: Struik Publishers. 
+
+6. Bailey, G. Easy Driving School, Port Elizabeth, (1999). The Official ENGEN K53 Learner's and Driver's Manual. Copyright. K McDonald. Francolin Publishers(PTY) Ltd.
+
+===ADDENDUM RTM3 RTM1===
+
+Key: RTM1= Stop line markings RTM3= Pedestrian crossing lines

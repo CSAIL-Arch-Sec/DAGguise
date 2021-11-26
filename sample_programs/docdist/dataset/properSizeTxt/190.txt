@@ -1,0 +1,91 @@
+{{Radiation_Oncology:TOC}}
+
+
+<big>'''Rectal Cancer Randomized Evidence'''</big>
+<br>In process of being cross-linked...
+
+
+==Surgical Technique==
+*'''National Taiwan University''' (1997-1999) -- medial-to-lateral vs lateral-to-medial laparoscopic dissection
+**Randomized. 67 patients, rectosigmoid cancer, single surgeon performing laparoscopic dissection. Arm 1) medial-to-lateral dissection vs Arm 2) lateral-to-medial dissection
+**'''2003''' PMID 12616435 -- "Comparison of medial-to-lateral versus traditional lateral-to-medial laparoscopic dissection sequences for resection of rectosigmoid cancers: randomized controlled clinical trial." (Liang JT, World J Surg. 2003 Feb;27(2):190-6.)
+***Outcome: No difference in LN harvest, intraop complications, conversion rate, postop complications, or disability. Improved OR time, C-RP and ESR in medial group
+***Conclusion: Medial-to-lateral dissection may be most appropriate for laparoscopic rectection of rectosigmoid cancers
+
+==Neoadjuvant Therapy==
+===TME Surgery +/- Neoadjuvant RT===
+*'''Dutch''' 
+**Randomized. 1805 patients treated with 1) Preop RT 25/5 or 2) TME alone. If surgery-only patients had SM+ (<=1mm), mandatory post-op RT
+**'''5-years; 2007''' PMID 17968156 -- "The TME Trial After a Median Follow-up of 6 Years: Increased Local Control But No Survival Benefit in Irradiated Patients With Resectable Rectal Carcinoma." (Peeters KC, Ann Surg. 2007 Nov;246(5):693-701.). Median F/U 6.1 years
+***Outcome: 5-year LR TME 11% vs. RT + TME 6% (SS); OS 63% vs. 64% (NS)
+***Subgroup benefit: N+, tumors 5-10 cm from anal verge, negative radial margins
+***Conclusion: Preop short-term RT improves local control; no effect on survival
+
+===Preop Chemo-RT: Dose Intensification===
+*'''ACCORD 12/0405-Prodige 2''' (2005-2008) -- Cap 45 vs Capox 50
+**Randomized. 598 patients, resectable T3-T4 rectal adenoca, T2 tumors in anterior/lower rectum also included. Arm 1) RT 45/25 with concurrence capecitabine 800 mg/m2 BID (Cap 45) vs Arm 2) RT 50/25 with concurrence capecitabine 800 mg/m2 BID and oxaliplatin 50 mg/m2 QW (Capox 50). RT excluded external/common illiac, in Capox 50 group boost after 44 Gy. Primary endpoing ypCR to get quick answer, as follow up to FFCD 9203
+**'''2010''' PMID 20194850 -- "Comparison of two neoadjuvant chemoradiotherapy regimens for locally advanced rectal cancer: results of the phase III trial ACCORD 12/0405-Prodige 2." (Gerard JP, J Clin Oncol. 2010 Apr 1;28(10):1638-44. Epub 2010 Mar 1.)
+***Outcome: ypCR Cap45 14% vs Capox 50 19% (NS). SM+ (0-2mm) 19% vs 10% (SS)
+***Toxicity: Preop G3+ Cap 45 1% vs Capox 50 25% (SS). No difference in surgery (75%) or postop deaths (0.3%). 
+***Conclusion: Benefit of oxaliplatin not demonstrated. Suggest Cap 50 as the next regimen to test
+
+==Intraoperative RT==
+===TME Surgery with Lateral LND +/- Pelvic LN Sparing with IORT===
+*'''Kyorin University; 2008''' (2000-2007) PMID 18172677 -- "Intraoperative radiotherapy for oncological and function-preserving surgery in patients with advanced lower rectal cancer." (Masaki T, Langenbecks Arch Surg. 2008 Jan 3 [Epub ahead of print])
+**Randomized. 41 patients with advanced lower rectal CA. Arm 1) TME + bilateral lateral LND + limited PANP vs. Arm 2) TME + bilateral lateral LND + complete PANP + IORT to preserved pelvic nerve plexuses
+**Outcome: No difference in LR, DFS, OS. Improved time with indwelling catheter and voiding function
+**Conclusion: Complete pelvic autonomic nerve preservation with IORT may be useful
+
+==Preop vs Postop Therapy==
+*'''MRC CR07 and NCIC C016''' (1998-2005) -- preop RT 25/5 vs. selective postop chemo-RT 45/25 
+**Randomized. 1350 patients, operable carcinoma of rectum, <15cm from anal verge, TME encouraged but not mandated (done in 92%). Arm 1) RT 25/5 vs. Arm 2) surgery + selective postop chemo-RT if SM+ (RT 45/25 + concurrent 5-FU and leucovorin). RT sacral promontory superiorly, 3–5 cm below the inferior tumor extent, 2–3 cm anterior to the sacral promontory, 1 cm posterior to the anterior sacrum, and 1 cm lateral to the most lateral aspect of the bony true pelvis. Primary outcome LR. In postop arm, SM+ was in 12% as trigger for postop chemo-RT vs 10% in preop group. Adjuvant chemo in 40% of preop arm and 45% of postop arm
+**'''2009''' PMID 19269519 -- "Preoperative radiotherapy versus selective postoperative chemoradiotherapy in patients with rectal cancer (MRC CR07 and NCIC-CTG C016): a multicentre, randomised trial." (Sebag-Montefiore D, Lancet. 2009 Mar 7;373(9666):811-20.) Median F/U 4 years
+***Outcome: LR preop RT 4% vs. postop RT 11% (SS), DFS 77% vs. 71% (SS), no difference in OS. By SM status: SM+ 14% vs. 21% (NS), SM- 4% vs. 9% (SS). Upper 1/3 tumors lower LRR than lower 1/3, preop RT 1% vs. 5%, postop chemo-RT 6% vs. 10%
+***Conclusion: Short-course RT more effective than selective postop chemo-RT
+**Editorial (PMID 19269501): Preop RT appears to benefit both good-prognosis and bad-prognosis tumors, so need a good way to select, and patient preference likely to play a role. Nevertheless, short preop RT is an excellent option
+
+*'''German Rectal Cancer Study''' CAO/ARO/AIO (1995-2002) -- preop chemo-RT vs. postop chemo-RT
+**Randomized. 823 patients, clinical stage T3-4 or N+, inferior margin within 16cm from anal verge. Arm 1) ''post-op regimen:'' surgery (TME) -> chemo/RT (55.8 Gy) -> 4 cycles bolus 5-FU, or 2) ''pre-op regimen:'' chemo/RT (50.4 Gy) -> surgery (TME) -> 4 cycles bolus 5-FU.  In both arms, chemo was 5-FU C.I. 1000 mg/m2/d on days 1-5, weeks 1+5.
+**'''2004''' PMID 15496622 [http://content.nejm.org/cgi/content/full/351/17/1731 Full text] "Preoperative versus postoperative chemoradiotherapy for rectal cancer." (Sauer R, N Engl J Med. 2004 Oct 21;351(17):1731-40.) Median F/U 3.8 years
+***Outcome: 5-year OS preop 76% vs postop 74% (NS); 5-year DFS 68% vs. 65% (NS); LR 6% vs. 13% (SS); DM 36% vs. 38% (NS). Preop downstaging: pCR 8%, 25% (vs 40%) were Stage III/LN+. TNM Stage I disease found in 18% of post-op group (vs. 25% in pre-op). 
+***Toxicity: Fewer acute (27% vs 40%) and late toxicities (14% vs 24%) in preoperative-treatment group. Increased rate of sphincter-preserving surgery (39% vs 19%) in preoperative-treatment group.
+***Conclusion: Preop chemo-RT improved local control and improved toxicity, but did not impact overall survival
+**Critique (and clinical reality): only 54% of adjuvant patients vs. 92% of neoadjuvant patients received full RT dose
+
+*'''NSABP R-03''' (1993-1999) -- Preop vs postop chemo-RT
+**Randomized. ''Trial closed prematurely due to poor accrual''. 267/900 expected patients. Clinical T3-T4 or N+ rectal cancer. Arm 1) Preop chemo-RT 50.4/28 + 5-FU 500 mg/m2 and leucovorin 500 mg/m2 vs Arm 2) Postop chemo-RT (same as preop). Surgery APR, LAR, or local excision; TME not mandated. Both groups adjuvant 3 cycles of 5-FU/leucovorin 
+**'''2009''' PMID 19770376 [http://jco.ascopubs.org/cgi/reprint/27/31/5124 Full text] &mdash; "Preoperative multimodality therapy improves disease-free survival in patients with carcinoma of the rectum: NSABP R-03." (Roh M et al. J Clin Oncol. 2009 Nov 1;27(31):5124-30. Epub 2009 Sep 21.)
+***Outcome: 5-year DFS was improved for pre-op over post-op (64.7% v 53.4%, SS). Nonsignificant trend in 5-year OS (74.5% v 65.6%, p=0.065). No difference in locoregional recurrence, 11% in each group. pCR in 15%. Significant reduction in N+ (67% vs. 52%, SS)
+***Toxicity: Grade 4 diarrhea preop 24% vs. postop 13%; Grade 5 toxicity 5% vs 3%
+***Conclusion: Pre-op chemoradiotherapy, compared with post-op chemoradiotherapy, significantly improved DFS and showed a trend toward improved OS
+
+==Induction chemo vs adjuvant chemo, with neoadjuvant chemo-RT-surgery==
+*'''Grupo Cancer De Recto 3, Spain''' (2006-2007) -- Induction chemo vs adjuvant chemo, with chemo-RT -> surgery
+**Randomized, Phase II. 108 patients, locally advanced rectal cancer, <12 cm from verge, LAR disease based on high-res MRI. Treated with chemo-RT followed by surgery. Randomized to Arm 1) Induction capecitabine 2000 mg/m2 and oxaliplatin 130 mg/m2 (CAPOX) x4 cycles vs Arm 2) Adjuvant CAPOX x4 cycles. Primary endpoint pCR
+**'''2010''' PMID 20065174 -- "Phase II, randomized study of concomitant chemoradiotherapy followed by surgery and adjuvant capecitabine plus oxaliplatin (CAPOX) compared with induction CAPOX followed by concomitant chemoradiotherapy and surgery in magnetic resonance imaging-defined, locally advanced rectal cancer: Grupo cancer de recto 3 study." (Fernandez-Martos C, J Clin Oncol. 2010 Feb 10;28(5):859-65. Epub 2010 Jan 11.)
+***Outcome: pCR induction 13% vs adjuvant 14% (NS), no difference in downstaging, tumor regression, R0 resection.
+***Toxicity: Higher during adjuvant arm. No difference during chemo-RT.
+***Conclusion: No difference in outcomes, but less toxicity with induction chemo compared with adjuvant chemo
+
+==Adjuvant RT vs Chemo-RT==
+*'''NCCTG 79-47-51''' (1980-1986) -- postop RT vs postop chemo-RT
+**Randomized. 204 patients, rectal CA T3-4 or N+, within 12 cm of anal verge. Arm 1) post-op RT vs. Arm 2) post-op chemo-RT. RT given 45/25 + 5.4/3 Gy boost to tumor bed and adjacent LN. Chemo bolus 5-FU bolus + semustine x1 month, then bolus 5-FU 500 mg/m2 concurrent with RT, then 2 months consolidative 5-FU/semustine. Major deviations 9%
+**'''7-years; 1991''' PMID 1997835 &mdash; "Effective surgical adjuvant therapy for high-risk rectal carcinoma." (Krook JE et al. N Engl J Med. 1991 Mar 14;324(11):709-15.). Median F/U 7 years
+***Outcome: 5-year recurrence RT 63% vs. chemo-RT 41% (decreased by 34%, SS). LR 25% vs. 13% (decreased by 47%, SS), DM 46% vs. 29% (SS). 5-year OS ~40% vs. ~55% (decreased by 29%, SS). Reduction in death rate highly significant for LAR (52%), not significant for APR (10%)
+***Toxicity: SBO 5%, median time-to-complication 10 months; overall severe late toxicity 7% (comparable between 45 and 50.4 Gy)
+***Conclusion: Adjuvant chemo-RT superior to RT alone; confirms prior GITSG 7175 results
+***Comment: CRT generally well tolerated, unlike GITSG GI-7175. Adjuvant chemo 1 month first, consolidaation 2 months vs 1.5 years in GITSG. On the basis of this study and GITSG 7175, NIH consensus conference recommended chemo-RT as standard of care for T3-T4 or N+ patients
+
+*'''GITSG GI-7175''' (1975-1980) -- surgery alone vs postop chemo vs postop RT vs postop chemo-RT
+**Randomized, 4 arms. ''Terminated early due to significant benefit of chemo-RT arm''. 227/520 patients. Dukes B and C (T3-4 or N+), distal edge within 12 cm from anal verge. Only R0 resection allowed. Treated with 1) Surgery alone, 2) post-op Chemo (bolus IV 5-FU/M-CCNU), 3) post-op RT 40 or 48 Gy standard fraction, 4) post-op Chemo-RT 40 or 44 Gy standard fraction + 5-FU 500 mg/m2 followed by adjuvant 5-FU/M-CCNU as in chemo alone arm. RT given AP/PA, superior border L4/L5, inferior border included perineum; major deviations in 39%. Consolidative chemo given x1.5 years or until disease progression
+**'''7-years, 1985''' PMID 2859523, 1985 &mdash; "Prolongation of the disease-free interval in surgically treated rectal carcinoma. Gastrointestinal Tumor Study Group." [No authors]. N Engl J Med. 1985 Jun 6;312(23):1465-72. Median F/U 6.7 years. 
+***Outcome: Recurrence surgery 55% vs. chemo 46% vs. RT 48% vs. chemo-RT 33% (SS). Benefit of chemo-RT (p=0.009) due to both RT (, better LRC p=0.06) and chemo (better DM p=0.06) components. Initial LRR overall 21%; by arm 24% vs. 27% vs. 20% vs. 11%; initial DM overall 25%. LR in perineum 21%, vagina/uterus 17%, anastomosis 12%, sacrum/coccyx 12%, bladder/prostate 12%. Actuarial OS 36% vs. 46% vs. 46% vs. 56% (p=0.07)
+***Toxicity: Severe nonhematological chemo 15% vs. RT 16% vs. chemo-RT 35%
+***Conclusion:  Postoperative chemo-RT significantly better for disease-free survival, with trend to overall survival benefit 
+**'''8-years, 1986''' PMID 3773947, 1986 (No abstract) &mdash; "Survival after postoperative combination treatment of rectal cancer." Douglass HO et al. N Engl J Med. 1986 Nov 13;315(20):1294-5. Median F/U 7.8 years
+***Outcome: No new recurrences. Now overall survival benefit for chemo-RT over surgery alone (SS)
+***Conclusion: Postoperative chemo-RT improves overall survival over surgery alone in T3-4 or N+ patients
+**'''GITSG overview, 1988''' PMID 3064191, 1988 &mdash; "Adjuvant postoperative radiotherapy and chemotherapy in rectal carcinoma: a review of the Gastrointestinal Tumor Study Group experience." Thomas PR et al. Radiother Oncol. 1988 Dec;13(4):245-52.
+***Severe acute toxic side-effects, but late effects rare in arm 4. Three late deaths (2 enteritis in chemo-RT group, one acute leukemia in chemo group). 
+***Conclusions: Compared to surgery alone, postop Chemo-RT improved OS (45% v 27% @ 10yrs), prolonged Time-To-Recurrence, decreased Recurrence Rate (33% v 55%), and decreased LF Rate (10% v 25%).
+**Critique: severely underpowered to show benefit, unequal randomization and not analyzed by intent to treat, semustine x1.5 years increases risk for leukemia

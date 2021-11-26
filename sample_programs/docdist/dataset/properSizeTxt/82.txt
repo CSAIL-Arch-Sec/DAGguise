@@ -1,0 +1,89 @@
+== Introduction ==
+Transport geography is a sub-discipline of geography concerned about the mobility of people, freight and information, and its spatial organisation considering attributes and constraints related to the origin, destination, extent, nature and purpose of movements. Time Geography is considered a sub-group of social constructs created by Swedish Geographer Torsten Hägerstrand in the mid-1960s. <ref> Lenntorp, Bo (July 1999). "Time-geography—at the end of its beginning". GeoJournal. 48 (3): 155–158.</ref>By definition, time geography is a method of studying the coordination of human activities in the combination of society and nature. It involves environmental problems initiated by mankind and aims to develop knowledge which may better facilitate social and ecological sustainability. Time Geography uses the ideas of time and space in a bottom-up perspective to study how each person's daily activities are linked and coordinated with important geographical locations. Ultimately, time-geography leads to improved planning at all three levels (Urban, Regional and Global). <ref>Ellegård, Kajsa; Svedin, Uno (July 2012). "Torsten Hägerstrand's time-geography as the cradle of the activity approach in transport geography" Journal of Transport Geography. 23: 17–25. </ref>
+
+
+== Background Of Transport Geography ==
+Transport Geography can first be understood through a series of core principles which derive into the notion that there would be no transportation without geography and vice versa. These principles identify geographical attributes of information and transform them into an additional value in the process. Transport represents human activities worldwide as it allows for the mitigation of the constraint of geography both globally, regionally and in urban areas. It plays a role in the economic growth and spatial relationships between geographical regions. Transport creates links between regions and economic activities composed of four core components; Modes, Infrastructure, Network and Flows. These fundamentals help shape transport and geography even with ever-changing social, technological and economic variance.<ref>Miller H. (2008) Time Geography. In: Shekhar S., Xiong H. (eds) Encyclopedia of GIS. Springer, Boston, MA</ref>
+
+
+=== Spatial Scale ===
+Spatial Scale of Transport refers to the order of magnitude to the measurable extent of a land area or geographical distance studied or described. Transportation has such spatial constructs which are broken up into 3 categories. 
+* '''Local''' is the spatial construct where the activity space is in the local scale representing a range of origins and destinations which individuals undertake within a time frame. Fixed Spatial constructs would be neighbourhoods or terminals which include flows of passengers and goods. These are generally grouped within the urban transport framework.
+
+* '''Regional''' where the spatial constructs of networks and flows tend to be more ambiguous and generally take the form of metropolitan areas and regions such as corridors
+
+* '''Global''' where the spatial constructs consider global networks and flows and have global value chains 
+
+
+== Torsten Hägerstrand ==
+Torsten Hägerstrand is a Swedish geographer who is primarily known for his work on migration, cultural diffusion and time geography. He received his doctorate at the Lund University and is highly renowned for his work in spatial planning. His investigation into Human Migration Patterns led to new understandings regarding paths of individuals as sequences similar to a movement chain. Socio-Environmental Mechanisms were also investigated, especially the relationship between natural and social science which in turn has led to the growth of the feminist behavioural geography movement. He studied conditions for individuals’ existence in different geographic, social, and ecological contexts by engaging new methods and cross-fertilising research fields; he developed precise concepts and a notation system which are generalised to describe any kind of individuals and are applicable at different levels of aggregation.
+
+== Time Geography ==
+
+=== Origin ===
+In Time-Space the individual describes the path within context however if we were to take the path of a lifetime, it becomes a network of constraints which are physiological and physical necessities or by public and private decisions. It’s a relationship between how individuals and populations are linked and will ultimately move (like migration) between locations. These constraints were then grouped into three categories:
+* Capability - limitations on the activity of individuals because of their biological structure and/or the tools they can command
+* Coupling - limitations that "define where, when and for how long an individual has to join other individuals, tools and materials similar to a critical path analysis
+* Authority - limitations on the time-space entity within which things and events are under the control of another individual or group. <ref> Andrienko, Gennady; Andrienko, Natalia; Bak, Peter; Keim, Daniel; Wrobel, Stefan (2013).Visual analytics of movement. Heidelberg; Dordrecht; New York; London: Springer. </ref>
+
+=== Concept ===
+The basic notion of time geography is the individual path which is tracked in the time-space diagram. The individual is an entity created purely for the examined time period and can be displayed in both 2D and 3D. <ref> Kwan, Mei-Po (December 2004). "GIS methods in time-geographic research: geocomputation and geovisualization of human activity patterns" (PDF). Geografiska Annaler: Series B, Human Geography. 86 (4): 267–280. </ref>  
+* Individual Path
+Side-by-sideness (a) refers to individuals being together at a place for a time period for one's existence similar to coupling 
+In-placeness (b) refers to the individual's existence over time's location for it is located at the same place for a time period. 
+Encounter (c) refers to the part of an individual path meets another path 
+Touch (d) refers to individuals being together at a place for a time period
+Separate (e) refers to either one of both individuals leaving the location where they met and stayed
+Front line of fabric refers to the present which is the only time there is an opportunity for any changes
+
+
+
+* Space-Time Prism
+Refers to an individual's behaviour in the space-time cube given their capability and coupling constraints 
+* Space-Time Cube
+Displays networks of individual paths in a graphical projection of space and time coordinates
+* Bundles of Paths
+The conjunction of individual paths due to their capability and coupling constraints creating pockets of local order where the order is agreed upon and executed by individuals
+* Concentric Tubes
+Refers to certain capability constructs of a given individual such as limited spatial size
+* Nested Hierarchies
+Authority constraints of a given individual or given group <ref> Bach, Benjamin; Dragicevic, Pierre; Archambault, Daniel; Hurter, Christophe; Carpendale, Sheelagh (April 2016). "A descriptive framework for temporal data visualizations based on generalized space-time cubes". Computer Graphics Forum. 36 (6): 36–61. </ref>
+
+
+== Future Developments ==
+Whilst these graphical representations of time-geography are essential, they do not provide the full picture but rather the foundation for how these concepts can increase the understanding in an ecological and sustainable method of how to develop mankind. Ultimately it is a product of the underlying ontology regarding large social-environmental mechanisms such as migration patterns. Social Sciences, Biological Sciences and Interdisciplinary Uses have been found as further usage of Hägerstrand's research into time-geography. His models and statistics were paramount in the development of the Geographic Information System (GIS) and the processes involved in visualizing movement data. 
+
+=== Geographic Information System ===
+The GIS (Geographic information systems) utilized Hägerstrand's theory of Space-Time in the early 1990s incorporating temporal information and analytical functions such that it will be capable of handling both temporal and spatial data. GIS conceptually captured ontological constructs such as migration and movement and their relationship with space and time. With improvements in technology, it became possible to compute and visualize the theory and ultimately data. Time-Space GIS continues to be used in interdisciplinary and multidisciplinary faculties. <ref> Buttimer, A., 1986. Life Experience as Catalyst for Disciplinary Communication: Adventures in Dialogue 1977–1985. DIA-paper. Lund University, Lund. </ref>
+
+
+=== Legacy ===
+Legacy of Hägerstrand's Time-Geography concept has continued use with the development in Time-Space GIS where it became possible to analyse various types of network datasets not limited to just geography but also of psychological behaviour and treatments. <ref>Sunnqvist, Charlotta; Persson, Ulla; Westrin, Åsa; Träskman-Bendz, Lil; Lenntorp, Bo (April 2013). "Grasping the dynamics of suicidal behaviour: combining time-geographic life charting and COPE ratings". Journal of Psychiatric and Mental Health Nursing. 20 (4): 336–344. </ref> <ref> Kwan, Mei-Po (2007). "Affecting geospatial technologies: toward a feminist politics of emotion" (PDF). The Professional Geographer. 59 (1): 22–34.</ref> 
+
+
+== Recommended Readings == 
+Miller H. (2008) Time Geography. In: Shekhar S., Xiong H. (eds) Encyclopedia of GIS. Springer, Boston, MA
+Ellegård, Kajsa; Svedin, Uno (July 2012). "Torsten Hägerstrand's time-geography as the cradle of the activity approach in transport geography" Journal of Transport Geography. 23: 17–25. 
+
+
+== References == 
+[1] Andrienko, Gennady; Andrienko, Natalia; Bak, Peter; Keim, Daniel; Wrobel, Stefan (2013).Visual analytics of movement. Heidelberg; Dordrecht; New York; London: Springer.
+
+[2] Bach, Benjamin; Dragicevic, Pierre; Archambault, Daniel; Hurter, Christophe; Carpendale, Sheelagh (April 2016). "A descriptive framework for temporal data visualizations based on generalized space-time cubes". Computer Graphics Forum. 36 (6): 36–61.
+
+[3] Buttimer, A., 1986. Life Experience as Catalyst for Disciplinary Communication: Adventures in Dialogue 1977–1985. DIA-paper. Lund University, Lund.
+
+[4] Ellegård, Kajsa; Svedin, Uno (July 2012). "Torsten Hägerstrand's time-geography as the cradle of the activity approach in transport geography" Journal of Transport Geography. 23: 17–25. 
+
+[5] Hägerstrand, Torsten (1970). "What about people in regional science?". Papers of the Regional Science Association. 24 (1): 6–21.
+ 
+[6] Kwan, Mei-Po (December 2004). "GIS methods in time-geographic research: geocomputation and geovisualization of human activity patterns" (PDF). Geografiska Annaler: Series B, Human Geography. 86 (4): 267–280.
+
+[7] Kwan, Mei-Po (2007). "Affecting geospatial technologies: toward a feminist politics of emotion" (PDF). The Professional Geographer. 59 (1): 22–34.
+
+[8] Lenntorp, Bo (July 1999). "Time-geography—at the end of its beginning". GeoJournal. 48 (3): 155–158.
+
+[9] Miller H. (2008) Time Geography. In: Shekhar S., Xiong H. (eds) Encyclopedia of GIS. Springer, Boston, MA
+
+[10] Sunnqvist, Charlotta; Persson, Ulla; Westrin, Åsa; Träskman-Bendz, Lil; Lenntorp, Bo (April 2013). "Grasping the dynamics of suicidal behaviour: combining time-geographic life charting and COPE ratings". Journal of Psychiatric and Mental Health Nursing. 20 (4): 336–344. 
+{{BookCat}}

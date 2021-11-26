@@ -1,0 +1,182 @@
+October 2001
+Form 1LSS51
+==Section I Logical Reasoning==
+===Question 01===
+===Question 02===
+===Question 03===
+===Question 04===
+===Question 05===
+===Question 06===
+===Question 07===
+===Question 08===
+===Question 09===
+===Question 10===
+===Question 11===
+===Question 12===
+===Question 13===
+===Question 14===
+===Question 15===
+===Question 16===
+===Question 17===
+===Question 18===
+===Question 19===
+===Question 20===
+===Question 21===
+===Question 22===
+===Question 23===
+===Question 24===
+===Question 25===
+===Question 26===
+
+==Section II Reading Comprehension==
+===Question 01===
+===Question 02===
+===Question 03===
+===Question 04===
+===Question 05===
+===Question 06===
+===Question 07===
+===Question 08===
+===Question 09===
+===Question 10===
+===Question 11===
+===Question 12===
+===Question 13===
+===Question 14===
+===Question 15===
+===Question 16===
+===Question 17===
+===Question 18===
+===Question 19===
+===Question 20===
+===Question 21===
+===Question 22===
+===Question 23===
+===Question 24===
+===Question 25===
+===Question 26===
+===Question 27===
+===Question 28===
+
+==Section III Analytical Reasoning==
+===Question 01===
+===Question 02===
+===Question 03===
+===Question 04===
+===Question 05===
+===Question 06===
+===Question 07===
+===Question 08===
+===Question 09===
+===Question 10===
+===Question 11===
+===Question 12===
+===Question 13===
+===Question 14===
+===Question 15===
+===Question 16===
+===Question 17===
+===Question 18===
+===Question 19===
+===Question 20===
+===Question 21===
+===Question 22===
+===Question 23===
+===Question 24===
+
+==Section IV Logical Reasoning==
+===Question 01===
+
+The advertisement erroneously concludes that all Sturdimades can drive long distances because some Sturdimades have driven for at least 100,000 miles.  The flaw in the advertisement's logic is similar to one thinking that because some highschool graduates have gone to Harvard, all highschool graduates will go to Harvard.
+
+Therefore, choice A is the correct answer.  As the answer says, the advertisement draws a general conclusion (that any Studrdimade one purchases can be relied upon to drive for a very long distance) from cases selected only on the basis of having a characteristic that favors that conclusion (the cases were selected from a group of cars belonging to the "long distance" club). 
+
+Choice B - This choice is wrong because the conclusion doesn't actually restate the evidence.  It just uses the evidence to make an illogically drawn recommendation.
+
+Choice C - This choice is incorrect because there is no ambiguous term used in the premises that is in need of clarification.
+
+Choice D - This choice is incorrect because even though the evidence doesn't logically support the conclusion (it is flawed), it doesn't undermine it either.
+
+Choice E - This choice is incorrect because there is no mention of popular opinion in the advertisement.  While members of the "long-distance" club are said to boast about how long they have driven their Sturdimade, no opinion is offered as evidence.  The only opinions offered are those by the advertisement--"Among popular automobiles, Sturdimades stand apart." and "Clearly, if you buy a Sturdimade you can rely on being able to drie it for a very long distance."
+
+===Question 02===
+
+As the question indicates, this is an assumption question.  Basically, the conclusion of this statement is that the university's computer center will not be able to operate for the coming year.  The evidence given to support this is that the university's board of trustees reduced the computer center's budget from $4 million to $1.5 million and that the center cannot operate on less than $2.5 million.  One other fact that is mentioned is that the board cannot divert funds from other programs to the computer center, but this fact is irrelevant because we've already been told that the budget was cut from $4 million to $1.5 million, which is a given.  So, we have to assume that if funds could be diverted, this option would have already been used.
+
+Choice A - Although this choice may be plausible, it should be put on hold until the other choices are considered.  Once the other choices are considered this can be eliminated because it's not the BEST choice.  Besides, even if this is assumed, it would not guarantee the conclusion to be properly drawn.
+
+Choice B - This choice is incorrect because the conclusion is not affected by whether or not one assumes the budgets of other programs at the university were also reduced.  If this assumption is not made, one can still conclude based on other assumptions that "there is no way that the center can be kept operating for the coming year."
+
+Choice C - This is the correct choice because the statement says that the center cannot operate on less than $2.5 million.  Assuming this is true and knowing that the board of trustees reduced the computer center's budget to $1.5 million, then the only way that the board could operate is to receive funding from another source.  Assuming that this is not a possibility, the statement's conclusion can be properly drawn.
+
+Choice D - This choice is incorrect because the statement actually says that the board cannot divert funds from other programs to the computer center.  Because it is stated explicitly, it is not something that must be assumed for the conclusion to be logically drawn.
+
+Choice E - While this statement may be true, it is not relevant and, therefore, is not a necessary assumption for the conclusion to be logically drawn.
+
+===Question 03===
+
+According to Muriel's statement, she does not consider Favilla to be a great writer because her subject matter is not varied enough. John argues that Muriel is wrong to use that criterion because a great writer doesn't need varied subject matter. According to John, a great writer needs to have the ability to explore a particular theme deeply. The question asks what is a point at issue between Muriel and John. Before reading the answer choices, you should be able to sift through the extraneous information to get to the core difference in John and Muriel's statements. Muriel thinks it is necessary for a writer to have varied subject matter in order to be great; whereas, John thinks it is necessary for a writer to explore a particular theme deeply in order to be considered great.
+
+Choice A - This choice is incorrect because even though Muriel mentions that Favilla's subject matter is not varied enough, John never mentions whether or not he believes Favilla's subject matter to be varied or not.
+
+Choice B - This choice is incorrect because even though it is not clear whether or not Muriel believes this to be a measure of a great writer, it is certain that John never mentions whether Favilla should or should not be a great writer or that he believes Favilla's style to be distinctive.
+
+Choice C - This is the correct choice because it is clear that they represent opposing view points on this issue. Muriel says that Favilla does not deserve to be considered a great writer because her subject matter is not varied enough. John responds by stating that he believes she is wrong to use that criterion. He then says, "A great writer does not need any diversity in subject matter." Thus, Muriel believes this to be a necessary or "prerequisite" for someone to be considered a great writer, and John thinks that it is not.
+
+Choice D - This choice should be eliminated immediately because it mentions "the number of novels" as an issue, and the two statements never make mention of anything related to the number of books a writer produces.
+
+Choice E - Like choice D, this one can be eliminated immediately. While Muriel does state that Favilla does not deserve to be considered a great writer, there is no other mention of any author, let alone many authors, deserving or not deserving the status of great.
+
+===Question 04===
+
+See question 3 for a summary of the two statements.
+
+The question asks to which one of the following positions would John's statements commit him.  Remember, John argues that an author does not have to be diverse in subject matter to be considered great.  This does not mean that he believes a writer cannot be diverse in his/her subject matter.  Also, John says that a great writer must have (at least) have the ability to explore a particular theme deeply.
+
+Choice A - This is the correct choice because John states that an author does not have to have diverse (or varied) subject matter to be considered a great writer.  Therefore, one should conclude that he does not believe that Favilla should be excluded from being considered a great writer based on this writing style alone.  Notice, that this choice doesn't say that John would consider Favilla a great writer; based on the statements, that would be concluding too much.  It simply notes that he would not exclude her from consideration.
+
+Choice B - This choice directly contradicts John's criterion for a great writer.  According to his standard, if Favilla cannot explore any particular theme deeply in her writings, then she could not be considered a great writer.
+
+Choice C - This statement might trick some, but one should notice that it concludes too much.  Yes, John believes that it is necessary for a writer to explore some particular theme deeply to be considered great, but John never says that this is sufficient.  Therefore, one cannot assume that based on this criterion alone, John would considered Favilla great.
+
+Choice D - This choice is wrong because it does not follow logically from John's statement.  We know that Muriel believes varied writing is a requirement for a great writer, and we know from John's statements that he doesn't believe varied writing is a necessary condition to be a great writer.  But, it is important to realize that just because John doesn't believe it's a necessary condition doesn't mean that it is a disqualifying condition.  John never says that a writer with a varied writing style does not deserve to be considered a great writer.  He just says it's not necessary to be considered a great writer.
+
+Choice E - Muriel uses this phrase--a distinctive style--to describe Favilla's novels.  Neither Muriel nor John indicate that a distinctive style is a necessary condition to be considered a great writer.
+
+===Question 05===
+
+This is an assumption question.  To know what is assumed, one should first determine what is concluded.  The statement concludes that the moons in solar system S4 all orbit the planet Alpha.  This conclusion is based on the premise that any moon orbits some planet in a solar system.  To get from this premise to the conclusion something has to be assumed, and the question asks you, the test taker, what is the assumption?
+
+Choice A - Even if choice A is true, it would not mean that that one moon in the entire solar system would orbit the planet Alpha unless something else is assumed.  So, this choice can be eliminated.
+
+Choice B - This choice simply restates the conclusion, and even if this were true, one could not properly conclude that all moons in the solar system orbit Alpha unless something else is assumed.  So, this choice can be eliminated.
+
+Choice C - This is the correct choice.  If one knows that any moon by definition, orbits some planet in a solar system, then one must assume that Alpha is the only planet in S4 in order to conclude that all the moons in solar system S4 orbit planet Alpha.
+
+Choice D - Assuming every planet in S4 is orbited by more than one moon would actually contradict the conclusion that all the moons in S4 orbit the planet Alpha.  This choice can be eliminated.
+
+Choice E - Assuming that there is at least one moon that orbits Alpha, would not ensure that all the moons in S4 orbit the planet Alpha.  This choice can be eliminated.
+
+===Question 06===
+===Question 07===
+===Question 08===
+===Question 09===
+===Question 10===
+===Question 11===
+===Question 12===
+===Question 13===
+===Question 14===
+===Question 15===
+===Question 16===
+===Question 17===
+===Question 18===
+===Question 19===
+===Question 20===
+===Question 21===
+===Question 22===
+===Question 23===
+===Question 24===
+===Question 25===
+===Question 26===
+
+[[{{BOOKCATEGORY}}|22]]

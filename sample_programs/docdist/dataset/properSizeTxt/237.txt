@@ -1,0 +1,39 @@
+[[../Some_Cocoa_essential_principles|Previous Page: Some Cocoa essential principles]] | [[../Containers_-_arrays%2C_and_dictionarys|Next Page: Containers - arrays, and dictionaries]]
+
+So far we have used Interface Builder to create a very simple interface for our "hello world" example. Now we'll look at it in a bit more detail so that we can see how to build much more complex and useful user interfaces.
+
+==Building a GUI==
+
+We have already discussed the concept of targets and actions in a very general way; now we'll see how Interface Builder makes extensive use of this to connect graphical controls to pieces of code that you write which implement the interesting functionality of your application.
+
+Using "hello world" as a starting point, let's add a simple action to our code so that we can see how this works. The action is very basic - it just sets the font size of the text as a slider control is moved. In Xcode, click on "GCHelloView.h" so that it appears in the editor. Now add the following line to the class definition, below the other methods, but before the '@end' statement:
+
+ - (IBAction)	textSizeAction:(id) sender;
+
+Then do a Save to make sure this change is saved to the file. Here, we have declared the return type of the method to be IBAction. In fact, this is just a macro which is just 'void', but anything tagged as IBAction can be automatically detected by Interface Builder as an ''action routine'', that is, one which can be connected to any control that supports the target/action mechanism. We'll come back to Xcode in a moment to implement this method, but first let's hook it up in IB.
+
+If IB isn't running, start it by double-clicking on 'MainMenu.nib'. Arrange the window in IB so that you can drag the file "GCHelloView.h" from Xcode to IB. This triggers IB to read the file, and so it will pick up the action method and add it to a list of available actions for the GCHelloView object. Next, switch back to the 'Instances' panel, and bring Window to the front by double-clicking its icon (or just click the window if you can see it). Make a bit of room at the bottom of the window by dragging it a little bigger. In the widgets palette, select the Controls panel (second from the left), and drag a horizontal slider control from the palette into the window. Make sure you put the slider in the space you made, not into the GCHelloView.
+
+Select the slider control, and open the Inspector (Tools->Show Inspector if it's not visible). Make sure the pop-up menu is set to 'Attributes'. Set the attributes as follows:
+
+* minimum - 9.0
+* maximum - 72.0
+* current - 48.0
+
+Also, check the boxes 'Continuously send action while sliding' and 'Enabled'. The other settings should remain at their default values.
+
+Next we need to give the slider control a target - that is, a connection to the object it should send the action to. IB sets up targets graphically. We control-drag FROM the sender of the action TO the target. A line will be drawn linking the two. Do that now - control-drag FROM the slider TO the GCHelloView. The Inspector will switch to the 'Connections' section and list all of the available action methods for GCHelloView. Highlight 'textSizeAction:' and click 'Connect' to make the connection. (Note - if textSizeAction: doesn't appear in the list, you can add it manually. Select GCHelloView in the 'Classes' list. Use the Inspector Attributes to switch to 'Actions', click 'Add', then type the name of the method - don't forget the colon! You might need to do this, since the earlier dragging of the file into IB, which should handle this for you, doesn't always seem to work reliably. Once you've added the method, try again with the control-drag step).
+
+Save the changes, then return to Xcode. We now need to implement the action method. Find and select the GCHelloView.m file. Add the following method to the body of the implementation:
+
+<pre>
+ - (IBAction)	textSizeAction:(id) sender
+ {
+	[self setText:[self text] withSize:[sender floatValue]];
+ }
+</pre>
+
+[[image:HWvers2.png|thumb|right|350px|Extended version of "Hello World" with slider control]]
+Now Build and run the project. Drag the slider... the text should change size as you drag.
+
+The above line implements the action. It is called whenever the slider is dragged to a new position, and sends a message to its own setText:withSize: method, passing the existing text ([self text]) and a size which is obtained from the slider's value itself. We set up the range of values in IB to be from 9 to 72 - this becomes the point size of the text. The 'sender' parameter to an action method is always the object that caused the action - in this case the slider. So we can simply call its 'floatValue' method to find out its current value, and simply pass that along as the text size. The change is immediately visible as you drag because we earlier added the line [self setNeedsDisplay:YES] to our setText:withSize: method, which causes Cocoa to call our drawRect: method, which redraws the text using the new size.

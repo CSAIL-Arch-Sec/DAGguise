@@ -1,0 +1,335 @@
+{{Old English}}
+What are '''adjectives'''? They are words used to describe either [[Old English/Nouns|nouns]] or [[Old English/Pronouns|pronouns]]. Like nouns and pronouns, they are declined according to number, gender, and case; and their number, gender, and case must always agree with the noun or pronoun that they are modifying. In addition, adjectives are also declined in either of two ways: strong or weak. This is governed by certain factors, for which see the section on the question [[Old English/Nouns#Strong or Weak?|"Strong or Weak?"]] below.
+
+==Strong Declension==
+Adjectives in Old English agree with the noun they describe in case, gender, and number.  There are several variations on the general declension, but overall, adjectives decline thus:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="4"|'''Singular'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''Masculine'''
+! style="background:#fed;" |'''Neuter'''
+! style="background:#fed;" |'''Feminine'''
+|-
+| style="background:#fed;"|'''Nominative''' || - || - || -(u)
+|-
+| style="background:#fed;"|'''Accusative''' || -ne || - || -e
+|-
+| style="background:#fed;"|'''Genitive''' || -es || -es || -re
+|-
+| style="background:#fed;"|'''Dative''' || -um || -um || -re
+|-
+| style="background:#fed;"|'''Instrumental''' || -e || -e || -re
+|}
+
+Notice that the genitive, dative, and instrumental feminine are all ''-re'', the masculine and neuter genetive are both "-es", and masculine and neuter dative are both "-um", and masculine and neuter instrumental are both "-e". Also, the neuter adjective adds no ending in the nominative/accusative case, just like neuter nouns themselves.  Basically, you can see that the adjective ending will roughly correspond to the article ending (''þæs'' and ''-es'', ''þǣm'' and ''-um'', ''þǣre'' and ''-re', etc.).
+
+Here's an example:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="4"|'''"Gōd" - "good"'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''Masculine'''
+! style="background:#fed;" |'''Neuter'''
+! style="background:#fed;" |'''Feminine'''
+|-
+| style="background:#fed;"|'''Nominative''' || gōd || gōd || gōd
+|-
+| style="background:#fed;"|'''Accusative''' || gōd-ne || gōd || gōd-e
+|-
+| style="background:#fed;"|'''Genitive''' || gōd-es || gōd-es || gōd-re
+|-
+| style="background:#fed;"|'''Dative''' || gōd-um || gōd-um || gōd-re
+|-
+| style="background:#fed;"|'''Instrumental''' || gōd-e || gōd-e || gōd-re
+|}
+
+In the plural, we find:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="7"|'''Plural'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''Masculine'''
+! style="background:#fed;" |'''Neuter'''
+! style="background:#fed;" |'''Feminine'''
+|-
+| style="background:#fed;"|'''Nominative''' || -e || -(u) || -a, -e
+|-
+| style="background:#fed;"|'''Accusative''' || -e || -(u) || -a, -e
+|-
+| style="background:#fed;"|'''Genitive''' || -ra || -ra || -ra
+|-
+| style="background:#fed;"|'''Dative''' || -um || -um || -um 
+|-
+| style="background:#fed;"|'''Instrumental''' || -um || -um || -um 
+|}
+
+Notice that genitive and dative are the same in all genders for plural. Note also the instrumental is exactly the same as the dative. The "-e" ending for nominative and accusative feminine was used in later Old English.
+
+Here's an example of the plural:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="4"|'''"Gōd" - "good"'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''Masculine'''
+! style="background:#fed;" |'''Neuter'''
+! style="background:#fed;" |'''Feminine'''
+|-
+| style="background:#fed;"|'''Nominative''' || gōd-e || gōd || gōd-a, gōd-e
+|-
+| style="background:#fed;"|'''Accusative''' || gōd-e || gōd || gōd-a, gōd-e
+|-
+| style="background:#fed;"|'''Genitive''' || gōd-ra || gōd-ra || gōd-ra
+|-
+| style="background:#fed;"|'''Dative''' || gōd-um || gōd-um || gōd-um 
+|-
+| style="background:#fed;"|'''Instrumental''' || gōd-um || gōd-um || gōd-um 
+|}
+
+===Adjectives with æ in the stem===
+
+If an adjective has a monosyllabic stem and has æ for its vowel, and the æ is followed by a single consonant, as in the words glæd ("glad") and blæc ("black), then an extra rule comes into play: the æ changes to an a whenever the adjective acquires a suffix which begins with a vowel.
+
+For example, here is the strong declension of glæd.
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="7"|'''Example of the Strong Adjective Declension: glæd 'glad' '''
+|-
+! style="background:#e74;" rowspan="2"|'''Case'''
+! style="background:#fed;" colspan="2"|'''Masculine'''
+! style="background:#fed;" colspan="2"|'''Neuter'''
+! style="background:#fed;" colspan="2"|'''Feminine'''
+|-
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+|-
+| style="background:#fed;"|'''Nominative''' || glæd || glade || glæd || gladu || gladu || glade
+|-
+| style="background:#fed;"|'''Accusative''' || glædne || glade || glæd || gladu || glade || glade
+|-
+| style="background:#fed;"|'''Genitive''' || glades || glædra || glades || glædra || glædre || glædra
+|-
+| style="background:#fed;"|'''Dative''' || gladum || gladum || gladum || gladum || glædre || gladum
+|-
+| style="background:#fed;"|'''Instrumental''' || glade || gladum || glade || gladum || glædre || gladum
+|}
+
+There is no need to supply the weak declension, since in the weak declension every suffix begins with a vowel.
+
+===Adjectives with -ƿ===
+
+We shall give ġearu ("ready") as an example of this type of adjective. Here is the strong declension:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="7"|'''Example of the Strong Adjective Declension: gearu 'ready' '''
+|-
+! style="background:#e74;" rowspan="2"|'''Case'''
+! style="background:#fed;" colspan="2"|'''Masculine'''
+! style="background:#fed;" colspan="2"|'''Neuter'''
+! style="background:#fed;" colspan="2"|'''Feminine'''
+|-
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+|-
+| style="background:#fed;"|'''Nominative''' || ġearu || ġearƿe || ġearu || ġearu || ġearu || ġearƿe
+|-
+| style="background:#fed;"|'''Accusative''' || ġearone || ġearƿe || ġearu || ġearu || ġearƿe || ġearƿe
+|-
+| style="background:#fed;"|'''Genitive''' || ġearƿes || ġearora || ġearƿes || ġearora || ġearore || ġearora
+|-
+| style="background:#fed;"|'''Dative''' || ġearƿum || ġearƿum || ġearƿum || ġearƿum || ġearore || ġearƿum
+|-
+| style="background:#fed;"|'''Instrumental''' || ġearƿe || ġearƿum || ġearƿe || ġearƿum || ġearore || ġearƿum
+|}
+
+This again can be explained in terms of a few simple rules:
+
+* Where the ordinary strong declension has ''no'' suffix, -ƿ adjectives have the suffix -u.
+* Where the ordinary strong declension has a suffix beginning with a consonant, -ƿ adjectives have an o followed by the appropriate suffix.
+* Where the ordinary strong declension has a suffix beginning with a vowel, -ƿ adjectives have a ƿ followed by the appropriate suffix.
+
+There is no need to give the weak declension, since in the weak declension every number and case has a suffix beginning with a vowel; -ƿ adjectives will therefore uniformly precede this suffix with a ƿ.
+
+===Adjectives with -e===
+
+Adjectives such as sƿēte ("sweet") follow a very simple rule: the e at the end is displaced by any suffix, but stays where it is if there is no suffix. Hence the strong declension looks like this:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="7"|'''Example of the Strong Adjective Declension: sƿēt "sweet" '''
+|-
+! style="background:#e74;" rowspan="2"|'''Case'''
+! style="background:#fed;" colspan="2"|'''Masculine'''
+! style="background:#fed;" colspan="2"|'''Neuter'''
+! style="background:#fed;" colspan="2"|'''Feminine'''
+|-
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+| style="background:#fed;"|'''Singular'''
+| style="background:#fed;"|'''Plural'''
+|-
+| style="background:#fed;"|'''Nominative''' || sƿēte || sƿēte || sƿēte || sƿētu || sƿētu || sƿēte
+|-
+| style="background:#fed;"|'''Accusative''' || sƿētne || sƿēte || sƿēte || sƿētu || sƿēte || sƿēte
+|-
+| style="background:#fed;"|'''Genitive''' || sƿētes || sƿētra || sƿētes || sƿētra || sƿētre || sƿētra
+|-
+| style="background:#fed;"|'''Dative''' || sƿētum || sƿētum || sƿētum || sƿētum || sƿētre || sƿētum
+|-
+| style="background:#fed;"|'''Instrumental''' || sƿēte || sƿētum || sƿēte || sƿētum || sƿētre || sƿētum
+|}
+
+Again, there is no real need to give the weak declension — or the strong one, really, since the rule is so simple.
+
+==Weak Declension==
+
+Here's the singular weak declension:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="4"|'''Singular'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''Masculine'''
+! style="background:#fed;" |'''Neuter'''
+! style="background:#fed;" |'''Feminine'''
+|-
+| style="background:#fed;"|'''Nominative''' || -a || -e || -e
+|-
+| style="background:#fed;"|'''Accusative''' || -an || -e || -an
+|-
+| style="background:#fed;"|'''Genitive''' || -an || -an || -an
+|-
+| style="background:#fed;"|'''Dative''' || -an || -an || -an
+|-
+| style="background:#fed;"|'''Instrumental''' || -an || -an || -an
+|}
+
+Notice that the weak declension is much more uniform and simple than the strong declension. Notice also that it is exactly the same as the weak noun declension.
+
+Here's an example of the singular:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="4"|'''"Gōd" - "good"'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''Masculine'''
+! style="background:#fed;" |'''Neuter'''
+! style="background:#fed;" |'''Feminine'''
+|-
+| style="background:#fed;"|'''Nominative''' || gōd-a || gōd-e || gōd-e
+|-
+| style="background:#fed;"|'''Accusative''' || gōd-an || gōd-e || gōd-an
+|-
+| style="background:#fed;"|'''Genitive''' || gōd-an || gōd-an || gōd-an
+|-
+| style="background:#fed;"|'''Dative''' || gōd-an || gōd-an || gōd-an
+|-
+| style="background:#fed;"|'''Instrumental''' || gōd-an || gōd-an || gōd-an
+|}
+
+Here's the plural weak declension:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="7"|'''Plural'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''All genders'''
+|-
+| style="background:#fed;"|'''Nominative''' || -an 
+|-
+| style="background:#fed;"|'''Accusative''' || -an
+|-
+| style="background:#fed;"|'''Genitive''' || -ena
+|-
+| style="background:#fed;"|'''Dative''' || -um 
+|-
+| style="background:#fed;"|'''Instrumental''' || -um
+|}
+
+Notice again that: It is simpler than the strong declension; it is exactly the same as the weak noun declension; and it is exactly the same for all genders.
+
+Here's an example of a weak plural adjective:
+
+{| border=1 style="text-align:center; margin:1em 1em 1em 0; border:1px #333 solid; border-collapse:collapse;"
+! style="background:#fd8;" colspan="7"|'''"Gōd" - "good"'''
+|-
+! style="background:#e74;" |'''Case'''
+! style="background:#fed;" |'''All genders'''
+|-
+| style="background:#fed;"|'''Nominative''' || gōd-an 
+|-
+| style="background:#fed;"|'''Accusative''' || gōd-an
+|-
+| style="background:#fed;"|'''Genitive''' || gōd-ena
+|-
+| style="background:#fed;"|'''Dative''' || gōd-um 
+|-
+| style="background:#fed;"|'''Instrumental''' || gōd-um
+|}
+
+==Strong or Weak?==
+You can tell when to use the strong or weak declension.
+
+An adjective would be declined weak if: 
+#It was always declined weak (like most ordinal numbers, and all comparative adjectives)
+#It was preceded by the definitive article ("se/sēo/þæt" and all its declined forms), either of the demonstratives ("se/sēo/þæt" and all its declined forms and "þes/þis/þēos" and all its declined forms), or any possessive personal pronoun (mīn, þīn, sīn) except for the third person possessive pronouns ("his/hire/heora") - unless the adjective was one of the few adjectives that were always declined strong, like ''ōðer'' - "second"
+#It was used in a nickname and came after the personal name it modified (for more info see: [[Old English/Titles and Nicknames]]
+
+In all other cases, the adjective was declined strong, including if it came after a linking verb:
+*''Iċ eom grēat'' - "I am great"
+*''Þā ƿihta ƿǣron fǣtta'' - "The creatures were fat").
+
+==Comparatives and Superlatives==
+The comparative and superlative forms are like Modern English "more" and "most", as is "more intelligent" and "most intelligent" or "better" and "best".
+
+In Old English, all comparative adjectives were declined according to the weak declension - no matter what. The comparative degree was usually formed with the suffix "-ra" (the "a" being the weak masculine singular ending - so it should be replaced by other grammatical endings when it is declined). The superlative degree ("most") was usually formed by adding the suffix "-ost" to an adjective; but like the normal positive degree, it was sometimes declined weak and sometimes declined strong (see the "Strong or Weak?" section above for more information). For example:
+
+*ƿīs ("wise") - ƿīsra ("wiser") - ƿīsost ("wisest")
+*cræftiġ ("crafty, skilled") - cræftiġra ("craftier, more skilled") - cræftigost ("craftiest, most skilled")
+*hefiġ ("heavy, important") - hefiġra (""heavier, more important") - hefigost ("heaviest, most important")
+
+The superlative adjective mostly take the weak declension however for the nominative, accusative and the neuter case can take the strong. <ref> Joseph Wright's Old English Grammar, 221</ref>
+
+Some common adjectives undergo i-mutation in the comparative and superlative, and have -est instead of -ost as the superlative suffix. Examples are:
+
+* eald ("old") - ieldra ("older") - ieldest ("oldest") (Note the same mutation in archaic Modern English "elder"/"eldest".)
+* ġeong ("young") - ġingra ("younger") - ġingrest ("youngest")
+* hēah ("high") - hīerra ("higher") - hīehst ("highest")
+* strang ("strong") - strengra ("stronger") - strengest ("strongest")
+* lang ("long") - lengra ("longer") - lengest ("longest")
+
+Some adjectives formed their comparative and superlative degrees irregularly, and need to be memorized:
+
+*gōd ("good") - betera ("better") - betst ("best")
+*yfel ("bad, evil") - ƿirsa ("worse") - ƿirst ("worst")
+*lytel ("little, small") - læssa ("smaller, less") - læst
+*miċel ("much, great") - māra ("more, greater") - mǣst ("most, greatest")
+
+==Adjectives and Cases==
+Sometimes adjectives in Old English can govern cases, like prepositions. We do a similar thing in Modern English, but we usually use prepositions instead of cases; for example, the adjective "full" can be followed by the preposition "of", plus whatever something is "full of" - "The swimming pool was full of slime".
+
+===Adjectives Governing the Dative===
+*Ġelīċ - like, similar to
+**''Hē þūhte ȝelīċ hunde'' - "He seemed similar to a dog"
+*Midsprecende - speaking on behalf of
+**''þū þe ƿǣre midsprecende þǣm Hǣlende'' - "you who were speaking on behalf of the Lord"
+
+===Adjectives Governing the Genitive===
+*Full - full (of)
+**''Þæt fæt ƿæs full ƿæteres'' - "The container was full of water"
+
+===Footnotes===
+{{BookCat}}

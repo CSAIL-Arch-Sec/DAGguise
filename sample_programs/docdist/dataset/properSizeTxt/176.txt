@@ -1,0 +1,142 @@
+==News Groups==
+<p>A News Group is a message board posted in cyberspace where participants exchange information on topics of common interest. The range of subject matter is as limitless as the content of the internet itself; there are News Groups for topics as varied as dance shoes, dog grooming, software and global warming.</p>
+<p> News Groups differ from news found in the media because they invite the user to contribute to the discussion rather than simply absorbing information. You needn't be a scholar or pundit to participate, you only need to have some pertinent information or question. This is called "Open Source". Open Source is a highly effective way of information exchange because is allows a greater spectrum of people to participate; allowing average Joe to contribute is a good idea because as has been proven,(by Wikipedia and others) the general public is often a greater source of info than a small group of specialists.</p>
+
+<p> When posting a message on a News Group the participant must type in what the message is referring to, (much like a subject box with email) and then write what is called an "Article" or message. The article is the information the participant is offering. An article is not defined by its length but rather by the fact that a contribution to the News Group has been made. It may be a single paragraph, sentence, or word.</p>
+<p> News Groups often have a series of related topics or sub- categories call "Hierarchies". These hierarchies can supply useful back ground info for News Groups topics and also act as a link to the plethora of other News Group topics available for exploration.</p>
+
+<P> News Groups are hosted on network of computers called Usenet. A specialized program is required for the user to read and access information. Payment and registration are required and News Groups as a general rule do  not edit, regulate, or filter content.  See Usenet disclaimer below: <br>
+
+''Please note: Usenet.com does not control the newsgroups on Usenet. We do not post content in the newsgroups or create their names. Each newsgroup and each post that are created are the sole responsibility of those who created them. We do not control what people post to the Usenet newsgroups. Our servers are classified as a "transitory network." A newsgroup name in and of itself does not mean that what is posted to that group corresponds to the name of the newsgroup.</br></p>
+
+
+ 
+==Email==
+<u><i><font color="#770077"><font size="4">Email</font></font></i></u> becomes more and more popular in modern society. People use email to communicate each other easily comparing with writing a letter. First of all, people using email correctly save a lot of time and using email the right way will get faster responses. Secondly, people can share their experience with email.
+ 
+<H4>Advantages for using email</H4> 
+<table border=4><tr><td> 1. Email is effective in finding the right person in an organization or company to answer your question. 
+2. Email is good to make appointments for busy people. 
+3. Email can distribute information quickly to many people for the time it takes to email one person.</td></table>
+
+<H4>Disadvantages for using email</H4>
+<table border=4><tr><td> 1. Email can become time-consuming for answering complicated questions and misunderstandings can arise because cultural differences in the interpretation of certain words. The telephone is much better for providing detailed answers or if you feel that the question is not absolutely clear.
+2. Email can compromise the security of an organization because sensitive information can be easily distributed accidentally or deliberately. Email should be entrusted to well trained and trusted staff members. 
+3. Email sometimes can become impersonal or misunderstood.</td></table>
+==Spam==
+[[File:No-spam.svg|100px|thumb|left]]
+<b>Spam</b> is the electronic version of junk mail.  It is unsolicited e-mail sent to large groups of people at one time.  It is used to sell products or services, but can also be used for fraudulent purposes such as phishing schemes, or counterfeit products.  The best way to prevent spam is by using your e-mail address for only trusted sources, such as family, friends and work associates.  For activities such as online shopping, or other things that may lead to spam, you can use a second e-mail address, which could be a free account from Yahoo, Hotmail, or Google’s Gmail.  These e-mail accounts are often called disposable or throw-away addresses, because once they become too overwhelming, you can quit using it, and start a new one.  Some ISPs provide disposable e-mail addresses for their subscribers, and then the subscriber can delete the address when it is no longer wanted or needed.  <i>Anonymous e-mail services</i> allow users to create/delete anonymous accounts which are forwarded to an account specified by the user.  These companies generally charge a yearly fee for their service.
+
+
+
+==Blog==
+
+ 
+*''' What it is ''' 
+
+A blog is a means of which people can post information onto the internet and the responding readers can feel free to post comments or their own point of view.Blogs can take many forms for instance online personal journals which allows people to express themselves through there own identity or a username. In some cases entire sites are dedicated to individual blogs, where the topics can be of a political point of view to the simplest comments on a genre of music. One of the key attractions about blogs is the motivation to state your opinion and there is no cost in starting a blog.
+
+
+*'''Who can use it'''
+
+Blogs for the most part are open to anyone and everyone; however some sites pose age restriction. So that minors have to seek parents' approval and acknowledgement before venturing out onto the World Wide Web. This is in place to protect children from venturing onto blogs with mature content. These are common restriction becoming more active as the internet becomes more available to youth and access at schools and libraries. 
+
+
+
+*'''What the content is '''
+
+The content in blogs can range from properly planting tomatoes, to a person’s daily journal about life. Blogs content usually depends on the writer of the blog, if the person maybe a retired train engineer the blog could possibly be about years of work and accessing the right resources to becoming a train engineer. Or possibly the online journal of a celebrity keeping her/his fans informed of tour dates and the daily life on a tour bus and the interesting life style.
+
+
+*'''Where the future of blogs is'''
+
+As blogs have become more evidently popular, people have started to combine blogs and media players together. Individuals are now setting up blogs with the addition of their favorite music or music which they have created. These sites have started to evolve to the point of where millions of users are adding to their own blog and checking on friends or new users. Commenting on not only the blog but the selection of music and leaving comments so that the owner of the blog may start a discussion with the commenting user. An example of one of these sites is http://www.myspace.com, http://www.youtube.com and many more.
+
+
+*'''Resources'''
+
+myspace.Retrieved september 25 ,2006,from http://www.myspace.com
+
+youtube.Retrieved september 25 ,2006,from http://www.youtube.com
+
+== Instant Messaging ==
+[[ IM Introduction ]]
+
+Exchanging messages in real-time between two or more people. Unlike a dial-up system such as the telephone, instant messaging (IM) requires that both parties be logged onto their IM service at the same time. Also known as a "chatting," IM has become very popular for both business and personal use. In business, IM provides a way to contact co-workers any time of the day, providing they are at their computers. Thus, IM is often used as a way to avoid telephone tag, whether the communication continues as text messages or winds up as a traditional phone call.
+
+[[ IM History ]]
+
+Since the early '90s, AOL has always had a form of Instant Messaging but it wasn't until 1996, when they introduced the Buddy List feature, that it really took off. In the same year, ICQ (I Seek You) burst onto the Internet scene and helped popularize Instant Messaging. Whereas AOL Instant Messaging was exclusive to AOL members, ICQ was a free IM software available for download to anyone. 
+
+In 1997, AOL introduced AIM (AOL Instant Messenger), which allowed its members to talk with non-members for the first time. AIM eventually usurped ICQ as the prevalent IM client, and in 1998, AOL bought Mirablis (ICQ's creator), thus becoming the dominant player in Instant Messaging. 
+
+As the popularity of Instant Messaging grew, other IM clients like MSN Messenger, Yahoo Messenger and a variety of smaller players eventually entered the mix. However, it's important to point out that there is no interoperability between the different IM clients. Each IM software uses its own proprietary system and network.
+
+[[ Benefits ]]
+
+Instant messaging typically boosts communication and allows easy collaboration. In contrast to e-mails or phone, the parties know whether the peer is available. Most systems allow the user to set an online status or away message so peers get notified whenever the user is available, busy, or away from the computer. On the other hand, people are not forced to reply immediately to incoming messages. This way, communication via instant messaging can be less intrusive than communication via phone, which is partly a reason why instant messaging is becoming more and more important in corporate environments. Also, the fact that instant messages typically get logged in a local message history closes the gap to the persistent nature of e-mails, facilitating quick, safe, and persistent exchange of information such as URLs or document snippets, which can be unwieldy when done using inappropriate media such as phone.
+
+== VOIP ==
+Basically VoIP stands for voice over internet protocol; which is when a
+you use the internet to conduct your phone calls, allowing for
+video-conferencing through a link to a videophone. The voice signal from
+your phone is converted into a digital signal that travels through the
+internet into either another phone using VoIP or through a adapter to a
+regular phone number. To be able to use this service you require a high
+speed internet connection through either a cable modem or high speed
+services and your choice of a microphone which is connected directly into
+the computer or through a telephone connected to your computer. Since the
+service is digital there are some advantages and disadvantages that come
+along with use of VoIP.
+
+The advantages include not needing to maintain and pay the additional cost
+for a line just to make telephone call, as well with many VoIP plans you
+can talk for as long as you want with any person in the world, you are also
+able to talk with many people at the same time without any additional
+cost. For individuals who are traveling, VoIP provides the advantage of portability, as long
+as you have access to a broadband connection. With access to a broadband connection you can easily and cheaply
+keep in touch. Many of the same features that you’ve come to expect as
+standard with your traditional and cell phone service are available with your
+VoIP service. These services include call forwarding, call waiting, voicemail,
+caller ID and more are available through your ip phone
+. You can also send data, as you would with a broadband internet connection, like pictures and documents, all
+while talking on the phone.
+
+ The disadvantages of this service include some VoIP services not
+working during power outages and back up power is not guaranteed. As well,
+not all VoIP service providers connect directly to emergency services
+through 9-1-1, they require an outside link to receive service. There are
+also issues with VoIP sound quality and reliability. Just like any data
+sent over the internet, it is sent through little
+“packets”. Due to the real-time nature of voice communication, the
+reassembly process becomes more of a problem with VoIP. In order to
+minimize the delay of the voice connection, some data packets may
+occasionally need to be “dropped” if they don’t arrive in time, resulting in periods of silence in the conversation
+
+
+'''Microwave and Satellite Transmissions'''
+
+[[File:Lockheed WC-130 (2152189123).jpg|100px|thumb|Add Lockheed WC-130]]
+
+
+Microwaves are high frequency radio signals that can send large quantities of data at high speed over long distances. Microwave signals can be sent or received using microwave stations or communication satellites, but only can travel in straight line from one station or one satellite to another without encountering any obstacles, since microwave signals are line of sight.  Microwave stations are earth-based stations that can transmit signals directly to each other over distances of up to about 30 miles.  To avoid buildings, mountains and the curvature of the earth obstructing the signal, microwave stations are usually placed on tall buildings, towers, mountaintops. Microwave stations contain both a dish-shaped microwave antenna and a transceiver. When one station receives a transmission from another, it amplifies it and passes it on to the next station. Microwave stations can exchange data transmissions with communication satellite and also with other microwave stations. Microwave stations designed specifically to communicate with satellite such as satellite TV and satellite Internet services are also called satellite dishes. Satellite dishes are installed permanently where they are needed.  They can also be mounted on trucks, boats, RVs and other types of transportation devices when portable transmission capabilities are necessary such as military or recreational applications.  
+
+[[File:100 3376.JPG|100px|left]]
+
+'''Communication satellites'''– are space-based devices launched into orbit around the earth to receive and transmit microwave signals to and from earth. Communication satellite was originally used to facilitate microwave transmissions when microwave stations were not economically viable such as largely populated areas or were physically impractical such as over large bodies of water.  Today, communication satellites are used to send and receive transmissions to and from a variety of other devices such as personal satellite dishes used for satellite television and Internet service.  GPS receivers, satellite radio receivers and satellite phones.  
+
+
+
+
+
+== Webcasts ==
+
+
+[[/What is Webcasting]]
+
+[[/Benefits of Webcasting]]
+
+[[/Costs of Webcasting]]
+
+
+{{BookCat}}

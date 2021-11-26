@@ -1,0 +1,168 @@
+Misiurewicz point is the parameter c ( point oc parameter plane) where the critical orbit is pre-periodic.
+* [[Fractals/Iterations_in_the_complex_plane/def_cqp#Misiurewicz|description at wikipedia]] 
+
+=Properities=
+* "Around Misiurewicz points (which are only countable but dense), the Mandelbrot set looks locally like the corresponding Julia set, in particular it looks locally very different for each Misiurewicz point." Pablo Shmerkin<ref>[https://mathoverflow.net/questions/74458/is-there-some-known-way-to-create-the-mandelbrot-set-the-boundary-with-an-ite mathoverflow question: is-there-some-known-way-to-create-the-mandelbrot-set-the-boundary-with-an-ite]</ref>
+* [http://mathr.co.uk/blog/2017-06-06_asymptotic_selfsimilarity.html The Mandelbrot is asymptotically self-similar about pre-periodic Misiurewicz points.]
+
+==notation==
+Misiurewicz polynomial ( map) can be marked by:<ref>[https://vtechworks.lib.vt.edu/bitstream/handle/10919/27581/Wilkerson_ME_D_2012.pdf?sequence=1 Finite Subdivision Rules from Matings of Quadratic Functions: Existence and Constructions by  Mary E. Wilkerson]</ref> 
+*  the parameter coordinate c ∈ M
+* the external angle <math>\theta</math> of the ray that lands:
+** at z = c in J(f) on the dynamic plane
+** at c in M on the parameter plane
+
+
+<math> c =  \gamma_M(p/q) </math>
+
+so 
+
+<math> z^2 + c = z^2 + \gamma_M(p/q) </math>
+
+Examples:
+* the Kokopelli Julia set <math>c = \gamma_M(3/15) = 0.156520166833755  +1.032247108922832 i </math> <ref>[http://www.mndynamics.com/papers/qmate.pdf The Thurston Algorithm for quadratic matings by Wolf Jung]</ref> The angle  3/15 = p0011 = 0.(0011) has  preperiod = 0  and  period = 4. The conjugate angle on the parameter plane is  4/15  or  p0100. The kneading sequence is  AAB*  and the internal address is  1-3-4. The corresponding parameter rays are landing at the root of a primitive component of period 4.
+
+
+===preperiod===
+
+Preperiod is used in 2 meanings :
+* K =preperiod of critical point
+* k = preperiod of critical value
+
+Note that :
+
+  k = K -1
+
+Period p is the same for critical value and citical point
+
+    "... the usual convention is to use the preperiod of the critical value. This has the advantage, that the angles of the critical value have the same preperiod under doubling as the point, and the same angles are found in the parameter plane." ( Wolf Jung )
+
+==types==
+
+===period===
+
+  
+
+Misiurewicz points c
+* with [[Fractals/Mathematics/Period|period]] 1 are of the type:<ref>[http://www.mndynamics.com/papers/thesis.pdf W Jung : Homeomorphisms on Edges of the Mandelbrot Set Ph.D. thesis of 2002]</ref>
+** alpha, i.e. <math>f^k_c(c) = \alpha_{c}</math>
+** beta, i.e  <math>f^k_c(c) = \beta_{c}</math>
+* with period > 1 
+
+where [[:w:Periodic_points_of_complex_quadratic_mappings#Complex_dynamics|alfa and beta are fixed points of complex quadratic polynomial]]
+
+===Topological ===
+
+all Misiurewicz points are centers of the spirals, which are turning:<ref>[https://books.google.pl/books?id=GvnxBwAAQBAJ&pg=PA461&lpg=PA461&dq=misiurewicz+point+spiral&source=bl&ots=sCoJHroawK&sig=ACfU3U2Rq5J1I2QPRZECviBuwoxDQ56PJQ&hl=pl&sa=X&ved=2ahUKEwi19o_r3NTjAhWo-yoKHfMQDAEQ6AEwDnoECAgQAQ#v=onepage&q=misiurewicz%20point%20spiral&f=false Book : Fractals for the Classroom: Part Two: Complex Systems and Mandelbrot Set, page 461,  by  Heinz-Otto Peitgen, Hartmut Jürgens, Dietmar Saupe]</ref>
+* slow 
+* fast
+* if the Misiurewicz point is a real number, it does not turn at all
+
+
+Spirals can also be classified by the number of arms.
+
+Visual types:<ref>[https://users.math.yale.edu/public_html/People/frame/Fractals/MandelSet/MandelBoundary/Mis.html Fractal Geometry from Yale University by Michael Frame, Benoit Mandelbrot (1924-2010), and Nial NegerFebruary 2, 2013]</ref>
+* branch tips = terminal points of the branches<ref>[http://www.mrob.com/pub/muency/terminalpoint.html Terminal Point by  Robert P. Munafo, 2008 Mar 9. ]</ref> or tips of the midgets<ref>[http://mathoverflow.net/questions/32444/is-there-a-way-to-find-regions-of-depth-in-the-mandelbrot-set-other-than-simply?rq=1 mathoverflow question :  Is there a way to find regions of depth in the Mandelbrot set other than simply poking around?]</ref>
+* centers of spirals = fast spiral
+* branch point = points where branches meet<ref>[http://www.mrob.com/pub/muency/branchpoint.html Branch Point by Robert P. Munafo, 1997 Nov 19. ]</ref> = centers of slow spirals with more then 1 arm
+* band-merging points of chaotic bands (the separator of the chaotic bands <math>B_{i-1}</math> and <math>B_i</math> )<ref>[https://www.researchgate.net/publication/255579067_Symbolic_sequences_of_one-dimensional_quadratic_map_points Symbolic sequences of one-dimensional quadratic map points by G Pastor, Miguel Romera, Fausto Montoya Vitini]</ref> = 2 arm spiral
+
+===angles of external rays ===
+* endpoint  = 1 angle
+* primitive type  = 2 angles of primitive cycle
+* satellite type = 2 or more angles from satellite cycle
+
+where [[Fractals/Iterations_in_the_complex_plane/def_cqp#Primitive_and_satellite|primitive and satelite are the types of hyperbolic components]]
+
+===named types===
+
+====principal====
+[[Fractals/Iterations_in_the_complex_plane/p_misiurewicz|The principal Misiurewicz point]] <math> c= b</math> of the limb <math>M_{k/m}</math>:<ref>Families of Homeomorphic Subsets of the Mandelbrot Set by Wolf Jung page 7 </ref>
+* <math>f^m(b) =\alpha_b</math> 
+* hase m external angles, that are preimages (under doubling) of the external angles of <math>\alpha_b</math>
+
+====characteristic====
+
+Characteristic Misiurewicz point of the chaotic band of the Mandelbrot set is :<ref>[http://www.iec.csic.es/~gerardo/publica/Pastor07.pdf G. Pastor, M. Romera, G. Álvarez, D. Arroyo and F. Montoya, "On periodic and chaotic regions in the Mandelbrot set", Chaos, Solitons & Fractals, 32 (2007) 15-25]</ref>
+* the most prominent and visible Misiurewicz point of a chaotic band
+* have the same period as the band
+* have the same period as the gene of the band
+
+=Examples=
+
+Misiurewicz Points, part of the Mandelbrot set: 
+* Centre 0.4244 + 0.200759i; Max. Iterations 100; View radius 0.00479616 <ref>[http://www.redorbit.com/images/pic/28298/misiurewicz-points-part-of-the-mandelbrot-set-exact-location-in-m-set-centre-0-4244/#8R8GtciOzYgVLzAC.99 example]</ref>
+
+
+
+==videos==
+* [https://www.youtube.com/watch?v=h2fL7SC7suI Kalles Fraktaler - Dive into Misiurewicz]
+* [http://www.mndynamics.com/vids/embeds.mp4 Embedded Julia set similar to Misiurewicz Julia set by Wolf Jung ]
+
+==demos==
+* [[Fractals/mandel#Demos|Mandel demo]] 6 page 1
+==Images==
+* [[:commons:Category:Misiurewicz point|commons : category:Misiurewicz point]]
+
+=Computing=
+"... we do not know how to compute (...) Misiurewicz parameters (with high (pre)periods) for the family of quadratic rational
+maps. One might need to and a non-rigorous method to and Misiurewicz parameter in a reasonable time like Biham-Wenzel's method." HIROYUKI INOU <ref>[http://www.math.kyoto-u.ac.jp/~inou/preprint/visualization.pdf VISUALIZATION OF THE BIFURCATION LOCUS OF CUBICPOLYNOMIAL FAMILY by HIROYUKI INOU]</ref>
+==Computing Misiurewicz points of complex quadratic mapping==
+
+===roots of polynomial===
+Misiurewicz points <ref>[http://en.wikipedia.org/wiki/Misiurewicz_point MIsiurewicz point in wikipedia]</ref> are special boundary points.
+
+Define [[w:|polynomial]] in Maxima CAS :
+ P(n):=if n=0 then 0 else P(n-1)^2+c;
+
+Define a Maxima CAS function whose roots are Misiurewicz points, and find them.
+ M(preperiod,period):=allroots(%i*P(preperiod+period)-%i*P(preperiod));
+
+Examples of use :
+ (%i6) M(2,1);
+ (%o6) [c=-2.0,c=0.0]
+ (%i7) M(2,2);
+ (%o7) [c=-1.0*%i,c=%i,c=-2.0,c=-1.0,c=0.0]
+
+===factorizing the polynomials===
+" factorizing the polynomials that determine Misiurewicz points.  I believe that you should start with
+
+   ( f^(p+k-1) (c) + f^(k-1) (c) ) / c
+This should already have exact preperiod  k , but the period is any divisor of  p . So it should be factorized further for the periods.
+
+Example:
+For preperiod  k = 1 and period  p = 2  we have
+   c^3 + 2c^2 + c + 2 .
+This is factorized as  
+ (c + 2)*(c^2 + 1)  
+for periods  1  and  2 . I guess that these factors appear exactly once and 
+that there are no other factors,  but I do not know."Wolf Jung
+
+
+=== Misiurewicz domains===
+* [http://mathr.co.uk/blog/2015-02-01_misiurewicz_domains.html misiurewicz_domains by Claude Heiland-Allen]
+* [http://mathr.co.uk/blog/2017-11-21_misiurewicz_domain_coordinates_and_size_estimates.html Misiurewicz domain coordinates and size estimates by Claude Heiland-Allen]
+===Newton method===
+* [http://mathr.co.uk/blog/2015-01-26_newtons_method_for_misiurewicz_points.html Newton's method for Misiurewicz points by Claude Heiland-Allen]
+* [http://mathr.co.uk/blog/2013-01-29_preperiodic_mandelbrot_set_newton_basins.html Preperiodic Mandelbrot set Newton basins by Claude Heiland-Allen]
+
+==Finding external angles of rays that land on the Misiurewicz point==
+* [[Fractals/Iterations in the complex plane/p misiurewicz|Devaney algorithm for principle Misiurewicz point]]
+* [http://mathr.co.uk/blog/2013-02-01_navigating_by_spokes_in_the_mandelbrot_set.html Navigating by spokes in the Mandelbrot set by Claude Heiland-Allen]
+* [http://mathr.co.uk/blog/2015-01-15_external_angles_of_misiurewicz_points.html External angles of Misiurewicz points by Claude Heiland-Allen]
+* principal Misiurewicz point of wake p/q
+** [[Fractals/Iterations_in_the_complex_plane/p_misiurewicz|How to compute external angles of principal Misiurewicz point of wake p/q using Devaney's algorithm ? ]]
+** [[Fractals/mandel#Misiurewicz_point| program Mandel by Wolf Jung]]
+
+=Questions=
+* [https://math.stackexchange.com/search?q=misiurewicz+point Questions from math.SE related with Misiurewicz point]
+** [https://math.stackexchange.com/questions/2740655/golden-spirals-in-the-mandelbrot-set math.stackexchange question:  is there a Golden spiral in the Mandelbrot set?]
+* [https://mathoverflow.net/search?q=misiurewicz+point Questions from MO related with Misiurewicz point]
+
+=References=
+<references/>
+* [https://web.math.rochester.edu/people/faculty/doug/oldcourses/215s98/lecture7.html 7. Periodic and preperiodic points in the Mandelbrot set by : Professor Douglas C. Ravenel]
+* [http://www.ibiblio.org/e-notes/MSet/Lei90.htm M & J-sets similarity for preperiodic points. Lei's theorem by Douglas C. Ravenel]
+* [http://www.ibiblio.org/e-notes/MSet/pscale.htm Misiurewicz points and the M-set self-similarity by Douglas C. Ravenel]
+* [http://www.mrob.com/pub/muency/misiurewiczpoint.html Misiurewicz Point by Robert P. Munafo, 2013 May 28]
+{{BookCat}}

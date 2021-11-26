@@ -1,0 +1,133 @@
+{{Navigation|previous=Graph theory|next=Semigroup}}
+
+In this section we will look at certain mathematical processes which deal with the fundamental property of '''''recursion''''' at its core.
+
+== What is Recursion? ==
+Recursion, simply put, is the process of describing an action in terms of itself. This may seem a bit strange to understand, but once it "clicks" it can be an extremely powerful way of expressing certain ideas.
+
+Let's look at some examples to make things clearer.
+
+=== Exponents ===
+When we calculate an exponent, say ''x''<sup>3</sup>, we multiply ''x'' by itself three times. If we have ''x''<sup>5</sup>, we multiply ''x'' by itself five times.
+
+However, if we want a recursive definition of exponents, we need to define the action of taking exponents in terms of itself. So we note that ''x''<sup>4</sup> for example, is the same as ''x''<sup>3</sup> &times; ''x''. But what is ''x''<sup>3</sup>? ''x''<sup>3</sup> is the same as ''x''<sup>2</sup> &times; ''x''. We can continue in this fashion up to ''x''<sup>0</sup>=1. 
+What can we say in general then? Recursively, 
+: ''x''<sup>n</sup> = ''x'' &times; (''x''<sup>n-1</sup>)
+with the fact that
+: ''x''<sup>0</sup>=1
+
+We need the second fact because the definitions fail to make sense if we continue with negative exponents, and we would continue indefinitely!
+
+=== Recursive definitions===
+Reducing the problem into same problem by smaller inputs.
+for example
+             a power n
+             2 power 4
+    the recursion(smaller inputs) of this function is = 2.2.2.2.1
+    for this we declare some recursive definitions 
+   a=2
+   n=4
+   f(0)=1
+   f(1)=2
+   f(2)=2
+   f(3)=2
+   f(4)=2
+   for this recursion we form a formula f(n)= a.f(n-1)
+   by putting these smaller values we get the same answer.
+
+== Recurrence relations ==
+In mathematics, we can create recursive ''functions'', which depend on its previous values to create new ones. We often call these ''recurrence relations''.
+
+For example, we can have the function :''f''(''x'')=2''f''(''x''-1), with ''f''(1)=1
+If we calculate some of ''f''<nowiki>'</nowiki>s values, we get
+:1, 2, 4, 8, 16, ...
+
+However, this sequence of numbers ''should'' look familiar to you! These values are the same as the function 2<sup>''x''</sup>, with x = 0, 1, and so on.
+
+What we have done is found a ''non-recursive'' function with the same values as the ''recursive'' function. We call this ''solving'' the recurrence relation.
+
+=== Linear recurrence relations ===
+We will look especially at a certain kind of recurrence relation, known as ''linear''.
+
+Here is an example of a linear recurrence relation:
+: ''f''(''x'')=3''f''(''x''-1)+12''f''(''x''-2), with f(0)=1 and f(1)=1
+
+Instead of writing ''f''(''x''), we often use the notation ''a''<sub>n</sub> to represent ''a''(''n''), but these notations are completely interchangeable. 
+
+Note that a linear recurrence relation should always have stopping cases, otherwise we would not be able to calculate ''f''(2), for example, since what would ''f''(1) be if we did not define it? These stopping cases when we talk about linear recurrence relations are known as ''initial conditions''.
+
+In general, a linear recurrence relation is in the form
+: ''a''<sub>n</sub>=''A''<sub>1</sub>''a''<sub>''n''-1</sub> + ''A''<sub>2</sub>''a''<sub>''n''-2</sub>  + ... +  ''A''<sub>''j''</sub>''a''<sub>''n''-j</sub>
+: with ''f''(''t''<sub>1</sub>)=''u''<sub>1</sub>, ''f''(''t''<sub>2</sub>)=''u''<sub>2</sub>, ..., ''f''(''t''<sub>''j''</sub>)=''u''<sub>j</sub> as initial conditions.
+The number ''j'' is important, and it is known as the ''order'' of the linear recurrence relation. Note we always need at least ''j'' initial conditions for the recurrence relation to make sense.
+
+Recall in the previous section we saw that we can find a nonrecursive function (a ''solution'') that will take on the same values as the recurrence relation itself. Let's see how we can solve some linear recurrence relations - we can do so in a very systematic way, but we need to establish a few theorems first.
+
+==== Solving linear recurrence relations ====
+===== Sum of solutions =====
+This theorem says that:
+: If ''f''(''n'') and ''g''(''n'') are both solutions to a linear recurrence relation ''a''<sub>''n''</sub>=''Aa''<sub>''n''-1</sub>+''Ba''<sub>''n''-2</sub>, their sum is a solution also.
+
+This is true, since if we rearrange the recurrence to have ''a''<sub>''n''</sub>-''Aa''<sub>''n''-1</sub>-''Ba''<sub>''n''-2</sub>=0
+And we know  that ''f''(''n'') and ''g''(''n'') are solutions, so we have, on substituting into the recurrence
+: ''f''(''n'')-''Af''(''n''-1)-''Bf''(''n''-2)=0
+: ''g''(''n'')-''Ag''(''n''-1)-''Bg''(''n''-2)=0
+
+If we substitute the sum ''f''(''n'')+''g''(''n'') into the recurrence, we obtain
+: (''f''(''n'')+''g''(''n''))-''A''(''f''(''n''-1)+''g''(''n''-1))-''B''((''f''(''n''-2)+''g''(''n''-2))=0
+
+On expanding out, we have
+:''f''(''n'')-''Af''(''n''-1)-''Bf''(n-2)+''g''(''n'')-''Ag''(''n''-1)-''Bg''(n-2)
+But using the two facts we established first, this is the same as
+:0+0=0
+
+So ''f''(''n'')+''g''(''n'') is indeed a solution to the recurrence.
+
+=====General solution=====
+<!-- Replaced all occurences of '&alpha' with '&gamma' since the first looks too similar to the already used 'a'.-->
+The next theorem states that:
+: Say we have a second-order linear recurrence relation, ''a''<sub>''n''</sub>-''Aa''<sub>''n''-1</sub>-''Ba''<sub>''n''-2</sub>=0, with supplied initial conditions. 
+<BR>Then &gamma;''r''<sup>''n''</sup> is a solution to the recurrence, where ''r'' is a solution of the quadratic equation
+: ''x''<sup>2</sup>-''Ax''-''B''=0
+which we call the ''characteristic equation''.
+<br>We guess (it doesn't matter why, accept it for now) that &gamma;''r''<sup>''n''</sup> may be a solution. We can prove that this  is a solution IF (and only if) it solves the characteristic equation ;<br>
+
+We substitute &gamma;''r''<sup>''n''</sup> (''r'' not zero) into the recurrence to get
+:&gamma;''r''<sup>''n''</sup>-''A''&gamma;''r''<sup>''n''-1</sup>-''B''&gamma;''r''<sup>''n''-2</sup>=0
+then factor out by &gamma;''r''<sup>''n''-2</sup>, the term farthest on the right
+:&gamma;''r''<sup>''n''-2</sup>(''r''<sup>2</sup>-''Ar''-''B'')=0
+and we know that ''r'' isn't zero, so ''r''<sup>''n''-2</sup> can never be zero. So ''r''<sup>2</sup>-''Ar''-''B'' must be zero, and so &gamma;''r''<sup>''n''</sup>, with ''r'' a solution of ''r''<sup>2</sup>-''Ar''-''B''=0, will indeed be a solution of the linear recurrence. Please note that we can easily generalize this fact to higher order linear recurrence relations.
+
+<!-- this next bit could be removed?? does it help anyone? -->
+<br><B> Where did this come from? Why does it work (beyond a rote proof)?  Here's a more intuitive (but less mathematically rigorous) explanation. </B> <br>  Solving the ''characteristic equation'' finds a function that satisfies the linear recurrence relation, and conveniently doesn't require the summation of all ''n'' terms to find the ''n''<sup>th</sup> one.<br>
+We want :  a function F(''n'') such that F(''n'') =  ''A'' * F(''n''-1) + ''B'' * F(''n''-2) <br>
+We solve :  ''x''<sup>2</sup> = ''A''* ''x''  + ''B'', and call the solution(s) ''r''.  There can be more than one value of ''r'', like in the example below! <br>
+We get :  a function F(''n'')  = ''r''<sup>''n''</sup>  that satisfies F(''n'') = ''A'' * F(''n''-1) + ''B'' * F(''n''-2)<br>
+Let's check: Does  ''r''<sup>''n''</sup> = ''A''*''r''<sup>''n''-1</sup> + ''B''*''r''<sup>''n''-2</sup> ? Divide both sides by ''r''<sup>''n''-2</sup> and you get ''r''<sup>2</sup> = ''A''*''r'' + ''B'', which must be true because ''r'' is a solution to ''x''<sup>2</sup> = ''A''* ''x''  + ''B'' <br> 
+<!-- this is bad. substituting works much better. Is not possible to prove it this way -->
+<!-- I agree with the previous writer.-->
+<br> <B>Why does &gamma;*''r''<sup>''n''</sup> also satisfy the recurrence relation? </B> 
+<!-- If F(n) is a solution to the recurrence relation, so is F(n)+ F(n), based on the "Sum of Solutions" theorem above.  One can then take that sum, 2*F(n), and add another F(n) to get 3*F(n), and it will still satisfy the recurrence (and so on...).  Thus any whole number multiple of F(n), such as ''a''*F(n) will satisfy the recurrence relation (''a'' can also be any fraction and probably any real number at all, but I'm too lazy to adapt the current explanation).  Because r<sup>n</sup> satisfies the recurrence, so does ''a''*r<sup>n</sup>.  -->
+If F(''n'')=''r''<sup>''n''</sup> is a solution, that is, ''r''<sup>''n''</sup>-''A''*''r''<sup>''n''-1</sup>-''B''*''r''<sup>''n''-2</sup>=0, then certainly F(''n'')=&gamma;''r''<sup>''n''</sup> is a solution since &gamma;''r''<sup>''n''</sup>-''A''*&gamma;''r''<sup>''n''-1</sup>-''B''*&gamma;''r''<sup>''n''-2</sup>=&gamma;(''r''<sup>''n''</sup>-''A''*''r''<sup>''n''-1</sup>-''B''*''r''<sup>''n''-2</sup>)=0. 
+
+<br><br>
+Because we have a second order recurrence, the general solution is the sum of two solutions, corresponding to the two roots of the characteristic equation. Say these are r and s. The general solution is  C(r<sup>n</sup>)+D(s<sup>n</sup>) where C,D are some constants. We find them using the two (there must be two so that we can find C and D) starting values of the relation. Substituting these into the general solution will give two equtions which we can (hopefully) solve. 
+<!-- 
+for complex nums: CE has roots r = s \pm it = re^i\theta/GS is A(re^i\th)+B(re^-i\th), A, B in C|. if A=B*, r^n(a cos n\th+B sin n\th), a, b in |R
+-->
+
+====Example====
+Let's work through an example to see how we can use the above theorems to solve linear recurrence relations. Examine the function ''a''(''n'') given here
+: ''a''(''n'')=''a''(''n''-1)+2''a''(''n''-2)
+The characteristic equation of this recurrence relation is
+: ''r''<sup>2</sup>-''r''-2 = 0  from above, as A=1 and B=2<br>
+i.e. (''r''-2)(''r''+1)=0 which has roots 2, -1.
+
+So the general solution is C(2<sup>n</sup>)+D(-1)<sup>n</sup>.
+
+
+To find C and D for this specific case, we need two starting values, let's say ''a''(''1'') = 0 and ''a''(''2'') = 2.  These give a system of two equations<br> 0 = C(2<sup>1</sup>)+D(-1)<sup>1</sup> <br> 2 = C(2<sup>2</sup>)+D(-1)<sup>2</sup>  <br>  Solving these two equations yields: C = 1/3 , D = 2/3, so the solution is 1/3*(2<sup>n</sup>)+2/3*(-1)<sup>n</sup>.
+
+{{Navigation|previous=Graph theory|next=Semigroup}}
+
+{{BookCat}}

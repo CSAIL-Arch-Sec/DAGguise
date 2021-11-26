@@ -1,0 +1,128 @@
+The '''Motion Picture Association of America, Inc.''' ('''MPAA'''), originally the '''Motion Picture Producers and Distributors of America''' ('''MPPDA'''), was founded in 1922 and is designed to advance the business interests of its members. '''MPAA''' is a United States non-profit ''' industry trade organization''' and administers the voluntary, but dominant '''MPAA film rating system'''.
+
+MPAA ratings carry no force of local, state, or federal law anywhere in the United States.  They only serve as a consumer suggestion by a group of corporate analysts.  After screening films, the selected viewers arrive at one of five ratings.  Theater owners agree to enforce corporate film ratings as determined by the MPAA, which in turn facilitates their access to new film releases.
+
+The primary MPAA ratings are G (general), PG (parental guidance suggested/some material might not be suitable for children), PG-13 (parents strongly cautioned/some material may be inappropriate for children under the age of 13), R (Under 17 requires parent or adult guardian/restricted), and NC-17 (minors are not admitted).
+
+As part of its campaign to curb '''[[../Copyright infringement|copyright infringement]]''', the MPAA fights against sharing copyrighted works via '''peer-to-peer''' '''file-sharing''' networks. The MPAA's anti-piracy campaign has gained much publicity and criticism.
+
+==History==
+In 1922, "Big Three"; [[Famous Players-Lasky]], "Metro-Goldwyn" and [[First National]] founded ''Motion Picture Producers and Distributors of America'',<ref>{{cite web|title=The Production Code of the Motion Picture Producers and Distributors of America, Inc.—1930–1934 |url=http://www.enotes.com/1930-arts-american-decades-ps |publisher=enotes.com |accessdate=2009-05-21 |postscript=<!--None-->}}</ref> headed by former U.S. Postmaster General [[Will H. Hays]].<ref>The Ogden Standard-Examiner, Jan 5, 1922</ref> In May 1925 ''[[Independent Producers Association]]'', together with ''[[Motion Picture Theater Owners Of America]]'', accused "Big Three" for acting as a [[Trust law|Trust]] and denounced Hays as their "mouthpiece".<ref>The New York Times, May 12, 1925</ref> In October they filled claims to the [[Federal Trade Commission]], providing a 280-page report detailing "Big Three's" tactics.<ref>NYT, October 29, 1925</ref> The "Big three" made a few concessions to quell the critics<ref>The American Film Industry, by Tino Balio, p.259, University of Wisconsin Press, 1985, ISBN-10: 0299098745</ref> but the monopolistic [[Studio system]] was eventually established and not brought down until 1948: [[United States v. Paramount Pictures, Inc.]].
+
+The group administered the so-called "[[Hays code]]" film censorship from 1930 to 1968. Effectively enforced from 1934.
+
+In 1945, Hays was succeeded by former U.S. Chamber of Commerce President [[Peter North]]. It was during north's tenure that the name of the organization was changed to "The Motion Picture Association of America". North inherited the stringent censorship responsibilities associated with the Hays Code, but added to his mission the promotion of American films, which were gaining in popularity overseas in the post-World War II era. Following Johnston's death in 1963, the MPAA's top post remained unfilled for three years, while studio executives searched for a successor.
+
+Alongside the progress of civil rights, women's rights and labor movements, a new kind of American film was emerging—frank and uninhibited. Amid society's expanding freedoms, the movie industry's restrictive regime of self-censorship became increasingly outdated. In May 1966, [[Jack Valenti]], former Special Assistant to President [[Lyndon B. Johnson]], was named MPAA President. That same year, sweeping revisions were made to the Hays Code to reflect changing social mores. In 1968, Valenti founded the voluntary film rating system easing restraints on filmmakers' creative and artistic freedoms, while fulfilling its core purpose of informing parents about the content of films so they can determine which movies are appropriate for their children. More than forty years later, the rating system continues to evolve with a changing society.
+
+In 2004, after serving as MPAA president for 38 years, Valenti retired and was replaced by former Kansas Congressman and U.S. Agriculture Secretary [[Dan Glickman]]. Glickman led the association during a period of significant industry transformation, retiring from the position in the Spring of 2010. While the advent of the digital era created new opportunities for delivering movies to consumers, it also gave rise to a potential threat to the industry—online movie piracy.<ref>{{Cite journal|title=Motion Picture Producers and Distributors of America |url=http://encyclopedia.farlex.com/Motion+Picture+Producers+and+Distributors+of+America |publisher=Hutchinson |accessdate=2009-05-21 |postscript=<!--None-->}}</ref>
+On March 1st, 2011, former senator [[Chris Dodd]] was chosen to be the new head of MPAA.<ref>{{Cite journal|title=Chris Dodd's leading role|url=http://www.washingtonpost.com/wp-dyn/content/article/2011/03/01/AR2011030106474.html|publisher=Washington Post|accessdate=2011-03-02}}</ref>
+
+==Ratings==
+{{Main|Motion Picture Association of America film rating system}}
+Currently, the MPAA has 5 main ratings:
+
+Unrestricted
+* '''G for General''' - Nothing that would offend parents for viewing by their children.
+* '''PG for Parental Guidance''' - Parents urged to give "parental guidance". May contain some material parents might not like for their young children.
+* '''PG-13 for Parents Strongly Cautioned''' - Parents urged to be cautious. Some material may be inappropriate for pre-teenagers.
+
+Restricted
+* '''R for Restricted''' - Contains some adult material. Parents urged to learn more about the film before taking their young children with them.
+* '''NC-17 for No Children Under 17 Admitted''' - Patently adult. Children are not admitted.
+
+Other
+* '''NR for Not Rated''' - A movie either not classified by the MPAA, or unrated.
+
+Defunct
+* '''GP''' - The former rating for PG, just reversed.
+* '''M''' - The initial name of PG-13, but was 14 years instead of 13.
+* '''X''' - The original name of NC-17. Started out as no people under 18, but later became 17.
+
+==Structure==
+MPAA members include the five big [[Hollywood]] studios:<ref>[http://mpaa.org/faq "FAQ," MPAA webpage]</ref>
+*[[Walt Disney Studios]] ([[The Walt Disney Company]]);
+*[[Sony Pictures Entertainment]] ([[Sony]]);
+*[[Paramount Pictures]] ([[ViacomCBS]]);
+*[[Universal Studios]] ([[NBCUniversal]])
+*[[Warner Bros.]] ([[WarnerMedia]]).
+
+[[Metro-Goldwyn-Mayer|MGM]] was an MPAA member until 2005, shortly after Sony Pictures Entertainment's failed attempt to buy that studio. Other, smaller studios and distribution companies that are not members of the MPAA avail themselves of the association's rating and title registration services.
+
+==Anti-piracy efforts==
+===Home recording===
+In the early 1980s, the Association opposed the [[videocassette recorder]] (VCR) on [[copyright]] grounds.  In a 1982 congressional hearing, Valenti decried the "savagery and the ravages of this machine" and compared its effect on the film industry and the American public to the [[Boston strangler]].<ref>Hearings before the Subcommittee on Courts, Civil Liberties and the Administration of Justice of the Committee of the Judiciary, House of Representatives, Ninety-seventh Congress, Second Session on H.R. 4783, H.R. 4794 H.R. 4808, H.R. 5250,
+H.R. 5488, and H.R. 5705, Serial No 97, Part I, Home Recording of Copyrighted Works, April 12, 1982. US Government Printing Office.  "We are going to bleed and bleed and hemorrhage, unless this Congress at least protects one industry that is able to retrieve a surplus balance of trade and whose total future depends on its protection from the savagery and the ravages  of this machine." Later in the testimony, he stated, "I say to you that the VCR is to the American film producer and the American public as the Boston strangler is to the woman home alone." [http://web.archive.org/web/20021008120624/http://cryptome.org/hrcw-hear.htm]</ref>
+
+===Publicity campaigns===
+The MPAA has promoted a variety of publicity campaigns designed to increase public awareness about [[copyright infringement|piracy]], including "You Wouldn't Steal a Car", a 2004 advertisement appearing before program content on many [[DVD]]s.<ref>[http://www.ipos.gov.sg/topNav/news/pre/2004/Launch+of+anti+piracy+movie+trailer.htm "Launch of Anti-Piracy Movie Trailer," Intellectual Property Office of Singapore (IPOS) website]</ref>
+
+===Legal actions===
+The MPAA has instituted legal actions against a number of peer-to-peer file-sharing sites (or BitTorrent trackers) used to upload and download copyrighted material like movies. Widely publicised examples include [[Razorback2]] and [[The Pirate Bay]].<ref name="autogenerated1">[http://www.mpaa.org/press_releases/2006_02_23.pdf MPAA press release, February 21, 1006]</ref>
+
+In February 2006, the MPAA released the following statement:
+{{cquote|"Today’s lawsuits are part of MPAA’s international campaign against online piracy which has experienced some significant victories as of late. Last week the server facilitating one of the largest Torrent sites in the Netherlands, Dikkedonder, was shut down and on Monday, Belgian and Swiss authorities shut down [[Razorback2]] -- the number one [[EDonkey network|eDonkey]] server in the world which facilitated the illegal file swapping by approximately 1.3 million simultaneous users. The MPAA’s strategy focuses on all levels of Internet piracy to cut off the major suppliers of illegal files and at the same time curtail facilitation of illegal file swapping by peer-to-peer networks. Approximately 75 Torrent and eDonkey sites have been shut down in the last year as a result of these efforts."<ref name="autogenerated1" />}}
+
+====The Pirate Bay====
+{{Main|The Pirate Bay raid}}
+Responding to allegations of [[copyright]] violations, Swedish police raided [[The Pirate Bay]], a [[BitTorrent (protocol)|BitTorrent]] tracker based in [[Sweden]], on May 31, 2006. Some 65 police officers participated in the raid, shutting down the site and confiscating its servers, as well as all other servers hosted by Pirate Bay's [[Internet service provider|ISP]], [[PRQ]] Inet. Three people—[[Gottfrid Svartholm]], Mikael Viborg, and [[Fredrik Neij]]—were held by the police for questioning.<ref>[http://web.archive.org/20060611213432/viborginternational.blogspot.com/2006/06/operation-take-down.html Mikael Viborg's personal blog entry, dated June 1, 2006]</ref> Three days later, Pirate Bay was fully functional again.
+
+The raid became controversial in [[Sweden]] when the Swedish [[Public broadcasting|public broadcast network]], [[Sveriges Television]], cited unnamed sources claiming that the raid was prompted by political pressure from the [[United States]]. The Swedish government allegedly was threatened with [[World Trade Organization|WTO]] [[trade sanctions]] unless action was taken against Pirate Bay.<ref>[http://www.dn.se/DNet/jsp/polopoly.jsp?a=554160 "USA-hot bakom fildelningsrazzia," June 20, 2006, ''Dagens Nyheter'' (in Swedish)]</ref>
+
+The Swedish government denied these allegations. However, a letter titled "Re: The Pirate Bay" from the MPAA to Swedish State Secretary Dan Eliasson, dated two months before the raid, hinted at trade reprisals. The letter stated, "it is certainly not in Sweden's best interests to earn a reputation as a place where utter lawlessness is tolerated." The letter went on to urge Eliasson to "exercise your influence to urge law enforcement officers in Sweden to take much needed action against The Pirate Bay."
+
+In an MPAA press release, which has since been taken down, dated May 31, 2006, entitled "Swedish Authorities Sink Pirate Bay," Glickman states:
+{{cquote|The actions today taken in Sweden serve as a reminder to pirates all over the world that there are no safe harbors for Internet copyright thieves.<ref>[http://www.mpaa.org/press_releases/2006_05_31.pdf MPAA press release, May 31, 2006]</ref>}}
+
+In both the 2007 documentary ''[[Good Copy Bad Copy]]'' and the film ''[[Steal This Film|Steal This Film II]]'',<ref>[http://www.stealthisfilm.com/Part2/ Steal This Film II promotional website]</ref> Glickman spoke about  the 2006 raid on [[The Pirate Bay]] and conceded that piracy will never be stopped. He emphasized, however, that the MPAA will try to make it as difficult and tedious as possible.<ref>[http://www.goodcopybadcopy.net/about "Good Copy Bad Copy" website<!-- Bot generated title -->]</ref>
+
+==Controversies and criticisms==
+===Disputed figures===
+
+On January 22, 2008, the MPAA admitted publishing incorrect figures in a study in which it claimed 44% of film industry revenue losses in America due to piracy were occurring at colleges.<ref>{{cite web|url=http://www.newsweek.com/id/98009 |title=MPAA admits mistake on downloading study|publisher=arstechnica.com|date=2008-01-23|accessdate=2010-09-08 |archiveurl = http://web.archive.org/web/20080124150846/http://www.newsweek.com/id/98009 |archivedate = 2008-01-24}}</ref> The study had been produced by the MPAA to put pressure on universities to crack down on illegal file-sharing and to lobby for legislation before the House of Representatives that would force them to do so.<ref>{{cite web|url=http://arstechnica.com/news.ars/post/20080115-filtering-could-come-to-isps-colleges-in-2008.html|title=2008 shaping up to be "Year of Filters" at colleges, ISPs|publisher=arstechnica.com|date=2008-01-22|accessdate=2008-01-22}}</ref> The MPAA's revised figure reduced the claimed loss of revenue to 15%.
+
+===Rating system===
+{{Main|Motion Picture Association of America film rating system}}
+
+===Copyright issues===
+====Fight against online piracy====
+The rise of the [[Internet]] has further emphasized the MPAA’s role in controlling content, notwithstanding that some users may access content they otherwise could not, such as NC-17 movies not shown in theaters. Although the MPAA has won several victories, like with [[Razorback2]] and through a series of successful lawsuits against public [[BitTorrent (protocol)|torrent]] websites, online piracy is still growing steadily with more and more participants.
+
+Arguably, the effect MPAA raids have had on overall online pirating traffic is limited. For example, the day [[Razorback2]] (a major server on the [[Edonkey2000]] network) was shut down, [[Edonkey2000]] network traffic remained constant.<ref>{{cite web|title=Movie piracy more popular than ever|date=2007-01-29|accessdate=2007-07-26|publisher=Computing.co.uk|url=http://www.computing.co.uk/vnunet/news/2173629/movie-pirating-popular-ever}}</ref> The MPAA, however, claims to have had a very successful history shutting down networks of pirated material and torrent sites and alleges that during 2006, for example, 75 were shut down.<ref>{{cite web|format=PDF|url=http://www.MPAA.org/press_releases/2006_02_23.pdf|title=Studios Move to Thwart Illegal File Sharing on Major Pirate Networks: MPAA Companies Take Action Against Torrent, eDonkey and Newsgroup Sites Used by Millions|date=2006-02-23|publisher=MPAA press release}}</ref>
+
+{{See also|Trade group efforts against file sharing}}
+
+====Allegations of copyright infringement by the MPAA====
+In 2007, English software developer Patrick Robin alleged that the MPAA illegally used his blogging platform, Forest Blog, which is distributed without cost under a linkware license, whereby users must link back to his site. To remove these links, one must secure a license, but Patrick Robin claimed the MPAA removed them without purchasing a license. The MPAA responded that it was only testing the blogging platform and that the blog was "never advertised to the public in any way."{{Citation needed|date=September 2010}}
+
+On November 23, 2007, Matthew Garret notified the MPAA that it was in violation of the [[GNU General Public License]] (GPL) for distributing a software toolkit, based on the [[Xubuntu]] operating system and designed to help universities detect instances of potentially illegal file-sharing on school networks. Garret alleged that the MPAA violated the GPL by distributing a derived work without making source code available.  On December 1, 2007, Garrett notified the [[Internet service provider]] for the MPAA that, in accordance with the [[Digital Millennium Copyright Act]], he was requesting them to disable the offending distribution web site.  The MPAA subsequently changed its site so the toolkit was no longer offered for distribution.<ref>{{cite web|last = Paul|first = Ryan|title = MPAA’s University Toolkit hit with DMCA takedown notice after GPL violation|work = ars technica|publisher = arstechnica, LLC|date = 2007-12-04|url = http://arstechnica.com/open-source/news/2007/12/mpaas-university-toolkit-hit-with-dmca-takedown-notice-after-gpl-violation.ars|accessdate = 2007-12-07}}</ref>
+
+===Monopoly===
+Because MPAA members are the motion picture industry's most powerful studios, in turn owned by some of the world's largest media corporations, critics of the association often raise allegations of [[monopoly]].{{Citation needed|date=September 2010}} They also cite the MPAA's support for closed standards that hinder competition. Other critics, like filmmaker [[Kirby Dick]], have suggested that films released by major studios (members of the MPAA) are given more deference in terms of ratings than films released by independents.<ref>{{cite video|title=[[This Film Is Not Yet Rated]]|people=[[Kirby Dick]]|date=2006-01-25|medium=Film}}</ref>
+
+===In Other Media===
+''[[This Film Is Not Yet Rated]]'' is an independent documentary film about the Motion Picture Association of America's rating system and its effect on American culture, directed by [[Kirby Dick]] and produced by Eddie Schmidt.  The film discusses disparities the filmmaker sees in ratings and feedback: between [[Hollywood]] and [[independent film]]s, between homosexual and heterosexual sexual situations, between male and female sexual depictions, and between violence and sexual content.
+
+<!--
+==See also==
+* Australian Classification Board
+* British Board of Film Classification
+* Anti-copyright
+* DeCSS: decryption program for DVD video discs using Content Scramble System
+* Entertainment Software Rating Board
+* Lucky and Flo
+* National Association of Theatre Owners
+* Operation Red Card
+* Pre-Code Hollywood
+* Recording Industry Association of America
+* ''This Film Is Not Yet Rated''
+* ''Who Makes Movies?''
+* You can click, but you can't hide
+* Center for Copyright Information
+-->
+
+==References==
+{{Reflist|2}}
+
+==External links==
+*[http://www.MPAA.org/ official site]

@@ -1,0 +1,101 @@
+== I was unable to do the steps ==
+I am very noob. There is no CTRL+UKEY. Never, nowhere. To refer to a key on the keyboard is 'push the key Ctrl+U on your keyboard' (because I am very nooooob. :| ) in MS Office, in Linux, in Mac and in everywhere in the internet. Don't write 'ensure that you are in edit mode then press UKEY'. Write this: ' 1. Select x window. 2. Select 'Edit Mode' in drop-down menu. 3. Push 'A' key on your keyboard as many times till object will be selected. 4. Push 'U' key on your keyboard to unwrap the object… With before-after images!! This step-to-step method is for noobs like me. :|  {{unsigned|Brtkr|20:41, 17 August 2012‎}}
+
+: The keyboard notation is described in [[Blender 3D: Noob to Pro/Keystroke, Button, and Menu Notation]], which you should read as it's early on in the book.  Also, if you do find the notation confusing, then fix it.  --[[User:Sigma 7|Sigma 7]] ([[User talk:Sigma 7|discuss]] • [[Special:Contributions/Sigma 7|contribs]]) 17:29, 17 January 2013 (UTC)
+
+== Incredibly verbose, does not get to the point ==
+I am new to Blender and this wall of text provides so much of a challenge to get past I cannot get past it. Really, a n00b does not need to know everything that is happening. Just show with just the text needed in incremental steps how the process is done. As it stands now it is more confusing than anything. I don't even know where to start from a reference point of view either.
+
+== Can I write this chapter ==
+Does anyone mind if I write this chapter? If not where can I put screen shots.
+After watching the Video I had a better idea of how to do UV Mapping but I still had a hard time unwraping a simple box. I imagine that other noobs like me would have the same problem so I just wanted to write a small one that shows how to map a box. Then maybe a more complex object (like an H made of boxes)<small>—The preceding [[w:Wikipedia:Sign your posts on talk pages|unsigned]] comment was added by [[User:Ripter|Ripter]] ([[User talk:Ripter|talk]] • [[Special:Contributions/Ripter|contribs]]) 04:32, 17 December 2005.</small>
+
+: I think that would be great. I was unclear on how or even if the spaces between vertices could be adjusted so that it could be used on a character's face like with a Make Human mesh. Also I wasn't sure how to export that to an image editor such as Photoshop and how to reapply it to the mesh.
+: Byron <small>—The preceding [[w:Wikipedia:Sign your posts on talk pages|unsigned]] comment was added by [[User:24.151.244.113|24.151.244.113]] ([[User talk:24.151.244.113|talk]] • [[Special:Contributions/24.151.244.113|contribs]]) 12:17, 9 January 2006.</small>
+
+== LordOfer changes ==
+I read this chapter and I made some changes. Since I'm still a bit new to blender I think it's best if someone looked over the stuff I changed, because I'm only 99% sure about some of them.
+Also, I deleted few lines of chat between two users. I just thought I should...
+
+LordOfer <small>—The preceding unsigned comment was added by [[User:LordOfer|LordOfer]] ([[User talk:LordOfer|talk]] • [[Special:Contributions/LordOfer|contribs]]) 22:57, 17 August 2006  (UTC)</small><!-- Template:Unsigned2 -->
+
+== UV ==
+
+What does UV stand for? --[[User:Remi|Remi]] 19:05, 2 June 2007 (UTC)
+
+: I want to know too [[User:217.36.120.131|217.36.120.131]] 10:30, 12 August 2007 (UTC)
+
+:: The UV in UV mapping is just the two directions, as X and Y are used in 3d, it was decided to use the next closest letters for the 2d image mapping.
+:: (or something like that)<small>—The preceding unsigned comment was added by [[User:203.89.172.85|203.89.172.85]] ([[User talk:203.89.172.85|talk]] • [[Special:Contributions/203.89.172.85|contribs]]) 13 August 2007  (UTC)</small><!-- Template:Unsigned2 -->
+
+:::Yes.  For technical reasons related to 'homogeneous coordinates' you need four numbers to describe a 3D vertex.  Hence, 3D graphics people use X,Y,Z and W for 3D coordinates.  In the early days of texture mapping, U and V were the logical choice because they are the immediately previous letters in the alphabet before W.  However, blender is a bit behind the times because with modern hardware you can have 3D textures - which means you need another letter (and with 'homogeneous texture coordinates', two more letters).  In modern shader languages (Cg, GLSL, HLSL) S,T,P and Q are used for texture coordinates (R is not used because it gets confused with the 'R' in RGBA.  Hence, the 'modern' nomenclature ought to be 'ST' or 'STP' mapping...but many engineers and almost all artists still talk about "UV mapping" out of habit.  [[User:SteveBaker|SteveBaker]] ([[User talk:SteveBaker|talk]]) 18:57, 22 June 2008 (UTC)
+
+== How to separate the unwrap? ==
+
+when adjust the mesh to the pic of earth, you kind of separated the mesh. (there is a red and a green edge in the screenshot). it would be good to explain i think.
+
+gez. cassul <small>—The preceding unsigned comment was added by [[User:137.193.187.73|137.193.187.73]] ([[User talk:137.193.187.73|talk]] • [[Special:Contributions/137.193.187.73|contribs]]) 11 October 2007  (UTC)</small><!-- Template:Unsigned2 -->
+
+== No Sense ==
+
+This page makes no sense, probably since blender has been updated. What the heck is an RMB? And some of the windows I can't find.  And the author should keep in mind that noobs don't know how to do anything! <small>—The preceding unsigned comment was added by [[User:75.137.124.50|75.137.124.50]] ([[User talk:75.137.124.50|talk]] • [[Special:Contributions/75.137.124.50|contribs]]) 14:30, 12 January 2008  (UTC)</small><!-- Template:Unsigned2 -->
+
+: Even newbs should be able to read the instructions at the beginning of the tutorial.  It clearly says on the first or second page (the one that explains what all the abbreviations will be) that RMB is Right Mouse Button.  And DO try to read all the instructions before you go and complain.  [[User:HydraZulu|HydraZulu]] ([[User talk:HydraZulu|talk]]) 17:30, 26 February 2008 (UTC)
+
+:: Try downloading an old version or recommending an update?  9:73AM, 19 October 2008
+
+== no "UV Face Select" window mode? ==
+
+I cannot find this window mode in Blender 2.46--[[User:5o|5o]] ([[User talk:5o|talk]]) 17:30, 10 June 2008 (UTC)
+
+:Neither can I - but I think everything works OK if you leave the thing in Edit Mode.
+
+:This entire WikiBook needs to be fixed up for more recent editions of blender.   The problem is that most newbies will be downloading the latest and greatest version - so it's hardly necessary to talk about the older versions of blender that are out there - but keeping up to date with the latest changes is vitally important because otherwise we noob's will continually hit roadblocks like this when trying to follow the instructions. [[User:SteveBaker|SteveBaker]] ([[User talk:SteveBaker|talk]]) 19:02, 22 June 2008 (UTC)
+
+== Python script error? ==
+
+When I try to save the unwrapped mesh by going to UVs -> Scripts -> Save UV Face Layout, I get a Python script error. Anyone know what this is about? <small>—The preceding unsigned comment was added by [[User:157.127.124.14|157.127.124.14]] ([[User talk:157.127.124.14|talk]] • [[Special:Contributions/157.127.124.14|contribs]]) 06:24, 2 October 2008  (UTC)</small><!-- Template:Unsigned2 -->
+
+Blender 2.48a on Ubuntu 8.04 (Hardy Heron): I get no response, erroneous or otherwise when using UVs -> Scripts -> Save UV Face Layout.  Instead I used the image provided, selected a hemisphere from the 3D view, then positioned the half of the unwrapped mesh in the UV Image Editor view over one of the image hemispheres, then repeated for the other.  I ended up with a passable blue marble.
+
+== Unexpected ==
+As a new user to Blender, I have been using 2.45 up until quite recently. Perhaps a mention of what to expect? From 2.45 to 2.48a. When you unwrap there is an active face, but if you are not expecting that active face to be missing in UV unwrap and appear to be missing in 3d view. It can be off putting for new people, as they think: "What have I done wrong now?"<small>—The preceding unsigned comment was added by [[User:90.214.110.98|90.214.110.98]] ([[User talk:90.214.110.98|talk]] • [[Special:Contributions/90.214.110.98|contribs]]) 18:39, 19 February 2009  (UTC)</small><!-- Template:Unsigned2 -->
+::That is exactly what happened to me! Thank you for explaining that weirdness [[User:SirSuki|SirSuki]] ([[User talk:SirSuki|discuss]] • [[Special:Contributions/SirSuki|contribs]]) 06:49, 1 December 2013 (UTC)
+
+== UV sphere ==
+Perhaps this tutorial would work better with a UV sphere instead. Just my two cents.<small>—The preceding unsigned comment was added by [[User:70.115.234.192|70.115.234.192]] ([[User talk:70.115.234.192|talk]] • [[Special:Contributions/70.115.234.192|contribs]]) 11:16, 24 February 2009  (UTC)</small><!-- Template:Unsigned2 -->
+
+== Rectangular UV Map ==
+You can also use a normal rectangular pic of the earth and unwrap it. I started with a satellite image of the earth from maps.google.com, without labels. I opened it in the UV Image editor, and unwrapped. Then I took the two polygons and moved some of the pixels, pushing them into the center and into the corners to fill completely the rectangular picture. This wraps and renders quite nicely, with a bit of fiddling of the pixels, and happens to be better than the supplied images in this tutorial which are not complete halves of the earth, but approximately thirds, so are missing most of the southern hemisphere. You can also photoshop the rectangular image and remove the Google text so it doesn't show up on your rendered earth. [[User:Nanobug|Nanobug]] ([[User talk:Nanobug|talk]]) 02:35, 24 October 2010 (UTC)
+
+== Page Layout ==
+
+With Blender 2.49b being standard and 2.5x nearing completion, shouldn't the "2.49b" section be moved to the top and renamed, followed by sections dealing with versions prior to the 2.49b release?
+
+I agree. At the risk of complication and server space it might even be worthwhile to have two chapters addressing the same subject.  The first should have a title making it clear it is for versions before 2.45.  The other's title should explicitly say it is for version 2.49 (and later).  I have 2.49.  The video on UV mapping is very well presented and everything works logically with great facility.  Unfortunately, in my case, the commands no longer are in version 2.49.[[User:WindsorSpring|WindsorSpring]] ([[User talk:WindsorSpring|discuss]] • [[Special:Contributions/WindsorSpring|contribs]]) 15:20, 20 February 2011 (UTC)
+
+== Should anything else be added to this? ==
+
+Hi everyone,
+I've just finished updating this page to the 2.6x series. Does anyone think more content should be added to this page? e.g a section for Blender's new box mapping feature/descriptions of the other unwrapping options?
+
+Would be interested to hear your ideas...
+
+[[User:JamesNZ|JamesNZ]] ([[User talk:JamesNZ|discuss]] • [[Special:Contributions/JamesNZ|contribs]]) 08:25, 2 November 2012 (UTC)
+
+== Texture coordinates missing UV selection ==
+
+With Blender 2.68a I am unable to select "UV" in the Texture > Mapping > Coordinates select box. Is there a missing step to activate this? My render does not include the texture without this. [[User:SirSuki|SirSuki]] ([[User talk:SirSuki|discuss]] • [[Special:Contributions/SirSuki|contribs]]) 06:53, 1 December 2013 (UTC)
+
+::Answering my own question. You have ''not'' click on the world texture but be sure you're on the material texture. This means the current screen shot is incorrect! [[User:SirSuki|SirSuki]] ([[User talk:SirSuki|discuss]] • [[Special:Contributions/SirSuki|contribs]]) 06:58, 1 December 2013 (UTC)
+
+== wraparound to use the whole picture ==
+
+In the alternative method, one does not want the UVs to go out of bounds vertically. 
+However, it is actually desirable to go out of bounds horizontally and wrap around, specifically to have as much out of bounds on the left at each vertical position as the mesh falls short on the right, and vice versa. That way the whole map is used.
+The mistake is evident in the final screenshot in the fact that Russia crashes so completely into Alaska, because the edges simply aren't used.
+[[User:Ehsanit|Ehsanit]] ([[User talk:Ehsanit|discuss]] • [[Special:Contributions/Ehsanit|contribs]]) 10:55, 24 December 2014 (UTC)
+
+== Mark a Seam -- why? ==
+
+And why there in particular? I could form deductions from my limited information as to why you assume it to be self-evident, but perhaps you could share the benefit of knowledge gained from experience which qualifies you to offer tutorials in the first place?

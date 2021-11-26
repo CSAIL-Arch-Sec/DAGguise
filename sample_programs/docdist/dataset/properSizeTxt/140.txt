@@ -1,0 +1,118 @@
+This book is a critique on the study ''“promoting executive functioning in children with autism spectrum disorder through mixed martial arts training”'' studied by the authors Janice N. Phung and Wendy A. Goldberg (2019).<ref>Phung JN, Goldberg WA. Promoting Executive Functioning in Children with Autism Spectrum Disorder Through Mixed Martial Arts Training. J Autism Dev Disord. 2019;49(9):3669-3684. doi:10.1007/s10803-019-04072-3</ref>
+
+== What is the background to this research? ==
+[[File:MMA's benefits to children with ASD.png|thumb|MMA's benefits to children with ASD]]
+Autism spectrum disorder affects about 1 in every 100 to 110 people.<ref>Scope Australian Organisation. Autism Spectrum Disorder. Available at:https://www.scopeaust.org.au/information-resources-hub/learn-disability/autism-spectrum-disorder/ gclid=CjwKCAjw74b7BRA_EiwAF8yHFGr7cuv9tBIMYE2O_u5YLuqg2qInWJBAxjznB_BHHTypcgGK3Xf3ERoCGQcQAvD_BwE</ref> This is a neurodevelopmental disorder that alters these individuals social and behavioural development, affecting their approach to interact with their environment as well as other people. ASD is a chronic disorder and to this day, has no cure.<ref>Scope Australian Organisation. Autism Spectrum Disorder. Available at:https://www.scopeaust.org.au/information-resources-hub/learn-disability/autism-spectrum-disorder/ gclid=CjwKCAjw74b7BRA_EiwAF8yHFGr7cuv9tBIMYE2O_u5YLuqg2qInWJBAxjznB_BHHTypcgGK3Xf3ERoCGQcQAvD_BwE</ref> Those who are diagnosed with ASD face difficulties in managing executive functions of the brain and therefore enhancing these skills leading to poor displays of planning abilities and/or cognitive flexibility. The main EFs depend on three brain functions including: 1) Working memory, which is the ability to contain and utilise information that is learnt over short periods of time. 2) Cognitive flexibility, where the brain can readily transfer or prolong attention as response to different requests or rules in certain situations.  And lastly 3) Self-control, allowing the inhibition of impulsive responses or actions.<ref>Harvard University, Center on the Developing Child: Executive Function & Self-Regulation. Available on: https://developingchild.harvard.edu/science/key-concepts/executive-function/</ref> On the other hand, there are also complex EFs, which involve more planning, problem solving, reasoning and verbal and nonverbal fluency. EFs are developed throughout childhood and continue to increase complexity and depth as age increases. Children with ASD have a hindered progress of EFs and tend to exhibit deficient planning abilities and cognitive flexibility in particular.<ref>Phung JN, Goldberg WA. Promoting Executive Functioning in Children with Autism Spectrum Disorder Through Mixed Martial Arts Training. J Autism Dev Disord. 2019;49(9):3669-3684. doi:10.1007/s10803-019-04072-3</ref>
+
+Physical activity in previous studies have proven to be beneficial in boosting executive functioning skills perhaps through the increase of neurochemical activity in the neural system.<ref>Phung JN, Goldberg WA. Promoting Executive Functioning in Children with Autism Spectrum Disorder Through Mixed Martial Arts Training. J Autism Dev Disord. 2019;49(9):3669-3684. doi:10.1007/s10803-019-04072-3</ref> This neural activity allows for the activation of EFs. In a study done by,<ref>SCHMITZ OLIN, STEFANIE; MCFADDEN, BRIDGET A.; GOLEM, DEVON L.; PELLEGRINO, JOSEPH K.; WALKER, ALAN J.; SANDERS, DAVID J.; ARENT, SHAWN M. The Effects of Exercise Dose on Stereotypical Behavior in Children with Autism, Medicine & Science in Sports & Exercise: May 2017 - Volume 49 - Issue 5 - p 983-990
+doi: 10.1249/MSS.0000000000001197</ref> they discovered that moderate to lower intensity exercise generated optimal levels of neural activity. The proposed exercise mode of martial arts training has been chosen as it not only meets the optimal level of exercise intensity but also the importance of self-disciple, through behavioural emotional and cognitive control. Traditional martial arts highlights character development as well as self-control. Mixed martial arts, deriving from Jeet Kune Do, consists of many diverse techniques and elements coming from 20 different martial arts,<ref>Phung JN, Goldberg WA. Promoting Executive Functioning in Children with Autism Spectrum Disorder Through Mixed Martial Arts Training. J Autism Dev Disord. 2019;49(9):3669-3684. doi:10.1007/s10803-019-04072-3</ref> proposes many ways of benefiting children with ASD through the enhancement of EFs. Each child with ASD has many differing strengths and weaknesses, and through the MMA intervention each of these can be catered to and targeted to become better. Moreover, as MMA is delivered as a traditional class rather than modernised and focused on sport and physical conditioning, there is an increased emphasize on character development as well as self-control with the addition of physical conditioning and fitness.<ref>
+    1. Trulson ME. Martial Arts Training: A Novel “Cure” for Juvenile Delinquency. Human Relations. 1986;39(12):1131-1140. doi:10.1177/001872678603901204
+  
+</ref> Skills that are learned from this training can be generalized and adapted in order to be universally used through different situations and contexts.
+
+== Abbreviations ==
+
+ASD - Autism spectrum disorder
+
+TD - Typically developing
+
+EFs - Executive functions
+
+== Where is this research from? ==
+
+The Journal of Autism and Developmental Disorders published by Springer online June 2019.
+
+== What kind of research was this? ==
+
+This research involved a randomized controlled trial study investigating the effectiveness of mixed martial arts as an intervention to enhance executive functions in children with autism spectrum disorder. Randomized controlled trial studies analyse the outcome variable being the martial arts training for the children for this case using common and trusted statistical tools.<ref>Himmelfarb Health Sciences Library, The George Washington University Washington DC. Available from: https://himmelfarb.gwu.edu/tutorials/studydesign101/rcts.cfm</ref>
+
+== What did the research involve? ==
+
+'''Participants 
+'''
+The study involved n=34 children aged 8–11 years old with a clinical diagnosis of ASD. Participants were from a departmental database who had already consented to be contacted for studies or contacted the research team through an exclusive online survey.
+
+'''Measures'''
+
+A series of testing in order to distinguish where the participants intellectual and executive functioning state as well as the severity of their condition were held pre and post the intervention. These tests involved: lifetime social communication questionnaire, autism diagnostic observation schedule-second edition, Wechsler abbreviated scale of intelligence-second edition, behaviour inventory of executive function-2nd edition and finally the hearts & flowers test. Results from these tests equalled to low average from the participants as a whole indicating a moderate to high severity of the disorder.
+
+'''Interventions'''
+
+The participants were randomly assigned to either the MMA intervention group or the waitlist control group. The intervention duration was 13 weeks with the participants of the MMA intervention required to attend training twice a week. These classes ran for 45 minutes with a class plan designed by experienced instructors also dealing teaching other students with disabilities. On the other hand, waitlist control group participants did not participate in MMA training.
+
+'''MMA Intervention 13-week curriculum'''
+
+Weeks 1-4 = Punching/ kicking on mitts / kicking pads
+
+Weeks 5-8 = Glove drills and grappling with partner taking turns of attacking and defending
+
+Weeks 9-13 = Glove drills and grappling with partner taking turns of attacking and defending
+
+'''Class plan'''
+
+'''5 minutes 
+	
+'''Bow-in''''''
+
+-	Line up
+
+-	Attention to instructor
+
+-	Bow as respect to instructor
+
+-	Meditation
+
+'''
+15 minutes 
+	
+'''Warm up''''''
+
+-       Jogging
+
+-	Footwork
+
+-	Stretching
+
+'''20 minutes 	
+
+'''Main activity''' 
+'''
+
+-	Increasing complexity throughout duration of intervention
+
+-	Practising with TD students 
+ 
+-	A combination of striking and defenses
+
+'''5 minutes 	
+
+'''Cool down''''''
+
+-	Social game
+
+-	Line up
+
+-	Attention to instructor
+
+-	Bow as respect to instructor
+
+-	High-five as acknowledgement to other students
+
+== What conclusions can we take from this research? ==
+
+The study’s findings propose that the traditional MMA style has beneficial results as an intervention for enhancing EFs due to its high suitability for children with ASD. Although martial arts is a very under looked sport, it has many to offer for the development of any children’s wellbeing. Not only does it physically condition but it also incorporates and emphasizes character development and discipline. These are qualities that children can use as a baseline to build on to succeed and become confident within themselves and further develop independence. With the complexity of martial art forms and combination activities, the children are able to optimally stimulate neural activity and increase executive functions. From there they are able to use skills gained universally throughout their daily lives and with the addition of being able to defend themselves confidently in dangerous situations.
+
+== Practical Advice ==
+
+For health care professionals or parents seeking alternate therapies for children with autism spectrum disorder, it is worthwhile to introduce and train children who are diagnosed in martial arts. Preferably traditionally taught martial arts in particular. From this study, training children with ASD in mixed martial arts will not only incorporate physical conditioning improving the children’s fitness but will also assist in neural development, as this sport will optimally stimulate neurochemical activity which can lead to executive functional enhancement. Skills gained through training in MMA, can also be universal and can be used in different contexts, boost the children’s confidence as well as independence through the increased self-discipline, character development and the knowledge of self-defence.
+
+== Further Information/Resources ==
+* {{w|Autism spectrum}}
+* [https://developingchild.harvard.edu/science/key-concepts/executive-function/ Executive functions ]
+* [https://www.springer.com/journal/10803 Journal of Autism and Developmental Disorders ]
+* [https://www.psypost.org/2020/03/mixed-martial-arts-training-could-help-promote-executive-functioning-in-children-with-autism-56258#:~:text=Now%2C%20new%20research%20provides%20evidence,of%20Autism%20and%20Developmental%20Disorders. MMA and benefits for ASD ]
+
+== References ==
+<references />
+
+{{BookCat}}

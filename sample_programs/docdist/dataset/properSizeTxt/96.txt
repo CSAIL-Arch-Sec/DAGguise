@@ -1,0 +1,207 @@
+{{DISPLAYTITLE:<span style="display:block;text-align:left;font-size:100%;background:#f0f0ff;line-height:2em;">References and Sources</span>}}
+
+{{TOC right}}
+
+A system designer should know the current state of knowledge in topics relevant to their work. There are several reasons.  One is to not repeat work already done by someone else. Another is to stimulate new ideas and improvements. In addition to the references listed below and elsewhere in the book, it is very useful to know how to find additional information.  Categories of information include:
+
+* Current News (Magazines, Newspapers, Blogs)
+* Archival Publications (Journals, Preprint Archives)
+* Books 
+* Online Data (Web and other protocols)
+* Technical Reports
+* Product Data
+* Discussion Forums
+
+Once information is located you should record where and how you found it, to save having to find it again.  There are a number of ways to do that, depending on type of media: building a personal library in paper or electronic form, bookmarking in web browsers, etc.  As long as you have the ability to find the data again, the particular methods can be left to personal preference.
+
+
+==Current News==
+
+As of 2012, obtaining current news via paper-based sources is nearly obsolete.  Internet-based electronic delivery is faster and less expensive.  There are innumerable online websites, magazines, and blogs covering every topic relevant to space systems.  One distinction between sites is original reporting vs re-posting of news from elsewhere.  You should also consider the quality and experience of the writers and any bias they might have.  We cannot list all possible news sources, and any such list would rapidly become obsolete.  Therefore we will list a few good examples and encourage looking for good sources in your fields of interest.
+
+
+'''General News'''
+
+* '''[http://news.google.com/ Google News]''' - General news aggregator.  This means they do not write original stories, but rather link to stories from multiple other sources. Searchable and customizable, it is a good starting point to find other regular sources. Story selection for the front page is automated, but the full database indexes several thousand news sites.
+* '''Reddit [http://www.reddit.com/r/technology/ Technology], [http://www.reddit.com/r/science/ Science], and [http://www.reddit.com/r/space/ Space] Topics''' - Reader submitted daily links divided by topic, with active discussions.  There are many topic headings, but the three listed are the largest related to space.  It is another news aggregator, but human-submitted and filtered by votes of the readers.
+
+
+'''General Space'''
+
+* '''[http://www.space.com/ Space.com]''' - General news website for anything related to space.
+
+
+'''General Technology'''
+
+* '''[http://nextbigfuture.com/ Next Big Future]''' - Blog for all kinds of new and future science and technology.  Often covers space topics.
+
+
+'''General Science'''
+
+* '''[http://www.eurekalert.org/pubnews.php?view=titles EurekAlert]''' - Current science and technology press releases. Often a day earlier and unmodified by journalists.
+
+
+'''Specific Industries'''
+
+* '''[http://www.aviationweek.com/HomePage.aspx Aviation Week]''' - Aerospace industry news, including space projects.
+* '''[http://www.automationworld.com/ Automation World]''' - Manufacturing automation.
+* '''[http://www.eetimes.com/electronics-news/latest-news EE TImes]''' - Electronics engineering. This link is to the news summary.
+
+
+==Multiple Documents==
+
+The following sites index, search, or link to multiple documents:
+
+====Library Indexes====
+
+Two steps in finding the current state of knowledge are (1) finding what works exist on a given topic, and (2) locating a copy of the work to look at.  Library indexes help with both steps.
+
+* '''[http://catalog.loc.gov/webvoy.htm Library of Congress Online Catalog]''' - This is an index to the largest single library in the world, including books and periodicals.  Basic search is by title, author, and subject.  Items are shelved and indexed by subject, using a cataloging '''Call Number''' system. If you use the "Call Number Browse" type of search, you can look through all the entries under that subject, which is useful for doing general research on a subject.  The '''[http://www.loc.gov/catdir/cpso/lcco/ LC Classification Outline]''' has a summary of the call number system.  For space projects, the headings Q (Science) and T (Technology) are the most relevant, although other sections can be useful depending on the topic.
+
+* '''[http://www.worldcat.org/ WorldCat]''' - This is an online database of the collections of over 10,000 libraries worldwide.  If a work is not available nearby or online, a process of '''Inter-Library Loan''' can be used from a local library to borrow it from another library.
+
+====Online Search====
+
+In addition to well-known search engines such as '''[http://www.google.com/ Google]''' and '''[http://www.bing.com/ Bing]''', there are more specialized searches such as:
+
+* '''[http://scholar.google.com/ Google Scholar]''' - for searching scholarly works
+* '''[http://books.google.com/ Google Books]''' - for searching the text of books in general
+* '''[[dmoz:Computers/Internet/Searching/Search_Engines/Specialized/| Open Directory Specialized Search Engine List]]''' - Links to many other search websites.
+
+====Online Repositories====
+
+Repositories contain multiple online documents which usually can be downloaded.  In some cases they only index the document online and you then have to request or find a physical copy.
+
+* '''[http://www.mediafire.com/?y1ko8gj5rouob Rocket Science Library]''' - A collection of open source, public domain, and online works compiled in parallel with the development of this book.  A list of additional works is included for ones where copyright restrictions prevent including the document itself.
+
+* '''[http://naca.larc.nasa.gov/search.jsp NASA Technical Reports Server]''' - Access to approximately 1 million documents in NASA databases.
+* '''[http://www.dtic.mil/dtic/ Defense Technical Information Center]''' - Public access to the unrestricted subset of approximately 2 million US DOD and other technical documents.
+* '''[http://patft.uspto.gov/ US Patent and Trademark Office]''' - Search and download patent data.  Patents often contain very useful technical data.
+* '''[http://arxiv.org/ arXiv.org]''' - Open access to over 750,000 electronic papers in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics. Operated by Cornell University Library.
+* '''[ftp://ftp.rta.nato.int/PubFullText/ NATO Research and Technology]''' - FTP server of NATO technical and conference reports. Some have relevance to space projects.  It is recommended to find titles and document numbers by other search methods, since the ones here are stored only by their document numbers.
+* '''[http://www.nss.org/settlement/index.html National Space Society Library]''' - Online library with multiple space references.
+* '''[https://acc.dau.mil/CommunityBrowser.aspx Defense Acquisition University ACC Practice Center]''' - Multiple documents about how the US government manages projects, including engineering methods in general, and space projects as a topic.
+
+====Reading Lists====
+
+* '''[http://www.astronautix.com/articles/recended.htm Encyclopedia Astronautica Recommended Books]'''
+
+
+==Book Length Sources==
+
+====Other Wikibooks====
+
+*[[Astrodynamics]]
+*[[High School Earth Science/Early Space Exploration]] and [[High School Earth Science/Recent Space Exploration]] describes how far we've come --
+*[[Colonizing Outer Space]] and [[Conplanet]] speculates on how far we may go, and what living on other planets may be like after we get there.
+
+====General Space Reference====
+
+* Jet Propulsion Laboratory, '''[http://www2.jpl.nasa.gov/basics/index.php Basics of Space Flight]''', 2012.
+* USAF Air Command and Staff College, '''[http://space.au.af.mil/au-18-2009/index.htm Space Primer, 2nd Ed.]''', 2009.
+
+====General Space Systems Design====
+
+* Griffen, Michael D. and French, James R., '''[http://www.amazon.com/Vehicle-Design-Second-Edition-Education/dp/1563475391 Space Vehicle Design]''', 2nd ed., AIAA Education Series, 2004.
+* Hammond, Walter E., '''[http://www.amazon.com/Design-Methodologies-Transportation-Systems-Education/dp/1563474727/ Design Methodologies for Space Transportation Systems]''', AIAA Education Series, 2001.
+* Ley, Wittmann, and Hallmann, eds. '''[http://www.amazon.com/Handbook-Space-Technology-Library-Flight/dp/1600867014 Handbook of Space Technology]''', Wiley, 2009.
+
+====Propulsion====
+
+* Glenn Research Center, '''[http://exploration.grc.nasa.gov/education/rocket/shortr.html Beginner's Guide to Rockets]''' - website designed for young students and teachers.
+
+* Hunter, Maxwell, '''[http://www.askmar.com/Spaceflight/Thrust%20Into%20Space.pdf Thrust into Space]''', Holt, Rhinehard, and Winston, 1966. - An introductory textbook on space propulsion.
+
+* Sutton, George P. and Biblarz, Oscar, '''[http://www.amazon.com/Rocket-Propulsion-Elements-George-Sutton/dp/0470080248/ Rocket Propulsion Elements]''', 8th ed., Wiley, 2010, ISBN-13: 978-0470080245. - This has been considered the standard reference for classical rocket propulsion. It is mostly concerned with solid, liquid, and hybrid chemical rockets, and has one chapter on electric propulsion.
+
+* Bolonkin, Alexander "Review of new ideas, innovation of non-rocket propulsion systems for Space Launch and Flight" 3 parts, 2010, The Internet Archive:
+: [http://www.archive.org/details/ReviewOfNewIdeasInnovationOfNon-rocketPropulsionSystemsForSpace Part 1], [http://www.archive.org/details/Review2OfNewIdeasInnovationsOfNon-rocketPropulsionSystemsForSpace Part 2], [http://www.archive.org/details/Review3OfNewIdeasInnovationsOfNon-rocketPropulsionSystemsForSpace Part 3]
+
+* Mallove, Eugene F. and Matloff, Gregory L., [http://www.amazon.com/The-Starflight-Handbook-Pioneers-Interstellar/dp/0471619124 '''The Starflight Handbook''': A Pioneer's Guide To Interstellar Travel], 1989. - A semi-technical introduction to interstellar flight.
+
+* Morgenthaler, G. W.; Tobiska, W. K. "Aerospace Century XXI: Space Flight Technologies", Proceedings of the 33rd Annual AAS International Conference, Boulder, Colorado, 26-29 Oct. 1986. Published as Advances in the Astronautical Sciences, vol 64, pt 2, 1987.
+
+====Early Works====
+
+Although technology has changed drastically since these were written, physics has not, and they serve as a guide to what technical problems need to be solved in any design:
+
+* Bureau of Naval Personnel, '''[http://www.hnsa.org/doc/missile/index.htm Principles of Guided Missiles and Nuclear Weapons]''', 1959.
+
+* Koelle, Heinz Hermann, ed., '''Handbook of Astronautical Engineering''', New York, McGraw-Hill, 1961. - This is an excellent comprehensive reference handbook representing the state of the art as of 1961. Has a chapter covering nuclear, electric, and solar-thermal propulsion.
+
+* Merrill, Grayson, ed. '''Principles of Guided Missile Design''', series, Van Nostrand, 1958. - This is a series of at least 9 volumes with different authors.  Although written in the Cold War nuclear missile era, the technology is relevant to space projects.  Likely much of it will need updating due to being written 50 years ago:
+
+:* Guidance - Locke, Arthur et. al.
+:* Aerodynamics, Propulsion, Structures, and Design Practice - Bonney, E.A, Zucrow, M.J., and Besserer, C.W.
+:* Operations Research, Armament, Launching - Merrill, G., Goldberg, H., and Helmholz, R.H.
+:* Missile Engineering Handbook - Besserer, C.W.
+:* Space Flight - Ehricke, Krafft A.
+:* Systems Engineering - Jerger, J.J.
+:* Range Testing - Freitag, R.F.
+:* Airborne Radar - Povejsil, D.J., Raven, R.S., and Waterman, P.J.
+:* Automatic Flight Control - Povejsil, D.J., Kelly, A.J., Mathews, C.W., and McCourt, A.W.
+
+====Resource Use====
+
+* Faughnan, Barbara (ed.); Maryniak, Gregg (ed.) "Space Manufacturing 5: Engineering with Lunar and Asteroidal Materials", proceedings of the 7th Princeton/AIAA/SSI Conference, Princeton, New Jersey, 8-11 May 1985.
+
+
+==Websites==
+
+This category includes online sites where the data is in the site itself, rather than the site being a link to other documents.
+
+===General Space Websites===
+
+* '''[http://www.permanent.com/index.html Permanent]''' - Organization dedicated to space development.  Their website has extensive discussion on relevant topics.
+* '''[http://www.braeunig.us/space/ Rocket and Space Technology]''' - Personal website with extensive coverage of the basics of space flight, hardware, and missions.
+* '''[http://yarchive.net/space/index.html Yarchive]''' - An archive of space related posts from the USENET discussion system, covering many topics.
+* '''[http://www.centauri-dreams.org/ Centauri Dreams]''' - Long-running blog about deep space exploration.
+
+===Real Time Data===
+
+* '''[http://www.n2yo.com/?s=37872 Real Time Satellite Tracking] - Provides tracking simulation of Earth satellite orbits based on official tracking data.
+* '''[http://eyes.nasa.gov/index.html Eyes on the Solar System] - 3D Simulation of Solar System spacecraft and planetary bodies beyond Earth orbit, including current, and past and future positions.
+
+===Life Support===
+
+* '''[http://www.ars.usda.gov/main/site_main.htm?modecode=12-35-45-00 USDA Nutrient Data Laboratory]''' - Includes a food and nutrition database, from which food requirements for space projects can be determined.
+
+
+==Articles and Technical Reports==
+
+===Multiple Propulsion Concepts===
+
+* Diesposti, R. S.; Pelouch, J. J. "Performance and Economic Comparison of Externally Energized vs Chemically Energized Space Propulsion", AIAA paper number 81-0703 presented at 15th International Electric Propulsion Conference, Las Vegas, Nevada, 21-23 June 1981.
+* Andrews, Dr. Dana G, ed. Advanced Propulsion Systems Concepts for Orbital Tansfer: Final Report, Boeing document D180- 26680 produced under NASA contract NAS8-33935.
+* Forward, Robert "Alternate Propulsion Energy Sources", AFPRL TR-83-067. (NTIS AD-B088 771/1) Dec 1983, 138p. Keywords: Propulsion energy, metastable helium, free-radical hydrogen, solar-pumped plasmas, antiproton annihiliation, ionospheric lasers, solar sails, perforated sails, microwave sails, quantum fluctuations, antimatter rockets.
+* Wang, S.-Y.; Staiger P. J. "Primary Propulsion of Electro-Thermal, Ion and Chemical Systems for Space Based Radar Orbit Transfer", AIAA/SAE/ASME/ASEE 21st Joint Propulsion Conference, AIAA paper number 85-1477, 1985.
+* Forward, R. L. "Advanced Space Propulsion Study - Antiproton and Beamed Power Propulsion", Final Report, 1 May 1986 - 30 Jun 1987, Hughes Research Laboratories, report AFAL-TR-87-070, 1987.DefenseTechnical Information Center #AD-A189 218. National Technical Information Service # AD-A189 218/1 PC A10/MF A01 [Quote: , goes into detail on beamed power systems including " 1) pellet, microwave, and laser beamed power systems for intersteller transport; 2) a design for a near-relativistic laser-pushed lightsail using near-term laser technology; 3) a survey of laser thermal propulsion, tether transportation systems, antiproton annihilation propulsion, exotic applications of solar sails, and laser-pushed interstellar lightsails; 4) the status of antiproton annihilation propulsion as of 1986; and 5) the prospects for obtaining antimatter ions heavier than antiprotons." Again, there is an extensive bibliography.]
+* Forward, R. L. "Exotic Propulsion in the 21st Century", in Aerospace Century XXI (see Morgenthaler and Tobiska, under Propulsion above).
+* Forward, Dr. Robert L., Future Magic., Avon, 1988. {{ISBN|0-380-89814-4}}. "Nontechnical discussion of tethers, antimatter, gravity control, and even further-out topics." 
+
+====More References to be sorted====
+
+These should eventually end up under the appropriate section of the book:
+
+* Kunz, K. E. "Orbit Transfer Propulsion and Large Space Systems", J. Spacecraft and Rockets vol 17 no 6 pp 495-500, Nov.-Dec. 1980. 
+* Poeschel, R. L. "Comparison of Electric Propulsion Technologies", AIAA paper number 82-1243 presented at AIAA/SAE/ASME 18th Joint Propulsion Conference, Cleveland, Ohio, 21- 23 June 1982. 
+* Jones, R. M.; Kaplan, D. I.; Nock, K. T. "Electric Propulsion Systems for Space Stations" AIAA/SAE/ASME 19th Joint Propulsion Conference, AIAA paper number 83-1208, 1983. 
+* Jones, R. M. "Space Supertankers: Electric Propulsion Systems for the Transportation of Extraterrestrial Resources" AIAA/SAE/ASME 20th Joint Propulsion Conference, AIAA paper number 84-1323, 1984.
+* Phillips, P. G.; Redd, B. "Propulsion Options for Manned Missions to the Moon and Mars", in Aerospace Century XXI (see Morgenthaler and Tobiska, under Propulsion above). 
+* Matloff, G. L. "Electric Propulsion and Interstellar Flight", 19th International Electric Propulsion Conference, Colorado Springs, Colorado, 11 May 1987. 
+* Korobeinikov, V. P. "On the Use of Solar Energy for the Acceleration of Bodies to Cosmic Velocities", Acta Astronautica, v 15 no 11 p 937-40, November 1987. 
+* Kerrebrock, J. L "Report of the National Commission on Space- One Commissioner's View", in Aerospace Century XXI (see Morgenthaler and Tobiska, under Propulsion above). 
+* Harvego, E. A.; Sulmeisters, T. K. "A Comparison of Propulsion Systems for Potential Space Mission Applications", ASME Winter Meeting, Boston, Massachusetts, 13 December 1987, 1987. 
+* Byers, David C.; Wasel, Robert A. "NASA Electric Propulsion Program", NASA Technical Memorandum 89856, May 1987. 
+
+* Lorrey, M; '''[http://www.islandone.org/Launch/boron-sharp-article.htm High Density Fuels]''', web page, March 2006.
+* Licht, S; '''[http://departments.columbian.gwu.edu/chemistry/sites/default/files/u10/2011%20STEP%20Advanced%20Materials.pdf Solar Driven Synthesis]''', in ''Advanced Materials'', 2011.
+
+
+==Discussion Forums==
+
+Although online forums are informal, the collective knowledge of the participants is sometimes impressive.  The discussion history can be searched or new questions asked to make use of it.
+
+
+
+{{BookCat}}

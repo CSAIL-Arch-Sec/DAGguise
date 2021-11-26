@@ -1,0 +1,77 @@
+==Notice==
+{{tmbox|text='''The Student Manifesto was deleted due to the fact that [[WB:SOAP|Wikibooks is not a soapbox]].''' You are welcome to contribute constructively. You can learn how by reading [[Using Wikibooks]]. You can ask any unanswered questions in the [[WB:PROJECTS|project reading room]]. Thanks. &ndash;&nbsp;[[User:Adrignola|Adrignola]]&nbsp;<small>[[User talk:Adrignola|talk]]</small> 16:15, 22 August 2010 (UTC)}}
+
+==[[Articles from the First Issue of Revolution Underground]]==
+{{tmbox|type=notice|text=Thank you for your interest in Wikibooks, but [[Articles from the First Issue of Revolution Underground|this page]] appears as though it may have been created in error (such as due to a test or a misplaced edit). Should it be a legitimate [[WB:WIW|legitimate Wikibooks module]], please use [[{{TALKPAGENAME:Articles from the First Issue of Revolution Underground}}|the discussion page]] to explain its scope. If these concerns are not responded to, the page will automatically be considered a candidate for [[Wikibooks:Deletion policy#Speedy deletions|speedy deletion]] in 7 days. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 09:32, 23 August 2010 (UTC)
+}}
+
+== Neutral point of view ==
+
+{{tmbox|type=notice|text='''Please remember to maintain a [[WB:NPOV|neutral point of view]] in your writing.'''<br/>[[Wikibooks:Welcome, newcomers|Welcome to Wikibooks]], and thanks for the contributions! We're always happy to have new [[Wikibooks:Wikibookians|Wikibookians]] with a serious interest in improving books! Unfortunately, some of your edits have been reverted because they do not maintain a neutral point of view (NPOV) as required by policy. Please read our [[WB:NPOV|NPOV policy]] which has tips on how to effectively write about disparate points of view without compromising the NPOV status of the book as a whole. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 09:40, 23 August 2010 (UTC)
+}}
+
+{{tmbox|type=delete|text='''Wikibooks cannot accept [[Wikibooks:Copyrights|copyrighted]] materials.'''<br />We [[Wikibooks:Welcome, newcomers|welcome]] and appreciate your contributions. If [[:The Student Movement of the Thirties]] uses an acceptable copyleft license or the copyright holder(s) are willing to give [[Wikibooks:Boilerplate_request_for_permission|permission]] to use it under an acceptable copyleft license, then you need to include the licensing information with it. Please read [[Wikibooks:Media]] to learn more about the requirements. After 7 days if this is not addressed appropriately we will have to delete it [[WB:COPYVIO|per policy]]. If you have any questions you can ask me personally or ask in the [[WB:HELP|reading room]]. Thank you; Happy editing! [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 09:45, 23 August 2010 (UTC)}}
+
+{{tmbox|type=delete|text='''Wikibooks cannot accept [[Wikibooks:Copyrights|copyrighted]] materials.'''<br />We [[Wikibooks:Welcome, newcomers|welcome]] and appreciate your contributions. If [[:Education Today]] uses an acceptable copyleft license or the copyright holder(s) are willing to give [[Wikibooks:Boilerplate_request_for_permission|permission]] to use it under an acceptable copyleft license, then you need to include the licensing information with it. Please read [[Wikibooks:Media]] to learn more about the requirements. After 7 days if this is not addressed appropriately we will have to delete it [[WB:COPYVIO|per policy]]. If you have any questions you can ask me personally or ask in the [[WB:HELP|reading room]]. Thank you; Happy editing! [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 09:53, 23 August 2010 (UTC)}}
+
+{{tmbox|type=delete|text='''Wikibooks cannot accept [[Wikibooks:Copyrights|copyrighted]] materials.'''<br />We [[Wikibooks:Welcome, newcomers|welcome]] and appreciate your contributions. If [[:The Tasks of the Youth Leagues]] uses an acceptable copyleft license or the copyright holder(s) are willing to give [[Wikibooks:Boilerplate_request_for_permission|permission]] to use it under an acceptable copyleft license, then you need to include the licensing information with it. Please read [[Wikibooks:Media]] to learn more about the requirements. After 7 days if this is not addressed appropriately we will have to delete it [[WB:COPYVIO|per policy]]. If you have any questions you can ask me personally or ask in the [[WB:HELP|reading room]]. Thank you; Happy editing! [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 09:55, 23 August 2010 (UTC)}}
+
+{{tmbox|type=delete|text='''Wikibooks cannot accept [[Wikibooks:Copyrights|copyrighted]] materials.'''<br />We [[Wikibooks:Welcome, newcomers|welcome]] and appreciate your contributions. If [[:The Student Rights Handbook]] uses an acceptable copyleft license or the copyright holder(s) are willing to give [[Wikibooks:Boilerplate_request_for_permission|permission]] to use it under an acceptable copyleft license, then you need to include the licensing information with it. Please read [[Wikibooks:Media]] to learn more about the requirements. After 7 days if this is not addressed appropriately we will have to delete it [[WB:COPYVIO|per policy]]. If you have any questions you can ask me personally or ask in the [[WB:HELP|reading room]]. Thank you; Happy editing! [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 09:58, 23 August 2010 (UTC)}}
+
+==[[:Socialism and the Student]]==
+{{tmbox|type=delete|text=
+'''[[:Socialism and the Student|Socialism and the Student]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#Socialism and the Student|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:32, 23 August 2010 (UTC)}}
+
+==[[:Trotskyist Resolution on Youth]]==
+{{tmbox|type=delete|text=
+'''[[:Trotskyist Resolution on Youth|Trotskyist Resolution on Youth]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#Trotskyist Resolution on Youth|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:33, 23 August 2010 (UTC)}}
+
+==[[:The Student Movement of the Thirties]]==
+{{tmbox|type=delete|text=
+'''[[:The Student Movement of the Thirties|The Student Movement of the Thirties]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Student Movement of the Thirties|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:35, 23 August 2010 (UTC)}}
+
+==[[:Articles from the First Issue of Revolution Underground]]==
+{{tmbox|type=delete|text=
+'''[[:Articles from the First Issue of Revolution Underground|Articles from the First Issue of Revolution Underground]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#Articles from the First Issue of Revolution Underground|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:36, 23 August 2010 (UTC)}}
+
+==[[:The Declaration of the Rights of American Youth]]==
+{{tmbox|type=delete|text=
+'''[[:The Declaration of the Rights of American Youth|The Declaration of the Rights of American Youth]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Declaration of the Rights of American Youth|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:38, 23 August 2010 (UTC)}}
+
+==[[:The Youth and Student Bill of Rights]]==
+{{tmbox|type=delete|text=
+'''[[:The Youth and Student Bill of Rights|The Youth and Student Bill of Rights]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Youth and Student Bill of Rights|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:38, 23 August 2010 (UTC)}}
+
+==[[:Education Today]]==
+{{tmbox|type=delete|text=
+'''[[:Education Today|Education Today]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#Education Today|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:40, 23 August 2010 (UTC)}}
+
+==[[:The Student Rights Handbook]]==
+{{tmbox|type=delete|text=
+'''[[:The Student Rights Handbook|The Student Rights Handbook]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Student Rights Handbook|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:41, 23 August 2010 (UTC)}}
+
+==[[:The Socialist Party on Youth]]==
+{{tmbox|type=delete|text=
+'''[[:The Socialist Party on Youth|The Socialist Party on Youth]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Socialist Party on Youth|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:42, 23 August 2010 (UTC)}}
+
+==[[:The Student Manifesto]]==
+{{tmbox|type=delete|text=
+'''[[:The Student Manifesto|The Student Manifesto]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Student Manifesto|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:43, 23 August 2010 (UTC)}}
+
+==[[:Youth Against Facism]]==
+{{tmbox|type=delete|text=
+'''[[:Youth Against Facism|Youth Against Facism]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#Youth Against Facism|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:46, 23 August 2010 (UTC)}}
+
+==[[:The Tasks of the Youth Leagues]]==
+{{tmbox|type=delete|text=
+'''[[:The Tasks of the Youth Leagues|The Tasks of the Youth Leagues]] has been nominated for deletion. Please [[Wikibooks:Requests for deletion#The Tasks of the Youth Leagues|share your thoughts]].'''<br/>You are being notified because you have contributed to this work. If you haven't read it already, please see our [[WB:DP|deletion policy]]. [[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:48, 23 August 2010 (UTC)}}
+
+== Project scope ==
+
+I understand that you are trying to help Wikibooks in a positive way. Unfortunately, your contributions do not comply with our policies and guidelines, particularly [[Wikibooks:What is Wikibooks?]]. Please note that Wikibooks does not accept the following:
+*Promotions about your noble cause, as this constitutes bias;
+*Works that are in the public domain; those belong to our sister project, [[s:Main Page|Wikisource]];
+*Works that are heavily biased on one side; for example, even saying that Hitler was evil is not allowed here, even though most people think he is.
+[[User:Kayau|Kayau]] ( [[User talk:Kayau|talk]] &#124; [[Special:Emailuser/Kayau|email]] &#124; [[Special:Contributions/Kayau|contribs]] ) 11:54, 23 August 2010 (UTC)
+
+:If you continue to ignore our project's scope and mass upload work suspected of copyright violation, point of view pushing, and making use of Wikibooks as a personal web host, you will be subject to a restriction on your editing. &ndash;&nbsp;[[User:Adrignola|Adrignola]]&nbsp;<small>[[User talk:Adrignola|talk]]</small> 12:00, 23 August 2010 (UTC)

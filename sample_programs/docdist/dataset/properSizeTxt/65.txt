@@ -1,0 +1,167 @@
+== '''Writing Instructions''' ==
+
+Many people are used to following written instructions, but most people have never written instructions for another person. In many professional roles, you may have to write instructions. While some instructions may be simple and brief, other instructions may be more complex and take longer to complete. For this reason, it is important to know how to write useful instructions. 
+
+Writing useful instructions can be difficult because people read and comprehend things differently. For example, some people are visual learners and may have difficulty following written instructions. Readers also have a variety of educational backgrounds. When writing instructions, it is important to use a simple, logical style and format.
+
+== '''Guidelines for Writing Instructions''' ==
+
+When writing instructions, avoid persuasive language and take a task-based approach. Keep the writing concise and clear, and focus on enabling the user to successfully accomplish the task.
+
+In general, follow these guidelines:
+
+'''Conciseness and Clarity'''
+
+Keep sentences short and understandable. Use common terminology whenever possible. Avoid using idioms, slang, jargon, nicknames, abbreviations, and acronyms. If you do use terminology that might be new or confusing, then clearly define each term when it first appears in the instructions.
+
+'''Audience''' 
+
+It is important to know your audience when writing instructions, so you are including all necessary information and excluding unnecessary information. Knowing your audience allows you to make reasonable and well-informed assumptions based on the audience's likely background, experience, and familiarity with the subject. For example, if you are writing instructions for a group of senior citizens at the local branch of the public library, it may not be safe to assume that they are familiar with the basics of opening a specific software application. However, if you are writing instructions for a group of software developers within a professional organization, it may be safe to assume that they are familiar with the basics of opening a specific software application.
+
+When deciding what information to include and exclude from instructions, it is important to clearly identify who your audience is and what their likely proficiency is with the topic of the instructions and related background information. 
+
+If an audience is likely to have a wide range of experience and knowledge that includes varying levels of familiarity and expertise, you can use various techniques to keep each set of instructions concise and focused on a single task, while still providing necessary information. For example, you can create separate instructions for prerequisite information and provide your audience with the means to quickly and easily access the separate instructions (through hyperlinks, appendices, etc.).
+
+'''Graphics'''
+
+Pictures speak louder than words. Adding graphics to convey your thoughts may be more effective than the words themselves. Instructions that are well illustrated and accompany your written instructions are usually highly successful. It adds an extra level of understanding and allows the reader to skim or troubleshoot if problems occur. Pictures add an additional dimension that will allow your reader to visualize the end product. Also, when using graphics you should be mindful of those visual learners, and adapt the graphics.
+
+Although pictures are great, you must be cautious not to include photographs or illustrations that are confusing or not associated with the actual written instructions. If you pair a poor picture with your instructions, you might cause the reader stress or introduce confusion when trying to decipher what you mean.
+
+Also, when taking pictures, ensure that the area is well lit and the pictures are clear and bright. Dark or fuzzy pictures are often difficult to follow. Take care to photograph the subject in the same orientation each time to avoid confusion and consider using a tripod.
+
+Size is also important when using images in instructions. A picture that is too small to see is just as useless as a blurry image. 
+ 
+''To be powerful and understandable, your text and graphic for each step should clearly correlate to that step of the instructions.''
+
+'''Formatting'''
+
+Remember that the readers will actually be performing the task as they read along with the instructions. So you should not use solid blocks of small, hard to decipher text. Make sure to create a design and layout for your instructions page that will allow easy readability and add aesthetic quality. Keeping the page simple, but with a defined hierarchy, will assist the reader in completing the steps of the instructions.
+
+When designing your page, a solid hierarchy is important for scan-ability. The use of bold headings, italics, and roman numerals will aid the reader in finding their place easily and helps with the overall visual appearance.
+
+'''Order''' 
+
+It is important your instructions be planned out in a logical progression. Make sure to state the problem clearly on the first page. Follow your problems with a set of specific steps detailing how to solve the proposed problem. Technical instructions must flow in a logical pattern. For example, when assembling a table it would not be good if you put the finishing touches on it before you had all the screws in place. As stated before, there should also be clear graphics where necessary to clarify the action. Remember, a picture is worth a thousand words. 
+
+'''Testing and Verification'''
+
+We all know that instructions are difficult to write and that sometimes it sounds good on paper, but when you actually attempt to put the instructions to use, you might find that your wording makes no sense to others. Remember what might be common or obvious to you might baffle your readers, so know your audience. In addition to testing your instructions on yourself, have someone who knows nothing about your product test it. This is called a usability study. Take notes on what worked and what didn't and then revise your instructions accordingly. In the long run the more people that test your instructions, the more effective the final set will be.
+
+== '''Tailoring Instructions to the Intended Audience''' ==
+
+Tailoring your instructions to the intended audience can be one of the most difficult tasks of your writing process. Before you begin your writing process you need to identify who your audience will be and how you can tailor your instructions to make them as understandable as possible. To help you do this, there are several questions you can ask yourself:
+
+* ''What background might your audience members have, and what prior knowledge might they possess?'' This will help you to determine what you will need to include or not include in your instructions.
+* ''What will their needs/interests be?'' 
+* ''How will their demographics affect how you write?'' If the majority of your audience comes from a different demographic than you, you need to take into consideration language issues and make sure graphics are clear.
+* ''Is there a variability in your audience?'' If your audiences are composed of people with varied backgrounds, your writing should be tailored to the majority of your audience, and you may also consider adding additional information in appendices.
+
+Based on your answers to the above questions, there are several ways you can ensure that your instructions will be as clear as possible to your readers.
+
+* Add information (such as tips, side notes) the readers will need in order to understand your instructions and make sure no key information is missing.
+* Do not add information that is unnecessary; it may confuse or mislead your readers.
+* Make sure the document is at the level of your audience. 
+* Add examples/graphics. Graphics can be very helpful to a reader.
+* Have a clear organization. Lack of organization creates confusion and frustration.
+
+== '''Writing Your Instructions''' ==
+
+The following sections are descriptions of the different parts of the general superstructure of a set of instructions. What sections to include will vary based on the complexity of the instructions. Your document may contain any of the following sections:
+
+* Introduction
+* Description of Equipment
+* Materials and Equipment Necessary
+* The procedures
+* Visual aids
+* Troubleshooting
+
+=== '''Introduction''' ===
+
+What is included in your introduction will depend on what your instructions are for and who will be using them. In any case, the introduction should be brief, but still informative. The introduction can include any or all of the following sections:
+
+* '''Subject/Aim:''' Here you should indicate the specific task that will be explained and what the outcome of the procedure will be.
+* '''Intended Readers:''' You may want to identify who the intended readers of the instructions are and if the reader will need additional knowledge or background in order to complete the task.
+* '''Scope:''' This will help the reader to know if the instructions will help them complete the task they want to or not.
+* '''Organization:''' Giving the reader an overview of what the rest of the instructions will look like can help them to more easily understand them. This section could also go under scope.
+* '''Safety:''' It is your responsibility to inform the readers of any hazards or dangers that could occur while they are completing the task. You need to display warnings in a clear and understandable fashion.
+
+=== '''Description of Equipment''' ===
+
+If there is equipment that the reader will have to use in order to operate or repair a piece of equipment, you may want to include a description of it.
+
+=== '''Materials/Equipment List''' ===
+
+Provide a list of equipment that the reader will need to accomplish the task so they know if they need additional tools or things they may not normally have. A list of supplies is also helpful for a reader to make sure that they have all the parts and pieces they need.
+
+=== '''Procedure''' ===
+
+This section is obviously the most important part of an instructions set since it is the actual steps that the reader will follow to complete the task at hand. There are many ways to format the procedures, but most are done with numbered lists. The following are things you should do to make the steps clear and concise:
+
+* Write each step with concise wording so it is easily understood and completed.
+** Techniques: 
+*** Give readers enough information to perform the step, avoid redundancy.
+*** Put the steps in a list. Numbering often works the best.
+*** Highlight key words.
+
+* Make sure the reader can locate steps quickly and easily.
+** Techniques:
+*** Number steps.
+*** Skip lines between steps.
+
+* Make actions stand out from the rest of the text.
+
+* Tell the reader what to do if they make a mistake. Not knowing what to do will cause frustration and the reader may give up on the task.
+
+=== '''Visual Aids''' ===
+
+The use of graphics and pictures to correspond to each step is highly recommended. Each person has different learning habits; some like texts while others are better off with pictures. The presence of graphics also allows the reader to make sure he/she is still on the right track. In most situations it would be beneficial to have a combination of both graphics and words.
+
+=== '''Troubleshooting''' ===
+
+Instructions should include this section to tell the reader what to do if something goes wrong during the building process or if the completed project does not look like the expected outcome. Putting this information into a table format often works the best.
+
+For an example set of instructions visit [https://www.prismnet.com/~hcexres/textbook/models.html#instructions] This webpage contains information from the textbook entitled ''Power Tools for Technical Communication'' by David A. McMurrey.
+
+== '''Usability Testing''' ==
+
+Usability testing is an absolutely crucial step in preparing an effective set of instructions. Once you have completed a draft of your instructions, it is important to test them to see where improvements can be made. A usability test should be performed on multiple testers for each updated draft of your instructions. Here is how you go about performing a usability testing:
+
+
+1. First, you should choose your testers from a group that is representative of your intended audience. In order to single these specific users out, you may need to ask a few preliminary questions. For example, asking what their experience level with the task is or what their job field is. 
+
+
+2. Next you need to choose how you will evaluate the tester's performance in completing the task. There are different methods to choose from, but one method is called the "Think Aloud" method. When using this method you ask your tester to complete the task using your instructions while verbalizing everything that is going through their head as they go through the instructions. Do not offer any help to the tester as he or she goes through the test, kindly tell them that you can answer their questions at the end. As the tester says what is confusing or hard you take notes. You can record this information in a chart that has three columns. In the first column you will record the problems your tester had. In the second column you write down what the possible cause of each problem was. In the third try to generate a possible solution to the problem or possible ways you can change your instructions to make them more understandable. Be sure to be descriptive in what you want to find out. Be sure to lay out the testing form to collect all pertinent information about your testing so no information is overlooked or misplaced.
+
+
+3. After the test is done look at your notes and ask the tester to elaborate on the problems that you noted. This is an important step because you are getting direct feedback from your audience. Make sure that you understand exactly what was confusing for them, as this will help you in writing the most successful set of instructions. Ask testers how you could change that step or part of the instructions to make them unambiguous.
+
+ 
+4. Based on your findings edit and update your instructions. After you do so they should be more understandable and easier to follow for your intended audience. In many cases it is appropriate or even necessary to conduct one or more rounds of usability tests as you perfect your instructions. More testing may prove beneficial in discovering problems that were overlooked the first round of testing or because the problems may have been masked by original complications. If time permits, be sure to run as many rounds of usability testing as needed. 
+ 
+
+* Note: Pay special attention to your intended audience and ensure that you have the number of testers, and accurate demographics necessary to accurately represent your sample. For example, if you are making instructions for a 'beginner audience' and test an all 'expert' audience your sample will not be representative. In addition, if you are wanting to make instructions for a large audience of several ages, gender and experience level, your sample will need to be large and representative of that population.
+* If the instructions require the tester to use both hands (like tying a tie), consider making all the instructions visible without turning pages so it is easier for them to complete the task.
+
+== '''General Writing Style Tips''' ==
+
+Many people resist reading instructions. They try to figure out for themselves how to operate a product or perform a task and will turn to the instructions only if all their efforts fail. When they do read the instructions, they want to understand everything immediately without having to read anything twice. A simple design, plain wording, and clear instructions will be critical to encouraging readers to pay attention to your instructions or procedures.
+
+When writing technical documents and instructions there are several style tips you should keep in mind:
+
+* Use a lot of imperative, command or direct address, kinds of writing. It is OK to use "you" when writing instructions, because you are addressing the reader directly.
+* Use active instead of passive voice.
+* Do not leave out articles such as a, an and the.
+* Use action verbs.
+* Ensure graphics match descriptive text to avoid confusion.
+* Label graphics by steps, for example Step 17 "...Put...", the graphic should be labeled clearly with a number "17" or if multiple graphics exists for a line of text writing in chronological order "17a, 17b, etc." or if different views "17 front, 17 back, etc."
+* Keep text short but descriptive.
+* Avoid complicated jargon, use simple verbiage to ensure understanding by a broad spectrum of users.
+* Use concise headings and subheadings to describe and highlight each section.
+* Leave plenty of white space around headings.
+* Highlight safety information and warnings.
+* Keep illustrations as simple as possible.
+
+
+[http://en.wikibooks.org/wiki/Technical_and_professional_writing Main Page]
+{{BookCat}}

@@ -1,0 +1,102 @@
+Commercial Motor Vehicles (CMVs) are a heavily regulated industry. The following research describes the major required regulatory elements regarding CMV operations including CMV registration, fuel taxes, and technological regulatory tools used for safety and fleet management. The registration and fuel tax sections contain a summary delivering foundational information.  The final 2 sections will specifically highlight fleet management techniques and the federal mandate of Electronic Logging Devices.
+
+==LIST OF ACTORS & STAKEHOLDERS==
+#Truck Driving Industry and Associations
+#Federal Motor Carrier Safety Administration (FMCSA)
+#Law Enforcement Agencies
+#State Motor Vehicle Agencies
+#Manufacturer's of ELD's
+
+==KEY WORD DEFINITIONS & ACRONYMS==
+*AAMVA- American Association of Motor Vehicle Administrators
+*ATRI American Transportation Research Institute- a not-for-profit organization part of the American Trucking Associations Federation based in Arlington, Virginia which conducts transportation research focused on the trucking industry.
+*Cab card- Registration document
+*CMV- Commercial Motor Vehicle
+*CVSA- Commercial Vehicle Safety Alliance
+*ELD- Electronic Logging Device
+*HOS- Hours of Service
+*ICC- Interstate Commerce Commission 
+*IRP- International Registration Plan
+*IFTA- International Fuel Tax Agreement
+*ISTEA- Intermodal Surface Transportation Efficiency Act
+*Reciprocity- the granting of privilege, exemption or agreement to allow operation quid pro within jurisdictions. Simply an      agreement to allow one jurisdiction’s vehicles to operate in another jurisdiction if the allowance is mutually recognized.
+*RODS- Record of Duty Status, more commonly known as a log book
+
+==CMV REGISTRATION==
+	Commercial Motor Vehicles must register & pay registration fees in each jurisdiction they operate in. Without a centralized process, a truck would be required to purchase a registration or credential in each state they operate. If and when this occurs the fees associated are charged at 100%. The International Registration Plan (IRP) is a reciprocity agreement including most jurisdictions which pro-rate fees per jurisdiction utilizing one credential. The figure map illustrates IRP participating jurisdictions. All lower 48 US States and 10 Canadian provinces participated in IRP with over 2.4 million registered CMVs.
+[[File:MAP OF IRP JURISDICTIONS.png|thumb|MAP OF IRP JURISDICTIONS]]
+IRP was started in 1968 through an American Association of Motor Vehicle Administrators (AAMVA) sub-committee formalizing reciprocity agreements. After a pilot agreement between Kentucky, Missouri, and Tennessee in 1973, a finalized resolution passes at the AAMVA International Conference. In 1995, The Federal Highway Administration (FHWA) signed with IRP, Inc. to provide an electronic clearinghouse for the exchange of electronic credentialing. 
+	The below example is a sample IRP cab card. Each state has an algorithm which fees are calculated determined by the miles driven for each truck. The single credential historically only listed jurisdictions in which the CMV operated. The IRP Clearinghouse electronically facilitates the secure exchange of information and fees among the jurisdictions. Funds are transferred by an electronic remittance netting function with concurrent Electronic Funds Transfer(EFT) through a central IRP bank. 
+	Beginning in 2015, the Full Reciprocity Plan (FRP), a complete re-write of the IRP Plan, became effective changing delivery of estimation of distance resulted in revenue losses resulting from under-estimation and dropped jurisdictions, differences and accuracy concerning audit procedures regarding estimated distance, complications in administeration and industry penalties when reporting actual distance exceeding estimated distances. FRP requires all vehicles be issued the single credential, cab card, with all the jurisdictions listed. Upon renewal fees would only apply to actual distance in each jurisdiction, eliminating estimations. 
+	Carriers utilize a wide range of tools to assist in meeting the registration reporting requirements from pencil-and-paper manual the plan to improve efficiency, equitability, and offering more flexibility for members and registrants. Prior to FRP distances and fees assessed were calculated utilizing an estimated or anticipated distance submitted by the registrant. Jurisdictions reported the tracking to automated software. Most large carries with various fleets have implemented complex software.
+[[File:EXAMPLE OF ALBERTA IRP CAB CARD.png|thumb|SAMPLE OF ALBERTA IRP CAB CARD]]
+
+==FUEL TAXES==
+	Fuel taxes are collected by each jurisdiction for the purposes of funding highway construction and maintenance. The International Fuel Tax Agreement (IFTA) enables jurisdictions and carriers to file and pay these quarterly taxes through a single base jurisdiction maintaining one fuel credential. 
+	IFTA began as a cooperative program between Arizona, Washington, and Iowa in 1983 in order to facilitate fuel tax reporting and payments. The following year the Regional Fuel Tax Agreement (RFTA) was created as a working group through federal legislation. Then in 1987, the National Governors’ Association supported adoption of the model with membership from Arizona, Idaho, Iowa, Minnesota, Oklahoma, and Washington. The ISTEA Act of 1991 renamed RFTA to IFTA and codified uniform fuel tax reporting agreements. The membership decided to incorporate a non-profit corporation to facilitate the business of IFTA. A 1996 deadline mandated all jurisdictions to collect fuel taxes and distribute to the other jurisdictions.
+	The IFTA, Inc. Clearinghouse was implemented in 2000 capable of electronically exchanging information. Then in 2010 a partnership was formed with IRP to run a joint clearinghouse in order to efficiently hold workshops, compliance reviews, education, disputes, and audit functions. Jurisdiction participation is the same as IRP with 48 states and 10 provinces.
+
+[[File:IFTA SAMPLE DOCUMENT.png|LEFT|INTERNATIONAL FUEL TAX AGREEMENT SAMPLE REGISTRATION DOCUMENT]]    [[File:IFTA SAMPLE CMV DECAL.png|RIGHT|INTERNATIONAL FUEL TAX AGREEMENT SAMPLE CMV DECAL]]
+
+==CMV SAFETY==
+	The trucking industry has grown from about 20,000 carriers in the 1970’s to more than 500,000 today.  However, the industry is currently operating with a 30-35,000 driver shortage within the 3.2 million truck drivers. Facing a steadily increasing demand for freight estimates expect the shortage to grow to 240,000 by 2022 ranking 2nd as the top industry issue. Additionally, demographics within the truck driving community are changing with more baby boomers exiting the career field compared to millennials entering. A 2013 American Transportation Research Institute (ATRI) study reported 29% of trucking employees were in the 45-54 age bracket while only 56.6% of the 25-34 age group were employed. Both ends of the study were well outside the percentages of other job categories respectively. Compounding the shortage, Transportation Secretary Anthony Foxx estimates a 45% increase in freight.  The need to deliver product will spawn urges to stretch driving hours of service to maximums in order to meet this demand and the incentive to illegally drive more will be significantly higher. [[File:WYOMING CMV MULTI-CRASH PICTURE.png|thumb|WYOMING CMV MULTIU-CRASH PICTURE]]
+Why so much regulation? During a March 2016 Specialized Transportation Symposium the results of the Large Truck Crash Causation Study reported 13% of all trucking accidents were attributed to driver fatigue. Also in 2013 a total of 327,000 trucks crashed with 3,451 fatalities.  
+	Regulatory technology has been spreading from state to state since the 1990s. With minimal resources and manpower, state regulatory agencies have invested in various advanced technologies to provide a force multiplier in screening and identifying unsafe trucks. Most of these technologies are heavily focused on vehicle and credential verification tools including; weigh in motion, license plate readers, and infrared detectors. 	These systems check trucks and if they pass all checks, then the truck is allowed to by-pass the station saving time, money, and fuel. This enables agencies to operate more efficiently and effectively by targeting unsafe trucks identified by the technology.
+	Contemporary methods involved physically weighing CMVs and personally inspecting documents to check compliance. The results were minimal with most times less than 1% of trucks checked. Meanwhile, the other 99% of trucks waiting to be checked through a weigh station only to be “green lighted” through suffer a cost calculated at $8.68 per location.
+
+==ELD SUMMARY==
+Prior to 1938 hours of service (HOS) were not regulated. Then the Interstate Commerce Commission  (ICC) was the first government agency to enact and enforce HOS among the trucking industry under the canopy of driver safety and creating a level playing field. The Motor Carrier Act of 1935 provided a unique exemption for motor carriers  outside the Fair Labor Standards Act regarding overtime compensation.  The maximum hours established were 12 hours driving with an additional 3 hours on duty cycled by 9 hours off duty. This induced incentives for longer driving hours. Organized labor successfully petitioned these rules in 1939 compromising on 10 hours driving cycled by a minimum of 8 hours off within a 24 hour period. This would be the standard for the following 23 years. 
+	Today, the Federal Motor Carrier Safety Administration (FMCSA) regulates commercial trucking in the United States. One concern for the FMCSA is making sure that commercial truck drivers receive adequate rest.  Drivers are required to keep records of their Hours of Service (HOS) for the FMCSA in what is commonly known as a log book. Traditionally drivers have recorded their HOS in paper log books. Figure 4 is an example of a blank log book page. However, paper logs depend on the driver to fill them correctly. Specially trained law enforcement officers inspect the accuracy of the log book which most commonly contains four types of duty statuses outlined below. The log book must be kept current to the last change in duty status in 15 minute intervals. Some drivers take advantage of this to exceed their HOS requirements since paper logs are easy to edit and falsify while others find keeping this precise of records, like a diary, challenging to keep current. An ATRI survey identified hours of service as the number one industry issue in 2015.
+===<u>4 Duty Status Types</u>===
+*Off Duty [[File:BLANK RECORD OF DUTY STATUS LOG BOOK.png|thumb|SAMPLE BLANK LOG BOOK PAGE]]
+*Sleeper Berth
+*Driving
+*On Duty (not driving)
+To combat this, the FMCSA published rules on December 16, 2015 that went into effect on February 16, 2016 that marked the beginning of the phase-out of paper logs. Drivers are required to switch to electronic logs by December 18, 2017 when paper logs will no longer be allowed to use. The term Electronic On-Board Recorder (EOBR) has popularly been used to talk about electronic logbook devices but FMCSA has never used the term EOBR in its regulations. FMCSA regulations mentioned that an Automatic On-Board Recording Device (AOBRD) or paper logs can be used. The current regulation calls the new electronic devices that meet the technical standards in the mandate Electronic Logging Device or ELD for short. Electronic log books installed before December 18, 2017 that meets the AOBRD standard can still be used but all devices will have to meet ELD requirements after December 16, 2019. There will still be some drivers that are not required to use ELD’s but the majority of drivers and companies will be required to use ELD’s. FMCSA has designated deployment of the ELD mandate in a 3 phase implementation plan. Phase I is a 2 year awareness and transition period including voluntary application beginning last February through December 16, 2017. During this phase, ELD vendors may begin required device self-certification and registration with FMCSA. Carriers have the option to install and use the devices. Phase II beginning December 16, 2017 necessitates all required drivers to use an ELD or a grandfathered AOBRD. Phase III requires the full implementation by December 16, 2019 and AOBRDs will no longer be considered compliant. Below figure illustrates a basic timeline for implementation. [[File:FIGURE OF ELD PHASES.png|CENTER|TIMELINE OF ELD MANDATE PHASES]]
+
+The device must be capable of exporting data in a standard format. At a minimum, the transfer must either occur wirelessly or locally. Wireless delivery can be accomplished via web services and email while local transfer can take place by Bluetooth or USB. In cases where service is not available a backup must provide digital display information or a printable version. Mush like cell phones, prices vary widely depending on device options and service plans, yearly prices range from $150 to $850 per truck and average around $500 for the most popular devices.
+
+===<u>ELD Exceptions</u>===
+	There are 4 exceptions to the ELD mandate.  If a driver does not drive more than 8 days in any 30 day period they can still use paper logs.  Drivers that transport empty vehicles that are for sale, lease, or repair also known as driveaway-towaway drivers are exempt from ELD’s.  If you drive a truck older than the 2000 model year you are exempt because not every engine built before 2000 has an ECM or electronic control module compatible with ELD standards. The final exception is for short-haul drivers who use timecards and therefore do not need to keep RODS.
+ 
+===<u>Benefits</u>===
+	Compliant ELD devices are similar to aircraft “black boxes” integrated with the engine and operation of a CMV automatically recording with the ability to export at a minimum:
+*Date
+*Time
+*Location 
+*Engine Hours
+*Vehicle Miles
+*Identification information of the driver and motor carrier
+	FMCSA predicts ELDs will save 26 lives and prevent another 562 injuries annually. As reported in a 2015 report log book violations were the most frequent violations found by law enforcement inspections conducted roadside. Many of the device vendors ensure 100% accountability and notify carriers when maximum drive times are reached. With an average single crash verdict totaling $3.6 million in wrongful death suits, significant savings is expected to be realized utilizing information obtained from the data recorded by ELDs. Additional data available from ELDs including speed and braking capacity in many cases have protected drivers after a crash.
+	Compared to paper RODS which were in 15 minute intervals and either delivered to the carrier in person or snail mailed, ELDs enable carriers to realize exact to the minute management of time gaining efficiencies with real-time awareness of a CMVs location and driver’s available time. Further efficiencies are claimed to be gained from the automatic calculation of driver logs eliminating the necessity of cab paperwork and automated uploads on demand to the carrier for back office record retention and management. As an industry, the paperwork cost savings is anticipated around $1.6 billion annually.
+===<u>Drawbacks</u>===
+	The Department of Transportation estimates the transition to cost the trucking industry $1.8 billion with $1 billion of that in actual hardware, but also off-sets those costs with a net savings of $1.7 billion.  Adverse impacts will affect start-ups and retrofit small businesses the most. Not everyone in the trucking industry is supportive of the ELD regulation. One group, the Owner-Operator Independent Drivers Association (OOIDA) representing approximately 150,000 independent truck drivers has formally filed a lawsuit against FMCSA regarding the ELD mandate quoting the regulation, “This rule has the potential to have the single largest, most negative impact on the industry than anything else done by FMCSA.”  With some major carriers experiencing a large percentage, near 100% turnover rate, of independent drivers, interoperability between different vendor devices creates compatibility challenges and costs.
+	Training has been identified as a key component of successful implementation and deployment not only for familiarity but driver buy-in embracing change and satisfaction with being comfortable with the technology. Critics of USDOT’s financial impacts raised concerns with omission of cost estimates including driver turnover, more compliance staff, additional training and device maintenance. Dissentient’s state compliance costs much higher ranging between $800 and $6,000 per CMV.
+==DISCUSSION QUESTIONS==
+*How long do we predict when truckers will switch from manual mileage reporting to using GPS and software programs such as PC Miler?
+*Will ELD’s reduce fatalities and accidents as promised by FMCSA?
+*Will the ELD mandate cause undue burden on Owner Operators and smaller companies?
+*As with paper logs will drivers find ways to cheat with ELD’s?
+==ADDITIONAL INFORMATION & READING==
+* International Fuel Tax Agreement http://www.irponline.org/
+*International Fuel Tax Agreement http://www.iftach.org/
+*FMCSA ELD https://www.fmcsa.dot.gov/hours-service/elds/electronic-logging-devices
+==References==
+#American Transportation Research Institute. Critical Issues in the Trucking Industry – 2015. October 2015
+#American Trucking Association. American Trucking Trends 2014. July 9, 2014. http://www.trucking.org/article.aspx?uid=0c98b069-cb00-457d-84b4-75a3c0ebaf3b (accessed 2016-03-10)
+#Cassidy, William B. Senior Editor. Journal of Commerce website. US electronic logging rule heralds supply chain challenges, changes. December 11, 2015 6:23 PM EST. http://www.joc.com/regulation-policy/transportation-regulations/us-transportation-regulations/us-electronic-logging-rule-heralds-supply-chain-challenges-changes_20151211.html. (accessed 2016-04-16)
+#Foxx, Anthony US Secretary of Transportation. Fastlane Briefing. Expanding Transportation Infrastructure Will Help Move Us Beyond Traffic. April 6, 2016. https://www.transportation.gov/fastlane/expanding-transportation-infrastructure-will-move-us-beyond-traffic. (accessed 2016-04-06)
+#Full Reciprocity Task Force. IRP, Inc. White Paper Full Reciprocity Plan. August 2010. http://c.ymcdn.com/sites/www.irponline.org/resource/resmgr/about_irp,_inc_/frp_white_paper.pdf. Page 4 (accessed 2016-03-10)
+#Hardman, James C, Motor Carrier Service and Federal and State Overtime Wage Coverage, 2008
+#HELP Inc. website. Frequently Asked Questions. http://www.helpinc.us/about-us/history-of-help-inc-2 (accessed 2016-04-03)
+#IRP, Inc. website. Clearinghouse. 2012. www.irponline.org/?page=Clearinghouse. (accessed 2016-03-10)
+#Jaileet, James. Overdrive website article. The new cost of e-log compliance and FMCSA’s denial of small business exemption. December 11, 2015. http://www.overdriveonline.com/the-new-cost-of-e-log-compliance-and-fmcsas-denial-of-small-business-exemption/ (accessed 2016-04-03)
+#Jones, Kevin. Fleet Owner. ELDs: The Transition Starts Now. February 8, 2016. http://www.lexisnexis.com.mutex.gmu.edu/hottopics/lnacademic/?shr=t&csi=261383&sr=HLEAD(%22ELDs%20The%20transition%20starts%20now%22)%20and%20date%20is%202016 (accessed 2016-04-10)
+#Kelly, Dan. Reading Eagle. Transport Topics. Truckers Get a Vigilant Partner in the Ca: FMCSA-Mandated Electronic Logging Devices. March 28, 2016. Page 40
+#Schneider, David. We Are The Practitioners We are Supply Chain Coaches. Revisiting Hours of Service History, Part 1: The Foundation. March 25, 2013.  http://www.wearethepractitioners.com/library/the-practitioner/2013/03/25/revisiting-hours-of-service-history-part-1-the-foundation (accessed on 2016-03-17)
+#Short, Jeffrey. American Transportation Research Institute. Analysis of Truck Driver Age Demographics Across Two Decades. White Paper. December 2014
+#Skydel, Seth. Senior Contributing Editor. Fleet Equipment. Logging in: The ins and outs of the ELD mandate. October 2015. http://search.proquest.com.mutex.gmu.edu/docview/1727398187?accountid=14541 (accessed 2016-04-08)
+#Specialized Transportation Symposium. March 2, 2016. Memphis, TN
+#Swanson, Cindy California Assistant IFTA Commissioner; Lapage, Ghyslaine Quebec Administrative Assistant; Plante, Kim Vermont Supervisor. IFTA, Inc Webinar. History of IFTA. http://www.iftach.org/ (accessed 2016-03-22)
+
+{{BookCat}}

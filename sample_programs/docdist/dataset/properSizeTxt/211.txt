@@ -1,0 +1,180 @@
+{{TOCright}}
+==Lesson Objectives==
+* Describe the characteristics that all minerals share.
+* Summarize the structure of minerals.
+* Identify the groups in which minerals are classified.
+
+==What are Minerals?==
+You use objects that are made from minerals every day, even if you do not realize it. You are actually eating a mineral when you eat food that contains salt. You are drinking from a container made from a mineral when you drink from a glass. You might even wear silver jewelry. The shiny metal silver, the white grains of salt, and clear glass may not seem to have much in common, but they are all made from minerals (Figure 3.1). Silver is a mineral. Table salt is the mineral halite. Glass is produced from the mineral quartz. Scientists have identified more than 4,000 minerals in Earth's crust. Some minerals are found in very large amounts, but most minerals are found in small amounts. If minerals can be so different from each other, what makes a mineral a mineral?
+
+A mineral is a crystalline solid formed through natural processes. A mineral can be an element or a compound, but it has a specific chemical composition and physical properties that are different from those of other minerals. Silver, tungsten, halite, and quartz are all examples of minerals. Each one has a different chemical composition, as well as different physical properties such as crystalline structure, hardness, density, flammability, and color. For example, silver is shiny and salt is white.
+
+{| cellpadding="0" cellspacing="0" style="width:500px; margin:0px auto 0px auto; padding:0px;"
+|
+{| cellpadding="0" cellspacing="0" style="margin:0px; padding:0px;"
+ |[[File:Amore ring sterling silver II.jpg|center|thumb|167px|Silver ring]]
+ |-
+ |[[File:Silver-251007.jpg|center|167px|thumb|Silver]]
+|}
+|
+{| cellpadding="0" cellspacing="0"
+ |[[File:Saltmill.jpg|center|thumb|156px|Salt mill]]
+ |-
+ |[[File:ImgSalt.jpg|center|thumb|156px|Halite]]
+|}
+|
+{| cellpadding="0" cellspacing="0"
+ |[[File:Highball Glass (Tumbler).svg|center|133px|thumb|Glass tumbler]]
+ |-
+ |[[File:Quartz Saint Lary Ariège.jpg|center|133px|thumb|Quartz]]
+|}
+|-
+|colspan="3" style="text-align:center; font-size:90%;"|'''Figure 3.1''': Silver is used to make sterling silver jewelry.  Table salt is the mineral halite.  Glass is produced from the mineral quartz.
+|}
+
+==Natural Processes==
+Minerals are made by natural processes. A natural process occurs in or on the Earth. One common natural process that forms minerals is the crystallization of magma. Some natural processes shape Earth's features, while others include volcanic activity and the movement of tectonic plates. Rocks and minerals are formed in sedimentary layers of sand and mud and in the folding of those layers deep in the Earth, where they are exposed to high pressures and temperatures. A technician might make a gemstone in the laboratory, but this would have been created synthetically, not by natural processes.
+
+==Inorganic Substances==
+A mineral is an inorganic substance, which usually means it was not made by living organisms. Organic substances are all the carbon-based compounds made by living creatures, including proteins, carbohydrates, and oils. This definition includes fossil fuels such as coal and oil, which were originally made by living organisms millions of years ago. Everything else is considered inorganic. In a few exceptional cases, living organisms produce inorganic materials, such as the calcium carbonate shells of marine organisms.
+
+==Crystalline Solids==
+[[File:Sodium-chloride-3D-ionic.png|200px|thumb|'''Figure 3.2''': As you can see from this model, sodium ions (purple) bond with chloride ions (green) in a certain way to form halite crystals.]]
+
+Minerals are crystalline solids. Therefore, natural inorganic substances that are liquids are not minerals. For example, liquid water is inorganic, but it is not a mineral because it is a liquid. Even some solids may not be crystalline. A crystal is a solid in which the atoms are arranged in a regular, repeating pattern. Figure 3.2 shows how the atoms are arranged in table salt (halite). Table salt contains the ions sodium and chloride. Notice how the atoms are arranged in an orderly way. Also, notice that the pattern continues in all three dimensions.
+
+==Chemical Composition==
+[[File:Water molecule.svg|200px|thumb|left|'''Figure 3.3''': As this model of a water molecule shows, all water molecules have two hydrogen atoms (gray) bonded to one oxygen molecule (red).]]
+
+All minerals have a specific chemical composition. Minerals are either pure elements or chemical compounds. An '''element''' is a substance in which all of the atoms have the same number of protons. (Protons are the positive particles in the center of every atom, the nucleus.) You cannot change an element into another element by chemical means because the number of protons does not change. Silver, sodium, silicon, and oxygen are a few of the elements found in minerals. A few minerals are made of only one kind of element. The mineral silver is a pure element because it is made up of only silver atoms.
+
+Most minerals, such as halite and quartz, are made up of chemical compounds. A '''chemical compound''' is a substance in which the atoms of two or more elements bond together. The elements in a chemical compound are in a certain ratio. Solid water (ice) is probably one of the simplest compounds that you know. As you can see in Figure 3.3, a molecule of the compound water is made of two hydrogen atoms and one oxygen atom. All water molecules have a ratio of two hydrogen atoms to one oxygen atom. In ice, all the water molecules are arranged in a definite, orderly pattern.
+
+Minerals that are not pure elements are made of compounds. For example, the mineral quartz is made of the compound silicon dioxide, or SiO<sub>2</sub>. This compound has one atom of the element silicon for every two atoms of the element oxygen. When a mineral has a different chemical formula, it is a different mineral. For example, the mineral hematite has two iron atoms for every three oxygen atoms, while the mineral magnetite has three iron atoms for every four oxygen atoms. Many minerals contain more complex chemical compounds that are made of several elements. However, even the elements in more complicated compounds occur in certain ratios.
+
+==Structure of Minerals==
+The crystal structure of a mineral affects the mineral's physical properties. Imagine you have three samples of halite. Each sample was found in a different country. They are all different sizes and shapes. They may have even been formed by different geologic processes. Will the samples all have the same crystal structure? Yes! All halite has the same chemical composition and the same crystal structure, despite physical differences.
+
+===Crystals in Minerals===
+The shape of the crystals of a mineral is determined by the way the atoms are arranged. When crystals grow large, you can see how the arrangement of atoms influences the shape. Notice how the large halite crystal in Figure 3.1 has square shapes. This shape is the result of the pattern of sodium and chlorine atoms in crystal. Now, compare the crystal in Figure 3.1 with the grains of salt magnified under a microscope shown in Figure 3.4. These small crystals have similar shapes to the large crystal. You can see that the shapes of the crystals are made up of squares. You can try this at home. If you sprinkle salt into your hand and look carefully at each grain of salt, you will see that it is perfect little cube. 
+
+[[File:Salt-cristalls.jpg|center|500px|thumb|'''Figure 3.4''': When you look at grains of table salt under a microscope, you can see that the crystals are made of square shapes.]]
+
+Large crystals only form when they have room to grow. Often, crystals are very small. Even if you cannot see the individual crystals in a mineral sample, the atoms are still ordered in a regular, repeating pattern. This pattern can be used to help identify an unknown mineral sample. A trained scientist may be able to determine the crystal structure by the shape of
+a large crystal. If they cannot figure out the crystal structure by looking at the mineral, scientists use an instrument that uses X rays to find out how the atoms are arranged in a mineral sample.
+
+A mineral has both a characteristic chemical composition and a characteristic crystal structure. Sometimes, minerals have the same chemical composition, but different crystal structures. What do you know about diamond and graphite? Diamonds are valued as gems for jewelry. They are also very hard. Graphite is used as pencil lead and has a slippery feel. Compare the diamond with the pencil lead in Figure 3.5. Diamond and graphite are both made of only carbon, but they are not the same mineral. The crystal structure of diamond differs from the crystal structure of graphite. The carbon atoms in graphite bond to form layers. The bonds between each layer are weak, so the sheets can slip past each other. The carbon atoms in diamonds bond together in all three directions to form a strong network. As a result, the properties of diamond differ from the properties of graphite.
+
+{{multiple image
+| align     = center
+| footer    = '''Figure 3.5''': Even though they are both made of carbon, diamonds and graphite have different characteristics.
+| image1    = Brillanten.jpg
+| width1    = 217
+| alt1      = Cut diamonds.
+| image2    = Pencil tip closeup.JPG
+| width2    = 247
+| alt2      = The tip of a pencil, close-up.
+}}
+
+==Groups of Minerals==
+[[File:Silicate-tetrahedron-3D-balls.png|185px|thumb|'''Figure 3.6''': One silicon atom bonds to four oxygen atoms to form the building block of silicate minerals.]]
+Imagine you were in charge of organizing more than 100 minerals for an exhibit at a museum near you. You want the people who visit your exhibit to learn as much as possible about the minerals they see. How would you group the minerals together in your exhibit?
+'''Mineralogists''' are scientists who study minerals. They use a system that divides minerals into groups based on chemical composition and structure. Even though there are over 4,000 minerals, most minerals fit into one of eight mineral groups. Minerals with similar crystal structures are grouped together.
+
+===Silicate Minerals===
+Silicate minerals make up over 90 percent of Earth's crust. When you think of the Earth's crust, you may think of the people, animals or trees that live on the Earth's surface. Yet living organisms are made of organic matter and there is only a small amount of organic matter in Earth's crust. About 1,000 silicate minerals have been identified, making the silicate minerals the largest mineral group.
+
+'''Silicates''' are minerals that contain silicon atoms bonded to oxygen atoms. The basic building block for all silicate minerals is called a tetrahedron, where one silicon atom is bonded to 4 oxygen atoms (Figure 3.6). Silicate minerals also often contain other elements, such as calcium, iron, and magnesium.
+
+Notice that the silicon and oxygen form a shape like a pyramid; this is the tetrahedron. The pyramid-shaped building blocks can combine together in numerous ways. The silicate mineral group is divided into six smaller groups, which are determined by the way the silicon-oxygen building blocks join together. The pyramids can stand alone, form into connected circles called rings, link into single and double chains, form large flat sheets of pyramids or join in three dimensions.
+
+Feldspar and quartz are the two most common silicate minerals. Beryl is a silicate mineral, which forms rings from the tetrahedra. The gemstone emerald is a type of beryl that is green because of chemical impurities. Biotite is a mica, which is another silicate mineral that can be broken apart into thin, flexible sheets. Compare the beryl and the biotite shown in Figure 3.7.
+
+{{multiple image
+| align     = center
+| footer    = '''Figure 3.7''': Beryle and biotite are both silicate minerals.
+| image1    = Beryl-37907.jpg
+| width1    = 142
+| alt1      = Column of Beryl.
+| image2    = Biotite sliceUSGOV.jpg
+| width2    = 349
+| alt2      = Biotite slice.
+}}
+
+===Native Elements===
+Native elements are minerals that contain only atoms of one type of element. The elements are not combined with other elements. In nature most elements are combined with other elements to form chemical compounds. So, the native elements mineral group contains
+a relatively small number of minerals. Some of the minerals in this group are rare and valuable. Gold, silver, sulfur, and diamond are examples of native elements.
+
+===Carbonates===
+From the name "carbonate", what would you guess carbonate minerals contain? If you guessed carbon, you would be right! More specifically, all carbonates contain one carbon atom bonded to three oxygen atoms. Carbonates may include other elements, such as
+calcium, iron, and copper.
+
+Carbonate minerals are often found in areas where ancient seas once covered the land. Some carbonate minerals are very common. Calcite is one such mineral. Calcite contains calcium, carbon, and oxygen. Have you ever been in a limestone cave or seen a marble tile? Calcite is in both limestone and marble. Azurite and malachite are also carbonate minerals, but they contain copper instead of calcium. They are not as common as calcite, as you can see in Figure 3.8, they are very colorful.
+
+{{multiple image
+| align     = center
+| footer    = '''Figure 3.8''': Azurite is a deep blue carbonate mineral. Malachite is an opaque green carbonate mineral.
+| image1    = Azurite from China.jpg
+| width1    = 300
+| alt1      = Crystallized Azurite.
+| image2    = MoreMalachite.jpg
+| width2    = 193
+| alt2      = Polished Malachite.
+}}
+
+===Halides===
+Halide minerals are salts that can form when salt water evaporates. This mineral class includes more than just table salt. It includes minerals that contain the elements fluorine, chlorine, bromine, or iodine. These elements combine with metal elements. Halite is a halide mineral that contains the elements chlorine and sodium. Fluorite is another type of halide that contains fluorine and calcium. Fluorite can be found in many colors. If you shine an ultraviolet light on some samples of fluorite, they will glow!
+[[File:Magnetite-146684.jpg|200px|thumb|'''Figure 3.9''': Magnetite]]
+
+===Oxides===
+Earth's crust contains a lot of oxygen, which combines with many other elements. Oxides are minerals that contain one or two metal elements combined with oxygen. Oxides are different from silicates because oxides do not contain silicon. Many important metals are
+found as oxides. For example, hematite and magnetite are both oxides that contain iron. Hematite (Fe<sub>2</sub>O<sub>3</sub>) has a ratio of two iron atoms to three oxygen atoms. Magnetite (Fe<sub>3</sub>O<sub>4</sub>) has a ratio of three iron atoms to four oxygen atoms. You might have noticed that the word magnetite contains the word magnet. Magnetite is a magnetic mineral.
+{{clear}}
+[[File:Turquoise.pebble.700pix.jpg|200px|thumb|'''Figure 3.10''': Turquoise]]
+
+===Phosphates===
+Phosphates have a tetrahedron building block that is similar to that of the silicates. But, instead of silicon, phosphates have an atom of phosphorus, arsenic, or vanadium bonded to oxygen. Although there are many minerals in this group, most of the minerals are rare. The chemical composition of these minerals tends to be more complex than some of the other mineral groups. Turquoise is a phosphate mineral that contains copper, aluminum, and phosphorus. It is rare and is used to make jewelry.
+
+===Sulfates===
+Sulfate minerals contain sulfur atoms bonded to oxygen atoms. Like halides, they can form in places where salt water evaporates. Many minerals belong in the sulfate group, but there are only a few common sulfate minerals. Gypsum is a common sulfate mineral that contains calcium, sulfate, and water. Gypsum is found in various forms. For example, it can be pink and look like it has flower petals. However, it can also grow into very large white crystals. Gypsum crystals that are 11 meters long have been found—that is about as long as a school bus! Gypsum also forms the white sands of White Sands National Monument in New Mexico, shown in Figure 3.11.
+{{clear}}
+[[File:White Sands New Mexico.jpg|center|500px|thumb|'''Figure 3.11''': The white gypsum sands at White Sands National Monument look like snow.]]
+
+===Sulfides===
+Sulfides contain metal elements combined with sulfur. Unlike sulfates, sulfides do not contain oxygen. Pyrite, a common sulfide mineral, contains iron combined with sulfur. Pyrite is also known as ''fool's gold''. Gold miners have mistaken pyrite for gold because the two minerals look so similar.
+
+==Lesson Summary==
+* For a substance to be a mineral, it must be a naturally occurring, inorganic, crystalline solid that has a characteristic chemical composition and crystal structure.
+* The atoms in minerals are arranged in regular, repeating patterns that can be used to identify a mineral.
+* Minerals are divided into groups based on their chemical composition.
+
+==Review Questions==
+# What is a crystal?
+# Which elements do all silicate minerals contain?
+# Obsidian is a glass that formed when lava cools so quickly that the atoms do not have a chance to arrange themselves in crystals. Is obsidian a crystal? Explain your reasoning.
+# What are the eight major mineral groups?
+# One mineral sample has a ratio of two iron atoms to three oxygen atoms. Another sample has a ratio of three iron atoms to four oxygen atoms. Explain whether the mineral samples are made of the same chemical compound.
+# How does the native elements mineral group differ from all of the other mineral groups?
+# You take a trip to the natural history museum with your friend. During your visit your friend sees two minerals that are similar in color. One mineral contains the elements zinc, carbon, and oxygen. The other mineral contains the elements zinc, silicon, oxygen, and hydrogen. Your friend tells you that the minerals are in the same mineral group. Would you agree with your friend? Explain your reasoning.
+
+==Vocabulary==
+; chemical compound
+: A substance in which the atoms of two or more elements bond together.
+; crystal
+: A solid in which all the atoms are arranged in a regular, repeating pattern.
+; element
+: A substance in which all of the atoms have the same number of protons.
+; mineral
+: A naturally occurring, inorganic, crystalline solid with a characteristic chemical composition.
+; mineralogist
+: A scientist who studies minerals.
+; silicates
+: Minerals that contain silicon atoms bonded to oxygen atoms.
+
+==Points to Consider==
+* Scientists can make diamonds. The diamonds they make are called synthetic diamonds. Explain whether or not you think synthetic diamonds are minerals.
+* Artists used to grind up the mineral azurite to make colorful pigments for paints. Is the powdered azurite still crystalline?
+* What is one way you could tell the difference between two different minerals?
+
+
+{{chapnav|Earth's Minerals|Identification of Minerals}}

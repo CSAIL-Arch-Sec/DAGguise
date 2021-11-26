@@ -1,0 +1,194 @@
+<NOINCLUDE>
+{{CPTPageNavigationU2|
+ | Prev = Functional characteristics of a processor
+ | Next = Machine code and processor instruction set}}
+{{DISPLAYTITLE:Machine Level Architecture: Structure and role of the processor}}
+</NOINCLUDE>
+A processor (CPU) has several core components that work together to perform calculations.  You need to know each of these and how they interact:
+
+== Arithmetic logic unit ==
+[[File:2-bit ALU.svg|center|thumb|A simple example of an arithmetic logic unit (2-bit ALU) that does AND, OR, XOR, and addition]]
+The Arithmetic Logic Unit or the ALU is a digital circuit that performs arithmetic and logical operations.  Where arithmetic operations include things such as ADD and SUBTRACT and the logical operations include things such as AND, OR, NOT.
+
+The ALU is a fundamental building block in the central processing unit (CPU) of a computer and without it the computer wouldn't be able to calculate anything!  Some examples of assembly code instructions that would use the ALU are as follows (not all processors will have all these instructions):
+<syntaxhighlight lang="asm">
+ADD ;add one number to another number
+SUB ;subtract one number to another number
+INC ;increment a number by 1
+DEC ;decrements a number by 1
+MUL ;multiply numbers together
+OR  ;boolean algebra function
+AND ;boolean algebra function
+NOT ;boolean algebra function
+XOR ;boolean algebra function
+JNZ ;jump to another section of code if a number is not zero (used for loops and ifs)
+JZ  ;jump to another section of code if a number is zero (used for loops and ifs)
+</syntaxhighlight>
+
+== Control unit ==
+The control unit sits inside the CPU and coordinates the input and output devices of a computer system. It coordinates the fetching of program code from main memory to the CPU and directs the operation of the other processor components by providing timing and control signals.
+
+== Clock ==
+{{Dbox|[[w:Clock rate|Processor clock]]|A timing device connected to the processor that synchronises when the fetch, decode execute cycle runs}}
+Your computer might contain several clocks that each regulate different things.  The clock we are going to look at here will keep the processor in line.  It will send the processor a signal at regular times telling it to start the fetch decode execute routine.
+[[Image:FrequencyAnimation.gif|thumb|center|150px|Lights flash at ''frequency'' f = 0.5 Hz (Hz = hertz), 1.0 Hz and 2.0 Hz, where <math>x</math> Hz means <math>x</math> flashes per second.]]
+{{Dbox|[[w:Clock rate|Clock speed]]|The number of cycles that are performed by the CPU per second}}
+Clock speed is measured in Hertz, which means 'per second'.  You have probably heard of clock speeds such as 1&nbsp;MHz, this means 1,000,000 cycles per second and potentially a million calculations.  A computer of speed 3.4&nbsp;GHz means it might be capable of processing 3,400,000,000 instructions per second!  However it isn't as simple at that, as some processors can perform more than one calculation on each clock cycle, and processors from different manufacturers and using different architecture are often difficult to compare. (See the [[w:Megahertz myth|Megahertz myth]]).  Also with the increase in multi-core processors such as the PS3 (7 cores) and the Xbox 360 (3 cores) there might be times where the clock might be ticking but there is nothing for the processor to calculate, the processor will then sit idle.
+
+== General purpose and dedicated registers ==
+{{Dbox|[[w:Processor register|Registers]]|a small amount of fast storage which is part of the processor}}
+For immediate calculations, using main memory is too slow.  Imagine having to send a signal along the address bus and some data along the data bus when all you want to do is store the result of adding two numbers together.  The distance between the processor and main memory, even though it might be a few centimetres, is far enough for the signal to take a significant time to get there.  To get past this issue there are small amounts of memory stored inside the processor itself, these are called '''registers'''.  Registers are incredibly fast pieces of memory that are used to store the results of arithmetic and logic calculations.
+
+Different processors will have different sets of registers.  A common register is the '''Accumulator''' (acc) which is a data register, where the user is able to directly address (talk to) it and use it to store any results they wish.  Processors may also have other registers with particular purposes:
+* General purpose register - allow users to use them as they wish
+* Address registers - used for storing addresses
+* Conditional registers - hold truth values for loop and selection
+There are also 4 registers in particular that you need to know, we'll meet them in more detail in the next chapter:
+*'''[[w:Program Counter|Program Counter]] (PC)''' - an incrementing counter that keeps track of the memory address of which instruction is to be executed next.
+*'''[[w:Memory address register|Memory Address Register]] (MAR)''' - holds the address in memory of the next instruction to be executed
+*'''[[w:Memory data register|Memory Buffer Register]] (MBR)''' - a two-way register that holds data fetched from memory (and ready for the CPU to process) or data waiting to be stored in memory
+*'''[[w:Instruction register|Current Instruction register]] (CIR)''' - a temporary holding ground for the instruction that has just been fetched from memory
+{{CPTExercise|title=Exercise: Structure and role of the processor}}
+{{CPTQuestion|Give a description of the Arithemtic Logic Unit:}}
+{{CPTAnswer|The Arithmetic Logic Unit or the ALU is a digital circuit that performs arithmetic and logical operations.}}
+{{CPTQuestion|What does 3MHz mean:}}
+{{CPTAnswer|3,000,000 clock cycles per second}}
+{{CPTQuestion|What does a processor clock do:}}
+{{CPTAnswer|Synchronises the operation of the processor}}
+{{CPTQuestion|What are registers:}}
+{{CPTAnswer|a small amount of fast storage which is part of the processor}}
+{{CPTQuestion|Name 3 registers used by the processor and explain what each does:}}
+{{CPTAnswer|
+* Program Counter (PC) - an incrementing counter that keeps track of the memory address of which instruction is to be executed next...
+* Memory Address Register (MAR) - holds the address in memory of the next instruction to be executed
+* Memory Buffer Register (MBR) - a two-way register that holds data fetched from memory (and ready for the CPU to process) or data waiting to be stored in memory
+* Current Instruction register (CIR) - a temporary holding ground for the instruction that has just been fetched from memory
+* General purpose registers -
+* Accumulator - Used to store results of calculations
+}}
+{{Robox/Close}}
+
+== Increasing performance ==
+If we want to increase the performance of our computer, we can try several things
+* Increasing the clock speed
+* Adjusting word length
+* Increasing bus widths
+For each different methods we are going to look at these old games consoles to see how performance increase was achieved:
+{| class="wikitable"
+|-
+! System !! Year !! Speed !! Word size || Notes
+|-
+| [[w:NES|NES]] || 1983 || 1.79&nbsp;MHz || 8 bit ||
+|-
+| [[w:SNES|SNES]] || 1990 || 3.58&nbsp;MHz || 16 bit ||
+|-
+| [[w:Nintendo 64|Nintendo 64]] || 1996 || 93.75&nbsp;MHz || 64 bit || 
+|-
+| [[w:Gamecube|Gamecube]] || 2001 || 486&nbsp;MHz || 128 bit || cooling fan introduced
+|}
+=== Clock speed ===
+{{Dbox|[[w:Clock rate|Clock speed]]|The number of cycles that are performed by the CPU per second}}
+The most obvious way to increase the speed of a computer would be to increase the speed of the computer clock.  With a faster clock speed the processor would be forced to perform more instructions per second.
+
+{{CPTExample|title=Example: Clock Speed}}
+As you can see on the console table above, each successive console showed an increase in clock speed.  A clock speed of 800&nbsp;MHz is twice as fast as a clock speed of 400&nbsp;MHz, meaning it should be able to calculate twice as many calculations in a given time.
+{{Robox/Close}}
+
+But what is to stop us increasing the clock speed as much as we want?  If you study Physics you might already know this, but the problem with increased clock speed is that an increased current will have to flow through the circuits.  The more current that flows, the hotter things get.  You might notice that a laptop will get hot or even your mobile phone when you are doing something processor intensive like playing a game.  The faster the clock speed, the hotter the processor runs.  To counter this computer scientists have come up with smarter chip designs and introduced heat sinks, fans, and even liquid cooling into computers.  If a processor runs too hot it can burn out!
+
+{| class="wikitable"
+|-
+! NES processor !! Heat sink !! CPU fan !! Water cooling
+|-
+| [[File:RP2A07.jpg|200px]] || [[File:Pin fin heat sink with a z-clip.png|200px]] || [[File:AMD Athlon II X4 630 heatsink-fan.jpg|200px]] || [[File:Watercooling vue cpu northbridge.jpg|200px]]
+|-
+| No need for fans or heat sinks || Draws the heat away from the<br /> processor, which sits beneath || I love the CPU so much, I'm a real CPU fan || Metal contacts are placed on<br /> the cpu drawing heat away, water<br /> then passes over these contacts to<br /> draw heat away
+|}
+
+=== Word size ===
+{{Dbox|Word size|The number of bits of information that a processor can process at one time}}
+Another way to increase the performance of a computer is to increase the word size.  This means increasing the number of bits a computer can process at one time.  As you can see from our console table, increasing word size was a big part of creating faster consoles, they even named a console the N64 to boast about its word size.  With a larger word, computers can handle larger or more precise calculations and do more complicated things.  Modern computer mostly have 32 or 64 bit word sizes, with specialist hardware such as games consoles being able to handle up to 128 bit words.
+{{CPTExample|title=Example: Word Length}}
+[[File:Compsognathus longipes.jpg|thumb|Compsognathus]]
+Imagine that we were only able to use words of length 6 letters or less and we wanted to describe the [[w:Compsognathus|Compsognathus]] dinosaur to someone.  We might try the following:
+{{cquote|A small living thing, with little claws and tough skin.  It lived over ten plus five, times ten, plus seven, times ten, times ten, times ten, times ten, times ten, times ten years ago.}}
+If we were able to use more letters per word (have a larger word size), then we could achieve more in fewer words.
+{{cquote|A small dinosaur with little claws and tough skin.  It lived over one hundred and fifty-seven million years ago.}}
+However, to understand the longer words you would have to know what dinosaur and million meant, maybe stopping for a brief moment to remember.  In computing terminology, you would have to have more complicated hardware and using lots of little words could be faster than processing larger ones. 
+{{Robox/Close}}
+
+=== Bus size ===
+{{Dbox|Bus Size|The number of bits of information a bus can  carry at one time (the number of wires making up a bus)}}
+Now that we understand what word size is.  Imagine that you have a processor able to understand 32 bit words at a single time.  This is pretty standard.  But what happens if the bus sending the words from memory to the processor was only 8 bits wide?  We'd get a bottle neck.  It would involve four chunks of data to be sent along the Data Bus before we had a word for the processor to execute.  In other words, to increase performance we must also increase the bus size to avoid bottle necks:
+
+{{CPTExample|title=Example: Bus Size}}
+Imagine our friend can understand words of 28 bit length and we are sending the word: ''antidisestablishmentarianism'' to them.  If the link between us (the bus), say a chat window on a website, only allowed for 4 letters at a time (the bus width).  We'd have to send the following:
+ anti
+ dise
+ stab
+ lish
+ ment
+ aria
+ nism
+Requiring seven data sends before our friend is ready to process the word we sent them.  If we were able to send more letters at once, through a larger bus width, then our friend wouldn't have to wait around to receive all the data.
+{{Robox/Close}}
+
+{{CPTExercise|title=Exercise: Increasing Processor Performance}}
+{{CPTQuestion|Name three ways to increase Processor performance:}}
+{{CPTAnswer|
+* Increase clock speed
+* Adjust word length
+* Increase bus width
+}}
+{{CPTQuestion|What draw back might increasing clock speed bring?}}
+{{CPTAnswer|Processor might need extra cooling hardware to stop it over heating}}
+{{CPTQuestion|What is a benefit of increasing word length?}}
+{{CPTAnswer|Computers can perform more complex instructions in one go, dealing with larger numbers and greater number accuracy}}
+{{CPTQuestion|How might bus width impact on the speed of a computer?}}
+{{CPTAnswer|If the bus width is smaller than the word size, then the CPU will have to wait around whilst the bus delivers data and instructions to it.}}
+{{Robox/Close}}
+
+== How does it all fit together? ==
+A very common exam question is to name the components of a computer architecture diagram.  Now we have met the processor, buses and various other computer components we can start to answer questions like the following:
+{{CPTExample|title=Example: Name the component}}
+Match the following components to the numbers on the diagram: Processor, Data bus, Control Bus, Main memory, Keyboard, Secondary storage, Address bus, Clock, Monitor, VDU controller, disk controller, keyboard controller
+
+[[File:CPT-System-Architecture.svg|center|600px]]
+
+Don't worry about the size of this problem, we are going to tackle it bit by bit.  the first step is to remember the differences between each of the components:
+* Processor - connected to other devices using buses
+* Data bus - bi-directional connection between devices
+* Main memory - internal to the computer and linked through the buses
+* Keyboard - external to the computer, an input device
+* Secondary storage - external device, an input and output device
+* Address bus - uni-directional connection between devices
+* Clock - regulates the processor
+* Monitor - external output device
+* VDU controller - connects system to external monitor
+* Disk controller - connects system to external secondary storage
+* Keyboard controller - connects system to external keyboard device
+* Control Bus - A bi-directional bus used to control signals between the components
+{{CPTQuestion|Now we have remembered what each device does, can you label them all?}}
+{{CPTAnswer|
+# Clock
+# Processor
+# Main memory
+# keyboard controller
+# VDU controller
+# Disk controller
+# Data bus (or Control bus)
+# Control bus (or Data bus)
+# Address bus
+# Keyboard
+# Monitor
+# Secondary storage
+}}
+{{Robox/Close}}
+{{CPTExercise|title=Exercise: System Diagrams}}
+{{CPTQuestion|For the following diagram where applicable add single or multi directional connections between devices and buses
+[[File:CPT-System-Architecture-gapfill1.svg|center]]}}
+{{CPTAnswer|
+[[File:CPT-System-Architecture-gapfill1-ANS.svg|center]]
+}}
+{{Robox/Close}}
+{{BookCat}}

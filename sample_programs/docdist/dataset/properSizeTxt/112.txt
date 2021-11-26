@@ -1,0 +1,84 @@
+{| class="float-center" border="0" cellpadding="3" cellspacing="5" style="background:#efefef; color:black" align="center" LANG="en"
+|-
+| align="center" colspan="2" |
+<!--
+
+<span dir="ltr" >The phonetic transcription of <span class="nowrap" >«&nbsp;לערי&nbsp;ריינהארט&nbsp;»</span> is <span class="nowrap" LANG="he" >/lɛʁi&nbsp;ʁɑjnhɑʁt/</span> <span class="nowrap" >(leri&nbsp;raynhart).</span></span><br />
+<span dir="ltr" >The phonetic transcription of <span class="nowrap" LANG="he" >«&nbsp;[[s:yi:בייַ מיר ביסטו שיין|בײַ&nbsp;מיר&nbsp;ביסטו&nbsp;שיין]]&nbsp;»</span> is <span class="nowrap" >/bɑj&nbsp;mɪʁ&nbsp;bɪstu&nbsp;ʃɛyn/</span> <span class="nowrap" >([[w:en:Bei Mir Bistu Shein|bay&nbsp;mir&nbsp;bistu&nbsp;sheyn]]).</span><br />&nbsp;</span><br />
+
+-->
+{{Softredirect|1=testwiki:user talk:{{PAGENAME}}|2=<span dir="ltr" >testwiki:user talk:<span dir="ltr" >{{PAGENAME}}</span></span>}}
+<!--
+
+|-
+| align="right" | [[image:Redirectltr.png|right]]
+| align="left" dir="ltr" | [[user talk:Gangleri]]
+
+-->
+|-
+| align="right" | [[Image:Redirectltr.png|right]]
+| align="left" dir="ltr" | [[user talk:לערי ריינהארט]] aka "''Gangleri''"
+|-
+| align="right" | [[Image:Redirectltr.png|right]]
+| align="left" dir="ltr" | '''[[testwiki:user talk:לערי ריינהארט]] aka "''Gangleri''"'''
+|}<!--
+
+|-
+| align="center" colspan="2" dir="ltr" | [[image:Redirectltr.png|left]] [[user talk:Gangleri]]
+|-
+| align="center" colspan="2" dir="ltr" | [[image:Redirectltr.png|left]] [[user talk:לערי ריינהארט]] aka "''Gangleri''"
+|-
+| align="center" colspan="2" dir="ltr" | [[image:Redirectltr.png|left]] '''[[testwiki:user talk:לערי ריינהארט]] aka "''Gangleri''"'''
+
+-->
+<br clear="all" />
+<!--
+
+**only at sandbox subpages**
+<center dir="ltr" >This page is an '''user sandbox page'''.<br />'''SUBPAGENAME''':&nbsp;'''{{SUBPAGENAME}}'''&nbsp;&ndash; '''[[mediawiki:Sandbox]]''':&nbsp;'''{{int:Sandbox}}'''&nbsp;<sup>[[w:en:mediawiki:Sandbox]]</sup></center>
+----
+
+-->
+<center>
+: <sup><span dir="ltr" class="plainlinks" >SITENAME: '''{{SITENAME}}'''&nbsp;· '''language:'''&nbsp;{{CONTENTLANG}}:&nbsp;'''[{{fullurl:{{FULLPAGENAME}}|uselang={{CONTENTLANG}}}}#top <span dir="ltr" LANG="{{CONTENTLANG}}" >{{#LANGUAGE:{{CONTENTLANG}}}}</span>]'''&nbsp;· &nbsp;[{{fullurl:{{FULLPAGENAME}}|uselang=en}}#top <span dir="ltr" LANG="en" >{{#LANGUAGE:{{CONTENTLANG}}|en}}</span>''']&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=de}}#top <span dir="ltr" LANG="de" >{{#LANGUAGE:{{CONTENTLANG}}|de}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=es}}#top <span dir="ltr" LANG="es" >{{#LANGUAGE:{{CONTENTLANG}}|es}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=fr}}#top <span dir="ltr" LANG="fr" >{{#LANGUAGE:{{CONTENTLANG}}|fr}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=it}}#top <span dir="ltr" LANG="it" >{{#LANGUAGE:{{CONTENTLANG}}|it}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=ru}}#top <span dir="ltr" LANG="ru" >{{#LANGUAGE:{{CONTENTLANG}}|ru}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=zh}}#top <span dir="ltr" LANG="zh" >{{#LANGUAGE:{{CONTENTLANG}}|zh}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=ar}}#top <span dir="ltr" LANG="ar" >{{#LANGUAGE:{{CONTENTLANG}}|ar}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=he}}#top <span dir="ltr" LANG="he" >{{#LANGUAGE:{{CONTENTLANG}}|he}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=hi}}#top <span dir="ltr" LANG="hi" >{{#LANGUAGE:{{CONTENTLANG}}|hi}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}|uselang=eo}}#top <span dir="ltr" LANG="eo" >{{#LANGUAGE:{{CONTENTLANG}}|eo}}</span>]&nbsp;· [{{fullurl:{{FULLPAGENAME}}}}#footer #footer]</span></sup><!--
+
+special:version
+
+-->
+: <sup><span dir "ltr" class="plainlinks" >[[special:version|local curent version]]: {{CURRENTVERSION}}&nbsp;· versions&nbsp;at&nbsp;[[b:special:version|b:]]&nbsp;·&nbsp;[[c:special:version|c:]]&nbsp;·&nbsp;[[d:special:version|d:]]&nbsp;·&nbsp;'''[[m:special:version|m:]]'''&nbsp;·&nbsp;[[mw:special:version|mw:]]&nbsp;·&nbsp;[[n:special:version|n:]]&nbsp;·&nbsp;[[q:special:version|q:]]&nbsp;·&nbsp;[[s:special:version|s:]]&nbsp;·&nbsp;'''[[testwiki:special:version|t:]]'''&nbsp;·&nbsp;[[v:special:version|v:]]&nbsp;·&nbsp;[[voy:special:version|voy:]]&nbsp;·&nbsp;[[w:special:version|w:]]&nbsp;·&nbsp;[[wikt:special:version|wikt:]]&nbsp;·&nbsp;[[w:en:special:version|w:en:]]&nbsp;·&nbsp;[[m:special:sitematrix#{{CONTENTLANG}}|m:special:sitematrix#{{CONTENTLANG}}]]&nbsp;·&nbsp;[[template:Wikivar]]&nbsp;·&nbsp;<sup>[[m:template:Wikivar|m:]]&lrm;</sup></span></sup>
+: <sup><span dir="ltr" class="plainlinks" >'''mediawiki:Sidebar'''&nbsp;'''[{{fullurl:mediawiki:Sidebar|uselang={{CONTENTLANG}}}}#top <span dir="ltr" LANG="{{CONTENTLANG}}" >{{#LANGUAGE:{{CONTENTLANG}}}}</span>]'''&nbsp;· &nbsp;[{{fullurl:mediawiki:Sidebar/en|uselang=en}}#top <span dir="ltr" LANG="en" >{{#LANGUAGE:{{CONTENTLANG}}|en}}</span>''']&nbsp;· [{{fullurl:mediawiki:Sidebar/de|uselang=de}}#top <span dir="ltr" LANG="de" >{{#LANGUAGE:{{CONTENTLANG}}|de}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/es|uselang=es}}#top <span dir="ltr" LANG="es" >{{#LANGUAGE:{{CONTENTLANG}}|es}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/fr|uselang=fr}}#top <span dir="ltr" LANG="fr" >{{#LANGUAGE:{{CONTENTLANG}}|fr}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/it|uselang=it}}#top <span dir="ltr" LANG="it" >{{#LANGUAGE:{{CONTENTLANG}}|it}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/ru|uselang=ru}}#top <span dir="ltr" LANG="ru" >{{#LANGUAGE:{{CONTENTLANG}}|ru}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/zh|uselang=zh}}#top <span dir="ltr" LANG="zh" >{{#LANGUAGE:{{CONTENTLANG}}|zh}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/ar|uselang=ar}}#top <span dir="ltr" LANG="ar" >{{#LANGUAGE:{{CONTENTLANG}}|ar}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/he|uselang=he}}#top <span dir="ltr" LANG="he" >{{#LANGUAGE:{{CONTENTLANG}}|he}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/hi|uselang=hi}}#top <span dir="ltr" LANG="hi" >{{#LANGUAGE:{{CONTENTLANG}}|hi}}</span>]&nbsp;· [{{fullurl:mediawiki:Sidebar/eo|uselang=eo}}#top <span dir="ltr" LANG="eo" >{{#LANGUAGE:{{CONTENTLANG}}|eo}}</span>]</span></sup>
+: <sup><span dir "ltr" class="plainlinks" >[{{fullurl:special:Preferences}}#top <span dir="ltr" LANG="en" >your]&nbsp;[{{fullurl:special:Preferences|uselang=en}}#top <span dir="ltr" LANG="en" >local preferences]&nbsp;· [{{fullurl:special:Preferences|uselang=de}}#mw-prefsection-personal <span dir="ltr" LANG="de" >Einstellungen</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=es}}#mw-prefsection-rendering <span dir="ltr" LANG="es" >Preferencias</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=fr}}#mw-prefsection-editing <span dir="ltr" LANG="fr" >Préférences</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=it}}#mw-prefsection-rc <span dir="ltr" LANG="it" >Preferenze</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=ru}}#mw-prefsection-watchlist <span dir="ltr" LANG="ru" >Настройки</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=zh}}#mw-prefsection-gadgets <span dir="ltr" LANG="zh" >设置</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=ar}}#mw-prefsection-betafeatures <span dir="ltr" LANG="ar" >تفضيلات</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=he}}#mw-prefsection-betafeatures <span dir="ltr" LANG="he" >העדפות</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=hi}}#top <span dir="ltr" LANG="hi" >मेरी वरीयताएँ</span>]&nbsp;· [{{fullurl:special:Preferences|uselang=eo}}#top <span dir="ltr" LANG="eo" >Preferoj</span>]</span></sup><!--
+
+user:{{BASEPAGENAME}}
+
+-->
+: <sup><span dir "ltr" class="plainlinks" >user&nbsp;/&nbsp;&lrm;'''<span dir="ltr" >{{ns:2}}</span>'''&lrm;:&nbsp;&lrm;'''<span dir="ltr" >[[user:{{BASEPAGENAME}}|{{BASEPAGENAME}}]]</span>&lrm;'''&nbsp;·&nbsp;[{{SERVER}}/?title=special:ListUsers&limit=1&username={{BASEPAGENAMEE}} rights]&nbsp;·&nbsp;[[special:Prefixindex/user:{{BASEPAGENAME}}|all subpages]]&nbsp;[[special:Prefixindex/user talk:{{BASEPAGENAME}}|T]]&nbsp;·&nbsp;[[user:{{BASEPAGENAME}}/common.css|&lrm;/common.css]]&nbsp;·&nbsp;[[user:{{BASEPAGENAME}}/common.js|/common.js]]&nbsp;·&nbsp;[[user:{{BASEPAGENAME}}/Archive/previous user page|/previous user page]]&nbsp;·&nbsp;[[special:Prefixindex/user:{{BASEPAGENAME}}/Archive|archives]]&nbsp;[[special:Prefixindex/user talk:{{BASEPAGENAME}}/Archive|archived talks]]&nbsp;·&nbsp;[[b:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|b:]]&nbsp;·&nbsp;[[c:user:{{BASEPAGENAME}}|c:]]&nbsp;·&nbsp;[[d:user:{{BASEPAGENAME}}|d:]]&nbsp;·&nbsp;[[m:user:{{BASEPAGENAME}}|m:]]&nbsp;·&nbsp;[[mw:user:{{BASEPAGENAME}}|mw:]]&nbsp;·&nbsp;[[n:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|n:]]&nbsp;·&nbsp;[[q:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|q:]]&nbsp;·&nbsp;[[s:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|s:]]&nbsp;·&nbsp;[[testwiki:user:{{BASEPAGENAME}}|t:]]&nbsp;·&nbsp;[[v:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|v:]]&nbsp;·&nbsp;[[voy:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|voy:]]&nbsp;·&nbsp;[[w:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|w:]]&nbsp;·&nbsp;[[wikt:{{CONTENTLANG}}:user:{{BASEPAGENAME}}|wikt:]]&nbsp;·&nbsp;[[w:en:user:{{BASEPAGENAME}}|w:en:]]&nbsp;·&nbsp;[[w:user:{{BASEPAGENAME}}|w:]]&nbsp;·&nbsp;[[:en:user:{{BASEPAGENAME}}|:en:]]&lrm;</span></sup><!--
+
+special:foobar
+
+-->
+: <sup><span dir "ltr" class="plainlinks" >&nbsp;[{{fullurl:special:WhatLinksHere/{{FULLPAGENAME}}|uselang=en}}#top <span LANG="en" >'''local'''&nbsp;WLH]&lrm;&nbsp;· [{{fullurl:special:RecentChanges|uselang=en}}#top <span LANG="en" >'''local'''&nbsp;RC]&lrm;&nbsp;· [{{fullurl:special:Logs|uselang=en}}#top <span LANG="en" >'''local'''&nbsp;logs]&lrm;&nbsp;· [{{fullurl:special:WatchList|uselang=en}}#top <span LANG="en" >'''local'''&nbsp;watchlist]&lrm;&nbsp;· [{{fullurl:special:Contributions/{{BASEPAGENAME}}|uselang=en}}#top <span LANG="en" >'''local'''&nbsp;ontributions]&lrm;&nbsp;· [[mediawiki:Common.css|'''local'''&nbsp;mediawiki:Common.css]]&nbsp;· [[mediawiki:Common.js|'''local'''&nbsp;mediawiki:Common.js]]&nbsp;· [[mediawiki:Gadgets-definition|'''local'''&nbsp;mediawiki:Gadgets-definition]]&nbsp;· '''[[special:Notifications|local notifications]]'''<br />[[m:user:{{BASEPAGENAME}}/global.css|m:…'''/global.css''']]&nbsp;·&nbsp;[[m:user:{{BASEPAGENAME}}/global.js|m:…'''/global.js''']]&nbsp;·&nbsp;[[special:centralAuth/{{BASEPAGENAMEE}}|'''global'''&nbsp;account&nbsp;information]]&nbsp;· [https://tools.wmflabs.org/guc/?user={{URLENCODE:{{BASEPAGENAME}}|WIKI}} '''global'''&nbsp;user&nbsp;contributions]<!--
+
+&nbsp;· [https://toolserver.org/~River/cgi-bin/count_edits?user={{BASEPAGENAMEE}}&dbname=wikidatawiki_p&machread=1]
+
+--></span></sup><!--
+
+PAGEID related links
+
+-->
+: <sup><span dir "ltr" class="plainlinks" >'''PAGEID:'''&nbsp;{{PAGEID}}&nbsp;· [https:{{SERVER}}/?curid={{PAGEID}}#top links&nbsp;'''here''']&nbsp;· <sup>[https:{{SERVER}}/?curid={{PAGEID}}&action=purge# purge&nbsp;↺]&nbsp;· [https:{{SERVER}}/?curid={{PAGEID}}&action=edit&section=0# section=0]</sup>&nbsp;· '''REVISIONID:'''&nbsp;{{REVISIONID}}&nbsp;· [https:{{SERVER}}/?oldid={{REVISIONID}}# permanent&nbsp;link]&nbsp;· (layout:&nbsp;2015-09-07…d&nbsp;[https://fi.wikipedia.org/?curid=468081#top LTR]&nbsp;[https://ug.wiktionary.org/?curid=5716#top RTL]&nbsp;short)&lrm;</span></sup><!--
+
+testing and validation links related languages / dialects
+
+-->
+: <sup><span dir "ltr" class="plainlinks" >'''testing and validation links:'''&nbsp;[[user:בײַ מיר ביסטו שיין#BiDi_issues|BiDi issues]]&nbsp;· [[user:I18n|gadget issues]]&nbsp;· '''related languages / dialects:'''&nbsp;[[w:foo:user:{{BASEPAGENAME}}|w:foo:]]&nbsp;·&nbsp;[[w:bar:user:{{BASEPAGENAME}}|w:bar:]]&lrm;</span></sup>
+</center>
+----
+<!--
+
+<br clear="all" />
+
+-->
+__TOC__
+== <span dir="ltr" >Welcome&lrm;&nbsp;<span id="Welcome" dir="ltr" >{{PAGENAME}}</span>&nbsp;to&nbsp;<span id="WelcomeToSITENAME" dir="ltr" >{{SITENAME}}</span>!</span> ==
+: This is an alias of ‫·‏[[user:לערי ריינהארט|לערי ריינהארט]]‏·‏[[user talk:לערי ריינהארט|T]]‏·‏[[m:user:לערי ריינהארט|m]]‏:‏[http://meta.wikimedia.org/wiki/user_talk:%D7%9C%D7%A2%D7%A8%D7%99_%D7%A8%D7%99%D7%99%D7%A0%D7%94%D7%90%D7%A8%D7%98?action=history Th]‏·‏[[m:user talk:לערי ריינהארט|T]]‏·‏[[m:special:Emailuser/לערי ריינהארט|email me]]‏·‏‬ 04:25, 22 December 2007 (UTC). ‫·‏[[user:לערי ריינהארט|לערי ריינהארט]]‏·‏[[user talk:לערי ריינהארט|T]]‏·‏[[m:user:לערי ריינהארט|m]]‏:‏[//meta.wikimedia.org/wiki/user_talk:%D7%9C%D7%A2%D7%A8%D7%99_%D7%A8%D7%99%D7%99%D7%A0%D7%94%D7%90%D7%A8%D7%98?action=history Th]‏·‏[[m:user talk:לערי ריינהארט|T]]‏·‏[[m:special:Emailuser/לערי ריינהארט|email me]]‏·‏‬ 09:22, 9 September 2015 (UTC)

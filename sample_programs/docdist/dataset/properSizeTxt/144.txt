@@ -1,0 +1,265 @@
+<noinclude>{{SbcHeaderSpanishPod|title=Are You Ready yet?|id=A0001}}</noinclude>
+{{SbcIntroductionSpanishPod}}
+Sometimes people are just too slow! And then they hurry too much! 
+In this lesson JP and Liliana teach us how to create time pressure and how to react to it 
+and—most importantly—to relax. The keyword is '''tranquila''' – relaxed (for feminine nouns).
+{{SbcSourceSpanishPod|[[Spanish by Choice/SpanishPod newbie lesson A0013|A0013: Doing the laundry]], [[Spanish by Choice/SpanishPod newbie lesson A0041|A0041: Cheers!]], [[Spanish by Choice/SpanishPod newbie lesson A0127|A0127: Flirting]]}}
+<noinclude>{{SbcAudioSpanishPod|title=Are you ready yet?|id=A0001|dialogueid=A0001 dialogue}}</noinclude>
+{{SbcDialogueSpanishPod}}
+:{|
+|-
+|align="right"|''hombre:'' || '''¿Ya estás lista?''' <noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0001 line 1}}</noinclude>
+|-
+|align="right"|''mujer:'' || '''¡Espera un momento!''' <noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0001 line 2}}</noinclude>
+|-
+|align="right"|''hombre:'' || '''Tranquila. Todavía tenemos tiempo.''' <noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0001 line 3}}</noinclude>
+|-
+|align="right"|''mujer:'' || '''Menos mal.''' <noinclude>||align="right"|{{SbcAudioSpanishPodLine|id=A0001 line 4}}</noinclude>
+|-
+|}
+
+{{SbcDialogueWithTranslationSpanishPod}}
+:{|
+|-
+|align="right"|''hombre:'' || '''¿Ya''' || '''estás''' || '''lista?''' <noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0001 line 1}}</noinclude>
+|-
+|align="right"|  ||''already'' || ''(you) are'' || ''ready''
+|-
+|align="right"|''man:'' ||colspan=3|Are you ready yet? 
+|-
+|}
+
+:{|
+|-
+|align="right"|''mujer:'' || '''¡Espera''' || '''un''' || '''momento!''' <noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0001 line 2}}</noinclude>
+|-
+|align="right"| || ''(you) wait'' || ''a'' || ''moment''
+|-
+|align="right"|''woman:'' ||colspan=3| Wait a moment!
+|-
+|}
+
+:{|
+|-
+|align="right"|''hombre:'' || '''Tranquila.''' || '''Todavía''' || '''tenemos''' || '''tiempo.''' <noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0001 line 3}}</noinclude>
+|-
+|align="right"| || ''relaxed'' || ''still'' || ''(we) have'' || ''time''
+|-
+|align="right"|''man:'' ||colspan=4| Relax! We still have time.
+|-
+|}
+
+:{|
+|-
+|align="right"|''mujer:'' || '''Menos''' || '''mal.''' <noinclude>||align="right" valign="top" rowspan="3"|{{SbcAudioSpanishPodLine|id=A0001 line 4}}</noinclude>
+|-
+|align="right"|  || ''less'' || ''badly''
+|-
+|align="right"|''woman:'' ||colspan=2| Good.
+|-
+|}
+
+{{Wikipedia|tiempo (song)}}
+[[Image:BenboisClock.svg|thumb|right|'''el tiempo''' – the time|120px]]
+===Vocabulary for Dialogue===
+:{|
+|-
+|| '''el hombre''' || {{SbcNounM}} || the man
+|-
+|| '''la mujer''' || {{SbcNounF}} || the woman
+|-
+|| '''ya''' || {{SbcAdverb}} || already
+|-
+|| '''estar''' || {{SbcVerbInf}} || to be
+|-
+|| '''(tú) estás'''|| {{SbcVerbPT}} || you are (informal, singular) 
+|-
+|| '''listo/lista'''  || {{SbcAdjectiveMF}} || ready
+|-
+|| '''esperar'''|| {{SbcVerbInf}} || to wait 
+|-
+|| '''¡(tú) espera!'''  || {{SbcVerbImp}} || (you) wait! (informal, singular)
+|-
+|| '''un/una'''|| {{SbcArticleMF}} || a 
+|-
+|| '''el momento'''  || {{SbcNounM}} || the moment
+|-
+|| '''tranquilo/tranquila''' || {{SbcAdjectiveMF}} || relaxed, calm
+|-
+|| '''todavía''' || {{SbcAdverb}} || still
+|-
+|| '''tener'''  || {{SbcVerbInf}} || to have
+|-
+|| '''(nosotros/-as) tenemos'''  || {{SbcVerbPT}} || we have
+|-
+|| '''el tiempo''' || {{SbcNounM}} || the time
+|-
+|| '''menos'''|| {{SbcAdverb}} || less 
+|-
+|| '''mal'''|| {{SbcAdverb}} || badly 
+|-
+|| '''menos mal'''  || {{SbcPhrase}} || OK, good
+|-
+|}
+
+[[Image:Rainbow_over_Becerril.jpg|thumb|right|'''el tiempo''' – the weather|160px]]
+===Vocabulary for Audio Lesson===
+:{|
+|-
+|| '''el tiempo''' || {{SbcNounM}} || the time, the weather
+|-
+|| '''¿cómo?''' || {{SbcAdverb}} || how?
+|-
+|| '''¿Cómo está el tiempo?''' || {{SbcPhrase}} || How is the weather?
+|-
+|| '''el clima'''|| {{SbcNounM}} || the climate, the weather 
+|-
+|| '''tranquilos/tranquilas''' || {{SbcAdjectivePMF}} || relaxed, calm
+|-
+|| '''¡(usted) espere!'''  || {{SbcVerbImp}} || (you) wait! (formal, singular)
+|-
+|| '''¡(ustedes) esperen!'''  || {{SbcVerbImp}} || (you) wait! (formal, plural)
+|-
+|}
+
+{{SbcMoreVocabularySpanishPod}}
+{|
+|-
+|align="right"| '''esperar'''|| {{SbcInf}} || to wait 
+|-
+|align="right"| '''¡(tú) espera!'''|| {{SbcImp}} || (you) wait! (informal, singular) 
+|-
+|align="right"| '''¡(usted) espere!''' ||  || (you) wait! (formal, singular)
+|-
+|align="right"| '''¡(nosotros/-as) esperemos!''' ||  || (let's) wait! (m./f.)
+|-
+|align="right"| '''¡(vosotros/-as) esperad!''' || || (you) wait! (informal, plural, m./f.) 
+|-
+|align="right"| '''¡(ustedes) esperen!'''||  || (you) wait! (formal, plural) 
+|-
+|| &nbsp; ||
+|-
+|align="right"| '''estar''' || {{SbcInf}} || to be 
+|-
+|align="right"| '''(yo) estoy''' || {{SbcPT}} || I am
+|-
+|align="right"| '''(tú) estás''' || || you are (informal, singular)
+|-
+|align="right"| '''(él/ella) está''' || || he/she(/it) is
+|-
+|align="right"| '''(usted) está'''  || || you are (formal, singular)
+|-
+|align="right"| '''(nosotros/-as) estamos''' || || we are (m./f.)
+|-
+|align="right"| '''(vosotros/-as) estáis'''  || || you are (informal, plural, m./f.)
+|-
+|align="right"| '''(ellos/ellas) están'''  || || they are (m./f.)
+|-
+|align="right"| '''(ustedes) están''' || || you are (formal, plural)
+|-
+|| &nbsp; ||
+|-
+|align="right"| '''tener'''  || {{SbcInf}} || to have 
+|-
+|align="right"| '''(yo) tengo'''  || {{SbcPT}} || I have
+|-
+|align="right"| '''(tú) tienes''' || || you have (informal, singular)
+|-
+|align="right"| '''(él/ella) tiene''' || || he/she(/it) has 
+|-
+|align="right"| '''(usted) tiene'''  || || you have (formal, singular)
+|-
+|align="right"| '''(nosotros/-as) tenemos'''||  || we have (m./f.) 
+|-
+|align="right"| '''(vosotros/-as) tenéis'''||  || you have (informal, plural, m./f.) 
+|-
+|align="right"| '''(ellos/ellas) tienen'''||  || they have (m./f.) 
+|-
+|align="right"| '''(ustedes) tienen'''  || || you have (formal, plural)
+|-
+|}
+
+{{SbcExercisesSpanishPod}}
+<noinclude>====Dialogue Translation====
+Translate from Spanish to English. Click each bar to check your answer. If possible, read the Spanish sentences aloud.
+{{SbcQuestion
+| '''¿Ya estás lista?''' 
+| Are you ready yet? 
+| '''¡Espera un momento!'''
+| Wait a moment!
+| '''Tranquila. Todavía tenemos tiempo.'''
+| Relax! We still have time.
+| '''Menos mal.'''
+| Good./Less bad.
+}}</noinclude><includeonly>====Dialogue Translation====
+Cover the right column, translate from Spanish to English and uncover the right column line by line to check your answers. If possible, read the Spanish sentences aloud.
+{{SbcQuestionPrint
+| '''¿Ya estás lista?''' 
+| Are you ready yet? 
+| '''¡Espera un momento!'''
+| Wait a moment!
+| '''Tranquila. Todavía tenemos tiempo.'''
+| Relax! We still have time.
+| '''Menos mal.'''
+| Good./Less bad.
+}}</includeonly>
+<noinclude>====Dialogue Recall====
+Now translate from English to Spanish. Remember to say the Spanish sentences aloud.
+{{SbcQuestion
+| Are you ready yet? | '''¿Ya estás listo/lista?'''
+| Wait a moment! | '''¡Espera un momento!'''
+| Relax! We still have time. | '''Tranquilo/tranquila. Todavía tenemos tiempo.'''
+| Good ({{=}} less bad). | '''Menos mal.'''
+}}</noinclude><includeonly>====Dialogue Recall====
+Now translate from English to Spanish. Remember to say the Spanish sentences aloud.
+{{SbcQuestionPrint
+| Are you ready yet? | '''¿Ya estás listo/lista?'''
+| Wait a moment! | '''¡Espera un momento!'''
+| Relax! We still have time. | '''Tranquilo/tranquila. Todavía tenemos tiempo.'''
+| Good ({{=}} less bad). | '''Menos mal.'''
+}}</includeonly>
+{{SbcNewline}}{{SbcNewline}}<noinclude>====Dialogue Remix====
+Translate this variant of the dialogue from English to Spanish.
+{{SbcQuestion
+| Do we have time? | '''¿Tenemos tiempo?'''
+| We still have time. | '''Todavía tenemos tiempo.'''
+| Do we still have a moment? | '''¿Todavía tenemos un momento?'''
+| We still have a moment. | '''Todavía tenemos un momento.'''
+| Are you ready? | '''¿Estás listo/lista?'''
+| Wait a moment! | '''¡Espera un momento!'''
+| Relax! We still have time. | '''Tranquilo/tranquila. Todavía tenemos tiempo.'''
+| Good ({{=}} less bad). | '''Menos mal.'''
+| Are you already relaxed? | '''¿Ya estás tranquilo/tranquila?'''
+}}</noinclude><includeonly>====Dialogue Remix====
+Translate this variant of the dialogue from English to Spanish.
+{{SbcQuestionPrint
+| Do we have time? | '''¿Tenemos tiempo?'''
+| We still have time. | '''Todavía tenemos tiempo.'''
+| Do we still have a moment? | '''¿Todavía tenemos un momento?'''
+| We still have a moment. | '''Todavía tenemos un momento.'''
+| Are you ready? | '''¿Estás listo/lista?'''
+| Wait a moment! | '''¡Espera un momento!'''
+| Relax! We still have time. | '''Tranquilo/tranquila. Todavía tenemos tiempo.'''
+| Good ({{=}} less bad). | '''Menos mal.'''
+| Are you already relaxed? | '''¿Ya estás tranquilo/tranquila?'''
+}}</includeonly>
+<noinclude>====Dialogue Recast====
+This translation exercise requires some of the words from the [[#More Vocabulary|More Vocabulary]] section.
+{{SbcQuestion
+| Are you ready yet? (formal) | '''¿Ya está listo/lista (usted)?'''
+| Wait a moment! (formal) | '''¡Espere un momento!'''
+| Relax! I still have time. | '''Tranquilo/tranquila. Todavía tengo tiempo.'''
+| Good ({{=}} less bad). | '''Menos mal.'''
+}}</noinclude><includeonly>====Dialogue Recast====
+This translation exercise requires some of the words from the More Vocabulary section.
+{{SbcQuestionPrint
+| Are you ready yet? (formal) | '''¿Ya está listo/lista (usted)?'''
+| Wait a moment! (formal) | '''¡Espere un momento!'''
+| Relax! I still have time. | '''Tranquilo/tranquila. Todavía tengo tiempo.'''
+| Good ({{=}} less bad). | '''Menos mal.'''
+}}</includeonly>
+
+<includeonly>===Image Credits===
+*“Image:BenboisClock.svg” from http://www.clker.com/clipart-13595.html (Public Domain)
+*“Image:Rainbow_over_Becerril.jpg” by César Astudillo (Creative Commons Attribution 2.0 License)</includeonly>
+<noinclude>{{SbcNavigateSpanishPod|A0131|A0001|A0002}}</noinclude>

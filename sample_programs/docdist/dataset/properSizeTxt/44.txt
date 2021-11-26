@@ -1,0 +1,212 @@
+== Definitions ==
+
+Open Educational Resources (OER) are “digitized materials offered freely and openly for educators, students and self-learners to use and re-use for teaching, learning and research.” This term was first adopted at UNESCO’s 2002 Forum on the Impact of Open Courseware for Higher Education in Developing Countries funded by the Hewlett Foundation (source [http://en.wikipedia.org/wiki/Open_educational_resources Wikipedia]).
+
+A [http://www.hewlett.org/Programs/Education/OER definition of OER from The William and Flora Hewlett Foundation] is:
+
+"OER are teaching, learning and research resources that reside in the public domain or have been released under an intellectual property license that permits their free use or re-purposing by others. Open educational resources include full courses, course materials, modules, textbooks, streaming videos, tests, software, and any other tools, materials or techniques used to support access to knowledge." 
+
+If you are unfamiliar with the terms used in this course, you may want to bookmark the following glossaries.
+
+*[http://oerwiki.iiep-unesco.org/index.php?title=OER_glossary International Institute for Educational Planning (IIEP) OER Glossary]
+
+*[http://cnx.org/content/m15223/latest/ ISKME Glossary]
+
+*[http://wiki.icommons.org/index.php/OER_Lexicon_-_A_Primer_on_OER-related_Terms iCommons Primer on OER-related Terms]
+
+The term OER has been used to refer to learning materials such as:
+
+*Learning objects (quizzes, crossword puzzles, flashcards, animations, interactive maps, timelines, etc.) 
+
+*Audio lectures
+
+*Audiovideo lectures
+
+*Images
+
+*Sounds and music 
+
+*Entire course content 
+
+*Collections of journal articles and institutional repositories 
+
+*Textbooks
+
+Some more current definitions of Open Educational Resources place just as much emphasis on the PROCESS of creating open knowledge and promoting least restrictive knowledge-sharing as on the content itself.  For example, although content in this tutorial was originally only available from an online course that has an open license, it did NOT fit the definition of an OER because it required registration and was password-protected.  By contrast, the following courses are considered OER because they do not limit access:
+
+*Development Gateway Foundation offers an [http://en.wikiversity.org/wiki/Composing_free_and_open_online_educational_resources Introduction to Open Educational Resources: The Wikiversity online course about Composing free and open online educational resources]started March 3, 2008.
+
+*[http://cnx.org/content/col10413/latest/ Introduction to Open Educational Resources course available at Connexions]
+
+Another example is a graphic from the [http://school.discoveryeducation.com/clipart/clip/titerope.html Clip Art Gallery] on DiscoverySchool.com.  Such a graphic is probably NOT considered to be an OER because it does not have an open license that allows for altering the image.  The use and development of OER is somewhat of a balancing act between competing interests and needs, especially with regard to intellectual property.
+
+The [http://www.okfn.org/ Open Knowledge Foundation] has defined open knowledge as "A piece of knowledge is open if you are free to use, reuse, and redistribute it.”  A full [http://www.opendefinition.org/1.0/ definition] is available.  
+
+Be sure that you understand the difference between learning content that is freely available and OER. 
+
+Although a resource may be accessible for FREE over the Internet, it may be protected by a copyright that does not permit reuse and reproduction for either commercial or non-commercial purposes. For example, [http://www.pbs.org/aboutsite/aboutsite_rules.html PBS.org] allows educators to freely use images and text from their website under certain conditions however some of the restrictions mean that many would not consider it a repository of OER.  Another example is an [http://www.ochem4free.info/node/2 Organic Chemistry textbook] that is freely available but could not be considered an open textbook due to its copyright restrictions.  OER are typically distributed as public domain or with an open license that allows others to share, adapt and use the content freely.  
+
+Ideally, OER repositories (such as [http://www.opendoar.org/find.php OpenDOAR]) should clearly display the policies for inclusion of OER to ensure that the content has some sort of open license that permits sharing and reuse.  We will explore this issue further in the Chapter on Fair Use, Copyright, and TEACH Act.
+
+== Background ==
+
+The Open Educational Resources movement is part of a global effort to make knowledge available to all. The [http://www.unesco.org/iiep/virtualuniversity/forumsfiche.php?queryforumspages_id=13 UNESCO's Virtual University Forum] provides an overview about definitions, initiatives, and community-building. OER is seen by some as a means to provide students in developing countries with access to affordable learning content.  For more about this global effort, see this article by Sally M. Johnstone, founding Director of Western Cooperative for Educational Telecommunications (WCET), in Educause Quarterly titled: [http://connect.educause.edu/Library/EDUCAUSE+Quarterly/OpenEducationalResourcesS/39931 Open Educational Resources Serve the World].  Richard Baraniuk, a Rice University professor, presents a vision for free, global education and introduces Connexions, an open-access publishing service, in this 19 minute [http://youtube.com/watch?v=RRymi-lFHpE video] recorded at the TED Conference in February 2006.  
+ 
+This tutorial will focus primarily on the OER movement in the United States, however. If you want to become better informed about the global OER movement, go to [http://www.unesco.org/iiep/eng/focus/opensrc/opensrc_1.htm UNESCO's IIEP] to request membership in the international OER Community of Interest.
+
+[http://www.ijournal.us/issue_14/ij_14_04_articleframe_Petrides_Jimes.html "Open Educational Resources: Toward a New Educational Paradigm"] by Dr. Laura Petrides and Dr. Cynthia Jimes (October 2006) is a short article about the purpose of open educational resources, the challenges to realizing the potential of OER, and calls, and future research 
+The [http://www.hewlett.org/Programs/Education/OER/Publications/oeroverview.htm Hewlett Foundation] has taken a pioneering role in the development and use of OER with its support of many initiatives: "The Open Educational Resources movement began in 2001 when the Hewlett and the Andrew W. Mellon foundations jointly funded MIT OpenCourseWare (OCW), the first institution committed to making all of its course materials freely available. Since then, more than 60 additional institutions have launched OpenCourseWare Web sites."  For background about Hewlett Foundation's involvement in the OER movement, watch this presentation by Catherine Casserly, Program Officer: [http://ocwblog.org/?p=71 "Open Educational Resources: Unlocking Knowledge to the Global Community."]  
+
+Just some of the many OER initiatives supported by the Hewlett Foundation include: 
+
+*[http://ocw.mit.edu/ MIT Open Courseware] 
+
+*[http://sofia.fhda.edu/ Foothill-De Anza Community College District, Sharing Of Free Intellectual Assets (Sofia)] 
+
+*[http://ocw.jhsph.edu/ Johns Hopkins Bloomberg School of Public Health OpenCourseWare] 
+
+*[http://ocw.tufts.edu/ Tufts University OpenCourseWare] 
+
+*[http://ocw.usu.edu/ Utah State University OpenCourseWare] 
+ 
+*[http://www.cmu.edu/oli/ Carnegie Mellon University, Open Learning Initiative] 
+
+*[http://cnx.org/ Connexions] 
+
+*[http://www.archive.org/ Internet Archive]
+
+== Video Overview of OER ==
+
+
+As an alternative to reading text, you may prefer to get an overview of OER by watching Dr. Cable Green's webinar video: Developing a Culture of Sharing and Receiving: Open Educational Resources Feb. 11, 2008. 
+
+== Case Study ==
+
+
+In his May 2006 article Bye the Book My year of teaching environmental science without a textbook, Eric Pallant describes how he and co-professor Terry Bensel experimented with teaching their Introduction to Environmental Science course at Allegheny College with no textbook. Instead they used a variety of open educational resources. Based on self-report, 41 of 46 students in their first-semester class read the same or more than they would have in a textbook. The experiment proved successful enough that the entire academic department has embraced the concept of OER. Faculty have distributed the work of collecting and banking websites for common use.  We will address the use of Open Textbooks in more detail in another Chapter.
+
+Other case studies are being collected at the Case Study Research Project wiki. 
+
+== Benefits and Disadvantages ==
+
+In the recommended reading, you will find some of the ''benefits'' of OER.  These include: 
+
+•	Fosters pedagogical innovation and relevance that avoids teaching from the textbook 
+
+•	Broadens use of alternatives to textbooks while maintaining instructional quality 
+
+•	Lowers cost of course materials for students 
+
+Think of what other benefits there might be.
+
+Some ''disadvantages'' of OER include: 
+
+•	Quality of available OER materials inconsistent 
+
+•	Materials may not meet Section 508 ADA accessibility or SCORM requirements and must be modify to bring into compliance 
+
+•	No common standard for review of OER accuracy and quality 
+
+•	Need to check accuracy of content 
+
+•	Customization necessary to match departmental and/or college curriculum requirements 
+
+•	Technical requirements to access vary
+
+•	Technological determinism created by the delivery tool 
+
+== OER Mini-Handbooks ==
+
+An example of OER development in action is the OER Mini-handbook series.  The Center for Sustainable and Open Learning (COSL) and the Hewlett Foundation sponsor this is a dynamic wiki at wikieducator.org as a guide for those who are new to OER development and licensing. Take a look at the different mini-handbooks available for: 
+
+•	Educators
+
+•	Institutions 
+
+•	Policymakers 
+
+Instructions: If you want an additional introduction to OER, read the first half of this OLCOS tutorial: OLCOS Intro to OER Tutorial 
+
+
+== Activities ==
+
+'''Experience'''
+
+1. Get connected and become a part of the OER movement community: 
+
+•	Go to OER Commons. Join and sign up to receive e-news. 
+
+•	Go to Open Learn. Browse topics, register to become a part of the OER community, sign up for the newsletter, and tell one friend about Open Learn. 
+
+•	Go to Rice University’s Connexions to read the feedback from users,  then click on Get Account to register. 
+
+•	Remember to keep track of your login information for each membership. 
+
+2.  Create a visual representation or Mind Map of your current understanding of OER. 
+
+•	For information more information, see Concept Mapping or Open Learn Compendium 
+
+•	Tools for creating Mind Maps include: 
+
+o	Open Learn
+
+o	MindMeister
+
+o	Exploratree
+
+o	Bubbl.us
+
+'''Reflect: Learning Dialogue Question'''
+
+•	Which advantages and disadvantages to using OER are most important to you and why?  What other benefits and challenges can you add? 
+
+'''Apply'''
+
+Now that you have a general idea of what OER is all about, you should be ready to make a couple of decisions:
+
+1. Do you want to learn more about OER? 
+
+•	Decide which Chapters you want to complete in this textbook. 
+
+•	Decide the order in which you want to complete the Chapters that makes the most sense for your current learning needs. 
+
+2.      Do you want to get the most out of this learning experience?
+
+•	Invite a colleague to join you in this tutorial. 
+
+•	Complete all the exercises listed in the Activities component of each Chapter. 
+
+== Skills/Objectives ==
+
+Learners will be able to: 
+
+1.	Define and describe OER. 
+
+2.	List the advantages and disadvantages of OER use. 
+
+
+== Readings ==
+
+'''Recommended:''' 
+
+•	OER Educator Mini-handbook 
+
+•	Giving Knowledge for Free: The Emergence of Open Educational Resources (pages 12 - 19, 30 - 38) 
+
+•	Open Educational Resources Serve the World 
+
+•	Open Educational Resources: Toward a New Educational Paradigm by Petrides & Jimes, October 2006 
+
+•	OLCOS Roadmap (pages 12 - 13, 15 - 18) 
+
+'''Supplemental Resources'''
+
+•	A Review of the Open Educational Resources (OER) Movement 
+
+•	Open Educational Resources: Opportunities and Challenges 
+
+•	The Future of Free Information 
+
+•	A Review of the Open Educational Resources (OER) Movement: Achievements, Challenges, and New Opportunities
+
+{{BookCat}}

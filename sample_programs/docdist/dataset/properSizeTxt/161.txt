@@ -1,0 +1,408 @@
+=Cryptography=
+
+==Concepts==
+
+*Cryptography: formal models.
+*symmetric cryptography
+*one-time pad
+*hash functions
+*block ciphers
+*hmac
+*number theory
+*digital signatures
+*diffie hellman
+*zero-knowledge proofs
+*electronic voting
+*elliptic curves
+
+==Cryptography attacks: basics==
+
+===Cryptosystems formally represented===
+
+Cryptosystems are sets of {M,K,C,KeyGen,Encrypt,Decrypt}
+
+*M,K,C: sets of all possible messages,keys,ciphertexts.
+*<math> KeyGen(1^{\lambda}) = (key_{enc},key_{dec})\epsilon K^2</math>
+*<math>Encrypt(k_{enc},m)=c \epsilon C</math>
+* <math>Decrypt(k_{dec},c)=m \epsilon M </math>
+
+===Types of attacks===
+
+*COA Ciphertext only attack
+*KPA Known Plaintext attack
+*CPA Chosen plaintext attack
+*CCA Chosen Ciphertext attack)
+
+
+
+==Safety of a cryptosystem==
+
+===Computational safety===
+A Cryptosystem must be (at least practically) safe. That means that breaking it must either take too much time or take a lot of luck. We sometimes call this condition computational safety.( 1st kerchoffs rule)
+
+Computational safety means that a PPT Adversary cannot break our cryptosystem,
+or they can with very small possibilty. Also, this kind of safety is based
+on assumptions not yet proved (NP<>P, hardness of DISCRETELOG, FACTORIZATION
+and more).
+
+
+===Perfect Secrecy (Shannon)===
+
+"The biased possibility of a message being m is equal to the unbiased." (see lecture 2 page 14)
+
+
+===Semantical Safety===
+
+There are several definitions of semantical safety. One of the most formal follows.
+
+Given that an Adversary (A) wants to decide if q(m) (where q(m) is a κατηγόρημα ), we define the Advantage of A as <math> Adv(\Alpha) = | Pr[\Alpha(c)=q(m)] - \frac{1}{2}| </math>. A Cryptosystem is semantically safe when foreach PPT Adversary: 
+                            <math> Adv(A)=negl(\lambda) </math>
+
+where λ is our safety parameter (usually controls the length of our key).
+
+===Ιndistinguishability games===
+
+*IND-EAV
+*IND-CPA
+*IND-CCA
+*IND-CCA2
+
+====IND-EAV====
+
+The adversary sends to messages <math> m_0,m_1 </math> for encryption and then get one ciphertext. The adversary then has to decide which of his two
+messages was encrypted.
+
+====IND-CPA====
+
+Adversary can encrypt a polynomially large number of messages before sending <math> m_0,m_1 </math> for encryption.
+
+Every cryptosystem with deterministic encryption isn't IND-CPA secure.
+
+====IND-CCA====
+
+Stronger than IND-CPA.
+Now the adversary ...
+
+===Malleability===
+Definition:
+A cryptosystem is called '''malleable''' when an Adversary A who knows a ciphertext c = Enc(m) is able to create another ciphertext c' = Enc(h(m))), where h is a polynomially invertible function.
+
+We know that Non-malleability <math> \Leftrightarrow</math> IND-CCA2.
+Malleable systems are very useful sometimes (e.g. voting)
+
+Malleable cryptosystems:
+*Partially Homomorphic
+*Totally Homomorphic (any circuit (κυκλωμα) is "kept" in the ciphertexts
+
+====Reductions====
+
+Very common they are. In proving that a cryptosystem is safe.
+
+==Randomness==
+
+The concept of randomness is very important in cryptography, as in many cases
+generation of random strings is required (e.g. nonce,salt,one time pad).
+
+===Pseudorandom Generator===
+
+It is a *Deterministic* function that takes a truly random seed (short
+string - key) and extends it "randomly". We notate that 
+the extended key has length l(n), where n is the length of the seed. We use it PSG
+because in some cryptosystems we need long keys, but it is impractical to
+generate randomly so large keys. See below for an example of a cryptosystem
+that makes use of a pseudorandom generator.
+
+===Pseudorandom Function===
+
+Not to be confused with the PSG defined above, a '''pseudorandom function''' is a keyed function that is (computationally) indistinguishable from a random oracle, for an adversary that doesn't have 
+the key.
+
+===A cryptosystem with randomness===
+
+*Gen : generates a random key k from <math> \{0,1\}^n </math>
+*Enc:<math> c = m\oplus G(k) </math>
+*Dec:<math> m = c\oplus G(k) </math>
+
+===Blum Blum Shub===
+
+A random generator. See lec-3.
+
+===RC4 (sos)===
+
+Another random generator. See lec-3.
+
+==One-way functions/permutations==
+
+Some functions are computationally hard to invert. The following test validates if a function is one-way:
+
+
+<must insert test>
+
+===Examples===
+
+*factorization
+*subset sum
+*discrete log
+
+===Hard-core predicates===
+
+Hard-core predicates are predicates that prove that a function is one-way. They are predicates on the function's input. The value of a hard-core predicate h(x) is easy to calculate given x, but hard given f(x). 
+Actually it is as hard as finding x from f(x). It can be proven that every one-way function, can be slightly 
+transformed into a one-way function with a hard-core predicate.
+
+===Key streching===
+
+Takes a key and makes it longer, in order to make it harder for an adversary to find it by brute-force means.
+How? An adversary has to test every key in a much larger keyspace, or either test every key in the initial (small) keyspace but with a significant cost in every transformation. How do we do that?
+
+====PBKDF2====
+
+<math> DK = T1 || T2 || ... || T_{dklen/hlen} </math>
+Ti = F(Password, Salt, c, i)
+where F(Password, Salt, c, i) = U1 ^ U2 ^ ... ^ UC
+
+U1 = PRF(Password, Salt || INT_32_BE(i))
+U2 = PRF(Password, U1)
+...
+Uc = PRF(Password, Uc-1)
+
+for more check [https://en.wikipedia.org/wiki/PBKDF2 this]
+
+PBKDF2 applies a pseudorandom function, such as a cryptographic hash, cipher, or HMAC to the input password or passphrase along with a salt value and repeats the process many times to produce a derived key, which can then be used as a cryptographic key in subsequent operations. The added computational work makes password cracking much more difficult, and is known as key stretching.
+
+Having a salt added to the password reduces the ability to use precomputed hashes (rainbow tables) for attacks, and means that multiple passwords have to be tested individually, not all at once. The standard recommends a salt length of at least 64 bits.
+
+===Hash function===
+
+Hash functions (συναρτήσεις καταρματισμού ή συναρτήσεις σύνοψης) are '''easily computable''' functions that '''compress''' their input into strings of shorter (usually fixed) length. We may call a function collision-resistant/freeness depending on the result of the following test:
+
+Now, consider a family of hash functions,which we define as a function <math> H^S(x)=H(s,x) </math>, where s is a key that we use to generate the hash values. With this in mind, we may formally define a hash function.
+ 
+====Definition 1: Hash function====
+We define a hash function as a pair of PPT Algorithms (Gen, H) so that
+* Gen will take <math> 1^m</math> as input and produce a key s
+* There exists a polynomial l(n) so that <math>H(s,x) ( x \epsilon \{0,1\}* )</math> returns a string
+in <math> \{0,1\}^{l(n)}</math>.
+
+====Definition 2: Collision-resistance game====
+Given a hash function Π=(Gen,H), an adversary A, and a safety parameter n the game is as follows.
+*Gen generates a key, in respect to the parameter n.
+*<math>\Alpha</math> is given the key s and returns strings x and x'
+*The result is 1 if x<>x' and <math> H^S(x)=H^S(x')/math>, 0 otherwise.
+
+Using the above game we can guarantee or disprove the collision-freeness of a hash function.
+
+Some desired properties of a hash function:
+
+*preimage resistance
+*2nd preimage resistance
+*collision resistance/freeness
+*Perturbation (it's hard to find x,x' so that <math> hamming(H(x),H(x')) < \epsilon </math>)
+*Range (it's hard given y, and ε to find x so that <math> y \le H(x) < y + \epsilon </math>)
+
+Example of hash functions :
+
+*md5 (not cryptographically safe)
+*sha-1  (not cryptographically safe)
+*sha-2 family (safe!)
+
+
+===Birthday Paradox===
+
+(Under construction)
+
+
+
+===Applications of Hashing===
+
+*Binding
+*Timestamping
+*Password storage/User authentification (some cool anti-hacking trix implemented here!)
+*Proof of work
+*Content Validation (Merkle Trees)
+
+==MAC==
+
+We use macs to achieve authentification and data-integrity check.
+We find it necessary to prove that a message we receive has not been tampered with. To
+do that we use a tuple of algorithms (Gen,Mac,Vrfy) so that 
+
+*Gen() takes <math> 1^n</math> and returns a key k, <math> |k| \ge n </math>
+*Mac() takes k and a message m and returns t.
+*Vrfy() is a (deterministic) algorithm takes k,m and t and returns 1 if t is valid, else 0.
+
+
+
+====Definition 3: Existential unforgeability under an adaptive chosen-message attack====
+Consider a set of MAC algorithms. We say that our authentification is existentially unforgeable under an adaptive chosen-message attack when an adversary cannot win a game called Mac-Forge, except for with
+negligible probability.
+
+====Definition 4: MAC-forge game====
+*Gen generates a random key.
+*Adversary A, who knows n (safety parameter) has access to oracle Mac_k(), with which he/she mac's
+a set Q of m's. Then he outputs an (m,t).
+*Result is 1 iff Vrfy_k(m,t)=1 and m isn't in Q.
+
+
+===Repetition attacks===
+
+Adv can resend older <m,t> pairs which ,naturally, would be accepted by the receipient. But that can be
+stopped if we always send a unique message id or a timestamp in every message.
+
+===How we generate MAC's===
+
+
+====PseudoRandomFunction====
+
+if we use a PRF as the mac() algorithm, and if we test the output of the mac() algorithm and compare it to t in vrfy() then we have achieved existential unforgeability under an adaptive chosen-message attack.
+
+
+====MAC:Arbitrary length of message m====
+
+We extend our MAC algorithms so that we can use it with arbitrarily lengthed messages m.
+There are several ideas out there that seem good, but disappoint under close study.
+A truly good extension of a MAC is as follows. 
+
+We have Π'=(Gen',Mac',Vrfy'). Consider the following MAC:
+
+*********************************Describe the mac hier***********************************
+
+
+====Theorem 4====
+
+In the above described MAC, if Π' Existential unforgeability under an adaptive chosen-message attack, then the resulting MAC has Existential unforgeability under an adaptive chosen-message attack 
+
+===NMAC/ HMAC===
+
+===MAC combined with Cryptosystems===
+
+====Safety of a combination: Authenicated communication====
+
+
+*Authentication-and-encryption scheme
+*Encryption-then-authentication scheme
+*Authentication-then-encryption scheme
+
+
+==Block Ciphers==
+
+Block Ciphers are ciphers that treat the message as a series of blocks, which they encrypt independently. 
+
+One family of block ciphers are based on the architecture of feistel networks. 
+
+===DES===
+
+DES is a cryptosystem that is based on a Feistel Network. It used to be very popular. It will serve
+as an explanatory example in describing Feistel Network-style encryption.
+
+*********DESCRIBE DES HIER************************************************
+
+
+==Public Key Cryptography==
+
+
+
+==The RSA Cryptosystem==
+
+
+It's a public/private key cryptosystem. It is named after Rivest,Shamir and Adelman, the people who created it.
+
+
+===A simplified version===
+
+let p,q be 2 512bit prime numbers. Let <math> n = pq </math>. Also let e,d be two integers satisfying  <math> ed=1 (mod \Phi(n)) </math>.
+In order for one to encrypt a message one will do: <math> c = m^e (mod n) </math>. To decrypt a cipher, one will calculate as follows:
+<math> m = c^d (mod n)</math>, which is a good decryption method, because <math> c^d = m^{ed} = m^{k*\Phi(n)+1} = m (mod n) </math>. The last equality follows from Euler's Theorem.
+
+This cryptosystem is not semantically secure (e.g. one can get some information about the plain text from the cipher text)
+
+
+===Related Hard Problems===
+
+*RSAP
+*RSA-KINV
+*FACTORING
+*COMPUTE-φ(n)
+
+Problem relations: <math> RSAP \leq RSA-KINV \equiv COMPUTE-\Phi (n) \equiv FACTORING </math>
+
+===Correctness===
+
+Correctness: the equality Dec(Enc(m))=m should hold. As we saw above, it holds for each n in <math>Z^*_n</math>. What about the rest of the m's? Actually there are only two m's in Z_n that are not
+in Z^*_n, p and q, our two secret primes. But even for m=p or q we still have correctness.
+All we have to do is prove that p^de=p (mod p) and p^de=p (mod q), and the same for q. If we prove that, it follows from CRT that p^de = p (mod pq)
+===Euler's Theorem===
+
+Let <math> a,n \in Z \text{such that } n \ge a, gcd(n,a)=1 </math> Then 
+                  <math> a^{\Phi(n)}=1 (mod n) </math> 
+
+The proof is based on a simple and beautiful idea. See [http://corelab.ntua.gr/courses/crypto/slides2015/09-10-11-12_nrtheory.pdf#page=38 here].
+
+=== The trapdoor ===
+The function <math> x = x^e mod n </math> is a known trapdoor one way function, i.e. it can be easily computed but cannot be easily inverted without using the trapdoor value d. This makes it ideal for creating signatures.
+
+===creating the keys ===
+primality test, extended gcd alg
+
+===Breaking the RSA===
+
+====Theorem 1 ====
+ An attacker can easily compute the private key e given any of the two primes, and vice-versa.
+
+One way is easy: given one prime, one can compute the other by dividing n. Thus, one can compute <math> \Phi(n) </math>. Thus, one only has to find the inverse of e modulo  <math> \Phi(n) </math>. Since said inverse of course exists, <math> gcd(e,\Phi(n)) = 1</math>; in other words e and <math>\Phi(n) </math> are coprime. So by using the EGCD algorithm one can compute integers x,y so that 
+<math> x *e+y*\Phi(n) = 1 \rightarrow x*e = 1 (mod \Phi(n))</math> .
+
+The other way:
+
+If the attacker could find a square root of 1 modulo N, which is different than 1, then he can easily factor N. The reason is because 1 has 4 square roots modulo N, +1,-1 and +x, -x, where x = 1 mod p and x = -1 mod q.
+The last statement follows from CRt. Thus, x-1 is a multiple of p and one should be able to find it by calculating gcd(x-1,N).
+
+Suppose that k = ed-1. k is a multiple of Φ(N) and since Φ(Ν) is even, k= 2^t *r , where r odd, <math> t \ge 1 </math>.
+
+Finding a square root of 1 modulo N that is different than 1 isn't hard. It can be proven that, given a random g from <math> Z^{*}_{n}</math> one of the numbers in the <math> g^k,g^{\frac{k}{2}},...,g^{\frac{k}{2^t}} </math> will do the job, with possibility over<math> \frac{1}{2}</math>.
+
+===Attacks on RSA===
+
+====small public exponent attack ====
+
+Suppose for example that e = 3.
+
+====small private exponent attack ====
+
+====common product attack====
+
+===RSA and security===
+
+*RSA is not IND-CPA secure
+*RSA is not IND-CCA secure (because of above, but also because of malleability)
+
+But at least RSA does not leak parity or loc(first bit) of the message. (YAY!!). Actually we have 
+a theorem on that.
+
+====Theorem 5:Goldwasser, Micali, Tong====
+For each instance of RSA(e,n) the following are equivalent:
+*There exists an efficient algorithm A where A((e,n),c)=m
+*There exists an efficient algorithm A where A((e,n),c)=parity(m)
+*There exists an efficient algorithm A where A((e,n),c)=loc(m	
+
+proof: lec-14/pg35
+
+
+===Padded-RSA and Bleichbacher's attack===
+
+(Lec-14)...
+
+
+====Example:PKCS1==== 
+
+Here, instead of encrypt the message m, we encrypt m', where m'= s1 || r ||s2 ||m, where r is a randomly
+generated key, s1 and s2 are known strings that are used to mark the beginning and the ending of the padding r. Now, we don't have a deterministic encryption algorithm, as the ciphertext is different for two encryptions of the same message m. This new-found property IND-CPA security, but not IND-CCA.
+
+====Bleichenbacher's attack====
+
+(see lec-14 page 40)
+
+
+
+===The Open problem: RSA <=> FACT ===
+Given the factorization of n, we can easily find Φ(n) and thus calculate the backdoor value d using the EGCD algorithm. But is finding the e-th root of x modulus n equivalent to factoring n? We do not know. What we do know is that, for a given RSA cryptosystem, for a villain to know the secret exponent d is equivalent to knowing the two primes p,q n came from.

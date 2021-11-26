@@ -1,0 +1,207 @@
+<noinclude>{{prognav|Perl|Scalar variables|Hash variables}}</noinclude>
+
+Perl syntax includes both lists and arrays.
+
+==Lists==
+
+A ''list'' in perl is an ordered set of scalar values. It is represented in your code as a comma-separated sequence of values, which may or may not be contained in scalar variables. Lists can be used to make multiple assignments at once, and can be passed as arguments to several built-in and user-defined functions:
+
+<syntaxhighlight lang="perl">
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my ($length, $width, $depth) = (10, 20, 15);
+
+print "The values are: ", $length, $width, $depth;
+</syntaxhighlight>
+
+{| WIDTH="75%" | style="background-color: #f2fff2; border: solid 1px #bfffbf; padding: 1em;" valign=top|
+|'''Note'''</br>''Parentheses are ''not'' required in the construction of a list. They are used only for precedence.''
+|}
+
+===Alternate List Construction===
+
+When creating a list of several strings that do not include spaces, Perl provides a shortcut to get around typing multiple quotes and commas. Instead of
+<syntaxhighlight lang="perl">($name1, $name2, $name3, $name4) = ('Paul', 'Michael', 'Jessica', 'Megan');</syntaxhighlight>
+you can use the <tt>qw//</tt> operator. This operator uses any non-alpha-numeric character as a delimiter (typically the <tt>/</tt> character), and encloses a space-separated sequence of barewords. A delimeter separates the command with the arguments. The above line is identical to the following:
+<syntaxhighlight lang="perl">($name1, $name2, $name3, $name4) = qw/Paul Michael Jessica Megan/;</syntaxhighlight>
+
+and both are equal to this:
+
+<syntaxhighlight lang="perl">
+($name1, $name2, $name3, $name4) = qw(Paul Michael Jessica Megan);
+</syntaxhighlight>
+
+The last example uses the open and close parenthesis as a different delimeter. If there is an open and close version of the delimiter you choose, you need to use them both. Otherwise just repeat the same symbol twice. For example, you cannot type <tt>qw<Paul Michael<</tt> you have to type <tt>qw<Paul Michael></tt>.
+
+You can also abuse the glob syntax, when the strings do not include shell metacharacters:
+
+<syntaxhighlight lang="perl">
+($name1, $name2, $name3, $name4) = <Paul Michael Jessica Megan>;
+</syntaxhighlight>
+
+{| WIDTH="75%" | style="background-color: #f2fff2; border: solid 1px #bfffbf; padding: 1em;" valign=top|
+|'''Note'''</br>''The resulting strings from the <tt>qw//</tt> operator are ''single-quoted'', meaning no interpolation happens in the set. If you need to include a variable in your list, you cannot use this method.''
+|}
+
+===List assignments===
+
+As shown above, lists can be used to make several assignments at once. If the number of variables on the left is the same as the number of values on the right, all variables are assigned to their corresponding values, as expected.
+
+If there are fewer variables on the left than values on the right, the 'extra' values are simply ignored:
+
+<syntaxhighlight lang="perl">
+#!/usr/bin/perl
+
+($length, $width) = (10, $w, 15);  #$length gets 10, $width gets the value of $w. 15 is ignored
+</syntaxhighlight>
+
+If there are more variables on the left than values on the right, the 'extra' variables are assigned the default <tt>undef</tt> value:
+
+<syntaxhighlight lang="perl">
+#!/usr/bin/perl
+
+($length, $width, $depth) = (10, $w); #$length gets 10, $width gets the value of $w. $depth is undef
+</syntaxhighlight>
+
+The existence of list assignment creates the ability to 'swap' two variables' values without the need of an intermediary temporary variable:
+
+<syntaxhighlight lang="perl">
+#!/usr/bin/perl
+
+$foo = 10;
+
+$bar = 5;
+
+($foo, $bar) = ($bar, $foo);  #$foo now equals 5, while $bar equals 10;
+</syntaxhighlight>
+
+==Arrays==
+
+An array in Perl is a variable that contains a list. An array can be modified, have elements added and removed, emptied, or reassigned to an entirely different list. Just as all scalar variables start with the <tt>$</tt> character, all array variables start with the <tt>@</tt> character.
+
+{| WIDTH="75%" | style="background-color: #f2fff2; border: solid 1px #bfffbf; padding: 1em;" valign=top|
+|'''Note'''</br>''It is a common and frequent mistake in Perl to use the terms 'list' and 'array' interchangeably. They do not have the same meaning. </br>A decent analogy is that a list (such as <tt>qw/foo bar baz/</tt>) is to an array (such as <tt>@values</tt>) as a string (such as <tt>'Paul'</tt>) is to a scalar variable (such as <tt>$name</tt>).''
+|}
+
+===Array Assignment===
+
+Arrays are assigned lists of values. The list of values can be arbitrarily large or small (it can even contain 0 elements).
+
+<syntaxhighlight lang="perl">
+ #!/usr/bin/perl
+
+ @nums = (1,2,3,4,5);
+
+ @more = 6..1000; #using the 'range' operator
+
+ @none = ();  # empty array.
+
+ @names = qw/Paul Michael Jessica Megan/;
+
+ @all = (@nums, @more);  #@all contains all integers from 1 to 1000
+</syntaxhighlight>
+
+That last example exemplifes a feature of Perl known as 'array flattening'. When an array is used in a list, it is the array's '''elements''' that populate the list, not the array itself. As stated above, a list is a set of '''scalar''' values only. Therefore, the <tt>@all</tt> array contains 1000 elements, not 2.
+
+{| WIDTH="75%" | style="background-color: #f2fff2; border: solid 1px #bfffbf; padding: 1em;" valign=top|
+|'''Note'''</br>''Although this implies you cannot create an 'array of arrays', or 'two-dimensional arrays', such things do exist in Perl. They are simulated by using [[../References and Data Structures|references]].''
+|}
+
+===Arrays in scalar context===
+
+When an array is used in scalar context - either by assigning a scalar variable to the array's value, or using it in an operation or function that expects a scalar - the array returns its size. That is, it returns the number of elements it currently contains
+<!-- don't use a qw() list for following... behavior of qw() in scalar context changed in perl 5.6, and that would confuse older Perl users -->
+
+<syntaxhighlight lang="perl">
+ #!/usr/bin/perl
+
+ @names = ('Paul','Michael','Jessica','Megan');
+
+ $how_many = @names;
+
+ print "I have a total of $how_many names\n";
+</syntaxhighlight>
+
+{| WIDTH="75%" | style="background-color: #f2fff2; border: solid 1px #bfffbf; padding: 1em;" valign=top|
+|'''Note'''</br>''A common misconception is that a '''list''' in scalar context will also return its size. This is untrue. In fact, there is no such thing as a list in scalar context: using the comma operator in a scalar context does not create a list, instead it evaluates each of its arguments, left to right, and returns the last one:''<br><br>
+ <syntaxhighlight lang="perl">$name = ('Paul','Michael','Jessica','Megan');
+ print "The last name in my list is $name\n";</syntaxhighlight>
+|}
+
+===Printing an Array===
+
+There are two general ways of printing the values of an array. You can either print the list of items in the array directly, or you can interpolate the array in a double-quoted string.
+
+<syntaxhighlight lang="perl">
+ @names = qw/Paul Michael Jessica Megan/;
+ print "My names are: ", @names, ".\n";
+ print "My names are: @names.\n";
+</syntaxhighlight>
+
+In the first example, the <tt>print</tt> function is being given a list of 6 arguments: the string 'My names are: ', each of the four values in <tt>@names</tt>, and the string ".\n". Each argument is printed separated by the value of the <tt>$,</tt> variable (that defaults to the empty string), resulting in the values from the array being 'squished' together:
+ My names are: PaulMichaelJessicaMegan.
+
+In the second example, the <tt>print</tt> function is being given exactly one argument: a string that contains an interpolated array. When Perl interpolates an array, the result is a string consisting of all values in the array separated by the value of the <tt>$"</tt> variable (that defaults to a single space):
+ My names are: Paul Michael Jessica Megan.
+
+{| WIDTH="75%" | style="background-color: #f2fff2; border: solid 1px #bfffbf; padding: 1em;" valign=top|
+|'''Note'''</br>''Both the <tt>$,</tt> and <tt>$"</tt> variables can be changed to any string you like. For example, to separate the array's items with a comma and a space instead of just a space:''
+ <syntaxhighlight lang="perl">$" = ', ';
+ print "My names are: @names.\n";</syntaxhighlight>
+
+ My names are: Paul, Michael, Jessica, Megan.
+
+<i>You generally do not want to do that as this may cause problems in other parts of your program depending on the default values of those variables though! A safer way to print your arrays with custom separator will be explained later.</i>
+|}
+
+===Accessing Elements of an Array===
+
+The elements of an array are accessed using a numerical reference within square brackets. Because each item within an array is a scalar value, you need to use <tt>$</tt> when referencing a value. The first element of an array is number 0 and all the others count up from there.
+
+A negative number will count down from the right side of the array. This means that -1 references the last element of the array and -3 references the third to last element. Let's see some examples:
+
+<syntaxhighlight lang="perl">
+ @array = (1, 2, 3, 4, 5);
+ print $array[0];   # Prints 1
+ print $array[3];   # Prints 4
+ print $array[-1];  # Prints 5
+</syntaxhighlight>
+
+What if you need to know the last index? <tt>$#array</tt> will return it for you:
+<syntaxhighlight lang="perl">
+ @array = (1, 2, 3, 4, 5);
+ print $array[4];         # Prints 5
+ print $array[-1];        # Same as above
+ print $array[ $#array ]; # Also prints 5
+</syntaxhighlight>
+
+A common mistake is to do this:<br>
+<syntaxhighlight lang="perl">
+ print @array[0];  # Also prints 1, but for the wrong reasons
+</syntaxhighlight>
+
+In fact <tt>@array[0]</tt> is a <i>slice</i> (that is, a sub-array of an array) that contains one element, whereas <tt>$array[0]</tt> is a scalar that contains the value 1.
+
+===Common array functions===
+
+== Command line arguments ==
+
+As you may wonder, Perl scripts support command line arguments. The entire list of parameters is stored in the array <tt>@ARGV</tt>, with the first entry containing the first command line argument. If no command line parameters were passed, <tt>@ARGV</tt> is an empty array.
+
+The array functions and operators listed above can easily be used to detect the passed command line arguments and to detect the number of arguments provided.
+
+== Related articles ==
+
+* [[Data Structures/Arrays]]
+* [[../Function Reference#List functions|List Functions]]
+* [[../Function Reference#Array functions|Array Functions]]
+* [http://www.programmingbulls.com/perl-array Perl Arrays]
+<noinclude>
+{{prognav|Perl|Scalar variables|Hash variables}}
+
+{{BookCat}}
+
+[[pl:Perl/Tablice]]
+</noinclude>

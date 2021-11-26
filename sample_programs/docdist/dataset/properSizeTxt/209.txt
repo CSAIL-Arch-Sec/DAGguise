@@ -1,0 +1,384 @@
+.navpopup { 
+  background-color: lightgoldenrodyellow  !important;
+  font-family:      sans    !important;
+  color:            #000000     !important;
+  font-size:        medium   !important;
+}
+
+/* <pre> */  
+/********************************************
+**                                         ** 
+**      S K I N O R I   B L U E D I        **
+**                                         **
+**  Skin created by [[en:User:Stevertigo]] **
+**                                         **
+**         based on FOSFORI VERDI          **
+**         de [[it:Utente:Kormoran]]       **                                     
+**      Version 1.000001,  May, 2005       **
+**                                         **
+********************************************/
+
+/* Color defaults */ 
+body {
+    background: #111111;
+    color: #fafad2;
+}
+#content { background : #000000; } 
+#content { color : #fafad2; } 
+#content { border: 1px solid #000980; } 
+/* Colors of links */
+a { color: #a38d71; }
+a:visited { color: #008080; }
+a:active, a.new { color: #424bb8; }
+a.interwiki, a.external { color: #798da9; }
+a.stub { color: #798da9; }
+/* Colors of edit textbox  */
+textarea { color: #87ceeb; }
+textarea { background : #000000; } 
+/* Case user (that one with the link to the preferences, the page personal customer etc.) */
+
+.autocomment { color: #151950; }
+fieldset { 
+    background: transparent; 
+    border: 1px solid #000040;
+}
+legend { 
+    background: transparent; 
+    border: 1px solid #000040;
+}
+
+/* Change diff color */
+span.diffchange {
+   color: #000080;
+}
+
+hr {
+    color: #000040;
+    background-color: #000000;
+}
+/* The warning of new messages */
+.usermessage {
+    background-color: #000716;
+    border: 1px solid #502b00;
+    color: #678232;
+    font-weight: bold;
+}
+
+input.historysubmit {
+    padding: 0 0.3em 0.3em 0.3em !important;
+    font-size: 94%;
+    cursor: pointer;
+    height: 1.7em !important;
+    margin-left: 1.6em;
+}
+input[type="radio"],
+input[type="checkbox"] { border:none; }
+select {
+    background-color: #000016;
+    border: 1px solid #000980;  
+    color: #0041a2;
+    vertical-align: top;
+}
+
+#p-personal li a { color: #6A69A1; } 
+
+/* This regards the icon next to the name li#pt-userpage { background:  none}*/
+
+#infobox { background: #000520;
+           color: #00FFFF;
+           border: ipx solid #000044
+}
+
+/* Nuvologo */
+/* Use one of these:
+http://upload.wikimedia.org/wikipedia/commons/e/e1/Wikipedia-logo-en-Gold.png
+http://upload.wikimedia.org/wikipedia/commons/7/7e/Barnstar-rotating.gif
+http://upload.wikimedia.org/wikipedia/commons/7/78/Wikinews-trans_135px_ohne_text.png
+http://upload.wikimedia.org/wikipedia/commons/7/76/WIKIFONDATION3D.PNG
+http://upload.wikimedia.org/wikipedia/commons/2/2d/Wikimedia_without_text.png http://upload.wikimedia.org/wikipedia/commons/d/d2/Squash_WIkicommons_3.png
+http://upload.wikimedia.org/wikipedia/commons/1/11/Barnstar.png
+*/
+
+#p-logo { 
+    background: url(http://upload.wikimedia.org/wikipedia/commons/e/e1/Wikipedia-logo-en-Gold.png) no-repeat; 
+    display: none
+    position:absolute;  /*needed to use z-index */
+    top: 8;
+    left: 100;
+    right: 65;
+    height: 0;
+    width: 0;
+    padding: 0 0 150px 150px;
+    overflow: hidden;
+}
+
+
+/* Color of the edit search window  */
+#searchInput { 
+    border: 1px inset !important; 
+    color: #a6afd0; 
+    background : #000000; 
+} 
+
+input.searchButton .pBody { 
+    background : #000000; 
+/*    border: 2px solid #004000; */
+    color : #0048ff; 
+}
+input.searchButton { 
+    background : #000000; 
+    border-top: 2px solid #002222;
+    border-left: 2px solid #002222;
+    border-right: 2px solid #008080;
+    border-bottom: 2px solid #008080;
+    color : #162756; 
+}
+#p-search { background: #333451; 
+    color: Black; 
+}
+#p-search .pBody { 
+    background: #000000;
+    border: 1px solid #000666;
+}
+/* Color of the case Navigation in the column to flank */
+#p-nav { background-color: #111111; }
+#p-nav { color: Gray; }
+#p-nav .pBody { 
+    background-color: #000000; 
+    border: 1px solid #000040;
+}
+/* Color of the case?  in the column to flank */
+#p-tbx { background: #000040; }
+#p-tbx .pBody { 
+    background-color: #000000; 
+    border: 1px solid #000040;
+}
+/* Color of the case toolbox in the column to flank */
+#p-tb { background: #000040; }
+#p-tb .pBody { 
+    background-color: #000000; 
+    border: 1px solid #000040;
+}
+/* Color of the case Other Languages in the column to flank */
+#p-lang { background: #000040; }
+#p-lang .pBody { 
+    background-color: #000000; 
+    border: 1px solid #000040;
+}
+
+
+/* This code adds the Wiki editing tabs to the bottom of the box (but it does not act as with IE and clients also thread monobook.js... to see my page customer) */
+#mytabs {
+    margin: -0.3em 0 0  11.5em;
+    border: 1px solid #07078E;
+    white-space:nowrap;
+    line-height: 1.1em;
+    overflow: visible;
+    border-collapse: collapse;
+    padding: 0 0 0 1em;
+    list-style: none;
+    font-size: 85%;
+}
+#mytabs .hiddenStructure { display: none; }
+#mytabs li {
+    display: inline;
+    border: 1px solid #000040;
+    border-top: none;
+    padding: 0.1em 0 0 0;
+    margin: 0 0.3em 0 0;
+    overflow: visible;
+    background: #000000;
+    color: #70a0ff;
+}
+#mytabs li.selected {
+    border-color: #000033;
+    padding: 0.2em 0 0 0;
+}
+#mytabs li a {
+    background-color: #000000;;
+    color: #003091;
+    border: none;
+    padding: 0.3em 0.8em 0 0.8em;
+    text-decoration: none;
+    text-transform: lowercase;
+    position: relative;
+    margin: 0;
+}
+#mytabs li.selected a { z-index: 3; }
+#mytabs .new a { color:#ffb940; }
+#mytabs li a:hover {
+    z-index: 3;
+    text-decoration: none;
+}
+#mytabs h5 { display: none; }
+#mytabs li.istalk { margin-right: 0; }
+#mytabs li.istalk a { padding-right: 0.5em; }
+#mytabs-ca-addsection a { 
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+/* offset per separare i gruppi di tab */
+li#mytabs-ca-talk { margin-right: 1.6em; }
+li#mytabs-ca-watch { margin-left: 1.6em; }
+
+/* Color of the box of the explanations, the acronyms and the abbreviations*/
+abbr, acronym, .explain {
+    border-bottom: 1px dotted #000040;
+    color: black;
+    background: #000020;
+    cursor: help;
+}
+
+/* Color of code fragments */
+code { background-color: #005555; }
+code { color: Black }
+/* Color of the preformatted text */
+pre {
+    padding: 1em;
+    border: 1px dashed #00AAAA;
+    color: gray;
+    background-color: #000020;
+    line-height: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #c0c0c0; }
+#bodyContent h1 { color : #c0c0c0; }
+#bodyContent h2 { color : #c0c0c0; }
+#bodyContent h3 { color : #c0c0c0; }
+#bodyContent h4 { color : #c0c0c0; }
+#bodyContent h5 { color : #c0c0c0; }
+#bodyContent h6 { color : #c0c0c0; }
+h1 { border-bottom: 2px solid #000080; }
+h2 { border-bottom: 1px solid #000080; }
+
+
+/* Color of background of the tables */
+table { background: #c0c0c0; }
+/* Color of the summary of the article */
+#toc { background: #000020; }
+#toc { border: 1px solid #000080; }
+
+/*------------------------------------------------------*/
+/* 
+I #p-cactions regarding actions of tabs on several Wiki pages (modification, chronology, argument etc.):  the ns-xx refer instead to the namespace number xx:  here the numbers of some namespace
+'0': 'article'  
+'2': 'user'  
+'4': 'wikipedia'  
+'6': 'image'  
+'8': 'mediawiki'  
+'10': 'Template'  
+'12': 'help'  
+'14': 'Category' */  
+
+/* Colors of bottom of articles */ 
+.ns-0 * #content { background : #000000; } 
+.ns-0 * #content { color : #c0c0c0; } 
+.ns-0 * #p-cactions li { background : #000000; } 
+.ns-0 * #p-cactions li a { background : #000000; }  
+.ns-0 * #p-cactions li a { color : #00bbbb; }  
+/* Colors at bottom of the Article talk pages */ 
+.ns-1 * #content { background : #000000; } 
+.ns-1 * #content { color : #c0c0c0; } 
+.ns-1 * #p-cactions li { background : #000000; } 
+.ns-1 * #p-cactions li a { background : #000000; } 
+.ns-1 * #p-cactions li a { color : #00bbbb; }  
+ /* Colors at bottom of the User pages */ 
+.ns-2 * #content { background : #000000; } 
+.ns-2 * #content { color : #c0c0c0; } 
+.ns-2 * #p-cactions li { background : #000000; } 
+.ns-2 * #p-cactions li a { background : #000000; }  
+.ns-2 * #p-cactions li a { color : #00bbbb; }  
+/* Colors at bottom of the User talk pages */ 
+.ns-3 * #content { background : #000000; } 
+.ns-3 * #content { color : #c6c3c6; } 
+.ns-3 * #p-cactions li { background : #000000; } 
+.ns-3 * #p-cactions li a { background : #000000; }  
+.ns-3 * #p-cactions li a { color : #7070FF; }  
+/* Colors at bottom of Wikipedia pages */ 
+.ns-4 * #content { background : #000000; } 
+.ns-4 * #content { color : #c0c0c0; } 
+.ns-4 * #p-cactions li { background : #000000; } 
+.ns-4 * #p-cactions li a { background : #000000; }  
+.ns-4 * #p-cactions li a { color : #00bbbb; }  
+/* Colors at bottom of the Wikipedia talk pages */ 
+.ns-5 * #content { background : #000000; } 
+.ns-5 * #content { color : #00bbbb; } 
+.ns-5 * #p-cactions li { background : #000000; } 
+.ns-5 * #p-cactions li a { background : #000000; }  
+.ns-5 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the Image talk pages */ 
+.ns-7 * #content { background : #000000; } 
+.ns-7 * #content { color : #c0c0c0; } 
+.ns-7 * #p-cactions li { background : #000000; } 
+.ns-7 * #p-cactions li a { background : #000000; }  
+.ns-7 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the MediaWiki pages*/ 
+.ns-8 * #content { background : #000000; } 
+.ns-8 * #content { color : #c0c0c0; } 
+.ns-8 * #p-cactions li { background : #000000; } 
+.ns-8 * #p-cactions li a { background : #000000; }  
+.ns-8 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the pages of MediaWiki talk */ 
+.ns-9 * #content { background : #000000; } 
+.ns-9 * #content { color : #c0c0c0; } 
+.ns-9 * #p-cactions li { background : #000000; } 
+.ns-9 * #p-cactions li a { background : #000000; }  
+.ns-9 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the template pages of */ 
+.ns-10 * #content { background : #000000; } 
+.ns-10 * #content { color : #c0c0c0; } 
+.ns-10 * #p-cactions li { background : #000000; } 
+.ns-10 * #p-cactions li a { background : #000000; }  
+.ns-10 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the template talk pages */ 
+.ns-11 * #content { background : #000000; } 
+.ns-11 * #content { color : #c0c0c0; } 
+.ns-11 * #p-cactions li { background : #000000; } 
+.ns-11 * #p-cactions li a { background : #000000; }  
+.ns-11 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the Help pages */ 
+.ns-12 * #content { background : #000000; } 
+.ns-12 * #content { color : #c0c0c0; } 
+.ns-12 * #p-cactions li { background : #000000; } 
+.ns-12 * #p-cactions li a { background : #000000; }  
+.ns-12 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the Help talk pages */ 
+.ns-13 * #content { background : #000000; } 
+.ns-13 * #content { color : #c0c0c0; } 
+.ns-13 * #p-cactions li { background : #000000; } 
+.ns-13 * #p-cactions li a { background : #000000; }  
+.ns-13 * #p-cactions li a { color : #00bbbb; }  
+/* Colors of bottom of the Category page talk */ 
+.ns-15 * #content { background : #000000; } 
+.ns-15 * #content { color : #c0c0c0; } 
+.ns-15 * #p-cactions li { background : #000000; } 
+.ns-15 * #p-cactions li a { background : #000000; }  
+.ns-15 * #p-cactions li a { color : #00bbbb; }  
+
+/* The bar at the bottom of the page */
+#footer {
+    background-color: Black;
+    color: #c0c0c0;
+    border-top: 1px solid #ff8f00;
+    border-bottom: 1px solid #ff8f00;
+    margin: 0.6em 0em 1em 0em;
+    padding: 0.4em 0em 1.2em 0em;
+    text-align: center;
+    font-size: 90%;
+}
+/* The category box */
+#catlinks {
+    border:1px solid #352f5f;
+    background-color:#000000;
+    color: #00aaaa;
+    padding:5px;
+    margin-top: 1em;
+    clear: both;
+}
+/* the images: better to hold them on same background as main */
+img {
+    border: 2px solid #008000;
+    background-color: black;
+}
+
+/* </pre> */

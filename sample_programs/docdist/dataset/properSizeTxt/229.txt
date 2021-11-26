@@ -1,0 +1,292 @@
+<div style="float:right; padding-left:5px;">
+__TOC__
+</div>
+'''BC''' - Branch on Condition - RX type instruction - Opcode 47 / Decimal 71
+==Availability==
+The BC instruction is available on all models of the 360, 370 and z/System.
+
+==Format==
+:BC 2,LABEL
+:BH LABEL - Special opcode, same as BC 2,LABEL
+:BC 1,L1
+:BO L1 - Same as BC 1,L1
+:BC 15,106(0,10)
+:B 106(0,10)  - B opcode is unconditional branch and is same as BC 15
+:BC 3,256(7,6)
+
+The specific syntax is
+:BC ''mask'',''offset''(''index register'',''base register'')
+Where the ''offset'', ''index register'' and ''base register'' values will be determined automatically by the assembler if the [[360 Assembly/360 Instructions/USING|USING]] pseudo-instruction has been used, and the target address label used is within 4096 bytes of the value of some base register.
+
+{| class="wikitable" style="margin:0.5em auto; font-size:95%;text-align: center;"
+|-
+|colspan="7"|RX Instruction (4 bytes)
+|-
+|colspan=1 rowspan=2|Byte 1
+|colspan=2|Byte 2
+|colspan=3|Bytes 3 and 4
+|-
+||''mask''
+|colspan=4|Target Address
+|-
+||(8 bits)<br>Opcode<br/>'''47'''
+||(4 bits)<br/><br/> '''0..F'''
+||(4 bits)<br>''index<br/>register''<br/>'''0..F'''
+||(4 bits)<br>''base<br/>register''<br/>'''0..F'''
+|colspan=2|(12 bits)<br>''offset''<br />'''0..FFF'''
+|}
+
+*The first argument is a ''mask'' which the condition code is compared against.
+*The second argument is the location to transfer to if the mask matches the currently set condition code.  The offset value is added to the values in the base and index registers to form the target address.  Most instruction usage tends to use one base register with an index register of zero, but if two non-zero registers are used, the target address will be the same no matter which register is the base register and which is the index register.
+* The ''mask'', ''base_register'' and ''index_register'' values are 0 to 15.  The offset value is 0 to 4095.
+* If the ''mask'' or ''base_register'' is zero, the instruction is a no-operation, and does not branch.
+* If the ''mask'' is 15 the branch is unconditional (unless the ''base register'' is 0, in which case it does not branch).
+* The value in the ''index_register'' is not used if the index_register specified is 0.
+
+==Mask==
+After executing an instruction which changes the condition code, the computer sets the CC flag bits in the "Condition Code" field in the PSW. This instruction can then branch if the selected condition code matches the mask in this instruction. For example suppose we are using arithmetic add register "AR". Then in following conditions the value of "Condition Code" will be as follows: 
+{| class="wikitable" 
+|-
+!|Condition
+!Symbol
+!Condition code in PSW
+|-
+||Result is zero
+|Z
+|0
+|-
+||Result is negative
+|N
+|1
+|-
+||Result is positive
+|P
+|2
+|-
+||Result overflows
+|O
+|3
+|}
+
+Then consider instruction "BNZ" (Branch Not Zero). It's mask is 7. What does that mean?
+This instruction branches if the result is not zero, which means it branches if the value of condition code is not zero! So it is 1,2 or 3. Consider the following table
+{| class="wikitable" 
+|-
+!|Z
+!N
+!P
+!O
+|-
+||0
+|1
+|1
+|1
+|}
+The example above gives us mask (0111) = 7. For each of following opcodes you can construct the table ZNPO and find the corresponding mask.
+
+==Other Opcodes==
+The assembler provides the mask as part of several optional opcodes.  These simply require the target address.  These opcodes are:
+{| class="wikitable" 
+|-
+!|Opcode
+!Mask
+!Usage
+!Purpose
+!Equivalent to
+!Usage
+|-
+||NOP
+| 0
+|<tt>NOP&nbsp;&nbsp;&nbsp;LABEL</tt>
+|No Operation           
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;0,LABEL</tt>
+|Any place where a no-operation/filler is wanted
+|-
+||BO
+| 1
+|<tt>BO&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch on Overflow/Ones
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;1,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, if arithmetic overflow or result is all ones occurred
+|-
+||BH
+| 2
+|<tt>BH&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch (a High)        
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;2,LABEL</tt>
+|After any comparison, branch if first value in comparison is higher than second value ('''A > B''')
+|-
+||BP
+| 2
+|<tt>BP&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch on Plus         
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;2,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if result is positive
+|-
+||BL
+| 4
+|<tt>BL&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch (a Low)
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;4,LABEL</tt>
+|After any comparison, branch if first value is lower than second ('''A < B''')
+|-
+||BM
+| 4
+|<tt>BM&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch on Minus/Mixed
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;4,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if the result is negative or is ones and zeroes
+|-
+||BNE
+| 7
+|<tt>BNE&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch Not Equal
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;7,LABEL</tt>
+|After any comparison, branch if first value is not equal to the second value ('''A <> B''' or '''A ~= B''' or '''A != B''')
+|-
+||BNZ
+| 7
+|<tt>BNZ&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch Not Zero
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;7,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if result is not zero
+|-
+||BE
+| 8
+|<tt>BE&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch (a Equal b)
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;8,LABEL</tt>
+|After any comparison, branch if first value equals the second value ('''A = B''' or '''A == B''')
+|-
+||BZ
+| 8
+|<tt>BZ&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch on Zero
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;8,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if result is zero
+|-
+||BNL
+|11
+|<tt>BNL&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch (a Not Low)
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;11,LABEL</tt>
+|After any comparison, branch if first value is not lower than the second value ('''A >= B''')
+|-
+||BNM
+|11
+|<tt>BNM&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch Not Minus
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;11,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if result is zero
+|-
+||BNH
+|13
+|<tt>BNH&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch Not High
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;13,LABEL</tt>
+|After any comparison, branch if first value is not higher than the second value {'''A<=B''')
+|-
+||BNP
+|13
+|<tt>BNP&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch Not Plus
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;13,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if result is not positive
+|-
+||BNO
+|14
+|<tt>BNO&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch Not Ones
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;14,LABEL</tt>
+|After an arithmetic operation or arithmetic comparison, branch if result is not all ones
+|-
+||B
+|15
+|<tt>B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LABEL</tt>
+|Branch (unconditional)
+|<tt>BC&nbsp;&nbsp;&nbsp;&nbsp;15,LABEL</tt>
+|Branch in all cases (unless index register is 0; then treat as no-op) Equivalent to GOTO in high-level languages
+|}
+
+==Optional formats==
+For the example machine code shown on the left, the address ''LABEL'' is presumed to be at offset 106 (06A hex) from register 10, and the address X1 is presumed to be at offset 256 (0100 hex) from the sum of base register 6 and index register 7. 
+===Mask value ignored===
+ 47F0A06A        B    LABEL   unconditional branch -  equivalent to '''BC 15,label'''
+ 47076100        NOP  X1      no-operation - '''BC 0,X1'''
+ 47FC0006        BC   15,6(12,0) despite the mask being 15, because the base register is 0,
+          *                     this is also a no-op
+===Used after standard comparison of a and b===
+ 4780A06A        BE   LABEL   branch if a equal b - '''BC 8,label'''
+ 4720A06A        BH   LABEL   branch if a high - '''BC 2,label'''
+ 4740A06A        BL   LABEL   branch if a low - '''BC 4,label'''
+ 47776100        BNE  X1      branch if a not equal b - '''BC 7,X1'''
+ 47D0A06A        BNH  LABEL   branch if a not high - '''BC 13,label'''
+ 4740A06A        BNL  LABEL   branch if a not low - '''BC 4,label'''
+===Used after arithmetic operations===
+ 4710A06A        BO   LABEL   branch on overflow - '''BC 1,label'''
+ 47276100        BP   X1      branch on plus - '''BC 2,X1'''
+ 4740A06A        BM   LABEL   branch on minus - '''BC 4,label'''
+ 4780A06A        BZ   LABEL   branch on zero - '''BC 8,label'''
+ 47D0A06A        BNP  LABEL   branch on not plus - '''BC 13,label'''
+ 47B0A06A        BNM  LABEL   branch on not minus - '''BC 11,label'''
+ 4770A06A        BNZ  LABEL   branch on not zero - '''BC 7,label'''
+
+===Used after Test Under Mask instructions===
+ 47176100        BO   X1      branch on ones - '''BC 1,X1'''
+ 4740A06A        BM   LABEL   branch on mixed - '''BC 4,label'''
+ 4780A06A        BZ   LABEL   branch on zeroes - '''BC 8,label'''
+ 47E0A06A        BNO  LABEL   branch on not ones - '''BC 14,label'''
+
+==Operation==
+Upon performing an arithmetic operation or a comparison, certain bits in the Program Status Word called the Condition Code are set or cleared.  In the case of comparison of two fields, the left value is considered the "A" value, and the right value is considered the "B" value, and the result of the comparison of A to B tests how A compares to B, either low, high, equal or not-equal.
+
+In the case of an arithmetic operation, the result being plus, minus, zero or having had an overflow is tested.
+
+In the case of the test under mask instructions, the result of the test being all ones, all zeroes, or mixed ones and zeroes.
+
+The Branch on Condition instruction is used following such a test to compare the condition code bits to the mask value.  If bits set in the mask match bits which are set in the condition code (or all of the bits in the mask are set), and the base register of the target address is not 0, the target address is placed into the PSW as the new address of the current instruction and the branch is taken.  Otherwise execution continues with the next instruction following the branch on condition instruction.
+
+The target address is constructed by adding the contents of the base and index registers to the offset address.  If the index register is zero its value is not used.
+==Purpose of Instruction==
+The '''Branch on Condition'' instruction is the general purpose branch within a program.  It has three variations: no branch or No Operation, conditional branch depending upon a test, or unconditional branch.
+===No Operation===
+The 'no branch' - BC 0 - or 'NOP' is typically used to create a label which is not tied to an existing instruction.  It may be used by a macro for alignment to force an instruction or data onto a specific boundary but without causing a program exception if the instruction is branched to.  It can also be used to provide 'slack' space to allow later patching of the binary without having to reassemble the program.  A NOP will also occur, regardless of the mask value, if the base register of the branch is also zero.
+===Conditional Branch===
+The bits in the mask are compared to the bits in the condition code.  If the bits in the mask match the bits in the condition code, (and the base register of the target address is not zero) the branch is taken. 
+===Unconditional Branch===
+A branch to another location (the equivalent of a GOTO in high-level languages) is performed by setting all the bits in the mask, e.g. '''BC 15''', or using the B instruction.  As long as the base register of the target address is not zero, the branch will always be taken.  
+==Typical Usage==
+The branch on condition and optional formats are typically used after performing a comparison or arithmetic operation.  In the following code, a question is asked, the response is compared to yes or no, and the question is re-issued if not either.  The 'CALL' macro is used to create a standard subroutine linkage.
+
+ CHECKINQ NOP  0(0)                                                            
+          CALL INQUIRE,(QUES,1,RESP)                 Call an external module called INQUIRE 
+          CLC  RESP(1),QY1                           Compare one byte
+          BE   YES                                   "Resp" is the A value in an A:B comparison 
+          CLC  RESP(1),QY2
+          BE   YES
+          CLC  RESP(1),QN1 
+          BE   NO                                    Answer was 'N'
+          CLC  RESP(1),QN2                           Is it 'n'?
+          BNE  CHECKINQ                              Something else, try again
+          B    NO                                    Answer was 'n'
+ QUES     DC   C'Are you ready to start?'            Construct a 'C' language-type
+          DC   X'00'                                 string, zero terminated
+ RESP     DS   C                                     One byte response
+ QY1      DC   C'Y'                                  Available responses
+ QY2      DC   C'y'
+ QN1      DC   C'N'
+ QN2      DC   C'n'
+
+==Exceptions and Faults==
+{{360 branch exceptions}}
+
+==Alternative branch instructions==
+* The [[360 Assembly/360 Instructions/BALR|BALR]] instruction is used to branch to the address in a register and save the current address as a return address, similar to a procedure or function call in a high-level language
+* The [[360 Assembly/360 Instructions/BCR|BCR]] instruction is used in the same manner as the BC instruction, but is used to branch to the address in the specified second argument register.
+* The [[360 Assembly/360 Instructions/BCT|BCT]] instruction is used is used to subtract 1 from a register then branch to the specified address if the result is not zero.
+* The [[360 Assembly/360 Instructions/BCT|BCTR]] instruction is used is used to subtract 1 from a register then branch to the address in the register specified in the second argument if the result is not zero.
+* The [[360 Assembly/360 Instructions/BRC|BRC]] instruction is used to branch to the address relative to the current program counter, contained in an immediate (16 bit) value.
+* The [[360 Assembly/360 Instructions/BRCL|BRCL]] instruction is used to branch to the address relative to the current program counter, contained in an immediate (32 bit) value.
+
+{{360 opcode footer |name= |previous=BASSM |next=BCR |before=46 |beforename=BCT |after=48 |aftername=LH}}
+{{BookCat}}

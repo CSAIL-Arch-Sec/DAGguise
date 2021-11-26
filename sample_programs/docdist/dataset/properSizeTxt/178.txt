@@ -1,0 +1,354 @@
+This article discusses the lifecycle of safety belt legislation in the United States. It includes a brief description and history of the safety belt and of safety belt legislation which is folioed by an analytical analysis of the progress of safety belt laws. It compares the implementation of primary versus secondary enforcement laws and makes predictions on when full primary laws may be in place across the entire United States. It also compares safety belt legislation to the legal drinking age legislation from the perspective of the federal government. This study does not make any claims as to the successfulness of safety belts nor safety belt legislation in the prevention of injuries and deaths related to automobile crashes.
+
+==Paragraph==
+
+Lapeer Mi is the Best
+
+==Brief History of Safety Belts==
+
+The invention of the safety belt is credited to George Cayley, an English engineer who is sometimes regarded as the “father of flight”, who created a harness for his glider in the early 1800s.<ref>[http://www.yorkshirepost.co.uk/news/features/clunk-click-an-invention-that-s-saved-lives-for-50-years-1-2296965. ''Yorkshire Post''. "Clunk, click – an invention that’s saved lives for 50 years", August 2009.]</ref> The first United States patent for a safety belt was filed in 1885 by Edward J Claghorn, for a person who was being raised or lowered for a variety of purposes.<ref>Rune Andr ́easson. "The Seat Belt : Swedish Research and Development for Global Auto- motive Safety". Kulturv ̊ardskommitt ́en Vattenfall, 2000.</ref> The safety belt used in transportation came about in the beginning of the 20th century in airplanes for safety and stability of pilots as they engaged in more complex arial maneuvers. The first person to install a belt in an airplane was Benjamin Foulois, a U.S. Army General that learned to fly some of the first military planes. He modified a belt from a cavalry saddle.<ref>Benjamin D. Foulois and C. V. Glines. "From the Wright Brothers to the Astronauts: The Memoirs of Benjamin D. Foulois". McGraw-Hill, 1968.</ref>
+
+Safety belts in cars began in the 1930's when physicians began installing them in their own cars.  This was in response to seeing injuries cased by unrestrained drivers and passengers during crashes. In the 1950’s, a neurologist, Dr. C. Hunter Shelden studied the early seat belts and determined that they were contributing to injuries rather than preventing them in many cases <ref>"HMRI News". Hmri.org. Retrieved 2013-11-3.</ref>. He suggested, among many other safety features, the retractable seatbelt for cars<ref>C. Hunter Shelden, M.D., (November 5, 1955). "Prevention, the only cure for head injuries resulting from automobile accidents". Journal of the American Medical Association.</ref>. In the 1950’s, automotive manufacturers began offering seat belts as options, and the first standard seat belt was in the Sabb GT 750 in 1958 <ref>"The man who saved a million lives: Nils Bohlin - inventor of the seat belt - Features, Gadgets & Tech". The Independent. 2009-08-19. Retrieved 2013-11-3.</ref>. Roger W. Griswold and Huge Dehaven patented the first three-point seatbelt (the standard in most automobiles today) in 1955<ref>Andréasson, Rune; Claes-Göran Bäckström (2000.). The Seat Belt : Swedish Research and Development for Global Automotive Safety. Stockholm: Kulturvårdskommittén Vattenfall AB. pp. 15–16. {{ISBN|91-630-9389-8}}.</ref>, though Nils Bohlin, a Swedish inventor, developed the design for Volvo. Volvo introduced the belt in 1959 as standard <ref>"The man who saved a million lives: Nils Bohlin - inventor of the seat belt - Features, Gadgets & Tech". The Independent. 2009-08-19. Retrieved 2013-11-3.</ref>. 
+
+There are several different types of safety-belts in use today. The two most common are the two-point (also called a lap belt) and three-point designs. The number-point refers to the amount of attachments to the body of the vehicle or the seat. For instance, a two-point belt attaches to the seat or vehicle at two points, one on either side of the individual, and rests along the lap of the individual, hence the moniker. These are commonly found in airplanes today. A three-point adds an attachment, typically near the shoulder of the individual, so that the belt rests along the lap and diagonally across the chest. This is the belt that is standard in every automobile manufactured ad sold in the United States today.  Other types of belts include five and six-point harnesses seen in auto-racing, and also in child safety seats. A combination of a five-point harness and two-point lap belt is sometimes found in acrobatic airplanes for redundancy.
+
+The mandated use of safety belts by law began in Victoria, Australia, in 1970.<ref>[http://www.stnonline.com/resources/seat-belts/the-history-of-seat-belt-development ''School Transportation News''. "The history of Seat Belt Development", 2008.]</ref> The law required all cars to be fitted with three-point belts and mandated their use in both the front and the back. The various laws regarding safety belt use are widely varied in their scope and enforcement policies. In the United States, the states have jurisdiction over safety belt laws. This has resulted in each state passing legislation at different times, with different wording, enforcement procedures, and fines involved. Also, 16 states will not protect motorists who were not wearing seat belts during a crash from receiving reduced damages from insurance companies. These states are Alaska, Arizona, California, Colorado, Florida, Iowa, Michigan, Missouri, Nebraska, New Jersey, New York, North Dakota, Ohio, Oregon, West Virginia, and Wisconsin.<ref>[http://www.iihs.org/iihs/topics/laws/safetybeltuse?topicName=safety-belts. Insurance Institute for Highway Safety. "Safety Belt and Child Restraint Laws". November 2013. Retrieved 2013-11-01]</ref>
+
+The first piece of safety belt legislation in the United States was a federal law that took effect in 1968 requiring all cars and trucks (though not busses) to be fitted with safety belts on all seats. This law did not however make wearing the seat belt mandatory.<ref>"Safety belt use laws". Insurance Institute for Highway Safety. October 2009. Retrieved 2013-11-03.</ref> The first state to pass legislation on the topic was New York, which made not wearing a seatbelt a ticketable offense for anyone over the age of 16 and sitting in the front seat.<ref>[http://www.iihs.org/iihs/topics/laws/safetybeltuse?topicName=safety-belts. Insurance Institute for Highway Safety. "Safety Belt and Child Restraint Laws". November 2013. Retrieved 2013-11-01]</ref> By 1995, all 50 states, save one, and the District of Columbia had passed safety belt legislation. As of the writing of this article,{{When|date=May 2019}} the only state that had not passed a safety belt law, New Hampshire, had yet to do so (although the state does have primary enforcement for minors not wearing their safety belt).
+
+Though every state has slightly different laws with various amounts of fines, there are two main types of enforcement of these laws, primary and secondary. Primary enforcement refers to an offense that can lead a police officer to pull a driver over if they observe. Typical traffic stops; speeding, ignoring control devices, failing to yield, failure to turn on headlights at night, etc., are examples of primary enforcement. In states with primary enforcement of safety belt laws, an officer may pull a driver over if they observe someone in the car not using the safety belt (although this is complicated by the conflicting mandates on which passengers may not wear the belt, as some states have caveats for age and position in the vehicle) and they may issue a ticket for only that offense. Secondary enforcement refers to an offense that cannot cause an officer to pull a driver over, but can be added to a citation when a driver is pulled over for a different infraction. For instance, if a driver is pulled over for speeding, an officer may issue the safety belt ticket in addition to the speeding ticket.  This article makes no claim as to the effectiveness of either type of enforcement, however a comparison of states with secondary vs states with primary and their corresponding usage rates is detailed in the Results section.
+
+==Quantitative Analysis==
+
+===Data Collection===
+
+The data collected for this study primarily came from the Insurance Institute for Highway Safety's website, which was last updated in November, 2013<ref>Insurance Institute for Highway Saftey. "Saftey Belt and Child Restraint Laws".November 2013. URL http://www.iihs.org/iihs/topics/laws/safetybeltuse?topicName=safety-belts. Retrieved 2013-11-1</ref>. The data is presented in a table with information about safety belt laws and child seat laws. It is organized by state and includes the type of enforcement (primary or secondary), the date of effect (of the first regulation, if a state changed from secondary to primary, the date of the change is given in the column on enforcement), who is covered, and the first offense fine.
+
+The data were divided into two categories: states with enforcement in general, and states with primary enforcement.
+
+===Regression analysis===
+
+In order to estimate the progression of safety belt legislation, a single variable linear regression was performed on the data. The independent variable was the year (1984-1997 for all laws, and 1984-2013 for primary enforcement), and the dependent variable was a natural log transform of the total number of states to have laws in that year.
+
+X=Year
+
+Y=LN(Number of states with law in place/(K-Number of states with law in place))
+
+K is the estimated level at maturity. In this case K did not need to be iterated for, because (unless a new state is admitted to the union), the system is capped at 51 (50 states plus D.C.).
+
+The results of the regression analysis provided the inflection point (<math>t_0</math>), and the estimated intercept, or b value.
+
+For all laws, b=0.49843, and <math>t_0</math>=1988 with an <math>R^2</math> of .90; for primary enforcement, b=0.12448, and <math>t_0</math>=2006 with an <math>R^2</math> of.95.
+
+===Curve Fitting===
+
+Once the regression analysis found the inflection point and b value, the projected curve could be determined using the equation below.
+
+<math>S(t)=k/[1+exp(-b(t-t_0)]</math>
+
+This method was used to create the three graphs presented below.
+
+==Results and Discussion==
+
+{| class="wikitable floatright" style="text-align:center;"
+|+ Table 1
+|-
+!Year
+!States<br />With<br />Safety<br />Belt<br />Legislaton
+!Predicted<br />States<br />With<br />Safety<br />Belt<br />Legislaton
+|-
+|1984
+|1
+|5
+|-
+|1985
+|8
+|8
+|-
+|1986
+|22
+|12
+|-
+|1987
+|29
+|18
+|-
+|1988
+|32
+|24
+|-
+|1989
+|34
+|30
+|-
+|1990
+|36
+|36
+|-
+|1991
+|40
+|41
+|-
+|1992
+|41
+|44
+|-
+|1993
+|43
+|47
+|-
+|1994
+|48
+|48
+|-
+|1995
+|50
+|49
+|-
+|1996
+|50
+|50
+|-
+|1997
+|50
+|50
+|}
+
+{| class="wikitable floatright" style="text-align:center;"
+|+ Table 2
+|-
+!Year
+!States<br />With<br />Primary<br />Enforcement
+!Predicted<br />States<br />With<br />Primary<br />Enforcement
+|-
+|1984
+|1
+|3
+|-
+|1985
+|3
+|3
+|-
+|1986
+|6
+|4
+|-
+|1987
+|6
+|4
+|-
+|1988
+|6
+|5
+|-
+|1989
+|6
+|S
+|-
+|1990
+|7
+|6
+|-
+|1991
+|7
+|7
+|-
+|1992
+|7
+|7
+|-
+|1993
+|8
+|8
+|-
+|1994
+|8
+|9
+|-
+|1995
+|9
+|10
+|-
+|1996
+|10
+|11
+|-
+|1997
+|13
+|12
+|-
+|1998
+|14
+|13
+|-
+|1999
+|15
+|15
+|-
+|2000
+|17
+|16
+|-
+|2001
+|17
+|17
+|-
+|2002
+|18
+|19
+|-
+|2003
+|20
+|20
+|-
+|2004
+|21
+|22
+|-
+|2005
+|22
+|23
+|-
+|2006
+|26
+|25
+|-
+|2007
+|27
+|26
+|-
+|2008
+|27
+|28
+|-
+|2009
+|31
+|30
+|-
+|2010
+|32
+|31
+|-
+|2011
+|33
+|33
+|-
+|2012
+|33
+|34
+|-
+|2013
+|34
+|35
+|-
+|2014
+|34
+|37
+|-
+|2015
+|34
+|38
+|-
+|2016
+|34
+|39
+|-
+|2017
+|34
+|40
+|-
+|2018
+|34
+|41
+|-
+|2019
+|34
+|42
+|-
+|2020
+|34
+|43
+|-
+|2021
+|34
+|44
+|-
+|2022
+|34
+|45
+|-
+|2023
+|34
+|45
+|-
+|2024
+|34
+|46
+|-
+|2025
+|34
+|46
+|-
+|2026
+|34
+|47
+|-
+|2027
+|34
+|47
+|-
+|2028
+|34
+|48
+|-
+|2029
+|34
+|48
+|-
+|2030
+|34
+|48
+|-
+|2031
+|34
+|49
+|-
+|2032
+|34
+|49
+|-
+|2033
+|34
+|49
+|-
+|2034
+|34
+|49
+|-
+|2035
+|34
+|50
+|}
+
+
+[[File:StatesWithSafetyBeltLegislation+StatesWithPrimaryEnforcementGraph.jpg|thumb|Right|Figure 3]]
+
+[[File:StatesWithSafetyBeltLegislationGraph.jpg|thumb|Left|Figure 1]]
+
+[[File:StatesWithSafetyBeltPrimaryEnforcementGraph.jpg|thumb|Center|Figure 2]]
+
+Legislation in general is in the maturity phase. With the exception of New Hampshire, all of the states have some sort of legislation, and have since 1995. It is assumed that there will not be any rationalization of the legislation, as, at least in the current political climate, it would be very unlikely that any of these laws would be struck down. The analysis predicts that all 51 jurisdictions would have at least secondary enforcement by 1998, however that is obviously not the case.
+
+For the primary enforcement, the results are similar, but much slower. Since New York was the first state to have any law regarding safety belt usage, and its enforcement is primary, the life cycles both begin at the same time. However, the primary enforcement legislation has seen several years, and in a few cases concurrent years, with no legislation passed. Also (and relatedly), the rate at which new states are passing legislation is much slower than for the laws in general. As a result, the model predicts that full implementation of primary enforcement will not occur until after 2040.
+
+This model assumes, however that the Federal Government will not step in at any point. Although safety belt legislation is the jurisdiction of the states, there are measures that Washington can take to "force" the states to comply with certain regulations that have historical precedents. For instance, the Federal Government passed the National Minimum Drinking Age Act of 1984, which, under the  Federal Aid Highway Act, would annually lower the amount of federal funding by 10% for highways to any state that did not mandate the legal age for the purchase and consumption of alcohol be 21. As a result, the 39 states with legal ages below 21 had all adopted 21 as the legal drinking age by 1987. There is no current talk about a similar act being passed in the near future for safety belt requirements, it is the opinion of the author that it is very likely that prior to 2040 such a bill may be forwarded to require primary enforcement in all 50 states and D.C. This is due to National Highway Safety Administration and other similar organization's stance on the increased safety of seat belt usage.
+
+==Further Study==
+
+This article analyzed the life-cycle of safety belt legislation in the United States without any analysis on the effectiveness of such legislation on safety belt usage or increased safety. This subject has been studied previously, but as it is a very complicated issue with many variables, it bears further research. Additionally, a similar study on a global scale may provide different results, even if it would be complicated by the different political systems across the world.
+
+==Bibliography==
+ 
+{{reflist}}
+
+{{BookCat}}

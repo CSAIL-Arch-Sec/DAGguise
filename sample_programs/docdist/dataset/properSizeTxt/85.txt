@@ -1,0 +1,134 @@
+{{TOC right}}
+
+Compared to your neighborhood, your country, or even planet Earth, the solar system is an extremely big place. But there are even bigger systems in the universe; groups of two, two hundred, or two billion stars! Small groups of stars are called star systems, and somewhat larger groups are called star clusters. There are even larger groups of stars, called galaxies. Our solar system is in the Milky Way Galaxy, which is just one galaxy in the universe. There are several different types of galaxies and there are possibly billions of galaxies in the universe.
+
+==Lesson Objectives==
+* Distinguish between star systems and star clusters.
+* Identify different types of galaxies.
+* Describe our own galaxy, the Milky Way Galaxy.
+
+==Star Systems and Star Clusters==
+Constellations are patterns of stars that we see in the same part of the night sky, but these stars may not be close together at all out in space. However, some stars are actually grouped closely together in space. These small groups of stars are called '''star systems''' and larger groups of hundreds or thousands of stars are called '''star clusters'''.
+
+===Star Systems===
+Our solar system has only one star, the Sun. But many stars—in fact, more than half of the bright stars in our galaxy—are in systems of two or more stars. A system of two stars orbiting each other is called a ''binary star system''. A system with more than two stars is called a ''multiple star system''. In a multiple star system, each of the stars orbits around the others.
+
+Often, the stars in a multiple star system are so close together that you can only tell there are multiple stars using binoculars or a telescope. Figure 26.7 shows Sirius A, the brightest star in the sky. Sirius A is a very large star. If you look to the lower left of Sirius A in the figure, you can see a much smaller star. This is Sirius B, a white dwarf companion to Sirius A.
+
+[[File:Sirius A and B Hubble photo.jpg|500px|center|thumb|'''Figure 26.7''': The bright star Sirius is actually a binary star system with one large star (Sirius A) and one small star (Sirius B). This image from the Hubble Space Telescope shows Sirius B to the lower left of Sirius A. As you might guess, Sirius A is much, much brighter than Sirius B. Sirius B once was brighter than its companion, but it became a red giant and collapsed into its current dim state about 100-125 million years ago.]]
+
+===Star Clusters===
+Star clusters are divided into two main types: '''open clusters''' and '''globular clusters'''. Open clusters are groups of up to a few thousand stars that are loosely held together by gravity. The Pleiades, shown in Figure 26.8, is a well-known open cluster. The Pleiades are also called the Seven Sisters, because you can see seven stars in the cluster without a telescope, but with good vision. Using a telescope reveals that the Pleiades has close to a thousand stars.
+
+[[File:Pleiades large.jpg|500px|center|thumb|'''Figure 26.8''': The Pleiades is an open cluster containing several hundred stars surrounded by gas. Note that the stars are mostly blue.]]
+
+Open clusters tend to be blue in color and often contain glowing gas and dust. That is because the stars in an open cluster are young stars that formed from the same nebula. Eventually, the stars may be pulled apart by gravitational attraction to other objects.
+
+Figure 26.9 shows an example of a globular cluster. Globular clusters are groups of tens to hundreds of thousands of stars held tightly together by gravity. Unlike open clusters, globular clusters have a definite, spherical shape. Globular clusters contain mostly old, reddish stars. As you get closer to the center of a globular cluster, the stars are closer together. Globular clusters don't have much dust in them—the dust has already formed into stars.
+
+[[File:A Swarm of Ancient Stars - GPN-2000-000930.jpg|400px|center|thumb|'''Figure 26.9''': M80 is a large globular cluster containing hundreds of thousands of stars. Note that the cluster is spherical and contains mostly red stars.]]
+
+==Types of Galaxies==
+The biggest groups of stars are called '''galaxies'''. Galaxies can contain anywhere from a few million stars to many billions of stars. Every star you can see in the sky is part of the Milky Way Galaxy, the galaxy we live in. Other galaxies are extremely far away, much farther away than even the most distant stars you can see. The closest major galaxy—the Andromeda Galaxy, shown in Figure 26.10—looks like only a dim, fuzzy spot to the naked eye. But that fuzzy spot contains one trillion stars; that is a thousand billion, or 1,000,000,000,000 stars!
+
+[[File:M31bobo.jpg|500px|center|thumb|'''Figure 26.10''': The Andromeda Galaxy is the closest major galaxy to our own. Andromeda is a large spiral galaxy that contains about a trillion stars.]]
+
+===Spiral Galaxies===
+Galaxies are divided into three types according to shape: spiral galaxies, elliptical galaxies, and irregular galaxies. '''Spiral galaxies''' rotate or spin, so they have a rotating disk of stars and dust, a bulge in the middle, and several arms spiraling out from the center. Spiral galaxies have lots of gas and dust and lots of young stars. Figure 26.11 shows a spiral galaxy from the side, so you can see the disk and central bulge.
+
+[[File:M104 ngc4594 sombrero galaxy hi-res.jpg|500px|center|thumb|'''Figure 26.11''': The Sombrero Galaxy is a spiral galaxy that we see from the side.]]
+
+Figure 26.12 shows a spiral galaxy face-on, so you can see the spiral arms. The spiral arms of a galaxy contain lots of dust. New stars form from this dust. Because they contain lots of young stars, spiral arms tend to be blue.
+
+[[File:M101 hires STScI-PRC2006-10a.jpg|500px|center|thumb|'''Figure 26.12''': The Pinwheel Galaxy is a spiral galaxy we see face-on. Note the blue spiral arms.]]
+
+===Elliptical Galaxies===
+Figure 26.13 shows a typical '''elliptical galaxy'''. As you might have guessed, elliptical galaxies are elliptical, or egg-shaped. The smallest elliptical galaxies are as small as some globular clusters. ''Giant elliptical galaxies'', on the other hand, can contain over a trillion stars. Elliptical galaxies are reddish to yellowish in color because they contain mostly old stars.
+
+[[File:Abell S740, cropped to ESO 325-G004.jpg|400px|center|thumb|'''Figure 26.13''': The large, reddish-yellow object in the middle of this figure is a typical elliptical galaxy. Can you find other galaxies in the figure? What kind?]]
+
+Typically, elliptical galaxies contain very little gas and dust because the gas and dust has already formed into stars. However, some elliptical galaxies, like the one shown in Figure 26.14, contain lots of dust. Astronomers believe that these dusty elliptical galaxies form when two galaxies of similar size collide.
+
+[[File:Ngc1316 hst.jpg|400px|center|thumb|'''Figure 26.14''': This elliptical galaxy probably formed when two galaxies of similar size collided with each other.]]
+
+===Irregular Galaxies and Dwarf Galaxies===
+Look at the galaxy in Figure 26.15. Do you think this is a spiral galaxy or an elliptical galaxy? It is neither one! Galaxies that are not clearly elliptical galaxies or spiral galaxies are called '''irregular galaxies'''. Most irregular galaxies were once spiral or elliptical galaxies that were then deformed either by gravitational attraction to a larger galaxy or by a collision with another galaxy.
+
+[[File:Irregular galaxy NGC 1427A (captured by the Hubble Space Telescope).jpg|400px|center|thumb|'''Figure 26.15''': This galaxy, called NGC 1427A, is an irregular galaxy. It has neither a spiral nor an elliptical shape.]]
+
+'''Dwarf galaxies''' are small galaxies containing "only" a few million to a few billion stars. Most dwarf galaxies are irregular in shape. However, there are also ''dwarf elliptical galaxies'' and ''dwarf spiral galaxies''. Dwarf galaxies are the most common type in the universe. However, because they are relatively small and dim, we don't see as many dwarf galaxies as we do their full-sized cousins.
+
+Look back at Figure 26.10. In the figure, you can see two dwarf elliptical galaxies that are companions to the Andromeda Galaxy. One is a bright sphere to the left of center, and the other is a long ellipse below and to the right of center. Dwarf galaxies are often found near larger galaxies. They sometimes collide with and merge into their larger neighbors.
+
+==The Milky Way Galaxy==
+If you look up in the sky on a very clear night, you may see a milky band of light stretching across the sky, as in Figure 26.16. This band is called the '''Milky Way''', and it consists of millions of stars along with a lot of gas and dust. This band is the disk of a galaxy, the '''Milky Way Galaxy''', which is our galaxy. The Milky Way Galaxy looks different to us than other galaxies because we are actually living inside of it!
+
+[[File:ESO - Milky Way.jpg|500px|center|thumb|'''Figure 26.16''': The band of light called the Milky Way can be seen on a clear, dark night. Looking at this band, you are looking along the main disk of our galaxy.]]
+
+===Shape and Size===
+Because we live inside the Milky Way Galaxy, it is hard to know exactly what it looks like. But astronomers believe the Milky Way Galaxy is a typical spiral galaxy that contains about 100 billion to 400 billion stars. Figure 26.17 shows what our Galaxy would probably look like if seen from the outside.
+
+[[File:Milky Way 2005.jpg|400px|center|thumb|'''Figure 26.17''': This artist's rendering shows what we currently think the Milky Way Galaxy would look like seen from above. The Sun and solar system (and you!) are a little more than halfway out from the center.]]
+
+Like other spiral galaxies, our galaxy has a disk, a central bulge, and spiral arms. The disk is about 100,000 light-years across and 3,000 light-years thick. Most of the Galaxy's gas, dust, young stars, and open clusters are in the disk.
+
+The central bulge is about 12,000 to 16,000 light-years wide and 6,000 to 10,000 light-years thick. The central bulge contains mostly older stars and globular clusters. Some recent evidence suggests the bulge might not be spherical, but is instead shaped like a bar. The bar might be as long as 27,000 light-years long. The disk and bulge are surrounded by a faint, spherical halo, which also contains old stars and globular clusters. Some astronomers believe there is a gigantic black hole at the center of the Galaxy.
+
+The Milky Way Galaxy is a big place. If our solar system were the size of your fist, the Galaxy's disk would still be wider than the entire United States!
+
+===Where We Are===
+Our solar system, including the Sun, Earth, and all the other planets, is within one of the spiral arms in the disk of the Milky Way Galaxy. Most of the stars we see in the sky are relatively nearby stars, that are also in this spiral arm. We are about 26,000 light years from the center of the Galaxy. In other words, we live a little more than halfway out from the center of the Galaxy to the edge.
+
+Just as Earth orbits the Sun, the Sun and solar system orbit the center of the Galaxy. One orbit of the solar system takes about 225 to 250 million years. The solar system has orbited 20 to 25 times since it formed 4.6 billion years ago.
+
+==Lesson Summary==
+* Most stars are in systems of two or more stars.
+* Open clusters are groups of young stars loosely held together by gravity.
+* Globular clusters are spherical groups of old stars held tightly together by gravity.
+* Galaxies are collections of millions to many billions of stars.
+* Spiral galaxies have a rotating disk of stars and dust, a bulge in the middle, and several arms spiraling out from the center. The disk and arms contain many young, blue stars.
+* Typical elliptical galaxies are egg-shaped, reddish, and contain mostly old stars.
+* Galaxies that are not elliptical or spiral galaxies are called irregular galaxies. Often these galaxies were deformed by other galaxies.
+* The band of light called the Milky Way is the disk of our galaxy, the Milky Way Galaxy, which is a typical spiral galaxy.
+* Our solar system is in a spiral arm of the Milky Way Galaxy, a little more than halfway from the center to the edge of the disk. Most of the stars we see are in our spiral arm.
+
+==Review Questions==
+# What is a binary star system?
+# Compare globular clusters with open clusters.
+# Name the three main types of galaxies.
+# List three main features of a spiral galaxy.
+# Suppose you see a round galaxy that is reddish in color and contains very little dust. What kind of galaxy is it?
+# What galaxy do we live in, and what kind of galaxy is it?
+# Describe the location of our solar system in our galaxy.
+
+==Vocabulary==
+; binary star system
+: Two stars that orbit each other.
+; elliptical galaxy
+: An oval or egg shaped galaxy with older stars and little gas and dust.
+; galaxy
+: A very large group of stars held together by gravity; few million to a few billion stars.
+; globular cluster
+: Groups of tens to hundreds of thousands of stars held together by gravity.
+; irregular galaxy
+: A category of galaxy that is neither a spiral nor an elliptical galaxy.
+; Milky Way
+: The name of our galaxy; also the whitish band of stars visible in the night sky.
+; open cluster
+: Groups of up to a few thousand stars loosely held together by gravity.
+; spiral arm
+: Regions of gas and dust plus young stars that wind outward from the central area of a spiral galaxy.
+; spiral galaxy
+: A rotating type of galaxy with a central bulge and spiral arms with young stars, gas and dust.
+; star system
+: Small groups of stars.
+; star cluster
+: Larger groups of hundreds of thousands of stars.
+
+==Points to Consider==
+* Objects in the universe tend to be grouped together. What forces or factors do you think cause objects to form and stay in groups?
+* Some people used to call galaxies "island universes". Are they really universes? Why or why not?
+* Can you think of anything, either an object or a group of objects, that is bigger than a galaxy?
+
+
+{{chapnav|Stars|The Universe}}

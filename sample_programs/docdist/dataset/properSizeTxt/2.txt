@@ -1,0 +1,85 @@
+Lupus Erythematosus or Systemic Lupus Erythematosus (SLE) is an autoimmune disease <ref name="prado">Prado, D. M., Benatti, F. B., de Sá-Pinto, A. L., Hayashi, A. P., Gualano, B., Pereira, R. M., Roschel, H. (2013). Exercise training in childhood-onset systemic lupus erythematosus: a controlled randomized trial. Arthritis Research & Therapy, 15(2), R46.</ref>  that causes chronic inflammation and damage to body tissues including the renal, cardiovascular, neural, musculoskeletal, and cutaneous tissues.<ref name="sun">Sun, L., Akiyama, K., Zhang, H., Yamaza, T., Hou, Y., Zhao, S.,  Shi, S. (2009). Mesenchymal stem cell transplantation reverses multiorgan dysfunction in systemic lupus erythematosus mice and humans. Stem Cells (Dayton, Ohio), 27(6), 1421-1432. doi: 10.1002/stem.68</ref> It is associated with periods of active disease involvement and remission.<ref name="LIVINGSTON">Livingston, B., Bonner, A., & Pope, J. (2011). Differences in clinical manifestations between childhood-onset lupus and adult-onset lupus: a meta-analysis. Lupus, 20(13), 1345-1355. doi: 10.1177/0961203311416694</ref> The severity and symptoms of the disease varies among patients however research has indicated that if the onset of the disease occurs during childhood or adolescents then the disease is more likely to be severe going into adulthood.<ref name="prado"/> The cause of SLE is suggested to result from environmental and genetic factors that lead to a break down in the tolerance of the immune system.<ref name="Aggarwal">Aggarwal, A., & Srivastava, P. (2014). Childhood onset systemic lupus erythematosus: how is it different from adult SLE? International Journal of Rheumatic Diseases</ref> A common abnormality in this population is irregularities in their T and B lymphocytes.<ref name="sun"/><ref name="deng">Deng, Y., & Tsao, B. P. (2010). Genetic susceptibility to systemic lupus erythematosus in the genomic era. Nature Reviews Rheumatology, 6(12), 683-692.</ref> In addition, an increase in IL-10 production in peripheral blood b cells and monocytes,<ref name="deng"/>  and elevated levels of IFN- α are indicative of the presence SLE disease activity.<ref name="crow">Crow, M. K. (2010). Interferon-alpha: a therapeutic target in systemic lupus erythematosus. Rheumatic Diseases Clinics of North America, 36(1), 173. doi: 10.1016/j.rdc.2009.12.008</ref>
+
+==Prevalence==
+
+Research has indicated that the prevalence of SLE is greater in the female population of a child bearing age with a prevalence rate of 90%,<ref>Weckerle, C. E., & Niewold, T. B. (2011). The unexplained female predominance of systemic lupus erythematosus: clues from genetic and cytokine studies. Clinical Reviews in Allergy & Immunology, 40(1), 42-49.</ref><ref name="gordon">Gordon, C., Li, C. K., & Isenberg, D. A. (2010). Systemic lupus erythematosus. Medicine, 38(2), 73-80. doi: 10.1016/j.mpmed.2009.10.006</ref> although the disease can occur at any stage of life.<ref name="LIVINGSTON"/>  The characteristics of the disease are strongly influenced by environmental factors and this differs between racial and ethnic groups.<ref name="brunner">Brunner, H. I., Gladman, D. D., Ibañez, D., Urowitz, M. D., & Silverman, E. D. (2008). Difference in disease features between childhood-onset and adult-onset systemic lupus erythematosus. Arthritis & Rheumatism, 58(2), 556-562. doi: 10.1002/art.23204</ref> It has been indicated that children with SLE have a more active disease activity and a higher prevalence rate of renal damage and which occurs at a more rapid rate compared to adult onset SLE(A-SLE).<ref name="brunner"/>
+ 
+Childhood onset SLE (C-SLE) is generally characterised by onset of symptoms before the age of 18.<ref name="Aggarwal"/> The onset of the disease has an around 15-20% prevalence in child populations<ref name="LIVINGSTON"/> with 60% of those developing the disease after 10 years of age.<ref name="Aggarwal"/> There is research to suggest that there is less gender bias towards females with C-SLE compared to adult onset.<ref name="Aggarwal"/> However, C-SLE is thought to be more prevalent and severe in those of African, Asian, Hispanic and Native American descent.<ref name="Aggarwal"/> It should be noted that not all studies support this finding.
+
+===Main Signs and Symptoms Associated with C-SLE and A-SLE===
+
+{{col-begin|width=auto}}
+{{col-break}}
+* Fatigue<ref name="Aggarwal"/>
+* Joint Pain and Swelling<ref name="gordon"/>
+* Weight loss<ref name="gordon"/>
+* Fever<ref name="Aggarwal"/><ref name="gordon"/>
+* Generalised lymphadenopathy<ref name="Aggarwal"/>
+* Raynaud’s Syndrome<ref name="LIVINGSTON"/>
+{{col-break}}
+* Erythematous rash seen on both cheeks and bridge of nose<ref name="Aggarwal"/>
+* Photosensitive rash<ref name="LIVINGSTON"/><ref name="Aggarwal"/>
+* Oral ulcers<ref name="Aggarwal"/>
+* Serositis in the form of pleuritis<ref name="Aggarwal"/>
+* Pericarditis<ref name="LIVINGSTON"/><ref name="Aggarwal"/>
+* Cardiac Arrhythmias and Murmurs<ref name="LIVINGSTON"/>
+{{col-end}}
+
+This is not exhaustive list of signs and symptoms as they will vary between patients.
+
+==Current Treatments Available==
+
+===Pharmaceutical===
+Pharmaceutical treatment for this disease varies with the individual, their symptoms and severity.  Nonspecific drug treatments are the most common way to treat this disease <ref name="yu">Yu, Y., & La Cava, A. (2011). Current drugs in systemic lupus erythematosus. Drug Development Research, 72(7), 561-572. doi: 10.1002/ddr.20466</ref> as currently there is no cure.  The current drug treatments used carry a significant risk of toxicity, cytopenia, infection and malignancy.<ref name="yu"/> 
+The drugs used include:<ref name="yu"/>
+
+{{col-begin|width=auto}}
+{{col-break}}
+* NSAIDS
+* Anti – malarial drugs (Hydroxychloroquine and chloroquine)
+* Corticosteroids
+* Immune Suppressant drugs (methotrexate)
+* Cytotoxic drugs (cyclophosphamide)
+
+Hematopoietic stem cell and Mesenchymal stem cells transplantations are used in the most severe cases in an attempt to restart the immune system<ref name="yu"/> however it is not a cure but can improve the immune system activity.<ref name="yu"/>
+
+===Exercise===
+In SLE patients exercise has been found to be an important non pharmaceutical treatment.<ref name="miossi">Miossi, R., Benatti, F. B., Lúcia de Sá Pinto, A., Lima, F. R., Borba, E. F., Prado, D. M. L., Roschel, H. (2012). Using exercise training to counterbalance chronotropic incompetence and delayed heart rate recovery in systemic lupus erythematosus: A randomized trial. Arthritis Care & Research, 64(8), 1159-1166. doi: 10.1002/acr.21678</ref> Although undertaking exercise in this population can be difficult due to individuals suffering from chronic fatigue and pain and other comorbidities including premature atherosclerosis, dyslipidaemia  <ref name="ardoin">Ardoin, S. P., Sandborg, C., & Schanberg, L. E. (2007). Management of dyslipidemia in children and adolescents with systemic lupus erythematosus. Lupus, 16(8), 618-626.</ref><ref name="perandini">Perandini, L. A., Sales-de-Oliveira, D., Mello, S. B., Camara, N. O., Benatti, F. B., Lima, F. R.,  Gualano, B. (2014). Exercise training can attenuate the inflammatory milieu in women with systemic lupus erythematosus. Journal of Applied Physiology (Bethesda, Md.: 1985), 117(6), 639-647. doi: 10.1152/japplphysiol.00486.2014 [doi]</ref> and insulin resistance.<ref name="perandini"/>   This is due to the increased levels of IFN-γ, IL-6, TNF-α, IL-10, and sTNFRs that also increase the risk of cardiovascular disease.<ref name="perandini"/>  Multiple other cardiac abnormalities can be found in SLE patients, including autonomic dysfunction, coronary heart disease and ischemic heart disease.<ref name="ayan">Ayán, C., & Martín, V. (2007). Systemic lupus erythematosus and exercise. In (pp. 5-9). England: Sage Publications. doi: 10.1177/0961203306074795.</ref>  Therefore exercise has been found to decrease the inflammatory response in SLE, as patients display decreased levels of IL-6, IL-10 and TNF α at rest post chronic exercise training.<ref name="perandini"/>
+
+Cardiac abnormalities in SLE can also be reduced through exercise by:
+
+{{col-begin|width=auto}}
+{{col-break}}
+* Improved aerobic capacity<ref name="ayan"/>
+* Improved cardiovascular functioning<ref name="miossi"/>
+* Reduced chronotropic incompetence<ref name="miossi"/>
+* Reduced delayed heart rate recovery<ref name="miossi"/>
+
+Furthermore, exercise has been found to be an effective management tool in treating dyslipidaemia as it improves lipid profiles in the TC/HDL-c ratio, VLDLc and LDL-c particle size.<ref name="ardoin"/>  This is important as it is suggested that TNF- α, oxidation of LDL and abnormal chylomicron metabolism is involved in the deregulation lipoprotein lipase activity in SLE.<ref name="ardoin"/>
+ 
+====Exercise Recommendations====
+Performing exercise in this population has been found to not cause flare ups in the disease activity or cause any other adverse effects.<ref name="miossi"/><ref name="perandini"/><ref name="tench">Tench, C. M., McCarthy, J., McCurdie, I., White, P. D., & D'Cruz, D. P. (2003). Fatigue in systemic lupus erythematosus: a randomized controlled trial of exercise. Rheumatology (Oxford, England), 42(9), 1050-1054. doi: 10.1093/rheumatology/keg289 [doi]</ref> Although this was stated from research in patients with inactive SLE.<ref name="miossi"/><ref name="tench"/> Establishing an exercise program for this population is difficult due to the variety of symptoms and severity. Research has suggested that weight bearing exercise can improve bone mineral density in SLE as the disease causes an imbalance of IL-6 which is involved in accelerating bone remodelling.<ref name="ayan"/> However, aerobic exercise has been found to be the most beneficial due to the increased risk of cardiovascular disease in SLE<ref name="miossi"/> but any form of physical activity would provide a physical and psychological improvement.<ref name="ayan"/>
+
+{| class="wikitable"
+|-
+! General exercise programs considerations for SLE patients should involve:<ref>Neill, J., Belan, I., & Ried, K. (2006). Effectiveness of non-pharmacological interventions for fatigue in adults with multiple sclerosis, rheumatoid arthritis, or systemic lupus erythematosus: a systematic review. Journal of Advanced Nursing, 56(6), 617-635.</ref>!! Exercise Program Recommendations:<ref name="ayan"/>
+|-
+| Starting the exercise early in the disease course or following a disease flare || Walking, 3 times a week at an intensity of 70% of maximum heart rate and progressively increase the duration
+|-
+| Beginning with low intensity activities to avoid flare ups||Swimming or stationary cycling, 3 times a week at an intensity of 70–80% of maximum heart rate
+|-
+| Progressively increase exercise intensity and frequency || Resistance training, three times a week of 2-3 sets of 10 reps isotonic contractions per muscle group with progression 
+|-
+| The medication the patient is on, may affect the response to exercise training 
+|}
+
+==Further reading==
+
+[http://www.allergy.org.au/patients/autoimmunity/systemic-lupus-erythematosus-sle   Australasian Society of Clinical Immunology and Allergy - SLE]
+
+[http://www.arthritisvic.org.au/Conditions-and-Symptoms/Lupus   Arthritis Victoria -Lupus]
+
+==References==
+{{Reflist}}
+
+{{BookCat}}

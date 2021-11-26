@@ -1,0 +1,142 @@
+[[File:World map of Male Obesity, 2008.svg|thumb|400px|Prevalence of Obesity in Adult Males Worldwide{{legend|#b3b3b3|no data}}
+{{legend|#ffff65|< 5%}}
+{{legend|#fff200|5-10%}}
+{{legend|#ffdc00|10-15%}}
+{{legend|#ffc600|15-20%}}
+{{legend|#ffb000|20-25%}}
+{{legend|#ff9a00|25-30%}}
+{{legend|#ff8400|30-35%}}
+{{legend|#ff6e00|35-40%}}
+{{legend|#ff5800|40-45%}}
+{{legend|#ff4200|45-50%}}
+{{legend|#ff2c00|50-55%}}
+{{legend|#cb0000|> 55%}}]]
+[[File:World map of Female Obesity, 2008.svg|thumb|400px|Prevalence of Obesity in Adult Females Worldwide{{legend|#b3b3b3|no data}}
+{{legend|#ffff65|< 5%}}
+{{legend|#fff200|5-10%}}
+{{legend|#ffdc00|10-15%}}
+{{legend|#ffc600|15-20%}}
+{{legend|#ffb000|20-25%}}
+{{legend|#ff9a00|25-30%}}
+{{legend|#ff8400|30-35%}}
+{{legend|#ff6e00|35-40%}}
+{{legend|#ff5800|40-45%}}
+{{legend|#ff4200|45-50%}}
+{{legend|#ff2c00|50-55%}}
+{{legend|#cb0000|> 55%}}]]
+
+==What is the background to this research? ==
+It is estimated that around 20-25% of the world's adult population have the metabolic syndrome and the incidence of metabolic syndrome is on the rise.<ref name="Federation">Federation ID. IDF worldwide definition of the metabolic syndrome. 2010.</ref> Metabolic syndrome is the clustering of metabolic abnormalities which include: insulin resistance, central obesity, dyslipidaemia and hypertension.<ref name="Pandemic">Grundy SM. Metabolic syndrome pandemic. Arterioscler Thromb Vasc Biol. 2008 Apr;28(4):629-636.</ref> The more abnormalities evident in an individual, the more likely they are to die of cardiovascular complications than their healthy counterparts.<ref name="Tjonna">Tjonna AE, Lee SJ, Rognmo O, Stolen TO, Bye A, Haram PM, Loennechen JP, Al-Share QY, Skogvoll E, Slordahl SA, Kemi OJ, Najjar SM, Wisloff U. Aerobic interval training versus continuous moderate exercise as a treatment for the metabolic syndrome: a pilot study. Circulation. 2008 Jul 22;118(4):346-354.</ref> Exercise is widely encouraged for ameliorating such abnormalities.<ref name="Stewart">Stewart KJ, Bacher AC, Turner K, Lim JG, Hees PS, Shapiro EP, Tayback M, Ouyang P. Exercise and risk factors associated with metabolic syndrome in older adults. Am J Prev Med. 2005;28(1):9-18</ref>
+
+According to the new '''International Diabetes Federation definition''', for a person to be defined as having the metabolic syndrome they must have:
+Central obesity (defined as waist circumference with ethnicity specific values)
+plus any two of the following four factors:<ref name="Federation"/>
+{| class="wikitable"
+|-
+!Factors !! Description
+|-
+| '''Raised Triglycerides''' || 
+≥ 150&nbsp;mg/dL (1.7&nbsp;mmol/L)
+'''or specific treatment for this lipid abnormality'''
+|-
+| '''Reduced HDL Cholesterol''' || 
+< 40&nbsp;mg/dL (1.03&nbsp;mmol/L) in males
+< 50&nbsp;mg/dL (1.29&nbsp;mmol/L) in females
+'''or specific treatment for this lipid abnormality'''
+|-
+| '''Raised Blood Pressure''' || 
+systolic BP ≥ 130 or diastolic BP ≥ 85&nbsp;mm Hg
+'''or treatment of previously diagnosed hypertension'''
+|-
+| '''Raised Fasting Plasma Glucose'''|| 
+(FPG) ≥ 100&nbsp;mg/dL (5.6&nbsp;mmol/L),
+'''or previously diagnosed type 2 diabetes'''
+If above 5.6&nbsp;mmol/L or 100&nbsp;mg/dL, OGTT is strongly recommended but is not necessary to define presence of the syndrome.
+|}<ref name="Federation"/>
+ 
+This study examined at a small group of metabolic syndrome patients and exposed them to either continuous moderate exercise or aerobic interval training 3 times a week for 16 weeks. The main goal was to assess the effect of exercise intensity on the metabolic syndrome. The study found that the intensity of exercise is an important factor for reversing the risk factors associated with the metabolic syndrome.<ref name="Tjonna"/>
+
+Although intensity of exercise is an important factor, the optimal level of exercise to prevent and treat the metabolic syndrome still remains unclear and further research is required to determine how to slow the current epidemic. No ideal Pharmaceutical remedies are available as yet.<ref name="Tjonna"/>
+
+==Where is the research from?==
+This study was carried out by academics from the Department of Circulation and Medical Imaging and Unit for Applied Clinical Research, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway; Department of Physiology and Pharmacology and the Center for Diabetes and Endocrine Research, University of Toledo, Toledo, Ohio; Department of Cardiology and Anaesthesia and Emergency Medicine, St Olav’s Hospital, Trondheim, Norway; and Institute of Biomedical and Life Sciences, University of Glasgow, Glasgow, UK.<ref name="Tjonna"/>
+
+A number of grants from the Norwegian council of Cardiovascular Disease, the Norwegian Research Council, Funds for Cardiovascular and Medical Research at St. Olav's University Hospital, Trondheim, and the Torstein Erbo's Foundation, Trondheim. The National Institutes of Health and the US Department of Agriculture also supported this work.<ref name="Tjonna"/>
+
+==What kind of research was this?==
+The research carried out was a clinical laboratory study which took place at the Norwegian University of Science and Technology in Trondheim, Norway.<ref name="Tjonna"/>
+
+The study compared moderate and high intensity exercise with regard to variables associated with cardiovascular function and prognosis in patients with the metabolic syndrome.
+
+This involved selecting patients from a large pool of individuals who were randomised and stratified (by age and sex) into either the aerobic interval training group, the continuous moderate exercise group or the control group.<ref name="Tjonna"/>
+
+==What did the research involve?==
+*Thirty-two metabolic syndrome patients age, (52.3 ± 3.7) 
+*Similar body weights, body mass indexes (BMI), hip-to-waist ratios, blood plasma parameters and blood pressures.<ref name="Tjonna"/>
+
+Patients were informed to continue taking any prescribed medications and diets remained unaltered. After 16 weeks of the exercise programme supervised by an exercise physiologist, a clinical follow-up took place.<ref name="Tjonna"/>
+
+==What are the basic results?==
+Having completed the study, the research suggests that aerobic interval training was superior to steady exercise in reversing the risk factors of the metabolic syndrome.<ref name="Tjonna"/>
+
+The primary outcome variables were:
+
+*A loss of 3-4%, respectively  in body weight and BMI
+* Reduction in waist circumference by 5-6 centimetres in both groups, respectively.<ref name="Tjonna"/>
+
+Overall, aerobic interval training was proven to be superior to steady exercise to reduce the key risk factors associated with metabolic syndrome, as well as:
+
+*Increasing aerobic capacity (VO2max) by 35% 
+*Increasing endothelial function by 9% 
+*Increased availability of nitric oxide 36% ± 3%
+*Oxidised LDL decreased by 17% 
+*Decrease in lipogenesis 
+*Improved fasting blood glucose levels 
+*Improved insulin sensitivity and β-cell function 
+*Increase in HDL cholesterol 
+*Reduction in systolic and diastolic blood pressure (10 and 6&nbsp;mm.Hg) 
+*Increased mitochondrial biogenesis 
+*Increased fat mobilisation
+<ref name="Tjonna"/><ref name="Stewart"/><ref name="Stensvold">Stensvold D, Tjonna AE, Skaug EA, Aspenes S, Stolen T, Wisloff U, Slordahl SA. Strength training versus aerobic interval training to modify risk factors of metabolic syndrome. J Appl Physiol (1985). 2010 Apr;108(4):804-810.</ref><ref name="Rats">Haram PM, Kemi OJ, Lee SJ, Bendheim MO, Al-Share QY, Waldum HL, Gilligan LJ, Koch LG, Britton SL, Najjar SM, Wisloff U. Aerobic interval training vs. continuous moderate exercise in the metabolic syndrome of rats artificially selected for low aerobic capacity. Cardiovasc Res. 2009 Mar 1;81(4):723-732.</ref><ref name="Gibala">Gibala MJ, Little JP, MacDonald MJ, Hawley JA. Physiological adaptations to low‐volume, high‐intensity interval training in health and disease. J Physiol (Lond ). 2012;590(5):1077-1084.</ref> 
+	
+However, neither of the exercise intensities was able to alter triglycerides, insulin, microalbuminuria, total cholesterol, LDL, C-peptide or haemoglobin.<ref name="Tjonna"/>
+
+A number of participants with the metabolic syndrome were no longer classified as having it post intervention.<ref name="Stewart"/>
+
+==How did the researchers interpret the results?==
+The researchers understood that the study demonstrates that both aerobic interval training and steady exercise have beneficial effects on the physiological abnormalities associated with the metabolic syndrome.
+
+Aerobic interval training, however, was superior to moderate continuous exercise having an advantageous effect in improving the risk factors defining metabolic syndrome.<ref name="Tjonna"/>
+
+==What conclusions should be taken away from this research?==
+
+This study demonstrates that exercise-induced reductions in  risk factors favourable for metabolic syndrome were alleviated by both interval training and steady exercise. However, high intensity training was superior to continuous moderate exercisein reversing the risk factors related to the syndrome.<ref name="Tjonna"/>
+
+Exercise training was able to substantially improve: 
+*Increase aerobic fitness
+*Reduce total and abdominal obesity 
+*Increase lean body mass 
+<ref name="Stewart"/>
+
+Overall, improvements in risk factors were modest and the research denotes the efficacy of high intensity training in particular  as a highly beneficial prevention strategy relative to other current exercise interventions.<ref name="Tjonna"/> Therefore, aerobic interval training is an effective and affordable strategy to combat the metabolic syndrome and there is a growing body of research that demonstrates interval training as an effective alternative to continuous moderate exercise.<ref name="Stensvold"/>
+
+==What are the implications of this research?==
+This study suggests that there is a strong evidence for vigorous physical activity to help reduced risk of cardiometabolic disorders.
+
+Further research is encouraged due to the small numbers of participants and lack of variation of ethnicity, age, exercise dose in this particular study.
+
+The role of exercise for managing metabolic syndrome is of growing importance as the metabolic syndrome pandemic becomes more prevalent. This study identifies that aerobic interval training has the potential to reduce or delay cardiovascular disease, diabetes and the multiple risk factors that constitute the metabolic syndrome.
+
+The findings of this research may have beneficial implications in rehabilitating patients with metabolic syndrome.<ref name="Tjonna"/>
+
+==Further reading==
+For further information regarding exercise and the metabolic syndrome contact your health care professional or visit:
+
+* International Diabetes Federation Consensus Worldwide Definition of the Metabolic Syndrome - https://www.idf.org/webdata/docs/IDF_Meta_def_final.pdf
+* Metabolic Syndrome Pandemic - http://atvb.ahajournals.org/content/28/4/629.full
+* Physiological Adaptations to Low-Volume, High Intensity Interval Training in Health and Disease - http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.2011.224725/full
+
+==References==
+{{Reflist}}
+
+{{BookCat}}

@@ -1,0 +1,309 @@
+{{The Zope 3 Book/Navigation|Introduction|Interfaces}}
+
+== Python installation ==
+
+The Zope community has always recommended using a custom built Python for development and deployment. Python 2.4 is the recommended version for Zope 3, although Python 2.5 will also work, but it is not yet officially supported.
+
+=== GNU/Linux ===
+
+To install Python, you will be required to install gcc, g++ and other development tools in your system. A typical installation of Python can be done like this:
+
+<syntaxhighlight lang="text">
+$ wget -c http://www.python.org/ftp/python/2.4.5/Python-2.4.5.tar.bz2
+$ tar jxvf Python-2.4.5.tar.bz2
+$ cd Python-2.4.5
+$ ./configure --prefix=/home/guest/usr
+$ make
+$ make install
+</syntaxhighlight>
+
+As given above, you can provide an option, ''--prefix'' to install Python in a particular location.  The above steps install Python inside ''/home/guest/usr'' directory.
+
+After installation, you can invoke the Python interpreter like this (~ is an alias to ''/home/guest''):
+
+<syntaxhighlight lang="text">
+$ ~/usr/bin/python2.4
+>>> print "Hello, world!"
+Hello, world!
+</syntaxhighlight>
+
+{{TextBox|
+If you are not getting old statements in Python interactive prompt when using up-arrow key, try installing ''libreadline'' development libraries (Hint: apt-cache search libreadline).  After installing this library, you should install Python again.  You also will be required to install ''zlib'' (Hint: apt-cache search zlib compression library) to properly install Zope 3.
+}}
+
+=== MS Windows ===
+
+----
+'''FIXME''': Write about installation of Python in MS Windows with few screen shots.
+----
+
+== Buildout ==
+
+=== Introduction ===
+
+We are going to use a build tool called Buildout for developing Zope 3 applications from multiple parts.  Buildout will give you an isolated working environment for developing applications.  The Buildout package, named ''zc.buildout'' is available for [http://pypi.python.org/pypi/zc.buildout download from PyPI].  This section briefly goes through the usage of Buildout for developing applications.
+
+Buildout has a ''boostrap.py'' script for initializing a buildout based project for development or deployment.  It will download and install ''zc.buildout'', ''setuptools'' and other dependency modules in a specified directory.  Once bootstrapped it will create a ''buildout'' executable script inside ''bin'' directory at the top of your project source.  The default configuration for each project is ''buildout.cfg'' file at the top of your project source.  Whenever you run the ''buildout'' command it will look into the default configuration file and will do actions based on it.  Normally, the configuration file and boostrap script will be bundled with the project source itself.  Other than the default configuration file along with the project source, you may also create a system wide default configuration file at ''~/.buildout/default.cfg''.
+
+Buildout creator Jim Fulton recommend a custom built clean Python installation, i.e., there should not be any Python modules installed in your ''site-packages'' (ideally, a fresh Python installation).  When you boostrap your project using Buildout's ''boostrap.py'' script, it will download and install all necessary packages in a specified directory.  So, for an ideal project you only required a ''custom built clean Python'' and the project source with proper ''Buildout configuration'' and ''bootstrap script'' along with the source package.
+
+=== Buildout configuration ===
+
+These days, most of the Python packages are available in [http://peak.telecommunity.com/DevCenter/PythonEggs egg] format.  Buildout will download and install the eggs in directory and the location can be changed from the configuration file.  It is better to give a system-wide location for eggs directory.  And this configuration can be added to your system-wide configuration file.  The default configuration file for Buildout is ''~/.buildout/default.cfg''.  We are going to use ''eggs'' directory inside your home directory to keep all eggs downloaded, so first create those directories and file:
+
+<syntaxhighlight lang=text>
+$ cd $HOME
+$ mkdir .buildout
+$ mkdir eggs
+$ touch .buildout/default.cfg
+</syntaxhighlight>
+
+You can add the following to your ''~/.buildout/default.cfg'' file:
+
+<syntaxhighlight lang=text>
+[buildout]
+newest = false
+eggs-directory = /home/baiju/eggs
+find-links = http://download.zope.org/ppix
+</syntaxhighlight>
+
+The ''eggs-directory'' is where Buildout stores the eggs that are downloaded.  The last option, ''find-links'' points to a reliable mirror of the Python Package Index (PyPI).  The default configurations given above will be available to all buildouts in your system.
+
+=== MS Windows notes ===
+
+----
+'''FIXME''': Add any specific things required for MS Windows here.
+----
+
+== Setting up development sandbox ==
+
+To demonstrate the concepts, tools and techniques, we are going to develop a simple ticket/issue tracking application named ''Ticket Collector''.  To begin the work, first create a directory for the project.  After creating the directory, create a ''buildout.cfg'' file as given below.  To bootstrap this application checkout
+''bootstrap.py'' and run it inside that directory.
+
+<syntaxhighlight lang="text">
+$ mkdir ticketcollector
+$ cd ticketcollector
+$ echo "#Buildout configuration" > buildout.cfg
+$ svn co svn://svn.zope.org/repos/main/zc.buildout/trunk/bootstrap
+$ ~/usr/bin/python2.4 bootstrap/bootstrap.py
+</syntaxhighlight>
+
+You can see a ''buildout'' script created inside ''bin'' directory.  Now onwards, you can run this script when changing Buildout configuration.
+
+{{info|
+You can save ''bootstrap.py'' in a local repository.  If you are using svn for managing repository, create an svn:external to the svn URL given above.
+}}
+
+Our application is basically a Python package.  First we will create an ''src'' directory to place our package.  Inside the ''src'' directory, you can create ''ticketcollector'' Python package.  You can create the ''src'' and the ''ticketcollector'' package like this:
+
+<syntaxhighlight lang="text">
+$ mkdir src
+$ mkdir src/ticketcollector
+$ echo "#Python package" > src/ticketcollector/__init__.py 
+</syntaxhighlight>
+
+To start building our package you have to create a ''setup.py'' file.  The ''setup.py'' should have the minimum details as given below:
+
+We have included bare minimum packages required for installation here: ''zope.app.zcmlfiles'', ''zope.app.twisted'', ''zope.app.securitypolicy'' and ''setuptools''.
+
+<syntaxhighlight lang="python">
+from setuptools import setup, find_packages
+
+setup(
+    name='ticketcollector',
+    version='0.1',
+
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+  
+    install_requires=['setuptools',
+                      'zope.app.zcmlfiles',
+                      'zope.app.twisted',
+                      'zope.app.securitypolicy',
+                      ],
+    include_package_data=True,
+    zip_safe=False,
+    )
+</syntaxhighlight>
+
+Modify ''buildout.cfg'' as given below:
+
+<syntaxhighlight lang="ini">
+[buildout]
+develop = .
+parts = py
+
+[py]
+recipe = zc.recipe.egg
+eggs = ticketcollector
+interpreter = python
+</syntaxhighlight>
+
+Now run ''buildout'' script inside ''bin'' directory.  This will download all necessary eggs and install it.  So installing Zope is nothing but just setting up a ''buildout'' with ''setup.py'' with required packages ''install_requires'' for installation.  Unless you specified a ''parts'' section which use ''ticketcollector'' in some way, buildout will not download dependency packages.
+
+== A simple application ==
+
+=== Configuring application ===
+
+
+We are going to continue the ''Ticket Collector'' application in this section.  In the last section when you run ''./bin/buildout'' command all necessary Zope 3 packages required for running our application is downloaded inside ''~/eggs'' directory.  Now to run the bare minimum Zope 3, we have to create ''Zope Configuration Markup Language'' (ZCML) file and extend the ''buildout.cfg'' with appropriate Buildout recipes.  We are going to use ''zc.zope3recipes:app'',''zc.zope3recipes:instance'' and ''zc.recipe.filestorage'' recipes for setting up our application.  Here is our modified ''buildout.cfg'' (inside the ''ticketcollector'' project directory):
+
+<syntaxhighlight lang="INI">
+[buildout]
+develop = .
+parts = ticketcollectorapp instance
+
+[zope3]
+location =
+
+[ticketcollectorapp]
+recipe = zc.zope3recipes:app
+site.zcml = 
+  <include package="ticketcollector" file="application.zcml" />
+eggs = ticketcollector
+
+[instance]
+recipe = zc.zope3recipes:instance
+application = ticketcollectorapp
+zope.conf = ${database:zconfig}
+
+[database]
+recipe = zc.recipe.filestorage
+</syntaxhighlight>
+
+Then we will create ''application.zcml'' inside ''src/ticketcollector'' directory with the following text.  Consider it as boiler plate code now, we will explain this in details later:
+
+<syntaxhighlight lang="xml">
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  >
+
+  <include package="zope.app.securitypolicy" file="meta.zcml" />
+
+  <include package="zope.app.zcmlfiles" />
+  <include package="zope.app.authentication" />
+  <include package="zope.app.securitypolicy" />
+  <include package="zope.app.twisted" />
+
+  <securityPolicy 
+    component="zope.app.securitypolicy.zopepolicy.ZopeSecurityPolicy" />
+
+  <role id="zope.Anonymous" title="Everybody"
+    description="All users have this role implicitly" />
+  <role id="zope.Manager" title="Site Manager" />
+  <role id="zope.Member" title="Site Member" />
+
+  <grant permission="zope.View"
+    role="zope.Anonymous" />
+  <grant permission="zope.app.dublincore.view"
+    role="zope.Anonymous" />
+
+  <grantAll role="zope.Manager" />
+
+  <unauthenticatedPrincipal
+    id="zope.anybody"
+    title="Unauthenticated User" />
+
+  <unauthenticatedGroup
+    id="zope.Anybody"
+    title="Unauthenticated Users" />
+
+  <authenticatedGroup
+    id="zope.Authenticated"
+    title="Authenticated Users" />
+
+  <everybodyGroup
+    id="zope.Everybody"
+    title="All Users" />
+
+  <principal
+    id="zope.manager"
+    title="Manager"
+    login="admin"
+    password_manager="Plain Text"
+    password="admin"
+    />
+
+  <grant
+    role="zope.Manager"
+    principal="zope.manager" />
+
+</configure>
+</syntaxhighlight>
+
+=== Running application ===
+
+Now you can run the application by running ''./bin/buildout'' command followed by ''./bin/instance'' command.
+
+<syntaxhighlight lang="text">
+$ ./bin/buildout
+$ ./bin/instance fg
+</syntaxhighlight>
+
+So, to run a Zope 3 application we have to use ''buildout'' recipes with proper configurations.
+
+=== Using ZMI ===
+
+After running your instance, If you open a web browser and go to ''http://localhost:8080'' you'll see the ZMI (''Zope Management Interface'').
+
+Go ahead and click the ''Login'' link at the upper right.  Enter the user name and password as ''admin'', which is given in ''applications.zcml''.  Now click on ''[top]'' under Navigation on the right.  Play around with adding some content objects (the Zope 3 name for instances that are visible in the ZMI). Note how content objects can be arranged in a hierarchy by adding ''folders'' which are special content objects that can hold other content objects.
+
+There is nothing special about the ZMI, it is just the default skin for Zope 3.  You can modify it to your liking, or replace it entirely.
+
+When you're done exploring with the ZMI, go back to the window where you typed ''./bin/instance fg'' and press Control-C to stop Zope 3.
+
+=== Hello world ===
+
+Now you can begin your development inside ''src/ticketcollector'' directory.  Create a ''browser.py'' with following content:
+
+<syntaxhighlight lang="python">
+from zope.publisher.browser import BrowserView
+
+class HelloView(BrowserView):
+
+    def __call__(self):
+        return """
+        <html>
+        <head>
+          <title>Hello World</title>
+        </head>
+        <body>
+          Hello World
+        </body>
+        </html>
+        """
+</syntaxhighlight>
+
+Now append the following text just above the last line of ''application.zcml'':
+
+<syntaxhighlight lang="xml">
+<browser:page
+  for="*"
+  name="hello"
+  permission="zope.Public"
+  class="ticketcollector.browser.HelloView"
+/>
+</syntaxhighlight>
+
+As you can see above, we are using ''page'' attribute from the ''browser'' namespace.  So, you have to include that namespace in the beginning ZCML as shown below:
+
+<syntaxhighlight lang="xml">
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   >
+</syntaxhighlight>
+
+After restarting Zope, open ''http://localhost:8080/hello'', you can see that it displaying ''Hello World'' !.
+
+== Overview of packages ==
+
+== Installing additional packages ==
+
+== Summary ==
+
+== See also ==
+
+== Discussions ==
+
+{{The Zope 3 Book/Navigation|Introduction|Interfaces}}

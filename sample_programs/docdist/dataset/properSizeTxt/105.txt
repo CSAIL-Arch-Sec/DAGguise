@@ -1,0 +1,64 @@
+== [[Wikipedia:Espagnole sauce]] authors and history ==
+*  2005-01-05 23:39:10 [[Wikipedia:User:Morven|User:Morven]] <nowiki>(→External links)</nowiki>
+*  2005-01-05 04:23:23 [[Wikipedia:User:Hayford Peirce|User:Hayford Peirce]] <nowiki>(why it's called &quot;espagnole&quot;.  Also, removed a number of &quot;sauce&quot;. My 1960 Larousse refers to it as &quot;espagnole&quot; after the first mention, ditto Julia and all my other references)</nowiki>
+*  2005-01-04 19:07:20 [[Wikipedia:User:Hayford Peirce|User:Hayford Peirce]] <nowiki>(it doesn't take &quot;several&quot; hours -- it takes &quot;many&quot; hours from procuring the ingredients, preparing them, cooking them, etc.  Two days is a *minimum* time unless in a pro. kitchen working 24/7)</nowiki>
+*  2005-01-04 05:47:54 [[Wikipedia:User:DanielVonEhren|User:DanielVonEhren]] <nowiki>(Improvements to the English)</nowiki>
+*  2005-01-03 20:16:33 [[Wikipedia:User:69.141.168.86|User:69.141.168.86]] <nowiki>(toward -&gt; towards)</nowiki>
+*  2005-01-03 20:13:52 [[Wikipedia:User:T0m|User:T0m]] <nowiki>(added category)</nowiki>
+*  2004-12-27 22:37:13 [[Wikipedia:User:DanielVonEhren|User:DanielVonEhren]]
+*  2004-11-15 05:18:24 [[Wikipedia:User:Xanzzibar|User:Xanzzibar]] <nowiki>(Formatting fix Please help out by clicking here to fix someone else's Wiki syntax)</nowiki>
+*  2004-10-29 15:45:27 [[Wikipedia:User:Bill Thayer|User:Bill Thayer]] <nowiki>(sharper cat)</nowiki>
+*  2004-09-29 04:06:09 [[Wikipedia:User:Hayford Peirce|User:Hayford Peirce]] <nowiki>(link to the august Auguste)</nowiki>
+*  2004-09-22 19:54:24 [[Wikipedia:User:Hayford Peirce|User:Hayford Peirce]] <nowiki>(wrote about the *real* Espagnole sauce)</nowiki>
+*  2004-09-18 15:55:57 [[Wikipedia:User:Anthony DiPierro|User:Anthony DiPierro]]
+*  2004-09-04 16:39:47 [[Wikipedia:User:202.156.2.59|User:202.156.2.59]]
+*  2004-08-20 13:26:55 [[Wikipedia:User:Bquanta|User:Bquanta]]
+*  2004-08-20 13:25:07 [[Wikipedia:User:Bquanta|User:Bquanta]] <nowiki>(made more cooking like)</nowiki>
+*  2004-08-20 03:41:05 [[Wikipedia:User:Szyslak|User:Szyslak]]
+*  2004-08-02 15:00:48 [[Wikipedia:User:Burschik|User:Burschik]] <nowiki>(added category)</nowiki>
+*  2004-07-05 10:55:59 [[Wikipedia:User:134.100.11.230|User:134.100.11.230]]
+*  2004-06-30 01:57:11 [[Wikipedia:User:24.64.223.203|User:24.64.223.203]]
+*  2003-07-29 03:08:52 [[Wikipedia:User:Big Bob the Finder|User:Big Bob the Finder]]
+*  2002-02-25 15:51:15 [[Wikipedia:User:Conversion script|User:Conversion script]] <nowiki>(Automated conversion)</nowiki>
+= From [[Wikipedia:Talk:Espagnole sauce]] =
+==Spelling changes==
+
+I removed the capitalization (i.e. "Espagnole" to "espagnole") because that's the way ''LaRousse Gastronomique'' has it. I also tried to alway call it "expagnole sauce" for the same reason.
+
+Thoughts?
+
+[[User:DanielVonEhren|DanielVonEhren]] 05:51, 4 Jan 2005 (UTC)
+
+:Yes, I entirely agree that if one is writing French titles (of anything not only recipes) in French, as opposed to an English translation, one should adhere to French capitilization pratices. However, most English language translations of French cookbooks do not do so including my translation of ''[[w:en:Le Guide culinaire|Le Guide culinaire]]''. In French only the article and first noun are capitalized. Adjectives are capitalized only if they precede the first noun. Proper nouns are always capitilized of course which may cause errors if one doesn't know that a word in the name of a sauce is the name of a person. I wish I had made a note of my source for this information because obviously it is useful to know and to be able to cite when necessary. I'll do a Google search and see if I can find it again.  [[User:Mike Hayes|Mike Hayes]] ([[User talk:Mike Hayes|talk]]) 00:58, 12 August 2008 (UTC)
+
+== Why the wrong recipe? ==
+
+I don't know if I'm missing something here....  It's one of those times where I find it hard not to be very sarcastic.  :-)
+
+The page has a recipe which it says "bears no relation whatsoever to the classic Espagnole" and advises us "should only be regarded as a curiosity."
+
+I'm trying to figure out why there would be an apparently wrong recipe written into entry. I haven't deleted it just yet, but I'm thinking to move it over to the Wiki Cookbook (it's probably quite tasty, so why kill it?), and replace it with Carême's recipe, or Escoffier's--just as soon as I get my hands on them.  Perhaps somebody has them readily available?
+*It's there because someone put it there early on for reasons I don't understand.  I later wrote the stuff about "no relation to" etc. but felt diffident about deleting the earlier stuff.  Frankly, I think it's baloney and should be either deleted or moved.  The problem with replacing it with the *real* recipe is that *that* recipe might then be moved by someone else over to the Cookbook -- I once put a recipe for "tartiflette" in Wiki (to go with an article that mentioned it) and then it was, after a vote, moved to the Cookbook.  But I'd be happy enough to see this particular phony recipe disappear -- whoever put it in apparently had this old, non-copyrighted cookbook and he went around sticking recipes from it into various articles without much regard as to whether they should really be there or not.... [[User:Hayford Peirce|Hayford Peirce]] 06:19, 4 Jan 2005 (UTC)
+
+Sounds like we're thinking along the same lines.
+
+As to your recipe for '''tartiflette'''.  I've been thinking about this recently (not tartiflette, but recipes in the Encyclopedia versus in the Cookbook).  In general, I'm thinking that recipes belong in the Cookbook, with the Encyclopedia perhaps having a direct pointer.  But also I'm thinking that some things are fundamental enough that they belong here (and probably there, too).
+
+The basic espagnole sauce is an example of a "belongs here". The history of French cooking is clearly a good subject only for the Encyclopedia; the mother sauces, as defined by Carême and Escoffier, are central parts of that history; the definition of each of the four to seven mother sauces '''is''' their recipe. So I'm inclined to put recipes for the basic sauces here (particularily the traditional recipes), but put recipes for pretty much all the derivative sauces over in the cookbook.
+
+And as for your tartiflette recipe:  This is the Wikipedia: Be bold! Revert!  :-)
+
+[[User:DanielVonEhren|DanielVonEhren]] 07:05, 4 Jan 2005 (UTC)
+**I agree with everything you say, I guess, as long as there are clear links from the ency. to the cookbook.  It's sort of klunky, though, having to log in a second time with the Cookbook if you want to have a Watchlist etc -- I always forget to do so.  As for the mother sauces, I agree that all of them should be shown in the encyl.  Espagnole, however, is a '''tremendous''' process to write down if you want an '''exact''' way of doing it, not just a professional cook's shorthand recipe, which could be a single paragraph.  I myself have on my computer a somewhat simplified version I came up with years ago (mostly from Julia Child but with some elaborations), and I have on my shelves the 4- or 5-page Sokolov version in his wonderful book on sauces.  But even '''his''' needs some extra commentary and explanations.  Since I make it very rarely, I haven't felt it necessary to go beyond the book version (with all my notes in the margins) and spend several hours rewriting it in order to get it into my computerized recipes.  Probably on the Net there's a dozen recipes for espagnole, some of which aren't copyrighted or could be fairly easily rewritten for inclusion here.... [[User:Hayford Peirce|Hayford Peirce]] 17:35, 4 Jan 2005 (UTC)
+***As for the tartiflette recipe, as I recall there was one of those formal discussion and vote thingees and it was decided to move it.  I could have argued my side of it at the time, but I figured, Why bother?  And the links that someone provided made it easy enough to get to.  If you like to eat and cook, you might check it out -- I also provided a couple of nice photos to go with it.  And '''exact''' instructions on how to make it.... [[User:Hayford Peirce|Hayford Peirce]] 17:35, 4 Jan 2005 (UTC)
+
+
+Man! I put a comment here yesterday, and it's gone. There were reports that the Wiki was loosing things yesterday (or maybe I just forgot to press the 'save' button).  Anyway, I'll try again.
+I changed the wording about how long it takes to make the sauce from 'days' to 'hours' because of what I was reading in the 1988 (English) Larousse Gastronomique (p. 423). I've never tried to make espagnole sauce myself, so I may have to defer to your experience.
+
+I was hoping to find the original recipes from Carême or Escoffier (or maybe both) to include here; those seem appropriate for an Encyclopedia. Coutine has two recipes in his Larousse entry, one "from Carême's recipe" and a short, modern one. As far as I can tell, Carême's stuff is no longer available (it's even listed as 'missing' in the Library of Congress catalog). I've looked at ''The Saucier's Apprentice'', or there's that new biography of him that I haven't gotten my hands on just yet.
+
+
+[[User:DanielVonEhren|DanielVonEhren]] 16:23, 5 Jan 2005 (UTC)
+*Yeah, it took a while yesterday for my comments to show up -- something was going on.  As for the time to make it, I rechecked my "Saucier's" book and I see that I've written in the margins: "takes at least 3 or 4 days to make" -- and that was when I was doing it with my wife and mother to help.  I'll do it again by myself one of these days but I know in advance that it's a multi-day project.  I suppose that if you were a pro. restaurant that trimmed its own meat, etc., so that you had bones and scraps and pig rind and calves feet and weird stuff like that lying around, *plus* you also happened to have a pot of homemade tomato sauce sitting on the stove, *maybe* it would be possible to make it in *2* days, or even 1 day if you had different shifts of workers attending to it continuously.  Remember, first of all it has to reduce for about 8 hours.  Then more stuff is added and it is reduced again.  And maybe a third time, plus a reduction with the tomato sauce.  This is why, even in France, it is seldom made in the classic tradition anymore.  As I recall, either seeing, or reading, a major French restaurant will have 4 or 5 big pots of espagnole simmering at the same time, in various stages of reduction and preparation -- which is why there's generally no hurry in getting it made in the least amount of time.
+**As for the original recipes I'll see what I can find, but it's surprising that Careme's or Escoffier's isn't easily available, at least in a French-speaking source.... 18:59, 5 Jan 2005 (UTC)

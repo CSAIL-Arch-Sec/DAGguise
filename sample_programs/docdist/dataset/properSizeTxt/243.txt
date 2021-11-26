@@ -1,0 +1,68 @@
+{{talk archive}}
+
+== Can someone review my edits ==
+
+Hi, can someone review my pending changes, as it is to revert vandalism. Also another is to correct misinformation. Thanks --[[User:Cohaf|Cohaf]] ([[User talk:Cohaf|discuss]] • [[Special:Contributions/Cohaf|contribs]]) 20:27, 7 July 2018 (UTC)
+:{{done}} [[User:JackPotte|JackPotte]] ([[User talk:JackPotte|discuss]] • [[Special:Contributions/JackPotte|contribs]]) 22:06, 7 July 2018 (UTC)
+::thanks mate {{reply to|JackPotte}}--[[User:Cohaf|Cohaf]] ([[User talk:Cohaf|discuss]] • [[Special:Contributions/Cohaf|contribs]]) 22:47, 7 July 2018 (UTC)
+== Tidy to RemexHtml ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+The [[:mw:Parsing|Parsing]] team will be [[:mw:Parsing/Replacing Tidy|replacing Tidy with RemexHtml]] at this wiki on 5 July 2018.
+
+Some pages at this wiki use outdated HTML.  This change may change the appearance of those pages.  [[Special:LintErrors]] has a complete list of affected pages.
+
+Read [https://lists.wikimedia.org/pipermail/wikitech-ambassadors/2018-June/001867.html this e-mail message] for more information.  Read the instructions at [[:mw:Help:Extension:Linter]].  You can ask questions at [[:mw:Talk:Parsing/Replacing Tidy]].  Thank you for helping fix these problems.
+</div> [[:m:User:Elitre (WMF)]] 14:38, 2 July 2018 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Talk:Editing/Parsing_change&oldid=18129171 -->
+== In-line Citations - no floating tooltip in Wikibooks ==
+
+G'day Guys
+I'm newish to Wikibooks, so not even sure if this is the right place to post this query.
+In-line citations in Wikipedia have a lovely feature where, if you hover the cursor over the reference number, the full information about the citation appears in a tooltip hover box. This doesn't occur with the same citation in Wikibooks. Important for me as my book has many in-line citations. Has this feature not yet been implemented in Wikibooks or is there a preference setting that I have not enabled correctly?--[[User:Samuel.dellit|Samuel.dellit]] ([[User talk:Samuel.dellit|discuss]] • [[Special:Contributions/Samuel.dellit|contribs]]) 06:40, 11 July 2018 (UTC)
+:{{ping|Samuel.dellit}} Go to Preferences (on top right corner)->Gadgets. Then enable the ''Navigation popups'' option in Readers. Save the changes, and then bypass the cache with CRTL+F5. I think that's what you are looking for. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 10:44, 12 July 2018 (UTC)
+::{{ping|Leaderboard}}Many thanks, a major step forward, but the pop up in Wikibooks now includes a long unwanted prefix in bold detailing the title of the article and sub-page plus the cite number. is there a simple way to remove the prefix material which overwhelms the simple cite details?TIA--[[User:Samuel.dellit|Samuel.dellit]] ([[User talk:Samuel.dellit|discuss]] • [[Special:Contributions/Samuel.dellit|contribs]]) 00:10, 14 July 2018 (UTC)
+== Kind of messing up my book by accident ==
+
+I started [[Science: An Elementary Teacher’s Guide|Science: An Elementary Teacher's Guide]] as a textbook for a general science class I teach to Elementary Education students. The students were assigned to created content for a few semesters. Recently I wanted to redo the chemistry section so I made some new chapters that I have been working on, with the intent to delete old chapters when the editing on the new ones is complete. Anyway, today I realized that the new chapters may be showing up as their own separate books instead of chapters within the book. I could use some help with getting things set up correctly, and with making a simple navigation pane at the top of each chapter (I tried with the "Building Blocks of Matter" chapter).
+[[User:Flattail|Flattail]] ([[User talk:Flattail|discuss]] • [[Special:Contributions/Flattail|contribs]]) 01:11, 6 July 2018 (UTC)
+: {{ping|Flattail}} I moved some pages, however I wasn't able to move [[Chemical Reactions]] to [[Science: An Elementary Teacher’s Guide/Chemical Reactions]] because there are pages with both names.  I'm not sure what you want done with those; we can history-merge them, but what is the one version that will be visible?  --[[User:Pi zero|Pi zero]] ([[User talk:Pi zero|discuss]] • [[Special:Contributions/Pi zero|contribs]]) 03:25, 6 July 2018 (UTC)
+::{{ping|Pi zero}}Oops--did not see that I had done that. The page higher up in the TOC (listed as 2nd chapter in Chemistry) is the one I have been working on--the other can be deleted. Thank you VERY much for helping! [[User:Flattail|Flattail]] ([[User talk:Flattail|discuss]] • [[Special:Contributions/Flattail|contribs]]) 16:30, 6 July 2018 (UTC)
+::: {{ping|Flattail}} Okay, I think it's fixed now.  While about it, I did a history merge, so the revisions to the older "Chemical Reactions" page are there in the page revision history.  --[[User:Pi zero|Pi zero]] ([[User talk:Pi zero|discuss]] • [[Special:Contributions/Pi zero|contribs]]) 18:29, 6 July 2018 (UTC)
+: {{ping|Pi zero}} I would now like to delete the following pages in the chemistry section: History, Properties of Matter, The Building Blocks of Matter, The Periodic Table. I incorporated what I wanted from these chapters into the other chapters. I changed the TOC on the front page of the book so the chemistry unit has chapters 1-7, then the numbering restarts and lists these pages that I want to delete. Once they are gone I will delete the reference to them as well. Thanks again for helping with these logistics!! [[User:Flattail|Flattail]] ([[User talk:Flattail|discuss]] • [[Special:Contributions/Flattail|contribs]]) 17:46, 18 July 2018 (UTC)
+:: {{ping|Flattail}} Looking at the pages you name &mdash; [[Science: An Elementary Teacher’s Guide/History|1]], [[Science: An Elementary Teacher’s Guide/Properties of Matter|2]], [[Science: An Elementary Teacher’s Guide/The Building Blocks of Matter|3]], [[Science: An Elementary Teacher’s Guide/The Periodic Table|4]] &mdash; I see a copyright acknowledgement wanted.  Those pages were created by a variety of users.  What other pages was the information from each of those sent to?  If each of them was sent to a single other page, the simplest solution would be a history merge; if not, well, that depends on further context to be determined.  --[[User:Pi zero|Pi zero]] ([[User talk:Pi zero|discuss]] • [[Special:Contributions/Pi zero|contribs]]) 03:56, 19 July 2018 (UTC)
+
+== Mobile view, page history and page information ==
+
+Suppose the page of a book is being read in mobile view.  Can page history be reached without switching to desktop view? Similarly, can "Page information" be reached without switching to desktop view?  Thanks, [[User:PeterEasthope|PeterEasthope]] ([[User talk:PeterEasthope|discuss]] • [[Special:Contributions/PeterEasthope|contribs]]) 18:15, 17 July 2018 (UTC)
+:Yes, you can have a look at it yourself, with a link at the page bottom. Eg:
+:* https://en.m.wikibooks.org/wiki/Mobile_Learning.
+:* https://en.m.wikibooks.org/wiki/Special:History/Mobile_Learning
+: [[User:JackPotte|JackPotte]] ([[User talk:JackPotte|discuss]] • [[Special:Contributions/JackPotte|contribs]]) 20:01, 17 July 2018 (UTC)
+::OK, "Last edited by ..." is a link to the history.  Thanks.  No luck yet finding a link to Page Information in the mobile view.  Thanks, ... [[User:PeterEasthope|PeterEasthope]] ([[User talk:PeterEasthope|discuss]] • [[Special:Contributions/PeterEasthope|contribs]]) 13:31, 18 July 2018 (UTC)
+== Consultation on the creation of a separate user group for editing sitewide CSS/JS ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''({{int:please-translate}})''
+
+Hi all,
+
+I'm preparing a change in who can edit sitewide CSS/JS pages. (These are pages like <code dir="ltr">MediaWiki:Common.css</code> and <code dir="ltr">MediaWiki:Vector.js</code> which are executed in the browser of all readers and editors.) Currently all administrators are able to edit these pages, which poses a serious and unnecessary security risk. Soon, a dedicated, smaller user group will take over this task. Your community will be able to decide who belongs in this group, so this should mean very little change for you. You can find out more and provide feedback at [[m:Special:MyLanguage/Creation of separate user group for editing sitewide CSS/JS|the consultation page on Meta]]. If you are involved in maintaining CSS/JS code, or policymaking around adminship requests, please give it a look!
+
+Thanks!
+<br/><span dir="ltr">[[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 10:50, 9 July 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small></span>
+</div>
+<!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=18158890 -->
+== [[Professionalism/Corporate_Psychopaths]] ==
+
+I have been continuously reverting {{ping|AnonymousJustice22}}'s addition of a strange reference (linking to someone's picture) in the above article as I wasn't able to understand the link between the picture and the article. To this effect, I sent a query on his talk page asking for reasoning behind the said edit, which he has not responded to. However, he's also reverting my edit, and this is the third time he has done the same. 
+
+Would appreciate some assistance regarding the same. Thanks. [[User:Leaderboard|Leaderboard]] ([[User talk:Leaderboard|discuss]] • [[Special:Contributions/Leaderboard|contribs]]) 08:00, 26 July 2018 (UTC)
+
+: {{ping|Leaderboard}} They appear to have reverted themselves. --[[User:Pi zero|Pi zero]] ([[User talk:Pi zero|discuss]] • [[Special:Contributions/Pi zero|contribs]]) 11:23, 26 July 2018 (UTC)
+== Global preferences are available ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Global preferences are now available, you can set them by visiting your new [[Special:GlobalPreferences|global preferences page]]. Visit [[mw:Help:Extension:GlobalPreferences|mediawiki.org for information on how to use them]] and [[mw:Help talk:Extension:GlobalPreferences|leave feedback]]. -- [[User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]])
+</div> 19:19, 10 July 2018 (UTC)
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=17968247 -->

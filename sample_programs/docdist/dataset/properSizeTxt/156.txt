@@ -1,0 +1,267 @@
+{{Ada/Navigation}}
+{{Ada/2005|Ada.Containers.Hashed_Sets}}
+__TOC__
+{{Ada/package|Ada|Containers|Hashed_Sets}} is a unit of the [[Ada_Programming/Libraries#Predefined_Language_Libraries|Predefined Language Environment]] since Ada 2005.
+
+{{Ada/stub}}
+
+== Specification ==
+ {{Ada/comment|                    Standard Ada library specification}}
+ {{Ada/comment|  Copyright (c) 2003-2018 Maxim Reznik <reznikmm@gmail.com>}}
+ {{Ada/comment|  Copyright (c) 2004-2016 AXE Consultants}}
+ {{Ada/comment|  Copyright (c) 2004, 2005, 2006 Ada-Europe}}
+ {{Ada/comment|  Copyright (c) 2000 The MITRE Corporation, Inc.}}
+ {{Ada/comment|  Copyright (c) 1992, 1993, 1994, 1995 Intermetrics, Inc.}}
+ {{Ada/comment|  SPDX-License-Identifier: BSD-3-Clause and LicenseRef-AdaReferenceManual}}
+ {{Ada/comment|-------------------------------------------------------------------------}}
+ 
+ {{Ada/keyword|generic}}
+    {{Ada/keyword|type}} Element_Type {{Ada/keyword|is}} {{Ada/keyword|private}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|with}} {{Ada/keyword|function}} Hash {{Ada/delimiter|(}}Element {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}} {{Ada/keyword|return}} Hash_Type{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|with}} {{Ada/keyword|function}} Equivalent_Elements {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|;}}
+                                       Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}}
+           {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|with}} {{Ada/keyword|function}} "{{Ada/operator|1==}}" {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|;}}
+                       Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}}
+           {{Ada/keyword|return}} Boolean {{Ada/keyword|is}} {{Ada/delimiter|box|<>}}{{Ada/delimiter|;}}
+ 
+ {{Ada/keyword|package}} {{Ada/package|Ada|Containers|Hashed_Sets}} {{Ada/keyword|is}}
+ 
+    {{Ada/keyword|pragma}} Preelaborate {{Ada/delimiter|(}}Hashed_Sets{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|type}} Set {{Ada/keyword|is}} {{Ada/keyword|tagged}} {{Ada/keyword|private}}{{Ada/delimiter|;}}
+    {{Ada/keyword|pragma}} Preelaborable_Initialization {{Ada/delimiter|(}}Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|type}} Cursor {{Ada/keyword|is}} {{Ada/keyword|private}}{{Ada/delimiter|;}}
+    {{Ada/keyword|pragma}} Preelaborable_Initialization {{Ada/delimiter|(}}Cursor{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    Empty_Set {{Ada/delimiter|:}} {{Ada/keyword|constant}} Set{{Ada/delimiter|;}}
+ 
+    No_Element {{Ada/delimiter|:}} {{Ada/keyword|constant}} Cursor{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} "{{Ada/operator|1==}}" {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                  Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Equivalent_Sets {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                              Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} To_Set {{Ada/delimiter|(}}New_Item {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}} {{Ada/keyword|return}} Set{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Capacity {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}} {{Ada/keyword|return}} Count_Type{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Reserve_Capacity {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                                Capacity  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Count_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Length {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}} {{Ada/keyword|return}} Count_Type{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Is_Empty {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}} {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Clear {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Element {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}} {{Ada/keyword|return}} Element_Type{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Replace_Element {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                               Position  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Cursor{{Ada/delimiter|;}}
+                               New_Item  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Query_Element
+     {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|;}}
+      Process  {{Ada/delimiter|:}} {{Ada/keyword|not}} {{Ada/keyword|null}} {{Ada/keyword|access}} {{Ada/keyword|procedure}} {{Ada/delimiter|(}}Element {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Move {{Ada/delimiter|(}}Target {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                    Source {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Insert {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                      New_Item  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|;}}
+                      Position  {{Ada/delimiter|:}}    {{Ada/keyword|out}} Cursor{{Ada/delimiter|;}}
+                      Inserted  {{Ada/delimiter|:}}    {{Ada/keyword|out}} Boolean{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Insert {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                      New_Item  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Include {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                       New_Item  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Replace {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                       New_Item  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Exclude {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                       Item      {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Delete {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                      Item      {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Delete {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                      Position  {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Cursor{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Union {{Ada/delimiter|(}}Target {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                     Source {{Ada/delimiter|:}} {{Ada/keyword|in}}     Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Union {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                    Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} "{{Ada/operator|or}}" {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                   Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set {{Ada/keyword|renames}} Union{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Intersection {{Ada/delimiter|(}}Target {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                            Source {{Ada/delimiter|:}} {{Ada/keyword|in}}     Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Intersection {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                           Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} "{{Ada/operator|and}}" {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                    Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set {{Ada/keyword|renames}} Intersection{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Difference {{Ada/delimiter|(}}Target {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                          Source {{Ada/delimiter|:}} {{Ada/keyword|in}}     Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Difference {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                         Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} "{{Ada/operator|-}}" {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                  Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set {{Ada/keyword|renames}} Difference{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Symmetric_Difference {{Ada/delimiter|(}}Target {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                                    Source {{Ada/delimiter|:}} {{Ada/keyword|in}}     Set{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Symmetric_Difference {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                                   Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} "{{Ada/operator|xor}}" {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                    Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Set {{Ada/keyword|renames}} Symmetric_Difference{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Overlap {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                      Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Is_Subset {{Ada/delimiter|(}}Subset {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                        Of_Set {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} First {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|)}} {{Ada/keyword|return}} Cursor{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Next {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}} {{Ada/keyword|return}} Cursor{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Next {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Cursor{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Find {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                   Item      {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Cursor{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Contains {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                       Item      {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Has_Element {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}} {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Equivalent_Elements {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|;}}
+                                  Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Equivalent_Elements {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|;}}
+                                  Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|function}} Equivalent_Elements {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|;}}
+                                  Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}}
+      {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|procedure}} Iterate
+     {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+      Process   {{Ada/delimiter|:}} {{Ada/keyword|not}} {{Ada/keyword|null}} {{Ada/keyword|access}} {{Ada/keyword|procedure}} {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}}{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|generic}}
+       {{Ada/keyword|type}} Key_Type  {{Ada/delimiter|(}}{{Ada/delimiter|box|<>}}{{Ada/delimiter|)}} {{Ada/keyword|is}} {{Ada/keyword|private}}{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|with}} {{Ada/keyword|function}} Key {{Ada/delimiter|(}}Element {{Ada/delimiter|:}} {{Ada/keyword|in}} Element_Type{{Ada/delimiter|)}} {{Ada/keyword|return}} Key_Type{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|with}} {{Ada/keyword|function}} Hash {{Ada/delimiter|(}}Key {{Ada/delimiter|:}} {{Ada/keyword|in}} Key_Type{{Ada/delimiter|)}} {{Ada/keyword|return}} Hash_Type{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|with}} {{Ada/keyword|function}} Equivalent_Keys {{Ada/delimiter|(}}Left  {{Ada/delimiter|:}} {{Ada/keyword|in}} Key_Type{{Ada/delimiter|;}}
+                                      Right {{Ada/delimiter|:}} {{Ada/keyword|in}} Key_Type{{Ada/delimiter|)}}
+              {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|package}} {{Ada/package|Generic_Keys}} {{Ada/keyword|is}}
+ 
+       {{Ada/keyword|function}} Key {{Ada/delimiter|(}}Position {{Ada/delimiter|:}} {{Ada/keyword|in}} Cursor{{Ada/delimiter|)}} {{Ada/keyword|return}} Key_Type{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|function}} Element {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                         Key       {{Ada/delimiter|:}} {{Ada/keyword|in}} Key_Type{{Ada/delimiter|)}}
+         {{Ada/keyword|return}} Element_Type{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|procedure}} Replace {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                          Key       {{Ada/delimiter|:}} {{Ada/keyword|in}}     Key_Type{{Ada/delimiter|;}}
+                          New_Item  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|procedure}} Exclude {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                          Key       {{Ada/delimiter|:}} {{Ada/keyword|in}}     Key_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|procedure}} Delete {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+                         Key       {{Ada/delimiter|:}} {{Ada/keyword|in}}     Key_Type{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|function}} Find {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                      Key       {{Ada/delimiter|:}} {{Ada/keyword|in}} Key_Type{{Ada/delimiter|)}}
+         {{Ada/keyword|return}} Cursor{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|function}} Contains {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} Set{{Ada/delimiter|;}}
+                          Key       {{Ada/delimiter|:}} {{Ada/keyword|in}} Key_Type{{Ada/delimiter|)}}
+         {{Ada/keyword|return}} Boolean{{Ada/delimiter|;}}
+ 
+       {{Ada/keyword|procedure}} Update_Element_Preserving_Key
+        {{Ada/delimiter|(}}Container {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Set{{Ada/delimiter|;}}
+         Position  {{Ada/delimiter|:}} {{Ada/keyword|in}}     Cursor{{Ada/delimiter|;}}
+         Process   {{Ada/delimiter|:}} {{Ada/keyword|not}} {{Ada/keyword|null}} {{Ada/keyword|access}} {{Ada/keyword|procedure}} {{Ada/delimiter|(}}Element {{Ada/delimiter|:}} {{Ada/keyword|in}} {{Ada/keyword|out}} Element_Type{{Ada/delimiter|)}}{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|end}} Generic_Keys{{Ada/delimiter|;}}
+ 
+ {{Ada/keyword|private}}
+ 
+    {{Ada/keyword|type}} Set {{Ada/keyword|is}} {{Ada/keyword|tagged}} {{Ada/keyword|null}} {{Ada/keyword|record}}{{Ada/delimiter|;}}
+ 
+    Empty_Set {{Ada/delimiter|:}} {{Ada/keyword|constant}} Set {{Ada/delimiter|1=:=}} {{Ada/delimiter|(}}{{Ada/keyword|null}} {{Ada/keyword|record}}{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+    {{Ada/keyword|type}} Cursor {{Ada/keyword|is}} {{Ada/keyword|null}} {{Ada/keyword|record}}{{Ada/delimiter|;}}
+ 
+    No_Element {{Ada/delimiter|:}} {{Ada/keyword|constant}} Cursor {{Ada/delimiter|1=:=}} {{Ada/delimiter|(}}{{Ada/keyword|null}} {{Ada/keyword|record}}{{Ada/delimiter|)}}{{Ada/delimiter|;}}
+ 
+ {{Ada/keyword|end}} Ada{{Ada/delimiter|dot|.}}Containers{{Ada/delimiter|dot|.}}Hashed_Sets{{Ada/delimiter|;}}
+
+== See also ==
+
+=== Wikibook ===
+
+* [[Ada Programming/Libraries/Ada]]
+
+{{Ada/Standard libraries}}
+
+=== Ada Reference Manual ===
+==== Ada 2005 ====
+
+* {{Ada/2005/RM|A|18|8|title=The Package Containers.Hashed_Sets}}
+
+==== Ada 2012 ====
+
+* {{Ada/2012/RM|A|18|8|title=The Generic Package Containers.Hashed_Sets}}
+
+=== Open-Source Implementations ===
+
+{{Ada/GNAT|a-cohase.ads|a-cohase.adb}}
+
+{{Ada/drake|containers/a-cohase.ads|containers/a-cohase.adb}}
+
+<noinclude>
+{{BookCat}}
+</noinclude>

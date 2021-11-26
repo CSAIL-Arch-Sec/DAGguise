@@ -1,0 +1,299 @@
+<!--This module appears to have been copy / pasted from a Wikipedia (not en) - please add back link if possible -->
+==Intro==
+Op Amp is a short hand term for Operational Amplifier. An operational amplifier is a circuit component that amplifies the difference of two input voltages:
+:;V<sub>o</sub> = A (V<sub>2</sub> - V<sub>1</sub>)
+
+Op Amps are usually packaged as an 8-pin integrated circuit.
+
+[[Image:Schematics_voltampopamp.jpg|thumb|right|Operational Amplifier IC Chip]]
+{| border="1" cellpadding="4" cellspacing="0"
+|-
+! Pin || Usage
+|-
+!  1  || Offset Null
+|-
+!  2  || Inverted Input 
+|-
+!  3  || Non-Inverted Input 
+|-
+!  4  || -V Supply
+|-
+!  5  || No use
+|-
+!  6  || Output 
+|-
+!  7  || +V Supply 
+|-
+!  8  || No use 
+|}
+
+
+Op Amp symbol
+[[image:opamppinouts.png|thumb|200px|op-amp]]
+*V<sub>+</sub>: non-inverting input
+*V<sub>&minus;</sub>: inverting input
+*V<sub>out</sub>: output
+*V<sub>S+</sub>: positive power supply
+*V<sub>S&minus;</sub>: negative power supply
+
+Op amps amplify AC signal or AC Voltage better than a simple bipolar junction transistor.
+
+==Op Amp Functions==
+===Voltage Difference Amplifier===
+From above  
+:; V<sub>0</sub> = A (V<sub>2</sub> -  V<sub>1</sub>)
+
+===Voltage Comparator===
+: V<sub>2</sub> >  V<sub>1</sub> , V<sub>0</sub> = +V<sub>ss</sub>
+: V<sub>2</sub> <  V<sub>1</sub> , V<sub>0</sub> = -V<sub>ss</sub>
+: V<sub>2</sub> =  V<sub>1</sub> , V<sub>0</sub> = 0
+
+===Inverting Amplifier===
+With one voltage is grounded
+: If V<sub>2</sub> = 0 , V<sub>0</sub> = -A V<sub>1</sub> . Inverting Amplifier
+
+===Non-Inverting Amplifier===
+With one voltage is grounded
+: If V<sub>1</sub> = 0 , V<sub>0</sub> = A V<sub>2</sub> . Non-Inverting Amplifier
+
+==Linear Configurations==
+===Differential amplifier ===
+[[Image:Opamp-differential.svg|thumb|Differential amplifier]]
+:<math> V_\mathrm{out} = V_2 \left( { \left( R_\mathrm{f} + R_1 \right) R_\mathrm{g} \over \left( R_\mathrm{g} + R_2 \right) R_1} \right) - V_1 \left( {R_\mathrm{f} \over R_1} \right) </math>
+
+* Differential <math>Z_\mathrm{in}</math> (between the two input pins) = <math>R_1 + R_2</math>
+
+{{clear}}
+
+====Voltage Difference Amplifier====
+
+Whenever <math>R_1 = R_2</math> and <math>R_\mathrm{f} = R_\mathrm{g}</math>,
+:<math> V_\mathrm{out} = {R_\mathrm{f} \over R_1} \left( V_2 - V_1 \right) </math>
+
+{{clear}}
+
+====Voltage Difference====
+When <math>R_1 = R_\mathrm{f}</math> and <math>R_2 = R_\mathrm{g}</math> (including previous conditions, so that <math>R_1 = R_2 = R_\mathrm{f} = R_\mathrm{g}</math>):
+
+:<math> V_\mathrm{out} =  V_2 - V_1 \,\!</math>
+
+{{clear}}
+
+===Inverting Amplifier===
+[[Image:Opampinverting.svg|thumb|Inverting amplifier]]
+
+:<math> V_\mathrm{out} = - V_\mathrm{in} \left( {R_f \over R_1} \right)</math>
+
+Inverting Amplification is dictated by the ratio of the two resistors
+
+{{clear}}
+
+===Non-Inverting Amplifier===
+[[Image:Opampnoninverting.svg|thumb|Non-inverting amplifier]]
+
+:<math> V_\mathrm{out} = V_\mathrm{in} \left( 1 + {R_2 \over R_1} \right)</math>
+
+Non-Inverting Amplification is dictated by the ratio of the two resistors plus one
+
+{{clear}}
+
+===Voltage Follower===
+[[Image:Opampvoltagefollower.svg|thumb|Voltage follower]]
+
+From Non-Inverting Amplifier's formula. If the resistors has the same value of resistance then output voltage is exactly equal to the input voltage
+:<math> V_\mathrm{out} = V_\mathrm{in} \!\ </math>
+
+From Inverting Amplifier's formula. If the resistors has the same value of resistance then output voltage is exactly equal to the input voltage and inverted
+:<math> V_\mathrm{out} = - V_\mathrm{in} \!\ </math>
+
+{{clear}}
+
+=== Summing amplifier ===
+[[Image:opampsumming.svg|thumb|Summing amplifier]]
+:<math> V_\mathrm{out} = - R_\mathrm{f} \left( { V_1 \over  R_1 } + { V_2 \over R_2 } + \cdots + {V_n \over R_n} \right) </math>
+
+When <math>R_1 = R_2 = \cdots = R_n</math>, and <math>R_\mathrm{f}</math> independent
+
+:<math> V_\mathrm{out} = - \left( {R_\mathrm{f} \over R_1} \right) (V_1 + V_2 + \cdots + V_n ) \!\ </math>
+
+When <math>R_1 = R_2 = \cdots = R_n = R_\mathrm{f}</math>
+
+:<math> V_\mathrm{out} = - ( V_1 + V_2 + \cdots + V_n ) \!\ </math>
+
+{{clear}}
+
+=== Integrator ===
+
+[[Image:opampintegrating.svg|thumb|Integrating amplifier]]
+
+Integrates the (inverted) signal over time
+
+:<math> V_\mathrm{out} = \int_0^t - {V_\mathrm{in} \over RC} \, dt + V_\mathrm{initial} </math>
+
+(where <math>V_\mathrm{in}</math> and <math>V_\mathrm{out}</math> are functions of time, <math>V_\mathrm{initial}</math> is the output voltage of the integrator at time ''t'' = 0.)
+
+{{clear}}
+
+=== Differentiator ===
+
+[[Image:opampdifferentiating.svg|thumb|Differentiating amplifier]]
+
+Differentiates the (inverted) signal over time.  
+
+''The name "differentiator" should not be confused with the "[[#Differential amplifier|differential amplifier]]", also shown on this page.''
+
+<math>V_\mathrm{out} = - RC \left( {dV_\mathrm{in} \over dt} \right)</math>
+
+(where <math>V_\mathrm{in}</math> and <math>V_\mathrm{out}</math> are functions of time)
+
+{{clear}}
+
+=== Comparator ===
+
+[[Image:Opampcomparator.svg|thumb|Comparator]]
+
+*<math> V_\mathrm{out} = \left\{\begin{matrix} V_\mathrm{S+} & V_1 > V_2 \\ V_\mathrm{S-} & V_1 < V_2 \end{matrix}\right. </math>
+
+Từ V<sub>0</sub> = A (V<sub>2</sub> -  V<sub>1</sub>)
+
+* V<sub>o</sub> = 0 khi V<sub>2</sub> = V<sub>1</sub>
+
+* V<sub>o</sub> > 0 khi V<sub>2</sub> > V<sub>1</sub>
+:V<sub>o</sub> = V<sub>ss</sub> 
+
+* V<sub>o</sub> < 0 khi V<sub>2</sub> < V<sub>1</sub>
+: V<sub>o</sub> = V<sub>-ss</sub> 
+
+When two input voltages equal. The output voltage is zero . When the two input voltages different and if one is greater than or less than the other
+
+#V<sub>o</sub> = V<sub>ss</sub> khi V<sub>2</sub> > V<sub>1</sub>
+#V<sub>o</sub> = V<sub>-ss</sub> khi V<sub>2</sub> < V<sub>1</sub>
+
+{{clear}}
+
+=== Instrumentation amplifier ===
+
+[[Image:Opampinstrumentation.svg|thumb|Instrumentation amplifier]]
+
+
+Combines very high input impedance, high common-mode rejection, low DC offset, and other properties used in making very accurate, low-noise measurements
+
+* Is made by adding a [[#inverting amplifier|inverting]] buffer to each input of the [[#Differential amplifier|differential amplifier]] to increase the input impedance.
+
+{{clear}}
+
+=== Schmitt trigger ===
+
+[[Image:Opampschmitt_xcircuit.svg|thumb|Schmitt trigger]]
+
+A comparator with hysteresis
+
+Hysteresis from <math>\frac{-R_1}{R_2}V_{sat}</math> to <math>\frac{R_1}{R_2}V_{sat}</math>.
+
+{{clear}}
+
+=== Gyrator ===
+
+[[Image:Gyrator.svg|thumb|Inductance gyrator]]
+
+A gyrator can transform impedances. Here a capacitor is changed into an inductor. 
+
+:<math> L = R_\mathrm{L} R C </math>
+
+{{clear}}
+
+=== Zero level detector ===
+
+Voltage divider reference
+
+* Zener sets reference voltage
+
+{{clear}}
+
+=== Negative impedance converter (NIC) ===
+
+[[Image:Negative_impedance_converter.svg|thumb|Negative impedance converter]]
+
+
+Creates a resistor having a negative value for any signal generator
+
+* In this case, the ratio between the input voltage and the input current (thus the input resistance) is given by:
+
+:<math>R_\mathrm{in} = - R_3 \frac{R_1}{R_2}</math>
+
+{{clear}}
+
+== Non-linear configurations ==
+
+=== Rectifier ===
+
+[[Image:Super_diode.svg|thumb|Super diode]]
+
+Behaves like an ideal diode for the load, which is here represented by a generic resistor <math>R_\mathrm{L}</math>.
+
+* This basic configuration has some limitations.  For more information and to know the configuration that is actually used, see the main article.
+
+{{clear}}
+
+=== Peak detector ===
+
+[[Image:PeakDet.svg|thumb|Peak detector]]
+
+When the switch is closed, the output goes to zero volts. When the switch is opened for a certain time interval, the capacitor will charge to the maximum input voltage attained during that time interval. 
+
+The charging time of the capacitor must be much shorter than the period of the highest appreciable frequency component of the input voltage.
+
+{{clear}}
+
+=== Logarithmic output ===
+
+[[Image:Opamplogarithm.svg|thumb|Logarithmic configuration]]
+
+* The relationship between the input voltage <math>v_\mathrm{in}</math> and the output voltage <math>v_\mathrm{out}</math> is given by:
+
+: <math>v_\mathrm{out} = -V_{\gamma} \ln \left( \frac{v_\mathrm{in}}{I_\mathrm{S} \cdot R} \right)</math>
+
+where <math>I_\mathrm{S}</math> is the ''saturation current''.
+
+* If the operational amplifier is considered ideal, the negative pin is virtually grounded, so the current flowing into the resistor from the source (and thus through the diode to the output, since the op-amp inputs draw no current) is:
+
+: <math>\frac{v_\mathrm{in}}{R} = I_\mathrm{R} = I_\mathrm{D}</math>
+
+where  <math>I_\mathrm{D}</math> is the current through the diode. As known, the relationship between the current and the voltage for a diode is:
+
+:<math>I_\mathrm{D} = I_\mathrm{S} \left( e^{\frac{V_\mathrm{D}}{V_{\gamma}}} - 1 \right)</math>
+
+This, when the voltage is greater than zero, can be approximated by:
+
+:<math>I_\mathrm{D} \simeq I_\mathrm{S} e^{V_\mathrm{D} \over V_{\gamma}} </math>
+
+Putting these two formulae together and considering that the output voltage <math>V_\mathrm{out}</math> is the inverse of the voltage across the diode <math>V_\mathrm{D}</math>, the relationship is proven. 
+
+Note that this implementation does not consider temperature stability and other non-ideal effects.
+
+{{clear}}
+
+=== Exponential output===
+
+[[Image:Opampexponential.svg|thumb|Exponential configuration]]
+
+* The relationship between the input voltage <math>v_\mathrm{in}</math> and the output voltage <math>v_\mathrm{out}</math> is given by:
+
+:<math>v_\mathrm{out} = - R I_\mathrm{S} e^{v_\mathrm{in} \over V_{\gamma}}</math>
+
+where <math>I_\mathrm{S}</math> is the ''saturation current''.
+
+* Considering the operational amplifier ideal, then the negative pin is virtually grounded, so the current through the diode is given by:
+
+:<math>I_\mathrm{D} = I_\mathrm{S} \left( e^{\frac{V_\mathrm{D}}{V_{\gamma}}} - 1 \right)</math>
+
+when the voltage is greater than zero, it can be approximated by:
+
+:<math>I_\mathrm{D} \simeq I_\mathrm{S} e^{V_\mathrm{D} \over V_{\gamma}} </math>
+
+The output voltage is given by:
+:<math>v_\mathrm{out} = -R I_\mathrm{D}\,</math>
+
+{{BookCat}}
+
+[[cs:Praktická elektronika/Operační zesilovače]]

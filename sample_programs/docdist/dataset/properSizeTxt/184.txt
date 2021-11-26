@@ -1,0 +1,97 @@
+{{honor_header|1|2005|Recreation|North American Division}}
+==1. Define Geocaching.==
+Geocaching is an entertaining outdoor adventure game for GPSr users. Participating in a cache hunt is a good way to take advantage of the wonderful features and capability of a GPSr unit. The basic idea is to have individuals and organizations set up caches all over the world and share the locations of these caches on the Internet. GPSr users can then use the location coordinates to find the caches. Once found, a cache may provide the visitor with a wide variety of rewards. All the visitor is asked to do is if they get something they should try to leave something for the cache.
+
+==2. What is a GPSr (Global Positioning Satellite receiver)?==
+A GPSr unit is an electronic device that can determine your approximate location (within around 6–20 feet) on the planet. Coordinates are normally given in Longitude and Latitude. You can use the unit to navigate from your current location to another location. Some units have their own maps, built-in electronic compasses, voice navigation, depending on the complexity of the device.
+
+You don't need to know all the technical mumbo jumbo about GPSr units to play Geocaching. All you need to do is be able to enter what is called a "waypoint" where the geocache is hidden.
+
+It's also good to know that the GPSr units built for turn-by-turn car navigation will sometimes have undesirable features.  One such feature is that it might "snap" you onto a road.  The GPSr knows you are close to a road, but not on the road, but will assume that "since you're in a car" its coordinates are incorrect.  So it will display your position on the road in stead of off it.  If you can turn this feature off, you will have greater success.  Third party software is available for some GPS receivers to defeat this feature.  Consider using it, but understand that you are taking a risk when you do so.
+
+Another feature of these in-car devices is that if your speed drops below a certain set point (such as 1.5 MPH), it will quit updating your position until your speed increases above that set-point again, or it notices you have moved some distance (such as 50 feet).  This feature prevents the GPS from "bouncing around" when a driver is stopped at a traffic light, but it is quite maddening for a cacher (just as you get close to the cache and slow down, it quits updating).  If you can turn this feature off, do so.  As with the "snap-to-road" feature, third party software is sometimes available to defeat this as well.  Use it with caution.
+
+==3. Demonstrate 2 ways of finding the location of a Geocache in your area on the Geocache website.==
+Have the student look on the website, [http://www.geocaching.com www.geocaching.com]. This is a family-friendly, kid-friendly website. Two methods of finding a location are:
+* From the Main Page at the top drop-down menu, click on "HIDE & SEEK A CACHE". Then enter a zip code in the "By Postal Code" box.
+* From the Main Page on the top drop-down menu, click on "Hide and Seek a Cache" then enter an address in the "Address" box.
+* From the Main Page at the top drop-down menu, click on "HIDE & SEEK A CACHE". Then choose a state in the "By State" box.
+
+==4. Demonstrate entering the latitude and longitude coordinates into the GPS to find a Geocache in your area.==
+Each GPS is a little different, so have the student enter coordinates in the GPS units that are available. Ask around, there may be several people in your club or church willing to show the Pathfinders how to use their particular unit.
+
+==5. Define the following terms==
+;Traditional cache: This is the original cache type consisting, at a bare minimum, a container and a logbook. Normally you'll find a Tupperware container, ammo box, or bucket filled with goodies. The coordinates listed on the traditional cache page is the exact location for the cache. The general rule of thumb is, "If you take an item, leave an item of equal or greater value, and write in the logbook." Some caches are themed, so make sure to read the description before going on a hunt.
+;Micro-cache: This is a traditional cache in a tiny container holding usually nothing more than a small roll of paper and pencil on which to record your visit; and you may need to bring your own pencil
+
+;Virtual cache: This is not a physical cache, but rather a place of usually historical or local interest; that is, a commemorative plaque, sign, object, or building.  Virtual caches are grandfathered on Geocaching.com.  New virtual caches are now accepted only on [http://www.waymarking.com waymarking.com].
+;Multi-level cache: This is a cache with more than one location; frequently the Geocacher must find the clues to the second cache in the first cache and so on.
+;Travel bug: This is any object tagged with an identification tag that wants to travel to a specific location or accomplish specific tasks, for example, to get to a geocache at Mt. Rushmore or to attend a baseball game in every state. Look on the Geocache website Travel Bug page for more information.
+;Geomuggle/muggle: This refers to a non-geocacher.  Usually this term is used after a non-geocacher looks puzzled at a geocacher making circles with their GPS receiver, or when a non-geocacher accidentally finds a cache.  Muggles are mostly harmless but try to not let them know the location of the cache because it may increase the chances of the cache going missing.
+
+==6. What items may be left in a geocache? Which items may not?==
+===What is usually in a cache?===
+A cache can come in many forms but the first item should always be the logbook. In its simplest form a cache can be just a logbook and nothing else. The logbook contains information from the founder of the cache and notes from the cache's visitors. The logbook can contain much valuable, rewarding, and entertaining information. A logbook might contain information about nearby attractions, coordinates to other unpublished caches, and even jokes written by visitors. If you get some information from a logbook you should give some back. At the very least you can leave the date and time you visited the cache.
+Larger caches may consist of a waterproof plastic bucket placed tastefully within the local terrain. The bucket will contain the logbook and any number of more or less valuable items. These items turn the cache into a true treasure hunt. You never know what the founder or other visitors of the cache may have left there for you to enjoy. Remember, if you take something, it’s only fair for you to leave something in return. Items in a bucket cache could be: Maps, books, software, hardware, CD's, videos, pictures, money, tickets, antiques, tools, games, etc. It is recommended that items in a bucket cache be individually packaged in a clear zipped plastic bag to protect them.
+
+===What shouldn't be in a cache?===
+
+Use your common sense in most cases. Explosives, ammo, knives, drugs, and alcohol shouldn't be placed in a cache. Respect the local laws. All ages of people hide and seek caches, so use some thought before placing an item into a cache.
+Food items are ALWAYS a BAD IDEA. Animals have better noses than humans, and in some cases caches have been chewed through and destroyed because of food items in a cache. Please do not put food in a cache.
+
+==7. Know and practice good Travel Bug Etiquette==
+Use the Golden Rule when you find a Travel Bug. Most owners would rather see their travel bugs do a lot of traveling, so try not to hold on to a travel bug for too long. If you plan on holding onto the bug for more than 2 weeks, make sure to send a courtesy email to the owner letting them know.
+
+==8. What is meant by Cache In, Trash Out?==
+This is a slogan to help remind geocachers to practice good outdoor etiquette. An activity held sacred by Pathfinders everywhere, Trash Out simply means to take along a plastic trash bag while hunting Geocaches and picking up trash on the way. Always pack out your own trash and be sure to follow all the rules of outdoor etiquette: 
+The 7 Leave No Trace Principles
+1. Plan ahead and prepare.                                       
+2. Travel and camp on durable surfaces (stay on designated trails).                 
+3. Dispose of waste properly.                                                                         
+4. Leave what you find.                                            
+5. Minimize campfire impacts (when camping).
+6. Respect wildlife.  
+7. Be considerate of other visitors.
+
+==9. Find 3 Geocaches in your area, at least one of which must be a regular (traditional) cache.==
+Comply with local laws, use common sense with regards to safety, take along something to trade, and have fun.
+
+NOTE to Instructors:  The new "challenges" listed on Geocaching.com do NOT count as cache finds according to Geocaching.com and thus would NOT count toward fulfillment of this requirement.
+
+==10. Write about your geocache find in your logbook on the geocache website.==
+From the Main Page of www.geocaching.com at the top right, click on “Create a Membership!”, for a free account choose “Get a Basic Membership”. This is a family friendly, kid safe web site. No personal information is available from this site. Emails are safe and password protected through this system. When you are a member you can post into the logbooks your cache finds.
+
+Note to instructors:  Notice that these requirements do leave the opportunity for a GROUP to go find a cache and use a pre-existing Geocaching account to write the log on the geocache website.  Each individual Pathfinder does NOT need to write a log.  No "register for a free Geocaching.com account" requirement until the Advanced honor.
+
+==11. Discuss Matthew 6:19-21 and Jeremiah 29:13 and compare them to geocaching.==
+{{Bible verse
+|book=Matthew
+|chapter=6
+|verse=19-21
+|version=KJV
+|text=
+Lay not up for yourselves treasures upon earth, where moth and rust doth corrupt, and where thieves break through and steal: but lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through not steal, for where your treasure is, there will your heart be also.
+}}
+Sometimes geocaches succumb to the elements.  The containers can get broken, or the cache could be found by someone who doesn't know what it is, and they throw it away or destroy it.  Sometimes the log in the cache is too soaked to sign.  When you find one of these, it would be good to think of this verse.  We can depend on our treasure in heaven!
+
+{{Bible verse
+|book=Jeremiah
+|chapter=29
+|verse =13
+|version=KJV
+|text=
+And ye shall seek me, and find me, when ye shall search for me with all your heart.
+}}
+I have visited some caches several times before finally finding it.  Sometimes the cache owner can be exceedingly clever and hide a cache in plain sight.  It is possible to look right at it and not recognize it for what it is, even though it is the one thing you are searching for!  But persistence pays off.  When you have trouble finding a cache, think about this verse, and take comfort in knowing that when you seek the Lord, you will always be repaid.
+
+==12. Discuss safety concerns you should consider when geocaching.==
+Dangers include heights, falls, traffic, rough terrain, poisonous plants (like poison ivy or poison oak), snakes, spiders, wild animals, strangers, etc. Do not Geocache alone or at night in a remote area. Wear sturdy shoes as for hiking and make sure to take plenty of water when hiking to a remote area or for any distance. Let someone know what you are doing, where you are going, and when you expect to be back.
+
+==13. Links.==
+Below are useful links relating to this honor:
+
+-Here is a workbook for club members to fill out while completing the requirements for this honor. https://docs.google.com/open?id=0B8bGYzFJPGxcNzVSOUduZC1hdjQ
+Note: Download and open this document in Word for it to print right. If trying to print from web browser the format will not print correctly.
+
+[[{{BOOKCATEGORY|Adventist Youth Honors Answer Book}}|{{SUBPAGENAME}}]]
+[[{{BOOKCATEGORY|Adventist Youth Honors Answer Book}}/Completed Honors|{{SUBPAGENAME}}]]

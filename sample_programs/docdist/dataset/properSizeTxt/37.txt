@@ -1,0 +1,149 @@
+Hello and '''[[Wikibooks:Welcome, newcomers|welcome]]''' to [[Wikibooks]]!
+
+Here are some tips to help you get started:
+* You should sign your name on Talk and vote pages using four tildes, like this: &#126;&#126;&#126;&#126;.
+* Remember to conduct any editing experiments in the [[Wikibooks:Sandbox|sandbox]].
+* If you're a '''Wikipedian''', see [[Wikibooks:Wikibooks for Wikipedians]] for a primer on how things work here (it's a little different).
+** If you want to base your work here on materials from Wikipedia, please use [[WB:RFI]] to bring the material over in compliance with the GFDL.
+* If you're an '''instructor''' and plan on using wikibooks for a class project, see [[Wikibooks:Guidelines for class projects]]
+* Please say hello at the [[WB:SL|Staff Lounge]] with any questions or ideas.
+* Eventually, you might want to read the [[Wikibooks:Manual of Style|Manual of Style]] and [[Wikibooks:Policies and guidelines|Policies and Guidelines]].
+** Please take a look at [[Wikibooks:Naming policy]] before starting a new book.
+* Remember to maintain a [[Wikibooks:Neutral point of view|Neutral point of view]].
+* Explore, [[Wikibooks:Be bold in updating pages|be bold in editing pages]], and have fun!
+
+You will find more resources in [[Wikibooks:Community Portal|Community Portal]]. If you want to ask a question, visit the [[Wikibooks:Study help desk|Study help desk]], the [[Wikibooks:Staff lounge|Staff lounge]], [[Wikibooks:IRC channels|IRC channel]] or ask me personally on my talk page. For site news, see the [[WB:BB|Bulletin board]]. It might be an idea if you add this page to your "watchlist" so that you can see when any new information is posted there.
+
+Good luck!--[[User:Sundance Raphael|Sundance Raphael]] 21:21, 10 January 2007 (UTC)
+
+== Dupe pages? ==
+
+Hi I see you have created two [[Animal Behavior/Cover]] pages (the other one has different capitalisation).  Do you require them both or should one be deleted, thanks --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 12:12, 11 January 2007 (UTC)
+
+Equally you have two pages [[Animal Behavior/Contributors/]] (one with a trailing slash the other without)? --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 12:20, 11 January 2007 (UTC)
+
+== re: Dupe pages? ==
+
+hi herby, what a reat. i was just looking to see whether i could scrounch up an admin to delete the two unused files - one cover and on for contributors. i am completely new and am trying to figure still everything out.  i am not even sure whether this is the right way to respond to your message. i think i have just managed to grasp file names and conventions, so i hope i wont create many more duplicates :-).
+
+thanks again and please delete away, much obliged, ciao, [[User:129.1.84.29|129.1.84.29]]
+
+i guesss this is what the tildes do when you are logged in :-) [[User:Robert Huber|Robert Huber]]
+
+:No problem at all Robert - always ask - there are folk around who will help if they can.  You'll soon get the hang of it! I'll delete them anyway - regards --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 14:34, 11 January 2007 (UTC)
+
+== Another thought! ==
+
+Hi Robert - I've piped a couple of links using "|", you can see what I have done here [http://en.wikibooks.org/w/index.php?title=Animal_Behavior&diff=next&oldid=715625].  I won't do anymore as you may not feel it improves things but if you do you'll learn by doing it yourself (much of what I know I have learnt from other people!).  If I can help let me know - regards --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 18:36, 11 January 2007 (UTC)
+
+:Great, thanks, that does look mighty fine. Your changes are greatly appreciated and make my life for adding in the material that much easier. 
+
+:I have also just run into a different problem and was wondering what the proper solution would be. Another wikibook has a section that would be very applicable to this book.
+
+::*[[Introduction to Psychology/chpt3 | Biological basis of behavior]]
+
+:i can link it into my table of context but then the navigation items are to the original table of contents and not to this book. Alternatively, if i copy the text, then there are two places that need to be updated in identical ways. it would really be best if the section could be used for both but the navigation would be book specific - how do i handle this all best? thanks, ciao,
+
+::oops [[User:Robert Huber|Robert Huber]]
+
+:::End of dayish in my time zone Robert so I'll take a look at this tomorrow and see if I can help (I'd like to say "I'm sure I can") then.  Hope that is ok , regards --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 19:28, 11 January 2007 (UTC)
+
+*reset
+Hi Robert - ok - copying text is a no no - licensing issues means that you are cutting out the "contributors".  Apart from anything else I would consider a message on [[User talk:ArrowStomper]] the contributor's talk page for that page.  I guess I would go for a "see also" approach in both articles rather than a navigation between them.  the "See also" idea is not used here as much as Wikipedia but I do think it is relevant in this case.
+
+The book looks promising - the nature/nuture debate has always fascinated me (won't say more - don't want to fall out!!).  I'll certainly keep watching but let me know if I can help - regards --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 13:07, 12 January 2007 (UTC)
+
+:hi herby, thanks for your help. i contacted arrowstomper to see what s/he has to say. more soon, ciao, [[User:Robert Huber|Robert Huber]]
+
+== Importing==
+
+also, it is cool to import material via [[WB:RFI]] - right? could i do that with the materials from the psych page or does that simply apply to wikipedia entries?, ciao, [[User:Robert Huber|Robert Huber]]
+
+:not sure I understand this.  To me this is for importing from external Wikis (such as WP).  You may be better posting this one in the [[WB:SL|Staff lounge]] where more folks (& more experienced folks) will see it.  I see you have linked the Psych page anyway --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 15:52, 12 January 2007 (UTC)
+
+::i had played with this yesterday.i take if off for now and see what arrowstomp says, thanks, ciao, [[User:Robert Huber|Robert Huber]]
+
+== Links to Wikipedia ==
+sorry, one more question ... i am trying to link to a subsection of a wikipedia page using [[Wikipedia:en:Descartes#Dualism|Mind/body dualism]], but that does not seem to work as i would have hoped. thanks for any suggestions, ciao, [[User:Robert Huber|Robert Huber]]
+
+:Again not sure - to me what you have done works just fine.  The link takes you to the relevant spot in WP.  If you want the WP content that would be a [[WB:RFI]] issue (and can be done).  However bear in mind that way you get a snapshot of the WP page, edits after the tranwiki'ing will not be there?  Cheers --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 15:52, 12 January 2007 (UTC)
+
+::i get to the overal entry for descartes, but it fails to jump to the #dualism subsection. does this actually work for you, maybe it is my browser, thanks, ciao [[User:Robert Huber|Robert Huber]]
+
+:::Interesting - goes to Dualism for me - using Firefox, works in Opera to (please apologise first if you are using IE <g>!) --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 16:53, 12 January 2007 (UTC)
+
+::::thanks. great to know. nah, definitely no IE here, i m using safari on the mac and i am proud to offer a microsoft free environment for the kids in my classes ;-) ciao and thanks again [[User:Robert Huber|Robert Huber]]
+
+== Animal behaviour patterns ==
+
+Is it just me (or Euro based view)  Konrad Lorenz (sp?) springs to mind?  Bird behaviour I think --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 12:15, 13 January 2007 (UTC)
+
+:[[W:Konrad_Lorenz]]?? --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 12:18, 13 January 2007 (UTC)
+
+:indeed, this chapter is next :-) bird behavior it is. this is the part where i have quite a bit of material as i was one of his last graduate students - i even have pictures which i will be happy to bring to the public domain, more soon, [[User:Robert Huber|Robert Huber]]
+::Excellent - as you will have guessed it does interest me.  And must have been interesting to have worked with someone like that - Thanks and regards --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 12:42, 13 January 2007 (UTC)
+
+== Deletions ==
+
+No problem - will do.  In case I am not around take a look at [[WB:TM]] & particularly [[Wikibooks:Template_messages/Deletion]] as this will allow you to "tag" such pages as you require deleted yourself and any admin will get them as they will be placed in that category which is checked regularly.  Regards --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 13:19, 20 January 2007 (UTC)
+:OK - done some - however there are pages on that list that have contributions (in some cases substantial) from IP addresses ([[Animal Behavior/History of Neuroscience]] for example).  As such I am not comfortable with deleting the page from a licensing and approval standpoint.  If you "retain" information that others have placed it would be far better to move or merge content.  Thanks --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 13:42, 20 January 2007 (UTC)
+::hi herby, the tcpip address was also me, i had just forgotten to log in :-) [[User:Robert Huber|Robert Huber]] 14:00, 21 January 2007 (UTC)
+:::Ok there are just three left that have more that one IP address contributing to them (widely different ones)? Thanks --[[User:Herbythyme|<font color="green">Herby</font>]] <b><sup><small><span style="color:#90F">[[User talk:Herbythyme|talk thyme]]</span></small></sup></b> 15:25, 21 January 2007 (UTC)
+::::thanks, the other ips should be mine as well, 129.1.84.29 is me at work and the other looks like me at the coffee shop :-) thanks,[[User:Robert Huber|Robert Huber]] 12:08, 22 January 2007 (UTC)
+
+==templates for a animal behavior stub==
+
+hi, i would like to create a book specific stub, i found where the existing ones are listed but not on how to create one. any advice greatly appreciated, thanks, [[User:Robert Huber|Robert Huber]] 16:18, 25 January 2007 (UTC)
+
+
+== Copyright problem with [[:Image:LobsterFight.ogg]] ==
+{{mbox|type=warning|msg=
+Thanks for uploading [[:Image:LobsterFight.ogg]]. The [[w:Wikimedia Foundation|Wikimedia Foundation]] is very careful about what Wikibooks includes because of [[w:United States copyright law|copyright law]], and requires that we maintain a strict [[Wikibooks:Copyright|copyright policy]]. [[:Image:LobsterFight.ogg]] and other files you uploaded may soon be deleted unless we can determine the copyright holder and status. The copyright holder is usually the creator, the creator's employer, or the last person who was transferred ownership rights. Please take the time to read [[Wikibooks:Media]] to learn more about what copyright information is required to satisfy our requirements and remember to include this important information for every file that you upload in the future as well. Please edit image descriptions pages directly to add this information; there's no need to upload the image again. If you have any questions, feel free to contact me, or ask another Wikibookian at the [[Wikibooks:Study help desk|help desk]].
+
+See {{UserImages}} for a complete list of your uploads which may get deleted soon.<br/>Thank you. '''&ndash; [[User:Mike.lifeguard|<font color="Indigo">Mike.lifeguard</font>]]''' &#124; <sup>[[User talk:Mike.lifeguard|<font color="Indigo">talk</font>]]</sup> 00:30, 20 November 2007 (UTC)}}
+:Just go to the image description page, click the edit tab at the top. Replace what's there with {{tlx|PD-self}} ''plus'':
+<pre>{{Information
+ |Description=The description for the video goes here.
+ |Source=own work
+ |Date=today's date
+ |Author=[[User:Robert Huber|]]
+ }}</pre>
+:'''&ndash;&nbsp;[[User:Mike.lifeguard|<font color="Indigo">Mike.lifeguard</font>]]'''&nbsp;&#124;&nbsp;<sup>[[User talk:Mike.lifeguard|<font color="Indigo">talk</font>]]</sup> 02:21, 29 November 2007 (UTC)
+
+:Thanks, Mike, i did that, can you please double check? on previous uploads i got a box to select the type of permission to grant, did i miss it this time or is it gone? what is the type of permission that wikibooks is favoring? GNU? how does wikimedia fit in? is there a page on this somewhere? [[User:Robert Huber|Robert Huber]] 12:10, 29 November 2007 (UTC)
+
+== Animal Behaviour book in catalan ==
+
+Hello Robert,
+
+First of all, congratulations for your book. I will read it entirely when I can. For now I've read the first pages and I like it very much.
+
+I've just start "my" own wikibook about Animal Behaviour. It is in catalan [http://ca.wikibooks.org/wiki/Comportament_animal], but if you are interested in a particular page I can bring you a quick translation in my poor english (or very quick in spanish). It will be structured in my own point of view, heavily influenciated for my Animal Behaviour teacher, but your text will be very useful to me. 
+
+I whish the help will be reciprocal. Ask me all that you want. Could I ask you questions if I have any? For now, what pages on your book do you think I can improve?
+
+Thank you --[[w:ca:Usuari:Loquetudigas|Loquetudigas]] <small>(awnser [[ca:usuari discussió:Loquetudigas|here]] please!)</small> 00:33, 19 October 2008 (UTC)
+
+== Your account will be renamed ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Hello,
+
+The developer team at Wikimedia is making some changes to how accounts work, as part of our on-going efforts to provide new and better tools for our users like cross-wiki notifications. These changes will mean you have the same account name everywhere. This will let us give you new features that will help you edit and discuss better, and allow more flexible user permissions for tools. One of the side-effects of this is that user accounts will now have to be unique across all 900 Wikimedia wikis. See [[m:Special:MyLanguage/Single User Login finalisation announcement|the announcement]] for more information.
+
+Unfortunately, your account clashes with another account also called Robert Huber. To make sure that both of you can use all Wikimedia projects in future, we have reserved the name Robert Huber~enwikibooks that only you will have. If you like it, you don't have to do anything. If you do not like it, you can [[Special:GlobalRenameRequest|pick out a different name]].
+
+Your account will still work as before, and you will be credited for all your edits made so far, but you will have to use the new account name when you log in.
+
+Sorry for the inconvenience.
+
+Yours,<br />[[m:User:Keegan (WMF)|Keegan Peterzell]]<br />Community Liaison, Wikimedia Foundation
+</div> 23:38, 17 March 2015 (UTC)
+<!-- SUL finalisation notification -->
+
+== Renamed ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr”>
+This account has been renamed as part of [[m:Special:MyLanguage/Single User Login finalisation announcement|single-user login finalisation]]. If you own this account you can [[{{#special:userlogin}}|log in using your previous username and password]] for more information. If you do not like this account's new name, you can choose your own using this form after logging in: [[{{#special:GlobalRenameRequest}}]]. -- [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]])
+</div> 05:25, 19 April 2015 (UTC)
+<!-- SUL post-rename notification -->

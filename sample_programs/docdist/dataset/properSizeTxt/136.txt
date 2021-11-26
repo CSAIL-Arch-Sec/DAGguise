@@ -1,0 +1,88 @@
+{{DISPLAYTITLE:<span style="display:block;text-align:left;font-size:100%;background:#d0f0f0;line-height:2em;"><font size="6" face=Garamond>'''Part 0: Introduction'''</font></span>}}
+
+{{NOTE|'''As of January 2016, this book is under revision from a near-first draft written in 2012-2013 to a more complete version.  Some sections are still merely headings, and illustrations and references are still being added.'''}}
+
+
+{{TOC right}}
+<font size="4" face=Garamond>
+
+==<font size="5" face=Garamond>'''Purpose of the Book'''</font>==
+
+[[File:The_Earth_seen_from_Apollo_17.jpg|thumb|left|480x480px|Earth as seen by Apollo 17.]]
+
+As this photo of the Earth from a distance shows, our planet is located in space.  So space is not a different place to go to: we are already there.  We think of it as different because most of us spend most of our lives on about 1/8th of the solid-gas interface of one planet among the billions in the Galaxy.  It is where we evolved, and where conditions are reasonably habitable for us, so we think of it as normal.  In reality, our comfortable planet is the exception, and normal is unusable environments hostile to life as we know it.  We can change that by technical means, and are starting to do so first by placing devices in space, then by creating habitable environments.
+
+As of 2014 global space industry had already reached US$ 323 billion/year of economic activity.  This is expected to greatly increase in the future as our civilization learns to use this environment and expand into it.  For these and other reasons space systems engineering is a worthy field of study within the larger context of all sciences and engineering.  Historically the main engineering challenges were transportation that could reach space at all, and the design of relatively small satellites with finite lives as cargo for such transportation.  These topics are adequately covered by existing textbooks such as Sutton's '''[http://www.amazon.com/Rocket-Propulsion-Elements-George-Sutton/dp/0470080248/ Rocket Propulsion Elements]''' and Griffen and French's '''[http://www.amazon.com/Vehicle-Design-Second-Edition-Education/dp/1563475391 Space Vehicle Design]'''.
+
+Starting with more recent projects, like the International Space Station (ISS), new design characteristics have become more important.  These include permanent habitation, evolution and growth, sustainability, and industrial capacity.  Future projects will require new types of propulsion, life support, production, and assembly.  Single projects can no longer be considered in isolation, either.  For example, the ISS depends on multiple launch vehicles to deliver crew, supplies, and hardware for expansion.  This book is intended as an introduction to both the historical design challenges of transport and space hardware design, and the new engineering methods needed for future projects.  The online format is also intended to address some of the limitations of traditional printed textbooks:
+
+*  Their high cost in recent years, which is addressed by making this an open-source Wikibook,
+*  The inability to include other media types, such as audio, video, simulations, and software.
+*  The relative difficulty of updating printed books in a fast moving field.
+*  The very large amount of information in this field, which is addressed by links and a supplementary library.
+*  The lack of practice projects.  Learning well involves more than just reading, it should include hands-on work.  The latter part of the book includes real projects which interested readers or teams can work on.
+
+
+==<font size="5" face=Garamond>'''Links to Additional Material'''</font>==
+
+We cannot fit the entirety of a field of engineering into a book-length introduction such as this one.  Therefore we will include extensive hypertext (World Wide Web) links to more detailed sources, such as the Wikipedia online encyclopedia.  A '''[http://www.mediafire.com/?y1ko8gj5rouob Rocket Science Library]''' is being set up to house some of the more useful publicly available articles and books to supplement the book.  We cannot include copyrighted works without permission, but we can list useful ones and where to find them in both the '''[[Space_Transport_and_Engineering_Methods/References|References]]''' section of this book, and in notes in the Library folders.  We are aware that popular culture incorrectly calls Space Systems Engineering "Rocket Science", as it is part of engineering rather than science and not exclusively about rockets.  We will cheerfully adopt the popular label for our Library and hope that serious students understand the difference.
+
+Engineers use other tools besides books to do their work, such as simulation software and spreadsheets.  Wikibooks does not support including software files, so links to where these items can be found are intended to be added over time.  A draft paper summarizing a real proposed program can be found at: '''[http://en.wikibooks.org/wiki/User:Danielravennest/papers/Mars21 To Mars and Beyond]'''.  This program will be used for examples within the book, and can be used by readers for practice in design.
+
+
+==<font size="5" face=Garamond>'''Book Organization'''</font>==
+
+The book is organized as a progression from science and engineering fundamentals, to subsystems, complete projects, and then combined systems which have linked projects.  We will try to emphasize underlying principles and key design parameters, as those have more lasting value than, for example, the particulars of a current launch vehicle.  We include many methods and concepts which are not in current use for several reasons.  First, when starting a new project, it is a good idea to at least briefly consider '''all''' the possible alternatives, before narrowing down to the most relevant ones.  Second, this is a future-oriented book.  While a concept may not be useful today, knowing what the state of the art is and what technology areas to watch helps to tell when a concept will become useful.  Third, having all the ideas in front of you might spur a new combination or application that had not been thought of before.  This has actually happened to one of the authors (Eder) on more than one occasion, so I can attest to its usefulness.
+
+
+===<span style="font-size:120%;line-height:2em;">Part 1: Science and Engineering Fundamentals</span>=== 
+<font size="4" face=Garamond>
+
+All of engineering depends on underlying knowledge from mathematics and the sciences.  We therefore start with some prerequisites which the reader should be familiar with, and the more important principles, formulas, and methods which apply to space systems.  The largest part of this is physics, including the motive forces and energy sources for space projects, but also some key ideas of the other sciences, including Astronomy, Planetary Science, and Chemistry.  Following that we introduce general engineering methods, including the discipline of [http://en.wikipedia.org/wiki/Systems_engineering '''Systems Engineering''']. The goal of systems engineering is to optimize a complex system over its life cycle.  Most space projects are complex enough that this discipline is very useful.  Complexity demands methods of tracking the details to keep the project as a whole a coherent effort.  We introduce the tools that engineers use in their work, followed by the variety of specialty engineering disciplines such as structural and electrical design which are used in parallel with the overall system optimization.  Most projects require specialists in different areas, because there is too wide an area of knowledge for one person to cover all of it.
+
+In early concept development one person might do all of the work on a project.  As the design progresses, the amount of detail and knowledge required makes it more efficient to use teams of specialists.  This in turn demands efficient coordination within a project team.  The general topic of project economics addresses project organization and management, funding, and financial analysis.  The last two sections of Part 1 consider existing projects and the areas for future projects.  One needs to compare proposed future projects to already existing ones, to see if they give enough improvement to justify their creation.  The range of possibilities for future projects helps identify goals, requirements, and growth paths.
+
+
+===<span style="font-size:120%;line-height:2em;">Part 2: Transport methods</span>===
+<font size="4" face=Garamond>
+
+The next part of the book considers transportation. Before you can do anything else at a given space location, you first have to get there.  Historically the transportation component has been much more massive than the cargo.  Solving transportation challenges became the primary focus of space projects.  Although still important, we take a more balanced approach in this book.  Improved transportation methods and use of local resources will shift the mass ratio towards the destination, so we give that part of space projects equal attention.
+
+Many more transport methods have been proposed (about 75) than have actually been used to date (about 5), and one of them, '''[[Space Transport and Engineering Methods/Combustion Engines#B. Internally Fueled Engines (Rockets)|chemical rockets]]''', has been used by far the most.  Part 2 lists the many known and speculative space propulsion methods by category. After listing the available concepts, the later sections will make some comparisons, and discuss how to select the best candidates for a given project. 
+
+Part of the reason chemical rockets have been used so much is "first mover advantage".  They were the first type of space propulsion to get extensive development.  They have the longest history, most optimization of design, and most familiarity, so they continue to be used.  That does not mean they are objectively the best solution for all time, and all circumstances.  Use of alternative methods, such as ion engines, is becoming more common in recent years.  When starting a new project, a survey of all possible technical choices is worth doing, before narrowing the list down to the best candidates, so that no good option is overlooked.  That is one reason the list in this book attempts to be comprehensive.  Additionally, no single method is optimal for all locations and mission requirements.
+
+
+===<span style="font-size:120%;line-height:2em;">Part 3: Engineering Methods</span>===
+<font size="4" face=Garamond>
+
+Part 3 considers what to do when you reach a location in space, and how to do it.  It starts by listing overall design factors which affect multiple parts of a project.  Having accounted for propulsion in Part 2, we then explore the other subsystems that make up a complete system item.  A large program or project will consist of multiple system items with different purposes and functions.  The remainder of Part 3 covers the engineering methods that are specific to these functions.  This includes obtaining resources, turning those resources into useful materials and parts, assembly and construction, verification and test, operation and maintenance, and finally recycling and disposal.  A particular method describes in general '''how''' a given task is done.  Once completed, an engineering design then implements that method in a specific device.
+
+The approach to date for most space projects has been to do all the design and construction on Earth, and then launch pre-built and pre-supplied hardware such as communication satellites or interplanetary probes as complete items.  That is adequate for smaller projects, but as larger ones are contemplated this method becomes unreasonably difficult and expensive.  The International Space Station is an example where it was too large to launch as one complete item, with supplies for its full operating life.  Instead it was assembled from smaller parts that each fit within a single rocket launch, and supplies are delivered periodically.  This reduced the payload per launch to a manageable size, but all the parts and supplies are still being brought from Earth.  
+
+As larger and more distant projects are considered, the transport requirements continue to go up, and this starts to become very expensive.  This is mainly due to the deep gravity well of the Earth, which requires a lot of energy to climb out of.  At some point it becomes more economical for a project to extract supplies and energy, and eventually do production, locally.  So we give a lot of attention to these tasks.  Although doing them in space is new, there is a long history of engineering on Earth which can serve as a starting point.
+
+===<span style="font-size:120%;line-height:2em;">Part 4: Complex Programs</span>===
+<font size="4" face=Garamond>
+
+Having looked in part 3 at the elements of a single system, Part 4 considers complex programs that are extended in time or involve multiple systems.  A key point to understand is no single system works best in isolation.  For example, a vehicle without a fuel supply can only travel once, with it's original fuel load.  A fuel extraction plant can do nothing without raw materials to work on.  Combining these, a vehicle can transport raw materials to the plant, and get fuel from the plant for later trips.  Then the combined system can operate indefinitely as long as a surplus of fuel is produced from each trip.  So to design a complete program, you need to look at all the component systems and how they interact.
+
+In addition to the parts of a program interacting at a given point in time, it can also evolve over time.  An analogy can be made to road systems on Earth.  They started as footpaths, and were upgraded over time.  The upgrades were not independent of the types of vehicles that used them, and the existing roads were used to deliver machinery and supplies to construct the upgraded roads.  So it will be with sensibly designed large space projects - using one set of vehicles and facilities to help build the next level of improvements.
+
+We give an extensive example of a complex program that both interacts with itself and grows over time.  This example serves several purposes.  One is to demonstrate by example how such a program is analyzed and defined.  Where alternative options are presented, we explain how to choose among them.  Another purpose is to serve as an actual proposed plan to implement in real life.  In that context you have to go past pure design questions and consider cost and other external factors that apply to a real project.  The final purpose is as a "class project" or "lab experiment" method of learning.  Things like working in a team are best learned by doing, and using new knowledge in a project helps fix it in memory.  Taking an unfinished part of our example to the next level of design detail can be used for this purpose.  Experience working on a realistic design can be useful if someone intends to work in this field in the future.
+
+Our proposed program is likely not the best one imaginable, but it is intended as a good starting point.  As individuals and teams make suggestions and apply engineering effort to it we hope it will improve over time, both as an actual project proposal, and as a teaching tool.
+
+
+===<span style="font-size:120%;line-height:2em;">Part 5: Design Studies</span>===
+<font size="4" face=Garamond>
+
+In this part we include or link to the details of design studies for elements of the program described in Part 4, and other studies done as examples.  This allows the narrative in the earlier parts of the book to flow without interruption by a mass of detail, and also serves as examples of the types of studies and reports which engineers are frequently asked to work on.  The full details showing the step by step assumptions and calculations are usually kept as part of a program's work history, and the results are distributed as reports for others to use.
+
+
+===<span style="font-size:120%;line-height:2em;">References and Sources</span>===
+<font size="4" face=Garamond>
+
+We provide links to references and additional data in two main ways.  References or sources that are specific to one method or idea are linked in the main body of the book.  In-line links are boldface and capitalized.  Additional references that cover multiple topics are included in this last section, along with appendices for data that does not fit in the main narrative.  The first appendix, for example, lists fictional transport methods which do not have any scientific or engineering support.  They are there for completeness, but as there are no practical prospects to use them, we put them in a separate section rather than the main body of the book.  Additional Appendices include reference data.
+</font>
+{{BookCat}}

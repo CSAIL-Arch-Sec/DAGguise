@@ -1,0 +1,273 @@
+In this chapter we walk through two simple Gtk2-Perl applications. We will introduce some terminology and demonstrate some of the basic concepts of GUI programming with Gtk2-Perl.
+
+
+== Hello World! ==
+
+<syntaxhighlight lang="perl">
+use strict;     
+use warnings;   
+
+use Gtk2;      
+Gtk2->init;
+
+my $window = Gtk2::Window->new;
+my $label  = Gtk2::Label->new('Hello World!');
+
+$window->signal_connect('delete-event' => sub { Gtk2->main_quit });
+
+$window->add($label);
+
+$label ->show;
+$window->show;
+
+Gtk2->main;
+</syntaxhighlight>
+
+
+
+=== Breaking it down ===
+
+
+<syntaxhighlight lang="perl">
+use strict;     
+use warnings; 
+</syntaxhighlight>
+
+Because if someone hasn't told you to include these at the top of every Perl program you write, I'm telling you now.
+<br/><br/>
+
+<syntaxhighlight lang="perl">
+use Gtk2;      
+</syntaxhighlight>
+
+The Gtk+ libraries are included under the Gtk2 namespace.
+<br/>
+
+<syntaxhighlight lang="perl">    
+Gtk2->init;
+</syntaxhighlight>
+
+This method needs to be called from every Gtk2 application. It initializes the library for use, setting up things things like the color map and connecting the default signal handlers. This method also checks the arguments that have been passed to your application on the command line.  The following arguments are accepted by all Gtk applications. They will be removed from the argument list, leaving the rest for your application to handle.
+
+    * --gtk-module
+    * --g-fatal-warnings
+    * --gtk-debug
+    * --gtk-no-debug
+    * --gdk-debug
+    * --gdk-no-debug
+    * --display
+    * --sync
+    * --name
+    * --class
+
+Instead of explicitly calling the init method yourself, you could call it implicitly like this.
+
+<syntaxhighlight lang="perl">
+use Gtk2 '-init';
+</syntaxhighlight>
+
+
+
+<syntaxhighlight lang="perl">
+my $window = Gtk2::Window->new('toplevel');
+my $label  = Gtk2::Label->new('Hello World!');
+</syntaxhighlight>
+
+These two lines create new <b>widgets</b>. A widget is an element of the GUI. Windows, labels, buttons, menus, images are all examples of widgets. In this example we can see that the constructor to the window widget takes an argument telling it to make a top-level window, and the label widget can take some text to display. Different widgets accept different parameters to the constructor. Check the Gtk documentation for more information on specific widgets.
+
+
+
+<syntaxhighlight lang="perl">
+$window->add($label);
+</syntaxhighlight>
+
+This line packs the label into the window. A window widget is an example of a container. A container widget is used to control how its children will be displayed on the screen. Container widgets have a variety of methods that can be used to add children. Here we are using a very basic example to display a label inside a window.
+
+
+
+<syntaxhighlight lang="perl">
+$label ->show;
+$window->show;
+</syntaxhighlight>
+Can you guess what these lines do? 
+
+
+
+<syntaxhighlight lang="perl">
+$window->show_all;
+</syntaxhighlight>
+We could have said this instead.
+
+
+
+<syntaxhighlight lang="perl">
+Gtk2->main;
+</syntaxhighlight>
+Every Gtk application has must have a call to the main method. This turns control over the Gtk main loop which waits for events to occur and then takes the proper action.
+
+
+
+<syntaxhighlight lang="perl">
+$window->signal_connect('delete-event' => sub { Gtk2->main_quit });
+</syntaxhighlight>
+
+This line isn't forgotten. Here we attach a callback to the 'delete-event' of the window. A callback is a reference to a function. In this example we use an anonymous subroutine, which interrupts Gtk's main loop and returns control back over to the program. Any code after the call to Gtk2->main will be executed, in our example the program just closes. Had we not connected this callback to the 'delete-event', the window would have closed but our program would still have been running in the main loop, and the user would have no easy way to exit the application. (You could kill it with Ctrl+c.)
+
+== What does this do? ==
+
+Before running this script or reading the explanation below, read through though the program and see if you can tell what it does. After you think you figured it out, try running it. What happens when you press Alt+s or Alt+x? What do you notice when you change the size of the window?
+
+
+<syntaxhighlight lang="perl">
+use warnings;
+use strict;
+
+use Glib qw(TRUE FALSE);
+use Gtk2 '-init';
+
+my $window = Gtk2::Window->new;
+$window->set_title('Quick Note');
+
+$window->signal_connect('delete-event'  => sub { $_[0]->destroy  });
+$window->signal_connect('destroy'       => sub { Gtk2->main_quit });
+
+
+my $hbox   = Gtk2::HBox->new;
+
+my $label  = Gtk2::Label->new('Note');
+
+my $entry  = Gtk2::Entry->new();
+
+my $save_btn = Gtk2::Button->new_with_mnemonic('_Save');
+$save_btn->signal_connect('clicked' => \&save_note, $entry);
+
+my $exit_btn = Gtk2::Button->new_with_mnemonic('E_xit');
+$exit_btn->signal_connect('clicked' => sub { $window->destroy });
+
+$hbox->pack_start($label   , FALSE, FALSE, 0);
+$hbox->pack_start($entry   , TRUE , TRUE , 0);
+$hbox->pack_start($save_btn, FALSE, FALSE, 0);
+$hbox->pack_start($exit_btn, FALSE, FALSE, 0);
+
+$window->add($hbox);
+
+$window->show_all;
+
+Gtk2->main;
+
+
+sub save_note {
+    my $save  = shift;
+    my $entry = shift;
+    my $text  = $entry->get_text;
+    $entry->set_text('');
+
+    open my $OUTFILE, '>>notes.txt'
+        or die "could not open notes.txt for appending";
+    flock $OUTFILE, 2;
+    print $OUTFILE join '|', time, $text . "\n";
+    close $OUTFILE;
+}
+
+</syntaxhighlight>
+
+
+
+=== What's new ===
+
+In this script, we introduced a few new widgets. The HBox is a container widget which we used to control the layout of the other widgets in the window.  The two others are the Entry and Button widgets, which allow the user to interact with the program.
+
+
+
+=== Breaking it Down ===
+
+
+<syntaxhighlight lang="perl">
+use Glib qw(TRUE FALSE);
+</syntaxhighlight>
+Glib is a dependency of Gtk. We include this line in our program to gain access to the constants TRUE and FALSE. You may simply use the Boolean values 1 and 0, but we will use TRUE and FALSE for clarity.
+
+
+
+<syntaxhighlight lang="perl">
+$window->signal_connect('delete-event'  => sub { $_[0]->destroy  });
+$window->signal_connect('destroy'       => sub { Gtk2->main_quit });
+</syntaxhighlight>
+You can see we took a slightly different approach when binding to our signals/events. Here we call the destroy method (which emits the 'destroy' signal) on the window when the 'delete-event' occurs. Connected to the 'destroy' signal, we have instructions to quit running in Gtk's main loop.  This approach was used because we want the program to exit when the application window is destroyed in any manner, not just when the user presses the close button in the window title bar. Later on we connect to the 'clicked' signal of $exit_btn to destroy the window, thereby exiting the application.
+
+Despite using the same method to connect, there '''is''' a distinction between an event and a signal (these signals are not the same as Unix system signals, nor implemented using them, but the terminology is very similar). There will be more on this later.
+
+
+
+<syntaxhighlight lang="perl">
+my $save_btn = Gtk2::Button->new_with_mnemonic('_Save');
+</syntaxhighlight>
+This creates a new Button widget that has the label '<u>S</u>ave'. Notice we used the method 'new_with_mnemonic' here. This sets up the keyboard shortcut Alt+s to fire the 'clicked' event on the button. The 'S' in 'Save' also becomes underlined to alert the end user to the existence of they keyboard shortcut.  
+
+Because we are using the Perl bindings, we could have gotten away with saying:
+<syntaxhighlight lang="perl">
+my $save_btn = Gtk2::Button->new('_Save');
+</syntaxhighlight>
+This is because the Perl bindings realize that we really want to be using the 'new_with_mnemonic' constructor that is supplied in the underlying C library.  Other widgets that also have 'new_with_mnemonic' or 'new_with_label' constructors usually allow you to do this as well. Many people still prefer to use the 'new_with_label' or 'new_with_mnemonic' constructors regardless.
+
+
+
+<syntaxhighlight lang="perl">
+$save_btn->signal_connect('clicked' => \&save_note, $entry)
+</syntaxhighlight>
+Here we use a reference to a subroutine instead of an anonymous one. The $entry will be passed in as an argument when the callback is executed.
+
+
+
+<syntaxhighlight lang="perl">
+my $exit_btn = Gtk2::Button->new_with_mnemonic('E_xit');
+$exit_btn->signal_connect('clicked' => sub { $window->destroy });
+</syntaxhighlight>
+It should now be clear to you what these two lines do.
+
+
+
+<syntaxhighlight lang="perl">
+$hbox->pack_start($label   , FALSE, FALSE, 0);
+$hbox->pack_start($entry   , TRUE , TRUE , 0);
+$hbox->pack_start($save_btn, FALSE, FALSE, 0);
+$hbox->pack_start($exit_btn, FALSE, FALSE, 0);
+</syntaxhighlight>
+These lines pack our interface widgets into the HBox widget. The syntax is:
+<syntaxhighlight lang="perl">
+$container->pack_start($widget, $expand, $fill, $padding)
+</syntaxhighlight>
+If the $expand argument is FALSE, the container will be shrunk tight around the widget. If the $expand argument is TRUE, the container will expand around the widget to fill the space its parent has allotted. When the $fill argument is TRUE, the extra space within the container is allocated to the child widget. When set to FALSE, the extra space is left as padding in the container widget. The $fill argument only has any effect when the $expand argument is TRUE as well.
+
+In our example, the $entry object is packed with the $expand and $fill parameters set to TRUE. When you change the size of the window, the box around the $entry expands, allowing the $entry to fill the remaining area. The other objects, which were packed with FALSE $expand and $fill values, will remain their natural sizes.
+
+
+
+<syntaxhighlight lang="perl">
+sub save_note {
+    my $save  = shift;
+    my $entry = shift;
+    my $text  = $entry->get_text;
+    $entry->set_text('');
+ 
+    open my $OUTFILE, '>>notes.txt'
+        or die "could not open notes.txt for appending";
+    flock $OUTFILE, 2;
+    print $OUTFILE join '|', time, $text . "\n";
+    close $OUTFILE;
+}
+</syntaxhighlight>
+If it is not clear to you what is happening here, it is suggested you prowl around [[Perl Programming]].
+
+== Summary ==
+
+Walking through two applications, we introduced some of the fundamental concepts of GUI programming with Gtk2-Perl.
+
+* Signals
+* Callbacks
+* Widgets
+* Packing
+
+The point of this chapter was simply to get you familiar with these ideas. We will be covering them in more detail over the next few chapters.
+
+{{BookCat}}

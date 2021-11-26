@@ -1,0 +1,236 @@
+== Inheritance (Derivation) ==
+As seen early when introducing the [[C++ Programming/Programming Languages/Paradigms|programming paradigms]], '''[[C++ Programming/Programming Languages/Paradigms/Inheritance|inheritance]]''' is a property that describes a relationship between two (or more) types or classes, of objects. It is a characteristic of OOP, and in C++, classes share this property.
+
+Derivation is the action of creating a new class using the inheritance property. It is possible to derive one class from another or even several ('''[[C++ Programming/Classes/Inheritance#Multiple inheritance|Multiple inheritance]]'''), like a tree we can call base class to the root and child class to any leaf; in any other case the parent/child relation will exist for each class derived from another.
+
+;Base Class
+A base class is a class that is created with the intention of deriving other classes from it.
+
+;Child Class
+A child class is a class that was derived from another, that will now be the parent class to it.
+
+;Parent Class
+A parent class is the closest class that we derived from to create the one we are referencing as the child class.
+
+As an example, suppose you are creating a game, something using different cars, and you need specific type of car for the policemen and another type for the player(s). Both car types share similar properties. The major difference (on this example case) would be that the policemen type would have sirens on top of their cars and the players' cars will not.
+
+One way of getting the cars for the policemen and the player ready is to create separate classes for policemen's car and for the player's car like this:
+
+<syntaxhighlight lang=cpp>
+class PlayerCar {
+   private:
+     int color;
+  
+   public:
+     void driveAtFullSpeed(int mph){
+       // code for moving the car ahead
+     }
+};
+
+class PoliceCar {
+private:
+  int color;
+  bool sirenOn;  // identifies whether the siren is on or not
+  bool inAction; // identifies whether the police is in action (following the player) or not
+  
+public:
+  bool isInAction(){
+    return this->inAction;
+  }
+
+  void driveAtFullSpeed(int mph){
+    // code for moving the car ahead
+  }
+  
+};
+</syntaxhighlight>
+
+and then creating separate objects for the two cars like this:
+
+<syntaxhighlight lang=cpp>
+PlayerCar player1;
+PoliceCar policemen1;
+</syntaxhighlight>
+
+So, except for one thing that you can easily notice: there are certain parts of code that are very similar (if not exactly the same) in the above two classes. In essence, you have to type in the same code at two different locations! And when you update your code to include methods (functions) for <code>handBrake()</code> and <code>pressHorn()</code>, you'll have to do that in both the classes above.
+
+Therefore, to escape this frustrating (and confusing) task of writing the same code at multiple locations in a single project, you use Inheritance.
+
+Now that you know what kind of problems Inheritance solves in C++, let us examine how to implement Inheritance in our programs. As its name suggests, Inheritance lets us create new classes which automatically have all the code from existing classes. It means that if there is a class called <code>MyClass</code>, a new class with the name <code>MyNewClass</code> can be created which will have all the code present inside the <code>MyClass</code> class. The following code segment shows it all:
+
+<syntaxhighlight lang=cpp>
+class MyClass {
+  protected:
+         int age;
+  public:
+         void sayAge(){
+             this->age = 20;
+             cout << age;
+         }
+};
+
+class MyNewClass : public MyClass {
+
+};
+
+int main() {
+  
+  MyNewClass *a = new MyNewClass();
+  a->sayAge();
+  
+  return 0;
+  
+}
+</syntaxhighlight>
+
+As you can see, using the colon ':' we can inherit a new class out of an existing one. It’s that simple! All the code inside the <code>MyClass</code> class is now available to the <code>MyNewClass</code> class. And if you are intelligent enough, you can already see the advantages it provides. If you are like me (i.e. not too intelligent), you can see the following code segment to know what I mean:
+
+<syntaxhighlight lang=cpp>
+class Car {
+  protected:
+         int color;
+         int currentSpeed;
+         int maxSpeed;
+  public:
+         void applyHandBrake(){
+             this->currentSpeed = 0;
+         }
+         void pressHorn(){
+             cout << "Teeeeeeeeeeeeent"; // funny noise for a horn
+         }
+         void driveAtFullSpeed(int mph){
+              // code for moving the car ahead;
+         }
+};
+
+class PlayerCar : public Car {
+
+};
+
+class PoliceCar : public Car {
+  private:
+         bool sirenOn;  // identifies whether the siren is on or not
+         bool inAction; // identifies whether the police is in action (following the player) or not
+  public:
+         bool isInAction(){
+             return this->inAction;
+         }
+};
+</syntaxhighlight>
+
+In the code above, the two newly created classes ''PlayerCar'' and ''PoliceCar'' have been inherited from the ''Car'' class. Therefore, all the methods and properties (variables) from the ''Car'' class are available to the newly created classes for the player's car and the policemen's car. Technically speaking, in C++, the ''Car'' class in this case is our "Base Class" since this is the class which the other two classes are based on (or inherit from).
+
+Just one more thing to note here is the keyword ''protected'' instead of the usual ''private'' keyword. That’s no big deal: We use ''protected'' when we want to make sure that the variables we define in our base class should be available in the classes that inherit from that base class. If you use ''private'' in the class definition of the ''Car'' class, you will not be able to inherit those variables inside your inherited classes.
+
+There are three types of class inheritance: public, private and protected. We use the keyword ''public'' to implement public inheritance. The classes who inherit with the keyword public from a base class, inherit all the public members as public members, the protected data is inherited as protected data and the private data is inherited but it cannot be accessed directly by the class.
+
+The following example shows the class Circle that inherits "publicly" from the base class Form:
+
+<syntaxhighlight lang=cpp>
+class Form {
+private:
+  double area;
+
+public:
+  int color;
+
+  double getArea(){
+    return this->area;
+  }
+
+  void setArea(double area){
+    this->area = area;
+  }
+
+};
+
+class Circle : public Form {
+public:
+  double getRatio() {
+    double a;
+    a = getArea();
+    return sqrt(a / 2 * 3.14);
+  }
+
+  void setRatio(double diameter) {
+    setArea( pow(diameter * 0.5, 2) * 3.14 );
+  }
+
+  bool isDark() {
+    return (color > 10);
+  }
+
+};
+</syntaxhighlight>
+
+The new class Circle inherits the attribute area from the base class Form (the attribute area is implicitly an attribute of the class Circle), but it cannot access it directly. It does so through the functions getArea and setArea (that are public in the base class and remain public in the derived class). The color attribute, however, is inherited as a public attribute, and the class can access it directly.
+
+The following table indicates how the attributes are inherited in the three different types of inheritance:
+
+{| border="1px black" cellspacing="0" align="center" cellpadding"5" style="background-color:#ffe0ff;"
+|+ Access specifiers in the base class
+|- style="text-align:center;"
+ |
+ | private
+ | protected
+ | public
+|-
+ | private inheritance
+ | style="background-color:#f3c1c6;" | The member is inaccessible.
+ | style="background-color:#eeefa7;" | The member is private.
+ | style="background-color:#eeefa7;" | The member is private.
+|-
+ | protected inheritance
+ | style="background-color:#f3c1c6;" | The member is inaccessible.
+ | style="background-color:#b9edc5;" | The member is protected.
+ | style="background-color:#b9edc5;" | The member is protected.
+|-
+ | public inheritance
+ | style="background-color:#f3c1c6;" | The member is inaccessible.
+ | style="background-color:#b9edc5;" | The member is protected.
+ | style="background-color:#a7dfef;" | The member is public.
+|}
+
+As the table above shows, protected members are inherited as protected methods in public inheritance. Therefore, we should use the protected label whenever we want to declare a method inaccessible outside the class and not to lose access to it in derived classes. However, losing accessibility can be useful sometimes, because we are encapsulating details in the base class.
+
+Let us imagine that we have a class with a very complex method "m" that invokes many auxiliary methods declared as private in the class. If we derive a class from it, we should not bother about those methods because they are inaccessible in the derived class. If a different programmer is in charge of the design of the derived class, allowing access to those methods could be the cause of errors and confusion. So, it is a good idea to avoid the protected label whenever we can have a design with the same result with the private label.
+
+Now one more additional "syntax trick". If the base / parent class has a constructor which requires parameters, we are in trouble, you may think. Of course calling constructors directly is forbidden, but we have a special syntax for this purpose. The way, is just so that when you define the constructor of the delivered class, you call the parent constructor like this:
+<syntaxhighlight lang=cpp>
+ChildClass::ChildClass(int a, int b) : ParentClass(a, b)
+{
+  //Child constructor here
+}
+</syntaxhighlight>
+
+{{NOTE|Avoid referencing the child class internals inside the parent constructor call, there are no guarantees regarding class creation order and the parent have still to be initialized. A workaround is to create an "initiator" method in the parent so any call to it will offer those guarantees. Not the best solution and often an indication of an error in design but sometimes a necessity.}}
+
+=== Multiple inheritance ===
+'''[[C++ Programming/Programming Languages/Paradigms/Inheritance/Multiple Inheritance|Multiple inheritance]]''' allows the construction of classes that inherit from more than one type or class. This contrasts with single inheritance, where a class will only inherit from one type or class.
+
+Multiple inheritance can cause some confusing situations, and is much more complex than single inheritance, so there is some debate over whether or not its benefits outweigh its risks. Multiple inheritance has been a touchy issue for many years, with opponents pointing to its increased complexity and ambiguity in situations such as the "[[w:diamond problem|diamond problem]]". Most modern OOP languages do not allow multiple inheritance.
+
+The declared order of derivation is relevant for determining the order of default initialization by constructors and destructors cleanup.
+
+<syntaxhighlight lang=cpp>
+class One
+{
+  // class internals
+};
+
+class Two
+{
+  // class internals
+};
+
+class MultipleInheritance : public One, public Two
+{
+  // class internals
+};
+</syntaxhighlight>
+
+{{NOTE|Remember that when creating classes that will be derived from, the destructor may require further considerations.}}
+
+{{BookCat|filing=deep}}
+
+{{BookCat}}

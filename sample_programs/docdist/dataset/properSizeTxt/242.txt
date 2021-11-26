@@ -1,0 +1,132 @@
+{{Reverse Engineering Chapter}}
+
+This page is about cracking (recovering) passwords on Windows XP machines, which is a computationally difficult process. If you just need to set a new password (but without need to recover the old one), then this guide is not for you. For that, you can use, for example, the free-software tool [http://pogostick.net/~pnh/ntpasswd/ Offline NT Password & Registry Editor] or other similar programs.
+
+{{wikipedia|Password cracking}}
+
+== Background ==
+
+The Windows XP passwords are [[w:Cryptographic hash function|hashed]] using [[w:LM hash|LM hash]] and [[w:NTLM|NTLM hash]] (passwords of 14 or less characters) or NTLM only (passwords of 15 or more characters). The hashes are stored in <code>C:\WINDOWS\system32\config\SAM</code>. The [[w:Security Account Manager|SAM]] file is encrypted using <code>C:\WINDOWS\system32\config\system</code> and is locked when Windows is running. This file is a registry hive which is mounted to <code>HKLM\SAM</code> when windows is running. The SYSTEM account is the only account which can read this part of the registry. To get the passwords, you need to shutdown Windows, [[w:decrypt|decrypt]] the SAM file, and then crack the hashes. If everything goes well, you'll have the passwords in 15 minutes.
+
+The hashes can be also obtained from running system using software like [[w:pwdump|pwdump]]. However, it requires to be run under an account with administrator privileges.
+
+==Three ways to recover Windows Password==
+
+Usually, we can recover Windows admin password in two traditional ways. The first is to change Screen password with another admin account; the second is to recover the previous password with the windows password reset disk that had been created before you forgot the password. Take Windows XP for example, 
+
+*At the Windows XP login prompt when the password is entered incorrectly click the reset button in the login failed window. 
+
+*Insert the password reset diskette into the computer and click Next. 
+
+*If the correct diskette Windows XP will open a window prompting for the new password you wish to use.
+
+However, we often ignore the importance of security until we have been locked out of computer. Fortunately, there is still the last way that can unlock your computer without reinstalling - erase Windows password with Windows password reset CD, which can recover admin password for Windows 7/XP/Vista/NT/2000/2003.... Take Windows Password unlocker for example, followings are the steps to create the reset CD
+
+*Download Windows Password Unlocker from Password Unlocker Official site 
+
+*Decompress the Windows password unlocker and note that there is an .ISO image file. Burn the image file onto an blank CD with the burner freely supported by Password Unlocker. 
+
+*Insert the newly created CD into the locked computer and re-boot it from the CD drive. 
+
+*After launched the CD, a window pop up with all your account names(if you have several accounts) select one of the accounts that you have forgotten its password to reset it.
+
+==Detailed Instructions for LoginRecovery.com Service==
+*Go to http://loginrecovery.com/ and from the home page click the option to download either the floppy disk image or CD image.  If you use the floppy disk image, insert a blank floppy disk into your computer, run the program and a bootable floppy will be created.  If you use the CD version, you will need to manually burn the ISO image to a CD, using software which specifically burns ISO images
+
+*Insert the floppy disk or CD into the target computer from which you wish to extract the passwords.  Then boot the computer.  You may need to alter the BIOS settings to ensure the floppy drive or CD is booted from.
+
+*If you used the floppy drive some messages will briefly appear on the screen and then the computer will shutdown.  On the floppy disk will be a newly created file called "upload.txt" which will contain the encrypted passwords.  If you used the CD version, the encrypted passwords will be shown on the screen; write them down into a text file.
+
+*If you wish to wait up to 48 hours or pay to get your passwords, then you can upload the file onto the LoginRecovery site. Otherwise, continue reading.
+
+*The file will consist of several 2-line entries, one for each account. Copy the 2 lines for the account you want and paste it into [http://utilitymill.com/utility/LoginRecovery_Decode this utility] to decode it into the "pwdump" format.
+
+*Use any of the tools in the following section to decode the pwdump hash.
+
+== Top-Password.com ==
+How to '''Recover Lost Microsoft Windows XP Administrator Password'''
+**<u>Use another accounts with administrator rights</u>
+If there is still another user account which you remember has administrative privileges, you can opt it for Windows XP password recovery.
+Restart system and boot the system into Safe Mode. Click on the icon
+for the administrators account at the Account Log on Screen. Once system has booted to the desktop, you reset password with following steps.
+*A. Start -> Control Panel -> Administrative Tools -> Computer Management.
+*B. Double click Local Users and Groups -> folder Users.
+*C. Right click the account user name which password was lost, then click Set Password.
+*D. Reset password - keep New Password and Confirm Password blank.
+*E. After finished, restart PC and login.
+
+**<u>Burn a CD/DVD to recover lost Windows XP password</u>
+With professional password recovery software, you just need burn an ISO image file to the CD/DVD on an accessible PC.
+
+=== Ophcrack demo ===
+The easiest site to use is the online demo for Ophcrack.
+
+*Use PWDump or other password extraction tool to extract the passwords from the target computer. (Note: In order to work, it must be run under an Administrator account )
+
+*Retain only the part with the two hashes and the colon in between:
+ CC5E9ACBAD1B25C9AAD3B435B51404EE:996E6760CDDD8815A2C24A110CF040FB
+*Copy the 65 character result from the last step, goto http://www.objectif-securite.ch/en/ophcrack.php, scroll down, and paste it into the box labeled "hash:". Press the submit hash button. '''Wait patiently'''
+*The password is
+ mullet
+
+If your password is not alphanumeric (indicated by 7 dots in part of the password, or if it says "Not found"), then you will have to use one of the following more powerful sites that contain rainbow tables for symbols as well:
+
+=== Plain-Text.info ===
+*Use PWDump or other password extraction tool to extract the passwords from the target computer. (Note: In order to work, it must be run under an Administrator account )
+
+*Edit the password hash to the pwdump format (add the colon-delimited username and ID number fields in the front, and 3 colons at the end):
+ Administrator:500:CC5E9ACBAD1B25C9AAD3B435B51404EE:996E6760CDDD8815A2C24A110CF040FB:::
+
+*Go to http://plain-text.info/, click "Add Hashes", enter the hashes in the box, select "lm" as the algorithm, complete the CAPTCHA, and click submit
+*They only crack 2 hashes every 15 minutes, so you may have to wait
+
+*After a few minutes/hours, come back, go to "Search", type in your hash (just the LM part), and see if it is cracked
+
+*Read their FAQ for more info.
+
+=== OnlineHashCrack.com ===
+*Use PWDump or other password extraction tool to extract the passwords from the target computer.
+
+*Go to http://www.OnlineHashCrack.com and enter the LM or NTLM hash (part before the colon) into the query field and click the "Search" button.
+*Check the status page occasionally to see if they have been cracked.
+*If the hash is not in their database, the rainbow tables will be used to find it.
+
+== Notes ==
+*If the information retrieved from the pwdump consists of an empty first part, then the LM hash is not stored.  This means that the password is blank, in which case it would look like this:
+ Administrator:500:0:
+ _31,D6,CF,E0,D1,6A,E9,31,B7,3C,59,D7,E0,C0,89,C0,xxxxx:::
+If it says anything different, then they implemented better security and force you to crack the NTLM hash, which is much more difficult and out of the scope of this guide.
+*This only works if the password is 14 characters or shorter
+*If the password in Windows 2000/XP/2003 is longer than 14 characters, it will be shortened to two hashes of length seven characters each
+*An alternative, which uses the same method of comparing known hashes against unknown is called [[w:RainbowCrack|RainbowCrack]], available at http://www.antsight.com/zsl/rainbowcrack/ although this program uses [[w:rainbow table|Rainbow Table]]s that can be in excess of 64 Gb; these tables can be obtained at http://rainbowtables.shmoo.com/
+*A comprehensive project of comparing known hashes against an unknown is at http://www.rainbowcrack.com/ however it requires that you submit a Rainbow Table before you can gain access to their server
+
+= Defense against attack =
+*Have a password longer than 14 characters.
+*http://support.microsoft.com/kb/299656/ - prevent Windows from storing LM hashes
+
+= Mac OS X 10.3 =
+
+Mac OS X 10.3 (Panther) also stores shadowed LM+NTLM hashes for each user.  They can be cracked in the same way as the hashes for Windows above
+
+*First find the "generateduid" for the user you want with the command 
+ $ '''niutil -readprop . /users/<username> generateduid'''
+ 70902C33-AC79-11DA-AFDF-000A95CD9AF8
+
+*The hashes are stored in the file <tt>/var/db/shadow/hash/<generateduid></tt>.  The file is 104 characters long, consisting of the 64-character NTLM+LM hashes and the 40-character SHA1 hash.  To retrieve the NTLM+LM hashes, you can run this command as an administrator for example
+ $ '''sudo cut -c1-64 /var/db/shadow/hash/70902C33-AC79-11DA-AFDF-000A95CD9AF8'''
+ 996E6760CDDD8815A2C24A110CF040FBCC5E9ACBAD1B25C9AAD3B435B51404EE
+
+*The hashes are stored in the reverse order as the pwdump format (NTLM first instead of LM first), so you need to switch the 32-character halves and insert a colon between them
+ CC5E9ACBAD1B25C9AAD3B435B51404EE:996E6760CDDD8815A2C24A110CF040FB
+
+*Then follow the instructions for Windows passwords
+
+= Mac OS X 10.4 =
+
+Mac OS X 10.4 (Tiger) improves the security by only storing LM+NTLM hashes for users who enable Windows Sharing for their account; and when they do enable it, it asks them to enter their password with a warning that their password is stored in a less secure format.  However, for those users with Windows Sharing enabled, the above method will still work.  The shadow file format is a little different, but the LM+NTLM hashes are still the first 64 characters.  If the hashes are not stored, you will get all 0's when you try to retrieve the hashes.
+
+= Samba passwords =
+
+In older versions of Samba, the password hashes for Samba users were stored in the file /etc/smbpasswd (location may vary, only root has access) and are in similar format to Windows password hashes discussed above.  In newer versions of Samba, run the following as root to get the same information:
+ pdbedit -L -w

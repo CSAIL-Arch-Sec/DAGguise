@@ -1,0 +1,239 @@
+In statics and mechanics, units can be expressed in terms of three basic dimensions: length, mass, and time.  All other units are created from combinations of these three basic units.   
+
+Force can be considered a fourth basic unit.  Known as a derived measurement, it comes from Newton's 2nd Law: 
+
+<math>\ \ \!\mathrm{F} = \mathrm{m}\ \mathrm{a}\,\!</math> 
+
+Here, force is defined as the amount of mass multiplied by the acceleration (length per second squared) that the mass achieves. 
+
+
+
+== International System of Units (SI Units) ==
+In the SI system of units, the three specified base units are the units of length, mass and time.  A fourth unit, that of force, is derived from the base units.
+
+* The unit of length is the meter (m).
+* The unit of mass is the kilogram (kg).
+* The unit of time is the second (s).
+* The unit of force is the newton (N), where:
+
+<math>\ \!\mathrm{N} = 1\ \!\mathrm{kg}\ \frac{\mathrm{m}}{\mathrm{s}^2}\,\!</math>
+
+
+
+When working with units that are either large multiples or small fractions of these units, prefixes are often used in order to keep the numbers manageable.  For example,
+
+<math>1000\ \!\mathrm{m} = 1\ \!\mathrm{km}</math>
+
+The following table gives a more detailed description of prefixes.  
+
+{| border="1" cellpadding="2"
+!width="50"|Prefix
+!width="50"|Abbrev.
+!width="50"|Factor
+|-
+|peta- || P || 10<sup>15</sup>
+|-
+|tera- || T || 10<sup>12</sup>
+|-
+|giga- || G || 10<sup>9</sup>
+|-
+|mega- || M || 10<sup>6</sup>
+|-
+|kilo- || k || 10<sup>3</sup>
+|-
+|hecto- || h || 10<sup>2</sup>
+|-
+|deca- || da || 10<sup>1</sup>
+|-
+|deci- || d || 10<sup>-1</sup>
+|-
+|centi- || c || 10<sup>-2</sup>
+|-
+|milli- || m || 10<sup>-3</sup>
+|-
+|micro- || μ || 10<sup>-6</sup>
+|-
+|nano- || n || 10<sup>-9</sup>
+|-
+|pico- || p || 10<sup>-12</sup>
+|-
+|femto- || f || 10<sup>-15</sup>
+|-
+|atto- || a || 10<sup>-18</sup>
+|}
+
+All other measurements are derived using variations of these four basic units and  the listed prefixes.
+
+Common SI units are listed in the following table.
+
+{| border="1" cellpadding="2"
+!width="200"|Value
+!width="200"|Units (long)
+!width="200"|Units (abbrev.)
+|-
+|Acceleration || meter per second squared || <center><math>\frac{\mathrm{m}}{\mathrm{s}^2}</math></center>
+|-
+|Angle || radian || <center><math>\!\mathrm{rad}</math></center>
+|-
+|Angular Acceleration || radian per second squared || <center><math>\frac{\mathrm{rad}}{\mathrm{s}^2}</math></center>
+|-
+|Angular Velocity || radian per second || <center><math>\frac{\mathrm{rad}}{\mathrm{s}}</math></center>
+|-
+|Area || square meter || <center><math>\!\mathrm{m}^2</math></center>
+|-
+|Density || kilogram per cubic meter || <center><math>\frac{\mathrm{kg}}{\mathrm{m}^3}</math></center>
+|-
+|Energy || joule || <center><math>\!\mathrm{J}</math> or <math>\!\mathrm{Nm}</math>
+|-
+|Force || newton || <center><math>\!\mathrm{N}</math>
+|-
+|Frequency || hertz || <center><math>\!\mathrm{Hz}</math> or <math>\frac{1}{\mathrm{s}}</math></center>
+|-
+|Impulse || newton-second || <center><math>\!\mathrm{Ns}</math> or <math>\!\mathrm{kg}\frac{\mathrm{m}}{\mathrm{s}}</math> </center>
+|-
+|Length || meter || <center><math>\!\mathrm{m}</math></center>
+|-
+|Mass || kilogram || <center><math>\!\mathrm{kg}</math></center>
+|-
+|Force Moment || newton-meter || <center><math>\!\mathrm{Nm}</math></center>
+|-
+|Power || watt || <center><math>\!\mathrm{W}</math> or <math>\frac{\mathrm{J}}{\mathrm{s}}</math></center>
+|-
+|Pressure || pascal || <center><math>\!\mathrm{Pa}</math> or <math>\frac{\mathrm{N}}{\mathrm{m}^2}</math></center> 
+|-
+|Stress || pascal || <center><math>\!\mathrm{Pa}</math> or <math>\frac{\mathrm{N}}{\mathrm{m}^2}</math></center> 
+|-
+|Time || second || <center><math>\!\mathrm{s}</math></center>
+|-
+|Velocity || meter per second || <center><math>\frac{\mathrm{m}}{\mathrm{s}}</math></center>
+|-
+|Volume (solids) || cubic meter || <center><math>\!\mathrm{m}^3</math></center>
+|-
+|Volume (liquids) || litre || <center><math>\!\mathrm{L}</math> or <math>\!\mathrm{dm}^3</math></center>
+|-
+|Work || joule || <center><math>\!\mathrm{J}</math> or <math>\!\mathrm{Nm}</math></center>
+
+|}
+
+
+== British and American Customary Units ==
+While the International System of units is in common use throughout much of the world, engineers may still encounter British or American units.  Therefore, it is a good idea to have some familiarity with them.
+
+While the basic units in International System of units are length, mass, and time--with the unit of force defined in terms of these--in the British and American units, the base units are length, force and time, with mass being defined in terms of these.
+
+* The unit of length is the foot (ft).
+* The unit of force is the pound (lb), which is occasionally called pound-force (lbf).
+* The unit of time is the second (s).
+
+
+The unit of mass in British and American units is the slug.  It is defined as the amount of mass accelerated at a rate of 1 ft/s^2 when 1 pound of force is applied.  
+
+<math>1\ \!\mathrm{slug} = 1\ \!\mathrm{lb}_f\ \frac{\mathrm{ft}}{\mathrm{s}^2}</math>
+
+Occasionally, mass is described as a pound-mass. It is equal to the mass required to move one lb of weight when acted upon by the standard acceleration of gravity.  On Earth, the standard acceleration of gravity is about 32.2 ft/s^2, this means that one slug is 32.2 lb(mass).
+
+<math>1\ \!\mathrm{slug} = 32.2\ \!\mathrm{lb_m}</math>
+
+== Conversion from one System of Units to Another ==
+While we can do all our calculations in one set of units or the other, as long as we are consistent, there are times we will want to convert from one system to the other.
+
+* Unit of Length   1 ft = 0.3048 m
+* Unit of Force    1 lb = 4.448 N
+* Unit of Mass     1 slug = 1 lb-s^2/ft = 14.59 kg
+
+As mentioned earlier, the second is the same in both systems of units and and so no conversion is required.
+
+Common British and American Customary units and their SI equivalents are listed in the table below.
+
+{| border="1" cellpadding="2"
+!width="50"|Value
+!width="50"|Conversion
+|-
+|Acceleration || <center><math>1\ \frac{\!\mathrm{ft}}{\!\mathrm{s}^2} = 0.3048\ \frac{\!\mathrm{m}}{\!\mathrm{s}^2}</math></center>
+|-
+|Area || <center><math>1\ \!\mathrm{ft}^2 = 0.0929\ \!\mathrm{m}^2</math></center>
+|-
+|Energy || <center><math>1\ \!\mathrm{ft}\ \!\mathrm{lb} = 1.356\ \!\mathrm{J} </math></center>
+|-
+|Force || <center><math>1\ \!\mathrm{lb} = 4.448\ \!\mathrm{N}</math></center>
+|-
+|Impulse || <center><math>1\ \!\mathrm{lb}\ \!\mathrm{s} = 4.448\ \!\mathrm{N}\ \!\mathrm{s}</math></center>
+|-
+|Length || <center><math>1\ \!\mathrm{ft} = 0.3048\ \!\mathrm{m}</math></center>
+|-
+|       || <center><math>1\ \!\mathrm{mile} = 1.609\ \!\mathrm{km}</math></center>
+|-
+|Mass || <center><math>1\ \!\mathrm{lb}\ \!\mathrm{mass} = 0.4536\ \!\mathrm{kg}</math></center>
+|-
+|     || <center><math>1\ \!\mathrm{slug} = 14.59\ \!\mathrm{kg}</math></center>
+|-
+|     || <center><math>1\ \!\mathrm{ton} = 907.2\ \!\mathrm{kg}</math></center>
+|-
+|Moment || <center><math>1\ \!\mathrm{lb}\ \!\mathrm{ft} = 1.356\ \!\mathrm{N}\ \!\mathrm{m}</math></center>
+|-
+|Power || <center><math>1\ \!\mathrm{ft}\ \frac{\!\mathrm{lb}}{\!\mathrm{s}} = 1.356\ \!\mathrm{W}</math></center>
+|-
+|      || <center><math>1\ \!\mathrm{hp} = 745.7\ \!\mathrm{W}</math></center>
+|-
+|Pressure || <center><math>1\ \!\mathrm{psi} = 6.895\ \!\mathrm{kPa}</math></center>
+|-
+|Stress || <center><math>1\ \!\mathrm{psi} = 6.895\ \!\mathrm{kPa}</math></center>
+|-
+|Velocity || <center><math>1\ \frac{\!\mathrm{ft}}{\!\mathrm{s}} = 0.3048\ \frac{\!\mathrm{m}}{\!\mathrm{s}}</math></center>
+|-
+|         || <center><math>1\ \!\mathrm{mph} = 1.609\ \frac{\!\mathrm{km}}{\!\mathrm{hr}}</math></center>
+|-
+|Volume (solids) || <center><math>1\ \!\mathrm{ft}^3 = 0.02832\ \!\mathrm{m}^3</math></center>
+|-
+|Volume (liquids) || <center><math>1\ \!\mathrm{gal} = 3.785\ \!\mathrm{L}</math></center>
+|-
+|Work || <center><math>1\ \!\mathrm{ft lb} = 1.356\ \!\mathrm{J}</math></center>
+|}
+
+=== Example ===
+According to the official National Hockey League rulebook, "The official size of the (hockey) rink shall be two hundred feet (200') long and eighty-five feet (85') wide."  What are the dimensions in SI units?
+
+==== Solution ====
+:From the above table:
+
+:<math> 1\ \mathrm{ft} = 0.3048\ \mathrm{m} </math>
+
+:Using dimensional analysis we find the length and width in meters.
+
+:<math>l\ =\ 200\ \mathrm{ft}\ \cdot\ \frac{0.3048\ \mathrm{m}}{1\ \mathrm{ft}} =\ 60.96\ \mathrm{m} </math>
+
+:<math>w\ =\ 85\ \mathrm{ft}\ \cdot\ \frac{0.3048\ \mathrm{m}}{1\ \mathrm{ft}} =\ 25.96\ \mathrm{m} </math>
+
+== Significant Digits ==
+When we talk about measurements and calculations, we need to understand the degree of accuracy involved.
+
+The accuracy of our calculations cannot be more precise than the accuracy of our measurements.
+
+Suppose we are provided with a distance to an accuracy of one decimal place, say 9.8 m.  We are told an object travels this distance in 0.81 seconds.  It does not make sense to say the object is traveling at a velocity of 12.11111111 m/s, that is, to eight decimal places.
+
+This is because neither the distance nor the time taken to travel this distance is specified to this degree of precision.  In fact, they are both specified to an accuracy of only two significant digits.
+
+For reasons we will discuss shortly, we can say the object is traveling at a velocity of 12.1 m/s.
+
+For many calculations in statics, we work to at most three significant digits.
+
+=== Rules for Finding the Correct Number of Significant Digits ===
+In general, when making a calculation, the answer can not have more significant digits than any of the numbers used in calculating it.  The number of significant digits in an answer is equal to the minimum number of significant digits used in the calculation.
+
+Here are rules that will help outline whether or not a digit is significant or not.
+
+# Non-zero numbers are always significant.
+# Zeros placed in between two other digits are significant.
+# Zeros placed at the end of a number, '''after a decimal''', are significant.
+
+== References ==
+1 - Both the principal SI units used in mechanics and the US Customary units and their SI equivalents are taken from Beer, Ferdinand P. and El Russell Johnston, Jr. "Vector Mechanics For Engineers, Statics" 3rd edition, McGraw Hill c 1977.  It should be possible to find similar tables in other texts on this subject.
+
+2 - Rules for taking significant digits are taken from [http://www.physics.uoguelph.ca/tutorials/sig_fig/SIG_dig.htm www.physics.uoguelph.ca]
+
+* [http://AnalysisChamp.com/eex/ExpEval.asp Advanced Expression Evaluator]
+* [http://AnalysisChamp.com/eex/ExpEvalCV.asp Unit Converter and Calculator]
+
+{{TODO|I would like to add angle as a fundamental dimension.  Define it as the ratio of the arc length to radius, in radians.  We need this for rotational kinetics.}}
+
+{{BookCat}}

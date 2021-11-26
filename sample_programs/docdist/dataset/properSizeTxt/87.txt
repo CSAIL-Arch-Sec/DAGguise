@@ -1,0 +1,273 @@
+== Motivation ==
+You would like to add map navigation to your XRX application.
+
+Although map controls were not defined within the original XForms specification, they can be added by using a bit of JavaScript.
+
+== Method ==
+We will use three frameworks.
+# '''XSLTForms''' - that enables the model, controls and bindings
+# '''JQuery''' -  JQuery UI, JQuery layout - for the user interface.  This includes the controls to do pans north, south, east, west 
+# '''OpenLayers ''' - for the map navigation, pan and zoom functions
+The XForms model will contain the following:
+
+# A default instance that contains a search query with the min and max longitude and latitude (default).
+# A place to store the response to the query (response).
+# A locate instance (locate)
+# A few binding statements
+# A submission to get the new map data from the openmap database
+
+== Sample User Interface ==
+This example has a simple map user interface control that allows for panning to the North/South/East/West and zoom and zoom out.
+
+[[Image:map-navigation-user-interface-control-screenshot.png]]
+
+This user interface uses a JQuery object that is associated with XForms input user interface controls.
+
+== Sample Model Source ==
+The following is stored in the XForms model:
+
+Note that the following namespaces are used in this example:
+<syntaxhighlight lang="xml">
+xmlns:geo="http://schematronic.ru/geo"
+xmlns:param="http://schematronic.ru/param"
+xmlns:ev="http://www.w3.org/2001/xml-events" 
+</syntaxhighlight>
+
+<syntaxhighlight lang="xml">
+<xf:model>
+   <!-- this holds the parameters for the outbound search query. -->
+   <xf:instance id="default" xmlns="http://schematronic.ru/geo">
+       <geo:search>
+           <param:query/>
+           <!-- variables for the min and max longitude and latitude -->
+           <param:min-lon/>
+           <param:min-lat/>
+           <param:max-lon/>
+           <param:max-lat/>
+        </geo:search>
+    </xf:instance>
+
+    <!-- this holds the search results -->
+    <xf:instance xmlns="" id="response">
+       <response/>
+    </xf:instance>
+
+    <xf:instance id="locate">
+       <eval>
+           javascript:g.locate(<lon></lon>, <lat></lat>, "<icon></icon>")
+       </eval>
+    </xf:instance>
+
+    <!-- These binds associate an id with a variable in the search form and a calculation -->
+    <xf:bind id="query" nodeset="instance('default')/param:query"/>
+    <xf:bind id="min-lon" nodeset="instance('default')/param:min-lon" calculate="min-lon()"/>
+    <xf:bind id="min-lat" nodeset="instance('default')/param:min-lat" calculate="min-lat()"/>
+    <xf:bind id="max-lon" nodeset="instance('default')/param:max-lon" calculate="max-lon()"/>
+    <xf:bind id="max-lat" nodeset="instance('default')/param:max-lat" calculate="max-lat()"/>
+    <!-- These binds associate an ID with 
+    <xf:bind id="lon" nodeset="instance('locate')/lon"/>
+    <xf:bind id="lat" nodeset="instance('locate')/lat"/>
+    <xf:bind id="icon" nodeset="instance('locate')/icon"/>
+
+    <!-- When the user selects any of the navigation controls, the following does a POST to the server. -->
+    <!-- Note that the response to the search is places in the "response instance -->
+     <xf:submission id="do-search" method="post" ref="instance('default')" replace="instance" instance="response" resource="/gate">
+         <xf:load 
+            ev:event="xforms-submit-done" 
+            resource="javascript:showResult()"/>
+     </xf:submission>
+</xf:model>
+</syntaxhighlight>
+
+== JavaScript Imports ==
+The Javascript libraries will come from the openstreemap.org site.  We will also use some JQuery user interface controls.
+
+Here are the static JavaScript files you will need to add.
+=== Importing Static JavaScript Libraries ===
+<syntaxhighlight lang="xml">
+   <script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
+   <script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+   <script type="text/javascript" src="/share/geo.js"></script>
+   <script type="text/javascript" src="/share/jquery.js"></script>
+   <script type="text/javascript" src="/share/jquery-ui.js"></script>
+   <script type="text/javascript" src="/share/jquery-layout.js"></script>
+</syntaxhighlight>
+
+== Inline JavaScript Data ==
+In addition to the above, the following JavaScript data must be used.
+<syntaxhighlight lang="javascript">
+<script type="text/javascript">
+    var g;
+    function map(){
+       var lat  = 51.30505;
+       var lon  = 37.85331;
+       var zoom = 12;
+       g = geo("map", lon, lat, zoom);            
+    }
+    var isDebug = false;                   
+    var layout;
+  
+    function showResult (){
+                    layout.open("west");
+    }      
+    jQuery(function (){      
+        jQuery("#search input").addClass("ui-state-default ui-corner-left");
+        jQuery("#search button").addClass("ui-button ui-state-default ui-corner-right");
+        layout = jQuery("body").layout({
+              north : {
+                            resizable          : false,
+                            slidable           : false,
+                            closable           : false,
+                            spacing_open       : 0,
+                            spacing_closed     : 0,
+                            size               : 40
+                        },
+              south : {
+                            size               : 100,
+                            resizable          : true,
+                            slidable           : true,
+                            closable           : true,
+                            initHidden         : !isDebug
+                        },
+              west : {
+                            size               : 300,
+                            minSize            : 200,
+                            maxSize            : 400,
+                            resizable          : true,
+                            slidable           : true,
+                            closable           : true,
+                            initHidden         : true
+                        }
+                        
+                    }); 
+             map();             
+     if (isDebug) jQuery("#console").show();    
+})
+
+</script>
+
+</syntaxhighlight>
+
+== Form Body ==
+
+<syntaxhighlight lang="xml">
+<body>
+   <div id="header" class="ui-layout-north ui-widget-header">
+      <span id="logo">
+         <a href="/">
+            <img src="/site/stkurier/images/logo/logo.png" alt="logo" />
+         </a>
+      </span>
+      <span id="search">
+          <xf:input xmlns:xf="http://www.w3.org/2002/xforms" bind="query">
+               <xf:send submission="do-search" ev:event="xforms-value-changed"/>
+          </xf:input>
+          <xf:submit submission="do-search">
+              <xf:label>
+                  <img alt="search" src="/share/icons/fugue-icons/icons/magnifier-medium-left.png" />
+               </xf:label>
+           </xf:submit>
+            </span>
+        </div>
+        <div class="ui-layout-west">
+            <div id="result">
+                <ol>
+                    <xf:repeat xmlns:xf="http://www.w3.org/2002/xforms" id="place_list" nodeset="instance('response')//*:place">
+                        <li>
+                            <xf:trigger appearance="minimal">
+                                <xf:action xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="DOMActivate">
+                                    <xf:setvalue bind="lon" value="instance('response')//*:place[index('place_list')]/@lon"></xf:setvalue>
+                                    <xf:setvalue bind="lat" value="instance('response')//*:place[index('place_list')]/@lat"></xf:setvalue>
+                                    <xf:setvalue bind="icon" value="instance('response')//*:place[index('place_list')]/@icon"></xf:setvalue>
+                                    <xf:load>
+                                        <xf:resource value="instance('locate')"></xf:resource>
+                                    </xf:load>
+
+                                </xf:action>
+                                <xf:label>
+                                    <xf:output ref="@icon" mediatype="image/*" if="@icon"></xf:output>
+                                    <xf:output ref="@display_name"></xf:output>
+                                </xf:label>
+                            </xf:trigger>
+                        </li>
+                    </xf:repeat>
+                </ol>
+            </div>
+        </div>
+        <div class="ui-layout-center">
+            <div id="map"></div>
+        </div>
+        <div div="#debug" class="ui-layout-south">
+            <div id="console"></div>
+        </div>
+    </body>
+</syntaxhighlight>
+
+== XQuery ==
+The following is a sample of the server-side XQuery code.
+
+<syntaxhighlight lang="xml">
+   geo:search($query, $min-lon, $min-lat, $max-lon, $max-lat)
+</syntaxhighlight>
+will be evaluated at server side for instance:
+<syntaxhighlight lang="xml">
+<geo:search>
+     <param:query/>
+     <param:min-lon/>
+     <param:min-lat/>
+     <param:max-lon/>
+     <param:max-lat/>
+</geo:search>
+</syntaxhighlight>
+
+=== Geo XQuery Module ===
+<syntaxhighlight lang="xml">
+module namespace geo = "http://schematronic.ru/geo";
+
+import module namespace http    = "http://exist-db.org/xquery/httpclient";
+import module namespace request = "http://exist-db.org/xquery/request";
+
+declare variable $geo:search-service-uri := "http://nominatim.openstreetmap.org/search";
+
+declare function geo:search($query  as xs:string,
+                           $min-lon as xs:float, $min-lat as xs:float,
+                           $max-lon as xs:float, $max-lat as xs:float) {
+
+   let $view-box := string-join(($min-lon, $min-lat, $max-lon, $max-lat), ",")
+   let $lon      := ($min-lon + $max-lon) div 2
+   let $lat      := ($min-lat + $max-lat) div 2
+   let $uri      := escape-uri(xs:anyURI(concat(
+                       $geo:search-service-uri,
+                       "?format=xml",
+                       "&amp;viewbox=", $view-box,
+                       "&amp;addressdetails=1&amp;limit=100",
+                       "&amp;polygon=0",
+                       "&amp;q=", $query
+                    )), false())
+   let $response := http:get($uri, false(), ())
+
+   let $results  := $response//searchresults
+
+   return
+       element {name($results)} {
+           $response/@*,
+           for $i in $results/place
+           order by ($lon - $i/@lon) * ($lon - $i/@lon) + ($lat - $i/@lat) * ($lat - $i/@lat)
+           return $i
+       }
+
+};
+
+declare function geo:search($query as xs:string, $view-box as xs:float*) {
+   geo:search($query, $view-box[1], $view-box[2], $view-box[3], $view-box[4])
+};
+
+declare function geo:search($query as xs:string) {
+   geo:search($query, -180, -90, 180, 90)
+};
+</syntaxhighlight>
+
+== Credits ==
+All the work was done by Evgeny Gazdovsky.  The writeup was done by Dan McCreary.
+
+{{BookCat}}

@@ -1,0 +1,99 @@
+{{BookCat}}
+
+==Overview==
+In November 2014, [[w:Rolling_Stone|Rolling Stone]] published [[w:A_Rape_on_Campus|"A Rape on Campus"]] by [[w:Sabrina_Erdely|Sabrina Rubin Erdely]], describing a student’s account of an alleged gang rape at a [[w:University_of_Virginia|University of Virginia]] fraternity house<ref name="CSJreport">{{cite web | author=Coronel, S., Coll, S., Kravitz, D. | title=Rolling Stone and UVA: The Columbia University Graduate School of Journalism Report| url=http://www.rollingstone.com/culture/features/a-rape-on-campus-what-went-wrong-20150405 | accessdate=May 2, 2015}}</ref>.  Within days, key parts of the narrative were proven false, and the veracity of the source as well as the professionalism of the journalist were questioned<ref name="WashPost">{{cite web | author=Shapiro, T.R. | title=Key elements of Rolling Stone’s U-Va. gang rape allegations in doubt| url=http://www.washingtonpost.com/local/education/u-va-fraternity-to-rebut-claims-of-gang-rape-in-rolling-stone/2014/12/05/5fa5f7d2-7c91-11e4-84d4-7c896b90abdc_story.html | accessdate=May 4, 2015}}</ref>.  The [[w:Columbia_University_Graduate_School_of_Journalism|Columbia School of Journalism (CSJ)]] conducted an independent investigation of Rolling Stone’s reporting, editing, and fact-checking behind the story<ref name="CSJreport"/>.  The CSJ’s report deemed the article a “journalistic failure that was avoidable”<ref name="CSJreport"/>.  On April 8th, 2015, Rolling Stone officially retracted the story and apologized to its readers and those damaged by the allegations, including the falsely accused fraternity, members of the U-Va. Administration, and sexual assault victims who may feel uncomfortable stepping forward due to their failures<ref name="CSJreport"/>.
+
+Rolling Stone magazine and Sabrina Rubin Erdely’s actions provide a useful case to examine the role of professionalism in journalism through the framework of the professional guidelines from the [[w:Society_of_Professional_Journalists|Society of Professional Journalists (SPJ)]] and the CSJ report.
+
+==Perspectives on Journalistic Professionalism==
+
+===Society of Professional Journalists===
+"The [[w:Society_of_Professional_Journalists|Society of Professional Journalists (SPJ)]] is the nation’s most broad-based journalism organization, dedicated to encouraging the free practice of journalism and stimulating high standards of ethical behavior. Founded in 1909 as Sigma Delta Chi, SPJ promotes the free flow of information vital to a well-informed citizenry through the daily work of its nearly 10,000 members; works to inspire and educate current and future journalists through professional development; and protects First Amendment guarantees of freedom of speech and press through its advocacy efforts."<ref>{{cite web | title=About SPJ | url=http://www.spj.org/aboutspj.asp | accessdate=April 28, 2015}}</ref>
+
+====Code of Ethics====
+The [http://www.spj.org/pdf/spj-code-of-ethics-poster.pdf SPJ Code of Ethics] was originally adopted by Sigma Delta Chi from the American Society of Newspaper Editors in 1926 and has been revised multiple times until its most recent version in 2014. The codes preamble highlights "public enlightenment [as] the forerunner of justice and the foundation of democracy"<ref name="SPJcode">{{cite web | title=SPJ Code of Ethics | url=http://www.spj.org/ethicscode.asp | accessdate=April 28, 2015}}</ref>. The preamble emphasizes setting a journalist's integrity paramount to any other aspect of professionalism. The four pillars of the SPJ's Code of ethics are: seek truth and report it, minimize harm, act independently and be accountable and transparent. The code also warns "it is not a set of rules, rather a guide that encourages all who engage in journalism to take responsibility for the information they provide, regardless of medium" and "it is not, nor can it be under the First Amendment, legally enforceable"<ref name="SPJcode"/>. The fact that this code is not legally binding, makes it no less important to a journalist who values their integrity and reputation.
+
+====Case Studies====
+While the SPJ Code of Ethics is held as a guide, the society provides further resources for aspiring and veteran journalists to base ethical decisions on.
+
+A case study particularly suited to the ethical dilemmas that Erdely faced is "Deep Throat, and His Motive," based on the Watergate scandal and the reporters who protected the principal source known as Deep Throat. In this case study, the SPJ raises the question question, "Is protecting a source more important than revealing all the relevant information about a news story?"<ref>{{cite web | title=Ethical Case Studies: Deep Throat and His Motive | url=http://www.spj.org/ecs18.asp | accessdate=April 28, 2015}}</ref>
+
+Another related case is "A Self-Serving Leak," in which two reporters investigated sports figures involved with steroids. The journalists went to prison for protecting their source who wanted to get his clients case, part of the BALCO sports-and-steroids investigation, dismissed. This brings up two ethical questions, "should the two reporters have continued to protect this key source even after he admitted to lying? Should they have promised confidentiality in the first place?"<ref>{{cite web | title=Ethical Case Studies: A Self-Serving Leak | url=http://www.spj.org/ecs12.asp | accessdate=April 28, 2015}}</ref>
+
+Erdely faced no legal consequences from naming her source, and did not have a reputation or motive to cover up like Deep Throat. Further research into the provided information and identities of the accused may have prevented some of the misreporting.
+
+===Columbia School of Journalism Report===
+On December 22nd, 2014, Rolling Stone announced that the [[w:Columbia_University_Graduate_School_of_Journalism|Columbia University Graduate School of Journalism]] would conduct an independent review of their journalistic practices in reporting the "A Rape on Campus" story.<ref>{{cite web | author=Wemple, E. | title=Rolling Stone farms out review of U-Va. rape story to Columbia Journalism School| url=http://www.washingtonpost.com/blogs/erik-wemple/wp/2014/12/22/rolling-stone-farms-out-review-of-u-va-rape-story-to-columbia-journalism-school/ | accessdate=May 4, 2015}}</ref>  Dean Steve Coll and Dean of Academic Affairs Sheila Coronel were specifically tapped to produce the report, which was finally published April 5th, 2015.<ref name="CSJreport"/>  Intended as "a work of journalism about a failure of journalism," the report called Rolling Stone's journalistic conduct a "failure [that] encompassed reporting, editing, editorial supervision and fact-checking."
+
+Ultimately, the report narrows in on three areas of improvement for Rolling Stone and three areas for careful consideration of all journalists:
+
+For Rolling Stone:
+# Using pseudonyms
+# Checking derogatory information
+# Confronting subjects
+
+For all journalists:
+# Balancing victim-sensitivity and verification
+# Corroboration of survivor accounts
+# Reporting on institutional responses
+
+In the next section, we'll look more specifically at what led CSJ to their recommendations for Rolling Stone.
+
+==Ethical Quandaries in Reporting "A Rape on Campus"==
+Much media attention has been given to the timeline of events leading up to the publishing of "A Rape on Campus."  But ultimately, challenges to Erdely's professional ethics group nicely around her interactions with three specific stakeholders: Jackie, her main source; three of Jackie's friends, with whom she never spoke; and the fraternity Phi Kappa Psi, portrayed as the perpetrators.
+
+===Jackie===
+At the center of the controversy over "A Rape on Campus" is the article's main character--the woman whose startling account of a violent rape was told.  That circumstance alone makes for a complicated journalistic ethics landscape.  Consider the following perspectives:
+
+{{quote|text=Show compassion for those who may be affected by news coverage. Use heightened sensitivity when dealing with [...] victims of sex crimes|sign=Society of Professional Journalists|source=[http://www.spj.org/pdf/spj-code-of-ethics-poster.pdf SPJ Code of Ethics]}}
+
+{{quote|text=Because questioning a victim's account can be traumatic, counselors have cautioned journalists to allow survivors some control over their own stories. This is good advice. Yet it does survivors no good if reporters documenting their cases avoid rigorous practices of verification.|sign=Coronel, S., Coll, S., and Kravitz, D. |source=[http://www.rollingstone.com/culture/features/a-rape-on-campus-what-went-wrong-20150405 Rolling Stone and UVA: The Columbia University Graduate School of Journalism Report]}}
+
+If the goal is ethical behavior, journalists must at once be particularly sensitive and push back enough to nail down hard facts in scenarios that are frequently without many.  And perhaps counterintuitively, this may mean digging up details because it is in the best interests of the subject--even when the subject objects.  In the case of "A Rape on Campus," the voices of friends and the accused stand out as neglected--so we turn to those now.
+
+===The Three Friends===
+Jackie's account of the night of her assault includes an encounter with three friends after she fleed the scene of the attack.  The conversation she recounts is, to quote CSJ, "unflattering to all" and suggests the friends encouraged Jackie to hide the story.<ref name="CSJreport"/>  To Erdely, Jackie gave only the three first names of her friends and the message that the friends were unwilling to talk.  And thus Erdley was again faced with an ethical challenge: trust and respect her single source, or go around her?  Again, the perspectives of SPJ and CSJ are helpful:
+
+{{quote|text=Diligently seek subjects of news coverage to allow them to respond to criticism or allegations of wrongdoing.|sign=Society of Professional Journalists|source=[http://www.spj.org/pdf/spj-code-of-ethics-poster.pdf SPJ Code of Ethics]}}
+
+{{quote|text=Erdely and [her editor] made the fateful agreement not to check with the three friends [...] such a practice was unacceptable|sign=Sheila Coronel, Steve Coll, and Derek Kravitz|source=[http://www.rollingstone.com/culture/features/a-rape-on-campus-what-went-wrong-20150405 Rolling Stone and UVA: The Columbia University Graduate School of Journalism Report]}}
+
+Further, Erdley faced the issue of whether to print the information about the three friends without their comment, and whether to use their names.  Ultimately she did, using pseudonyms--another practice the CSJ took issue with as obfuscating reliance on a single source<ref name="CSJreport"/>
+
+===Phi Kappa Psi===
+Erdley's final challenge came in confronting her accused subjects.  Having named Phi Kappa Psi as the location of the violent assault, how would she confer with them before printing what would certainly damage their reputation? 
+
+She decided on an email that shared very few details of what she had learned: "I've become aware of allegations of gang rape," she wrote. "Can you comment on those allegations?"<ref name="CSJreport"/>
+
+Working from SPJ standards, Phi Kappa Psi was not "allow[ed] to respond" to the full breadth of the allegations against them--because Erdely did not share them.  CSJ strongly condemned this choice:
+
+{{quote|text=[Erdely] missed the opportunity to hear challenging, detailed rebuttals from Phi Kappa Psi before publication. [Rolling Stone] should routinely share specific, derogatory details with the subjects of their reporting|sign=Sheila Coronel, Steve Coll, and Derek Kravitz|source=[http://www.rollingstone.com/culture/features/a-rape-on-campus-what-went-wrong-20150405 Rolling Stone and UVA: The Columbia University Graduate School of Journalism Report]}}
+
+In this case, the ethical dilemma is, again, complicated--Erdely did reach out; but did she do enough?  Independent investigators say no.
+
+==Lessons in Professionalism==
+Journalists must be experts in uncovering information and exposing hidden connections but also be able to decide when public enlightenment or anonymity over rules certain professional ethics. The four pillars of ethics that are laid out in the SPJ Code of ethics can be generalized by other professions as follows; "seek truth and report it" can be reflected as honesty, "minimize harm" can be seen as respect, "act independently" describes autonomy, "be accountable and transparent" is accountability and integrity needs no generalization.
+
+This case's outcome has left a mark on Rolling Stone's reputation, but it would not be its first. Before the fiasco of Erdley's article, the Rolling Stone magazine made a mistake on their cover by putting John Hancock's signature on a fake tattoo of the U.S. Constitution<ref>{{cite web | author=Ernst, D. | title=Rolling Stone erroneously puts ‘John Hancock’ on Julia Louis-Dreyfus’ Constitution tattoo | url=http://www.washingtontimes.com/news/2014/apr/9/rolling-stone-fails-us-history-puts-john-hancock-c/?page=all | accessdate=April 28, 2015}}</ref>. The continued mistakes by the magazine suggests a responsibility of the customer. Rolling Stone's reputation should preface the audience's judgment on the information that it reports.
+
+===Confirmation Bias===
+"In psychology and cognitive science, [[w:Confirmation_bias|confirmation bias]] is a tendency to search for or interpret information in a way that confirms one's preconceptions, leading to statistical errors"<ref name="confirmBias">{{cite web | author=ScienceDaily | title=Confirmation Bias| http://www.sciencedaily.com/terms/confirmation_bias.htm | accessdate=May 4, 2015}}</ref>
+
+
+July 8, 2014, Erdely contacted Emily Renda, a rape survivor and U-Va. alumna and staff member working on asexual assault issues at the university<ref name="CSJreport"/>.  Erdely reached out to Renda searching for "a single, emblematic college rape case that would show 'what it's like to be on campus now … where not only is rape so prevalent but also that there's this pervasive culture of sexual harassment/rape culture'"<ref name="CSJreport"/>.  Renda introduced Erdely to Jackie's story, but warned Erdely that Jackie's memory of the events may not be perfect<ref name="CSJreport"/>.  Erdely overlooked Jackie's numerous memory lapses and evolving story, likely on account of confirmation bias and the desire to produce an article about the "enblematic college rape case" which she had in mind.
+
+===A Story too Good to Check===
+The desire to tell a sensational story leads to a flaw in journalism known as "a story too good to check".  Erdely's ambition to write a shocking expose on college rape led her to pass over numerous other true cases of college rape to write about Jackie's horrifying account.
+
+The unnamed fact-checker assigned to "A Rape on Campus" had only been on staff for one and a half years<ref name="CSJreport"/>. Although inexperienced, drafts of the article show that the fact-checker noted that Erdely or Dana should reach out to Jackie's friends and Drew to check their quotes and accounts, but the editors came to the conclusion that they could not or would not reach the sources and did not want to clarify such to readers<ref name="CSJreport"/>.  The fact-checker did not raise her concerns to her department boss, Coco McPherson, who read the final draft<ref name="CSJreport"/>.  McPherson, ultimately responsible for the fact-checking, knew the story relied on one source but was not concerned because she "had faith in everyone involved"<ref name="CSJreport"/>.
+
+==Conclusion==
+Overall, neither Sabrina Rubin Erdely nor Rolling Stone magazine acted as professionals or fully took responsibility for their misconduct.  Rolling Stone publisher Jann Wenner announced that no one would be fired and affirmed that the publication of Columbia's report was punishment enough<ref name="Really?">{{cite web | author=Stelter, B. | title=No one fired at Rolling Stone. Really? | http://money.cnn.com/2015/04/06/media/rolling-stone-no-firings/ | accessdate=May 2, 2015}}</ref>.  Erdely and Rolling Stone failed to meet the SPJ guidelines and were especially careless in terms of fact-checking.  "A Rape on Campus" was recognized on Columbia School of Journalism's "Worst Journalism of 2014" list<ref name="worst">{{cite web | author=Uberti, D. | title=The Worst Journalism of 2014 | http://www.cjr.org/darts_and_laurels/the_worst_journalism_of_2014.php | accessdate=May 2, 2015}}</ref>.  "Reporting on rape has unique challenges, but the journalist still has the responsibility to get it right," Erdely said. "I hope that my mistakes in reporting this story do not silence the voices of victims that need to be heard"<ref name="embarrassing">{{cite web | author=Erdely, S.R. | title=Sabrina Rubin Erdely, Writer of Rolling Stone Rape Article, Issues Statement | http://www.nytimes.com/2015/04/06/business/media/statement-from-writer-of-rolling-stone-rape-article-sabrina-erdely.html?_r=0 | accessdate=May 2, 2015}}</ref>.  In response, University of Virginia President Teresa A. Sullivan stated, "Rolling Stone’s story, ‘A Rape on Campus,’ did nothing to combat sexual violence, and it damaged serious efforts to address the issue. Irresponsible journalism unjustly damaged the reputations of many innocent individuals and the University of Virginia"<ref name="embarrassing"/>.
+
+Erdely recalls the aftermath of "A Rape on Campus" the as the most embarrassing moments of her professional career<ref name="embarrassing"/>.  However, Wenner and Dana stand by Erdely, Dana stated, "Sabrina's done great work for us over the years and we expect that to continue"<ref name="Really?"/>.  Other news sources have reported that Wenner is in denial and Rolling Stone has irreparably damaged its reputation<ref name="denial">{{cite web | author=Wemple, E. | title=Rolling Stone publisher Jann Wenner is in complete denial | http://www.washingtonpost.com/blogs/erik-wemple/wp/2015/04/06/rolling-stone-publisher-jann-wenner-is-in-complete-denial/ | accessdate=May 2, 2015}}</ref>.
+
+==References==
+{{reflist}}
+<!--Do not remove templates below this line -->
+
+{{BookCat}}

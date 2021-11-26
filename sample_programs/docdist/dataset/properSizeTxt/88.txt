@@ -1,0 +1,282 @@
+=Modeling wings=
+
+In this tutorial we are going to analyze a flying wing. We are going to start by converting our design into a calculation model and then we are going to take a look at the results to see how we can use them. In parallel, we are going to make some comments about how the software works, and how it was meant to be used.
+
+In Tucan the job is divided in three main steps, namely:
+
+# Modeling
+# Simulation set up and calculation
+# Post processing of results
+
+For each phase there is a corresponding tab in the main ribbon, so while you evolve in the analysis, you will jump from left to right into each one of them. That will be the usual way of working with the program.
+As you might have noticed, the HMI has no icons. Instead, we prefer giving each component a visible name describing its functionality. Therefore, in most situations, the HMI is self describing.
+
+==Creating and editing a component==
+
+In the modeling phase, we are going to translate our design into a meshed model for numerical analysis. And here is something you have to keep in mind. We are now focusing our attention in the aerodynamic analysis of the model, not in the constructive details, so we will have to leave superfluous details behind. The situation is like this: we have this numerical method based in inviscid fluid theory to test the model, so, how do we adapt our design to make it useful? During the analysis phase the method is conditioning what we can model, unfortunately it is not the other way around. So we have to be clever enough to use the method in our favor.
+
+Before you start up the program, you will need to gather basic information about your design: the dimensions of the model, the kind of airfoils you are going to test along with their polar curves, and so on.
+
+In this tutorial we are going to work with an example consisting of a tapered wing with the following characteristics:
+
+{| class="wikitable"
+|-
+! Property
+! Value
+|-
+| Wingspan
+| 10m
+|-
+| Root chord
+| 1.5m
+|-
+| Tip chord
+| 0.5m
+|-
+| Dihedral
+| 3°
+|-
+| Leading edge sweep-back
+| 20°
+|-
+| Flap length
+| 2.5m
+|-
+| Flap chord ratio
+| 0.3
+|-
+| Airfoil
+| NACA 2412
+|}
+
+This model looks simple but it sufficiently complete to run over most of the program details.
+
+===Adding a lifting surface===
+
+Tucan normally starts up with an empty work-space. To introduce a wing (or any other component) go to the '''Model''' flap of the main ribbon, click on '''Add''' and then pick '''Lifting surface''' in the pop-up window. You will see that a new wing will immediately appear in the model. 
+
+The wing we have just added contains default parameters, so we will have to reshape it to our needs. To do that, you first have to select it. You might have already noticed that in Tucan there are two ways of selecting a component:
+
+# By clicking on it
+# By selecting it from the combo box located in the ribbon
+
+The combo box will always contain all of the current models, so if you loose one of sight (something that could happen when you work with fuselages), you can always find it back there.
+
+===Editing a lifting surface===
+
+Now let's see how to edit our wing. You will see that this is actually very simple. Just select the wing and then click on '''Edit''' (under the name entry box) and you will see that a panel will emerge from the left side of the screen. In general, when you edit a component you will follow the same procedure, with the difference that for some of them you will get an edition window in place of a panel.
+
+The lifting surface edition panel contains all of the parameters that you can modify to create a wing model.
+A lifting surface in Tucan is a collection of consecutive regions that go from the root to the wingtip in span-wise direction. The program will let you add as many of these regions as you want, at the end or in between existent ones. If you click on '''Add''' a new region is appended at the tip of the wing. If you click on '''Insert''', a new region is added next to the current one and closer to the wingtip. You can navigate through the different regions using the numeric up-down located next to the label '''Region'''.
+Keep in mind that regions are needed when the geometrical or elastic parameters of the wing change abruptly in span-wise direction, or when you need a variation different than linear.
+By default, when we add a new wing, we get one region of 1m by 1m. For our specific case, because we are going to model flaps and ailerons, we need two regions. So we are going to add a second one. When you do that, this second regions will be focused, so move the numeric up-down to go back to the first one. Then fill in the properties of the first region. To recreate the model you can see in the pictures, follow the next instructions:
+
+* Under the flap '''Geometry''', choose 8 chord-wise panels, 1.5m as root chord, 2.5m length, 1.0m tip chord, 20° sweepback and 3° dihedral.
+* Under the flap '''Flaps''', choose ''flapped'', 5° of flap deflection, 0.3 flap to chord ratio, and 3 flapped panels.
+* Then change to region 2, and do the same: 2.5m length, 0.5m tip chord,  20° sweepback and 3° dihedral.
+
+Note that you can play with the different geometrical parameters and you will immediately see how the model is affected. This feature can be very useful if you are designing a model rather than trying to recreate something. 
+Ok, now the wing is almost ready. It is time to define the airfoil properties!
+
+====Camber lines====
+
+Our wing cross section is a NACA 2412 airfoil. How do we model this? Tucan will not model the thickness of the wing, so the last two digits are irrelevant for us (in geometrical terms, they are important for the polar curve). We will only focus on the camber line given by the two first digits.
+
+Every time you create a project, the program will internally make room for a small database of profiles, and you can access this database from the lifting surface edition panel, by clicking in the '''Camber lines''' button located in the '''Profile''' flap of the '''Region panel'''. The next picture should make this clear.
+
+By default, wing regions are created using a symmetric camber line. This type is always there at the top of the list and you cannot remove it or edit. If you want a different one, then you have to add it to the local database and then assign it to the target region by clicking '''Ok'''.
+You have two options to generate a camber line:
+
+# You draw it yourself point-by-point
+# You generate one using the generator
+
+The current version of the software only counts with a NACA 2 digits camber line generator, so if you have a different one, then you have to either load it manually, or develop a new generator in Visual Studio and share it with us.
+
+So for now click '''Add''', and a new item will appear on the list. Select the item and name it ''NACA 24XX''. Then generate a camber line using the NACA generator with ''e/C=0.02'' and ''x/C=0.4''.
+
+Now click '''Ok''', and you will see that the current region has been updated in the model to reflect this new change. Do now the same for the other region. This time, when you open the camber line database form, you will notice that the previously made camber line is already there ready to be used. The idea is that you can actually reuse every camber line you make in any of the regions of any of the lifting surfaces you add. You don't need to redefine camber lines for different regions or wings.
+
+Now we can proudly say that our geometrical model is complete. We will leave the elastic properties for a different tutorial (they are only required for the aero-elastic analysis), and see now how we can take into account the skin drag of our wing using airfoil polar curves.
+
+====Polar curves====
+
+Inside the project there is a small database of ''polar curve families''. A family of polar curves is a set of curves that represent the skin drag coefficient of an airfoil as a function of the local lift coefficient and the Reynolds number. Be careful with this. Unlike camber lines, polar curves do depend on the thickness of the airfoil, and therefore you will have to introduce different families for a family of airfoils having the same camber line. If you have different data sources and you don't want to mix them (like your own wind tunnel measurements, extractions from a book or XFoil simulations) you can introduce more than one family for the same airfoil.
+
+You can add as many families as you want, and for each family, you can add as many curves as you need for different Reynolds numbers. When the actual computation of the skin drag takes place, what will happen is that the local chord of the wing will be computed for each chord-wise strip of panels, and based on that length and the provided viscosity, the local Reynolds number will be computed. If the Reynolds number of a given strip is in-between two of the provided polar curves (which will typically be the case) the program will deduce a local skin drag coefficient by linear interpolation of the polar curves.
+
+[[File:Polar example.png|thumb|Example of polar curves (NACA 2412).|right]]
+
+Tucan lets you introduce ''parabolic polars'' and ''custom polars''. With this later type you can use any external source of information, such as XFoil or your own wind tunnel measurements, to prepare the data. You can manually add the points one by one, but I can assure you it will take a lot of time. To avoid this, what you have to do is to write a table in a simple text file editor (such as Kate) with as first column the CL values, and as second column the CD values. These two columns must be separated by a tab, space or semicolon character. If you are using XFoil, you can simply open the results data in a text editor and use ''block selection'' to pick the CL and CD columns. Then you just copy the data (Ctr+C) and go back to the form, right click on the table and select '''Get from clipboard'''. 
+
+To try this out I have prepared the next data table for you using XFoil for the NACA 2412 profile at a Reynolds number of 250000 (which might not exactly match the one of this exercise):
+
+<small>
+<pre>
+-0.3980   0.01507
+-0.2455   0.01319
+-0.0985   0.01151
+ 0.0197   0.00975
+ 0.1204   0.00867
+ 0.2489   0.00870
+ 0.4208   0.00886
+ 0.5153   0.00917
+ 0.6101   0.00974
+ 0.7046   0.01044
+ 0.7988   0.01128
+ 0.8919   0.01227
+ 0.9782   0.01390
+ 1.0521   0.01678
+ 1.1167   0.02028
+ 1.1682   0.02401
+ 1.2129   0.02837
+ 1.2543   0.03378
+ 1.2917   0.04026
+ 1.3268   0.04796
+ 1.3164   0.05922
+ 1.2939   0.07377
+ 1.2527   0.09301
+</pre>
+</small>
+
+Note that when the curve is loaded you can navigate with the mouse through the it and every time the cursor hovers over a node, the local Cl/Cd values will be displayed on a label. You can also drag these nodes with the mouse if you need to tune-up the curve manually (for example, to remove simulation noise).
+
+After you have loaded the polar, click '''Ok''' and it will be assigned to the current wing section. Don't forget to do the same for the remaining section! In practive you will have to figure out by yourself the necessary Reynolds number range for each wing on your model. Make sure that the polar family contains the necessary range, or your results will be less accurate!
+
+With all this, our model is ready for the analysis. In the next section we will see how to setup the simulation. But before doing that, I would like give you a tip about how using XFoild and reusing polar curves.
+
+====Flash introduction to XFoil====
+
+Although its old appearance and hard interface, XFoil could be one of your best mates (as I hope Tucan is) if you learn how to use it. You will see it is a great companion for Tucan.
+
+To understand in depth how it works, please search for their own online tutorial. There is plenty of information about it on the web. If you are in lazy mode here is the sequence of commands that will give you the polar curves for your specific airfoil and Reynolds range in no time (thanks MIT guys!):
+
+'''load''' ''<data_file_path>'': read the airfoil geometry from a file.
+
+'''oper''': enter in calculation mode.
+
+'''visc''': tell you want to do viscous analysis (otherwise there will be no drag). The Reynolds number will be requested.
+
+'''iter''' ''<maxi_iteration>'': sometimes you need to enter a higher number of iterations (something like 180).
+
+'''pacc''' ''<target_results_file>'': tell where you want to save the results (skip the dump file). I usually enter ''<airfoil name>_<target reynolds>.dat''.
+
+'''as''' ''<alfa_min> <alfa_max> <step>'': tell you want to scan the incidence angle (typically from -5 to 15 by 0.5 degrees).
+
+'''pacc''': tell you want to stop writing data to the output file.
+
+'''re''' ''<target_reynolds_number>'': enter a new target Reynolds number.
+
+''go back to the first pacc and repeat the iteration for all necessary Reynolds numbers.''
+
+====Moving the polars around====
+
+Imagine that you would have defined the NACA 2412 set of polar curves on a different model in the past, and you would like to reuse the data instead of building it all again. This is possible in Tucan because the polar database can be handled as a native binary file. This feature can potentially save you a lot of effort and frustration, and is handy to share data with other users (and also avoid them to waste time and frustration).
+
+What you have to do in that case is going back to that project where the polar families of interest were left and save the database into a file of your choice. Then you go back to the active project and load the database locally. The new polars will be appended to the list.
+
+[[File:T1-P1-4.png|thumb|Final model]]
+
+===Selecting the boundary conditions===
+If you followed a basic course in aerodynamics you probably remember about the Kutta condition. If you don't, here you will have to learn about it.
+
+In normal lifting surfaces the air leaves the sharp trailing edge tangentially to the airfoil mean line, and this results in no circulation along the edge line at steady state. In that situation the wake contains circulation only along the stream direction (and vorticity filaments are stream lines). In the unsteady flow the thing is a little bit different, but it is out of our scope here so we leave that explanation for later.
+The point of all this is that these boundary conditions are based in the observation of real flow, and there is no way the potential flow solver knows it must be like that. So that is why we have to ''impose'' these conditions. 
+
+In Tucan we impose the Kutta condition by declaring a wake shedding edge. And here comes a potential source of disagreement with experimental data, since we do not exactly know beforehand if the shedding will cover only the trailing edge or also part of the wing tips.
+
+For rectangular wings, everything suggests that shedding the wake from the trailing edge only gives the best results. For other cases, however, a certain degree of extra wingtip shedding can provide positive additional accuracy (see validation cases).
+
+For this model we will only pick the trailing edge.
+So next, you will have to go to the wing editor and under the flap '''Primitives''' mark the '''Convect wake''' and '''Trailing edge only''' check boxes and set the cutting step to 40. This later parameter is required to trim the wake and to get rid of the starting vortex. In general, the total number of time steps will have to be around 10 or 20 times larger than the largest trimming step. In this case you can see that we opted for 20 extra steps after the trimming step. This should provide sufficient steps for the wake and the air-loads to converge to the steady state values.
+
+==Running the simulation==
+
+Now that our model is ready, let's see how to perform some calculations.
+In this first tutorial we will limit our study to the steady state analysis of the wing, that is to say, at constant stream velocity and after the wake nodes have converged to a final position. We will take a cruise speed, and then analyze the equilibrium and static stability using the flap deflection and a reference weight.
+What we can do in this case is to run four simulations using different incidence angles and flap deflections at the target speed.
+
+{| class="wikitable"
+|-
+!<math>\alpha</math>
+!<math>\delta</math>
+|-
+|  0°
+|  0°
+|-
+|  5°
+|  0°
+|-
+|  0°
+|  5°
+|-
+|  5°
+|  5°
+|}
+
+After doing this, we will have sufficient information to write the three longitudinal aerodynamic coefficients as linear functions of the incidence and deflection angles.
+
+Go to the '''Simulation''' panel of the main ribbon and set the next simulation parameters:
+
+{| class="wikitable"
+|-
+!<math>V_x</math>
+!<math>\rho</math>
+!<math>\mu</math>
+!Steps 
+!Interval 
+|-
+|  30m/s
+|  1.225kg/m³
+|  0.00001780kg/ms
+|  60
+|  0.02s
+|}
+
+The air properties that we have declared here are required to compute the dynamic pressure and the Reynolds number. 
+
+Note that you can also use the ISA button to select the properties associated to a given altitude in the standard atmosphere.
+
+In order to produce the simulations in the table above, we will have to adjust the incidence and the flap deflection angles. We have already seen how the flap deflection can be adjusted, but we have not mentioned yet how to change the incidence angle. For this there are actually two options, and both should produce the same results. The first one is to change the direction of the stream velocity by adding a vertical component (along the Z axis) and slightly modifying the X component. The second option is to rotate the wing model around the Y axis using the theta angle. For our case now, because we only have one component, this second option is simpler. However, when many components are present, you will see that it is easier to just re-orientate the stream.
+
+So now we are finally ready to hit the '''Start''' button! When you do it, the settings dialog will popup. You can see that many of the simulation parameters we have already set before, so here we can take a second look at them to be sure everything is alright. This form also presents some extra options that you might want to use. In our specific case, we wish to turn on the wake extension feature, so that the effect of trimming the wake is mitigated.
+
+The results of the four simulations are given in the next table.
+
+{| class="wikitable"
+|-
+!<math>\alpha</math>
+!<math>\delta</math>
+!<math>\Complex_L</math>
+!<math>\Complex_D</math>
+!<math>\Complex_M</math>
+|-
+|  0°
+|  0°
+|  0.16147
+|  0.02466
+| -0.22074
+|-
+|  5°
+|  0°
+|  0.58605
+|  0.03286
+| -0.67111
+|-
+|  0°
+|  5°
+|  0.32856
+|  0.02931
+| -0.40366
+|-
+|  5°
+|  5°
+|  0.75137
+|  0.03684
+| -0.85224
+|}
+
+Using an intel Core i7 processor, each simulation should take around 18 seconds.
+
+The data we have accumulated here can provide useful information about the longitudinal stability and control of the airplane. If you are interested on that, go to the Console tutorial (the Console provides some handy automation tools for steady analysis).
+
+{{BookCat}}

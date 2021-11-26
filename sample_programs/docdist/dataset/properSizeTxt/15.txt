@@ -1,0 +1,280 @@
+{{book title|<big><u>'''''Agile Journey Guide'''''</u></big>|(working title)}}
+{{status|0%}}
+{{TOC right}}
+
+=''INVITATION''= 
+ ''We invite you on a journey of collaboration with like minded agile experts in writing, commenting, and using this open source Wikibook.  The working title is: "Agile Journey Guide".  Because it is a Wikibook, normal Wikibook policies and guidelines apply, which are referenced in the '''Methodology''' subsection.  Therefore, we do not need to reinvent the collaboration protocols. <br>''
+ ''The initial plan is as follows.  The first phase is to collect existing links to agile related websites both on Wikimedia and externally to it.  These links will be organized around the initial outline, which is presented in the '''Outline''' subsection.  The second phase will be to identify gaps in this collection of links and write new sections, Wikipedia pages, or independent web-pages, whichever is deemed appropriate by the contributor.  The third and any future phases will be defined by the community of collaborators working on this book.''
+
+= Introduction =
+This is a self guided study and practice manual to agile methods.  The initial focus is to cover known topics on agile culture and practices from individuals, teams, scaling, to the entire enterprise, and eventually beyond.  Because it is on Wikibooks we have the ability to keep updating and improving this guidebook indefinitely.
+<br><br>
+The general audience for this book is anyone interested in agile culture and practices because a Wikibook is an open environment.  The specific targeted audience is agile experts needing a broad reference textbook unburdened by specific perspectives and individual agendas, which they can update themselves.
+
+== Authors ==
+These are the book authors. Please add your name alphabetically as you contribute. Review the [https://xtools.wmflabs.org/articleinfo/en.wikibooks.org/User:Pazderski/Books/Agile_Journey_Guide?_sm_au_=iHVN14Wqv07fZnHF book:Contributors] for individual statistics.
+
+:'''Paul I. Pazderski''' ([[User:Pazderski]])
+
+== Methodology ==
+A set of links to Wikimedia methods governing this guidebook.
+
+:'''[[Wikibooks:Welcome]]''' - Start here.  This is the orientation of Wikibooks.
+:'''[[Using Wikibooks]]''' - This is the full how-to for Wikibooks.
+:'''[[w:Help:Wikitext|Help:Wikitext]]''' - This is Wikipedia help for using Wikitext, the language for content formatting within Wikis.
+
+== Overview ==
+:'''Introduction''' - a preview and explanation of this guidebook and its structure.
+::'''Methodology''' - a set of links to Wikimedia methods governing this guidebook.
+::'''Overview''' - a specific preview of each chapter and section.
+:'''Journeys''' - agile methods organized for various group sizes.
+::'''Individual''' - agile methods for one person use.
+::'''Team''' - agile methods for small group use.
+::'''Scaling''' - agile methods for large group or multiple groups' use.
+::'''Enterprise''' - agile methods for entire organization use.
+::'''Communities''' - agile methods for use beyond an enterprise.
+:'''Compendium''' - agile methods organized by popular groupings of practices. 
+::'''Manifestos''' - review of variations on the normal Software Manifesto.
+::'''Frameworks''' - review of popular agile structures called frameworks.
+::'''Practices''' - listing of standalone agile practices.
+::'''Related Topics''' - agile methods which are not directly involved with information technology.
+::'''Miscellany''' - agile methods which do not fit well into frameworks, standalone practices, or related topics.
+:'''Literature''' - overview and listing of agile books, articles, blogs and related materials.  
+::'''Review''' - an brief overview of popular agile literature.
+::'''Bibliography''' - a listing of common agile literature.
+:'''...works to be allocated...''' - a listing of agile methods needing to be organized or allocated to one of the other sections.
+
+= Journeys =
+Agile methods organized for various group sizes.
+
+== Individual ==
+Agile methods for one person use. 
+
+:[https://www.leadingagile.com/2015/09/personal-agility-canvas/ '''Personal Agility Canvas''']: A one-page strategy work aid for developing personal agility.
+:[http://personalkanban.com/pk/book/ '''Personal Kanban''']: Tailoring the Kanban Method down to the individual level.
+:[https://techbeacon.com/app-dev-testing/personal-scrum-using-agile-techniques-manage-your-life '''Personal Scrum''']: Applying the Scrum Framework to individual work management.
+
+== Team ==
+Agile methods for small group use.
+
+== Scaling ==
+Agile methods for large group or multiple groups' use.
+
+== Enterprise ==
+Agile methods for entire organization use.
+
+== Communities ==
+Agile methods for use beyond an enterprise.
+
+= Compendium =
+This chapter provides links to popular agile methods organized under frameworks, independent practices, related topics, and miscellany.
+
+== Manifestos ==
+This is a review of variations on the normal Software Manifesto.
+{{Col-begin}}
+{{Col-3}}
+:[http://theagiledirector.com/content/agile-business-manifesto/ Business Manifesto]
+:[https://medium.com/@andrewconard/manifesto-for-agile-church-development/ Church Manifesto]
+:[http://www.agilecoach.ca/2010/01/08/the-agile-coach-manifesto/ Coach Manifesto]
+:[http://www.datasciencemanifesto.org/ Data Manifesto]
+:[https://www.ibm.com/developerworks/community/blogs/ambler/entry/reworking_the_agile_manifesto/ Enterprise Manifesto]
+:[https://pmobrothers.wordpress.com/2015/02/27/manifesto-for-agile-governance/ Governance Manifesto]
+{{Col-3}}
+:[http://www.agilehrmanifesto.org/ HR Manifesto]
+:[http://www.extremefactories.eu/agile-innovation-process-manifesto/ Innovation Manifesto]
+:[http://agilemarketingmanifesto.org/ Marketing Manifesto]
+:[http://www.scrumshoring.com/ Offshore Manifesto]
+:[https://setandbma.wordpress.com/2012/07/09/agile-offshoring-2/ Offshore SW Dev Manifesto]
+:[https://www.linkedin.com/groups?home=&gid=3149885&trk=anet_ug_hm/ People Manifesto]
+{{Col-3}}
+:[https://pmomanifesto.org/ PMO Manifesto]
+:[https://www.ere.net/the-agile-recruiting-manifesto/ Recruiting Manifesto]
+:[https://business.linkedin.com/sales-solutions/blog/sales-leaders/2017/12/the-case-for-agile-sales-management/ Sales Manifesto]
+:[https://jopearsonappliedpractice.blogspot.com/2017/02/agile-school-manifesto.html/ School Manifesto]
+:[http://www.lafable.com/ L.A.F.A.B.L.E Manifesto]
+:[http://darkagilemanifesto.org/ Dark Manifesto] 
+:[http://www.halfarsedagilemanifesto.org/ Half-Arsed Manifesto]
+{{Col-end}}
+== [[w:Agile Frameworks|Agile Frameworks]] ==
+'''Frameworks''' - review of popular agile structures called frameworks.
+{{Col-begin}}
+{{Col-3}}
+:[[w:Extreme_programming|Extreme Programming]]
+:[[w:Adaptive software development|Adaptive Software Development]]
+:[[w:Agile Unified Process|Agile Unified Process]]
+:[[w:Business-driven development|Business-driven development]]
+:[[w:Disciplined agile delivery|Disciplined Agile Delivery]]
+:[[w:Distributed Agile Software Development|Distributed Agile Software Development]]
+{{Col-3}}
+:[[w:Dynamic systems development method|Dynamic Systems Development Method]]
+:[http://www.enterprisescrum.com/ Enterprise Scrum]
+:[[w:Extreme programming|Extreme Programming]]
+:[[w:Kanban (development)|Kanban (development)]]
+:[[w:Lean software development|Lean Software Development]]
+:[https://less.works LeSS (Large Scale Scrum)]
+:[[w:Microsoft Solutions Framework|Microsoft Solutions Framework]]
+:[https://www.scrum.org/resources/scaling-scrum Nexus (Scrum Scaling)]
+{{Col-3}}
+:[[w:Rapid application development|Rapid Application Development]]
+:[[w:Scaled agile framework|Scaled Agile Framework]]
+:[[w:Scrum (software development)|Scrum (software development)]]
+:[https://www.scrumatscale.com/scrum-at-scale-guide/ Scrum at Scale]
+:[[w:Scrumban|Scrumban]]
+{{Col-end}}
+
+== Independent Practices ==
+Listing of popular standalone agile practices.
+{{Col-begin}}
+{{Col-3}}
+:[[w:Acceptance testing|Acceptance testing]]
+:[[w:Acceptance test–driven development|Acceptance test–driven development]]
+:[[w:Agile modeling|Agile modeling]]
+:[[w:Agile testing|Agile testing]]
+:[[w:Behavior-driven development|Behavior-driven development]]
+:[[w:Burn down chart|Burn down chart]]
+:[[w:Continuous integration|Continuous integration]]
+:[[w:Code refactoring|Code refactoring]]
+:[[w:Continuous delivery|Continuous delivery]]
+:[[w:Continuous testing|Continuous testing]]
+:[[w:Cross-functional team|Cross-functional team]]
+:[[w:Cumulative flow diagram|Cumulative flow diagram]]
+:[[w:Deployment environment|Deployment environment]]
+:[[w:Design-driven development|Design-driven development]]
+:[[w:Dojo|Dojo]]
+:[[w:Domain-driven design|Domain-driven design]]
+:[[w:Emergent Design|Emergent Design]]
+:[[w:Extreme programming practices|Extreme programming practices]]
+:[[w:Feature-driven development|Feature-driven development]]
+:[[w:Fibonacci scale (agile)|Fibonacci scale (agile)]]
+{{Col-3}}
+:[[w:Incremental build model|Incremental build model]]
+:[[w:Interface segregation principle|Interface segregation principle]]
+:[[w:INVEST (mnemonic)|INVEST (mnemonic)]]
+:[[w:Iterative and incremental development|Iterative and incremental development]]
+:[[w:Kanban board|Kanban board]]
+:[[w:Low-code development platforms|Low-code development platforms]]
+:[[w:Model-driven engineering|Model-driven engineering]]
+:[[w:MoSCoW method|MoSCoW method]]
+:[[w:Pair programming|Pair programming]]
+:[[w:Planning poker|Planning poker]]
+:[[w:Pull-based agile coaching|Pull-based agile coaching]]
+:[[w:Retrospective|Retrospective]]
+:[[w:Rolling-wave planning|Rolling-wave planning]]
+:[[w:Scrum Sprint|Scrum sprint]]
+:[[w:Self-organization|Self-organization]]
+:[[w:Serious play|Serious play]]
+{{Col-3}}
+:[[w:Shift left testing|Shift left testing]]
+:[[w:Single responsibility principle|Single responsibility principle]]
+:[[w:Software craftsmanship|Software craftsmanship]]
+:[[w:Software prototyping|Software prototyping]]
+:[[w:SOLID|SOLID]]
+:[[w:Specification by example|Specification by example]]
+:[[w:Spike (software development)|Spike (software development)]]
+:[[w:Stand-up meeting|Stand-up meeting]]
+:[[w:Story-driven modeling|Story-driven modeling]]
+:[[w:T-shaped skills|T-shaped skills]]
+:[[w:Test automation|Test automation]]
+:[[w:Test-driven development|Test-driven development]]
+:[[w:Timeboxing|Timeboxing]]
+:[[w:User story|User story]]
+:[[w:Value stream|Value stream]]
+:[[w:Velocity (software development)|Velocity (software development)]]
+:[[w:You aren't gonna need it|You aren't gonna need it]]
+{{Col-end}}
+
+== Related Topics ==
+Agile methods which are not directly involved with information technology.
+{{Col-begin}}
+{{Col-3}}
+:[[w:Agile application|Agile application]]
+:[[w:Agile Architecture|Agile Architecture]]
+:[[w:Agile Automation|Agile Automation]]
+:[[w:Agile Business Intelligence|Agile Business Intelligence]]
+:[[w:Agile construction|Agile construction]]
+:[[w:Agile contracts|Agile contracts]]
+:[[w:Agile infrastructure|Agile infrastructure]]
+:[[w:Agile leadership|Agile leadership]]<PhD, aka. Distributed / Servant Leadership>
+:[[w:Agile learning|Agile learning]]
+{{Col-3}}
+:[[w:Agile manufacturing|Agile manufacturing]]
+:[[w:Agile marketing|Agile marketing]]
+:[[w:Agile Policing Strategy|Agile Policing Strategy]]
+:[[w:Agile Project Management (book)|Agile Project Management (book)]]
+:[[w:Agile retail|Agile retail]]
+:[[w:Agile tooling|Agile tooling]]
+:[[w:Agile usability engineering|Agile usability engineering]]
+:[[w:AgileNCR| AgileNCR (conference)]] 
+:[[w:Agility|Agility (definition / disambiguation)]]
+{{Col-3}}
+:[[w:Business agility|Business agility]]<PhD, aka. Organizational Agility / Adaptability>
+:[[w:Business_transformation|Business transformation]]<PhD, aka. Agile Transformation>
+:[[w:The Chicken and the Pig|Chicken and the Pig]]
+:[[w:Data-centric computing|Data-centric computing]]
+:[[w:DataOps|DataOps]]
+:[[w:Dependency inversion principle|Dependency inversion principle]]
+:[[w:DevOps|DevOps]]
+:[[w:Lean enterprise|Lean enterprise]]
+:[[w:Lean integration|Lean integration]]
+:[[w:Lean manufacturing|Lean manufacturing]]
+:[[w:Lean product development|Lean product development]]
+:[[w:Lean startup|Lean startup]]<PhD, aka. Internal Spin-off>
+:[[w:Outline of web design and web development|Web development]]
+{{Col-end}}
+
+== Miscellany ==
+Agile methods which do not fit well into frameworks, standalone practices, or related topics.
+{{Col-begin}}
+{{Col-3}}
+:[[w:Analysis paralysis|Analysis paralysis]]
+:[[w:Business process automation|Business process automation]]
+:[[w:Cloud computing|Cloud computing]]
+:[[w:Cloud computing architecture|Cloud computing architecture]]
+:[[w:Cleanroom software engineering|Cleanroom software engineering]]
+:[[w:Cockburn Scale|Cockburn scale]]
+:[[w:Cowboy coding|Cowboy coding]]
+:[[w:W. Edwards Deming|Deming, W. Edwards]]
+{{Col-3}}
+:[[w:Design sprint|Design sprint]]
+:[[w:Internet-Speed Development|Internet-speed development]]
+:[[w:Organizational patterns|Organizational patterns]]
+:[[w:Personal software process|Personal software process]]
+:[[w:Rational Unified Process|Rational Unified Process]]
+:[[w:Software development process|Software development process]]
+:[[w:SEMAT|SEMAT]]
+:[[w:Spiral model|Spiral model]]
+{{Col-3}}
+:[[w:Team software process|Team software process]]
+:[[w:Unified Process|Unified Process]]
+:[[w:V-Model (software development)|V-Model (software development)]]
+:[[w:Wagile software development|Wagile software development]]
+:[[w:Waterfall model|Waterfall model]]
+:[https://en.wikibooks.org/wiki/Agile_Software_Engineering_Cheatsheets Agile Software Engineering Cheatsheets]
+:[https://en.wikibooks.org/wiki/Introduction_to_Software_Engineering/Process/Agile_Model Introduction to Software Engineering / Process / Agile_Model]
+:[https://en.wikibooks.org/wiki/Software_Engineering_with_an_Agile_Development_Framework Software Engineering with an Agile Development Framework] (work in progress)
+{{Col-end}}
+= Literature =
+Overview and listing of agile books, articles, blogs and related materials.
+
+== Review ==
+A brief overview of popular agile literature.
+
+== Bibliography ==
+A listing of common agile literature.
+
+= ...works to be allocated... =
+:[[w:Evolutionary database design|Evolutionary database design]]
+:[[w:Flexible product development|Flexible product development]]
+:[[w:Hackathon|Hackathon]]<PhD, p/o Agile Events>
+:[[w:Innovation|Innovation]]<PhD, p/o Agile Events>
+:[[w:Open_plan|Open plan]]<PhD, aka. Agile/Open Workspace>
+:[[w:Open_Space_Technology|Open Space Technology]]<PhD, p/o Agile Events>
+:[[w:Outside–in software development|Outside–in software development]]
+:[[w:Regression testing|Regression testing]]
+:[[w:Schema migration|Schema migration]]
+:[[w:Service-oriented architecture|Service-oriented architecture]]
+
+[[Category:Wikipedia books on computer science]]
+[[Category:Agile software development]]
+
+__NOEDITSECTION__

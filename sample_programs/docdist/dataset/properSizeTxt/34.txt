@@ -1,0 +1,176 @@
+<span class="noprint">
+This '''Printable Huge Table''' is a detailed periodic table that does not fit on most computer screens. However, in print with a small font, or in landscape mode, this table can be printed onto a single normal-sized paper (A4 or 8.5 x 11").  It makes minimal use of color and can be printed with only black ink. ''Click '''Printable Version''' on the left under "Toolbox" before printing.''</span>
+
+{| border="0" cellpadding="0" cellspacing="1" style="width:100%; font-size:90%;"
+|-
+! Group
+! 1
+! 2
+! 3
+! 4
+! 5
+! 6
+! 7
+! 8
+! 9
+! 10
+! 11
+! 12
+! 13
+! 14
+! 15
+! 16
+! 17
+! 18
+|-
+! || I || II || colspan="10" | || III || IV || V || VI || VII || VIII
+|-
+! <span style="font-size:80%">Period</span>
+| colspan="19" | 
+|-
+! 1
+| {{element cell-p | 1|hydrogen  |H |1.0079    |Gas  |Nonmetals|Primordial}}
+| colspan="16" | 
+| {{element cell-p | 2|helium    |He|4.0026    |Gas  |Noble gases|Primordial}}
+|-
+! 2
+| {{element cell-p | 3|lithium   |Li|6.9412    |Solid|Alkali metals|Primordial}}
+| {{element cell-p | 4|beryllium |Be|9.0122    |Solid|Alkaline earth metals|Primordial}}
+| colspan="10" | 
+| {{element cell-p | 5|boron     |B |10.811   |Solid|Metalloids|Primordial}}
+| {{element cell-p | 6|carbon    |C |12.011   |Solid|Nonmetals|Primordial}}
+| {{element cell-p | 7|nitrogen  |N |14.007   |Gas  |Nonmetals|Primordial}}
+| {{element cell-p | 8|oxygen    |O |15.999   |Gas  |Nonmetals|Primordial}}
+| {{element cell-p | 9|fluorine  |F |18.998   |Gas  |Halogens|Primordial}}
+| {{element cell-p |10|neon      |Ne|20.180   |Gas  |Noble gases|Primordial}}
+|-
+! 3
+| {{element cell-p |11|sodium    |Na|22.990|Solid|Alkali metals|Primordial}}
+| {{element cell-p |12|magnesium |Mg|24.305|Solid|Alkaline earth metals|Primordial}}
+| colspan="10" | 
+| {{element cell-p |13|aluminum  |Al|26.982|Solid|Poor metals|Primordial}}
+| {{element cell-p |14|silicon   |Si|28.086|Solid|Metalloids|Primordial}}
+| {{element cell-p |15|phosphorus|P |30.974|Solid|Nonmetals|Primordial}}
+| {{element cell-p |16|sulfur    |S |32.066|Solid|Nonmetals|Primordial}}
+| {{element cell-p |17|chlorine  |Cl|35.453|Gas  |Halogens|Primordial}}
+| {{element cell-p |18|argon     |Ar|39.948|Gas  |Noble gases|Primordial}}
+|-
+! 4
+| {{element cell-p |19|potassium |K |39.098|Solid|Alkali metals|Primordial}}
+| {{element cell-p |20|calcium   |Ca|40.078|Solid|Alkaline earth metals|Primordial}}
+| {{element cell-p |21|scandium  |Sc|44.956|Solid|Transition metals|Primordial}}
+| {{element cell-p |22|titanium  |Ti|47.867|Solid|Transition metals|Primordial}}
+| {{element cell-p |23|vanadium  |V |50.942|Solid|Transition metals|Primordial}}
+| {{element cell-p |24|chromium  |Cr|51.996|Solid|Transition metals|Primordial}}
+| {{element cell-p |25|manganese |Mn|54.938|Solid|Transition metals|Primordial}}
+| {{element cell-p |26|iron      |Fe|55.845|Solid|Transition metals|Primordial}}
+| {{element cell-p |27|cobalt    |Co|58.933|Solid|Transition metals|Primordial}}
+| {{element cell-p |28|nickel    |Ni|58.693|Solid|Transition metals|Primordial}}
+| {{element cell-p |29|copper    |Cu|63.546|Solid|Transition metals|Primordial}}
+| {{element cell-p |30|zinc      |Zn|65.382|Solid|Transition metals|Primordial}}
+| {{element cell-p |31|gallium   |Ga|69.723|Solid|Poor metals|Primordial}}
+| {{element cell-p |32|germanium |Ge|72.612|Solid|Poor metals|Primordial}}
+| {{element cell-p |33|arsenic   |As|74.922|Solid|Metalloids|Primordial}}
+| {{element cell-p |34|selenium  |Se|78.963|Solid|Nonmetals|Primordial}}
+| {{element cell-p |35|bromine   |Br|79.904|Liquid|Halogens|Primordial}}
+| {{element cell-p |36|krypton   |Kr|83.798|Gas  |Noble gases|Primordial}}
+|-
+! 5
+| {{element cell-p |37|rubidium  |Rb|85.468|Solid|Alkali metals|Primordial}}
+| {{element cell-p |38|strontium |Sr|87.621|Solid|Alkaline earth metals|Primordial}}
+| {{element cell-p |39|yttrium   |Y |88.906|Solid|Transition metals|Primordial}}
+| {{element cell-p |40|zirconium |Zr|91.224|Solid|Transition metals|Primordial}}
+| {{element cell-p |41|niobium   |Nb|92.906|Solid|Transition metals|Primordial}}
+| {{element cell-p |42|molybdenum|Mo|95.962|Solid|Transition metals|Primordial}}
+| {{element cell-p |43|technetium|Tc|98.906|Solid|Transition metals|Primordial}}
+| {{element cell-p |44|ruthenium |Ru|101.07|Solid|Transition metals|Primordial}}
+| {{element cell-p |45|rhodium   |Rh|102.91|Solid|Transition metals|Primordial}}
+| {{element cell-p |46|palladium |Pd|106.42|Solid|Transition metals|Primordial}}
+| {{element cell-p |47|silver    |Ag|107.87|Solid|Transition metals|Primordial}}
+| {{element cell-p |48|cadmium   |Cd|112.41|Solid|Transition metals|Primordial}}
+| {{element cell-p |49|indium    |In|114.82|Solid|Poor metals|Primordial}}
+| {{element cell-p |50|tin       |Sn|118.71|Solid|Poor metals|Primordial}}
+| {{element cell-p |51|antimony  |Sb|121.76|Solid|Metalloids|Primordial}}
+| {{element cell-p |52|tellurium |Te|127.60|Solid|Metalloids|Primordial}}
+| {{element cell-p |53|iodine    |I |126.90|Solid|Halogens|Primordial}}
+| {{element cell-p |54|xenon     |Xe|131.29|Gas  |Noble gases|Primordial}}
+|-
+! 6
+| {{element cell-p |55|caesium   |Cs|132.91|Solid|Alkali metals|Primordial}}
+| {{element cell-p |56|barium    |Ba|137.33|Solid|Alkaline earth metals|Primordial}}
+| {{element cell-p |*|Inner-transition metal|Itm||Solid|Transition metals|Primordial}}
+| {{element cell-p |72|hafnium   |Hf|178.49|Solid|Transition metals|Primordial}}
+| {{element cell-p |73|tantalum  |Ta|180.95|Solid|Transition metals|Primordial}}
+| {{element cell-p |74|tungsten  |W |183.84|Solid|Transition metals|Primordial}}
+| {{element cell-p |75|rhenium   |Re|186.21|Solid|Transition metals|Primordial}}
+| {{element cell-p |76|osmium    |Os|190.23|Solid|Transition metals|Primordial}}
+| {{element cell-p |77|iridium   |Ir|192.22|Solid|Transition metals|Primordial}}
+| {{element cell-p |78|platinum  |Pt|195.08|Solid|Transition metals|Primordial}}
+| {{element cell-p |79|gold      |Au|196.97|Solid|Transition metals|Primordial}}
+| {{element cell-p |80|mercury   |Hg|200.59|Liquid|Transition metals|Primordial}}
+| {{element cell-p |81|thallium  |Tl|204.38|Solid|Poor metals|Primordial}}
+| {{element cell-p |82|lead      |Pb|207.21|Solid|Poor metals|Primordial}}
+| {{element cell-p |83|bismuth   |Bi|208.98|Solid|Poor metals|Primordial}}
+| {{element cell-p |84|polonium  |Po|[209] |Solid|Poor metals|Natural radio}}
+| {{element cell-p |85|astatine  |At|[210] |Solid|Halogens|Natural radio}}
+| {{element cell-p |86|radon     |Rn|[222] |Gas  |Noble gases|Natural radio}}
+|-
+! 7
+| {{element cell-p |87|francium     |Fr|[223] |Solid|Alkali metals|Natural radio}}
+| {{element cell-p |88|radium       |Ra|[226] |Solid|Alkaline earth metals|Natural radio}}
+|-
+| colspan="19" | &nbsp;
+|-
+| colspan="3" align="right" |*&nbsp;'''Lanthanides''' &nbsp;
+| {{element cell-p |57|lanthanum   |La|138.91|Solid|Lanthanides|Primordial}}
+| {{element cell-p |58|cerium      |Ce|140.12|Solid|Lanthanides|Primordial}}
+| {{element cell-p |59|praseodymium|Pr|140.91|Solid|Lanthanides|Primordial}}
+| {{element cell-p |60|neodymium   |Nd|144.24|Solid|Lanthanides|Primordial}}
+| {{element cell-p |61|promethium  |Pm|146.92|Solid|Lanthanides|Natural radio}}
+| {{element cell-p |62|samarium    |Sm|150.36|Solid|Lanthanides|Primordial}}
+| {{element cell-p |63|europium    |Eu|151.96|Solid|Lanthanides|Primordial}}
+| {{element cell-p |64|gadolinium  |Gd|157.25|Solid|Lanthanides|Primordial}}
+| {{element cell-p |65|terbium     |Tb|158.93|Solid|Lanthanides|Primordial}}
+| {{element cell-p |66|dysprosium  |Dy|162.50|Solid|Lanthanides|Primordial}}
+| {{element cell-p |67|holmium     |Ho|164.93|Solid|Lanthanides|Primordial}}
+| {{element cell-p |68|erbium      |Er|167.26|Solid|Lanthanides|Primordial}}
+| {{element cell-p |69|thulium     |Tm|168.93|Solid|Lanthanides|Primordial}}
+| {{element cell-p |70|ytterbium   |Yb|173.05|Solid|Lanthanides|Primordial}}
+| {{element cell-p |71|lutetium    |Lu|174.97|Solid|Lanthanides|Primordial}}
+|-
+| colspan="3" align="right" |**&nbsp;'''Actinide''' &nbsp;
+| {{element cell-p |89|actinium    |Ac|227.03|Solid|Actinides|Natural radio}}
+| {{element cell-p |90|thorium     |Th|232.04|Solid|Actinides|Primordial}}
+| {{element cell-p |91|protactinium|Pa|231.04|Solid|Actinides|Natural radio}}
+| {{element cell-p |92|uranium     |U |238.03|Solid|Actinides|Primordial}}
+| {{element cell-p |93|neptunium   |Np|[237] |Solid|Actinides|Natural radio}}
+| {{element cell-p |94|plutonium   |Pu|[244] |Solid|Actinides|Primordial}}
+| {{element cell-p |95|americium   |Am|[243] |Solid|Actinides|Synthetic}}
+| {{element cell-p |96|curium      |Cm|[247] |Solid|Actinides|Synthetic}}
+| {{element cell-p |97|berkelium   |Bk|[247] |Solid|Actinides|Synthetic}}
+| {{element cell-p |98|californium |Cf|[251] |Solid|Actinides|Synthetic}}
+| {{element cell-p |99|einsteinium |Es|[252] |Solid|Actinides|Synthetic}}
+| {{element cell-p|100|fermium     |Fm|[257] |Solid|Actinides|Synthetic}}
+| {{element cell-p|101|mendelevium |Md|[258] |Solid|Actinides|Synthetic}}
+| {{element cell-p|102|nobelium    |No|[262] |Solid|Actinides|Synthetic}}
+| {{element cell-p|103|lawrencium  |Lr|[263] |Solid|Actinides|Synthetic}}
+|}
+<small>Atomic masses in brackets are the most stable isotope.</small>
+<center>
+{|
+|+ Chemical Series of the Periodic Table'''
+|<span style="color:{{element color/Alkali metals}}">[[General Chemistry/Chemistries of Various Elements/Group 1|Alkali metals]]</span>
+|<span style="color:{{element color/Alkaline earth metals}}">[[General Chemistry/Chemistries of Various Elements/Group 2|Alkaline earths]]</span>
+|<span style="color:{{element color/Lanthanides}}">[[General Chemistry/Chemistries of Various Elements/Inner Transition Metals#Lanthanoids|Lanthaniods]]</span>
+|<span style="color:{{element color/Actinides}}">[[General Chemistry/Chemistries of Various Elements/Inner Transition Metals#Actinoids|Actinoids]]</span>
+|<span style="color:{{element color/Transition metals}}">[[General Chemistry/Chemistries of Various Elements/Transition Metals|Transition metals]]</span>
+|-
+|<span style="color:{{element color/Poor metals}}">[[General Chemistry/Chemistries of Various Elements|Poor metals]]</span>
+|<span style="color:{{element color/Metalloids}}">[[General Chemistry/Chemistries of Various Elements|Metalloids]]</span>
+|<span style="color:{{element color/Nonmetals}}">[[General Chemistry/Chemistries of Various Elements|Nonmetals]]</span>
+|<span style="color:{{element color/Halogens}}">[[General Chemistry/Chemistries of Various Elements/Group 17|Halogens]]</span>
+|<span style="color:{{element color/Noble gases}}">[[General Chemistry/Chemistries of Various Elements/Group 18|Noble gases]]</span>
+|}
+</center>
+
+{{BookCat}}

@@ -1,0 +1,191 @@
+'''Contents of the module'''
+*Tools that enable backing-up data and documents (e.g. Google Drive, Dropbox, HD, USB)
+*Advantages and disadvantages of backing-up data and documents
+*Different types of data - different types of backing-up 
+*Security of backed-up data
+
+'''Learning objectives'''
+*Participants will be able to understand why data storage, backup, and security of data are important
+*Participants will be able to understand data storage, backup, and security methods for data
+*Participants will be able to understand best practices for research data storage, access control, migration to newer storage media, and security of research data 
+*Participants will be able to identify an approach to creating a data storage, backup, and security plan according to their needs
+
+'''Learning outcomes'''
+*Participants will be able to understand that there are different types of backup operations which you can implement to safeguard your data: full backups, incremental backups, differential backups, mirror backups and online/remote backups.
+*Participants will be able to understand that  data loss is an emerging threat but there are certain procedures that can mitigate it.
+*Participants will be able to understand that backed-up data should also be properly secured. 
+*Participants will be able to get familiar with free and payable back-up services.
+
+'''Learning scenario'''
+*Interactive demonstration of different types of data backing-up.
+
+'''Evaluation'''
+*Evaluation consists of successfully backing-up different sorts of files.
+
+
+<u>Following this module learners will:</u>
+*Participants will be able to understand that there are different types of backup operations which you can implement to safeguard your data: full backups, incremental backups, differential backups, mirror backups and online/remote backups.
+*Participants will be able to understand that  data loss is an emerging threat but there are certain procedures that can mitigate it.
+*Participants will be able to understand that backed-up data should also be properly secured. 
+*Participants will be able to get familiar with free and payable back-up services.
+
+
+=== Introduction of the training ===
+'''Backup in computer systems'''
+In information technology, a backup, or data backup is a copy of computer data taken and stored elsewhere so that it may be used to restore the original after a data loss event. The verb form, referring to the process of doing so, is "back up", whereas the noun and adjective form is "backup". Backups can be used to recover data after its loss from data deletion or corruption, or to recover data from an earlier time. Backups provide a simple form of disaster recovery; however not all backup systems are able to reconstitute a computer system or other complex configuration such as a computer cluster, active directory server, or database server.
+
+A backup system contains at least one copy of all data considered worth saving. The data storage requirements can be large. An information repository model may be used to provide structure to this storage. There are different types of data storage devices used for copying backups of data that is already in secondary storage onto archive files. There are also different ways these devices can be arranged to provide geographic dispersion, data security, and portability.
+
+Data are selected, extracted, and manipulated for storage. The process can include methods for dealing with live data, including open files, as well as compression, encryption, and de-duplication. Additional techniques apply to enterprise client-server backup. Backup schemes may include dry runs that validate the reliability of the data being backed up. There are limitations and human factors involved in any backup scheme.
+
+'''Backup methods'''
+
+1. Unstructured
+
+An unstructured repository may simply be a stack of tapes, DVD-Rs or external HDDs with minimal information about what was backed up and when. This method is the easiest to implement, but unlikely to achieve a high level of recoverability as it lacks automation.
+
+2. Full only/System imaging
+
+A repository using this backup method contains complete source data copies taken at one or more specific points in time. Copying system images, this method is frequently used by computer technicians to record known good configurations. However, imaging  is generally more useful as a way of deploying a standard configuration to many systems rather than as a tool for making ongoing backups of diverse systems.
+
+3. Incremental
+
+An incremental backup stores data changed since a reference point in time. Duplicate copies of unchanged data aren't copied. Typically a full backup of all files is once or at infrequent intervals, serving as the reference point for an incremental repository. Subsequently, a number of incremental backups are made after successive time periods. Restores begin with the last full backup and then apply the incrementals. 
+
+Some backup systems can create a synthetic full backup from a series of incrementals, thus providing the equivalent of frequently doing a full backup.  When done to modify a single archive file, this speeds restores of recent versions of files.
+
+4. Near-CDP
+
+True Continuous Data Protection (CDP) refers to a backup that instantly saves a copy of every change made to the data. This allows restoration of data to any point in time and is the most comprehensive and advanced data protection.  Near-CDP backup applications (frequently marketed as "CDP") automatically take incremental backups at specific intervals, for example every 15 minutes, one hour, or 24 hours. They can therefore only allow restores at that fixed interval. Near-CDP backup applications use journaling and are typically based on periodic "snapshots",[13] a read-only copy of the data frozen at a particular point in time.
+
+5. Reverse incremental
+
+A Reverse incremental backup method stores a recent archive file "mirror" of the source data and a series of differences between the "mirror" in its current state and its previous states. A reverse incremental backup method starts with a non-image full backup. After the full backup is performed, the system periodically synchronizes the full backup with the live copy, while storing the data necessary to reconstruct older versions.  This can either be done using hard links—as Apple Time Machine does, or using binary diffs.
+
+6. Differential
+
+A differential backup saves only the data that has changed since the last full backup. This means a maximum of two backups from the repository are used to restore the data. However, as time from the last full backup (and thus the accumulated changes in data) increases, so does the time to perform the differential backup. Restoring an entire system requires starting from the most recent full backup and then applying just the last differential backup.
+
+'''Storage media'''
+
+Regardless of the repository model that is used, the data has to be copied onto an archive file data storage medium. The medium used is also referred to as the type of backup destination.
+
+1. Hard disk
+
+The use of hard disk storage has increased over time as it has become progressively cheaper. Hard disks are usually easy to use, widely available, and can be accessed quickly. However, hard disk backups are close-tolerance mechanical devices and may be more easily damaged than tapes, especially while being transported. In the mid-2000s, several drive manufacturers began to produce portable drives employing ramp loading and accelerometer technology (sometimes termed a "shock sensor"), and by 2010 the industry average in drop tests for drives with that technology showed drives remaining intact and working after a 36-inch non-operating drop onto industrial carpeting.  Some manufacturers also offer 'ruggedized' portable hard drives, which include a shock-absorbing case around the hard disk, and claim a range of higher drop specifications.  Over a period of years the stability of hard disk backups is shorter than that of tape backups.
+
+2. Optical storage
+
+Optical storage uses lasers to store and retrieve data. Recordable CDs, DVDs, and Blu-ray Discs are commonly used with personal computers and are generally cheap. In the past, the capacities and speeds of these discs have been lower than hard disks or tapes, although advances in optical media are slowly shrinking that gap. Many optical disc formats are WORM type, which makes them useful for archival purposes since the data cannot be changed. Some optical storage systems allow for cataloged data backups without human contact with the discs, allowing for longer data integrity. A French study in 2008 indicated that the lifespan of typically-sold CD-Rs was 2–10 years, but one manufacturer later estimated the longevity of its CD-Rs with a gold-sputtered layer to be as high as 100 years. 
+
+3. Remote backup service
+
+Remote backup services or cloud backups involve service providers storing data offsite. This has been used to protect against events such as fires, floods, or earthquakes which could destroy locally stored backups.  Cloud-based backup provides a layer of data protection. However, the users must trust the provider to maintain the privacy and integrity of their data, with confidentiality enhanced by the use of encryption. Because speed and availability are limited by a user's online connection, users with large amounts of data may need to use cloud seeding and large-scale recovery.
+
+
+'''Keywords''': information technology, backup, storage, hard drive, remote backup, cloud, cd, optical storage
+
+'''Learning subject/ field'''
+
+<u>→ Frist session</u>
+The trainer will start the session with a group discussion about their previous experiences with data losses and backups in computer systems.
+
+After this initial debate, the trainer will present the main ideas and different ways of back up methods. This part of the session will be supported by a slide presentation prepared in advance. 
+
+This will be followed by an in-classroom activity, where participants will discuss with each other why backup is important?
+
+Next, participants will learn about backing up data on external an internal drive. They will learn how process of back up data works. Task: This will be followed by a practical activity. Participants will have the chance to try to make back up data on external drive and internal drive. 
+
+After this exercise, the trainer will wrap-up the session with a debriefing moment and a small evaluation of the session. 
+
+<u>→ Second session</u>
+The trainer will start the session by making a summary of the previous session and by answering questions or comments participants might have.
+After this, a short introduction to the goals and themes of the session will be presented. 
+
+The trainer will explain the historical background of developing remote back up data idea. 
+ 
+The next part of the session will focus on how cloud system works and why, at the moment, they are one of most popular ways of data storage.
+
+New discussion will be followed about convenience of using cloud storage: “How and why can cloud storage be useful for the participants and their data storage?”
+
+Task 2: A special exercise for participants:  how to make data transfer from external drive to cloud storage. They will have to show what is the best way to make this process and also explain which cloud provider is most suitable for them. 
+
+After this exercise, the trainer will wrap-up the session with a debriefing moment and a small evaluation of the session.
+
+
+=== Session 1 ===
+<u>The '''purpose''' of the session will be:</u>
+*to provide an introduction to different types of backup operations which you can implement to safeguard your data
+*to facilitate data loss is an emerging threat but there are certain procedures that can mitigate it
+*to discover free and payable back-up services.
+*to motivate using cloud for storage data
+
+==== Group discussion ====
+The trainer will start the session with a group discussion about their previous experiences with data losses and backups in computer systems.
+
+==== Back-up methods ====
+After this initial debate, the trainer will present the main ideas and different ways of back up methods. This part of the session will be supported by a slide presentation prepared in advance.
+
+This will be followed by an in-classroom activity, where participants will discuss with each other why backup is important?
+
+==== Exercise ====  
+Next, participants will learn about backing up data on external an internal drive. They will learn how process of back up data works. This will be followed by a practical activity. Participants will have the chance to try to make back up data on external drive and internal drive.
+
+==== Homework ====
+Participants should watch video below and comment
+https://www.youtube.com/watch?v=p3q5zWCw8J4
+
+==== Debriefing ====
+After this exercise, the trainer will wrap-up the session with a debriefing moment and a small evaluation of the session. Participant will be included in debate about learning approach.
+
+==== Evaluation ====
+Participants will answer a small questionnaire to evaluate the session.
+
+==== Overall duration of the session ====
+2 hours
+
+==== References ====
+*https://en.wikipedia.org/wiki/Backup
+
+=== Session 2 ===
+<u>The '''purpose''' of the session will be:</u>
+*to provide an introduction to remote backup service (cloud)
+*to facilitate working with data backup approaches 
+*to discover different providers of cloud storage
+*to motivate participants of using cloud services
+
+==== Review of the previous lesson ====
+The trainer will start the session by making a summary of the previous session and by answering questions or comments participants might have.
+After this, a short introduction to the goals and themes of the session will be presented.
+
+==== Introduction to the theme of the session ====
+Trainer will introduce the topic of current popular way of data storage - remote backup services or cloud backups . Trainer will show how does it work, benefits and how to carefully choose most suitable provider of cloud services.
+
+==== Excercise ====
+The trainer will explain the historical background of developing remote back up data idea. 
+ 
+The next part of the session will focus on how cloud system works and why, at the moment, they are one of most popular ways of data storage.
+
+New discussion will be followed about convenience of using cloud storage: “How and why can cloud storage be useful for the participants and their data storage?”
+
+Task 2: A special exercise for participants:  how to make data transfer from external drive to cloud storage. They will have to show what is the best way to make this process and also explain which cloud provider is most suitable for them. 
+After this exercise, the trainer will wrap-up the session with a debriefing moment and a small evaluation of the session.
+
+==== Homework ====
+Watch and comment
+Cloud Storage - What is The Cloud and How Does it Work? How It Works Explained and How to Use Types
+https://www.youtube.com/watch?v=3WANMc8EqPM
+
+==== Debriefing ====
+To wrap up the session, the trainer will facilitate a debriefing moment where participants are encouraged to express their questions, doubts, ideas and feelings toward the topics discussed.
+
+====  Evaluation ====
+Participants will answer a small questionnaire to evaluate the form and the content of the session.
+
+==== Overall duration of the session ====
+1 hour
+
+==== References ====
+* [https://en.wikipedia.org/wiki/Backup Backup]
+
+{{BookCat}}

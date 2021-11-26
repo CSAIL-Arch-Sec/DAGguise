@@ -1,0 +1,169 @@
+==Conceptualization==
+The beginning of the process. Here the idea germinates. Investors and/or the conceptualizers usually finance this first stage, principally because it doesn't cost anything.
+
+===Project development=== 
+The conceptualizers, which may be a single writer planning a spec script or a producer or syndicate, put the broad outlines of their project in place. If they have started the idea from scratch, they write a [[w:Film_treatment|treatment]] to present the idea to others, followed by the writing of the full script. If they got the idea from a book or story, they seek to purchase the film rights and, once they have a signed contract, begin to convert the story into a script. 
+
+Sometimes a director or producer will approach a writer with an idea. They hire the writer under a "work-for-hire" contract, meaning that the rights to the developed script remain with the person who provides the idea and the money to develop it. Professionals will usually provide the writer with a registered treatment of at least 3 pages outlining the story in detail. People new to the industry will simply tell the writer the idea in a few words. The writer will go off and turn the idea into 90-120 pages of plot, characters, dialogue, and action.
+
+===Production Design===
+The art director, production designer and/or producers decide on the overall feel of the production. This has a huge effect on the script breakdown.
+
+===Script Breakdown=== 
+The Production Designer and the producers dissect the script to identify how many of everything they need; i.e. actors, locations, visual and computer effects, props & costumes.
+
+===Crewing up===
+The producers design a basic timeline and make initial wish-lists on actors, head crew members (director, director of photography (DP), gaffer, sound, visual effects designer, computer effects designer, editor and musician), locations and equipment as it affects format (b&w or colour film, video or digital video)
+
+==Finance==
+This stage runs concurrently with conceptualization but can only really reflect actual needs after the script breakdown and production design stages have finished.
+
+===Budget=== 
+This tries to take into account all expenses for the entire venture based on results from the script breakdown and production design as well as budgets from similar projects. The line producer (someone familiar with filming in a particular geographical region) usually does the initial budget.
+
+===Investors=== 
+At this stage the project requires a second level of investors to commit to the project to carry it through to completion. The art of deal-making rules this stage. A good producer can raise millions based on how well they understand the distribution and exhibition controls in the industry. Small productions rely on smaller, non commercial forums of funding.
+
+===Market analysis===
+The producers and distributors clearly define the market at this stage.
+
+==Pre-production==
+Once the line producer completes the initial script breakdown, supplying the budget and schedule for the production, the initial meetings take place with the people involved and all the producers make all the 'final' decisions for the production. The line producer prepares the final budget and schedule during pre-production. Sometimes the 1st assistant director prepares the schedule with the line producer.
+
+===First meetings=== 
+The producers and crew heads meet to determine if they feel comfortable working together. As each has very different styles of working this meeting stage can make or break the production. Also the director usually meets with the major actors, determining if (s)he feels the actors need rehearsal time, or training (athletic, martial arts, military, medical, etc.) to play their roles.
+
+===Locations=== 
+The production team (in coordination with the art department) secures locations for the shoot. They determine time-frames and iron out all potential problems (seasonal traffic, weather, etc.) If the production shoots on a sound stage, the set design and construction begins.
+
+===Props & special effects===
+The special effects team and the art department determine what they need to build, buy or borrow (miniature models, multiple vehicles for stunts and explosions, effects make-up, aged props and building, set dressings, etc.).
+
+==Production== 
+The executive producer gives the money to the producer to make the motion picture.  The producer hires the director who will control the performance of the actors.  The producer hires the cinematographer (director of photography) who will capture the performance of the actors on film or digitally.  The producer hires a production manager (or line producer) who then hires all the workers (the crew) for the filming of the motion picture.  The producer or the production manager will hire the sound recordist (sound mixer) who will capture the dialog of the actors.  The producer and the director select the actors for the motion picture with the assistance of a casting director.    Each day on the movie set, the actors and crew turn into reality the planning of the production.  '''On the set: Lights, Camera, Action!'''
+
+'''Head crew''' <br>
+Directors and assistant directors, script supervisor and location manager.
+
+'''Camera department'''<br>
+Director of photography, camera operator, camera assistants and focus pullers.
+
+'''Lighting/electrical department''' <br>
+Gaffer, best boy electric and electricians (sparks).
+
+'''Grip department''' <br>
+Key grip, dolly grip, best boy grip, rigging grips and grips.
+
+'''Sound department''' <br>
+Sound mixer, sound assistants and boom.
+
+'''Art department''' <br>
+Art director, prop manager, painters, set dressers, and construction crew.
+
+'''Make-up/hair department''' <br>
+Make up artist, hair designer, special effects make-up designer and assistants.
+
+'''Wardrobe/costume department''' <br>
+Costume designer (not on set), wardrobe manager, and dressers.
+
+'''Visual effects department''' <br>
+Visual effects supervisor and support crew.
+
+'''Production department''' <br>
+Production manager (not on set), production coordinator, and production assistants (PAs).
+
+'''Support crew'''<br>
+Medical, transport, catering, personal assistants, still photography, and behind-the-scenes videographers.
+
+==Post Production==
+On completion of filming (and even while it still continues) the editing team goes to work to start cutting the project together.  If you are interested in learning how to do these steps using your personal computer, see the [[Movie Making Manual/Education|Teach Yourself Filmmaking]] section.
+
+===Developing /Dailies/Logging===
+Every night during shooting of the motion picture, the film reels and the sound reels are sent to the lab. The film is developed and circle takes printed onto film or telecined onto video tape.  Then the audio is synced with the picture to create the dailies.  Or to explain it another way: The dailies are created by combining the visual image (from the motion picture camera or from the DV Camcorder) with the audio (the dialog) from the sound recorder.  To begin post production, a copy of these dailies are converted into the formatted required by the film editor and logged. On film, this is known as the '''work print'''. The editor never works with the original negative which scratches too easily. For digital films, this is called the off-line edit which is lower resolution than the original images which saves disk space and speeds up playback. For bigger films, logging means that information about every piece of film and every bit of audio must be entered into a huge database which is accessible by the entire post production staff.
+
+===Editing===
+Building the scenes to tell a story. Nowadays, non-linear editing using computers has become the norm (Avid, [[Final Cut Pro]], ...)  The editor works closely with the sound effects department and the film scoring person to bring the maximum impact to the movie.  For action sequence, the scene will be edited based on the visual images, the music and the sound effects.  For conversations, the editor must cut to get the best quality dialog... as well as to worry how the music and sound effects will affect the scene.
+
+===ADR===
+Editors must re-record dialogue that cannot be salvaged from production in a process called '''looping''', '''[[w:dubbing (filmmaking)|dubbing]]''', or '''ADR'''. ADR stands for either Additional Dialogue Recording, or Automated Dialogue Replacement, depending on whom you ask. But don't ask why the A sometimes stands for Automated, because there's nothing particularly automatic about the process. An actor watches the image repeatedly while listening to the original production track on headphones as a guide. The actor then re-performs each line to match the wording and lip movements. 
+
+Actors vary in their ability to achieve sync and to recapture the emotional tone of their performance. Marlon Brando, for example, was said to enjoy looping because he didn't like to freeze a performance until he knew its final context. (People have said that he mumbled during his on-camera performances to make the production sound unusable, so that he can make adjustments in looping.) 
+
+ADR is a necessary evil when production sound is unusable, but directors can also use it to add new character or interpretation to a shot. By altering a few key words or phrases an actor can change the emotional bent on a scene.
+
+===Sound Effects===
+The sound effects (including the [[w:foley|Foley]], [[w:walla|Walla]], & Ambience) make a scene seem '''real'''. Without the addition of sound effects, a scene would feel like it was filmed on a studio sound stage... which it probably was.  Sound effects recorded by a sound effects person are rarely used as is.  Instead, sound effects are "sweetened" and enhanced.
+
+====Foley====
+A sound effects technique for synchronous effects or live effects.  Foleying supplies the subtle sounds that production mikes often miss. The rustling of clothing and a squeak of a saddle when a rider mounts his horse give a scene a touch of realism that filmmakers find difficult to provide using other effects methods.   
+The good Foley artist must "become" the actor with whom they sync effects or the sounds lack the necessary realism to convince the audience.  
+Most successful Foley artists are audiles; they can look at an object and imagine what type of sound it can be made to produce.  The foley crew include the artist or "walker," who makes the sound, and a technician or two to record and mix it.  
+A foley stage often appears as a storage area for the studio's unwanted junk. Metal laundry tubes filled to the brim with metal trays, tin pie plates, empty soda cans, hubcaps, bedpans, knives, forks and broken staple guns. They use these crash tubes  for anything from comedy crashes to adding presence (brightness and naturalness) to something as serious as a car crash.
+
+====Walla====
+Walla is the indistinguishable mutterings of people in a crowd.  It takes a special skill to create a series of intelligible words with no clear meaning.
+
+====Ambience====
+Unlike sound for television dramas, a motion picture normally records only the dialog (the spoken words) during production.  All the other sounds are created in post production.  This gives greater freedom when editing the dialog.  Therefore, the natural sounds of the environment need to be added.  This is especially true if the scene was recorded on a sound stage at the motion picture studio where the background sounds are never natural or realistic.  The sound of the environment is the '''ambience''' and must be recorded in a real location.  Even though ambience is very soft in the background, a scene will feel flat without it.
+
+Ambience is also sometimes referred to as "room tone."
+
+===Musical Scoring=== 
+The musical score and the musical sound effects create the '''mood''' for each scene.  Writing the music for film and TV requires special skills from the composers, musicians and sound engineers; they all need a flair for the dramatic and the ability to envision sound. Even though the actors' voices adds a kind of music to a scene as they speak, adding additional music is often necessary to create the proper mood.  
+It is often the director who tells the film's composer what moods he wants the audience to feel during the action and the dialog in the motion picture.
+
+===Visual Effects=== 
+Visual effects are any element which was not captured during filming that must be created later.  This can be done by computers (CGI) or by matte paintings.  When two or more elements must be combined (such as live actor shots with computer generated effects), the images are composited.
+
+====CGI====
+CGI stands for Computer Generated Imagery. This term refers to any element created within a computer and encompasses anything from adding digital fog to a scene, to generating a crowd at a stadium, to creating whole characters, completely animated, such as Gollum from the Lord of the Rings films. 
+
+====Matte Painting====
+Matte Paintings were originally hand-painted scenery on glass which was photographed along with the live action.  When using a matte painting which has been painted on clear glass, the matte painting sits in front of the camera while the actors perform on a partial movie set which can be seen through a clear spot on the matte painting.  The rest of the movie set is simply the painting.  Now Matte Paintings are created with hand painting, paintings using computer software, still image manipulation, and/or 3D models which have been rendered, and then the matte painting is combined with the live action by compositing in post production, rather than during the filming of the movie.
+
+====Titling====
+Filmmakers consider designing the opening and closing credits to a film or TV piece  as an art and skill in itself. Nowadays people's whole careers can consist only of designing titles for major motion pictures and television series.
+
+====Compositing====
+When separate visual elements on film are combined, this is called '''opticals'''.  
+With computers and digital images, this is called compositing which is just like combining pictures with Photoshop.
+
+===Conforming the Negative===
+Once all the post production is finished and a working edit of the movie is completed and approved, the negative must be cut to match the working edit of the movie.  Only after the negative is conformed is the movie is ready for viewing in a theater (usually at a film festival) where the motion picture will be seen by the public (and potential distributors) for the first time.
+If the motion picture was made with digital images, the movie must be rendered at full resolution (the on-line edit) and transferred to film.  If there will be a digital intermediary, the digital version or a digitized version of the conformed negative is color corrected and then rendered onto film.
+
+==Sales & Marketing==
+===Distribution===
+If the project has distributors on-board from the beginning, this process requires little more than sitting back on the part of the producers and investors, as the distributors practice their trade. However if the producers have not pre-sold the distribution rights, this can entail going to film festivals and/or door-to-door selling to TV, cable stations or video/DVD distributors.
+
+====Delivery====
+Once the motion picture has been sold to a distributor, the distributor will spell out exactly the elements that she requires to accept the film. Then the filmmaker goes back and prepares all these elements.  For very low budget movies, this can cost more than the entire production and includes such odd things as insurance policies for '''errors and omissions''' and a sound track for the motion picture which has been divided into three separate parts - Dialog, Music and Effects.  It is the distributor who will create all the foreign language versions of the motion picture and make all the necessary cuts and reedits to the motion picture to get it acceptable for foreign markets.
+
+===Publicity material===
+Marketing also requires the design of posters, audio & visual trailers and merchandise. Special staff, like graphic artists and voice-over characters, work to produce these invaluable tools.   It is the distributor who creates the DVD-Video disk so the distributor must create the special features and publicity for the DVD-Video disk.  Hopefully, the production company has created and saved the necessary items need for the publicity such as '''production stills''' and '''documentaries''' for the DVD-Video disk.
+
+
+----
+----
+
+
+==Getting Started==
+If all of this sounds exciting, you can get started by reading the section called '''[[Movie Making Manual/Education|Teach Yourself Filmmaking]]'''.  This section of the Movie Making Manual shows you simple ways to begin learning how you can make your own motion pictures.
+
+----
+----
+
+==Wikiversity==
+
+;Note
+:Wikiversity now offers '''free''' classes in [[v:Filmmaking|filmmaking]] and [[v:Filmmaking|film scoring]]. 
+
+----
+----
+
+
+
+[[{{BOOKCATEGORY}}/Developing movies|Basic Basics]]
+[[{{BOOKCATEGORY}}/Pre-production|Basic Basics]]
+[[{{BOOKCATEGORY}}/Production|Basic Basics]]
+[[{{BOOKCATEGORY}}/Intro|Basic Basics]]
