@@ -28,6 +28,7 @@ RUN apt update && \
     sudo \
     gcc \
     gdb \
+    libpng-dev \
     cmake
 
 RUN pip install --upgrade pip && pip install scons && \
@@ -35,7 +36,7 @@ RUN pip install --upgrade pip && pip install scons && \
           /usr/local/lib/python2.7/site-packages/
 
 FROM gem5-env as dagguise-env
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["/bin/bash"]
@@ -61,12 +62,11 @@ RUN mkdir .virtualenv && cd .virtualenv && \
     /home/user/.pypy3/bin/virtualenv asplos && \
     echo "source /home/user/.virtualenv/asplos/bin/activate" >> /home/user/.bashrc
 
-COPY ../ /home/user/dagguise
+COPY --chown=user . /home/user/dagguise
 WORKDIR /home/user/dagguise
 RUN . /home/user/.virtualenv/asplos/bin/activate && \
-    pip3 install -r scripts/requirements.txt && \
-    pip3 install -r util/epoch/requirements.txt
+    pip3 install -r eval_scripts/requirements.txt 
     
-RUN scons build/X86_MESI_Two_Level/gem5.fast -j$(nproc)
+RUN scons build/X86/gem5.opt -j$(nproc)
 CMD ["/bin/bash"]
 

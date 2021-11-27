@@ -9,9 +9,10 @@ if [[ -z "$SPEC_ROOT" ]]; then
 fi
 
 # Change if desired
-victim_checkpoint="$GEM5_ROOT/checkpoints/docdist/cpt.1379571884454/"
+victim_checkpoint="$GEM5_ROOT/checkpoint/docdist/cpt.1285668325407/"
 unprotected_checkpoint="$SPEC_ROOT/ckpt/bwaves_r/cpt.None.SIMP-0/"
 
 cd $GEM5_ROOT/checkpoint_merge/
-source generateMerge.sh merged_checkpoint $unprotected_checkpoint $victim_checkpoint
+export GEM5_ROOT
+bash generateMerge.sh merged_checkpoint $unprotected_checkpoint $victim_checkpoint
 cd -

@@ -16,7 +16,7 @@ using namespace std;
 
 //#define USE_ZSIM_FAST_FORWARD
 //#define SKIP_10K_MEMACC
-#define DUMP_CHECKPOINT 
+//#define DUMP_CHECKPOINT 
 //#define GET_SHORT_DAG
  
  

@@ -28,4 +28,9 @@ In addition to the standard Gem5 run flags, three additional flags are important
       - Open/Closed Row Configurations
    3. **--dagprotectionfile** If the DAGguise shaper is enabled, this tells the shaper **which** defense rDAG to use.
 
+## TODO to explain
 
+describe SPEC_ROOT GEM5_ROOT
+
+docker build -t dagguise . -f docker/Dockerfile
+docker run --rm -it --entrypoint bash dagguise
