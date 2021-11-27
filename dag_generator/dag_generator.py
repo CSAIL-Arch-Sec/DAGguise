@@ -38,7 +38,7 @@ def main(args):
   for paraID in range(numPara):
     edge.append({"sourceID": numPhase*numPara-paraID, "destID": numPhase*numPara+1, "latency": latency})
 
-  finalJson = {"loop": 100, "node": node, "edge": edge}
+  finalJson = {"0": {"loop": 100, "node": node, "edge": edge}}
 
   with open(args.outputfile, 'w') as json_file:
       json.dump(finalJson, json_file, indent=4)
