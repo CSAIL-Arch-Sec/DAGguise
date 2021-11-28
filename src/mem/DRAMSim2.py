@@ -56,5 +56,6 @@ class DRAMSim2(AbstractMemory):
     
     defenceFile = Param.String("", "Input file for defence scheme")
     defenceFile2 = Param.String("", "Input file for defence scheme")
+    outputFile = Param.String("", "Output file for DRAMSim2 results")
 
     enableDebug = Param.Bool(True, "Enable DRAMSim2 debug output")

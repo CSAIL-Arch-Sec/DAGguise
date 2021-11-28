@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export SIM_DESC='DRAM_REPLACE'
-
 $GEM5_ROOT/build/X86/gem5.opt \
         --outdir=OUTDIR_REPLACE \
 	$GEM5_ROOT/configs/example/se.py \

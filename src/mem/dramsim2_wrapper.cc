@@ -74,10 +74,11 @@ DRAMSim2Wrapper::DRAMSim2Wrapper(const std::string& config_file,
                                  const std::string& defence_file,
                                  const std::string& defence_file_2,
                                  unsigned int memory_size_mb,
+                                 const std::string& dramsim2_outputfile,
                                  bool enable_debug) :
     dramsim(new DRAMSim::MultiChannelMemorySystem(config_file, system_file,
                                                   working_dir, trace_file, defence_file, defence_file_2,
-                                                  memory_size_mb, NULL, NULL)),
+                                                  memory_size_mb, dramsim2_outputfile, NULL)),
     _clockPeriod(0.0), _queueSize(0), _burstSize(0)
 {
     // tell DRAMSim2 to ignore its internal notion of a CPU frequency

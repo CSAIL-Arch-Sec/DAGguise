@@ -423,6 +423,9 @@ def addSEOptions(parser):
     parser.add_option("--dagprotectionfile", action="store", type="string",
                       dest="dagprotectionfile",
                       help="What input DAG we should use")
+    parser.add_option("--dramsim2outputfile", action="store", type="string",
+                      dest="dramsim2outputfile",
+                      help="What input DAG we should use")
     parser.add_option("--enabledramlog", action="store_true",
                       dest="enabledramlog",
                       help="What input DAG we should use")

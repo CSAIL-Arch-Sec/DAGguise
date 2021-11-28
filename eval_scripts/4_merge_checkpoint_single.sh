@@ -14,5 +14,5 @@ unprotected_checkpoint="$SPEC_ROOT/ckpt/bwaves_r/cpt.None.SIMP-0/"
 
 cd $GEM5_ROOT/checkpoint_merge/
 export GEM5_ROOT
-bash generateMerge.sh merged_checkpoint/cpt.None.SIMP-0/ $unprotected_checkpoint $victim_checkpoint
+bash generateMerge_single.sh merged_checkpoint/cpt.None.SIMP-0/ $unprotected_checkpoint $victim_checkpoint
 cd -

@@ -104,6 +104,7 @@ class DRAMSim2Wrapper
                     const std::string& defence_file,
                     const std::string& defence_file_2,
                     unsigned int memory_size_mb,
+                    const std::string& dramsim2_outputfile,
                     bool enable_debug);
     ~DRAMSim2Wrapper();
 

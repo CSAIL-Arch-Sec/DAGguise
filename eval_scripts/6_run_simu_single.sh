@@ -9,7 +9,7 @@ if [[ -z "$SPEC_ROOT" ]]; then
 fi
 
 cd $GEM5_ROOT/eval_scripts/simu_single/
-python3 generate_runscript.py docDist_2cpu_closedrow_private.sh
+python3 generate_runscript.py ../simu_common/docDist_2cpu_closedrow_private.sh
 cd $SPEC_ROOT/run/bwaves_r
 bash $GEM5_ROOT/eval_scripts/simu_single/runscript.sh
 cd -
