@@ -8,14 +8,18 @@ import csv
 import re
 from matplotlib.patches import Rectangle
 
+gem5root = os.environ.get('GEM5_ROOT')
+specroot = os.environ.get('SPEC_ROOT') 
+
+assert(gem5root is not None)
+assert(specroot is not None)
+
 df = pd.DataFrame(columns = ["cycles", "weight", "para", "ipc", "insts", "total_nodes", "fake_reads", "fake_writes", "bandwidth"])
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 df = df.astype({"fake_reads": int, 'total_nodes': int, 'insts': int})
 
-for folder in next(os.walk(sys.argv[1]))[1]:
-    if 'm5_out_' not in folder: continue
-
+for folder in next(os.path.join(gem5root, "sensitivity"))[1]:
     para = folder.split('_')[-1]
     weight = folder.split('_')[-2]
     if (weight == '0'): continue;
@@ -24,7 +28,7 @@ for folder in next(os.walk(sys.argv[1]))[1]:
     procDict["weight"] = weight
     procDict["para"] = para
 
-    with open(sys.argv[1] + '/' + folder+'/stats.txt') as f:
+    with open(folder+'/stats.txt') as f:
         for line in f.readlines():
             if "ipc " in line:
                 procDict["ipc"] = float(re.split(r'[ ]+',line)[1])
@@ -33,7 +37,7 @@ for folder in next(os.walk(sys.argv[1]))[1]:
             elif "system.switch_cpus_1.numCycles" in line:
                 procDict["cycles"] = int(re.split(r'[ ]+',line)[1])
 
-    with open(sys.argv[1] + '/' + 'results/.'+str(weight)+'.'+str(para)+'/DDR3_micron_32M_8B_x8_sg125/4GB.1Ch.8R.scheme2.'+('open' if (str(weight) == 'out') else 'close')+'_page.32TQ.32CQ.RtB.pRankpBank.'+str(weight)+'.'+str(para)+'.vis') as f:
+    with open(folder+'/%s_%s.vis' % (weight, para)) as f:
         for line in f.readlines():
             if "Final Defence" in line:
                 procDict["total_nodes"] = int(re.split(r'[ ]+',line)[-1].split(',')[0])

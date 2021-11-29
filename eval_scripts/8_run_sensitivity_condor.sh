@@ -13,7 +13,5 @@ export TEST_NAME="docDist_2cpu_DAGguise"
 
 cd $GEM5_ROOT/sensitivity/
 python3 generateRunscripts.py $GEM5_ROOT/sensitivity/template.sh
-
-#cd $SPEC_ROOT/
-#condor_submit $GEM5_ROOT/sensitivity/launch.condor
-#cd -
+condor_submit $GEM5_ROOT/sensitivity/launch.condor
+cd -
