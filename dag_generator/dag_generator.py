@@ -55,7 +55,7 @@ if __name__ == '__main__':
   parser.add_argument(
                       "--weight",
                       type = int,
-                      default = 8,
+                      default = 100,
                       help = "Edge Weight")
 
   parser.add_argument(
