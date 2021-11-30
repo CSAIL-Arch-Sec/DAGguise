@@ -19,7 +19,7 @@ pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 df = df.astype({"fake_reads": int, 'total_nodes': int, 'insts': int})
 
-for folder in next(os.path.join(gem5root, "sensitivity"))[1]:
+for folder in next(os.walk(os.path.join(gem5root, "sensitivity")))[1]:
     para = folder.split('_')[-1]
     weight = folder.split('_')[-2]
     if (weight == '0'): continue;
@@ -28,7 +28,7 @@ for folder in next(os.path.join(gem5root, "sensitivity"))[1]:
     procDict["weight"] = weight
     procDict["para"] = para
 
-    with open(folder+'/stats.txt') as f:
+    with open(os.path.join(gem5root, "sensitivity", folder, "stats.txt")) as f:
         for line in f.readlines():
             if "ipc " in line:
                 procDict["ipc"] = float(re.split(r'[ ]+',line)[1])
@@ -37,7 +37,7 @@ for folder in next(os.path.join(gem5root, "sensitivity"))[1]:
             elif "system.switch_cpus_1.numCycles" in line:
                 procDict["cycles"] = int(re.split(r'[ ]+',line)[1])
 
-    with open(folder+'/%s_%s.vis' % (weight, para)) as f:
+    with open(os.path.join(gem5root, "sensitivity", folder, '%s_%s.vis' % (weight, para))) as f:
         for line in f.readlines():
             if "Final Defence" in line:
                 procDict["total_nodes"] = int(re.split(r'[ ]+',line)[-1].split(',')[0])
@@ -97,7 +97,7 @@ for kind in mkr_dict:
 axs[1].set_ylabel('Avg. Allocated\nBandwidth (GB/s)')
 axs[1].set_xlabel('Weight\n(b)')
 
-axs[2].add_patch(Rectangle((2, 0.75), 2, 0.15, linewidth=1.5, facecolor='orange', edgecolor='b', fill=True, alpha=0.3, linestyle='dotted', zorder=-1))
+#axs[2].add_patch(Rectangle((2, 0.75), 2, 0.15, linewidth=1.5, facecolor='orange', edgecolor='b', fill=True, alpha=0.3, linestyle='dotted', zorder=-1))
 
 for kind in mkr_dict:
     d = vals[vals["para"] == kind]
