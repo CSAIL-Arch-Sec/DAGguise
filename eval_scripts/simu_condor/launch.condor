@@ -1,0 +1,27 @@
+######################################################## 
+#						       # 
+# Example Vanilla Universe Job			       #
+# Simple HTCondor submit description file	       #
+# 	 	  	 	     		       #
+########################################################
+
+universe         = vanilla
+getenv           = true
+executable       = $(filename)
+initialdir       = $ENV(SPEC_ROOT)/run/$Fd(filename)
+#arguments        = $ENV(PWD)/$(filename)
+log              = dagSkewTests.$(Process).log
+output           = dagSkewTests.$(Process).out
+error            = dagSkewTests.$(Process).error
+request_cpus     = 1
+request_memory   = 10.5G
+request_disk     = 10M
+notification     = Always
+Rank             = cpus
++RequiresWholeMachine = False
+
+##  Do not edit  ##
+accounting_group = $ENV(CONDOR_GROUP)
+########################################################
+#queue filename matching run/*/cpt.None.*runscript.sh
+queue filename matching $ENV(GEM5_ROOT)/eval_scripts/simu_condor/results/$ENV(TEST_NAME)/*/*runscript.sh
