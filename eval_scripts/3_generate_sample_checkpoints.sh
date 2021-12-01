@@ -5,6 +5,6 @@ fi
 
 cd $GEM5_ROOT/sample_programs/docdist
 make
-cd $GEM5_ROOT/checkpoints/docdist
+cd $GEM5_ROOT/checkpoint/docdist
 source runscript.sh
 cd -
