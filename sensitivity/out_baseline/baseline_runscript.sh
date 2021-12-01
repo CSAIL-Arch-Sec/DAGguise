@@ -1,7 +1,7 @@
 #!/bin/bash
 
 $GEM5_ROOT/build/X86/gem5.opt \
-        --outdir=/data/scratch/pwd/artifact_eval/gem5_19/sensitivity/out_baseline \
+        --outdir=$GEM5_ROOT/sensitivity/out_baseline \
 	$GEM5_ROOT/configs/example/se.py \
 	--cpu-type=DerivO3CPU \
 	--num-cpus=1 \
@@ -18,5 +18,5 @@ $GEM5_ROOT/build/X86/gem5.opt \
         --dramdeviceconfigfile=$GEM5_ROOT/ext/dramsim2/DRAMSim2/ini/DDR3_micron_32M_8B_x8_sg125.ini \
         --dramsystemconfigfile=$GEM5_ROOT/ext/dramsim2/DRAMSim2/configs/system_reg_multi.ini \
 	-c "$GEM5_ROOT/sample_programs/docdist/docDist" \
-	--dagprotectionfile=/data/scratch/pwd/artifact_eval/gem5_19/sensitivity/0_1/0_1.json\
-	--dramsim2outputfile=/data/scratch/pwd/artifact_eval/gem5_19/sensitivity/out_baseline/out_baseline \
+	--dagprotectionfile=$GEM5_ROOT/sensitivity/0_1/0_1.json \
+	--dramsim2outputfile=$GEM5_ROOT/sensitivity/out_baseline/out_baseline \
