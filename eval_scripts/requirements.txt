@@ -1,1 +1,4 @@
-matplotlib >= 3.0.0
+matplotlib
+numpy
+pandas
+scipy
