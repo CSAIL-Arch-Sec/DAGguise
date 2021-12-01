@@ -17,23 +17,23 @@ All necessary scripts for evaluation are stored in *eval_scripts/*. Other import
 
 ## Cloning
 Clone the DAGguise repository with *--recurse-submodules* to also get the DRAMSim2 implementation. 
+
 ## Setup and Execution
 
-We include an example workflow to replicate Figure 9 (two-core IPC) in \texttt{eval\_scripts/}. 
+We include an example workflow to replicate Figure 7 (Offline Profiling) and Figure 9 (two-core IPC) in \texttt{eval\_scripts/}. 
 
 The scripts perform the following tasks:
 
-  - run\_once.sh - Patches the user-provided SPEC2017 gem5
-  checkpoints to be compatible with the provided version of gem5 (this only should be run once).
-  - build\_gem5.sh - Builds gem5 using the standard SCons workflow
+  - run\_once.sh - Patches the user-provided SPEC2017 gem5 checkpoints to be compatible with the provided version of gem5 (this only should be run once).
+  - build\_gem5.sh - Builds gem5 using the standard SCons workflow.
   - generate\_sample\_checkpoints.sh - Builds DocDist (the sample victim program) and generates a standalone checkpoint.
-  - merge\_checkpoint.sh - Merges the single CPU checkpoints of DocDist and each SPEC simpoint checkpoint into a new `combined' checkpoint (used for 2 CPU simulation) .
+  - merge\_checkpoint.sh - Merges the single CPU checkpoints of DocDist and each SPEC simpoint checkpoint into a new `combined' checkpoint (used for 2 CPU simulation).
   - generate\_dag.sh - Generates a sample defense rDAG
-  - run\_simu.sh - Executes the merged SPEC/DocDist checkpoint under the simulator framework.
-  - plot\_results.sh - Plots the results shown in Figure 7.
+  - run\_simu.sh - Executes the merged SPEC/DocDist checkpoint(s) under the simulator framework.
+  - plot\_fig9.sh - Plots the results shown in Figure 9.
+  - run\_sensitivity\_condor.sh - Runs the defense rDAG parameter sweep (i.e. the offline profiling step, described in Section 4.3).
+  - plot\_fig7.sh - Plots the results shown in Figure 7.
 
 Some scripts are are split into \_single and \_condor variants. The \_single scripts are used to execute a single
 Simpoint/DocDist execution pair, while \_condor scripts are used for
-batch execution. For Figure 7, approximately 150 runs must be executed (10
-simpoints * 15 benchmarks).
-
+batch execution.
