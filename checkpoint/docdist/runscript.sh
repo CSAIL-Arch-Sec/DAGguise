@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#--at-instruction --take-checkpoints=250000000 \
 export SIM_DESC=0
 
 $GEM5_ROOT/build/X86/gem5.opt \
@@ -18,5 +17,5 @@ $GEM5_ROOT/build/X86/gem5.opt \
 	--mem-size=4GB --enabledramlog \
         --dramdeviceconfigfile=$GEM5_ROOT/ext/dramsim2/DRAMSim2/ini/DDR3_micron_32M_8B_x8_sg125.ini \
         --dramsystemconfigfile=$GEM5_ROOT/ext/dramsim2/DRAMSim2/system_reg.ini \
-	-c "$GEM5_ROOT/sample_programs/docdist/docDist" \
-	--checkpoint-dir=$GEM5_ROOT/checkpoints/docdist/ \
+	-c "$GEM5_ROOT/sample_programs/docdist/docDist_checkpoint" \
+	--checkpoint-dir=$GEM5_ROOT/checkpoint/docdist/ \
