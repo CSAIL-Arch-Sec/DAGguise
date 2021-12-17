@@ -4,5 +4,5 @@ if [[ -z "$GEM5_ROOT" ]]; then
 fi
 
 cd $GEM5_ROOT
-scons -j32 build/X86/gem5.opt
+scons -j$(nproc) build/X86/gem5.opt
 cd -
