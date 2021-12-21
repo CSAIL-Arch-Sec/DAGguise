@@ -12,7 +12,7 @@ using namespace std;
 #define USER_START 237
 #define USER_NUM 1
 
-#define DATASET_DIR string("/data/scratch/pwd/artifact_test/DAGguise/sample_programs/docdist/dataset/properSizeTxt/")
+#define DATASET_DIR string("DOCDIST_PATH/dataset/properSizeTxt/")
 
 //#define USE_ZSIM_FAST_FORWARD
 //#define SKIP_10K_MEMACC
