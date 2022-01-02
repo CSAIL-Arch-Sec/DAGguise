@@ -26,7 +26,10 @@ for dirname in os.listdir(rundir):
         chkptNum = int(ckptname.split('-')[1])
         testname = sys.argv[1].split('/')[-1].split('.')[0]
 
-        os.makedirs(os.path.join(resultsdir, testname, dirname, str(chkptNum)),exist_ok=True)
+        outdirpath=os.path.join(resultsdir, testname, dirname, str(chkptNum))
+        os.makedirs(outdirpath,exist_ok=True)
+        subprocess.call(["chmod", "-R", "+777", os.path.join(resultsdir, testname)])
+
         runscriptFile = os.path.join(resultsdir, testname, dirname, testname + '_' + str(chkptNum) + "_runscript.sh")
         dramsim2File = os.path.join(resultsdir, testname, dirname, testname + '_' + str(chkptNum) + "_dram.vis")
         outdir = os.path.join(resultsdir, testname, dirname, str(chkptNum)) 
