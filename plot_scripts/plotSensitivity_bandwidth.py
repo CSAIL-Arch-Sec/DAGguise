@@ -126,6 +126,7 @@ axs[2].axhline(y=0.4, color='lightgrey', linestyle='dotted')
 axs[2].axhline(y=0.6, color='lightgrey', linestyle='dotted')
 axs[2].axhline(y=0.8, color='lightgrey', linestyle='dotted')
 
+plt.savefig("sens.pdf")
 plt.show()
 
 '''
