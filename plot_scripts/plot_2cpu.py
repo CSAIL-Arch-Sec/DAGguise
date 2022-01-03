@@ -166,5 +166,6 @@ plot_clustered_stacked(df_list, trial_list, title="Average Normalized Speedup")
 box = plt.axes().get_position()
 plt.axes().set_position([box.x0, box.y0+0.125, box.width*1.1, box.height*0.85])
 
+plt.savefig("2cpu.pdf")
 plt.show()
 
