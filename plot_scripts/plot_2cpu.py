@@ -19,7 +19,10 @@ exprs = ['blender_r', 'cactuBSSN_r', 'cam4_r', 'deepsjeng_r', 'exchange2_r', 'fo
 
 weightDict = dict()
 
-assert(len(sys.argv) > 2)
+if len(sys.argv) <= 2:
+    print("Usage: plot_2cpu.py results_dir testname1 testname2 testname3")
+    print("Example: plot_2cpu.py $GEM5_ROOT/eval_scripts/simu_condor/results/ docDist_2cpu_DAGguise docDist_2cpu_FSBTA docDist_2cpu_regular")
+    exit(0)
 
 resultsdir = sys.argv[1]
 

@@ -37,16 +37,21 @@ for folder in next(os.walk(os.path.join(gem5root, "sensitivity")))[1]:
             elif "system.switch_cpus_1.numCycles" in line:
                 procDict["cycles"] = int(re.split(r'[ ]+',line)[1])
 
-    with open(os.path.join(gem5root, "sensitivity", folder, '%s_%s.vis' % (weight, para))) as f:
-        for line in f.readlines():
-            if "Final Defence" in line:
-                procDict["total_nodes"] = int(re.split(r'[ ]+',line)[-1].split(',')[0])
-            elif "Number of Fake Read" in line:
-                procDict["fake_reads"] = int(re.split(r'[ ]+',line)[-1].split(',')[0])
-            elif "Number of Fake Write" in line:
-                procDict["fake_writes"] = int(re.split(r'[ ]+',line)[-1])
-            elif "Aggregate Average Bandwidth" in line:
-                procDict["bandwidth"] = float(re.split(r'[ ]+',line)[-1])
+    try:
+        f = open(os.path.join(gem5root, "sensitivity", folder, '%s_%s.vis' % (weight, para)))
+    except IOError:
+        f = open(os.path.join(gem5root, "sensitivity", folder, '%s_%s.0.vis' % (weight, para)))
+    finally:
+        with f:
+            for line in f.readlines():
+                if "Final Defence" in line:
+                    procDict["total_nodes"] = int(re.split(r'[ ]+',line)[-1].split(',')[0])
+                elif "Number of Fake Read" in line:
+                    procDict["fake_reads"] = int(re.split(r'[ ]+',line)[-1].split(',')[0])
+                elif "Number of Fake Write" in line:
+                    procDict["fake_writes"] = int(re.split(r'[ ]+',line)[-1])
+                elif "Aggregate Average Bandwidth" in line:
+                    procDict["bandwidth"] = float(re.split(r'[ ]+',line)[-1])
         
     #print(procDict)
     df = df.append(procDict, ignore_index=True) 
